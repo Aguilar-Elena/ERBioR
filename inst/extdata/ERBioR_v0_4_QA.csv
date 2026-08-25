@@ -1,0 +1,11 @@
+﻿check,status,detail
+v03_regression_external,PASS_CONFIRMED,25/25 v0.3 blocks passed in user-provided R log on 2026-08-25
+v04_new_test_blocks,PENDING_EXTERNAL_R,13 new blocks (26-38) created; runtime R unavailable in build environment
+questionnaire_integral_requirement,IMPLEMENTED,audit + general + workers + >=1 sector by default
+per_agent_assessment,IMPLEMENTED,no silent multi-agent collapse
+questionnaire_discordance,IMPLEMENTED,preserved by default
+preventive_plan,IMPLEMENTED,failed controls deduplicated at questionnaire level; responsible/deadline/resources not inferred
+reproducible_report,IMPLEMENTED,Markdown report renderer and writer
+reproducibility_export,IMPLEMENTED,7-file export bundle
+explicit_extensions,IMPLEMENTED,max-risk extensions require explicit opt-in and are labeled as non-source rules
+static_balance_check,PASS,"ERBioR_core_v0_4.R: PASS | {'{': 153, '}': 153, '(': 1352, ')': 1352, '[': 219, ']': 219}; ERBioR_tests_v0_4.R: PASS | {'{': 9, '}': 9, '(': 428, ')': 428, '[': 39, ']': 39}; ERBioR_example_workplace_v0_4.R: PASS | {'{': 0, '}': 0, '(': 18, ')': 18, '[': 0, ']': 0}"

@@ -1,0 +1,16 @@
+component,metric,value,status,notes
+agent_registry,legal_rows,509,spanish_source_audited,Operational v0.7 registry contains all 509 classified entries.
+agent_registry,spanish_primary_source_rows,509,verified_semantic,Official Order TES/1287/2021 is primary legal row source.
+agent_registry,group_consistency_rows,509,passed,classification_raw semantic group matches risk_group.
+agent_registry,double_asterisk_consistency_rows,509,passed,(**) semantics match group3_limited_airborne.
+agent_registry,flag_A_consistency_rows,509,passed,notes_raw flag semantics match parsed flag.
+agent_registry,flag_D_consistency_rows,509,passed,notes_raw flag semantics match parsed flag.
+agent_registry,flag_T_consistency_rows,509,passed,notes_raw flag semantics match parsed flag.
+agent_registry,flag_V_consistency_rows,509,passed,notes_raw flag semantics match parsed flag.
+agent_registry,consolidated_html_rendering_corrections,3,corrected,"SARS-CoV, SARS-CoV-2 and MERS-CoV names restored from official PDF."
+agent_registry,eu_rowwise_verified_rows,0,pending,Independent EUR-Lex row-by-row concordance not yet completed.
+basebio,public_index_entries,175,indexed,Technical layer.
+basebio,legal_rows_linked,147,reviewed_links,One false-positive link removed in v0.7.
+basebio,rejected_false_positive_links,1,corrected,BIO-VIR-0080 Picornaviridae -> Coronaviridae candidate rejected.
+basebio,non_exact_links_manually_reviewed,6,reviewed,"Spelling, orthography, nomenclature, lifecycle, alias and representative-scope cases retained with explicit status."
+software,frozen_regression_blocks,38,must_remain_passing,v0.4 frozen regression suite carried forward.

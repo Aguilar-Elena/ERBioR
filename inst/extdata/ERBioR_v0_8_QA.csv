@@ -1,0 +1,19 @@
+﻿check,value,status,notes
+package_version,0.8.0.9000,candidate,EU rowwise scientific audit candidate
+agent_rows,509,pass,all Spanish legal registry rows retained
+eu_rows_audited,509,pass,508 Directive 2019/1833 basis + 1 Directive 2020/739
+eu_current_intended_name_concordance,509,pass,source-history aware semantic identity
+eu_spanish_2019_original_name_concordance,508,pass_with_historical_anomaly,one duplicate in original Spanish-language EU text
+eu_historical_source_text_anomalies,1,documented,BIO-BACT-0076
+eu_substantive_current_name_discrepancies,0,pass,none unresolved
+eu_risk_group_concordance,509,pass,all rows
+eu_double_asterisk_concordance,509,pass,all rows
+eu_flag_A_concordance,509,pass,all rows
+eu_flag_D_concordance,509,pass,all rows
+eu_flag_T_concordance,509,pass,all rows
+eu_flag_V_concordance,509,pass,all rows
+eu_exact_raw_text_claimed,0,pass,semantic/source-history audit only
+spanish_primary_source_rows,509,pass,BOE-A-2021-19371
+basebio_linked_rows,147,pass,unchanged v0.7
+frozen_regression_blocks,38,pending_runtime,user should rerun testthat regression
+R_core_non_ascii_bytes,0,pass,portable R source

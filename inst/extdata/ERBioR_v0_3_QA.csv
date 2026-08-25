@@ -1,0 +1,23 @@
+﻿check,observed,expected,status,notes
+Normative classified-agent rows,509,>0,PASS,
+Rows: bacteria,197,>0,PASS,
+Rows: virus,174,>0,PASS,
+Rows: prion,6,>0,PASS,
+Rows: parasite,91,>0,PASS,
+Rows: fungus,41,>0,PASS,
+Risk group 2,358,>0,PASS,
+Risk group 3,138,>0,PASS,
+Risk group 4,13,>0,PASS,
+Unique agent_id,509,509,PASS,
+Unique BOE line,509,509,PASS,
+Invalid risk groups,0,0,PASS,
+** entries not group 3,0,0,PASS,
+BASEBiO index count,175,175,PASS,
+BASEBiO linked legal rows,148,descriptive,PASS,Candidate linking only; legal group remains authoritative.
+Sentinel: Bacillus anthracis,1,1,PASS,"expected group=3, flag=T"
+Sentinel: Mycobacterium tuberculosis,1,1,PASS,"expected group=3, flag=V"
+Sentinel: Nairovirus de la fiebre hemorrágica de Crimea-Congo,1,1,PASS,"expected group=4, flag=none"
+Sentinel: Coronavirus del síndrome respiratorio agudo grave 2,1,1,PASS,"expected group=3, flag=none"
+Sentinel: Virus de la viruela (mayor & menor),1,1,PASS,"expected group=4, flag=V"
+Sentinel: Taenia solium,1,1,PASS,"expected group=3, flag=none"
+Sentinel: Aspergillus fumigatus,1,1,PASS,"expected group=2, flag=A"

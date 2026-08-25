@@ -1,0 +1,10 @@
+﻿component,metric,value,status,notes
+questionnaire_bank,active_questionnaires,27,verified_structurally,ERBioR v0.2 regression
+questionnaire_bank,active_items,1008,verified_structurally,"stable IDs, numbering and counts"
+agent_registry,rows,509,verified_structurally,Annex II registry
+agent_registry,source_checked_rows,509,source_marked_checked,BOE source_checked metadata
+agent_registry,eu_rowwise_verified_rows,0,pending,dedicated EUR-Lex rowwise audit not yet completed
+basebio,public_index_entries,175,indexed,technical layer
+basebio,legal_rows_linked,148,linked,technical linkage does not override legal group
+software,frozen_regression_blocks,38,passed,v0.4 frozen regression suite
+software,last_R_CMD_check,0 errors / 0 warnings / 0 notes,passed_on_user_system,"R 4.6.1 macOS aarch64, --as-cran, 2026-08-25"

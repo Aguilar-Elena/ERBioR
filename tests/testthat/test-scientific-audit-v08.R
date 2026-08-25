@@ -1,0 +1,65 @@
+test_that("v0.8 preserves Spanish legal-source and BASEBiO audit state", {
+  reg <- erbio_load_agent_registry()
+  expect_equal(nrow(reg), 509L)
+  expect_true(all(reg$legal_primary_source_id == "BOE-A-2021-19371"))
+  expect_true(all(reg$spanish_row_audit_status == "verified_semantic_against_official_order_2021"))
+  expect_equal(sum(reg$basebio_available), 147L)
+  bad <- reg[reg$agent_id == "BIO-VIR-0080", , drop = FALSE]
+  expect_false(bad$basebio_available[[1]])
+  expect_equal(bad$basebio_match_status[[1]], "rejected_false_positive")
+})
+
+test_that("v0.8 completes independent EU rowwise semantic audit", {
+  reg <- erbio_load_agent_registry()
+  expect_true(all(reg$eu_rowwise_verified))
+  expect_equal(sum(reg$eu_primary_source_id == "DOUE-L-2019-81658"), 508L)
+  expect_equal(sum(reg$eu_primary_source_id == "DOUE-L-2020-80871"), 1L)
+  expect_true(all(reg$eu_group_concordance))
+  expect_true(all(reg$eu_double_asterisk_concordance))
+  expect_true(all(reg$eu_flag_A_concordance))
+  expect_true(all(reg$eu_flag_D_concordance))
+  expect_true(all(reg$eu_flag_T_concordance))
+  expect_true(all(reg$eu_flag_V_concordance))
+  expect_false(any(reg$eu_exact_raw_text_claimed))
+  expect_equal(sum(reg$eu_name_concordance), 509L)
+  val <- erbio_validate_agent_registry()
+  expect_true(val$valid)
+  expect_equal(val$n_eu_verified, 509L)
+  expect_equal(val$n_eu_name_concordant, 509L)
+  expect_equal(val$n_eu_group_concordant, 509L)
+  expect_equal(val$n_eu_name_discrepancies, 0L)
+})
+
+test_that("v0.8 documents the Fusobacterium EU-vs-Spain source-text discrepancy", {
+  reg <- erbio_load_agent_registry()
+  d <- reg[reg$agent_id == "BIO-BACT-0076", , drop = FALSE]
+  expect_equal(nrow(d), 1L)
+  expect_true(d$eu_name_concordance[[1]])
+  expect_false(d$eu_spanish_original_text_name_concordance[[1]])
+  expect_true(d$eu_current_intended_name_concordance[[1]])
+  expect_true(d$eu_corrigendum_relevant[[1]])
+  expect_equal(d$risk_group[[1]], 2L)
+  expect_true(d$eu_group_concordance[[1]])
+  expect_equal(d$eu_name_concordance_status[[1]], "verified_current_eu_identity_with_historical_spanish_original_text_anomaly")
+  expect_true(grepl("funduliforme", d$eu_discrepancy_note[[1]], fixed = TRUE))
+  expect_true(grepl("necrophorum", d$eu_discrepancy_note[[1]], fixed = TRUE))
+})
+
+test_that("v0.8 SARS-CoV-2 provenance is Directive 2020/739 and group 3", {
+  reg <- erbio_load_agent_registry()
+  s <- reg[reg$agent_id == "BIO-VIR-0064", , drop = FALSE]
+  expect_equal(nrow(s), 1L)
+  expect_equal(s$eu_primary_source_id[[1]], "DOUE-L-2020-80871")
+  expect_equal(s$risk_group[[1]], 3L)
+  expect_true(s$eu_group_concordance[[1]])
+  expect_true(s$eu_name_concordance[[1]])
+})
+
+test_that("v0.8 EU audit artifact is installed and complete", {
+  f <- system.file("extdata", "ERBioR_agent_eu_audit_v0_8.csv", package = "ERBioR")
+  expect_true(nzchar(f) && file.exists(f))
+  x <- utils::read.csv(f, stringsAsFactors = FALSE, check.names = FALSE, fileEncoding = "UTF-8-BOM")
+  expect_equal(nrow(x), 509L)
+  expect_equal(sum(tolower(as.character(x$eu_name_concordance)) %in% c("true", "t", "1")), 509L)
+  expect_equal(sum(tolower(as.character(x$eu_spanish_original_text_name_concordance)) %in% c("true", "t", "1")), 508L)
+})

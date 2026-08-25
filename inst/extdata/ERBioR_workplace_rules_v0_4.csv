@@ -1,0 +1,8 @@
+﻿rule_id,domain,rule,source,status
+WP-CORE-PLUS-SECTOR,method_execution,"Por defecto la evaluación integral requiere Auditoría, General, Trabajadores y al menos un cuestionario sectorial aplicable.",ERBio thesis 2015 Chapter 4/5 and Annex 1,source_preserving
+WP-PER-AGENT,orchestration,Cada agente biológico con nivel de referencia resuelto se evalúa separadamente frente a los cuestionarios seleccionados.,ERBio method + RD 664/1997 multi-agent consideration,computational_orchestration
+WP-NO-SILENT-Q-AGG,aggregation,La discordancia entre clases de cuestionarios no se colapsa por defecto en una clase global.,ERBio thesis example defines unanimity but no general discordance rule,source_preserving
+WP-NO-SILENT-AGENT-AGG,aggregation,Varios agentes no se colapsan por defecto en una única clase global del workplace.,RD 664/1997 requires consideration of all agents; no ERBio source rule located for a single collapsed result,source_preserving
+FAILED-CONTROL-PLANNING-CANDIDATE,preventive_planning,"Los ítems incumplidos se convierten en candidatos de planificación preventiva conservando el texto fuente; responsable, plazo y recursos no se infieren.",ERBio thesis 2015: questionnaire results used to determine preventive measures,source_preserving_plus_workflow_fields
+WP-HIGHEST-OBSERVED-DESCRIPTIVE,reporting,La mayor clase/puntuación observada se informa como descriptor y no como clase global agregada.,ERBioR v0.4 reporting convention,explicit_software_convention
+WP-MAX-EXTENSION,aggregation,Las políticas max_risk_extension/max_observed_extension son extensiones conservadoras explícitas y nunca reglas originales de ERBio.,ERBioR v0.4,explicit_extension

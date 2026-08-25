@@ -1,0 +1,20 @@
+﻿component,metric,value,status,notes
+agent_registry,legal_rows,509,audited,Operational v0.8 registry retains all 509 Spanish classified entries.
+agent_registry,spanish_primary_source_rows,509,verified_semantic,Order TES/1287/2021 remains primary legal source for Spain.
+eu_audit,rows_audited_total,509,completed,508 rows from Directive (EU) 2019/1833 basis plus 1 SARS-CoV-2 row from Directive (EU) 2020/739.
+eu_audit,directive_2019_1833_rows,508,verified_semantic,Official EU Annex III replacement basis.
+eu_audit,directive_2020_739_sars2_rows,1,verified_semantic,SARS-CoV-2 insertion; risk group 3.
+eu_audit,current_intended_semantic_name_concordant_rows,509,passed,Current/intended EU biological-agent identity concordant for all 509 registry rows.
+eu_audit,spanish_2019_original_text_name_concordant_rows,508,passed_with_historical_anomaly,One historical Spanish-language original-text duplicate is tracked separately.
+eu_audit,historical_spanish_original_text_anomalies,1,documented,BIO-BACT-0076: original Spanish 2019 text displays funduliforme twice; Spanish transposition/current multilingual EU evidence supports necrophorum in second row.
+eu_audit,substantive_current_name_discrepancies,0,passed,No unresolved substantive biological-agent name discrepancy after source-history review.
+eu_audit,risk_group_concordant_rows,509,passed,No substantive EU-vs-Spain risk-group discrepancy detected.
+eu_audit,double_asterisk_concordant_rows,509,passed,(**) semantics concordant.
+eu_audit,flag_A_concordant_rows,509,passed,A semantics concordant.
+eu_audit,flag_D_concordant_rows,509,passed,D semantics concordant.
+eu_audit,flag_T_concordant_rows,509,passed,T semantics concordant.
+eu_audit,flag_V_concordant_rows,509,passed,V semantics concordant.
+eu_audit,exact_raw_text_rows_claimed,0,not_claimed,Audit is semantic and source-history aware; byte-for-byte identity is not claimed.
+basebio,public_index_entries,175,indexed,Technical layer.
+basebio,legal_rows_linked,147,reviewed_links,BASEBiO remains non-overriding technical enrichment.
+software,frozen_regression_blocks,38,must_remain_passing,v0.4 frozen regression suite carried forward.

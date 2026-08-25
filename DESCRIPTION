@@ -1,0 +1,18 @@
+Package: ERBioR
+Type: Package
+Title: Reproducible Occupational Biological Risk Assessment with the ERBio Method
+Version: 0.8.0.9000
+Authors@R: person("Raúl", "Aguilar-Elena", email = "raguilar@universidadviu.com", role = c("aut", "cre"))
+Description: A source-traceable computational implementation of the ERBio method
+    for occupational biological risk assessment. It provides deterministic risk
+    calculation, versioned questionnaires, a Spanish-and-EU scientifically audited regulatory biological-agent registry,
+    workplace-level assessment, preventive planning outputs and reproducible reports.
+    Method-faithful components are kept distinct from explicit computational extensions.
+    The underlying ERBio method is described by Aguilar-Elena (2015)
+    <doi:10.5281/zenodo.22069658>.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: utils
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3

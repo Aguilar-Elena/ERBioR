@@ -1,0 +1,16 @@
+ERBioR v0.4 — FROZEN VALIDATION RECORD
+
+Status: FROZEN
+Validation date: 2026-08-25
+Validation environment reported by user: R 4.4.1 (Windows and macOS runs during development)
+Final result: ALL ERBioR v0.4 TESTS PASSED
+Test suite: ERBioR_tests_v0_4.R — 38/38 blocks passed
+
+Scope validated by regression suite:
+- v0.1 deterministic probability/risk engine
+- v0.2 questionnaire bank and scoring
+- v0.3 biological-agent registry/reference-level layer
+- v0.4 workplace assessment, preventive-plan and reproducibility-report layer
+
+Freeze rule:
+Do not modify files in this bundle. Any subsequent change must increment the development version and preserve this snapshot for reproducibility.

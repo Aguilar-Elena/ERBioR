@@ -1,0 +1,16 @@
+check,value,status,notes
+package_version,0.7.0.9000,pass,scientific audit candidate
+agent_rows,509,pass,all classified registry rows retained
+spanish_primary_source_rows,509,pass,BOE-A-2021-19371
+group_consistency,509,pass,all rows
+double_asterisk_consistency,509,pass,all rows
+flag_A_consistency,509,pass,all rows
+flag_D_consistency,509,pass,all rows
+flag_T_consistency,509,pass,all rows
+flag_V_consistency,509,pass,all rows
+coronavirus_rendering_corrections,3,pass,official PDF used
+basebio_linked_rows,147,pass,one false-positive removed
+basebio_false_positive_rejected,1,pass,BIO-VIR-0080
+basebio_nonexact_reviewed,6,pass,explicit review states
+eu_rowwise_verified,0,pending,independent 509-row EUR-Lex audit not yet completed
+R_core_non_ascii_bytes,0,pass,portable source

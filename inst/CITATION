@@ -1,0 +1,19 @@
+citHeader("To cite the ERBio method and ERBioR software, please use both references:")
+
+bibentry(
+  bibtype = "PhdThesis",
+  title = "Riesgos biol\u00f3gicos laborales: ERBio, un nuevo m\u00e9todo de evaluaci\u00f3n te\u00f3rica",
+  author = person("Ra\u00fal", "Aguilar-Elena"),
+  year = "2015",
+  school = "Universidad P\u00fablica de Navarra",
+  doi = "10.5281/zenodo.22069658",
+  note = "Primary description of the ERBio occupational biological-risk assessment method"
+)
+
+bibentry(
+  bibtype = "Manual",
+  title = "ERBioR: Reproducible Occupational Biological Risk Assessment with the ERBio Method",
+  author = person("Ra\u00fal", "Aguilar-Elena"),
+  year = "2026",
+  note = "R package version 0.8.0.9000"
+)
