@@ -1,3 +1,26 @@
+<table>
+  <tr>
+    <td style="vertical-align: top; width: 78%;">
+
+# ERBioR
+
+---
+
+## Qualitative Assessment of Occupational Biological Exposure Risk
+
+[![CRAN status](https://www.r-pkg.org/badges/version/ERBioR)](https://CRAN.R-project.org/package=ERBioR)
+[![R-CMD-check](https://github.com/Aguilar-Elena/ERBioR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Aguilar-Elena/ERBioR/actions/workflows/R-CMD-check.yaml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+`ERBioR` is an R package for the qualitative assessment of occupational biological exposure risk, designed to support structured and reproducible workplace-level biological risk assessment.
+
+    </td>
+    <td style="vertical-align: top; text-align: right; width: 22%;">
+      <img src="man/figures/ERBioR.png" alt="ERBioR logo" width="210"/>
+    </td>
+  </tr>
+</table>
+
 # ERBioR 0.8.0.9000 — independent EU source-audit candidate
 
 `ERBioR` is a source-traceable R implementation of the ERBio method for occupational biological-risk assessment. It keeps the original deterministic method logic separate from regulatory data, technical enrichment and explicit computational extensions.
