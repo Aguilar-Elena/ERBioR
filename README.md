@@ -379,10 +379,19 @@ The package has passed the local `R CMD check --as-cran` validation described ab
 
 ## Author
 
+## Authors
+
 **PhD. Raúl Aguilar-Elena**  
+Author of the ERBio method; developer and maintainer of ERBioR.  
 Occupational Risk Prevention and Occupational Health Research Group  
 Universidad Internacional de Valencia (VIU), Valencia, Spain  
+ORCID: 0000-0001-8656-8155  
 raguilar@universidadviu.com
+
+**Ana Delgado-García**  
+Developer and author of the ERBioR software.  
+ORCID: 0009-0003-7079-5507  
+a.delgado@usal.es
 
 <hr>
 
