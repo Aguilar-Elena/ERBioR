@@ -6,6 +6,7 @@
 ![Version](https://img.shields.io/badge/version-0.9.0-blue)
 [![License: GPL-3](https://img.shields.io/badge/License-GPL%20%3E%3D%203-green.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 [![ERBio method DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22107465-blue)](https://doi.org/10.5281/zenodo.22107465)
+[![R-CMD-check](https://github.com/Aguilar-Elena/ERBioR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Aguilar-Elena/ERBioR/actions)
 <!-- badges: end -->
 
 `ERBioR` is an R package for **occupational biological risk assessment** based on the ERBio method.
