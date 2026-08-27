@@ -1681,7 +1681,7 @@ print.erbio_workplace_assessment <- function(x, ...) {
   paste(c(header, sep, body), collapse = "\n")
 }
 
-ERBIOR_VERSION <- "0.9.0.9000"
+ERBIOR_VERSION <- "0.9.0"
 erbio_version <- function() ERBIOR_VERSION
 
 erbio_report_patch_version <- function() "v0.4-frozen-report-layer"

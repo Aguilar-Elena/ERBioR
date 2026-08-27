@@ -1,6 +1,6 @@
 # ERBioR Shiny v0.7
 
-Interfaz profesional para ERBioR 0.9.0.9000.
+Interfaz profesional para ERBioR 0.9.0.
 
 ## Cambios v0.7
 

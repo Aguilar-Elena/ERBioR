@@ -1,4 +1,4 @@
-# ERBioR 0.9.0.9000
+# ERBioR 0.9.0
 
 - Added formal software authorship metadata for Raúl Aguilar-Elena and Ana Delgado-García, including verified ORCID identifiers.
 - Corrected the ERBio method reference to DOI 10.5281/zenodo.22107465.

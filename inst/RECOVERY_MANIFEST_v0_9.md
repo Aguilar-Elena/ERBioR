@@ -1,4 +1,4 @@
-# ERBioR recovery manifest — 0.9.0.9000
+# ERBioR recovery manifest — 0.9.0
 
 This development build was reconstructed from the recovered ERBioR v0.7 complete source bundle plus the recovered v0.8 regulatory-audit and v0.9 bilingual/preventive artifacts.
 

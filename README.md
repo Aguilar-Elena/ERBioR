@@ -3,7 +3,7 @@
 **Qualitative Assessment of Occupational Biological Exposure Risk**
 
 <!-- badges: start -->
-![Development version](https://img.shields.io/badge/devel-0.9.0.9000-blue)
+![Development version](https://img.shields.io/badge/devel-0.9.0-blue)
 ![R CMD check](https://img.shields.io/badge/R--CMD--check-0%20errors%20%7C%200%20warnings%20%7C%200%20notes-brightgreen)
 [![License: GPL v3+](https://img.shields.io/badge/License-GPL%20v3%2B-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 [![ERBio method DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22107465-blue)](https://doi.org/10.5281/zenodo.22107465)

@@ -1,5 +1,5 @@
 cat("ERBioR bilingual Shiny smoke test\n")
-stopifnot(as.character(packageVersion("ERBioR")) == "0.9.0.9000")
+stopifnot(as.character(packageVersion("ERBioR")) == "0.9.0")
 stopifnot(exists("erbio_run_app", where = asNamespace("ERBioR"), inherits = FALSE))
 ERBioR::erbio_set_language("es")
 stopifnot(ERBioR::erbio_get_language() == "es")

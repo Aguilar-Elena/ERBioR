@@ -1,7 +1,7 @@
 Package: ERBioR
 Type: Package
 Title: Reproducible Occupational Biological Risk Assessment with the ERBio Method
-Version: 0.9.0.9000
+Version: 0.9.0
 Authors@R: c(
     person(
         given = "Raúl",

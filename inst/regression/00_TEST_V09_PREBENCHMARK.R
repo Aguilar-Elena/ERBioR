@@ -1,4 +1,4 @@
-# ERBioR v0.9.0.9000 pre-benchmark verification
+# ERBioR v0.9.0 pre-benchmark verification
 # Run from RStudio/R on the machine where the package will be frozen.
 
 PKG <- normalizePath(
@@ -29,7 +29,7 @@ if (!identical(install_status, 0L)) stop("R CMD INSTALL failed.")
 suppressPackageStartupMessages(library(ERBioR, lib.loc = TEMP_LIB))
 
 cat("Installed version: ", as.character(packageVersion("ERBioR")), "\n", sep = "")
-stopifnot(as.character(packageVersion("ERBioR")) == "0.9.0.9000")
+stopifnot(as.character(packageVersion("ERBioR")) == "0.9.0")
 
 cat("\n2) PREVENTIVE REGISTRY VALIDATION\n")
 v <- erbio_validate_preventive_action_registry()

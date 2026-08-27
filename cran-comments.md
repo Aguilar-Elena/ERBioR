@@ -1,6 +1,6 @@
-## ERBioR 0.9.0.9000 pre-CRAN status
+## ERBioR 0.9.0 pre-CRAN status
 
-ERBioR 0.9.0.9000 carries forward the frozen deterministic ERBio regression layer and the independently audited Spanish and European biological-agent regulatory source layers.
+ERBioR 0.9.0 carries forward the frozen deterministic ERBio regression layer and the independently audited Spanish and European biological-agent regulatory source layers.
 
 The current development version adds:
 
