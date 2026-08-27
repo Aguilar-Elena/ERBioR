@@ -19,7 +19,8 @@ erbio_questionnaire_catalog(path = NULL)
 erbio_get_questionnaire(questionnaire_id, version = NULL, path = NULL)
 erbio_validate_question_bank(path = NULL)
 erbio_score_questionnaire(questionnaire_id, responses, version = NULL,
-  scoring = c("default", "binary", "audit_0_4"), path = NULL)
+  scoring = c("default", "binary", "audit_0_4"), path = NULL,
+  language = erbio_get_language())
 erbio_assess_questionnaire(questionnaire_id, responses, reference_level,
   exposure, version = NULL,
   scoring = c("default", "binary", "audit_0_4"), path = NULL,
@@ -33,6 +34,7 @@ erbio_questionnaire_rules(questionnaire_id = NULL)
   \item{version}{Optional source-version identifier.}
   \item{responses}{Response vector. Named responses may use stable item IDs or final item numbers.}
   \item{scoring}{Requested scoring semantics. \code{"default"} uses the instrument metadata.}
+  \item{language}{Presentation language, \code{"es"} or \code{"en"}. This does not alter the scientific calculation.}
   \item{reference_level}{ERBio reference level.}
   \item{exposure}{ERBio exposure category.}
   \item{compliance_boundary_policy}{Policy used to classify compliance at source-boundary ambiguities.}

@@ -270,7 +270,7 @@ erbio_bilingual_invariance_check <- function(questionnaire_id, responses, versio
 #' @return A one-row data.frame with the preventive-action record.
 erbio_preventive_action <- function(item_id, language = erbio_get_language(), path = NULL) {
   if (length(item_id) != 1L || is.na(item_id) || !nzchar(trimws(as.character(item_id)))) {
-    .erbio_stop("item_id debe identificar un único ítem ERBioR.")
+    .erbio_stop("item_id debe identificar un \u00fanico \u00edtem ERBioR.")
   }
   language <- match.arg(language, c("es", "en"))
   item_id <- as.character(item_id)
@@ -278,7 +278,7 @@ erbio_preventive_action <- function(item_id, language = erbio_get_language(), pa
   p <- erbio_load_preventive_action_registry(path)
   idx <- which(as.character(p$item_id) == item_id)
   if (length(idx) != 1L) {
-    if (!length(idx)) .erbio_stop("No existe acción preventiva aprobada para item_id: ", item_id)
+    if (!length(idx)) .erbio_stop("No existe acci\u00f3n preventiva aprobada para item_id: ", item_id)
     .erbio_stop("item_id duplicado en el registro preventivo: ", item_id)
   }
   out <- p[idx, , drop = FALSE]
