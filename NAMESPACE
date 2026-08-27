@@ -1,4 +1,4 @@
-# ERBioR 0.8.0.9000 EU-audit namespace
+# ERBioR 0.7.0.9000 scientific-audit namespace
 importFrom(utils,read.csv,write.csv)
 export(erbio_probability_matrix)
 export(erbio_risk_matrix)
@@ -47,3 +47,18 @@ S3method(print,erbio_questionnaire_score)
 S3method(print,erbio_questionnaire_assessment)
 S3method(print,erbio_agent_reference)
 S3method(print,erbio_workplace_assessment)
+export(erbio_set_language)
+export(erbio_get_language)
+export(erbio_load_translation_registry)
+export(erbio_validate_translation_registry)
+export(erbio_load_preventive_action_registry)
+export(erbio_validate_preventive_action_registry)
+export(erbio_load_ui_dictionary)
+export(erbio_translate_ui)
+export(erbio_get_questionnaire_i18n)
+export(erbio_bilingual_invariance_check)
+
+export(erbio_run_app)
+
+export(erbio_preventive_action)
+export(erbio_shiny_build_id)

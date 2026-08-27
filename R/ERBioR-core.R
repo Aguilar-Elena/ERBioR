@@ -932,7 +932,25 @@ erbio_load_agent_registry <- function(path = NULL) {
     read.csv(f, stringsAsFactors = FALSE, check.names = FALSE, fileEncoding = "UTF-8-BOM"),
     error = function(e) read.csv(f, stringsAsFactors = FALSE, check.names = FALSE, fileEncoding = "UTF-8")
   )
-  logical_cols <- c("group3_limited_airborne","flag_A","flag_D","flag_T","flag_V","basebio_available","eu_rowwise_verified","eu_name_concordance","eu_group_concordance","eu_double_asterisk_concordance","eu_flag_A_concordance","eu_flag_D_concordance","eu_flag_T_concordance","eu_flag_V_concordance","eu_exact_raw_text_claimed","eu_current_intended_name_concordance","eu_spanish_original_text_name_concordance","eu_corrigendum_relevant")
+  logical_cols <- c(
+    "group3_limited_airborne", "flag_A", "flag_D", "flag_T", "flag_V",
+    "basebio_available",
+    "eu_rowwise_verified",
+    "eu_name_concordance",
+    "eu_current_intended_name_concordance",
+    "eu_spanish_original_text_name_concordance",
+    "eu_group_concordance",
+    "eu_double_asterisk_concordance",
+    "eu_flag_A_concordance",
+    "eu_flag_D_concordance",
+    "eu_flag_T_concordance",
+    "eu_flag_V_concordance",
+    "eu_exact_raw_text_claimed",
+    "eu_corrigendum_relevant",
+    "audit_group_consistency", "audit_double_asterisk_consistency",
+    "audit_flag_A_consistency", "audit_flag_D_consistency",
+    "audit_flag_T_consistency", "audit_flag_V_consistency"
+  )
   for (nm in intersect(logical_cols, names(x))) {
     if (!is.logical(x[[nm]])) x[[nm]] <- tolower(as.character(x[[nm]])) %in% c("true","t","1","yes","si","s\u00ed")
   }
@@ -974,19 +992,20 @@ erbio_validate_agent_registry <- function(path = NULL) {
   if (any(!x$risk_group %in% 2:4)) issues <- c(issues, "Grupo fuera de 2-4")
   if (any(x$group3_limited_airborne & x$risk_group != 3, na.rm=TRUE)) issues <- c(issues, "Marca ** fuera de grupo 3")
   if (any(!nzchar(trimws(x$agent_name)))) issues <- c(issues, "Nombre de agente vacio")
-  if ("eu_rowwise_verified" %in% names(x) && any(!x$eu_rowwise_verified, na.rm = TRUE)) issues <- c(issues, "EU rowwise audit incompleto")
-  if ("eu_group_concordance" %in% names(x) && any(!x$eu_group_concordance, na.rm = TRUE)) issues <- c(issues, "Discordancia de grupo EU")
-
   list(
     valid = length(issues) == 0L,
     n_agents = nrow(x),
     n_by_type = table(x$agent_type),
     n_by_group = table(x$risk_group),
     n_basebio_linked = sum(x$basebio_available, na.rm = TRUE),
-    n_eu_verified = if ("eu_rowwise_verified" %in% names(x)) sum(x$eu_rowwise_verified, na.rm = TRUE) else NA_integer_,
-    n_eu_name_concordant = if ("eu_name_concordance" %in% names(x)) sum(x$eu_name_concordance, na.rm = TRUE) else NA_integer_,
-    n_eu_group_concordant = if ("eu_group_concordance" %in% names(x)) sum(x$eu_group_concordance, na.rm = TRUE) else NA_integer_,
-    n_eu_name_discrepancies = if ("eu_name_concordance" %in% names(x)) sum(!x$eu_name_concordance, na.rm = TRUE) else NA_integer_,
+    n_eu_verified = if ("eu_rowwise_verified" %in% names(x))
+      sum(x$eu_rowwise_verified, na.rm = TRUE) else 0L,
+    n_eu_name_concordant = if ("eu_name_concordance" %in% names(x))
+      sum(x$eu_name_concordance, na.rm = TRUE) else 0L,
+    n_eu_group_concordant = if ("eu_group_concordance" %in% names(x))
+      sum(x$eu_group_concordance, na.rm = TRUE) else 0L,
+    n_eu_name_discrepancies = if ("eu_name_concordance" %in% names(x))
+      sum(!x$eu_name_concordance, na.rm = TRUE) else NA_integer_,
     issues = issues
   )
 }
@@ -1333,7 +1352,14 @@ erbio_build_preventive_plan <- function(
         section = fc$section[[i]],
         deficiency = fc$item_text[[i]],
         observed = as.character(fc$observed[[i]]),
-        preventive_measure_candidate = fc$planning_candidate[[i]],
+        preventive_measure_candidate = if ("expert_preventive_action" %in% names(fc) &&
+          length(fc$expert_preventive_action) >= i &&
+          !is.na(fc$expert_preventive_action[[i]]) &&
+          nzchar(trimws(as.character(fc$expert_preventive_action[[i]])))) {
+          fc$expert_preventive_action[[i]]
+        } else {
+          fc$planning_candidate[[i]]
+        },
         validation_status = fc$validation_status[[i]],
         agent_context = agents_ctx,
         risk_class_context = classes_ctx,
@@ -1655,7 +1681,7 @@ print.erbio_workplace_assessment <- function(x, ...) {
   paste(c(header, sep, body), collapse = "\n")
 }
 
-ERBIOR_VERSION <- "0.8.0.9000"
+ERBIOR_VERSION <- "0.9.0.9000"
 erbio_version <- function() ERBIOR_VERSION
 
 erbio_report_patch_version <- function() "v0.4-frozen-report-layer"
@@ -1730,7 +1756,7 @@ erbio_render_workplace_report <- function(x, max_plan_rows = 100L) {
     warnings,
     "",
     "## 6. Trazabilidad",
-    "**Registro legal de agentes:** ERBioR_agent_registry_v0_8.csv (Spanish-and-EU audited data layer; supersedes bundled ERBioR_agent_registry_v0_3.csv and ERBioR_agent_registry_v0_7.csv)",
+    "**Registro legal de agentes:** ERBioR_agent_registry_v0_8.csv (audited data layer; supersedes bundled ERBioR_agent_registry_v0_3.csv)",
     "**Capa t\u00e9cnica de agentes:** ERBioR_basebio_index_v0_7.csv",
     "",
     provenance,

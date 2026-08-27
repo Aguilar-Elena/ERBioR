@@ -90,6 +90,6 @@ a
 }
 \references{
 Aguilar-Elena, R. (2015). \emph{Riesgos biológicos laborales: ERBio, un nuevo
-método de evaluación teórica}. \doi{10.5281/zenodo.22069658}.
+método de evaluación teórica}. \doi{10.5281/zenodo.22107465}.
 }
 \keyword{methods}

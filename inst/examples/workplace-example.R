@@ -1,5 +1,5 @@
 # ERBioR workplace example
-# Underlying method: Aguilar-Elena (2015), doi:10.5281/zenodo.22069658
+# Underlying method: Aguilar-Elena (2015), doi:10.5281/zenodo.22107465
 
 library(ERBioR)
 

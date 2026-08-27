@@ -1,0 +1,79 @@
+﻿key,es,en
+app_title,ERBioR,ERBioR
+language,Idioma,Language
+spanish,Español,Spanish
+english,Inglés,English
+home,Inicio,Home
+agent,Agente biológico,Biological agent
+calculator,Calculadora ERBio,ERBio Calculator
+full_assessment,Evaluación completa,Full assessment
+executive_summary,Resumen ejecutivo,Executive summary
+results,Resultados,Results
+workers,Trabajadores,Workers
+planning,Planificación,Preventive planning
+traceability_export,Trazabilidad y exportación,Traceability and export
+search_agent,Buscar agente biológico,Search biological agent
+agent_search_label,"Nombre, género o parte del nombre","Name, genus or part of the name"
+search,Buscar,Search
+reference_level,Nivel de referencia,Reference level
+exposure,Exposición,Exposure
+compliance_applicable,Cumplimiento de controles preventivos aplicables (%),Compliance with applicable preventive controls (%)
+calculate,Calcular,Calculate
+download_template,Descargar plantilla,Download template
+sector_questionnaire,Cuestionario sectorial,Sector-specific questionnaire
+number_workers,Número de trabajadores que responderán,Number of workers who will respond
+download_excel,Descargar Excel,Download Excel
+upload_assessment,Subir evaluación,Upload assessment
+xlsx_file,Archivo .xlsx,.xlsx file
+validate_evaluate,Validar y evaluar,Validate and assess
+status,Estado,Status
+highest_observed_risk,Mayor riesgo observado,Highest observed risk
+immediate_priority,Prioridad inmediata,Immediate priority
+agents_evaluated,Agentes evaluados,Agents assessed
+questionnaires,Cuestionarios,Questionnaires
+group_compliance,Cumplimiento grupal,Group compliance
+individual_mean,Media individual,Individual mean
+items_with_no,Ítems con algún No,Items with at least one No
+group_summary,Resumen grupal,Group summary
+individual_results,Resultados individuales,Individual results
+top_worker_deficiencies,Principales deficiencias percibidas,Main perceived deficiencies
+active_measures,Medidas activas,Active measures
+wording_review,Revisión de redacción,Wording review
+applicability_review,Revisar aplicabilidad,Review applicability
+worker_measures,Medidas de trabajadores,Worker-derived measures
+actions,Acciones,Actions
+causal_analysis,Análisis causal,Causal analysis
+professional_review,Revisión profesional,Professional review
+export,Exportar,Export
+professional_report,Informe profesional Markdown,Professional Markdown report
+reproducible_bundle,Bundle reproducible ZIP,Reproducible ZIP bundle
+warnings,Advertencias,Warnings
+yes,Sí,Yes
+no,No,No
+not_applicable,No procede,Not applicable
+occasional,Ocasional,Occasional
+irregular,Irregular,Irregular
+frequent,Frecuente,Frequent
+very_frequent,Muy frecuente,Very frequent
+continuous,Continua,Continuous
+very_poor,Muy deficiente,Very poor
+poor,Deficiente,Poor
+needs_improvement,Mejorable,Needs improvement
+acceptable,Aceptable,Acceptable
+trivial,Trivial,Trivial
+tolerable,Tolerable,Tolerable
+moderate,Moderado,Moderate
+important,Importante,Important
+intolerable,Intolerable,Intolerable
+low,Baja,Low
+medium,Media,Medium
+high,Alta,High
+immediate,Inmediata,Immediate
+resolved_as,Resuelto como,Resolved as
+select_correct_agent,Seleccione el agente correcto,Select the correct agent
+continue_calculate,Continuar y calcular resultados,Continue and calculate results
+no_results_yet,Sin resultados todavía.,No results yet.
+no_planning_yet,Sin planificación todavía.,No preventive planning yet.
+descriptor_not_global,Descriptor; no agregación global.,Descriptor; not a global aggregation.
+editorial_not_scientific_failure,Aviso editorial; no fallo científico.,Editorial flag; not a scientific failure.
+conditional_historical_items,Ítems condicionados/históricos.,Conditional/historical items.

@@ -1,12 +1,18 @@
-# ERBioR 0.8.0.9000
+# ERBioR 0.9.0.9000
 
-- Completes the independent 509-row semantic concordance audit against the official EU Annex III basis.
-- Audits 508 rows against Commission Directive (EU) 2019/1833 and SARS-CoV-2 against Commission Directive (EU) 2020/739.
-- Records 509/509 risk-group concordance and 509/509 concordance for parsed A/D/T/V and group-3 (**) semantics.
-- Documents one historical Spanish-language 2019 source-text duplication involving `Fusobacterium necrophorum`; current/intended EU identity is treated as concordant after cross-checking consolidated multilingual EU evidence and a 2023 corrigendum in affected language versions. Both entries remain group 2.
-- Explicitly distinguishes semantic rowwise verification from exact raw-text identity.
-- Adds `ERBioR_agent_eu_audit_v0_8.csv`, `ERBioR_agent_scientific_audit_v0_8.csv`, v0.8 manifest/summary/QA, and a scientific audit report.
-- Carries the frozen v0.4 regression suite forward unchanged.
+- Added formal software authorship metadata for Raúl Aguilar-Elena and Ana Delgado-García, including verified ORCID identifiers.
+- Corrected the ERBio method reference to DOI 10.5281/zenodo.22107465.
+- Distinguished the ERBio method reference from the open core-questionnaire and validation dataset DOI 10.5281/zenodo.22069658.
+- Consolidated bilingual Shiny, cross-language Excel import, and macOS/Windows header-normalization fixes.
+
+
+- Recovered and integrated the v0.8 independent EU regulatory audit layer.
+- Added the approved 1,008-item Spanish expert preventive-action registry.
+- Added the approved 1,008-item Spanish-English scientific translation registry.
+- Added language API (`erbio_set_language()`, `erbio_get_language()`) and bilingual questionnaire rendering.
+- Enriched failed controls with expert preventive actions while preserving deterministic scoring.
+- Added bilingual scientific invariance checks.
+- Technical/linguistic English approval is explicitly separated from psychometric validation.
 
 # ERBioR 0.7.0.9000
 
@@ -20,7 +26,7 @@
 
 # ERBioR 0.6.0.9000
 
-- Adds formal package and method citations, including the ERBio Zenodo DOI `10.5281/zenodo.22069658`.
+- Adds formal package and method citations, including the ERBio Zenodo DOI `10.5281/zenodo.22107465`.
 - Adds a source manifest separating ERBio method provenance, Spanish legal classification, EU concordance and BASEBiO technical enrichment.
 - Adds a source-audit summary that explicitly records pending row-by-row EUR-Lex verification rather than overstating concordance.
 - Expands user documentation and executable examples by API layer.
@@ -49,3 +55,11 @@
 
 - Fixed a syntax-only parse error in `tests/testthat/test-precran-metadata.R` caused by an accidental standalone backslash.
 - No computational or methodological ERBioR code was changed.
+
+## Cross-language Shiny import candidate 3
+
+- Spanish and English Excel workbooks are accepted independently of the current UI language.
+- Workbook language is detected from metadata or stable item-id/question-text matching.
+- Responses are normalized to the same internal Spanish-core response codes before scientific scoring.
+- The selected UI language controls questionnaire presentation and approved preventive-action output.
+- Cross-language imports display an explicit input/output language notice.

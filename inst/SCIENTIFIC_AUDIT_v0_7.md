@@ -39,4 +39,4 @@ Directive (EU) 2019/1833 is the EU technical update underlying the Spanish 2021 
 
 ## Method provenance
 
-The underlying ERBio method is referenced separately from the software using DOI `10.5281/zenodo.22069658`.
+The underlying ERBio method is referenced separately from the software using DOI `10.5281/zenodo.22107465`.

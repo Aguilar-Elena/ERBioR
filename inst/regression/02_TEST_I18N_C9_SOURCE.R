@@ -1,0 +1,11 @@
+# ERBioR C9 source-level Shiny i18n checks
+app <- system.file("shiny", "ERBioR", "app.R", package = "ERBioR")
+js  <- system.file("shiny", "ERBioR", "www", "i18n.js", package = "ERBioR")
+stopifnot(file.exists(app), file.exists(js))
+a <- readLines(app, warn = FALSE, encoding = "UTF-8")
+j <- readLines(js, warn = FALSE, encoding = "UTF-8")
+stopifnot(any(grepl('tags\\$script\\(src = "i18n.js"\\)', a)))
+stopifnot(!any(grepl('sprintf\\(\"\\(function', a)))
+stopifnot(any(grepl('var ES_EN=', j, fixed = TRUE)))
+stopifnot(any(grepl('Processing…', j, fixed = TRUE)))
+cat("C9 I18N SOURCE CHECKS PASSED\n")

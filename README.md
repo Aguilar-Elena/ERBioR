@@ -3,10 +3,10 @@
 **Qualitative Assessment of Occupational Biological Exposure Risk**
 
 <!-- badges: start -->
-![Development version](https://img.shields.io/badge/devel-0.8.0.9000-blue)
+![Development version](https://img.shields.io/badge/devel-0.9.0.9000-blue)
 ![R CMD check](https://img.shields.io/badge/R--CMD--check-0%20errors%20%7C%200%20warnings%20%7C%200%20notes-brightgreen)
 [![License: GPL v3+](https://img.shields.io/badge/License-GPL%20v3%2B-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
-[![ERBio method DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22069658-blue)](https://doi.org/10.5281/zenodo.22069658)
+[![ERBio method DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22107465-blue)](https://doi.org/10.5281/zenodo.22107465)
 <!-- badges: end -->
 
 `ERBioR` is an R package for **occupational biological risk assessment** based on the ERBio method.
@@ -16,6 +16,22 @@ It is designed for occupational risk prevention professionals, occupational hygi
 Unlike a simple risk calculator, `ERBioR` keeps the original deterministic ERBio method logic separate from regulatory biological-agent data, questionnaire instruments, technical enrichment and explicit computational extensions. The package can therefore reproduce the method while preserving the provenance and validation status of each layer.
 
 <hr>
+
+
+## Authors
+
+- **Raúl Aguilar-Elena** — Author of the ERBio method; developer and maintainer of ERBioR. ORCID: [0000-0001-8656-8155](https://orcid.org/0000-0001-8656-8155).
+- **Ana Delgado-García** — Developer and author of the ERBioR software. ORCID: [0009-0003-7079-5507](https://orcid.org/0009-0003-7079-5507).
+
+The ERBio method was originally developed by Raúl Aguilar-Elena. Software authorship of ERBioR is distinct from authorship of the original ERBio method.
+
+
+### Core questionnaires and validation dataset
+
+The open dataset containing the ERBio core questionnaires, scoring algorithm and validation evidence is available at:
+
+**Aguilar-Elena, R. ERBio — Core questionnaires for occupational biological risk assessment: the general assessment and worker perception instruments, with scoring algorithm and validation evidence.**
+https://doi.org/10.5281/zenodo.22069658
 
 ## Why ERBioR?
 
@@ -55,6 +71,13 @@ It helps answer questions such as:
 6. **Scientific provenance layer** — machine-readable manifests, source audits and an independent rowwise EU concordance audit of the biological-agent registry.
 
 <hr>
+
+
+### Bilingual ERBioR
+
+ERBioR 0.9 provides Spanish-English functionality while preserving a single language-neutral scientific calculation core. Questionnaire presentation, preventive-action output and Shiny interface text can be rendered in Spanish or English without changing the underlying ERBio calculations.
+
+Spanish and English Excel workbooks can be imported independently of the selected interface language. Cross-language imports are normalized before scoring so that scientific results remain invariant across languages.
 
 ## Main functions
 
@@ -256,7 +279,7 @@ Important safeguards are built into the registry logic:
 
 The package separates four principal source layers:
 
-1. **ERBio method** — Aguilar-Elena (2015), DOI `10.5281/zenodo.22069658`.
+1. **ERBio method** — Aguilar-Elena (2015), DOI `10.5281/zenodo.22107465`.
 2. **Spanish legal classification** — Annex II of Real Decreto 664/1997, with the replacement introduced by Orden TES/1287/2021.
 3. **European concordance** — Annex III of Directive 2000/54/EC as updated by Commission Directive (EU) 2019/1833 and Commission Directive (EU) 2020/739 for SARS-CoV-2.
 4. **Technical enrichment** — INSST BASEBiO, kept separate from the legal classification layer.

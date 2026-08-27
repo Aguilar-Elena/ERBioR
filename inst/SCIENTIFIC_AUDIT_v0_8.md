@@ -33,4 +33,4 @@ Directive (EU) 2020/739 inserted SARS-CoV-2 between SARS-CoV and MERS-CoV in Ann
 - Consolidated Directive 2000/54/EC: https://eur-lex.europa.eu/eli/dir/2000/54/2020-06-24
 - 2023 corrigendum: https://data.europa.eu/eli/dir/2019/1833/corrigendum/2023-11-03/oj
 - Order TES/1287/2021: https://www.boe.es/buscar/doc.php?id=BOE-A-2021-19371
-- ERBio method DOI: https://doi.org/10.5281/zenodo.22069658
+- ERBio method DOI: https://doi.org/10.5281/zenodo.22107465

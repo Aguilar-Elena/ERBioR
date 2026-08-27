@@ -1,18 +1,35 @@
 Package: ERBioR
 Type: Package
 Title: Reproducible Occupational Biological Risk Assessment with the ERBio Method
-Version: 0.8.0.9000
-Authors@R: person("Raúl", "Aguilar-Elena", email = "raguilar@universidadviu.com", role = c("aut", "cre"))
+Version: 0.9.0.9000
+Authors@R: c(
+    person(
+        given = "Raúl",
+        family = "Aguilar-Elena",
+        email = "raguilar@universidadviu.com",
+        role = c("aut", "cre"),
+        comment = c(ORCID = "0000-0001-8656-8155")
+    ),
+    person(
+        given = "Ana",
+        family = "Delgado-García",
+        email = "a.delgado@usal.es",
+        role = "aut",
+        comment = c(ORCID = "0009-0003-7079-5507")
+    )
+    )
 Description: A source-traceable computational implementation of the ERBio method
     for occupational biological risk assessment. It provides deterministic risk
-    calculation, versioned questionnaires, a Spanish-and-EU scientifically audited regulatory biological-agent registry,
-    workplace-level assessment, preventive planning outputs and reproducible reports.
-    Method-faithful components are kept distinct from explicit computational extensions.
-    The underlying ERBio method is described by Aguilar-Elena (2015)
-    <doi:10.5281/zenodo.22069658>.
+    calculation, versioned questionnaires, a scientifically audited regulatory
+    biological-agent registry, workplace-level assessment, preventive planning
+    outputs, bilingual Spanish-English functionality and reproducible reports.
+    The software preserves a single language-neutral calculation core and keeps
+    method-faithful components distinct from explicit computational extensions.
+    The underlying ERBio method was developed by Aguilar-Elena and is described
+    in Aguilar-Elena (2015) <doi:10.5281/zenodo.22107465>.
 License: GPL (>= 3)
 Encoding: UTF-8
 Depends: R (>= 4.1.0)
 Imports: utils
-Suggests: testthat (>= 3.0.0)
+Suggests: testthat (>= 3.0.0), shiny, DT, readxl, openxlsx
 Config/testthat/edition: 3

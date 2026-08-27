@@ -14,12 +14,12 @@ technical enrichment. Explicit computational extensions are labelled as such
 and are not silently treated as source rules.
 
 The underlying ERBio method is described by Aguilar-Elena (2015),
-\doi{10.5281/zenodo.22069658}.
+\doi{10.5281/zenodo.22107465}.
 }
 \references{
 Aguilar-Elena, R. (2015). \emph{Riesgos biológicos laborales: ERBio, un nuevo
 método de evaluación teórica}. Doctoral thesis, Universidad Pública de Navarra.
-\doi{10.5281/zenodo.22069658}.
+\doi{10.5281/zenodo.22107465}.
 
 Orden TES/1287/2021, de 22 de noviembre, BOE-A-2021-19371, por la que se
 sustituye el anexo II del Real Decreto 664/1997.

@@ -1,0 +1,7 @@
+ERBioR C11 pre-benchmark fixes
+
+1. planning_candidate retains the failed questionnaire item text (frozen regression semantics).
+2. expert_preventive_action is consumed explicitly by erbio_build_preventive_plan() when present.
+3. package installation test expects version 0.9.0.9000.
+4. Spanish legal-audit consistency fields are normalized to logical values on registry load.
+5. New regression test checks both source-text preservation and expert-action planning hand-off.

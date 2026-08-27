@@ -1,19 +1,41 @@
-citHeader("To cite the ERBio method and ERBioR software, please use both references:")
+citHeader("To cite the ERBio method, associated questionnaire resources, and ERBioR software, please use the relevant references below:")
 
 bibentry(
   bibtype = "PhdThesis",
-  title = "Riesgos biol\u00f3gicos laborales: ERBio, un nuevo m\u00e9todo de evaluaci\u00f3n te\u00f3rica",
-  author = person("Ra\u00fal", "Aguilar-Elena"),
+  title = "Riesgos biológicos laborales: ERBio, un nuevo método de evaluación teórica",
+  author = person("Raúl", "Aguilar-Elena"),
   year = "2015",
-  school = "Universidad P\u00fablica de Navarra",
-  doi = "10.5281/zenodo.22069658",
+  school = "Universidad Pública de Navarra",
+  doi = "10.5281/zenodo.22107465",
   note = "Primary description of the ERBio occupational biological-risk assessment method"
+)
+
+bibentry(
+  bibtype = "Misc",
+  title = "ERBio — Core questionnaires for occupational biological risk assessment: the general assessment and worker perception instruments, with scoring algorithm and validation evidence",
+  author = person("Raúl", "Aguilar-Elena"),
+  year = "2026",
+  doi = "10.5281/zenodo.22069658",
+  note = "Open dataset containing ERBio core questionnaires, scoring algorithm and validation evidence"
 )
 
 bibentry(
   bibtype = "Manual",
   title = "ERBioR: Reproducible Occupational Biological Risk Assessment with the ERBio Method",
-  author = person("Ra\u00fal", "Aguilar-Elena"),
+  author = c(
+    person(
+      "Raúl",
+      "Aguilar-Elena",
+      email = "raguilar@universidadviu.com",
+      comment = c(ORCID = "0000-0001-8656-8155")
+    ),
+    person(
+      "Ana",
+      "Delgado-García",
+      email = "a.delgado@usal.es",
+      comment = c(ORCID = "0009-0003-7079-5507")
+    )
+  ),
   year = "2026",
-  note = "R package version 0.8.0.9000"
+  note = "R package version 0.9.0.9000"
 )
