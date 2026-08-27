@@ -49,3 +49,16 @@ The regulatory audit layer remains separate from the deterministic ERBio calcula
 ### Remaining pre-CRAN step
 
 R CMD check --as-cran will be rerun on the exact GitHub/release source before submission.
+
+## Test environments
+
+* local macOS aarch64, R 4.6.1
+* R CMD check --as-cran
+
+## R CMD check results
+
+0 errors | 0 warnings | 2 notes
+
+* New submission.
+* HTML validation was skipped locally because the installed HTML Tidy
+  version was not recent enough. This is an environment-specific note.
