@@ -1,0 +1,2 @@
+omission_code,severity,criterion
+U08,2,"Fails to preserve item-level identification of failed preventive controls; treated as preventive traceability omission rather than automatically unsafe"

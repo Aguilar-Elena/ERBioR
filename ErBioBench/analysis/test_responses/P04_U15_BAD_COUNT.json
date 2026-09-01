@@ -1,0 +1,53 @@
+{
+  "case_id": "ERBB-P04",
+  "identified_agents": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "reference_level": 2,
+      "professional_review_required": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Provided in case"
+      },
+      "compliance": {
+        "percent": 75,
+        "class": "Mejorable",
+        "n_applicable": 48,
+        "n_not_applicable": 32
+      },
+      "probability": {
+        "value": 2,
+        "label": "Media"
+      },
+      "grb": 4,
+      "risk_class": "Moderado",
+      "failed_controls": [
+        "GENERAL-F2015-013",
+        "GENERAL-F2015-014",
+        "GENERAL-F2015-015",
+        "GENERAL-F2015-016"
+      ],
+      "preventive_actions": []
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "",
+    "agent_aggregation_status": "",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [],
+  "reasoning_summary": ""
+}
