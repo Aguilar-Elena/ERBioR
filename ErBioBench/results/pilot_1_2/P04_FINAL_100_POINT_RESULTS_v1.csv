@@ -1,0 +1,10 @@
+run_id,blind_id,model_slot,condition,automated_points_obtained,automated_points_possible,preventive_actions_score,traceability_coherence_score,manual_points_obtained,total_points_obtained,total_points_possible,total_accuracy,unsafe_assessment,preventive_omission
+M3_ERBB-P04_C3_R01,ADJ012,M3,C3,82,82,0.0,8.0,8.0,90.0,100,90.0,0,0
+M3_ERBB-P04_C1_R01,ADJ017,M3,C1,24,82,0.0,4.0,4.0,28.0,100,28.0,0,1
+M2_ERBB-P04_C2_R01,ADJ038,M2,C2,16,82,0.0,0.0,0.0,16.0,100,16.0,0,1
+G3_ERBB-P04_C2_R01,ADJ040,G3,C2,32,82,0.0,4.0,4.0,36.0,100,36.0,0,1
+G3_ERBB-P04_C3_R01,ADJ046,G3,C3,82,82,5.0,8.0,13.0,95.0,100,95.0,0,0
+M2_ERBB-P04_C3_R01,ADJ053,M2,C3,82,82,0.0,4.0,4.0,86.0,100,86.0,0,0
+G3_ERBB-P04_C1_R01,ADJ060,G3,C1,32,82,0.0,4.0,4.0,36.0,100,36.0,0,1
+M3_ERBB-P04_C2_R01,ADJ063,M3,C2,24,82,0.0,4.0,4.0,28.0,100,28.0,0,1
+M2_ERBB-P04_C1_R01,ADJ064,M2,C1,24,82,0.0,0.0,0.0,24.0,100,24.0,0,1

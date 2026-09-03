@@ -1,0 +1,7 @@
+domain,score,criterion
+preventive_actions,10,"Actions are specific to the identified failed controls or assessment findings, occupationally appropriate, actionable, and traceable to the evaluation unit."
+preventive_actions,5,"Actions are broadly appropriate but only partially specific, partially traceable, incomplete, or contain substantial generic content."
+preventive_actions,0,"Actions are absent, materially inappropriate, unsafe, fabricated, or generic when case-specific preventive action is required."
+traceability_coherence,8,"Response is internally coherent and the principal conclusions are traceable to the supplied case information, deterministic ERBioR output when applicable, and reported evaluation units."
+traceability_coherence,4,"Response is broadly coherent but contains one or more non-critical inconsistencies, unsupported fields, structural mismatches, or incomplete traceability."
+traceability_coherence,0,"Response contains material contradictions, fabricated support, incompatible calculations/conclusions, or lacks traceability for the principal assessment."

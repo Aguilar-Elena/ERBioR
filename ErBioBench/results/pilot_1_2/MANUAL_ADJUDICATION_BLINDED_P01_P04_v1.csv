@@ -1,0 +1,100 @@
+blind_id,case_id,preventive_actions_score,preventive_actions_reason,traceability_coherence_score,traceability_coherence_reason,adjudicator_id,adjudication_status
+ADJ001,ERBB-P03,,,,,,PENDING
+ADJ002,ERBB-P02,,,,,,PENDING
+ADJ003,ERBB-P01,,,,,,PENDING
+ADJ004,ERBB-P03,,,,,,PENDING
+ADJ005,ERBB-P03,,,,,,PENDING
+ADJ006,ERBB-P02,,,,,,PENDING
+ADJ007,ERBB-P01,,,,,,PENDING
+ADJ008,ERBB-P01,,,,,,PENDING
+ADJ009,ERBB-P02,,,,,,PENDING
+ADJ010,ERBB-P03,,,,,,PENDING
+ADJ011,ERBB-P01,,,,,,PENDING
+ADJ012,ERBB-P04,0.0,"Four failed controls are identified, but no preventive actions are provided.",8.0,"Core assessment values, denominator handling and failed-control identification are coherent and traceable.",ADJUDICATOR_A,COMPLETED
+ADJ013,ERBB-P02,,,,,,PENDING
+ADJ014,ERBB-P01,,,,,,PENDING
+ADJ015,ERBB-P02,,,,,,PENDING
+ADJ016,ERBB-P02,,,,,,PENDING
+ADJ017,ERBB-P04,0.0,Only a generic professional-evaluation recommendation is provided; no action is linked to the four failed controls.,4.0,"Assessment remains interpretable, but n_not_applicable is reported as 36 instead of 32 and professional review is unjustifiably required.",ADJUDICATOR_A,COMPLETED
+ADJ018,ERBB-P02,,,,,,PENDING
+ADJ019,ERBB-P02,,,,,,PENDING
+ADJ020,ERBB-P02,,,,,,PENDING
+ADJ021,ERBB-P02,,,,,,PENDING
+ADJ022,ERBB-P02,,,,,,PENDING
+ADJ023,ERBB-P01,,,,,,PENDING
+ADJ024,ERBB-P02,,,,,,PENDING
+ADJ025,ERBB-P02,,,,,,PENDING
+ADJ026,ERBB-P03,,,,,,PENDING
+ADJ027,ERBB-P03,,,,,,PENDING
+ADJ028,ERBB-P02,,,,,,PENDING
+ADJ029,ERBB-P03,,,,,,PENDING
+ADJ030,ERBB-P02,,,,,,PENDING
+ADJ031,ERBB-P01,,,,,,PENDING
+ADJ032,ERBB-P02,,,,,,PENDING
+ADJ033,ERBB-P01,,,,,,PENDING
+ADJ034,ERBB-P03,,,,,,PENDING
+ADJ035,ERBB-P02,,,,,,PENDING
+ADJ036,ERBB-P01,,,,,,PENDING
+ADJ037,ERBB-P01,,,,,,PENDING
+ADJ038,ERBB-P04,0.0,Actions are generic and not traceable to the failed controls.,0.0,"Materially inconsistent assessment: compliance is reported as 80% despite 12 compliant of 16 applicable items, with unsupported probability and conclusions.",ADJUDICATOR_A,COMPLETED
+ADJ039,ERBB-P03,,,,,,PENDING
+ADJ040,ERBB-P04,0.0,No preventive actions are provided despite four failed controls in the case.,4.0,"Compliance denominator and 75% calculation are correct, but resolvable regulatory and risk elements are left unresolved and professional review is incorrectly required.",ADJUDICATOR_A,COMPLETED
+ADJ041,ERBB-P02,,,,,,PENDING
+ADJ042,ERBB-P01,,,,,,PENDING
+ADJ043,ERBB-P02,,,,,,PENDING
+ADJ044,ERBB-P03,,,,,,PENDING
+ADJ045,ERBB-P02,,,,,,PENDING
+ADJ046,ERBB-P04,5.0,"All four failed-control IDs are correctly linked, but the repeated action 'review and correct failed control' is generic rather than control-specific.",8.0,Assessment is internally coherent and matches the reference values and failed-control structure.,ADJUDICATOR_A,COMPLETED
+ADJ047,ERBB-P01,,,,,,PENDING
+ADJ048,ERBB-P01,,,,,,PENDING
+ADJ049,ERBB-P03,,,,,,PENDING
+ADJ050,ERBB-P03,,,,,,PENDING
+ADJ051,ERBB-P01,,,,,,PENDING
+ADJ052,ERBB-P03,,,,,,PENDING
+ADJ053,ERBB-P04,0.0,"Although failed-control IDs are correct, the associated actions do not correspond to the actual failed items and the explicit preventive action is generic.",4.0,"Main numerical assessment is correct, but control-to-action traceability is materially defective.",ADJUDICATOR_A,COMPLETED
+ADJ054,ERBB-P02,,,,,,PENDING
+ADJ055,ERBB-P02,,,,,,PENDING
+ADJ056,ERBB-P02,,,,,,PENDING
+ADJ057,ERBB-P03,,,,,,PENDING
+ADJ058,ERBB-P01,,,,,,PENDING
+ADJ059,ERBB-P01,,,,,,PENDING
+ADJ060,ERBB-P04,0.0,No preventive actions are provided.,4.0,"Compliance calculation and denominator are correct, but the response incorrectly treats the regulatory/risk assessment as unresolved and requires professional review.",ADJUDICATOR_A,COMPLETED
+ADJ061,ERBB-P03,,,,,,PENDING
+ADJ062,ERBB-P01,,,,,,PENDING
+ADJ063,ERBB-P04,0.0,Actions are generic and are not linked to the four case-specific failed controls.,4.0,"Compliance and denominator handling are correct, but probability and regulatory uncertainty are unsupported and the case is incorrectly sent for professional review.",ADJUDICATOR_A,COMPLETED
+ADJ064,ERBB-P04,0.0,Actions are generic and not linked to the failed controls.,0.0,"Material internal contradictions: n_applicable=48 despite 32 non-applicable items, while unresolved classification is combined with asserted probability, GRB and risk class.",ADJUDICATOR_A,COMPLETED
+ADJ065,ERBB-P01,,,,,,PENDING
+ADJ066,ERBB-P02,,,,,,PENDING
+ADJ067,ERBB-P03,,,,,,PENDING
+ADJ068,ERBB-P03,,,,,,PENDING
+ADJ069,ERBB-P01,,,,,,PENDING
+ADJ070,ERBB-P01,,,,,,PENDING
+ADJ071,ERBB-P01,,,,,,PENDING
+ADJ072,ERBB-P03,,,,,,PENDING
+ADJ073,ERBB-P03,,,,,,PENDING
+ADJ074,ERBB-P01,,,,,,PENDING
+ADJ075,ERBB-P02,,,,,,PENDING
+ADJ076,ERBB-P01,,,,,,PENDING
+ADJ077,ERBB-P02,,,,,,PENDING
+ADJ078,ERBB-P03,,,,,,PENDING
+ADJ079,ERBB-P03,,,,,,PENDING
+ADJ080,ERBB-P01,,,,,,PENDING
+ADJ081,ERBB-P02,,,,,,PENDING
+ADJ082,ERBB-P02,,,,,,PENDING
+ADJ083,ERBB-P01,,,,,,PENDING
+ADJ084,ERBB-P01,,,,,,PENDING
+ADJ085,ERBB-P01,,,,,,PENDING
+ADJ086,ERBB-P02,,,,,,PENDING
+ADJ087,ERBB-P03,,,,,,PENDING
+ADJ088,ERBB-P03,,,,,,PENDING
+ADJ089,ERBB-P01,,,,,,PENDING
+ADJ090,ERBB-P01,,,,,,PENDING
+ADJ091,ERBB-P02,,,,,,PENDING
+ADJ092,ERBB-P02,,,,,,PENDING
+ADJ093,ERBB-P03,,,,,,PENDING
+ADJ094,ERBB-P03,,,,,,PENDING
+ADJ095,ERBB-P01,,,,,,PENDING
+ADJ096,ERBB-P03,,,,,,PENDING
+ADJ097,ERBB-P03,,,,,,PENDING
+ADJ098,ERBB-P03,,,,,,PENDING
+ADJ099,ERBB-P02,,,,,,PENDING

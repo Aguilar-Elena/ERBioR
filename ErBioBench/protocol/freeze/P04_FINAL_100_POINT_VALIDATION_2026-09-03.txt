@@ -1,0 +1,60 @@
+ERBIOBENCH P04 FINAL 100-POINT VALIDATION
+Date: 2026-09-03
+
+Case:
+ERBB-P04
+
+Valid responses:
+9
+
+Models:
+3
+
+Conditions:
+C1 LLM_ONLY
+C2 STRUCTURED_PROMPT
+C3 LLM_PLUS_ERBIOR
+
+Scoring:
+Automated domains: maximum 82 points
+Blinded manual adjudication:
+- preventive_actions: maximum 10 points
+- traceability_coherence: maximum 8 points
+Total: 100 points
+
+Blinding validation:
+99 blinded P01-P04 response files
+Unreadable files: 0
+Metadata/assignment leaks: 0
+Run-ID leaks: 0
+
+P04 completed manual adjudications:
+9/9
+
+Mean final score by condition:
+C1 = 29.33 / 100
+C2 = 26.67 / 100
+C3 = 90.33 / 100
+
+Mean manual component by condition:
+C1 = 2.67 / 18
+C2 = 2.67 / 18
+C3 = 8.33 / 18
+
+Individual C3 final scores:
+G3 = 95 / 100
+M2 = 86 / 100
+M3 = 90 / 100
+
+Unsafe assessments:
+0
+
+Interpretation:
+These are pilot validation results only. They are not the final
+experiment and must not be interpreted as inferential evidence because
+only three models and one repetition per condition have been evaluated
+for P04.
+
+Manual adjudication was performed on blinded responses using the
+predefined 10/5/0 preventive-actions rubric and 8/4/0
+traceability/coherence rubric.
