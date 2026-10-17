@@ -1,0 +1,54 @@
+ErBioBench P15 lossless C3 transport deduplication freeze
+Date: 2026-10-17
+
+Purpose:
+Reduce redundant deterministic ERBioR transport for complex multi-agent
+case ERBB-P15 without removing scientifically evaluable information.
+
+Pre-deduplication:
+- P15 compact chars: 8753
+- P15 M3 C3 prompt chars: 18933
+- Initial M3 P15 C3 result:
+  INVALID_JSON
+  finish_reason = length
+  output_tokens = 4000
+  Technical exclusion due to truncation.
+
+Post-deduplication:
+- P15 compact chars: 4719
+- P15 M3 C3 prompt chars: 11289
+
+Reduction strategy:
+- audit/general/workers questionnaire information is transported once
+  under shared_questionnaires only when equality across resolved agents
+  is explicitly demonstrated.
+- Agent-specific identity, regulatory group, reference level,
+  probability, GRB, risk class and priority remain separated.
+- Per-agent unresolved aggregation information remains retained.
+- unresolved_human_virus remains retained separately.
+- professional_review_required remains true.
+- aggregation_status remains unresolved_by_design.
+- workplace_global_class remains unresolved.
+
+Resolved agents retained:
+- ebolavirus
+- brucella_melitensis
+
+Unresolved human virus retained:
+- classification_status = unclassified_human_isolated_virus
+- regulatory_minimum_group = 2
+- requires_professional_assessment = true
+- source_rule = HUMAN-VIRUS-MIN-G2
+
+Regression checks:
+- ERBB-P06 M3 C3 prompt chars = 10480
+- ERBB-P12 M3 C3 prompt chars = 10262
+
+The implementation falls back to full per-agent transport when
+questionnaire equality across resolved agents is not demonstrated.
+
+No API call was made to validate the deduplication patch.
+
+SHA256:
+0cb4026fee6bc9aafabb1bc2db081c03b59bce78312376480b91446b2639df15  ErBioBench/analysis/run_erbiobench_v2.py
+5663ea6f9211066088dd9aab7c2296a4a63b1bf1296194426ef02abf9e556488  ErBioBench/pilot/gold/ERBB-P15_gold.json

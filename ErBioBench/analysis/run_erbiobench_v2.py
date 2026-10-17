@@ -363,12 +363,12 @@ def compact_erbio_output(gold):
     if isinstance(x.get("resolved_agents"), dict):
         result.pop("failed_control_ids", None)
 
-        resolved = {}
+        resolved_full = {}
 
         for agent_key, agent_value in x["resolved_agents"].items():
 
             if not isinstance(agent_value, dict):
-                resolved[agent_key] = agent_value
+                resolved_full[agent_key] = agent_value
                 continue
 
             agent_out = {}
@@ -392,9 +392,146 @@ def compact_erbio_output(gold):
             if not agent_out:
                 agent_out = compact_assessment(agent_value)
 
-            resolved[agent_key] = agent_out
+            resolved_full[agent_key] = agent_out
 
-        result["resolved_agents"] = resolved
+        # ----------------------------------------------------
+        # Lossless questionnaire deduplication.
+        #
+        # When all resolved agents share exactly the same
+        # questionnaire inputs/results, transport those fields
+        # once and retain only agent-dependent probability/risk
+        # outcomes under each resolved agent.
+        #
+        # If equality is not demonstrated, fall back to the
+        # complete per-agent representation.
+        # ----------------------------------------------------
+
+        questionnaire_keys = [
+            "audit",
+            "general",
+            "workers"
+        ]
+
+        shared_fields = [
+            "assessment_status",
+            "questionnaire_id",
+            "questionnaire_name",
+            "questionnaire_version",
+            "exposure",
+            "compliance_percent",
+            "compliance_class",
+            "questionnaire_score",
+            "failed_control_ids"
+        ]
+
+        agent_specific_fields = [
+            "agent_id",
+            "agent_name",
+            "agent_type",
+            "classification_status",
+            "regulatory_minimum_group",
+            "reference_level",
+            "requires_professional_assessment"
+        ]
+
+        outcome_fields = [
+            "probability_value",
+            "probability_label",
+            "risk_score",
+            "risk_class",
+            "priority"
+        ]
+
+        can_deduplicate = (
+            len(resolved_full) >= 2
+            and all(
+                isinstance(v, dict)
+                and all(
+                    isinstance(v.get(q), dict)
+                    for q in questionnaire_keys
+                )
+                for v in resolved_full.values()
+            )
+        )
+
+        shared_questionnaires = {}
+
+        if can_deduplicate:
+            agent_values = list(resolved_full.values())
+
+            for qkey in questionnaire_keys:
+                reference = {
+                    k: agent_values[0][qkey].get(k)
+                    for k in shared_fields
+                }
+
+                for other in agent_values[1:]:
+                    candidate = {
+                        k: other[qkey].get(k)
+                        for k in shared_fields
+                    }
+
+                    if candidate != reference:
+                        can_deduplicate = False
+                        break
+
+                if not can_deduplicate:
+                    break
+
+                # failed_control_ids are transported as compact
+                # stable identifiers when possible.
+                failed = reference.get("failed_control_ids")
+
+                if isinstance(failed, list):
+                    compact_failed = []
+
+                    for item in failed:
+                        if (
+                            isinstance(item, dict)
+                            and item.get("item_id") is not None
+                        ):
+                            compact_failed.append(item["item_id"])
+                        else:
+                            compact_failed.append(item)
+
+                    reference["failed_control_ids"] = compact_failed
+
+                shared_questionnaires[qkey] = reference
+
+        if can_deduplicate:
+            resolved_compact = {}
+
+            for agent_key, agent_value in resolved_full.items():
+
+                # Agent identity/classification can be read from
+                # any of the shared questionnaire assessments.
+                anchor = agent_value["general"]
+
+                compact_agent = {
+                    k: anchor.get(k)
+                    for k in agent_specific_fields
+                    if anchor.get(k) is not None
+                }
+
+                compact_agent["questionnaire_outcomes"] = {}
+
+                for qkey in questionnaire_keys:
+                    compact_agent["questionnaire_outcomes"][qkey] = {
+                        k: agent_value[qkey].get(k)
+                        for k in outcome_fields
+                        if agent_value[qkey].get(k) is not None
+                    }
+
+                if isinstance(agent_value.get("aggregation"), dict):
+                    compact_agent["aggregation"] = agent_value["aggregation"]
+
+                resolved_compact[agent_key] = compact_agent
+
+            result["shared_questionnaires"] = shared_questionnaires
+            result["resolved_agents"] = resolved_compact
+
+        else:
+            result["resolved_agents"] = resolved_full
 
     if isinstance(x.get("unresolved_human_virus"), dict):
         result.pop("failed_control_ids", None)
