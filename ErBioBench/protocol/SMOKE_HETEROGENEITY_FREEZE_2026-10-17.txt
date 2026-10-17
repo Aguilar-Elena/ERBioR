@@ -1,0 +1,112 @@
+ERBIOBENCH — SMOKE HETEROGENEITY FREEZE
+Date: 2026-10-17
+
+STATUS
+------
+Exploratory heterogeneity and robustness analysis of the complete-pair
+one-repetition smoke experiment.
+
+Dataset:
+96 complete model-case pairs
+288 condition-specific observations
+
+GLOBAL PAIRED EFFECTS
+---------------------
+C2 - C1:
+mean = +2.165685 percentage points
+median = 0
+
+C3 - C1:
+mean = +62.257981 percentage points
+median = +60.97561
+
+C3 - C2:
+mean = +60.092296 percentage points
+median = +60.97561
+
+C3 CEILING PERFORMANCE
+----------------------
+87/96 complete model-case pairs achieved exactly 100% automated
+accuracy under C3.
+
+C3 perfect proportion = 90.625%.
+
+Nine C3 pairs were non-perfect.
+
+These consisted exclusively of:
+- eight O3 responses with omission of the GRB field;
+- one G2/P02 response with an incorrect GRB value.
+
+All nine scored 90.2439%.
+
+No additional C3 error family was identified.
+
+MODEL-LEVEL ROBUSTNESS
+----------------------
+Mean C3 accuracy was 100% for 10 of 12 represented model slots.
+
+Exceptions:
+G2 = 96.74797%
+O3 = 94.42509%
+
+Leave-one-model-out ranges:
+
+C2 - C1:
++1.738497 to +2.535437
+
+C3 - C1:
++61.90804 to +62.54231
+
+C3 - C2:
++59.78346 to +60.51403
+
+Therefore, the large C3 effect was not driven by any single model.
+
+CASE-LEVEL ROBUSTNESS
+---------------------
+Leave-one-case-out ranges:
+
+C2 - C1:
++1.084011 to +2.614000
+
+C3 - C1:
++61.67747 to +62.73035
+
+C3 - C2:
++59.41762 to +61.64634
+
+Therefore, the large C3 effect was not driven by any single benchmark case.
+
+STRUCTURED PROMPTING
+--------------------
+The C2-C1 effect was substantially more heterogeneous across cases than
+the C3 advantage.
+
+Examples:
+P09:  +18.3908 percentage points
+P15:  +14.6341 percentage points, but based on only one complete pair
+P04:   -2.1680 percentage points
+P10:   -3.4146 percentage points
+Several cases: 0 improvement
+
+This is consistent with the paired inferential analysis in which the
+mean C2-C1 difference was positive but the median and IQR of the paired
+difference were both zero.
+
+INTERPRETATION
+--------------
+Structured prompting alone produced a small and heterogeneous benefit.
+
+Deterministic ERBioR augmentation produced a large and highly
+consistent improvement across models and cases.
+
+The C3 effect remained approximately +60 percentage points relative to
+C2 and +62 percentage points relative to C1 after exclusion of any
+single model or case.
+
+Case-specific estimates must be interpreted cautiously because the
+number of complete pairs differs substantially between cases as a
+result of refusals and technical failures.
+
+This analysis is exploratory. Confirmatory heterogeneity analysis will
+be based on the full repeated experiment.
