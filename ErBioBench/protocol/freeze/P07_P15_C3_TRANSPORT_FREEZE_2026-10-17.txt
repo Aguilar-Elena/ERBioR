@@ -1,0 +1,53 @@
+ErBioBench P07-P15 C3 transport freeze
+Date: 2026-10-17
+
+Purpose:
+Extend compact ERBioR transport for advanced pilot cases without altering previously frozen P05/P06 compact outputs.
+
+Validated regression:
+- ERBB-P05 compact output identical to pre-patch version
+- ERBB-P06 compact output identical to pre-patch version
+- ERBB-P06 M3 C3 prompt chars = 10480
+
+Validated new transport:
+- ERBB-P07:
+  source_rule = UNLISTED-NOT-G1
+  real warning retained
+- ERBB-P08:
+  source_rule = HUMAN-VIRUS-MIN-G2
+  regulatory_minimum_group = 2
+  real warning retained
+- ERBB-P12:
+  audit/general/workers retained
+  aggregation retained
+  global_risk_class = null
+  global_risk_score = null
+  discordant-questionnaire aggregation status retained
+- ERBB-P15:
+  resolved_agents retained:
+    - ebolavirus
+    - brucella_melitensis
+  each resolved agent retains:
+    - audit
+    - general
+    - workers
+    - aggregation
+  unresolved_human_virus retained
+  regulatory_minimum_group = 2
+  requires_professional_assessment = true
+  source_rule = HUMAN-VIRUS-MIN-G2
+  professional_review_required = true
+  aggregation_status = unresolved_by_design
+  workplace_global_class remains unresolved
+
+Final M3 C3 prompt sizes:
+- ERBB-P06: 10480 chars
+- ERBB-P12: 10262 chars
+- ERBB-P15: 18933 chars
+
+No API calls were made during this transport validation.
+
+SHA256:
+213ad60e3c1b7a40f7120f8685beb23d7a1101a12f6166ab7b855944e876ee7b  ErBioBench/analysis/run_erbiobench_v2.py
+8aa5b1a764ae5974ce384362ae65c811fdc13caeb67cb6fc86fafe3311951d15  ErBioBench/pilot/gold/ERBB-P12_gold.json
+5663ea6f9211066088dd9aab7c2296a4a63b1bf1296194426ef02abf9e556488  ErBioBench/pilot/gold/ERBB-P15_gold.json

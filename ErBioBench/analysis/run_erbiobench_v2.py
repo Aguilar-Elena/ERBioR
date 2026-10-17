@@ -161,6 +161,9 @@ def compact_erbio_output(gold):
             "assessment_status":
                 z.get("assessment_status"),
 
+            "agent_query":
+                z.get("agent_query"),
+
             "agent_id":
                 z.get("agent_id"),
 
@@ -249,13 +252,44 @@ def compact_erbio_output(gold):
                     agent_reference.get("requires_professional_assessment")
                     if isinstance(agent_reference, dict)
                     else z.get("requires_professional_assessment")
-                )
+                ),
+
+            "source_rule":
+                z.get("source_rule") or None,
+
+            "warnings":
+                z.get("warnings") or None
         }
 
         return {
             k: v for k, v in result.items()
             if v is not None
         }
+
+    def compact_aggregation(z):
+        if not isinstance(z, dict):
+            return z
+
+        result = {}
+
+        for key in [
+            "aggregation_status",
+            "questionnaire_aggregation_status",
+            "agent_aggregation_status",
+            "workplace_global_class",
+            "global_risk_class",
+            "global_risk_score",
+            "note"
+        ]:
+            if key in z:
+                out_key = (
+                    "aggregation_note"
+                    if key == "note"
+                    else key
+                )
+                result[out_key] = z[key]
+
+        return result
 
     # --------------------------------------------------------
     # Flat/single-assessment output
@@ -306,9 +340,74 @@ def compact_erbio_output(gold):
     # Named questionnaire structures
     # --------------------------------------------------------
 
+    named_questionnaire_found = False
+
     for key in ["audit", "general", "workers", "assessment"]:
         if isinstance(x.get(key), dict):
             result[key] = compact_assessment(x[key])
+            named_questionnaire_found = True
+
+    if named_questionnaire_found:
+        result.pop("failed_control_ids", None)
+
+    if isinstance(x.get("aggregation"), dict):
+        result["aggregation"] = compact_aggregation(
+            x["aggregation"]
+        )
+        result.pop("failed_control_ids", None)
+
+    # --------------------------------------------------------
+    # Resolved + unresolved agent structures
+    # --------------------------------------------------------
+
+    if isinstance(x.get("resolved_agents"), dict):
+        result.pop("failed_control_ids", None)
+
+        resolved = {}
+
+        for agent_key, agent_value in x["resolved_agents"].items():
+
+            if not isinstance(agent_value, dict):
+                resolved[agent_key] = agent_value
+                continue
+
+            agent_out = {}
+
+            for qkey in [
+                "audit",
+                "general",
+                "workers",
+                "assessment"
+            ]:
+                if isinstance(agent_value.get(qkey), dict):
+                    agent_out[qkey] = compact_assessment(
+                        agent_value[qkey]
+                    )
+
+            if isinstance(agent_value.get("aggregation"), dict):
+                agent_out["aggregation"] = compact_aggregation(
+                    agent_value["aggregation"]
+                )
+
+            if not agent_out:
+                agent_out = compact_assessment(agent_value)
+
+            resolved[agent_key] = agent_out
+
+        result["resolved_agents"] = resolved
+
+    if isinstance(x.get("unresolved_human_virus"), dict):
+        result.pop("failed_control_ids", None)
+
+        unresolved = compact_assessment(
+            x["unresolved_human_virus"]
+        )
+
+        # This object is a regulatory reference, not a
+        # questionnaire assessment.
+        unresolved.pop("failed_control_ids", None)
+
+        result["unresolved_human_virus"] = unresolved
 
     # --------------------------------------------------------
     # Explicit aggregation policy/status
