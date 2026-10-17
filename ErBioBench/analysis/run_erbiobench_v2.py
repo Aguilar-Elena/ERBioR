@@ -557,9 +557,25 @@ def call_gemini(model, prompt, response_schema=None):
     usage = obj.get("usageMetadata", {}) or {}
 
     finish_reason = None
+    refusal_category = None
+    refusal_explanation = None
 
     if candidates:
         finish_reason = candidates[0].get("finishReason")
+    else:
+        prompt_feedback = obj.get("promptFeedback", {}) or {}
+        block_reason = prompt_feedback.get("blockReason")
+
+        if block_reason:
+            # Provider/model blocking of an otherwise successful API
+            # request is a model/provider outcome, not an empty-response
+            # transport failure.
+            finish_reason = "refusal"
+            refusal_category = f"gemini_{str(block_reason).lower()}"
+            refusal_explanation = (
+                "Gemini promptFeedback.blockReason="
+                + str(block_reason)
+            )
 
     return {
         "http_status": status,
@@ -571,6 +587,8 @@ def call_gemini(model, prompt, response_schema=None):
         "reasoning_tokens": usage.get("thoughtsTokenCount"),
         "request_id": "",
         "finish_reason": finish_reason,
+        "refusal_category": refusal_category,
+        "refusal_explanation": refusal_explanation,
         "api_response": obj
     }
 
