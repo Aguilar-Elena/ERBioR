@@ -22,7 +22,10 @@
 #
 # Mistral:
 #   max_tokens = 2400
-#   response_format = json_object
+#   no native JSON enforcement
+#
+# JSON output is requested through the common frozen prompt for
+# all providers to avoid provider-specific format advantages.
 #
 # Technical failures are separated from model outcomes.
 # ============================================================
@@ -586,10 +589,7 @@ def call_mistral(model, prompt):
                 "content": prompt
             }
         ],
-        "max_tokens": 2400,
-        "response_format": {
-            "type": "json_object"
-        }
+        "max_tokens": 2400
     }
 
     status, headers, obj = request_json(
