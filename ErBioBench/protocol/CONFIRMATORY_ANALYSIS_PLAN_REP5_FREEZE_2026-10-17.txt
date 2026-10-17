@@ -1,0 +1,162 @@
+ERBIOBENCH — CONFIRMATORY ANALYSIS PLAN
+Full five-repetition experiment
+Date: 2026-10-17
+
+DESIGN
+------
+15 benchmark cases
+12 model slots
+3 experimental conditions
+5 repetitions
+
+Nominal runs:
+15 × 12 × 3 × 5 = 2700
+
+PRIMARY SCIENTIFIC POPULATION
+-----------------------------
+Scientifically valid model responses:
+execution_status = COMPLETED
+parse_valid_json = TRUE
+
+Refusals and technical failures are analysed separately and are not
+assigned zero accuracy in the primary scientific accuracy analysis.
+
+PRIMARY OUTCOME
+---------------
+Automated accuracy according to the frozen ERBioBench scoring system.
+
+Primary fixed effect:
+condition
+C1 = LLM only
+C2 = structured prompt
+C3 = LLM + deterministic ERBioR reference output
+
+PRIMARY MODEL
+-------------
+Mixed-effects model accounting for repeated observations across:
+
+- model slot;
+- benchmark case;
+- repetition.
+
+The final random-effects structure will be simplified only if a component
+has zero/negligible variance or produces a singular fit.
+
+The condition effect will be tested globally.
+
+Prespecified pairwise contrasts:
+- C2 vs C1
+- C3 vs C1
+- C3 vs C2
+
+Multiplicity:
+Holm adjustment.
+
+Reported:
+- estimated mean difference;
+- 95% confidence interval;
+- adjusted p-value.
+
+DISTRIBUTIONAL SENSITIVITY
+--------------------------
+Because accuracy is bounded and C3 may exhibit ceiling effects:
+
+paired/non-parametric sensitivity analysis will accompany the mixed model.
+
+SECONDARY SAFETY OUTCOME
+------------------------
+unsafe_assessment
+
+Analyse:
+- event frequency by condition;
+- paired/clustered contrasts;
+- exact methods when event counts are sparse;
+- mixed logistic modelling only when estimable without separation.
+
+SECONDARY PREVENTIVE OUTCOME
+----------------------------
+preventive_omission
+
+Analyse:
+- frequency by condition;
+- paired/clustered comparisons;
+- exact or mixed logistic methods as supported by the observed data.
+
+REFUSAL OUTCOME
+---------------
+REFUSAL is a scientific behavioural outcome.
+
+Report:
+- refusal rate by condition;
+- model;
+- provider;
+- benchmark case.
+
+Over-refusal on legitimate occupational-health tasks will be analysed
+separately from technical failure.
+
+TECHNICAL ROBUSTNESS
+--------------------
+Technical outcomes are analysed separately:
+
+- API/provider availability failure;
+- quota/rate limiting;
+- invalid JSON;
+- output truncation;
+- other transport failure.
+
+Technical failures are not treated as incorrect scientific responses.
+
+HETEROGENEITY
+-------------
+Prespecified exploratory heterogeneity analyses:
+
+- effect by model;
+- effect by case;
+- effect by provider;
+- leave-one-model-out;
+- leave-one-case-out.
+
+REPRODUCIBILITY
+---------------
+Across five repetitions evaluate:
+
+- within-model consistency;
+- condition-specific variability;
+- frequency of exact agreement;
+- variability of accuracy and safety outcomes across repetitions.
+
+MISSINGNESS
+-----------
+No scientific score is imputed for:
+- refusals;
+- technical failures;
+- runs never executed.
+
+Complete-case analyses across conditions will be reported as sensitivity
+analyses and not used to conceal differential refusal or technical
+failure.
+
+SCORING
+-------
+Frozen scorer:
+score_llm_response_v3.R
+
+Unsafe detector:
+detect_unsafe_response_v4.R
+
+No scoring rule will be changed after confirmatory execution begins
+unless an objective software defect is identified, documented,
+regression-tested and applied consistently to all affected observations.
+
+INTERPRETIVE PRINCIPLE
+----------------------
+The primary scientific question is whether deterministic ERBioR
+augmentation improves accuracy, safety and preventive completeness beyond
+LLM-only and structured-prompt conditions.
+
+Statistical significance will not substitute for effect-size
+interpretation.
+
+The smoke analysis is exploratory and does not constitute the
+confirmatory result.

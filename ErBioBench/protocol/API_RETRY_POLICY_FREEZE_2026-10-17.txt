@@ -1,0 +1,87 @@
+ERBIOBENCH — API RETRY POLICY FREEZE
+Date: 2026-10-17
+
+PURPOSE
+-------
+Predefine which execution failures may be reattempted before completion
+of the smoke and full repeated experiment.
+
+GENERAL PRINCIPLE
+-----------------
+A run may be repeated only when no scientifically interpretable model
+response was obtained because of an external provider/transport
+availability failure.
+
+A model response that was generated but was incomplete, malformed,
+refused, or scientifically incorrect is not rescued by post hoc reruns.
+
+RETRYABLE
+---------
+1. QUOTA_EXHAUSTED
+   Retry allowed after provider quota/reset window.
+
+2. RATE_LIMIT_429
+   Retry allowed after cooldown or provider reset.
+
+3. NEVER_ATTEMPTED
+   Execute normally.
+
+CONDITIONAL REVIEW
+------------------
+API_FAILURE_OTHER
+
+Retry is allowed only when manual inspection confirms that the failure
+occurred before a model response was generated and was attributable to
+transport/provider infrastructure.
+
+The reason for any such retry must be documented.
+
+NOT RETRYABLE
+-------------
+1. REFUSAL
+   Scientific outcome. Retained as refusal/over-refusal where applicable.
+
+2. INVALID_JSON_OTHER
+   Model/schema-conformance outcome. No rerun.
+
+3. OUTPUT_TRUNCATION
+   Model/protocol output-length outcome. No rerun.
+
+4. COMPLETED + parse_valid_json = TRUE
+   Closed scientific run. No rerun.
+
+PROHIBITED POST HOC ADAPTATION
+------------------------------
+The following must not be changed to rescue failed runs:
+
+- token limits;
+- prompts;
+- response schema;
+- temperature or reasoning configuration;
+- ERBioR reference output;
+- case content;
+- scoring rules.
+
+Exception:
+A proven protocol/software defect affecting transport or scoring may be
+corrected only if documented, regression-tested, versioned and applied
+consistently to all affected runs.
+
+CURRENT SMOKE CONSEQUENCES
+--------------------------
+Eligible for later retry:
+- QUOTA_EXHAUSTED: 10
+- RATE_LIMIT_429: 33
+- NEVER_ATTEMPTED: 90
+
+Potentially eligible after manual review:
+- API_FAILURE_OTHER: 7
+
+Closed and not retryable:
+- REFUSAL: 59
+- INVALID_JSON_OTHER: 13
+- OUTPUT_TRUNCATION: 6
+- SCIENTIFIC_VALID: 322
+
+This policy was frozen before completion of the remaining smoke runs and
+before execution of the full five-repetition experiment.
