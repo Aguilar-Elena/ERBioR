@@ -1,0 +1,50 @@
+ErBioBench P06 M3 three-condition validation
+Date: 2026-10-17
+
+Model slot:
+M3
+
+Model:
+ministral-8b-latest
+
+Case:
+ERBB-P06
+
+C1:
+- execution_status: INVALID_JSON
+- parse_valid_json: false
+- finish_reason: stop
+- input_tokens: 858
+- output_tokens: 1113
+- parse error: invalid control character in multiline reasoning_summary
+- scientific scoring: excluded because response is not valid JSON
+
+C2:
+- execution_status: INVALID_JSON
+- parse_valid_json: false
+- finish_reason: stop
+- input_tokens: 1058
+- output_tokens: 1569
+- parse error: invalid control character in multiline reasoning_summary
+- scientific scoring: excluded because response is not valid JSON
+
+C3:
+- execution_status: COMPLETED
+- parse_valid_json: true
+- finish_reason: stop
+- input_tokens: 3072
+- output_tokens: 3119
+- automated score: 82/82
+- automated accuracy: 100%
+- unsafe_assessment: 0
+- preventive_omission: 0
+
+Interpretive note:
+C1 and C2 remain technical INVALID_JSON observations and are not repaired or converted into valid benchmark responses.
+Their raw text is retained for audit only.
+C3 is the only scientifically scorable M3 response for P06.
+
+Additional raw-content observations:
+- C1 correctly identifies the regulatory ordering of the two agents but fails to use the supplied 19 yes / 29 no questionnaire data for the ERBio calculation.
+- C2 reverses the regulatory groups of the two agents and incorrectly treats 1-compliance as ERBio probability and GRB.
+These observations are descriptive only and do not override INVALID_JSON exclusion.
