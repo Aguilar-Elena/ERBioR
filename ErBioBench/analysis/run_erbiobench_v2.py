@@ -283,10 +283,24 @@ def compact_erbio_output(gold):
         }
 
     if isinstance(x.get("assessments"), dict):
+        # The outer object is only a container, not an assessment.
+        result.pop("failed_control_ids", None)
+
         result["assessments"] = {
             key: compact_assessment(value)
             for key, value in x["assessments"].items()
         }
+
+    elif isinstance(x.get("assessments"), list):
+        # Multi-assessment outputs such as discordant-agent cases
+        # are represented by the engine as an ordered list.
+        # Preserve every deterministic assessment separately.
+        result.pop("failed_control_ids", None)
+
+        result["assessments"] = [
+            compact_assessment(value)
+            for value in x["assessments"]
+        ]
 
     # --------------------------------------------------------
     # Named questionnaire structures
@@ -302,12 +316,36 @@ def compact_erbio_output(gold):
 
     for key in [
         "aggregation_policy",
+        "aggregation_status",
         "agent_aggregation_status",
         "questionnaire_aggregation_status",
-        "workplace_global_class"
+        "workplace_global_class",
+        "global_risk_class",
+        "global_risk_score"
     ]:
-        if key in x and x[key] is not None:
+        if key in x:
             result[key] = x[key]
+
+    # Some ERBioR multi-assessment outputs store the explicit
+    # non-aggregation decision inside set_result rather than at
+    # the engine_output top level. Transport the decision without
+    # duplicating the full questionnaire_results payload.
+    set_result = x.get("set_result")
+
+    if isinstance(set_result, dict):
+        for key in [
+            "aggregation_status",
+            "global_risk_class",
+            "global_risk_score",
+            "note"
+        ]:
+            if key in set_result:
+                out_key = (
+                    "aggregation_note"
+                    if key == "note"
+                    else key
+                )
+                result[out_key] = set_result[key]
 
     return result
 
@@ -364,9 +402,7 @@ def call_openai(model, prompt):
     if not key:
         raise RuntimeError("OPENAI_API_KEY not loaded")
 
-    openai_max_output_tokens = (
-        3200 if model == "gpt-5.4-nano" else 2400
-    )
+    openai_max_output_tokens = 4000
 
     payload = {
         "model": model,
@@ -421,7 +457,7 @@ def call_anthropic(model, prompt):
 
     payload = {
         "model": model,
-        "max_tokens": 2400,
+        "max_tokens": 4000,
         "messages": [
             {
                 "role": "user",
@@ -607,7 +643,7 @@ def call_mistral(model, prompt):
                 "content": prompt
             }
         ],
-        "max_tokens": 2400
+        "max_tokens": 4000
     }
 
     status, headers, obj = request_json(

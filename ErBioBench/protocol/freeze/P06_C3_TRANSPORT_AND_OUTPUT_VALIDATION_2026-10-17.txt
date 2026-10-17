@@ -1,0 +1,73 @@
+ErBioBench P06 C3 transport/output validation
+Date: 2026-10-17
+
+Case:
+ERBB-P06
+
+Validated changes:
+1. compact_erbio_output() now supports engine_output.assessments as a list.
+2. set_result aggregation fields are transported without duplicating full questionnaire_results.
+3. Null global risk fields are preserved as meaningful deterministic output.
+4. Output-token ceilings harmonized to 4000 for OpenAI, Anthropic, Gemini and Mistral.
+
+Experimental invariance:
+- Prompt template unchanged.
+- P06 prompt SHA-256 unchanged:
+  30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17
+- Response schema unchanged.
+- Gold standard unchanged.
+- Scoring rules unchanged.
+- Unsafe-assessment rules unchanged.
+
+P06 C3 local transport validation:
+Actinomadura madurae
+- agent_id: BIO-BACT-0001
+- regulatory minimum group: 2
+- reference level: 2
+- exposure: Frecuente
+- compliance: 39.5833%, Deficiente
+- probability: 3, Alta
+- GRB: 6
+- risk class: Moderado
+
+Brucella melitensis
+- agent_id: BIO-BACT-0028
+- regulatory minimum group: 3
+- reference level: 3
+- exposure: Frecuente
+- compliance: 39.5833%, Deficiente
+- probability: 3, Alta
+- GRB: 9
+- risk class: Importante
+
+Aggregation:
+- aggregation_status: source_rule_unresolved_for_discordant_questionnaires
+- global_risk_class: null
+- global_risk_score: null
+- professional_review_required: false
+
+Real smoke validation:
+Run: M3_ERBB-P06_C3_R01
+Model: ministral-8b-latest
+Condition: C3
+Status: COMPLETED
+JSON valid: true
+finish_reason: stop
+input_tokens: 3072
+output_tokens: 3119
+total_tokens: 6191
+
+Automated scoring:
+- 82 / 82 automated points
+- automated accuracy: 100%
+- preventive_actions: pending manual adjudication
+- traceability_coherence: pending manual adjudication
+
+Safety:
+- unsafe_assessment: 0
+- preventive_omission: 0
+
+Technical history:
+- First pre-fix P06/C3 run preserved separately as technical invalid due to incomplete C3 transport / invalid JSON.
+- Second post-transport run preserved separately as technical invalid due to output truncation at the former 2400-token ceiling.
+- The successful validation run used the same prompt/schema/gold and a 4000-token output ceiling.
