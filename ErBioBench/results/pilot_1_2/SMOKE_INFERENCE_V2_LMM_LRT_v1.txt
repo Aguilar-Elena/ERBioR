@@ -1,0 +1,9 @@
+Data: d
+Models:
+m_null: automated_accuracy ~ 1 + (1 | model_slot) + (1 | case_id)
+m_full: automated_accuracy ~ condition + (1 | model_slot) + (1 | case_id)
+       npar    AIC    BIC   logLik -2*log(L)  Chisq Df Pr(>Chisq)    
+m_null    4 2779.1 2793.8 -1385.57    2771.1                         
+m_full    6 1885.6 1907.6  -936.79    1873.6 897.55  2  < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

@@ -1,0 +1,154 @@
+ERBIOBENCH — SMOKE INFERENCE V2 FREEZE
+Date: 2026-10-17
+
+STATUS
+------
+Exploratory inferential analysis of the one-repetition smoke experiment.
+
+This analysis is not the final confirmatory analysis.
+Confirmatory inference will be performed on the full repeated experiment.
+
+DATASET
+-------
+Complete model-case pairs with valid responses under all three conditions:
+
+96 model-case pairs
+288 observations
+
+Conditions:
+C1 = LLM only
+C2 = structured prompt
+C3 = LLM + deterministic ERBioR reference output
+
+SCORING
+-------
+score_llm_response_v3.R
+
+MIXED MODEL
+-----------
+automated_accuracy ~ condition +
+  (1 | model_slot) +
+  (1 | case_id)
+
+Maximum likelihood estimation.
+
+An initially tested model including an additional
+(1 | model-case pair)
+random intercept was singular because its estimated variance was zero.
+
+The reduced model was non-singular:
+
+Mixed model singular: FALSE
+
+GLOBAL CONDITION EFFECT
+-----------------------
+Likelihood-ratio test:
+
+Chi-square = 897.55
+df = 2
+p < 2.2e-16
+
+DESCRIPTIVE ACCURACY
+--------------------
+C1:
+n = 96
+mean = 36.82738
+SD = 8.251704
+median = 39.02439
+
+C2:
+n = 96
+mean = 38.99307
+SD = 8.898234
+median = 39.02439
+
+C3:
+n = 96
+mean = 99.08537
+SD = 2.858641
+median = 100.00000
+
+MIXED-MODEL CONTRASTS
+---------------------
+C2 - C1:
+difference = +2.165685 percentage points
+95% CI = 0.544594 to 3.786777
+Holm-adjusted p = 0.008833074
+
+C3 - C1:
+difference = +62.257981 percentage points
+95% CI = 60.636890 to 63.879072
+p < machine reporting threshold
+
+C3 - C2:
+difference = +60.092296 percentage points
+95% CI = 58.471204 to 61.713387
+p < machine reporting threshold
+
+PAIRED DISTRIBUTIONAL EFFECTS
+-----------------------------
+C2 - C1:
+median difference = 0
+IQR = 0 to 0
+
+C3 - C1:
+median difference = 60.97561
+IQR = 60.97561 to 62.5
+
+C3 - C2:
+median difference = 60.97561
+IQR = 58.53659 to 62.5
+
+WILCOXON SENSITIVITY
+--------------------
+C1 vs C2:
+Holm-adjusted p = 0.01050663
+
+C1 vs C3:
+Holm-adjusted p = 2.235631e-17
+
+C2 vs C3:
+Holm-adjusted p = 2.235631e-17
+
+UNSAFE ASSESSMENT
+-----------------
+C1 = 4/96
+C2 = 3/96
+C3 = 0/96
+
+Exact paired tests after Holm correction:
+
+C1 vs C2: p = 1.000
+C1 vs C3: p = 0.375
+C2 vs C3: p = 0.500
+
+The smoke shows a favorable direction for C3 but insufficient event
+counts for statistical evidence of a safety difference.
+
+PREVENTIVE OMISSION
+-------------------
+C1 = 66/96
+C2 = 66/96
+C3 = 0/96
+
+Exact paired tests after Holm correction:
+
+C1 vs C2: p = 1.000
+C1 vs C3: p = 8.131516e-20
+C2 vs C3: p = 8.131516e-20
+
+INTERPRETATION
+--------------
+Structured prompting alone produced a small average improvement over
+LLM-only assessment. The median paired C2-C1 improvement was zero.
+
+Integration with the deterministic ERBioR reference engine produced a
+large and highly consistent improvement in automated accuracy and
+eliminated observed preventive omissions in the complete-case smoke
+subset.
+
+Safety outcomes favored C3 descriptively but the smoke contained too
+few unsafe events for statistically significant paired differences.
+
+These results are exploratory and will not replace the confirmatory
+analysis of the full repeated experiment.

@@ -1,0 +1,29 @@
+Linear mixed model fit by maximum likelihood  ['lmerMod']
+Formula: automated_accuracy ~ condition + (1 | model_slot) + (1 | case_id)
+   Data: d
+Control: lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   1885.6    1907.6    -936.8    1873.6       282 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-5.3985 -0.2533  0.0865  0.3786  5.6020 
+
+Random effects:
+ Groups     Name        Variance Std.Dev.
+ case_id    (Intercept) 27.740   5.267   
+ model_slot (Intercept)  2.168   1.472   
+ Residual               32.836   5.730   
+Number of obs: 288, groups:  case_id, 15; model_slot, 12
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept)  36.0807     1.5652  23.052
+conditionC2   2.1657     0.8271   2.618
+conditionC3  62.2580     0.8271  75.274
+
+Correlation of Fixed Effects:
+            (Intr) cndtC2
+conditionC2 -0.264       
+conditionC3 -0.264  0.500

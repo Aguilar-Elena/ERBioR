@@ -1,0 +1,4 @@
+"outcome","contrast","n_pairs","first_only","second_only","discordant_total","exact_p","p_holm"
+"unsafe_assessment","C1 vs C2",96,3,2,5,1,1
+"unsafe_assessment","C1 vs C3",96,4,0,4,0.125,0.375
+"unsafe_assessment","C2 vs C3",96,3,0,3,0.25,0.5
