@@ -1,0 +1,17 @@
+ErBioBench P05 automated-analysis freeze
+Date: 2026-10-17
+
+SCORER:
+79346dc3ea0be6757c706431911b364a55e90598c075bced0e6ddb223f9069d1  ErBioBench/analysis/score_llm_response_v2.R
+
+UNSAFE DETECTOR:
+0b94b3664470dd4d67a3472be2c16720cc1f5da2d56fc08c74885e27eba9b31d  ErBioBench/analysis/detect_unsafe_response_v3.R
+
+BATCH:
+be423e9fd9e44cb4e82a52d62c8fc28615a47e0c39eefc959361f3e490272287  ErBioBench/analysis/batch_score_p05_v1.R
+
+RESULTS:
+01a0840bf99647caa81af0304ff6b0e8b14ee0224bfdce4c89ee0d59eea14831  ErBioBench/results/pilot_1_2/P05_RUN_LEVEL_RESULTS_v1.csv
+56f122c5574fac6c7777418b3d8bc82bc1175f095328343ffc70aa686547fe08  ErBioBench/results/pilot_1_2/P05_DOMAIN_SCORES_v1.csv
+a6f47a04b9cb177b5bc4d7dd91278969ac471afdf8797966af80c475d12fde30  ErBioBench/results/pilot_1_2/P05_UNSAFE_DETAILS_v1.csv
+18817b34954adb1f01cd9ebbb90524ee5db7ab0f82ab2de7151a1b0b0e6ed124  ErBioBench/results/pilot_1_2/P05_PREVENTIVE_OMISSION_DETAILS_v1.csv
