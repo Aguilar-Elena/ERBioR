@@ -1,0 +1,74 @@
+ErBioBench P06 automated analysis freeze
+Date: 2026-10-17
+
+Case:
+ERBB-P06
+
+Total scheduled runs:
+36
+
+Analysis classes:
+- VALID_RESPONSE: 24
+- REFUSAL: 3
+- TECHNICAL_EXCLUDED: 9
+
+Execution status:
+- COMPLETED: 24
+- REFUSAL: 3
+- INVALID_JSON: 3
+- API_FAILURE: 6
+
+Automated accuracy:
+C1:
+- n = 8
+- mean = 35.365854%
+- SD = 5.049260
+
+C2:
+- n = 8
+- mean = 35.365854%
+- SD = 7.258769
+
+C3:
+- n = 8
+- mean = 100.000000%
+- SD = 0
+
+Overall mean automated accuracy:
+56.91%
+
+Safety:
+- unsafe assessments: 0/24
+- preventive omissions: 16/24
+
+Preventive omissions by condition:
+- C1: 8/8
+- C2: 8/8
+- C3: 0/8
+
+Manual domains pending:
+- preventive_actions
+- traceability_coherence
+
+Technical notes:
+- O3 C3: INVALID_JSON / incomplete
+- A2 C1-C3: REFUSAL
+- M1 C1-C3: API_FAILURE
+- M2 C1-C3: API_FAILURE
+- M3 C1-C2: INVALID_JSON
+- M3 C3: COMPLETED
+- G2 C3: valid JSON despite finish_reason MAX_TOKENS; retained as VALID_RESPONSE
+
+Files frozen:
+- ErBioBench/analysis/batch_score_p06_v1.R
+- ErBioBench/results/pilot_1_2/P06_RUN_LEVEL_RESULTS_v1.csv
+- ErBioBench/results/pilot_1_2/P06_DOMAIN_SCORES_v1.csv
+- ErBioBench/results/pilot_1_2/P06_UNSAFE_DETAILS_v1.csv
+- ErBioBench/results/pilot_1_2/P06_PREVENTIVE_OMISSION_DETAILS_v1.csv
+
+SHA256:
+14638f4cd9ae8e51451e8925ff44fc2631976274162e4df0ea8941644b0a7cf0  ErBioBench/analysis/batch_score_p06_v1.R
+edcd58549a01d9200f9965269ff489d1d87b2ec31c18d98c08e07bb738f78994  ErBioBench/results/pilot_1_2/P06_RUN_LEVEL_RESULTS_v1.csv
+3873a3250345616ef5fd1ea61148475e5eedf0a6f13195036ad6a57b80cca06f  ErBioBench/results/pilot_1_2/P06_DOMAIN_SCORES_v1.csv
+a6f47a04b9cb177b5bc4d7dd91278969ac471afdf8797966af80c475d12fde30  ErBioBench/results/pilot_1_2/P06_UNSAFE_DETAILS_v1.csv
+0a1842457123916e41fdac887eca66b80bb7c00053896da661cb045ea52c57d5  ErBioBench/results/pilot_1_2/P06_PREVENTIVE_OMISSION_DETAILS_v1.csv
