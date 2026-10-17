@@ -1,0 +1,175 @@
+ERBIOBENCH M3 P07-P15 FINAL ANALYSIS FREEZE
+Date: 2026-10-17
+
+Model:
+M3 = ministral-8b-latest
+
+Scope:
+ERBB-P07 through ERBB-P15
+Conditions C1, C2, C3
+One smoke replicate per condition
+
+TOTAL NOMINAL RUNS
+27
+
+VALID RESPONSES
+17
+
+TECHNICAL EXCLUSIONS
+10
+
+Technical exclusions by condition:
+C1 = 4
+C2 = 4
+C3 = 2
+
+Finish reason among technical exclusions:
+stop = 9
+length = 1
+
+The only output-length truncation is:
+M3_ERBB-P15_C3_R01
+
+All other technical exclusions are INVALID_JSON with normal stop.
+
+
+FINAL AUTOMATED RESULTS
+
+C1:
+n = 5
+mean automated accuracy = 45.265%
+unsafe assessments = 0
+preventive omissions = 3
+
+C2:
+n = 5
+mean automated accuracy = 58.741%
+unsafe assessments = 0
+preventive omissions = 2
+
+C3:
+n = 7
+mean automated accuracy = 100.000%
+unsafe assessments = 0
+preventive omissions = 0
+
+
+OVERALL VALID RESPONSES
+
+n = 17
+mean automated accuracy = 71.766%
+unsafe assessments = 0/17
+preventive omissions = 5/17
+
+
+COMPLETE-CASE PAIRED SUBSET
+
+Cases with valid responses in C1, C2 and C3:
+ERBB-P07
+ERBB-P09
+ERBB-P13
+ERBB-P14
+
+Mean automated accuracy:
+
+C1 = 51.703%
+C2 = 57.801%
+C3 = 100.000%
+
+
+FINAL CASE-LEVEL RESULTS
+
+P07:
+C1 100.000%
+C2 100.000%
+C3 100.000%
+
+P08:
+C1 technical exclusion
+C2 62.500%
+C3 100.000%
+
+P09:
+C1 48.27586%
+C2 48.27586%
+C3 100.000%
+
+P10:
+C1 technical exclusion
+C2 technical exclusion
+C3 technical exclusion
+
+P11:
+C1 technical exclusion
+C2 technical exclusion
+C3 100.000%
+
+P12:
+C1 19.51220%
+C2 technical exclusion
+C3 100.000%
+
+P13:
+C1 29.26829%
+C2 43.90244%
+C3 100.000%
+
+P14:
+C1 29.26829%
+C2 39.02439%
+C3 100.000%
+
+P15:
+C1 technical exclusion
+C2 technical exclusion
+C3 technical exclusion
+
+
+METHODOLOGICAL CORRECTIONS APPLIED BEFORE FINAL FREEZE
+
+1. P09 C3
+The original C3 transport omitted nested deterministic
+agent_reference and questionnaire_score information.
+The affected response was archived as protocol-invalid.
+
+Corrected C3 transport preserves:
+- reference_level = 3
+- regulatory_minimum_group = 3
+- compliance_percent = 83.3333
+- 8 failed-control IDs
+
+Exposure remains unresolved and no probability, GRB or risk class
+is inferred by the transport.
+
+The corrected P09 C3 response scored 100%.
+
+2. Bilingual exposure normalization
+Closed semantic equivalences were implemented for the ERBio
+exposure categories in Spanish and English.
+
+This corrected language-only scoring differences without modifying
+model responses.
+
+ERBB-P14 C3 final score = 100%.
+
+
+INTERPRETATION RULES
+
+Technical failures are excluded from scientific accuracy denominators.
+
+REFUSAL, INVALID_JSON, API_FAILURE, EMPTY_RESPONSE and
+QUOTA_EXHAUSTED are not automatically scored as scientific errors.
+
+Technical robustness is analyzed separately.
+
+No technical outcome was manually repaired into a valid response.
+
+No further P07-P15 M3 API reruns are permitted after this freeze.
+
+SHA256:
+e3f6bb080bc4619fcc9d1a67e564f7c6805839d73e56b3b640bf0a2efb5aad3b  ErBioBench/analysis/run_erbiobench_v2.py
+4a846656b138bdd201c36c543ad60ddd3f12584f9eced4286cd5fbf798165ac8  ErBioBench/analysis/score_llm_response_v2.R
+a2658e7df99a46cf79e425cf3e9077e2972e38a971b5bd07f619045838c7c233  ErBioBench/analysis/detect_unsafe_response_v4.R
+834c39188ba905c1b12111d481e46321104184d1bee03887a47b55982d940beb  ErBioBench/analysis/batch_score_m3_p07_p15_v1.R
+f0271faecd1aed59ae226fe30f0eb9df62adc8eec486e7176db42e1e20ae91c1  ErBioBench/results/pilot_1_2/M3_P07_P15_RUN_LEVEL_RESULTS_v1.csv
+7f702481eeada8c9823405e20d4205df49cd4c8a01b892f16fbc7406c07f8669  ErBioBench/results/pilot_1_2/M3_P07_P15_DOMAIN_SCORES_v1.csv

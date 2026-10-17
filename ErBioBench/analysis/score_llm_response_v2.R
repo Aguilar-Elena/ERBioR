@@ -94,6 +94,59 @@ same_chr <- function(x, y) {
   )
 }
 
+
+normalize_exposure_category <- function(x) {
+
+  if (json_missing(x)) {
+    return(NA_character_)
+  }
+
+  z <- trimws(tolower(as.character(x)))
+
+  map <- c(
+    "continuo" = "continuous",
+    "continuous" = "continuous",
+
+    "muy frecuente" = "very_frequent",
+    "very frequent" = "very_frequent",
+    "very_frequent" = "very_frequent",
+
+    "frecuente" = "frequent",
+    "frequent" = "frequent",
+
+    "irregular" = "irregular",
+
+    "ocasional" = "occasional",
+    "occasional" = "occasional"
+  )
+
+  if (length(z) != 1L || is.na(z)) {
+    return(NA_character_)
+  }
+
+  if (z %in% names(map)) {
+    return(unname(map[[z]]))
+  }
+
+  z
+}
+
+same_exposure_category <- function(x, y) {
+
+  nx <- normalize_exposure_category(x)
+  ny <- normalize_exposure_category(y)
+
+  if (is.na(nx) && is.na(ny)) {
+    return(TRUE)
+  }
+
+  if (is.na(nx) || is.na(ny)) {
+    return(FALSE)
+  }
+
+  identical(nx, ny)
+}
+
 norm_ids <- function(x) {
 
   if (json_missing(x)) {
@@ -744,7 +797,7 @@ score_unit <- function(g, r) {
   out <- list()
 
   out$exposure <-
-    same_chr(
+    same_exposure_category(
       r$exposure$category,
       g$exposure
     )

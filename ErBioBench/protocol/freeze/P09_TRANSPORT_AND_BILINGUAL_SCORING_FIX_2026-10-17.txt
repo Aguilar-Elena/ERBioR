@@ -1,0 +1,67 @@
+ErBioBench methodological correction freeze
+Date: 2026-10-17
+
+1. ERBB-P09 C3 transport defect
+--------------------------------
+The deterministic ERBioR engine contained:
+- classified Brucella melitensis
+- reference_level = 3
+- regulatory_minimum_group = 3
+- questionnaire compliance = 83.3333%
+- 8 failed controls
+- exposure unresolved / empty
+- assessment_status = insufficient_information
+
+The previous C3 compact transport omitted the nested
+agent_reference and questionnaire_score structures.
+
+Consequently, the previous M3 ERBB-P09 C3 response was generated
+from incomplete deterministic information and is excluded as a
+protocol/transport-invalid run, despite being syntactically valid JSON.
+
+The corrected transport preserves:
+- agent_reference
+- reference_level
+- regulatory_minimum_group
+- questionnaire identity/version
+- compliance_percent
+- scoring_detail
+- failed_control_ids
+
+It does NOT infer exposure, probability, GRB or risk class.
+
+Corrected P09 checks:
+reference_level = 3
+compliance_percent = 83.3333
+failed_controls = 8
+exposure = {}
+
+Corrected M3 C3 prompt chars:
+ERBB-P09 = 5840
+
+Regression prompt checks:
+ERBB-P06 = 10480
+ERBB-P12 = 10262
+ERBB-P15 = 11289
+
+
+2. Bilingual exposure scoring
+--------------------------------
+ERBioBench scoring now treats the fixed ERBio exposure categories
+as semantically equivalent across Spanish and English:
+
+Continuo = Continuous
+Muy frecuente = Very frequent
+Frecuente = Frequent
+Irregular = Irregular
+Ocasional = Occasional
+
+No fuzzy matching or free translation is used.
+
+This corrects the ERBB-P14 C3 score from 90.2439% to 100%
+without changing the model response or making a new API call.
+
+SHA256:
+e3f6bb080bc4619fcc9d1a67e564f7c6805839d73e56b3b640bf0a2efb5aad3b  ErBioBench/analysis/run_erbiobench_v2.py
+4a846656b138bdd201c36c543ad60ddd3f12584f9eced4286cd5fbf798165ac8  ErBioBench/analysis/score_llm_response_v2.R
+1485120c68120b0a945c7ea0c0e1d61d7e7e6277611abc6e409af89bf9fc3f29  ErBioBench/pilot/gold/ERBB-P09_gold.json

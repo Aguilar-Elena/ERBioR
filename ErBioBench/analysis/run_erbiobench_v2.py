@@ -533,6 +533,85 @@ def compact_erbio_output(gold):
         else:
             result["resolved_agents"] = resolved_full
 
+    # ----------------------------------------------------
+    # Preserve nested reference and questionnaire-score
+    # structures used by abstention / insufficient-information
+    # cases. These are source data, not inferred results.
+    # ----------------------------------------------------
+
+    if isinstance(x.get("agent_reference"), dict):
+
+        ar = x["agent_reference"]
+
+        agent_reference = {
+            "agent_query": ar.get("agent_query"),
+            "agent_id": ar.get("agent_id"),
+            "agent_name": ar.get("agent_name"),
+            "agent_type": ar.get("agent_type"),
+            "classification_status":
+                ar.get("classification_status"),
+            "reference_level":
+                ar.get("reference_level"),
+            "regulatory_minimum_group":
+                ar.get("regulatory_minimum_group"),
+            "requires_professional_assessment":
+                ar.get("requires_professional_assessment"),
+            "source_rule":
+                ar.get("source_rule"),
+            "warnings":
+                ar.get("warnings") or None,
+        }
+
+        result["agent_reference"] = {
+            k: v
+            for k, v in agent_reference.items()
+            if v is not None
+        }
+
+    if isinstance(x.get("questionnaire_score"), dict):
+
+        qs = x["questionnaire_score"]
+
+        failed = qs.get("failed_controls")
+
+        failed_ids = []
+
+        if isinstance(failed, list):
+            for item in failed:
+                if isinstance(item, dict):
+                    item_id = item.get("item_id")
+                    if item_id is not None:
+                        failed_ids.append(item_id)
+                elif item is not None:
+                    failed_ids.append(item)
+
+        scoring_detail = qs.get("scoring_detail")
+
+        questionnaire_score = {
+            "questionnaire_id":
+                qs.get("questionnaire_id"),
+            "questionnaire_name":
+                qs.get("questionnaire_name"),
+            "questionnaire_version":
+                qs.get("version"),
+            "scoring":
+                qs.get("scoring"),
+            "compliance_percent":
+                qs.get("compliance_percent"),
+            "scoring_detail":
+                scoring_detail
+                if isinstance(scoring_detail, dict)
+                else None,
+            "failed_control_ids":
+                failed_ids,
+        }
+
+        result["questionnaire_score"] = {
+            k: v
+            for k, v in questionnaire_score.items()
+            if v is not None
+        }
+
     if isinstance(x.get("unresolved_human_virus"), dict):
         result.pop("failed_control_ids", None)
 
