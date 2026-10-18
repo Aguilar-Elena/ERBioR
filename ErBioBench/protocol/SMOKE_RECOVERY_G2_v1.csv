@@ -1,0 +1,191 @@
+run_id,benchmark_version,ERBioR_version,model_slot,provider,model_family,model_tier,model_id,model_version_or_snapshot,access_mode,reasoning_mode,case_id,condition_id,repetition,case_file,case_sha256,input_file,input_sha256,gold_file,gold_sha256,prompt_file,prompt_sha256,response_schema_file,response_schema_sha256,raw_output_file,structured_output_file,metadata_file,execution_status,started_at_utc,completed_at_utc,latency_ms,input_tokens,output_tokens,total_tokens,api_request_id,finish_reason,parse_valid_json,automated_accuracy,unsafe_assessment,unsafe_max_severity,unsafe_rule_codes,manual_scoring_status,notes,current_category,current_execution_status,current_finish_reason,current_error,metadata_sha256
+G2_ERBB-P12_C2_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P12,C2,1,ErBioBench/pilot/cases/ERBB-P12.md,ffb96953194b20b82f6f9ff626dd393a0ae353574c4a3c063187665ecb94d457,ErBioBench/pilot/inputs/ERBB-P12_input.json,476c358c255ae71eb28373778299fe15afc450a673e04e8d9851c15a0d7ff310,ErBioBench/pilot/gold/ERBB-P12_gold.json,8aa5b1a764ae5974ce384362ae65c811fdc13caeb67cb6fc86fafe3311951d15,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,QUOTA_EXHAUSTED,QUOTA_EXHAUSTED,,"HTTP 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 16h18m58.910718807s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://ai.google.dev/gemini-api/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3.6-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""58738s""
+      }
+    ]
+  }
+}
+",29276c3d355c3466a0941edab6c676903314db7fe6e06e99bc206503671f7332
+G2_ERBB-P12_C3_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P12,C3,1,ErBioBench/pilot/cases/ERBB-P12.md,ffb96953194b20b82f6f9ff626dd393a0ae353574c4a3c063187665ecb94d457,ErBioBench/pilot/inputs/ERBB-P12_input.json,476c358c255ae71eb28373778299fe15afc450a673e04e8d9851c15a0d7ff310,ErBioBench/pilot/gold/ERBB-P12_gold.json,8aa5b1a764ae5974ce384362ae65c811fdc13caeb67cb6fc86fafe3311951d15,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,QUOTA_EXHAUSTED,QUOTA_EXHAUSTED,,"HTTP 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 16h18m58.626320897s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://ai.google.dev/gemini-api/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3.6-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""58738s""
+      }
+    ]
+  }
+}
+",3ed0ce93f4783ab0d10de81cc5e24d8850597d25abd0b883c49ffe85a4d1ba4a
+G2_ERBB-P13_C1_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P13,C1,1,ErBioBench/pilot/cases/ERBB-P13.md,ef0b5edd4d57895aa176c5e249408cf38e873a59bc64af3d982ae326d615ddb3,ErBioBench/pilot/inputs/ERBB-P13_input.json,9bba1c455a1934838e4cb9e6b2c35d42b9f4ac23767da7bdc6d2c11b5b288887,ErBioBench/pilot/gold/ERBB-P13_gold.json,65075ff45a5d59aefd1e55d9c173ee3ae0e2cc40ad70d22ba17538021e52a09a,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,QUOTA_EXHAUSTED,QUOTA_EXHAUSTED,,"HTTP 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 16h18m58.42598967s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://ai.google.dev/gemini-api/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""model"": ""gemini-3.6-flash"",
+              ""location"": ""global""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""58738s""
+      }
+    ]
+  }
+}
+",1a97ef95dfbb3ab28ca775fce7fd2fd7217fb11441a9d9b5fd8cf4ed321c612d
+G2_ERBB-P13_C2_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P13,C2,1,ErBioBench/pilot/cases/ERBB-P13.md,ef0b5edd4d57895aa176c5e249408cf38e873a59bc64af3d982ae326d615ddb3,ErBioBench/pilot/inputs/ERBB-P13_input.json,9bba1c455a1934838e4cb9e6b2c35d42b9f4ac23767da7bdc6d2c11b5b288887,ErBioBench/pilot/gold/ERBB-P13_gold.json,65075ff45a5d59aefd1e55d9c173ee3ae0e2cc40ad70d22ba17538021e52a09a,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,QUOTA_EXHAUSTED,QUOTA_EXHAUSTED,,"HTTP 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 16h18m58.215949486s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://ai.google.dev/gemini-api/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3.6-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""58738s""
+      }
+    ]
+  }
+}
+",d7846133f1f22fd251941bc730dcd28c246e07474cb51d197d8faad3ca05606a
+G2_ERBB-P13_C3_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P13,C3,1,ErBioBench/pilot/cases/ERBB-P13.md,ef0b5edd4d57895aa176c5e249408cf38e873a59bc64af3d982ae326d615ddb3,ErBioBench/pilot/inputs/ERBB-P13_input.json,9bba1c455a1934838e4cb9e6b2c35d42b9f4ac23767da7bdc6d2c11b5b288887,ErBioBench/pilot/gold/ERBB-P13_gold.json,65075ff45a5d59aefd1e55d9c173ee3ae0e2cc40ad70d22ba17538021e52a09a,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,QUOTA_EXHAUSTED,QUOTA_EXHAUSTED,,"HTTP 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 16h18m57.868905516s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://ai.google.dev/gemini-api/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3.6-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""58737s""
+      }
+    ]
+  }
+}
+",8f873a85db9b64d62eff6cfb125cff8fff3c50d5c9807d49f0ec9bd14fe065ea
+G2_ERBB-P14_C2_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P14,C2,1,ErBioBench/pilot/cases/ERBB-P14.md,edf22e4d088e984ae8e20c4f074f90843810e6b9b08434bfba120c8813c595f2,ErBioBench/pilot/inputs/ERBB-P14_input.json,e6b527dd61859bd33e81d1bbced041bb79f36e9b72713a25328063f57a78cd1a,ErBioBench/pilot/gold/ERBB-P14_gold.json,4b07944e1558f46376198e74dd8eec0d22a075616b57b9f1197a4178d3f4a701,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P14_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P14_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P14_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,NEVER_ATTEMPTED,,,,
+G2_ERBB-P14_C3_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P14,C3,1,ErBioBench/pilot/cases/ERBB-P14.md,edf22e4d088e984ae8e20c4f074f90843810e6b9b08434bfba120c8813c595f2,ErBioBench/pilot/inputs/ERBB-P14_input.json,e6b527dd61859bd33e81d1bbced041bb79f36e9b72713a25328063f57a78cd1a,ErBioBench/pilot/gold/ERBB-P14_gold.json,4b07944e1558f46376198e74dd8eec0d22a075616b57b9f1197a4178d3f4a701,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P14_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P14_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P14_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,NEVER_ATTEMPTED,,,,
+G2_ERBB-P15_C1_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P15,C1,1,ErBioBench/pilot/cases/ERBB-P15.md,f06b684a8031eba4a1d5211972fd11b628ab9a9215d4ac261f309c54407cd677,ErBioBench/pilot/inputs/ERBB-P15_input.json,91dd79f46ca04e88232d8a98587d8e54cd45c80353a54d049d177d42f43c58a0,ErBioBench/pilot/gold/ERBB-P15_gold.json,5663ea6f9211066088dd9aab7c2296a4a63b1bf1296194426ef02abf9e556488,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P15_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P15_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P15_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,NEVER_ATTEMPTED,,,,
+G2_ERBB-P15_C2_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P15,C2,1,ErBioBench/pilot/cases/ERBB-P15.md,f06b684a8031eba4a1d5211972fd11b628ab9a9215d4ac261f309c54407cd677,ErBioBench/pilot/inputs/ERBB-P15_input.json,91dd79f46ca04e88232d8a98587d8e54cd45c80353a54d049d177d42f43c58a0,ErBioBench/pilot/gold/ERBB-P15_gold.json,5663ea6f9211066088dd9aab7c2296a4a63b1bf1296194426ef02abf9e556488,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P15_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P15_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P15_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,NEVER_ATTEMPTED,,,,
+G2_ERBB-P15_C3_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P15,C3,1,ErBioBench/pilot/cases/ERBB-P15.md,f06b684a8031eba4a1d5211972fd11b628ab9a9215d4ac261f309c54407cd677,ErBioBench/pilot/inputs/ERBB-P15_input.json,91dd79f46ca04e88232d8a98587d8e54cd45c80353a54d049d177d42f43c58a0,ErBioBench/pilot/gold/ERBB-P15_gold.json,5663ea6f9211066088dd9aab7c2296a4a63b1bf1296194426ef02abf9e556488,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P15_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P15_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P15_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,NEVER_ATTEMPTED,,,,

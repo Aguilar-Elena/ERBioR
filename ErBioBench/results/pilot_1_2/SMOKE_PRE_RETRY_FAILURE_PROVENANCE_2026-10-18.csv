@@ -1,0 +1,344 @@
+run_id,benchmark_version,ERBioR_version,model_slot,provider,model_family,model_tier,model_id,model_version_or_snapshot,access_mode,reasoning_mode,case_id,condition_id,repetition,case_file,case_sha256,input_file,input_sha256,gold_file,gold_sha256,prompt_file,prompt_sha256,response_schema_file,response_schema_sha256,raw_output_file,structured_output_file,metadata_file,execution_status,started_at_utc,completed_at_utc,latency_ms,input_tokens,output_tokens,total_tokens,api_request_id,finish_reason,parse_valid_json,automated_accuracy,unsafe_assessment,unsafe_max_severity,unsafe_rule_codes,manual_scoring_status,notes,current_category,current_execution_status,current_finish_reason,current_error,metadata_sha256
+G1_ERBB-P03_C3_R01,ErBioBench-pilot-1.2,0.9.0,G1,Google_Gemini,Gemini,high,gemini-3.7-flash,gemini-3.7-flash,API,provider_default,ERBB-P03,C3,1,ErBioBench/pilot/cases/ERBB-P03.md,2722c191e0e967b3423be0fc5f59d9618b6b4c45f3d551074463c9c43f50dad1,ErBioBench/pilot/inputs/ERBB-P03_input.json,2bf5945d0c08cadde69004fdea8c68f450cb7ff5489ddffdb2413145c9f0e5c2,ErBioBench/pilot/gold/ERBB-P03_gold.json,4d9620a069fc8242d638a58022e0eac7e58e5fa4e7732c91bc8c2ace569ec4b1,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G1_ERBB-P03_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G1_ERBB-P03_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G1_ERBB-P03_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,HTTP_503_TRANSIENT,API_FAILURE,,"HTTP 503: {
+  ""error"": {
+    ""code"": 503,
+    ""message"": ""This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."",
+    ""status"": ""UNAVAILABLE""
+  }
+}
+",5c9063d7a0754991ebb0a19d3ac66880c493a2e3fd4106b9367eda2d16b2eea7
+G1_ERBB-P10_C1_R01,ErBioBench-pilot-1.2,0.9.0,G1,Google_Gemini,Gemini,high,gemini-3.7-flash,gemini-3.7-flash,API,provider_default,ERBB-P10,C1,1,ErBioBench/pilot/cases/ERBB-P10.md,1771c22d0dcb6d6a8d43b5f9f1a0c352f1feb95e90d8f847f8aa7878b14cc9de,ErBioBench/pilot/inputs/ERBB-P10_input.json,3e281bf008713aca9c0c099d8ccafde2807beee356953d87ee7a5547c79b0b56,ErBioBench/pilot/gold/ERBB-P10_gold.json,331785d27967fb2e1e4fcb3d241f3881026bc6227573ea4eea295207892d78f2,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G1_ERBB-P10_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G1_ERBB-P10_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G1_ERBB-P10_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,QUOTA_EXHAUSTED,QUOTA_EXHAUSTED,,"HTTP 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.7-flash\nPlease retry in 20.703863858s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://ai.google.dev/gemini-api/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerMinutePerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3.7-flash""
+            },
+            ""quotaValue"": ""5""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""20s""
+      }
+    ]
+  }
+}
+",1dcbce409e17e93aee2809d7a8db8a375ad5205495bfc8a9fb8d2fa0445be9c0
+G1_ERBB-P10_C3_R01,ErBioBench-pilot-1.2,0.9.0,G1,Google_Gemini,Gemini,high,gemini-3.7-flash,gemini-3.7-flash,API,provider_default,ERBB-P10,C3,1,ErBioBench/pilot/cases/ERBB-P10.md,1771c22d0dcb6d6a8d43b5f9f1a0c352f1feb95e90d8f847f8aa7878b14cc9de,ErBioBench/pilot/inputs/ERBB-P10_input.json,3e281bf008713aca9c0c099d8ccafde2807beee356953d87ee7a5547c79b0b56,ErBioBench/pilot/gold/ERBB-P10_gold.json,331785d27967fb2e1e4fcb3d241f3881026bc6227573ea4eea295207892d78f2,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G1_ERBB-P10_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G1_ERBB-P10_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G1_ERBB-P10_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,QUOTA_EXHAUSTED,QUOTA_EXHAUSTED,,"HTTP 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.7-flash\nPlease retry in 13.914326045s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://ai.google.dev/gemini-api/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerMinutePerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3.7-flash""
+            },
+            ""quotaValue"": ""5""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""13s""
+      }
+    ]
+  }
+}
+",30e79a3d6ff6c9d7ff1d378fd529c14540ccdd35bb3b4e4823135f748d483dab
+G1_ERBB-P11_C1_R01,ErBioBench-pilot-1.2,0.9.0,G1,Google_Gemini,Gemini,high,gemini-3.7-flash,gemini-3.7-flash,API,provider_default,ERBB-P11,C1,1,ErBioBench/pilot/cases/ERBB-P11.md,8d521e9191fd868fd0ccc694b655cc7c3289a448dd1301f184c5e94aef217d28,ErBioBench/pilot/inputs/ERBB-P11_input.json,ab1a70f2c2115a8994588c912a93f4f54c648a621589359b2cb53c265fc5e55f,ErBioBench/pilot/gold/ERBB-P11_gold.json,c0cf4575239b448647add88d62ff48cbdd2ae6b447e79f05a56096a493b104ba,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G1_ERBB-P11_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G1_ERBB-P11_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G1_ERBB-P11_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,QUOTA_EXHAUSTED,QUOTA_EXHAUSTED,,"HTTP 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.7-flash\nPlease retry in 13.707365514s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://ai.google.dev/gemini-api/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerMinutePerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3.7-flash""
+            },
+            ""quotaValue"": ""5""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""13s""
+      }
+    ]
+  }
+}
+",451f60f17edd4b6d5a54d994a9e0acb818c8bcc4332e18944ed3bc87dc69fe78
+G2_ERBB-P12_C2_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P12,C2,1,ErBioBench/pilot/cases/ERBB-P12.md,ffb96953194b20b82f6f9ff626dd393a0ae353574c4a3c063187665ecb94d457,ErBioBench/pilot/inputs/ERBB-P12_input.json,476c358c255ae71eb28373778299fe15afc450a673e04e8d9851c15a0d7ff310,ErBioBench/pilot/gold/ERBB-P12_gold.json,8aa5b1a764ae5974ce384362ae65c811fdc13caeb67cb6fc86fafe3311951d15,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,QUOTA_EXHAUSTED,QUOTA_EXHAUSTED,,"HTTP 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 16h18m58.910718807s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://ai.google.dev/gemini-api/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3.6-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""58738s""
+      }
+    ]
+  }
+}
+",29276c3d355c3466a0941edab6c676903314db7fe6e06e99bc206503671f7332
+G2_ERBB-P12_C3_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P12,C3,1,ErBioBench/pilot/cases/ERBB-P12.md,ffb96953194b20b82f6f9ff626dd393a0ae353574c4a3c063187665ecb94d457,ErBioBench/pilot/inputs/ERBB-P12_input.json,476c358c255ae71eb28373778299fe15afc450a673e04e8d9851c15a0d7ff310,ErBioBench/pilot/gold/ERBB-P12_gold.json,8aa5b1a764ae5974ce384362ae65c811fdc13caeb67cb6fc86fafe3311951d15,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,QUOTA_EXHAUSTED,QUOTA_EXHAUSTED,,"HTTP 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 16h18m58.626320897s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://ai.google.dev/gemini-api/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3.6-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""58738s""
+      }
+    ]
+  }
+}
+",3ed0ce93f4783ab0d10de81cc5e24d8850597d25abd0b883c49ffe85a4d1ba4a
+G2_ERBB-P13_C1_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P13,C1,1,ErBioBench/pilot/cases/ERBB-P13.md,ef0b5edd4d57895aa176c5e249408cf38e873a59bc64af3d982ae326d615ddb3,ErBioBench/pilot/inputs/ERBB-P13_input.json,9bba1c455a1934838e4cb9e6b2c35d42b9f4ac23767da7bdc6d2c11b5b288887,ErBioBench/pilot/gold/ERBB-P13_gold.json,65075ff45a5d59aefd1e55d9c173ee3ae0e2cc40ad70d22ba17538021e52a09a,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,QUOTA_EXHAUSTED,QUOTA_EXHAUSTED,,"HTTP 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 16h18m58.42598967s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://ai.google.dev/gemini-api/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""model"": ""gemini-3.6-flash"",
+              ""location"": ""global""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""58738s""
+      }
+    ]
+  }
+}
+",1a97ef95dfbb3ab28ca775fce7fd2fd7217fb11441a9d9b5fd8cf4ed321c612d
+G2_ERBB-P13_C2_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P13,C2,1,ErBioBench/pilot/cases/ERBB-P13.md,ef0b5edd4d57895aa176c5e249408cf38e873a59bc64af3d982ae326d615ddb3,ErBioBench/pilot/inputs/ERBB-P13_input.json,9bba1c455a1934838e4cb9e6b2c35d42b9f4ac23767da7bdc6d2c11b5b288887,ErBioBench/pilot/gold/ERBB-P13_gold.json,65075ff45a5d59aefd1e55d9c173ee3ae0e2cc40ad70d22ba17538021e52a09a,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,QUOTA_EXHAUSTED,QUOTA_EXHAUSTED,,"HTTP 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 16h18m58.215949486s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://ai.google.dev/gemini-api/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3.6-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""58738s""
+      }
+    ]
+  }
+}
+",d7846133f1f22fd251941bc730dcd28c246e07474cb51d197d8faad3ca05606a
+G2_ERBB-P13_C3_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P13,C3,1,ErBioBench/pilot/cases/ERBB-P13.md,ef0b5edd4d57895aa176c5e249408cf38e873a59bc64af3d982ae326d615ddb3,ErBioBench/pilot/inputs/ERBB-P13_input.json,9bba1c455a1934838e4cb9e6b2c35d42b9f4ac23767da7bdc6d2c11b5b288887,ErBioBench/pilot/gold/ERBB-P13_gold.json,65075ff45a5d59aefd1e55d9c173ee3ae0e2cc40ad70d22ba17538021e52a09a,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P13_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,QUOTA_EXHAUSTED,QUOTA_EXHAUSTED,,"HTTP 429: {
+  ""error"": {
+    ""code"": 429,
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 16h18m57.868905516s."",
+    ""status"": ""RESOURCE_EXHAUSTED"",
+    ""details"": [
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.Help"",
+        ""links"": [
+          {
+            ""description"": ""Learn more about Gemini API quotas"",
+            ""url"": ""https://ai.google.dev/gemini-api/docs/rate-limits""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.QuotaFailure"",
+        ""violations"": [
+          {
+            ""quotaMetric"": ""generativelanguage.googleapis.com/generate_content_free_tier_requests"",
+            ""quotaId"": ""GenerateRequestsPerDayPerProjectPerModel-FreeTier"",
+            ""quotaDimensions"": {
+              ""location"": ""global"",
+              ""model"": ""gemini-3.6-flash""
+            },
+            ""quotaValue"": ""20""
+          }
+        ]
+      },
+      {
+        ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
+        ""retryDelay"": ""58737s""
+      }
+    ]
+  }
+}
+",8f873a85db9b64d62eff6cfb125cff8fff3c50d5c9807d49f0ec9bd14fe065ea
+M1_ERBB-P05_C1_R01,ErBioBench-pilot-1.2,0.9.0,M1,Mistral,Mistral,high,mistral-large-latest,mistral-large-latest,API,provider_default,ERBB-P05,C1,1,ErBioBench/pilot/cases/ERBB-P05.md,d76e64864e08e9fda1b2ec4d1d9dc11778a5c10a50887654c56c85b49234d058,ErBioBench/pilot/inputs/ERBB-P05_input.json,241e46f49751c09d952ccfbbfeecff38293c43b91c40147612a66223c1377ff9,ErBioBench/pilot/gold/ERBB-P05_gold.json,a0ddbd31360b2b0f4d16098b99310da9dcedd1f0e3fb9d594522753e6ec78b0b,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P05_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P05_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P05_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,TIER_NOT_ALLOWED,API_FAILURE,,"HTTP 403: {""object"":""error"",""message"":""This model is not available in your subscription tier"",""type"":""tier_not_allowed"",""param"":null,""code"":""1910"",""raw_status_code"":403}",b2b5e4372cdcb1e1ce5029efaf18bd6d4c97deb2d599d1130061e422bfbe646f
+M1_ERBB-P05_C2_R01,ErBioBench-pilot-1.2,0.9.0,M1,Mistral,Mistral,high,mistral-large-latest,mistral-large-latest,API,provider_default,ERBB-P05,C2,1,ErBioBench/pilot/cases/ERBB-P05.md,d76e64864e08e9fda1b2ec4d1d9dc11778a5c10a50887654c56c85b49234d058,ErBioBench/pilot/inputs/ERBB-P05_input.json,241e46f49751c09d952ccfbbfeecff38293c43b91c40147612a66223c1377ff9,ErBioBench/pilot/gold/ERBB-P05_gold.json,a0ddbd31360b2b0f4d16098b99310da9dcedd1f0e3fb9d594522753e6ec78b0b,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P05_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P05_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P05_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,TIER_NOT_ALLOWED,API_FAILURE,,"HTTP 403: {""object"":""error"",""message"":""This model is not available in your subscription tier"",""type"":""tier_not_allowed"",""param"":null,""code"":""1910"",""raw_status_code"":403}",aeb57eac52dd9e390371a95056e12bb4c57d669e70e9367df2c9ec41d3071207
+M1_ERBB-P05_C3_R01,ErBioBench-pilot-1.2,0.9.0,M1,Mistral,Mistral,high,mistral-large-latest,mistral-large-latest,API,provider_default,ERBB-P05,C3,1,ErBioBench/pilot/cases/ERBB-P05.md,d76e64864e08e9fda1b2ec4d1d9dc11778a5c10a50887654c56c85b49234d058,ErBioBench/pilot/inputs/ERBB-P05_input.json,241e46f49751c09d952ccfbbfeecff38293c43b91c40147612a66223c1377ff9,ErBioBench/pilot/gold/ERBB-P05_gold.json,a0ddbd31360b2b0f4d16098b99310da9dcedd1f0e3fb9d594522753e6ec78b0b,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P05_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P05_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P05_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,TIER_NOT_ALLOWED,API_FAILURE,,"HTTP 403: {""object"":""error"",""message"":""This model is not available in your subscription tier"",""type"":""tier_not_allowed"",""param"":null,""code"":""1910"",""raw_status_code"":403}",967dcb40746db0ffb2ffe00825fcee573ab775333663d08649abd7d7b3fdb379
+M1_ERBB-P06_C1_R01,ErBioBench-pilot-1.2,0.9.0,M1,Mistral,Mistral,high,mistral-large-latest,mistral-large-latest,API,provider_default,ERBB-P06,C1,1,ErBioBench/pilot/cases/ERBB-P06.md,ce8eb0da15c6bf8ebeb37e2263ec0e1c87cca513d2916987efa58c528d8d919a,ErBioBench/pilot/inputs/ERBB-P06_input.json,be6852de9392e3cdad120f819bba87ca4c4f95ae5b7288120ac9a78bc8de6d15,ErBioBench/pilot/gold/ERBB-P06_gold.json,09af2626285f2626839f5bd1245eba127c53a338ac03fb2ce46f6d854489e7a1,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P06_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P06_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P06_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,TIER_NOT_ALLOWED,API_FAILURE,,"HTTP 403: {""object"":""error"",""message"":""This model is not available in your subscription tier"",""type"":""tier_not_allowed"",""param"":null,""code"":""1910"",""raw_status_code"":403}",3042da351f1c02c0ba6bbd79a256a7e5b9a630062f7554e3c35518d696a3a159
+M1_ERBB-P06_C2_R01,ErBioBench-pilot-1.2,0.9.0,M1,Mistral,Mistral,high,mistral-large-latest,mistral-large-latest,API,provider_default,ERBB-P06,C2,1,ErBioBench/pilot/cases/ERBB-P06.md,ce8eb0da15c6bf8ebeb37e2263ec0e1c87cca513d2916987efa58c528d8d919a,ErBioBench/pilot/inputs/ERBB-P06_input.json,be6852de9392e3cdad120f819bba87ca4c4f95ae5b7288120ac9a78bc8de6d15,ErBioBench/pilot/gold/ERBB-P06_gold.json,09af2626285f2626839f5bd1245eba127c53a338ac03fb2ce46f6d854489e7a1,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P06_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P06_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P06_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,TIER_NOT_ALLOWED,API_FAILURE,,"HTTP 403: {""object"":""error"",""message"":""This model is not available in your subscription tier"",""type"":""tier_not_allowed"",""param"":null,""code"":""1910"",""raw_status_code"":403}",978dd595992634a704b0a45535b107c4b695b7634a276412b1560fc8864d405d
+M1_ERBB-P06_C3_R01,ErBioBench-pilot-1.2,0.9.0,M1,Mistral,Mistral,high,mistral-large-latest,mistral-large-latest,API,provider_default,ERBB-P06,C3,1,ErBioBench/pilot/cases/ERBB-P06.md,ce8eb0da15c6bf8ebeb37e2263ec0e1c87cca513d2916987efa58c528d8d919a,ErBioBench/pilot/inputs/ERBB-P06_input.json,be6852de9392e3cdad120f819bba87ca4c4f95ae5b7288120ac9a78bc8de6d15,ErBioBench/pilot/gold/ERBB-P06_gold.json,09af2626285f2626839f5bd1245eba127c53a338ac03fb2ce46f6d854489e7a1,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P06_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P06_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M1_ERBB-P06_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,TIER_NOT_ALLOWED,API_FAILURE,,"HTTP 403: {""object"":""error"",""message"":""This model is not available in your subscription tier"",""type"":""tier_not_allowed"",""param"":null,""code"":""1910"",""raw_status_code"":403}",889d077309a77fefbba93f92eece86ddf469daa837ecc4af4dfabda367a4cd70
+M2_ERBB-P05_C1_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P05,C1,1,ErBioBench/pilot/cases/ERBB-P05.md,d76e64864e08e9fda1b2ec4d1d9dc11778a5c10a50887654c56c85b49234d058,ErBioBench/pilot/inputs/ERBB-P05_input.json,241e46f49751c09d952ccfbbfeecff38293c43b91c40147612a66223c1377ff9,ErBioBench/pilot/gold/ERBB-P05_gold.json,a0ddbd31360b2b0f4d16098b99310da9dcedd1f0e3fb9d594522753e6ec78b0b,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P05_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P05_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P05_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",8daf83977518017a1e29769103858d017526131f4456704b9c4ac59b8d002ccc
+M2_ERBB-P05_C2_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P05,C2,1,ErBioBench/pilot/cases/ERBB-P05.md,d76e64864e08e9fda1b2ec4d1d9dc11778a5c10a50887654c56c85b49234d058,ErBioBench/pilot/inputs/ERBB-P05_input.json,241e46f49751c09d952ccfbbfeecff38293c43b91c40147612a66223c1377ff9,ErBioBench/pilot/gold/ERBB-P05_gold.json,a0ddbd31360b2b0f4d16098b99310da9dcedd1f0e3fb9d594522753e6ec78b0b,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P05_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P05_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P05_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",ec5c993010ceb10fc64ef62c3fe2dcba3e9c75099ecfe6feee2fc5918e4b4855
+M2_ERBB-P05_C3_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P05,C3,1,ErBioBench/pilot/cases/ERBB-P05.md,d76e64864e08e9fda1b2ec4d1d9dc11778a5c10a50887654c56c85b49234d058,ErBioBench/pilot/inputs/ERBB-P05_input.json,241e46f49751c09d952ccfbbfeecff38293c43b91c40147612a66223c1377ff9,ErBioBench/pilot/gold/ERBB-P05_gold.json,a0ddbd31360b2b0f4d16098b99310da9dcedd1f0e3fb9d594522753e6ec78b0b,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P05_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P05_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P05_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",f134263086e94d820c8b05161591be2ce776a57217c7d3b4f9132b2e9a4078aa
+M2_ERBB-P06_C1_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P06,C1,1,ErBioBench/pilot/cases/ERBB-P06.md,ce8eb0da15c6bf8ebeb37e2263ec0e1c87cca513d2916987efa58c528d8d919a,ErBioBench/pilot/inputs/ERBB-P06_input.json,be6852de9392e3cdad120f819bba87ca4c4f95ae5b7288120ac9a78bc8de6d15,ErBioBench/pilot/gold/ERBB-P06_gold.json,09af2626285f2626839f5bd1245eba127c53a338ac03fb2ce46f6d854489e7a1,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P06_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P06_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P06_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",c2f6d1f85ad593a1c31749b23deb26683f409e72030c2fb86599449c67df9176
+M2_ERBB-P06_C2_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P06,C2,1,ErBioBench/pilot/cases/ERBB-P06.md,ce8eb0da15c6bf8ebeb37e2263ec0e1c87cca513d2916987efa58c528d8d919a,ErBioBench/pilot/inputs/ERBB-P06_input.json,be6852de9392e3cdad120f819bba87ca4c4f95ae5b7288120ac9a78bc8de6d15,ErBioBench/pilot/gold/ERBB-P06_gold.json,09af2626285f2626839f5bd1245eba127c53a338ac03fb2ce46f6d854489e7a1,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P06_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P06_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P06_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",deaeabcf26803ac33d82d0d8d82f6f6eba9ba2f71d946024bfe8a08cd0aeca96
+M2_ERBB-P06_C3_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P06,C3,1,ErBioBench/pilot/cases/ERBB-P06.md,ce8eb0da15c6bf8ebeb37e2263ec0e1c87cca513d2916987efa58c528d8d919a,ErBioBench/pilot/inputs/ERBB-P06_input.json,be6852de9392e3cdad120f819bba87ca4c4f95ae5b7288120ac9a78bc8de6d15,ErBioBench/pilot/gold/ERBB-P06_gold.json,09af2626285f2626839f5bd1245eba127c53a338ac03fb2ce46f6d854489e7a1,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P06_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P06_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P06_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",fefd93db83153eeab93e23aab26d155d0365dacd5f18b74dcf1f780fec9ee507
+M2_ERBB-P07_C1_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P07,C1,1,ErBioBench/pilot/cases/ERBB-P07.md,dea01e05f2e3af8b5f5490ce43b0e50b1d4547c1dc395107727cb4b710ac17e6,ErBioBench/pilot/inputs/ERBB-P07_input.json,3cab5f88a9cf7ac71f1d9ab9b2055dbf79db23d7fc3e6314ea99737b961a760f,ErBioBench/pilot/gold/ERBB-P07_gold.json,c07a32c6e3cd48c0e485c226e105c71c67965effb7307ec027a6d3b9161dca5d,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P07_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P07_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P07_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",ee9620309fb4510af2c14955cf1d2cb66e6823654a3f5097a497bf2d35eace57
+M2_ERBB-P07_C2_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P07,C2,1,ErBioBench/pilot/cases/ERBB-P07.md,dea01e05f2e3af8b5f5490ce43b0e50b1d4547c1dc395107727cb4b710ac17e6,ErBioBench/pilot/inputs/ERBB-P07_input.json,3cab5f88a9cf7ac71f1d9ab9b2055dbf79db23d7fc3e6314ea99737b961a760f,ErBioBench/pilot/gold/ERBB-P07_gold.json,c07a32c6e3cd48c0e485c226e105c71c67965effb7307ec027a6d3b9161dca5d,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P07_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P07_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P07_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",9683a01aa207268d525937ae01cb30190cffa0f5ba121d67eccc60d745ce0391
+M2_ERBB-P07_C3_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P07,C3,1,ErBioBench/pilot/cases/ERBB-P07.md,dea01e05f2e3af8b5f5490ce43b0e50b1d4547c1dc395107727cb4b710ac17e6,ErBioBench/pilot/inputs/ERBB-P07_input.json,3cab5f88a9cf7ac71f1d9ab9b2055dbf79db23d7fc3e6314ea99737b961a760f,ErBioBench/pilot/gold/ERBB-P07_gold.json,c07a32c6e3cd48c0e485c226e105c71c67965effb7307ec027a6d3b9161dca5d,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P07_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P07_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P07_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",0d27e7ca0c65a2595e57e158404729c5f5385e602c78baa960f98c55438ef2be
+M2_ERBB-P08_C1_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P08,C1,1,ErBioBench/pilot/cases/ERBB-P08.md,9cdcc2587ef784a5924a60e27f01b25de4749b6a49b7f9da25d0b7dc34dd9b8c,ErBioBench/pilot/inputs/ERBB-P08_input.json,02de444491e113f6e7be616e48efed3415c863e52d33349fd5cc932b25480f9d,ErBioBench/pilot/gold/ERBB-P08_gold.json,38ddfa2e080102d2160a3de88cd93799276a8c5f5b355c3cbb19d6635d4c4b8f,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P08_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P08_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P08_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",62be24ef1584b3022d9b225ad714db76334b2a7f559f35b930e8c59658523a47
+M2_ERBB-P08_C2_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P08,C2,1,ErBioBench/pilot/cases/ERBB-P08.md,9cdcc2587ef784a5924a60e27f01b25de4749b6a49b7f9da25d0b7dc34dd9b8c,ErBioBench/pilot/inputs/ERBB-P08_input.json,02de444491e113f6e7be616e48efed3415c863e52d33349fd5cc932b25480f9d,ErBioBench/pilot/gold/ERBB-P08_gold.json,38ddfa2e080102d2160a3de88cd93799276a8c5f5b355c3cbb19d6635d4c4b8f,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P08_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P08_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P08_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",5b7b3fbc037107a48182efee193dd6e12a26a3b16d8ef2d82af69bcccac7e26a
+M2_ERBB-P08_C3_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P08,C3,1,ErBioBench/pilot/cases/ERBB-P08.md,9cdcc2587ef784a5924a60e27f01b25de4749b6a49b7f9da25d0b7dc34dd9b8c,ErBioBench/pilot/inputs/ERBB-P08_input.json,02de444491e113f6e7be616e48efed3415c863e52d33349fd5cc932b25480f9d,ErBioBench/pilot/gold/ERBB-P08_gold.json,38ddfa2e080102d2160a3de88cd93799276a8c5f5b355c3cbb19d6635d4c4b8f,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P08_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P08_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P08_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",d882ee0d5e531bbd9d8d50f7f94d57efc9c30c301aa783f109d3ca7e4fadff95
+M2_ERBB-P09_C1_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P09,C1,1,ErBioBench/pilot/cases/ERBB-P09.md,5904e2cf22ed423861fdf378ecf9b17de934790990bb4d92980077b3bff84620,ErBioBench/pilot/inputs/ERBB-P09_input.json,3c8f026d06a05b0137cfcee67cc4b1bafc4437110ab3f30e10bfe3f7f7658d68,ErBioBench/pilot/gold/ERBB-P09_gold.json,1485120c68120b0a945c7ea0c0e1d61d7e7e6277611abc6e409af89bf9fc3f29,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P09_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P09_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P09_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",b9ec412cd94261156b585c071754adec80ab592872521a95e8d847595da47a90
+M2_ERBB-P09_C2_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P09,C2,1,ErBioBench/pilot/cases/ERBB-P09.md,5904e2cf22ed423861fdf378ecf9b17de934790990bb4d92980077b3bff84620,ErBioBench/pilot/inputs/ERBB-P09_input.json,3c8f026d06a05b0137cfcee67cc4b1bafc4437110ab3f30e10bfe3f7f7658d68,ErBioBench/pilot/gold/ERBB-P09_gold.json,1485120c68120b0a945c7ea0c0e1d61d7e7e6277611abc6e409af89bf9fc3f29,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P09_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P09_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P09_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",8452117007153edb5999d21bf22b19af6878a183bbb4c1d88587bf8ff3905ae2
+M2_ERBB-P09_C3_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P09,C3,1,ErBioBench/pilot/cases/ERBB-P09.md,5904e2cf22ed423861fdf378ecf9b17de934790990bb4d92980077b3bff84620,ErBioBench/pilot/inputs/ERBB-P09_input.json,3c8f026d06a05b0137cfcee67cc4b1bafc4437110ab3f30e10bfe3f7f7658d68,ErBioBench/pilot/gold/ERBB-P09_gold.json,1485120c68120b0a945c7ea0c0e1d61d7e7e6277611abc6e409af89bf9fc3f29,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P09_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P09_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P09_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",f4b305e5ded877ad47e700b18af73b1230338bbf2e36cb1f8e3e36b5534ac8c1
+M2_ERBB-P10_C1_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P10,C1,1,ErBioBench/pilot/cases/ERBB-P10.md,1771c22d0dcb6d6a8d43b5f9f1a0c352f1feb95e90d8f847f8aa7878b14cc9de,ErBioBench/pilot/inputs/ERBB-P10_input.json,3e281bf008713aca9c0c099d8ccafde2807beee356953d87ee7a5547c79b0b56,ErBioBench/pilot/gold/ERBB-P10_gold.json,331785d27967fb2e1e4fcb3d241f3881026bc6227573ea4eea295207892d78f2,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P10_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P10_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P10_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",25e299cc855911eeb4783bbb1fa925e0c1d04cfe8ea95b749744b4808ca083e4
+M2_ERBB-P10_C2_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P10,C2,1,ErBioBench/pilot/cases/ERBB-P10.md,1771c22d0dcb6d6a8d43b5f9f1a0c352f1feb95e90d8f847f8aa7878b14cc9de,ErBioBench/pilot/inputs/ERBB-P10_input.json,3e281bf008713aca9c0c099d8ccafde2807beee356953d87ee7a5547c79b0b56,ErBioBench/pilot/gold/ERBB-P10_gold.json,331785d27967fb2e1e4fcb3d241f3881026bc6227573ea4eea295207892d78f2,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P10_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P10_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P10_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",238158fa446ec9f9aec4cad7cdd9687f3559acbdc5dba48c31db9df79b66ee1d
+M2_ERBB-P10_C3_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P10,C3,1,ErBioBench/pilot/cases/ERBB-P10.md,1771c22d0dcb6d6a8d43b5f9f1a0c352f1feb95e90d8f847f8aa7878b14cc9de,ErBioBench/pilot/inputs/ERBB-P10_input.json,3e281bf008713aca9c0c099d8ccafde2807beee356953d87ee7a5547c79b0b56,ErBioBench/pilot/gold/ERBB-P10_gold.json,331785d27967fb2e1e4fcb3d241f3881026bc6227573ea4eea295207892d78f2,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P10_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P10_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P10_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",ffecaa07edb41eb219a257f0d526db288460279097964e797e2797a9778f1340
+M2_ERBB-P11_C1_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P11,C1,1,ErBioBench/pilot/cases/ERBB-P11.md,8d521e9191fd868fd0ccc694b655cc7c3289a448dd1301f184c5e94aef217d28,ErBioBench/pilot/inputs/ERBB-P11_input.json,ab1a70f2c2115a8994588c912a93f4f54c648a621589359b2cb53c265fc5e55f,ErBioBench/pilot/gold/ERBB-P11_gold.json,c0cf4575239b448647add88d62ff48cbdd2ae6b447e79f05a56096a493b104ba,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P11_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P11_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P11_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",dd9662a7fe550ad908c88f36b184467ce0a7f6523c69d5b6e0d1861904490515
+M2_ERBB-P11_C2_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P11,C2,1,ErBioBench/pilot/cases/ERBB-P11.md,8d521e9191fd868fd0ccc694b655cc7c3289a448dd1301f184c5e94aef217d28,ErBioBench/pilot/inputs/ERBB-P11_input.json,ab1a70f2c2115a8994588c912a93f4f54c648a621589359b2cb53c265fc5e55f,ErBioBench/pilot/gold/ERBB-P11_gold.json,c0cf4575239b448647add88d62ff48cbdd2ae6b447e79f05a56096a493b104ba,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P11_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P11_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P11_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",350a4464a556d211a9092aa613057b55ab6998722bdd903399852593e0e34f39
+M2_ERBB-P11_C3_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P11,C3,1,ErBioBench/pilot/cases/ERBB-P11.md,8d521e9191fd868fd0ccc694b655cc7c3289a448dd1301f184c5e94aef217d28,ErBioBench/pilot/inputs/ERBB-P11_input.json,ab1a70f2c2115a8994588c912a93f4f54c648a621589359b2cb53c265fc5e55f,ErBioBench/pilot/gold/ERBB-P11_gold.json,c0cf4575239b448647add88d62ff48cbdd2ae6b447e79f05a56096a493b104ba,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P11_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P11_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P11_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",50076c14d55882e1e2bbb7c3c0a9b272ba743c6daa6c2a19517273ec0e4387f9
+M2_ERBB-P12_C1_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P12,C1,1,ErBioBench/pilot/cases/ERBB-P12.md,ffb96953194b20b82f6f9ff626dd393a0ae353574c4a3c063187665ecb94d457,ErBioBench/pilot/inputs/ERBB-P12_input.json,476c358c255ae71eb28373778299fe15afc450a673e04e8d9851c15a0d7ff310,ErBioBench/pilot/gold/ERBB-P12_gold.json,8aa5b1a764ae5974ce384362ae65c811fdc13caeb67cb6fc86fafe3311951d15,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P12_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P12_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P12_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",5f6d0bc6175ab5c0571537f6b903657e81780c5627d2a0883d641ffb6b5db19e
+M2_ERBB-P12_C2_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P12,C2,1,ErBioBench/pilot/cases/ERBB-P12.md,ffb96953194b20b82f6f9ff626dd393a0ae353574c4a3c063187665ecb94d457,ErBioBench/pilot/inputs/ERBB-P12_input.json,476c358c255ae71eb28373778299fe15afc450a673e04e8d9851c15a0d7ff310,ErBioBench/pilot/gold/ERBB-P12_gold.json,8aa5b1a764ae5974ce384362ae65c811fdc13caeb67cb6fc86fafe3311951d15,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P12_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P12_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P12_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",d82226bb8aebbbc656fd6bd8bcee0d2d33e0bb62c2f338102fb7cfbf59ae284f
+M2_ERBB-P12_C3_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P12,C3,1,ErBioBench/pilot/cases/ERBB-P12.md,ffb96953194b20b82f6f9ff626dd393a0ae353574c4a3c063187665ecb94d457,ErBioBench/pilot/inputs/ERBB-P12_input.json,476c358c255ae71eb28373778299fe15afc450a673e04e8d9851c15a0d7ff310,ErBioBench/pilot/gold/ERBB-P12_gold.json,8aa5b1a764ae5974ce384362ae65c811fdc13caeb67cb6fc86fafe3311951d15,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P12_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P12_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P12_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",64a9ad6c2539b694ee045af7d87483ea19602c5a8c19580612557d166f64c39c
+M2_ERBB-P13_C1_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P13,C1,1,ErBioBench/pilot/cases/ERBB-P13.md,ef0b5edd4d57895aa176c5e249408cf38e873a59bc64af3d982ae326d615ddb3,ErBioBench/pilot/inputs/ERBB-P13_input.json,9bba1c455a1934838e4cb9e6b2c35d42b9f4ac23767da7bdc6d2c11b5b288887,ErBioBench/pilot/gold/ERBB-P13_gold.json,65075ff45a5d59aefd1e55d9c173ee3ae0e2cc40ad70d22ba17538021e52a09a,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P13_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P13_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P13_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",f6a5526fe3941dc6d78f85da3bf756ebaec5e92851271a9875354bc58b6ea65a
+M2_ERBB-P13_C2_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P13,C2,1,ErBioBench/pilot/cases/ERBB-P13.md,ef0b5edd4d57895aa176c5e249408cf38e873a59bc64af3d982ae326d615ddb3,ErBioBench/pilot/inputs/ERBB-P13_input.json,9bba1c455a1934838e4cb9e6b2c35d42b9f4ac23767da7bdc6d2c11b5b288887,ErBioBench/pilot/gold/ERBB-P13_gold.json,65075ff45a5d59aefd1e55d9c173ee3ae0e2cc40ad70d22ba17538021e52a09a,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P13_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P13_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P13_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",dffce8a5b06926cf4cfdbc356d4e8ae90666596348b6822b00f939dc0a06b1f9
+M2_ERBB-P13_C3_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P13,C3,1,ErBioBench/pilot/cases/ERBB-P13.md,ef0b5edd4d57895aa176c5e249408cf38e873a59bc64af3d982ae326d615ddb3,ErBioBench/pilot/inputs/ERBB-P13_input.json,9bba1c455a1934838e4cb9e6b2c35d42b9f4ac23767da7bdc6d2c11b5b288887,ErBioBench/pilot/gold/ERBB-P13_gold.json,65075ff45a5d59aefd1e55d9c173ee3ae0e2cc40ad70d22ba17538021e52a09a,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P13_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P13_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P13_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",44a17495143985bcd80113096a9cfb12ef1765ecfa7d60decfc75187e69078e8
+M2_ERBB-P14_C1_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P14,C1,1,ErBioBench/pilot/cases/ERBB-P14.md,edf22e4d088e984ae8e20c4f074f90843810e6b9b08434bfba120c8813c595f2,ErBioBench/pilot/inputs/ERBB-P14_input.json,e6b527dd61859bd33e81d1bbced041bb79f36e9b72713a25328063f57a78cd1a,ErBioBench/pilot/gold/ERBB-P14_gold.json,4b07944e1558f46376198e74dd8eec0d22a075616b57b9f1197a4178d3f4a701,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P14_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P14_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P14_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",3011421abf320b337882dab7843e7a9b5f92339cf5584ab49e43f0304fd6c2cd
+M2_ERBB-P14_C2_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P14,C2,1,ErBioBench/pilot/cases/ERBB-P14.md,edf22e4d088e984ae8e20c4f074f90843810e6b9b08434bfba120c8813c595f2,ErBioBench/pilot/inputs/ERBB-P14_input.json,e6b527dd61859bd33e81d1bbced041bb79f36e9b72713a25328063f57a78cd1a,ErBioBench/pilot/gold/ERBB-P14_gold.json,4b07944e1558f46376198e74dd8eec0d22a075616b57b9f1197a4178d3f4a701,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P14_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P14_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P14_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",d2cf2e924451f1721535f016a46fef57806615b11aa0ec3062080073ea55c67f
+M2_ERBB-P14_C3_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P14,C3,1,ErBioBench/pilot/cases/ERBB-P14.md,edf22e4d088e984ae8e20c4f074f90843810e6b9b08434bfba120c8813c595f2,ErBioBench/pilot/inputs/ERBB-P14_input.json,e6b527dd61859bd33e81d1bbced041bb79f36e9b72713a25328063f57a78cd1a,ErBioBench/pilot/gold/ERBB-P14_gold.json,4b07944e1558f46376198e74dd8eec0d22a075616b57b9f1197a4178d3f4a701,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P14_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P14_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P14_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",f61020d0355905f3d7ab6f7b1cb724db300f9f3b4692d2261fd5e67028667e9c
+M2_ERBB-P15_C1_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P15,C1,1,ErBioBench/pilot/cases/ERBB-P15.md,f06b684a8031eba4a1d5211972fd11b628ab9a9215d4ac261f309c54407cd677,ErBioBench/pilot/inputs/ERBB-P15_input.json,91dd79f46ca04e88232d8a98587d8e54cd45c80353a54d049d177d42f43c58a0,ErBioBench/pilot/gold/ERBB-P15_gold.json,5663ea6f9211066088dd9aab7c2296a4a63b1bf1296194426ef02abf9e556488,ErBioBench/prompts/frozen/C1_LLM_ONLY_v1_2.txt,284f49f5ff04232b6863d5da356a4a7320fa6a734f2a6783bd407eba3b1b36d8,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P15_C1_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P15_C1_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P15_C1_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",dbe776f842366c54598e3c97d756ccfcc2dead0de7d3727c3a37de331a4fc42d
+M2_ERBB-P15_C2_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P15,C2,1,ErBioBench/pilot/cases/ERBB-P15.md,f06b684a8031eba4a1d5211972fd11b628ab9a9215d4ac261f309c54407cd677,ErBioBench/pilot/inputs/ERBB-P15_input.json,91dd79f46ca04e88232d8a98587d8e54cd45c80353a54d049d177d42f43c58a0,ErBioBench/pilot/gold/ERBB-P15_gold.json,5663ea6f9211066088dd9aab7c2296a4a63b1bf1296194426ef02abf9e556488,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P15_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P15_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P15_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",6f21a8e3c4e5024db1dab1cf9acd673bf85613cce4bf2b7754153f234dc3e284
+M2_ERBB-P15_C3_R01,ErBioBench-pilot-1.2,0.9.0,M2,Mistral,Mistral,medium,mistral-small-latest,mistral-small-latest,API,provider_default,ERBB-P15,C3,1,ErBioBench/pilot/cases/ERBB-P15.md,f06b684a8031eba4a1d5211972fd11b628ab9a9215d4ac261f309c54407cd677,ErBioBench/pilot/inputs/ERBB-P15_input.json,91dd79f46ca04e88232d8a98587d8e54cd45c80353a54d049d177d42f43c58a0,ErBioBench/pilot/gold/ERBB-P15_gold.json,5663ea6f9211066088dd9aab7c2296a4a63b1bf1296194426ef02abf9e556488,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P15_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P15_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/M2_ERBB-P15_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,RATE_LIMIT_429,API_FAILURE,,"HTTP 429: {""object"":""error"",""message"":""Rate limit exceeded"",""type"":""rate_limited"",""param"":null,""code"":""1300"",""raw_status_code"":429}",bc05961b0580187e5c377a2240424206525f61ce16a9993e95b17cc3dec4caff
