@@ -10,7 +10,8 @@ d <- read.csv(
   stringsAsFactors = FALSE
 )
 
-stopifnot(nrow(d) == 288L)
+stopifnot(nrow(d) > 0L)
+stopifnot(nrow(d) %% 3L == 0L)
 
 # ------------------------------------------------------------
 # One row per model-case pair
@@ -38,7 +39,8 @@ wide <- reshape(
   direction = "wide"
 )
 
-stopifnot(nrow(wide) == 96L)
+stopifnot(nrow(wide) > 0L)
+stopifnot(nrow(wide) * 3L == nrow(d))
 
 wide$delta_C2_C1 <-
   wide$automated_accuracy.C2 -

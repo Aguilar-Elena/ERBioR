@@ -1,0 +1,60 @@
+ERBIOBENCH GEMINI MODEL VERSION AUDIT
+Date: 2026-10-18
+
+Purpose
+-------
+Document the difference between requested Gemini model identifiers and
+provider-reported model versions in the smoke experiment.
+
+Observed mappings
+-----------------
+gemini-3.1-flash-lite -> gemini-3.1-flash-lite
+n = 45
+
+gemini-3.5-flash -> gemini-3.5-flash
+n = 8
+
+gemini-3.5-flash -> gemini-3.6-flash
+n = 27
+
+gemini-3.7-flash -> gemini-3.7-flash
+n = 8
+
+gemini-3.7-flash -> gemini-3.8-flash
+n = 19
+
+Total Gemini API responses inspected
+------------------------------------
+107
+
+Provider-version mismatches
+---------------------------
+46
+
+Interpretation
+--------------
+The benchmark experimental design is indexed by model slot and requested
+model identifier.
+
+The requested model identifier must therefore remain unchanged in the
+manifest and benchmark grouping.
+
+However, the actual provider-reported model version must be retained as
+an independent provenance field.
+
+The observed mismatches are interpreted as provider-side alias/version
+resolution and not as benchmark relabeling.
+
+Reporting rule
+--------------
+Methods and supplementary provenance should distinguish:
+
+requested_model_id
+
+from:
+
+provider_reported_model_version
+
+No retrospective reassignment of benchmark model slots is performed.
+
+Scientific scoring is unaffected by this version-resolution audit.

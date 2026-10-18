@@ -1,4 +1,4 @@
 "outcome","contrast","n_pairs","first_only","second_only","discordant_total","exact_p","p_holm"
-"preventive_omission","C1 vs C2",96,1,1,2,1,1
-"preventive_omission","C1 vs C3",96,66,0,66,2.71050543121376e-20,8.13151629364128e-20
-"preventive_omission","C2 vs C3",96,66,0,66,2.71050543121376e-20,8.13151629364128e-20
+"preventive_omission","C1 vs C2",111,1,1,2,1,1
+"preventive_omission","C1 vs C3",111,73,0,73,2.11758236813575e-22,6.35274710440726e-22
+"preventive_omission","C2 vs C3",111,73,0,73,2.11758236813575e-22,6.35274710440726e-22

@@ -18,7 +18,25 @@ d <- read.csv(
 # VALIDATION
 # ============================================================
 
-stopifnot(nrow(d) == 288L)
+# Validate complete paired structure dynamically.
+# Each model-case pair must contribute exactly one C1, one C2 and one C3 row.
+stopifnot(nrow(d) > 0L)
+stopifnot(nrow(d) %% 3L == 0L)
+
+pair_counts <- table(
+  interaction(
+    d$model_slot,
+    d$case_id,
+    drop = TRUE
+  ),
+  d$condition
+)
+
+stopifnot(
+  ncol(pair_counts) == 3L,
+  all(colnames(pair_counts) == c("C1", "C2", "C3")),
+  all(pair_counts == 1L)
+)
 
 d$condition <- factor(
   d$condition,
@@ -39,7 +57,8 @@ tab <- table(
   d$condition
 )
 
-stopifnot(nrow(tab) == 96L)
+stopifnot(nrow(tab) > 0L)
+stopifnot(nrow(tab) * 3L == nrow(d))
 stopifnot(all(tab == 1L))
 
 cat("========================================\n")
