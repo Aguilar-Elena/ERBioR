@@ -1,0 +1,28 @@
+ERBIOBENCH REP5 R01 / SMOKE EQUIVALENCE AUDIT
+Date: 2026-10-18
+
+Smoke rows: 540
+REP5 rows: 2700
+REP5 R01 rows: 540
+Run IDs identical: True
+Only in smoke: 0
+Only in REP5 R01: 0
+Scientific/config mismatches: 0
+
+Output-path differences:
+metadata_file: 540
+raw_output_file: 540
+structured_output_file: 540
+
+DECISION
+The smoke dataset is formally reused as repetition R01.
+R01 must not be re-executed.
+Only repetitions R02-R05 require new API execution.
+Nominal new runs required: 2160.
+
+REP5 repetition counts:
+R1: 540
+R2: 540
+R3: 540
+R4: 540
+R5: 540
