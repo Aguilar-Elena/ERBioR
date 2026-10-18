@@ -4,26 +4,26 @@ Formula: automated_accuracy ~ condition + (1 | model_slot) + (1 | case_id)
 Control: lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
 
       AIC       BIC    logLik -2*log(L)  df.resid 
-   2189.7    2212.6   -1088.9    2177.7       327 
+   2208.0    2230.9   -1098.0    2196.0       330 
 
 Scaled residuals: 
     Min      1Q  Median      3Q     Max 
--5.3171 -0.2371  0.0922  0.3396  5.4946 
+-5.3352 -0.2358  0.0890  0.3372  5.4985 
 
 Random effects:
  Groups     Name        Variance Std.Dev.
- case_id    (Intercept) 28.287   5.319   
- model_slot (Intercept)  1.908   1.381   
- Residual               34.578   5.880   
-Number of obs: 333, groups:  case_id, 15; model_slot, 12
+ case_id    (Intercept) 28.329   5.323   
+ model_slot (Intercept)  1.873   1.369   
+ Residual               34.476   5.872   
+Number of obs: 336, groups:  case_id, 15; model_slot, 12
 
 Fixed effects:
             Estimate Std. Error t value
-(Intercept)  36.1737     1.5499  23.339
-conditionC2   2.0412     0.7893   2.586
-conditionC3  62.0889     0.7893  78.661
+(Intercept)  36.2037     1.5486  23.379
+conditionC2   2.0230     0.7846   2.578
+conditionC3  61.9918     0.7846  79.008
 
 Correlation of Fixed Effects:
             (Intr) cndtC2
-conditionC2 -0.255       
-conditionC3 -0.255  0.500
+conditionC2 -0.253       
+conditionC3 -0.253  0.500
