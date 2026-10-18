@@ -167,7 +167,11 @@ def write_csv(path, data):
 
 
 write_csv(CHECKPOINT, checkpoint)
-write_csv(FAILURE_ARCHIVE, failure_provenance)
+
+# The pre-retry failure provenance is an immutable baseline snapshot.
+# Once created, later recovery runs must not overwrite it.
+if not FAILURE_ARCHIVE.exists():
+    write_csv(FAILURE_ARCHIVE, failure_provenance)
 
 
 # ------------------------------------------------------------
@@ -227,12 +231,45 @@ write_csv(M2_HOLD, m2)
 # Integrity expectations
 # ------------------------------------------------------------
 
-assert len(g1) == 18, len(g1)
-assert len(g2) == 10, len(g2)
-assert len(m1) == 36, len(m1)
-assert len(m2) == 33, len(m2)
+# Structural integrity checks.
+# Recovery counts are intentionally dynamic because successful
+# recoveries reduce the pending batches over time.
 
-assert overall["SCIENTIFIC_VALID"] == 365
+assert len(g1) == sum(
+    1 for r in checkpoint
+    if r["model_slot"] == "G1"
+    and r["current_category"] in {
+        "NEVER_ATTEMPTED",
+        "QUOTA_EXHAUSTED",
+        "HTTP_503_TRANSIENT",
+    }
+)
+
+assert len(g2) == sum(
+    1 for r in checkpoint
+    if r["model_slot"] == "G2"
+    and r["current_category"] in {
+        "NEVER_ATTEMPTED",
+        "QUOTA_EXHAUSTED",
+    }
+)
+
+assert len(m1) == sum(
+    1 for r in checkpoint
+    if r["model_slot"] == "M1"
+    and r["current_category"] in {
+        "NEVER_ATTEMPTED",
+        "TIER_NOT_ALLOWED",
+    }
+)
+
+assert len(m2) == sum(
+    1 for r in checkpoint
+    if r["model_slot"] == "M2"
+    and r["current_category"] == "RATE_LIMIT_429"
+)
+
+assert sum(overall.values()) == 540
 assert overall["REFUSAL"] == 59
 assert overall["INVALID_JSON_OTHER"] == 13
 assert overall["OUTPUT_TRUNCATION"] == 6

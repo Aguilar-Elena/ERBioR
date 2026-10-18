@@ -2,7 +2,7 @@ run_id,benchmark_version,ERBioR_version,model_slot,provider,model_family,model_t
 G2_ERBB-P12_C2_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P12,C2,1,ErBioBench/pilot/cases/ERBB-P12.md,ffb96953194b20b82f6f9ff626dd393a0ae353574c4a3c063187665ecb94d457,ErBioBench/pilot/inputs/ERBB-P12_input.json,476c358c255ae71eb28373778299fe15afc450a673e04e8d9851c15a0d7ff310,ErBioBench/pilot/gold/ERBB-P12_gold.json,8aa5b1a764ae5974ce384362ae65c811fdc13caeb67cb6fc86fafe3311951d15,ErBioBench/prompts/frozen/C2_STRUCTURED_PROMPT_v1_2.txt,a63cde3ce543b11a283f7c53eef4c057b18f82f91e8d9da092aeea14bacf4d00,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C2_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C2_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C2_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,QUOTA_EXHAUSTED,QUOTA_EXHAUSTED,,"HTTP 429: {
   ""error"": {
     ""code"": 429,
-    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 16h18m58.910718807s."",
+    ""message"": ""You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 15h43m54.834679085s."",
     ""status"": ""RESOURCE_EXHAUSTED"",
     ""details"": [
       {
@@ -30,12 +30,12 @@ G2_ERBB-P12_C2_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gem
       },
       {
         ""@type"": ""type.googleapis.com/google.rpc.RetryInfo"",
-        ""retryDelay"": ""58738s""
+        ""retryDelay"": ""56634s""
       }
     ]
   }
 }
-",29276c3d355c3466a0941edab6c676903314db7fe6e06e99bc206503671f7332
+",b1b67fe2626c44ad2893e7d9ba0eb3f5bed45dc0dc453bf84fca183be4df5017
 G2_ERBB-P12_C3_R01,ErBioBench-pilot-1.2,0.9.0,G2,Google_Gemini,Gemini,medium,gemini-3.5-flash,gemini-3.5-flash,API,provider_default,ERBB-P12,C3,1,ErBioBench/pilot/cases/ERBB-P12.md,ffb96953194b20b82f6f9ff626dd393a0ae353574c4a3c063187665ecb94d457,ErBioBench/pilot/inputs/ERBB-P12_input.json,476c358c255ae71eb28373778299fe15afc450a673e04e8d9851c15a0d7ff310,ErBioBench/pilot/gold/ERBB-P12_gold.json,8aa5b1a764ae5974ce384362ae65c811fdc13caeb67cb6fc86fafe3311951d15,ErBioBench/prompts/frozen/C3_LLM_PLUS_ERBIOR_v1_2.txt,30974051d1bcb7e2bf3cc4bbd89490913996ea9ef5e7abb6fa0c12acef773f17,ErBioBench/protocol/llm_response_schema_v1_1.json,b0293431dae11eb781f383d60ede1f2f7afaacfc92971d8257277080efbe6fc6,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C3_R01_raw.txt,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C3_R01.json,ErBioBench/outputs/pilot_1_2/smoke/G2_ERBB-P12_C3_R01_metadata.json,PENDING,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,PENDING,,QUOTA_EXHAUSTED,QUOTA_EXHAUSTED,,"HTTP 429: {
   ""error"": {
     ""code"": 429,

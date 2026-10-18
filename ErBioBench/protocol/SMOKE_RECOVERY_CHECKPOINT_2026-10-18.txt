@@ -2,21 +2,20 @@ ERBIOBENCH SMOKE RECOVERY CHECKPOINT
 Date: 2026-10-18
 
 Nominal smoke runs: 540
-HTTP_503_TRANSIENT: 1
 INVALID_JSON_OTHER: 13
 NEVER_ATTEMPTED: 49
 OUTPUT_TRUNCATION: 6
 QUOTA_EXHAUSTED: 8
 RATE_LIMIT_429: 33
 REFUSAL: 59
-SCIENTIFIC_VALID: 365
+SCIENTIFIC_VALID: 366
 TIER_NOT_ALLOWED: 6
 
 MODEL STATUS
 A1: valid=24; refusal=21; quota=0; rate429=0; http503=0; tier_not_allowed=0; invalid_json=0; truncation=0; never=0
 A2: valid=8; refusal=37; quota=0; rate429=0; http503=0; tier_not_allowed=0; invalid_json=0; truncation=0; never=0
 A3: valid=42; refusal=0; quota=0; rate429=0; http503=0; tier_not_allowed=0; invalid_json=1; truncation=2; never=0
-G1: valid=27; refusal=0; quota=3; rate429=0; http503=1; tier_not_allowed=0; invalid_json=0; truncation=0; never=14
+G1: valid=28; refusal=0; quota=3; rate429=0; http503=0; tier_not_allowed=0; invalid_json=0; truncation=0; never=14
 G2: valid=34; refusal=1; quota=5; rate429=0; http503=0; tier_not_allowed=0; invalid_json=0; truncation=0; never=5
 G3: valid=45; refusal=0; quota=0; rate429=0; http503=0; tier_not_allowed=0; invalid_json=0; truncation=0; never=0
 M1: valid=9; refusal=0; quota=0; rate429=0; http503=0; tier_not_allowed=6; invalid_json=0; truncation=0; never=30
@@ -27,7 +26,7 @@ O2: valid=44; refusal=0; quota=0; rate429=0; http503=0; tier_not_allowed=0; inva
 O3: valid=44; refusal=0; quota=0; rate429=0; http503=0; tier_not_allowed=0; invalid_json=0; truncation=1; never=0
 
 FUTURE RECOVERY BATCHES
-G1 actionable after quota reset: 18
+G1 actionable after quota reset: 17
 G2 actionable after quota reset: 10
 M1 provider-access hold: 36
 M2 rate-limit hold: 33
