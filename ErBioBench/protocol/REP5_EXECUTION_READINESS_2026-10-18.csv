@@ -2,7 +2,7 @@ batch_file,repetition,model_slot,n_runs,execution_state,reason
 ErBioBench/protocol/rep5_execution_batches/by_model/REP2_A1_45runs_v1.csv,REP2,A1,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP2_A2_45runs_v1.csv,REP2,A2,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP2_A3_45runs_v1.csv,REP2,A3,45,READY,"No active quota, rate-limit, or provider-access hold identified."
-ErBioBench/protocol/rep5_execution_batches/by_model/REP2_G1_45runs_v1.csv,REP2,G1,45,HOLD_QUOTA,R02 execution reached QUOTA_EXHAUSTED at G1_ERBB-P02_C3_R02 on 2026-10-18; remaining G1 REP5 execution paused.
+ErBioBench/protocol/rep5_execution_batches/by_model/REP2_G1_45runs_v1.csv,REP2,G1,45,READY,G1 quota access recovered on 2026-10-19; previously quota-exhausted R02 run completed successfully and five subsequent validation runs completed without provider failure.
 ErBioBench/protocol/rep5_execution_batches/by_model/REP2_G2_45runs_v1.csv,REP2,G2,45,HOLD_QUOTA,R01 recovery probe returned QUOTA_EXHAUSTED.
 ErBioBench/protocol/rep5_execution_batches/by_model/REP2_G3_45runs_v1.csv,REP2,G3,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP2_M1_45runs_v1.csv,REP2,M1,45,HOLD_PROVIDER_ACCESS,R01 returned HTTP 403 tier_not_allowed.
@@ -14,7 +14,7 @@ ErBioBench/protocol/rep5_execution_batches/by_model/REP2_O3_45runs_v1.csv,REP2,O
 ErBioBench/protocol/rep5_execution_batches/by_model/REP3_A1_45runs_v1.csv,REP3,A1,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP3_A2_45runs_v1.csv,REP3,A2,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP3_A3_45runs_v1.csv,REP3,A3,45,READY,"No active quota, rate-limit, or provider-access hold identified."
-ErBioBench/protocol/rep5_execution_batches/by_model/REP3_G1_45runs_v1.csv,REP3,G1,45,HOLD_QUOTA,R02 execution reached QUOTA_EXHAUSTED at G1_ERBB-P02_C3_R02 on 2026-10-18; remaining G1 REP5 execution paused.
+ErBioBench/protocol/rep5_execution_batches/by_model/REP3_G1_45runs_v1.csv,REP3,G1,45,READY,G1 quota access recovered on 2026-10-19; previously quota-exhausted R02 run completed successfully and five subsequent validation runs completed without provider failure.
 ErBioBench/protocol/rep5_execution_batches/by_model/REP3_G2_45runs_v1.csv,REP3,G2,45,HOLD_QUOTA,R01 recovery probe returned QUOTA_EXHAUSTED.
 ErBioBench/protocol/rep5_execution_batches/by_model/REP3_G3_45runs_v1.csv,REP3,G3,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP3_M1_45runs_v1.csv,REP3,M1,45,HOLD_PROVIDER_ACCESS,R01 returned HTTP 403 tier_not_allowed.
@@ -26,7 +26,7 @@ ErBioBench/protocol/rep5_execution_batches/by_model/REP3_O3_45runs_v1.csv,REP3,O
 ErBioBench/protocol/rep5_execution_batches/by_model/REP4_A1_45runs_v1.csv,REP4,A1,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP4_A2_45runs_v1.csv,REP4,A2,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP4_A3_45runs_v1.csv,REP4,A3,45,READY,"No active quota, rate-limit, or provider-access hold identified."
-ErBioBench/protocol/rep5_execution_batches/by_model/REP4_G1_45runs_v1.csv,REP4,G1,45,HOLD_QUOTA,R02 execution reached QUOTA_EXHAUSTED at G1_ERBB-P02_C3_R02 on 2026-10-18; remaining G1 REP5 execution paused.
+ErBioBench/protocol/rep5_execution_batches/by_model/REP4_G1_45runs_v1.csv,REP4,G1,45,READY,G1 quota access recovered on 2026-10-19; previously quota-exhausted R02 run completed successfully and five subsequent validation runs completed without provider failure.
 ErBioBench/protocol/rep5_execution_batches/by_model/REP4_G2_45runs_v1.csv,REP4,G2,45,HOLD_QUOTA,R01 recovery probe returned QUOTA_EXHAUSTED.
 ErBioBench/protocol/rep5_execution_batches/by_model/REP4_G3_45runs_v1.csv,REP4,G3,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP4_M1_45runs_v1.csv,REP4,M1,45,HOLD_PROVIDER_ACCESS,R01 returned HTTP 403 tier_not_allowed.
@@ -38,7 +38,7 @@ ErBioBench/protocol/rep5_execution_batches/by_model/REP4_O3_45runs_v1.csv,REP4,O
 ErBioBench/protocol/rep5_execution_batches/by_model/REP5_A1_45runs_v1.csv,REP5,A1,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP5_A2_45runs_v1.csv,REP5,A2,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP5_A3_45runs_v1.csv,REP5,A3,45,READY,"No active quota, rate-limit, or provider-access hold identified."
-ErBioBench/protocol/rep5_execution_batches/by_model/REP5_G1_45runs_v1.csv,REP5,G1,45,HOLD_QUOTA,R02 execution reached QUOTA_EXHAUSTED at G1_ERBB-P02_C3_R02 on 2026-10-18; remaining G1 REP5 execution paused.
+ErBioBench/protocol/rep5_execution_batches/by_model/REP5_G1_45runs_v1.csv,REP5,G1,45,READY,G1 quota access recovered on 2026-10-19; previously quota-exhausted R02 run completed successfully and five subsequent validation runs completed without provider failure.
 ErBioBench/protocol/rep5_execution_batches/by_model/REP5_G2_45runs_v1.csv,REP5,G2,45,HOLD_QUOTA,R01 recovery probe returned QUOTA_EXHAUSTED.
 ErBioBench/protocol/rep5_execution_batches/by_model/REP5_G3_45runs_v1.csv,REP5,G3,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP5_M1_45runs_v1.csv,REP5,M1,45,HOLD_PROVIDER_ACCESS,R01 returned HTTP 403 tier_not_allowed.
