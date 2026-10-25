@@ -3,7 +3,7 @@ ErBioBench/protocol/rep5_execution_batches/by_model/REP2_A1_45runs_v1.csv,REP2,A
 ErBioBench/protocol/rep5_execution_batches/by_model/REP2_A2_45runs_v1.csv,REP2,A2,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP2_A3_45runs_v1.csv,REP2,A3,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP2_G1_45runs_v1.csv,REP2,G1,45,HOLD_PROVIDER_TIMEOUT,G1 quota recovered, but R02 later produced repeated provider read timeouts: G1_ERBB-P04_C3_R02 timed out once before successful retry, and G1_ERBB-P05_C1_R02 timed out on two consecutive attempts; G1 execution paused pending provider recovery.
-ErBioBench/protocol/rep5_execution_batches/by_model/REP2_G2_45runs_v1.csv,REP2,G2,45,HOLD_PROVIDER_503,G2 quota recovered, but R02 later returned HTTP 503 at G2_ERBB-P03_C2_R02; execution paused pending provider recovery.
+ErBioBench/protocol/rep5_execution_batches/by_model/REP2_G2_45runs_v1.csv,REP2,G2,45,HOLD_QUOTA,G2 provider recovered from prior HTTP 503, but quota exhausted during G2 R02 at G2_ERBB-P05_C3_R02; hold subsequent G2 execution pending quota recovery.
 ErBioBench/protocol/rep5_execution_batches/by_model/REP2_G3_45runs_v1.csv,REP2,G3,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP2_M1_45runs_v1.csv,REP2,M1,45,HOLD_PROVIDER_ACCESS,R01 returned HTTP 403 tier_not_allowed.
 ErBioBench/protocol/rep5_execution_batches/by_model/REP2_M2_45runs_v1.csv,REP2,M2,45,HOLD_RATE_LIMIT,R01 returned HTTP 429 rate-limit failures.
