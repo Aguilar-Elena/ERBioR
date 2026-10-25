@@ -33,7 +33,7 @@ ErBioBench/protocol/rep5_execution_batches/by_model/REP4_M1_45runs_v1.csv,REP4,M
 ErBioBench/protocol/rep5_execution_batches/by_model/REP4_M2_45runs_v1.csv,REP4,M2,45,HOLD_RATE_LIMIT,R01 returned HTTP 429 rate-limit failures.
 ErBioBench/protocol/rep5_execution_batches/by_model/REP4_M3_45runs_v1.csv,REP4,M3,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP4_O1_45runs_v1.csv,REP4,O1,45,HOLD_QUOTA,"OpenAI quota exhausted during O1 R03 at O1_ERBB-P11_C1_R03; hold subsequent O1 execution pending quota recovery."
-ErBioBench/protocol/rep5_execution_batches/by_model/REP4_O2_45runs_v1.csv,REP4,O2,45,READY,"No active quota, rate-limit, or provider-access hold identified."
+ErBioBench/protocol/rep5_execution_batches/by_model/REP4_O2_45runs_v1.csv,REP4,O2,45,HOLD_QUOTA,OpenAI quota exhausted during O2 R04 at O2_ERBB-P01_C1_R04; hold subsequent O2 execution pending quota recovery.
 ErBioBench/protocol/rep5_execution_batches/by_model/REP4_O3_45runs_v1.csv,REP4,O3,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP5_A1_45runs_v1.csv,REP5,A1,45,READY,"No active quota, rate-limit, or provider-access hold identified."
 ErBioBench/protocol/rep5_execution_batches/by_model/REP5_A2_45runs_v1.csv,REP5,A2,45,READY,"No active quota, rate-limit, or provider-access hold identified."
