@@ -1,0 +1,70 @@
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "audit",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "case_information"
+      },
+      "compliance": {
+        "percent": 96.875,
+        "class": "Aceptable",
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "AUDIT-F2015-004"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Evaluar y corregir el incumplimiento específico de medidas higiénicas y de protección individual (AUDIT-F2015-004) para mantener el riesgo en clase tolerable."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Tolerable"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    {
+      "source": "ERBioR reference output (version 0.9.0)",
+      "basis": "deterministic_engine"
+    },
+    {
+      "source": "Case information (ERBB-P10)",
+      "basis": "occupational_scenario"
+    }
+  ],
+  "reasoning_summary": "Evaluación basada en el agente biológico Brucella melitensis (BIO-BACT-0028), clasificado en el grupo 3 según Anexo II, con exposición frecuente. El cumplimiento global es aceptable (96.875%), pero se identifica un incumplimiento crítico en el control AUDIT-F2015-004. La probabilidad de riesgo es baja (valor 1) y el GRB es 3, resultando en una clase de riesgo tolerable. No se requiere valoración profesional adicional según ERBioR. El control fallido debe ser corregido para mantener el riesgo en niveles aceptables."
+}

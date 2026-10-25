@@ -1,0 +1,29 @@
+{
+  "id": "f9ab65564658491ea9512acbaa0a1998",
+  "created": 1792950896,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 858,
+    "total_tokens": 2119,
+    "completion_tokens": 1261,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P06\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Actinomadura madurae\",\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    },\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resolved\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": \"Grupo 3 (agente patógeno para humanos, riesgo alto para trabajadores, bajo para la comunidad)\",\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio\",\n\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Información proporcionada en el caso\"\n      },\n\n      \"compliance\": {\n        \"percent\": 39.58,\n        \"class\": \"Bajo\",\n        \"n_applicable\": 19,\n        \"n_not_applicable\": 29\n      },\n\n      \"probability\": {\n        \"value\": 6,\n        \"label\": \"Media\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"Alto\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Identificar y corregir los 29 ítems incumplidos en el cuestionario ERBio (respuestas 'No') para mejorar el cumplimiento y reducir la probabilidad de exposición.\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar controles de ingeniería (ej. cabinas de seguridad biológica) y administrativos (ej. protocolos de bioseguridad) para reducir la exposición frecuente a Brucella melitensis.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Garantizar el uso de equipos de protección individual (EPI) adecuados para el Grupo 3, incluyendo protección respiratoria y guantes.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Realizar vigilancia médica específica para trabajadores expuestos, incluyendo pruebas serológicas periódicas.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Capacitar al personal sobre los riesgos asociados a Brucella melitensis y las medidas de prevención.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"agent_name\": \"Actinomadura madurae\",\n      \"questionnaire_id\": \"ERBio\",\n\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Información proporcionada en el caso\"\n      },\n\n      \"compliance\": {\n        \"percent\": 39.58,\n        \"class\": \"Bajo\",\n        \"n_applicable\": 19,\n        \"n_not_applicable\": 29\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [\n        {\n          \"item_id\": null,\n          \"action\": \"No se pueden determinar controles específicos debido a la falta de clasificación reglamentaria para Actinomadura madurae.\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Realizar una valoración profesional urgente para determinar la clasificación y riesgos asociados a Actinomadura madurae.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Aplicar medidas de precaución equivalentes a las de agentes del Grupo 2 o superior hasta que se resuelva la clasificación.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"not_applicable\",\n    \"agent_aggregation_status\": \"discordant\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"La clasificación reglamentaria de Actinomadura madurae no está resuelta en el caso, lo que impide una evaluación completa del riesgo. La discordancia entre agentes (uno clasificado, otro no) genera incertidumbre en la evaluación global del puesto.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Información proporcionada en el caso ERBB-P06\",\n    \"Clasificación reglamentaria de Brucella melitensis (Grupo 3) según datos del caso\"\n  ],\n\n  \"reasoning_summary\": \"1) Brucella melitensis está clasificada como Grupo 3, con exposición frecuente y cumplimiento bajo (39.58%), lo que resulta en una probabilidad media (valor 6) y riesgo alto. 2) Actinomadura madurae carece de clasificación reglamentaria en el caso, por lo que su evaluación es irresoluble. 3) La discordancia entre agentes impide una agregación global. 4) Se requiere valoración profesional para Actinomadura madurae y para resolver la discordancia.\"\n}\n```"
+      }
+    }
+  ]
+}

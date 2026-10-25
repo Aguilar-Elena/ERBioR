@@ -1,0 +1,77 @@
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resoluble",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": "Nivel 3",
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio",
+      "exposure": {
+        "category": "Muy frecuente",
+        "basis": "Exposición reportada como muy frecuente en el escenario ocupacional."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "Parcial",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+      "probability": {
+        "value": 4,
+        "label": "Alta"
+      },
+      "grb": 12,
+      "risk_class": "Alto",
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Identificar y corregir los 8 ítems incumplidos en el cuestionario ERBio (respuestas No)."
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas de control específicas para agentes del Grupo 3, priorizando la reducción de la frecuencia de exposición."
+        },
+        {
+          "item_id": null,
+          "action": "Reforzar el uso de equipos de protección individual (EPI) adecuados para exposición a Brucella melitensis."
+        },
+        {
+          "item_id": null,
+          "action": "Establecer protocolos de descontaminación y manejo seguro de materiales potencialmente contaminados."
+        },
+        {
+          "item_id": null,
+          "action": "Capacitar al personal sobre los riesgos asociados y las medidas preventivas específicas."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "completo",
+    "agent_aggregation_status": "único agente evaluado",
+    "workplace_global_class": "Alto"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Información proporcionada en el caso ERBB-P02.",
+    "Clasificación regulatoria de Brucella melitensis como agente del Grupo 3 según normativas internacionales de bioseguridad."
+  ],
+  "reasoning_summary": "La evaluación se basa en: (1) Brucella melitensis está clasificada como agente del Grupo 3 (riesgo individual alto, riesgo comunitario bajo); (2) La exposición es muy frecuente, incrementando la probabilidad de contacto; (3) El cumplimiento parcial (83.33%) indica deficiencias en controles; (4) La combinación de alta probabilidad y agente Grupo 3 resulta en un GRB de 12 y clase de riesgo Alto; (5) Se requiere revisión profesional para validar controles específicos y priorizar acciones preventivas."
+}

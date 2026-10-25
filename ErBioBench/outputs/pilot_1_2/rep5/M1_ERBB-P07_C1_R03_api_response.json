@@ -1,0 +1,29 @@
+{
+  "id": "556cf47208c84a84bbe43f7d4cb217ed",
+  "created": 1792949705,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 828,
+    "total_tokens": 1332,
+    "completion_tokens": 504,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P07\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"ErBioBench fictitious biological agent\",\n      \"agent_id\": null,\n      \"classification_status\": \"UNRESOLVED\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"ErBioBench fictitious biological agent\",\n      \"questionnaire_id\": null,\n\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"La información de exposición no permite sustituir la clasificación reglamentaria.\"\n      },\n\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": null,\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"No es posible determinar controles específicos sin clasificación reglamentaria del agente.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"NOT_APPLICABLE\",\n    \"agent_aggregation_status\": \"UNRESOLVED\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Ausencia de clasificación legal del agente y datos insuficientes para evaluar exposición o riesgo.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [],\n\n  \"reasoning_summary\": \"El agente 'ErBioBench fictitious biological agent' carece de correspondencia en el registro legal de ERBioR, lo que impide su clasificación reglamentaria. La información proporcionada no permite evaluar exposición, probabilidad, GRB, clase de riesgo o controles aplicables. Se requiere valoración profesional para resolver la incertidumbre y determinar acciones preventivas.\"\n}\n```"
+      }
+    }
+  ]
+}

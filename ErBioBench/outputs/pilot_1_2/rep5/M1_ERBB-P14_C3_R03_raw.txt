@@ -1,0 +1,118 @@
+```json
+{
+  "case_id": "ERBB-P14",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)",
+      "questionnaire_id": "general",
+
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "case_information"
+      },
+
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+
+      "grb": 3,
+      "risk_class": "Tolerable",
+
+      "failed_controls": [
+        {"item_id": "GENERAL-F2015-041"},
+        {"item_id": "GENERAL-F2015-042"},
+        {"item_id": "GENERAL-F2015-043"},
+        {"item_id": "GENERAL-F2015-044"},
+        {"item_id": "GENERAL-F2015-045"},
+        {"item_id": "GENERAL-F2015-046"},
+        {"item_id": "GENERAL-F2015-047"},
+        {"item_id": "GENERAL-F2015-048"}
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Review and implement corrective measures for failed control GENERAL-F2015-041"
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Review and implement corrective measures for failed control GENERAL-F2015-042"
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Review and implement corrective measures for failed control GENERAL-F2015-043"
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Review and implement corrective measures for failed control GENERAL-F2015-044"
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Review and implement corrective measures for failed control GENERAL-F2015-045"
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Review and implement corrective measures for failed control GENERAL-F2015-046"
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Review and implement corrective measures for failed control GENERAL-F2015-047"
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Review and implement corrective measures for failed control GENERAL-F2015-048"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Tolerable"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    {
+      "type": "ERBioR_reference_output",
+      "version": "0.9.0"
+    },
+    {
+      "type": "case_information",
+      "benchmark": "ErBioBench-pilot-1.0"
+    }
+  ],
+
+  "reasoning_summary": "Assessment based on ERBioR reference output for SARS-CoV-2 (BIO-VIR-0064) using the general questionnaire (48 items, 40 compliant). Agent classified in regulatory group 3 with reference level 3. Exposure categorized as Frequent. Compliance class Aceptable (83.33%). Probability labeled Baja (value 1). GRB score 3 results in risk class Tolerable. Eight controls failed; preventive actions required for each. No unresolved classifications or professional review required."
+}
+```

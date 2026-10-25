@@ -1,0 +1,118 @@
+```json
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "ERBio",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Case-provided exposure information"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "Moderate",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Requiere valoración profesional para determinar controles específicos y nivel de riesgo debido a exposición frecuente a agente biológico de alto potencial patogénico."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Case-provided exposure information"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "Moderate",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Requiere valoración profesional para determinar controles específicos y nivel de riesgo debido a exposición frecuente a agente biológico de alto potencial patogénico."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "complete",
+    "agent_aggregation_status": "multi_agent_same_group",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación regulatoria y nivel de referencia de los agentes no proporcionados en el caso. Exposición frecuente sin detalles sobre vías de exposición, medidas de control existentes o contexto laboral específico."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Case-provided exposure information",
+    "Case-provided questionnaire responses (48 Sí, 8 No)"
+  ],
+
+  "reasoning_summary": "1) Se identificaron dos agentes biológicos (Bacillus anthracis y Brucella melitensis) con exposición frecuente según el caso. 2) La clasificación regulatoria y nivel de referencia no están especificados en el caso, por lo que se marcan como no resueltos. 3) El cumplimiento se calculó en 83.33% (40 Sí/48 aplicables), clasificado como Moderado. 4) No se puede determinar probabilidad, GRB o clase de riesgo sin información adicional sobre controles específicos o contexto laboral. 5) Se requiere valoración profesional debido a la exposición frecuente a agentes con potencial patogénico significativo y la incertidumbre en la clasificación regulatoria."
+}
+```

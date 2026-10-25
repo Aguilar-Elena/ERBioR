@@ -1,0 +1,29 @@
+{
+  "id": "18314709ef6e4538aa566f22bc4604b4",
+  "created": 1792950427,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 1040,
+    "total_tokens": 1739,
+    "completion_tokens": 699,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P09\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"UNRESOLVED\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"Exposición descrita como 'contacto regular' sin especificación de frecuencia, cadencia o porcentaje temporal.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"MEDIUM\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Determinar frecuencia, cadencia y porcentaje temporal de exposición para categorizar adecuadamente el nivel de exposición.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Clasificar el agente según normativa aplicable para establecer el nivel de referencia.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Evaluar controles específicos para Brucella melitensis en contextos de 'contacto regular'.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"SINGLE_QUESTIONNAIRE\",\n    \"agent_aggregation_status\": \"SINGLE_AGENT\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Falta información crítica sobre frecuencia, cadencia y porcentaje temporal de exposición, así como clasificación regulatoria del agente.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Información proporcionada en el caso ERBB-P09.\"\n  ],\n\n  \"reasoning_summary\": \"1. Se identificó Brucella melitensis como único agente biológico. 2. Su clasificación regulatoria no está resuelta en el caso. 3. La exposición se describe como 'contacto regular' sin detalles cuantificables, impidiendo categorización. 4. El cuestionario general (40 Sí/8 No) arroja un cumplimiento del 83.33% (MEDIUM), pero no se excluyeron respuestas 'No procede'. 5. La probabilidad, GRB y clase de riesgo no pueden determinarse por falta de datos. 6. Se requiere valoración profesional para resolver incertidumbres.\"\n}\n```"
+      }
+    }
+  ]
+}

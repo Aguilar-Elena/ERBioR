@@ -1,0 +1,29 @@
+{
+  "id": "2e83c88f9f9347c99fe68379e9ff9d73",
+  "created": 1792948716,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 816,
+    "total_tokens": 1588,
+    "completion_tokens": 772,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P01\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resolved\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": \"RG3\",\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio\",\n\n      \"exposure\": {\n        \"category\": \"frequent\",\n        \"basis\": \"Exposición declarada como frecuente en el escenario ocupacional.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"moderate\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"moderate\"\n      },\n\n      \"grb\": 9,\n      \"risk_class\": \"high\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": null,\n          \"description\": \"Controles asociados a las 8 respuestas 'No' en el cuestionario (no detallados en el caso).\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar medidas de contención biológica nivel 3 (RG3) para exposición frecuente a Brucella melitensis.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Revisar y corregir los 8 ítems incumplidos en el cuestionario para mejorar el cumplimiento.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Capacitación específica en bioseguridad para trabajadores expuestos.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Vigilancia médica periódica para detección temprana de brucelosis.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"complete\",\n    \"agent_aggregation_status\": \"complete\",\n    \"workplace_global_class\": \"high\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Clasificación RG3 basada en consenso internacional para Brucella melitensis (OMS/OIE).\",\n    \"Exposición frecuente declarada en el escenario.\",\n    \"Resultados del cuestionario ERBio (48 Sí / 8 No).\"\n  ],\n\n  \"reasoning_summary\": \"1) Brucella melitensis se clasifica como RG3 por su potencial patogénico y riesgo de transmisión en entornos ocupacionales. 2) La exposición frecuente y el cumplimiento moderado (83.33%) determinan una probabilidad moderada (valor 3). 3) GRB = 9 (RG3 × exposición frecuente × probabilidad moderada) clasifica el riesgo como alto. 4) Se requieren controles RG3 y revisión profesional por la naturaleza del agente y la exposición diaria.\"\n}\n```"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "7b169187237d4fce9b3f5f8ca81d8592",
+  "created": 1792949109,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 1537,
+    "total_tokens": 2156,
+    "completion_tokens": 619,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P11\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"case_information\"\n      },\n\n      \"compliance\": {\n        \"percent\": 97.9167,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\",\n          \"action\": \"Implementar limpieza/desinfección periódica de los equipos de trabajo\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"Tolerable\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    \"ERBioR reference output (version 0.9.0)\",\n    \"case_information\"\n  ],\n\n  \"reasoning_summary\": \"Evaluación basada en el agente biológico Brucella melitensis (BIO-BACT-0028), clasificado en el grupo 3 según anexo II. La exposición frecuente y el incumplimiento del control GENERAL-F2015-020 (limpieza/desinfección periódica de equipos) determinan una probabilidad baja (valor 1) y un GRB de 3, resultando en una clase de riesgo tolerable. No se requiere valoración profesional adicional según ERBioR.\"\n}\n```"
+      }
+    }
+  ]
+}

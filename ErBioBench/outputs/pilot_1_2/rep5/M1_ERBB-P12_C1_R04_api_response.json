@@ -1,0 +1,29 @@
+{
+  "id": "4f09291d6b96453b9de1a9fd92568c26",
+  "created": 1792950517,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 861,
+    "total_tokens": 1902,
+    "completion_tokens": 1041,
+    "prompt_tokens_details": {
+      "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P12\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"Auditoría\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición común: Frecuente.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 96.88,\n        \"class\": \"High\",\n        \"n_applicable\": 31,\n        \"n_not_applicable\": 1\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Revisar el único control incumplido en la auditoría para alinearlo con los estándares de bioseguridad.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"General\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición común: Frecuente.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 39.58,\n        \"class\": \"Low\",\n        \"n_applicable\": 19,\n        \"n_not_applicable\": 29\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Priorizar la implementación de controles generales incumplidos para reducir la exposición laboral.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"Trabajadores\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición común: Frecuente.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 58.82,\n        \"class\": \"Medium\",\n        \"n_applicable\": 20,\n        \"n_not_applicable\": 14\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Evaluar y reforzar los controles específicos para trabajadores con exposición frecuente.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"discordant\",\n    \"agent_aggregation_status\": \"unresolved\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Discordancia en los resultados de cumplimiento entre los tres cuestionarios (Auditoría: 96.88%, General: 39.58%, Trabajadores: 58.82%). No se puede determinar una clase global única sin reconciliación de los instrumentos.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Datos de cuestionarios proporcionados (Auditoría, General, Trabajadores).\",\n    \"Exposición común: Frecuente.\"\n  ],\n\n  \"reasoning_summary\": \"La evaluación se limita a los datos proporcionados. Brucella melitensis no tiene clasificación regulatoria resuelta en el caso. La exposición es frecuente. Los cuestionarios muestran cumplimientos discordantes (Auditoría: Alto, General: Bajo, Trabajadores: Medio), lo que impide una agregación válida. Se requiere valoración profesional para reconciliar los instrumentos y determinar controles incumplidos específicos.\"\n}\n```"
+      }
+    }
+  ]
+}

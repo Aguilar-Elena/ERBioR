@@ -1,0 +1,83 @@
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolvable",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": "RG3",
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio general",
+      "exposure": {
+        "category": "very_frequent",
+        "basis": "Exposición reportada como muy frecuente en el escenario ocupacional."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "moderate",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+      "probability": {
+        "value": 4,
+        "label": "likely"
+      },
+      "grb": 12,
+      "risk_class": "high",
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Identificar y corregir los 8 ítems incumplidos en el cuestionario ERBio (respuestas 'No')."
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar controles de ingeniería (ej. sistemas de ventilación cerrados) y administrativos (ej. protocolos de higiene estrictos) para reducir la exposición frecuente."
+        },
+        {
+          "item_id": null,
+          "action": "Proporcionar equipo de protección individual (EPI) adecuado, como guantes, mascarillas FFP3 y protección ocular, para minimizar el contacto con el agente."
+        },
+        {
+          "item_id": null,
+          "action": "Capacitar al personal sobre los riesgos de Brucella melitensis y las medidas preventivas específicas, incluyendo procedimientos de descontaminación."
+        },
+        {
+          "item_id": null,
+          "action": "Establecer un programa de vigilancia médica para trabajadores expuestos, con evaluaciones periódicas de salud."
+        },
+        {
+          "item_id": null,
+          "action": "Revisar y actualizar el plan de emergencia para casos de exposición accidental, incluyendo protocolos de notificación y tratamiento inmediato."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "complete",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "high"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Clasificación RG3 basada en la identificación del agente Brucella melitensis (BIO-BACT-0028) como patógeno de grupo 3 según normativas internacionales de bioseguridad.",
+    "Exposición categorizada como 'muy frecuente' según el escenario ocupacional descrito.",
+    "Cálculo de cumplimiento derivado de 40 respuestas 'Sí' y 8 'No' en un cuestionario de 48 ítems (83.33% de cumplimiento).",
+    "Probabilidad 'likely' (valor 4) y GRB 12 derivados de la combinación de exposición muy frecuente y agente RG3, siguiendo metodología ERBioR v0.9.0."
+  ],
+  "reasoning_summary": "El agente Brucella melitensis está clasificado como RG3, con exposición muy frecuente en el escenario ocupacional. El cumplimiento moderado (83.33%) sugiere deficiencias en controles críticos. La combinación de RG3 y exposición muy frecuente resulta en una probabilidad 'likely' (4) y un GRB de 12, clasificando el riesgo como 'high'. Se requieren acciones preventivas inmediatas y valoración profesional para validar los controles y garantizar la seguridad laboral."
+}

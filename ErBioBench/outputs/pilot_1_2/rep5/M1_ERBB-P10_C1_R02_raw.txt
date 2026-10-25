@@ -1,0 +1,80 @@
+```json
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolvable",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": "Nivel 3",
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "AUDIT-F2015-004",
+
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición declarada en el caso"
+      },
+
+      "compliance": {
+        "percent": null,
+        "class": "Incumplimiento crítico",
+        "n_applicable": null,
+        "n_not_applicable": 1
+      },
+
+      "probability": {
+        "value": null,
+        "label": "Alta"
+      },
+
+      "grb": 3,
+      "risk_class": "Clase 3",
+
+      "failed_controls": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "description": "Control específico de medidas higiénicas y de protección individual no cumplido"
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Implementar y verificar el cumplimiento de medidas higiénicas y de protección individual específicas para Brucella melitensis (Nivel 3)"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "Incumplimiento crítico identificado",
+    "agent_aggregation_status": "Evaluación individual resuelta",
+    "workplace_global_class": "Incumplimiento crítico en control específico"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Información del caso ERBB-P10",
+    "Clasificación regulatoria estándar de Brucella melitensis (Grupo 3)"
+  ],
+
+  "reasoning_summary": "El agente Brucella melitensis está clasificado como Grupo 3 según normativas estándar de bioseguridad. La exposición es frecuente y existe un incumplimiento crítico en medidas higiénicas y de protección individual (AUDIT-F2015-004), lo que incrementa la probabilidad de riesgo. El GRB se establece en 3 y la clase de riesgo en Clase 3. Se requiere valoración profesional para corregir el incumplimiento y garantizar la seguridad ocupacional."
+}
+```

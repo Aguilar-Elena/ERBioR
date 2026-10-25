@@ -1,0 +1,69 @@
+{
+  "case_id": "ERBB-P09",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": null,
+        "basis": "contacto regular (información insuficiente para cuantificar)"
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisión profesional obligatoria para determinar exposición cuantitativa y controles específicos"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "insufficient_information",
+    "agent_aggregation_status": "classified_annex_ii",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Información insuficiente sobre frecuencia, cadencia o porcentaje temporal de exposición"
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "ERBioR reference output v0.9.0",
+    "Cuestionario general de valoración del riesgo biológico (versión final_2015_annex1)"
+  ],
+  "reasoning_summary": "Clasificación del agente resuelta (Brucella melitensis, grupo 3). Exposición descrita como 'contacto regular' sin datos cuantificables. Cuestionario general con 83.33% de cumplimiento y 8 controles incumplidos. Riesgo no calculable por falta de datos de exposición. Requiere valoración profesional para determinar probabilidad, GRB y clase de riesgo."
+}

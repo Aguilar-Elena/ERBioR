@@ -1,0 +1,148 @@
+```json
+{
+  "case_id": "ERBB-P12",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Auditoría",
+
+      "exposure": {
+        "category": "FREQUENTE",
+        "basis": "Exposición común indicada en el caso"
+      },
+
+      "compliance": {
+        "percent": 96.88,
+        "class": "ALTO",
+        "n_applicable": 32,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 2,
+        "label": "MEDIA"
+      },
+
+      "grb": null,
+      "risk_class": "REVISIÓN_PROFESIONAL_REQUERIDA",
+
+      "failed_controls": [
+        "1 control incumplido (Auditoría)"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar el control incumplido identificado en la Auditoría para alinear con los estándares de bioseguridad"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "General",
+
+      "exposure": {
+        "category": "FRECUENTE",
+        "basis": "Exposición común indicada en el caso"
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "BAJO",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "ALTA"
+      },
+
+      "grb": null,
+      "risk_class": "REVISIÓN_PROFESIONAL_REQUERIDA",
+
+      "failed_controls": [
+        "29 controles incumplidos (General)"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas correctivas urgentes para los 29 controles incumplidos en el cuestionario General"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Trabajadores",
+
+      "exposure": {
+        "category": "FRECUENTE",
+        "basis": "Exposición común indicada en el caso"
+      },
+
+      "compliance": {
+        "percent": 58.82,
+        "class": "MEDIO",
+        "n_applicable": 34,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "MEDIA-ALTA"
+      },
+
+      "grb": null,
+      "risk_class": "REVISIÓN_PROFESIONAL_REQUERIDA",
+
+      "failed_controls": [
+        "14 controles incumplidos (Trabajadores)"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Evaluar y reforzar los 14 controles incumplidos en el cuestionario Trabajadores"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "DISCORDANTE",
+    "agent_aggregation_status": "NO_AGREGADO",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación regulatoria del agente no resuelta. Resultados discordantes entre cuestionarios. Exposición frecuente sin referencia de nivel de riesgo."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Datos proporcionados en el caso ERBB-P12"
+  ],
+
+  "reasoning_summary": "Se identificó Brucella melitensis como agente único. La clasificación regulatoria no está resuelta en el caso. Se evaluaron tres cuestionarios (Auditoría, General, Trabajadores) con resultados discordantes en cumplimiento (96.88%, 39.58%, 58.82%). La exposición se clasificó como frecuente según el caso. La probabilidad se derivó de la exposición y cumplimiento, resultando en clases de riesgo que requieren revisión profesional. No se agregaron resultados debido a la discordancia explícita entre cuestionarios y la ausencia de autorización para generar una clase global única."
+}
+```

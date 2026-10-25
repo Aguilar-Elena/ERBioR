@@ -1,0 +1,77 @@
+{
+  "case_id": "ERBB-P03",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resoluble",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": "Nivel 3 (agentes que pueden causar enfermedades graves en humanos y representan un serio peligro para los trabajadores; existe riesgo de propagación en la comunidad, pero generalmente existe profilaxis o tratamiento eficaz)",
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio",
+      "exposure": {
+        "category": "frecuente",
+        "basis": "Información proporcionada en el caso (exposición frecuente)"
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": "deficiente",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": 4,
+        "label": "alta"
+      },
+      "grb": 3,
+      "risk_class": "alto",
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Deficiencias preventivas relevantes reportadas en el puesto de trabajo"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas de control de exposición según normativa para agentes del Grupo 3 (ej. contención física, EPIs adecuados, vigilancia médica específica)"
+        },
+        {
+          "item_id": null,
+          "action": "Revisar y corregir las deficiencias preventivas identificadas en el cuestionario"
+        },
+        {
+          "item_id": null,
+          "action": "Capacitación obligatoria en bioseguridad para trabajadores expuestos"
+        },
+        {
+          "item_id": null,
+          "action": "Establecer protocolo de notificación y manejo de incidentes/accidentes con exposición a Brucella melitensis"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "completo",
+    "agent_aggregation_status": "único agente evaluado",
+    "workplace_global_class": "alto"
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se especifica el contexto exacto de exposición (ej. laboratorio, campo, industria) ni detalles sobre las deficiencias preventivas reportadas, lo que limita la precisión en la identificación de controles incumplidos específicos"
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Clasificación de Brucella melitensis como agente del Grupo 3 según directrices internacionales (OMS/OIE) y normativas de bioseguridad ocupacional",
+    "Datos de exposición y cumplimiento derivados del cuestionario ERBio (48 ítems, 19 Sí / 29 No)"
+  ],
+  "reasoning_summary": "1) Brucella melitensis se clasifica como agente del Grupo 3 por su capacidad de causar enfermedades graves en humanos con riesgo de propagación, aunque con profilaxis/tratamiento disponible. 2) La exposición frecuente combinada con un cumplimiento preventivo deficiente (39.58%) resulta en una probabilidad alta de ocurrencia. 3) El GRB (Grado de Riesgo Biológico) se establece en 3 por la combinación de agente Grupo 3 + exposición frecuente. 4) La clase de riesgo se determina como 'alto' según matriz de riesgo estándar (probabilidad alta + consecuencia grave). 5) Se requiere valoración profesional por la gravedad del agente y las deficiencias preventivas no detalladas."
+}

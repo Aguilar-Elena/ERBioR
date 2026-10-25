@@ -1,0 +1,429 @@
+```json
+{
+  "case_id": "ERBB-P15",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Ebolavirus",
+      "agent_id": "BIO-VIR-0040",
+      "classification_status": "resolved",
+      "regulatory_group": 4,
+      "regulatory_minimum_group": 4,
+      "reference_level": 4,
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus",
+      "questionnaire_id": "Auditoría",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "Exposición de los agentes resueltos indicada como frecuente en el caso."
+      },
+
+      "compliance": {
+        "percent": 96.88,
+        "class": "high",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+
+      "probability": {
+        "value": 0.8,
+        "label": "high"
+      },
+
+      "grb": 4,
+      "risk_class": "very_high",
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Revisar el único control incumplido en la auditoría para Ebolavirus."
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas de contención de nivel 4 de bioseguridad (BSL-4) para Ebolavirus."
+        },
+        {
+          "item_id": null,
+          "action": "Garantizar el uso de equipos de protección individual (EPI) adecuados para exposición a agentes del grupo 4."
+        },
+        {
+          "item_id": null,
+          "action": "Realizar formación específica y periódica para trabajadores expuestos a Ebolavirus."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus",
+      "questionnaire_id": "General",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "Exposición de los agentes resueltos indicada como frecuente en el caso."
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "low",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+
+      "probability": {
+        "value": 0.9,
+        "label": "very_high"
+      },
+
+      "grb": 4,
+      "risk_class": "very_high",
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Revisar los 29 controles incumplidos en el cuestionario general para Ebolavirus."
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar un plan de acción correctivo para los controles incumplidos en el cuestionario general."
+        },
+        {
+          "item_id": null,
+          "action": "Auditar y reforzar los protocolos de bioseguridad en todas las áreas con exposición a Ebolavirus."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus",
+      "questionnaire_id": "Trabajadores",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "Exposición de los agentes resueltos indicada como frecuente en el caso."
+      },
+
+      "compliance": {
+        "percent": 58.82,
+        "class": "medium",
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+
+      "probability": {
+        "value": 0.85,
+        "label": "high"
+      },
+
+      "grb": 4,
+      "risk_class": "very_high",
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Revisar los 14 controles incumplidos en el cuestionario de trabajadores para Ebolavirus."
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Capacitar a los trabajadores en el manejo seguro de Ebolavirus y en la identificación de riesgos."
+        },
+        {
+          "item_id": null,
+          "action": "Establecer un sistema de vigilancia médica específica para trabajadores expuestos."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Auditoría",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "Exposición de los agentes resueltos indicada como frecuente en el caso."
+      },
+
+      "compliance": {
+        "percent": 96.88,
+        "class": "high",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+
+      "probability": {
+        "value": 0.7,
+        "label": "high"
+      },
+
+      "grb": 3,
+      "risk_class": "high",
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Revisar el único control incumplido en la auditoría para Brucella melitensis."
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas de contención de nivel 3 de bioseguridad (BSL-3) para Brucella melitensis."
+        },
+        {
+          "item_id": null,
+          "action": "Garantizar el uso de EPI adecuados para exposición a agentes del grupo 3."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "General",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "Exposición de los agentes resueltos indicada como frecuente en el caso."
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "low",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+
+      "probability": {
+        "value": 0.8,
+        "label": "high"
+      },
+
+      "grb": 3,
+      "risk_class": "high",
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Revisar los 29 controles incumplidos en el cuestionario general para Brucella melitensis."
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar un plan de acción correctivo para los controles incumplidos en el cuestionario general."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Trabajadores",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "Exposición de los agentes resueltos indicada como frecuente en el caso."
+      },
+
+      "compliance": {
+        "percent": 58.82,
+        "class": "medium",
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+
+      "probability": {
+        "value": 0.75,
+        "label": "high"
+      },
+
+      "grb": 3,
+      "risk_class": "high",
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Revisar los 14 controles incumplidos en el cuestionario de trabajadores para Brucella melitensis."
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Capacitar a los trabajadores en el manejo seguro de Brucella melitensis."
+        }
+      ]
+    },
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": "Auditoría",
+
+      "exposure": {
+        "category": null,
+        "basis": "No se aporta información suficiente para determinar la exposición del virus hipotético."
+      },
+
+      "compliance": {
+        "percent": 96.88,
+        "class": "high",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Revisar el único control incumplido en la auditoría para el virus hipotético."
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Realizar una evaluación profesional específica para determinar el riesgo asociado al virus hipotético."
+        }
+      ]
+    },
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": "General",
+
+      "exposure": {
+        "category": null,
+        "basis": "No se aporta información suficiente para determinar la exposición del virus hipotético."
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "low",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Revisar los 29 controles incumplidos en el cuestionario general para el virus hipotético."
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Realizar una evaluación profesional específica para determinar el riesgo asociado al virus hipotético."
+        }
+      ]
+    },
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": "Trabajadores",
+
+      "exposure": {
+        "category": null,
+        "basis": "No se aporta información suficiente para determinar la exposición del virus hipotético."
+      },
+
+      "compliance": {
+        "percent": 58.82,
+        "class": "medium",
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Revisar los 14 controles incumplidos en el cuestionario de trabajadores para el virus hipotético."
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Realizar una evaluación profesional específica para determinar el riesgo asociado al virus hipotético."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "partial",
+    "agent_aggregation_status": "partial",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "La clasificación y nivel de referencia del virus hipotético no están resueltos, lo que impide una evaluación completa del riesgo."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Información proporcionada en el caso ERBB-P15."
+  ],
+
+  "reasoning_summary": "Se evaluaron los agentes biológicos Ebolavirus (grupo 4) y Brucella melitensis (grupo 3) con exposición frecuente y resultados de cuestionarios discordantes. El virus hipotético no pudo ser clasificado ni evaluado por falta de información. Se determinaron clases de riesgo muy alto para Ebolavirus y alto para Brucella melitensis, con incumplimientos significativos en los cuestionarios general y de trabajadores. Se requiere valoración profesional para el virus hipotético y para confirmar las medidas preventivas propuestas."
+}
+```

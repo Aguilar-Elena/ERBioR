@@ -1,0 +1,29 @@
+{
+  "id": "93cc39bae63246c9a18caa4b78d0f47a",
+  "created": 1792950778,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 817,
+    "total_tokens": 2228,
+    "completion_tokens": 1411,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P02\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resolvable\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": \"RG3\",\n      \"requires_professional_assessment\": false,\n      \"reasoning_summary\": \"Brucella melitensis está clasificada como agente biológico del grupo 3 según normativas internacionales de bioseguridad (ej. Directiva UE 2000/54/CE, RD 664/1997). La clasificación se basa en su capacidad de causar enfermedades graves en humanos y representar un riesgo para los trabajadores, con posibilidad de propagación en la comunidad, aunque existan medidas profilácticas o terapéuticas eficaces.\"\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio-48\",\n\n      \"exposure\": {\n        \"category\": \"very_frequent\",\n        \"basis\": \"Exposición reportada como 'Muy frecuente' en la información del caso.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"moderate\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8,\n        \"reasoning_summary\": \"40 respuestas 'Sí' y 8 'No' de 48 ítems aplicables. Cálculo: (40/48)*100 = 83.33%. Clasificación de cumplimiento como 'moderado' según umbrales ERBioR v0.9.0 (80-90% = moderado).\"\n      },\n\n      \"probability\": {\n        \"value\": 4,\n        \"label\": \"high\",\n        \"reasoning_summary\": \"Combinación de exposición 'muy frecuente' (valor 4) y agente RG3 (valor 3) resulta en probabilidad alta (4) según matriz ERBioR v0.9.0 para exposición frecuente y agente de riesgo moderado-alto.\"\n      },\n\n      \"grb\": 12,\n      \"risk_class\": \"high\",\n      \"reasoning_summary\": \"GRB (Gravedad x Riesgo Biológico) = 4 (probabilidad) x 3 (RG3) = 12. Clasificación de riesgo 'alto' según ERBioR v0.9.0 (GRB 10-15 = alto).\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Identificar ítems específicos con respuesta 'No' en el cuestionario ERBio-48 que indiquen incumplimiento de controles críticos para Brucella melitensis (ej. EPIs, desinfección, ventilación, formación).\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar controles de ingeniería (ej. cabinas de seguridad biológica, sistemas de ventilación con filtros HEPA) para reducir la exposición aérea.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Reforzar el uso de EPIs específicos (guantes, mascarillas FFP3, protección ocular) y protocolos de higiene estrictos (lavado de manos, descontaminación de superficies).\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Capacitación obligatoria en bioseguridad para todo el personal expuesto, incluyendo manejo de muestras y procedimientos de emergencia.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Establecer vigilancia médica periódica con serología para detección temprana de infección por Brucella.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Revisar y actualizar el plan de bioseguridad del laboratorio/área de trabajo, incluyendo evaluación de riesgos específica para Brucella melitensis.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"complete\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"high\",\n    \"reasoning_summary\": \"Un único agente evaluado con riesgo 'alto' determina la clasificación global del lugar de trabajo como 'alto'.\"\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Incertidumbre en la identificación de controles específicos incumplidos debido a falta de detalle en los ítems del cuestionario ERBio-48. Requiere revisión de respuestas individuales para priorizar acciones correctivas.\",\n    \"reasoning_summary\": \"La información proporcionada no especifica qué ítems del cuestionario (48) corresponden a respuestas 'No', limitando la precisión en la identificación de controles fallidos.\"\n  },\n\n  \"professional_review_required\": true,\n  \"reasoning_summary\": \"Riesgo clasificado como 'alto' y presencia de incertidumbre en controles incumplidos justifican la necesidad de valoración profesional para validar la evaluación y priorizar medidas preventivas.\",\n\n  \"sources_or_basis\": [\n    \"Información del caso ERBB-P02\",\n    \"Clasificación RG3 para Brucella melitensis (Directiva UE 2000/54/CE, RD 664/1997)\",\n    \"Matriz de riesgo ERBioR v0.9.0\"\n  ],\n\n  \"reasoning_summary\": \"Evaluación basada en: (1) Clasificación RG3 de Brucella melitensis; (2) Exposición 'muy frecuente'; (3) Cumplimiento moderado (83.33%); (4) Matriz ERBioR v0.9.0 para probabilidad y GRB. Riesgo alto derivado de la combinación de agente RG3 y exposición frecuente, con incertidumbre en controles específicos incumplidos.\"\n}\n```"
+      }
+    }
+  ]
+}

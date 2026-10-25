@@ -1,0 +1,118 @@
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": "Grupo 3 (RD 664/1997)",
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio-48",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición frecuente según información proporcionada"
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": "Low",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Clasificación regulatoria no resuelta. Requiere valoración profesional para determinar grupo regulatorio y nivel de referencia."
+        },
+        {
+          "item_id": null,
+          "action": "Implementar controles provisionales basados en el agente de mayor riesgo presente (Brucella melitensis, Grupo 3) hasta resolución de la clasificación."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición frecuente según información proporcionada"
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": "Low",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": 0.6,
+        "label": "Medium"
+      },
+      "grb": 3,
+      "risk_class": "High",
+      "failed_controls": [
+        {
+          "item_id": null,
+          "description": "Controles insuficientes para exposición frecuente a agente Grupo 3. Cumplimiento bajo (39.58%)."
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Aplicar medidas de contención biológica nivel 3 (NCB3) según RD 664/1997."
+        },
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar protocolos de protección individual y colectiva."
+        },
+        {
+          "item_id": null,
+          "action": "Capacitación específica en manejo de agentes Grupo 3."
+        },
+        {
+          "item_id": null,
+          "action": "Vigilancia médica reforzada para trabajadores expuestos."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_applicable",
+    "agent_aggregation_status": "discordant",
+    "workplace_global_class": "High"
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación regulatoria no resuelta para Actinomadura madurae. Exposición frecuente a dos agentes con discordancia en clasificación."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "RD 664/1997 (España)",
+    "Información proporcionada en el caso ERBB-P06"
+  ],
+  "reasoning_summary": "1) Brucella melitensis: Resuelto como Grupo 3 (RD 664/1997), exposición frecuente, cumplimiento bajo (39.58%), probabilidad media, GRB 3, riesgo alto. 2) Actinomadura madurae: Clasificación no resuelta, requiere valoración profesional. 3) Discordancia entre agentes impide agregación. 4) Incertidumbre presente por clasificación no resuelta. 5) Requiere revisión profesional para resolver clasificación de Actinomadura madurae y ajustar controles."
+}

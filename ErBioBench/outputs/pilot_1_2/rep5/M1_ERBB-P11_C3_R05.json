@@ -1,0 +1,70 @@
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "case_information"
+      },
+      "compliance": {
+        "percent": 97.9167,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar limpieza/desinfección periódica de los equipos de trabajo"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Tolerable"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    {
+      "type": "ERBioR_reference_output",
+      "version": "0.9.0"
+    },
+    {
+      "type": "case_information",
+      "benchmark": "ErBioBench-pilot-1.0"
+    }
+  ],
+  "reasoning_summary": "Evaluación basada en el agente biológico Brucella melitensis (BIO-BACT-0028), clasificado en el grupo 3 según anexo II. Exposición frecuente con cumplimiento del 97.92% en el cuestionario general ERBio. Único control incumplido: GENERAL-F2015-020 (limpieza/desinfección periódica de equipos). Probabilidad baja (valor 1) y GRB 3 resultan en clase de riesgo Tolerable. No requiere valoración profesional adicional según ERBioR."
+}

@@ -1,0 +1,64 @@
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "frequent",
+        "basis": "explicitly stated in case information"
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "moderate",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas de control adicionales para reducir la exposición frecuente a SARS-CoV-2, priorizando el uso de EPP, ventilación adecuada y protocolos de higiene."
+        },
+        {
+          "item_id": null,
+          "action": "Realizar una valoración profesional detallada para determinar la clasificación regulatoria del agente y ajustar los controles preventivos según normativas aplicables."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "complete",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "La clasificación regulatoria del agente (SARS-CoV-2) no está especificada en el caso, lo que impide determinar el grupo regulatorio mínimo o nivel de referencia. La probabilidad y clase de riesgo no pueden resolverse sin esta información."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Exposición frecuente a SARS-CoV-2 (información del caso)",
+    "40 respuestas Sí y 8 respuestas No en cuestionario de 48 ítems (cumplimiento del 83.33%)"
+  ],
+  "reasoning_summary": "El caso proporciona información suficiente para determinar la exposición (frecuente) y el cumplimiento (83.33%, clase moderada). Sin embargo, la clasificación regulatoria del agente no está especificada, lo que impide asignar un grupo regulatorio, nivel de referencia, probabilidad, GRB o clase de riesgo. Se requiere valoración profesional para resolver estas incertidumbres y ajustar las medidas preventivas."
+}

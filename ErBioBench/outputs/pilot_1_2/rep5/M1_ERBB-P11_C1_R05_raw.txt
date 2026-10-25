@@ -1,0 +1,79 @@
+```json
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resoluble",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": "Nivel 3",
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio",
+
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición informada en el caso"
+      },
+
+      "compliance": {
+        "percent": 95,
+        "class": "Alto",
+        "n_applicable": 1,
+        "n_not_applicable": 19
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Media"
+      },
+
+      "grb": 3,
+      "risk_class": "Clase 3",
+
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "description": "Limpieza/desinfección periódica de los equipos de trabajo"
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar y garantizar la limpieza/desinfección periódica de los equipos de trabajo para reducir la exposición a Brucella melitensis"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "completo",
+    "agent_aggregation_status": "completo",
+    "workplace_global_class": "Clase 3"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Información proporcionada en el caso ERBB-P11"
+  ],
+
+  "reasoning_summary": "El agente biológico Brucella melitensis está clasificado en el Grupo 3 según normativas de referencia, con un nivel de referencia 3. La exposición es frecuente y el cumplimiento de controles es alto (95%), con un único control incumplido: la limpieza/desinfección periódica de equipos. La probabilidad de exposición se evalúa como media (valor 3), resultando en un GRB 3 y una clase de riesgo 3. Se requiere valoración profesional para asegurar la implementación efectiva del control incumplido y mitigar el riesgo."
+}
+```

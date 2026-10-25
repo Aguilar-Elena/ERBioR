@@ -1,0 +1,64 @@
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "GENERAL-F2015",
+      "exposure": {
+        "category": "FREQUENT",
+        "basis": "Provided in case information"
+      },
+      "compliance": {
+        "percent": 95,
+        "class": "HIGH",
+        "n_applicable": 20,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": 3,
+        "label": "MEDIUM"
+      },
+      "grb": 3,
+      "risk_class": "MEDIUM",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "description": "Limpieza/desinfección periódica de los equipos de trabajo"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar y mantener un programa de limpieza/desinfección periódica de los equipos de trabajo para controlar la exposición a Brucella melitensis"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "SINGLE_QUESTIONNAIRE",
+    "agent_aggregation_status": "SINGLE_AGENT",
+    "workplace_global_class": "MEDIUM"
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación regulatoria del agente no resuelta. Requiere confirmación de grupo de riesgo o nivel de referencia para evaluación precisa del GRB."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Información proporcionada en el caso ERBB-P11"
+  ],
+  "reasoning_summary": "1. Agente identificado: Brucella melitensis (BIO-BACT-0028) con clasificación regulatoria no resuelta. 2. Exposición frecuente confirmada. 3. Cuestionario GENERAL-F2015 con 1/21 ítems no aplicable (GENERAL-F2015-020), resultando en 95% de cumplimiento (clase ALTA). 4. Probabilidad MEDIA derivada de exposición frecuente y cumplimiento alto. 5. GRB=3 y clase de riesgo MEDIA asignados provisionalmente por ausencia de nivel de referencia. 6. Control fallido identificado: limpieza/desinfección periódica de equipos. 7. Incertidumbre presente por clasificación no resuelta y necesidad de valoración profesional confirmada."
+}

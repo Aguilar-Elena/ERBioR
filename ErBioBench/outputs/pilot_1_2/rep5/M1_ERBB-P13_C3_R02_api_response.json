@@ -1,0 +1,29 @@
+{
+  "id": "dd3935c6e09e43dabda9eeb57ab7d68e",
+  "created": 1792949172,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 1496,
+    "total_tokens": 2887,
+    "completion_tokens": 1391,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P13\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)\",\n      \"questionnaire_id\": \"general\",\n\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Declaración explícita en el caso\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.3333,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n\n      \"failed_controls\": [\n        {\"item_id\": \"GENERAL-F2015-041\"},\n        {\"item_id\": \"GENERAL-F2015-042\"},\n        {\"item_id\": \"GENERAL-F2015-043\"},\n        {\"item_id\": \"GENERAL-F2015-044\"},\n        {\"item_id\": \"GENERAL-F2015-045\"},\n        {\"item_id\": \"GENERAL-F2015-046\"},\n        {\"item_id\": \"GENERAL-F2015-047\"},\n        {\"item_id\": \"GENERAL-F2015-048\"}\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Revisar y reforzar el control asociado al ítem GENERAL-F2015-041 según el cuestionario Valoración general del riesgo biológico (final_2015_annex1)\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Revisar y reforzar el control asociado al ítem GENERAL-F2015-042 según el cuestionario Valoración general del riesgo biológico (final_2015_annex1)\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Revisar y reforzar el control asociado al ítem GENERAL-F2015-043 según el cuestionario Valoración general del riesgo biológico (final_2015_annex1)\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Revisar y reforzar el control asociado al ítem GENERAL-F2015-044 según el cuestionario Valoración general del riesgo biológico (final_2015_annex1)\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Revisar y reforzar el control asociado al ítem GENERAL-F2015-045 según el cuestionario Valoración general del riesgo biológico (final_2015_annex1)\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Revisar y reforzar el control asociado al ítem GENERAL-F2015-046 según el cuestionario Valoración general del riesgo biológico (final_2015_annex1)\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Revisar y reforzar el control asociado al ítem GENERAL-F2015-047 según el cuestionario Valoración general del riesgo biológico (final_2015_annex1)\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Revisar y reforzar el control asociado al ítem GENERAL-F2015-048 según el cuestionario Valoración general del riesgo biológico (final_2015_annex1)\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"Tolerable\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    {\n      \"source\": \"ERBioR reference output v0.9.0\",\n      \"basis\": \"Evaluación determinista basada en el cuestionario general de 48 ítems y la exposición declarada a SARS-CoV-2\"\n    }\n  ],\n\n  \"reasoning_summary\": \"Evaluación basada en el motor de referencia ERBioR v0.9.0. El agente SARS-CoV-2 está clasificado en el grupo 3 según el anexo II. La exposición frecuente y el cumplimiento del 83.33% (40/48 ítems) determinan una probabilidad baja (valor 1) y un GRB de 3, resultando en una clase de riesgo tolerable. Se identificaron 8 controles incumplidos (ítems GENERAL-F2015-041 a GENERAL-F2015-048). No se requiere revisión profesional adicional.\"\n}\n```"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "0ecb8d72c4114a898ff7feabb7f61291",
+  "created": 1792948819,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 817,
+    "total_tokens": 1787,
+    "completion_tokens": 970,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P02\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resolvable\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": \"RG3\",\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio general\",\n\n      \"exposure\": {\n        \"category\": \"very_frequent\",\n        \"basis\": \"Exposición reportada como muy frecuente en el escenario ocupacional.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"moderate\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": 4,\n        \"label\": \"likely\"\n      },\n\n      \"grb\": 12,\n      \"risk_class\": \"high\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Identificar y corregir los 8 ítems incumplidos en el cuestionario ERBio (respuestas 'No').\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar controles de ingeniería (ej. sistemas de ventilación cerrados) y administrativos (ej. protocolos de higiene estrictos) para reducir la exposición frecuente.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Proporcionar equipo de protección individual (EPI) adecuado, como guantes, mascarillas FFP3 y protección ocular, para minimizar el contacto con el agente.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Capacitar al personal sobre los riesgos de Brucella melitensis y las medidas preventivas específicas, incluyendo procedimientos de descontaminación.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Establecer un programa de vigilancia médica para trabajadores expuestos, con evaluaciones periódicas de salud.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Revisar y actualizar el plan de emergencia para casos de exposición accidental, incluyendo protocolos de notificación y tratamiento inmediato.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"complete\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"high\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Clasificación RG3 basada en la identificación del agente Brucella melitensis (BIO-BACT-0028) como patógeno de grupo 3 según normativas internacionales de bioseguridad.\",\n    \"Exposición categorizada como 'muy frecuente' según el escenario ocupacional descrito.\",\n    \"Cálculo de cumplimiento derivado de 40 respuestas 'Sí' y 8 'No' en un cuestionario de 48 ítems (83.33% de cumplimiento).\",\n    \"Probabilidad 'likely' (valor 4) y GRB 12 derivados de la combinación de exposición muy frecuente y agente RG3, siguiendo metodología ERBioR v0.9.0.\"\n  ],\n\n  \"reasoning_summary\": \"El agente Brucella melitensis está clasificado como RG3, con exposición muy frecuente en el escenario ocupacional. El cumplimiento moderado (83.33%) sugiere deficiencias en controles críticos. La combinación de RG3 y exposición muy frecuente resulta en una probabilidad 'likely' (4) y un GRB de 12, clasificando el riesgo como 'high'. Se requieren acciones preventivas inmediatas y valoración profesional para validar los controles y garantizar la seguridad laboral.\"\n}\n```"
+      }
+    }
+  ]
+}

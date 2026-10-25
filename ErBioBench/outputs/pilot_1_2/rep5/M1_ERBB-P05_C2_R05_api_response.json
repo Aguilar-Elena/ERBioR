@@ -1,0 +1,29 @@
+{
+  "id": "0615ee4e80ba49bc88808d96dbff8709",
+  "created": 1792950875,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 1049,
+    "total_tokens": 2111,
+    "completion_tokens": 1062,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P05\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Bacillus anthracis\",\n      \"agent_id\": \"BIO-BACT-0010\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    },\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0010\",\n      \"agent_name\": \"Bacillus anthracis\",\n      \"questionnaire_id\": \"ERBio-General\",\n\n      \"exposure\": {\n        \"category\": \"FREQUENT\",\n        \"basis\": \"Provided in case information\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"MEDIUM\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 0.6,\n        \"label\": \"MEDIUM\"\n      },\n\n      \"grb\": \"UNRESOLVED_REFERENCE_LEVEL\",\n      \"risk_class\": \"UNRESOLVED\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Identify and address the 8 non-compliant controls from the ERBio-General questionnaire\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Conduct professional assessment to determine regulatory classification and reference level for Bacillus anthracis\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Implement corrective measures for non-compliant controls to improve compliance to HIGH class\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio-General\",\n\n      \"exposure\": {\n        \"category\": \"FREQUENT\",\n        \"basis\": \"Provided in case information\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"MEDIUM\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 0.6,\n        \"label\": \"MEDIUM\"\n      },\n\n      \"grb\": \"UNRESOLVED_REFERENCE_LEVEL\",\n      \"risk_class\": \"UNRESOLVED\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Identify and address the 8 non-compliant controls from the ERBio-General questionnaire\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Conduct professional assessment to determine regulatory classification and reference level for Brucella melitensis\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Implement corrective measures for non-compliant controls to improve compliance to HIGH class\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"COMPLETE\",\n    \"agent_aggregation_status\": \"SEPARATE_ASSESSMENTS_REQUIRED\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Regulatory classification and reference levels for both agents are unresolved. Exposure and compliance data are provided, but GRB and risk class cannot be determined without reference levels.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Case information provided (ERBB-P05)\"\n  ],\n\n  \"reasoning_summary\": \"Two biological agents (Bacillus anthracis and Brucella melitensis) were identified with unresolved regulatory classifications. Exposure for both is frequent. Compliance with the ERBio-General questionnaire is 83.33% (40/48), resulting in a MEDIUM compliance class and MEDIUM probability (0.6). GRB and risk class are unresolved due to missing reference levels. Professional assessment is required for classification and risk determination. Preventive actions focus on addressing non-compliant controls and resolving regulatory uncertainties.\"\n}\n```"
+      }
+    }
+  ]
+}

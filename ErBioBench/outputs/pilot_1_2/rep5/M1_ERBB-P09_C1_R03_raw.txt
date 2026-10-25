@@ -1,0 +1,76 @@
+```json
+{
+  "case_id": "ERBB-P09",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "UNRESOLVED",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": null,
+        "basis": "La exposición se describe únicamente como 'contacto regular' sin especificar frecuencia, cadencia ni porcentaje de tiempo de exposición."
+      },
+
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": 40,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Determinar con precisión la frecuencia, duración y condiciones del 'contacto regular' con material potencialmente contaminado para evaluar adecuadamente el nivel de exposición."
+        },
+        {
+          "item_id": null,
+          "action": "Realizar una valoración profesional detallada para clasificar el agente según normativas aplicables y establecer medidas de control específicas."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "PARTIAL",
+    "agent_aggregation_status": "UNRESOLVED",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "La información proporcionada es insuficiente para determinar la categoría de exposición, probabilidad, GRB, clase de riesgo o cumplimiento. No se especifica frecuencia, cadencia ni porcentaje de tiempo de exposición al agente."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [],
+
+  "reasoning_summary": "La evaluación no puede completarse debido a la falta de datos críticos sobre la exposición (frecuencia, duración, condiciones). El 'contacto regular' no permite asignar una categoría de exposición ni calcular probabilidad o riesgo. La clasificación del agente y el cumplimiento normativo permanecen sin resolver. Se requiere valoración profesional para recopilar información adicional y aplicar criterios técnicos."
+}
+```

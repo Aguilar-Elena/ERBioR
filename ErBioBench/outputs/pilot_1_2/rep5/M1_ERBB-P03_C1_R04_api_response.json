@@ -1,0 +1,29 @@
+{
+  "id": "4e1bf4bb14984214a95a3e591bb96cfc",
+  "created": 1792950210,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 819,
+    "total_tokens": 1699,
+    "completion_tokens": 880,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P03\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resolvable\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": \"Nivel 3\",\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio general\",\n\n      \"exposure\": {\n        \"category\": \"frecuente\",\n        \"basis\": \"Información proporcionada en el caso (exposición frecuente)\"\n      },\n\n      \"compliance\": {\n        \"percent\": 39.58,\n        \"class\": \"deficiente\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 4,\n        \"label\": \"alta\"\n      },\n\n      \"grb\": 12,\n      \"risk_class\": \"muy alto\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Deficiencias preventivas relevantes reportadas en el puesto de trabajo\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar medidas de control de exposición a agentes biológicos del Grupo 3 (ej. barreras físicas, EPIs adecuados, protocolos de descontaminación)\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Revisar y mejorar el cumplimiento de las medidas preventivas aplicables (solo 19/48 ítems cumplidos)\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Capacitación específica en riesgos biológicos para el personal expuesto\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Vigilancia médica reforzada para detectar posibles infecciones por Brucella melitensis\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"completo\",\n    \"agent_aggregation_status\": \"único agente evaluado\",\n    \"workplace_global_class\": \"muy alto\"\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"No se especifica el contenido detallado de los 48 ítems del cuestionario ni las medidas preventivas incumplidas, lo que limita la precisión en la identificación de controles fallidos y acciones correctivas específicas.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Clasificación de Brucella melitensis como agente biológico del Grupo 3 según normativas internacionales (ej. Directiva 2000/54/CE de la UE)\",\n    \"Exposición frecuente reportada en el caso\",\n    \"Resultados del cuestionario ERBio (19 Sí / 29 No de 48 ítems)\"\n  ],\n\n  \"reasoning_summary\": \"Brucella melitensis está clasificada como agente biológico del Grupo 3 (riesgo alto para trabajadores y comunidad). La exposición frecuente en un contexto con deficiencias preventivas relevantes (39.58% de cumplimiento) y 29 ítems incumplidos de 48 genera una probabilidad alta de exposición (valor 4). La combinación de Grupo 3 + exposición frecuente + cumplimiento deficiente resulta en un GRB de 12 y una clase de riesgo 'muy alto'. Se requiere valoración profesional para implementar controles específicos y reducir el riesgo.\"\n}\n```"
+      }
+    }
+  ]
+}

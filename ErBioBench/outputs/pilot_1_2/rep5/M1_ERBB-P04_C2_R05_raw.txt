@@ -1,0 +1,83 @@
+```json
+{
+  "case_id": "ERBB-P04",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio_general",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "provided in case information"
+      },
+
+      "compliance": {
+        "percent": 75.0,
+        "class": "medium",
+        "n_applicable": 16,
+        "n_not_applicable": 32
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "medium"
+      },
+
+      "grb": null,
+      "risk_class": "undetermined",
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "description": "4 ítems con respuesta 'No' (incumplimiento de controles)"
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar los controles asociados a los 4 ítems incumplidos."
+        },
+        {
+          "item_id": null,
+          "action": "Evaluar la necesidad de medidas adicionales debido a la exposición frecuente y la falta de clasificación regulatoria del agente."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "undetermined"
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación regulatoria del agente no resuelta. GRB y clase de riesgo no determinables sin nivel de referencia."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Información proporcionada en el caso ERBB-P04"
+  ],
+
+  "reasoning_summary": "1. Agente identificado: Actinomadura madurae (BIO-BACT-0001) con clasificación regulatoria no resuelta. 2. Cuestionario ERBio general con 48 ítems: 12 Sí, 4 No, 32 No procede. 3. Excluidos 32 ítems No procede del denominador (n_applicable = 16). 4. Cumplimiento: 12/16 = 75% (clase media). 5. Exposición frecuente (categoría soportada por el caso). 6. Probabilidad media (valor 3) derivada de exposición frecuente + cumplimiento medio. 7. GRB y clase de riesgo no determinables por falta de nivel de referencia. 8. Incertidumbre presente por clasificación no resuelta. 9. Requiere valoración profesional para determinar nivel de referencia y medidas preventivas específicas."
+}
+```

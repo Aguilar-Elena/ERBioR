@@ -1,0 +1,29 @@
+{
+  "id": "52b8785da7e942a682bd7f86a0f74ce9",
+  "created": 1792951051,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 861,
+    "total_tokens": 2105,
+    "completion_tokens": 1244,
+    "prompt_tokens_details": {
+      "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P12\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"Auditoría\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición común: Frecuente.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 96.88,\n        \"class\": \"High\",\n        \"n_applicable\": 31,\n        \"n_not_applicable\": 1\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Identificar el control específico incumplido en el cuestionario de Auditoría (1 No).\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Revisar y corregir el control incumplido en el cuestionario de Auditoría.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Mantener la diferenciación de cuestionarios para análisis detallado.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"General\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición común: Frecuente.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 39.58,\n        \"class\": \"Low\",\n        \"n_applicable\": 19,\n        \"n_not_applicable\": 29\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Identificar los controles incumplidos en el cuestionario General (29 No).\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Priorizar la implementación de controles en el cuestionario General para mejorar el cumplimiento.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Analizar las causas de la baja conformidad y diseñar un plan de acción correctivo.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"Trabajadores\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición común: Frecuente.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 58.82,\n        \"class\": \"Medium\",\n        \"n_applicable\": 20,\n        \"n_not_applicable\": 14\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Identificar los controles incumplidos en el cuestionario Trabajadores (14 No).\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Evaluar y reforzar los controles incumplidos en el cuestionario Trabajadores.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Capacitar a los trabajadores sobre los riesgos y medidas preventivas asociadas.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"discordant\",\n    \"agent_aggregation_status\": \"unresolved\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Discordancia en los resultados de cumplimiento entre los tres cuestionarios. No se puede determinar una clasificación global única del agente ni del riesgo sin información adicional o valoración profesional.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Información proporcionada en el caso ERBB-P12.\"\n  ],\n\n  \"reasoning_summary\": \"La evaluación se basa exclusivamente en los datos del caso. Se identificó discordancia en los resultados de cumplimiento de los tres cuestionarios (Auditoría: 96.88% High, General: 39.58% Low, Trabajadores: 58.82% Medium). La exposición es frecuente en todos los casos. No se puede determinar la clasificación regulatoria del agente, GRB, probabilidad o clase de riesgo debido a la falta de información y discordancia. Se requiere valoración profesional para resolver la incertidumbre y definir acciones preventivas específicas.\"\n}\n```"
+      }
+    }
+  ]
+}

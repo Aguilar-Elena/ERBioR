@@ -1,0 +1,29 @@
+{
+  "id": "9284fa86ea5d46848f1f6d63814ec5cf",
+  "created": 1792951095,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 811,
+    "total_tokens": 1499,
+    "completion_tokens": 688,
+    "prompt_tokens_details": {
+      "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P13\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"SARS-CoV-2\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"SARS-CoV-2\",\n      \"questionnaire_id\": null,\n\n      \"exposure\": {\n        \"category\": \"frequent\",\n        \"basis\": \"Exposición frecuente reportada en el escenario ocupacional.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"moderate\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar medidas de control adicionales para reducir la exposición frecuente a SARS-CoV-2, priorizando el uso de EPP, ventilación adecuada y protocolos de higiene.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Realizar una valoración profesional detallada para determinar la clase de riesgo y los controles específicos incumplidos.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"partial\",\n    \"agent_aggregation_status\": \"unresolved\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Falta información sobre la clasificación regulatoria del agente, nivel de referencia, probabilidad cuantificable, GRB y clase de riesgo. La evaluación se basa únicamente en la exposición frecuente y el cumplimiento moderado reportado.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Exposición frecuente a SARS-CoV-2 reportada en el caso.\",\n    \"40 respuestas Sí y 8 respuestas No en el cuestionario de 48 ítems (cumplimiento del 83.33%).\"\n  ],\n\n  \"reasoning_summary\": \"La evaluación se limita a los datos proporcionados: exposición frecuente a SARS-CoV-2 y cumplimiento moderado (83.33%) en un cuestionario de 48 ítems. No se dispone de información sobre la clasificación regulatoria del agente, probabilidad cuantificable, GRB o clase de riesgo, lo que impide una determinación completa. Se requiere valoración profesional para resolver incertidumbres y definir controles específicos.\"\n}\n```"
+      }
+    }
+  ]
+}

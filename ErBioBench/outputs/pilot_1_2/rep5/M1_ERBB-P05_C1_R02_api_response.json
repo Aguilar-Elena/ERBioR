@@ -1,0 +1,29 @@
+{
+  "id": "582d293faf374c52ac260cd3c01ff4e6",
+  "created": 1792948909,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 849,
+    "total_tokens": 1771,
+    "completion_tokens": 922,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P05\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Bacillus anthracis\",\n      \"agent_id\": \"BIO-BACT-0010\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    },\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0010\",\n      \"agent_name\": \"Bacillus anthracis\",\n      \"questionnaire_id\": \"ERBio\",\n\n      \"exposure\": {\n        \"category\": \"FREQUENTE\",\n        \"basis\": \"Información proporcionada en el caso\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"PARCIAL\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Revisión exhaustiva de los controles de bioseguridad para reducir la exposición frecuente a Bacillus anthracis. Implementación de medidas específicas según normativas aplicables.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio\",\n\n      \"exposure\": {\n        \"category\": \"FREQUENTE\",\n        \"basis\": \"Información proporcionada en el caso\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"PARCIAL\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Revisión exhaustiva de los controles de bioseguridad para reducir la exposición frecuente a Brucella melitensis. Implementación de medidas específicas según normativas aplicables.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"COMPLETADO\",\n    \"agent_aggregation_status\": \"MULTI_AGENTE\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"No se proporciona información suficiente sobre la clasificación regulatoria, nivel de referencia o controles específicos incumplidos para ambos agentes. La evaluación de probabilidad, GRB y clase de riesgo no es resoluble con los datos disponibles.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Información proporcionada en el caso ERBB-P05\"\n  ],\n\n  \"reasoning_summary\": \"La evaluación se basa exclusivamente en los datos del caso. Ambos agentes (Bacillus anthracis y Brucella melitensis) presentan exposición frecuente y cumplimiento parcial (83.33%) según el cuestionario ERBio. No se infiere información regulatoria ni se asumen clasificaciones. La probabilidad, GRB y clase de riesgo quedan sin resolver por falta de datos. Se requiere valoración profesional para completar la evaluación.\"\n}\n```"
+      }
+    }
+  ]
+}

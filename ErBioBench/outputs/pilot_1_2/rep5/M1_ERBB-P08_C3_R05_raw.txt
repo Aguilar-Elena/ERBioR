@@ -1,0 +1,75 @@
+```json
+{
+  "case_id": "ERBB-P08",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "unclassified_human_isolated_virus",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 2,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": null,
+        "basis": "No se aporta información sobre exposición. Clasificación final no resuelta."
+      },
+
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Aplicar medidas preventivas correspondientes al grupo 2 de agentes biológicos según RD 664/1997 hasta que se realice una evaluación profesional que determine la clasificación final."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_applicable",
+    "agent_aggregation_status": "not_applicable",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Virus aislado en humanos no evaluado/clasificado. Clasificación final requiere evaluación profesional según RD 664/1997. Mínimo regulatorio establecido en grupo 2."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "ERBioR reference output (HUMAN-VIRUS-MIN-G2)",
+    "RD 664/1997 (regulación de agentes biológicos)"
+  ],
+
+  "reasoning_summary": "El agente biológico (virus hipotético aislado en humanos) no está clasificado en el registro utilizado. Según la regla HUMAN-VIRUS-MIN-G2 del ERBioR, se establece un mínimo regulatorio en grupo 2, pero la clasificación final y la evaluación de exposición requieren valoración profesional. No se infiere información ausente ni se resuelve la incertidumbre regulatoria."
+}
+```

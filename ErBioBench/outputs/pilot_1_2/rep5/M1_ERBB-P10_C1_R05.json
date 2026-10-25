@@ -1,0 +1,65 @@
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "AUDIT-F2015-004",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición: Frecuente."
+      },
+      "compliance": {
+        "percent": null,
+        "class": "Partial",
+        "n_applicable": null,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": null,
+        "label": "High"
+      },
+      "grb": null,
+      "risk_class": "High",
+      "failed_controls": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Medidas higiénicas y de protección individual incumplidas."
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Implementar y verificar el cumplimiento de medidas higiénicas y de protección individual específicas para Brucella melitensis."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Partial compliance with critical control failure",
+    "agent_aggregation_status": "Single agent evaluated",
+    "workplace_global_class": "High risk due to critical control failure"
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación regulatoria del agente no resuelta. Exposición frecuente sin detalles cuantitativos. Probabilidad y GRB no calculables numéricamente con la información disponible."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Case ERBB-P10",
+    "Auditoría ERBio (AUDIT-F2015-004 = No)"
+  ],
+  "reasoning_summary": "1) Agente identificado: Brucella melitensis (BIO-BACT-0028), clasificación regulatoria no resuelta en el caso. 2) Exposición frecuente sin datos cuantitativos. 3) Cumplimiento parcial con incumplimiento crítico en medidas higiénicas/protección individual (AUDIT-F2015-004). 4) Probabilidad alta por exposición frecuente + control crítico fallido. 5) Riesgo clasificado como alto por incumplimiento crítico y exposición frecuente. 6) Incertidumbre presente por falta de datos regulatorios y cuantitativos. 7) Requiere valoración profesional por riesgo alto y control crítico fallido."
+}

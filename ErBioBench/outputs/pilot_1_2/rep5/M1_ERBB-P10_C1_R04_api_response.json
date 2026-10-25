@@ -1,0 +1,29 @@
+{
+  "id": "2562f8ae34ca461eb15cbafb5bec084f",
+  "created": 1792950443,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 863,
+    "total_tokens": 1515,
+    "completion_tokens": 652,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P10\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"AUDIT-F2015-004\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposure information provided in the case\"\n      },\n\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": \"Partial\",\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": \"High\"\n      },\n\n      \"grb\": \"High\",\n      \"risk_class\": \"Class 3\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"action\": \"Hygienic and individual protection measures\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"action\": \"Immediate implementation of the failed hygienic and individual protection measures to mitigate exposure to Brucella melitensis\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"Partial compliance with critical control failure\",\n    \"agent_aggregation_status\": \"Single agent evaluated\",\n    \"workplace_global_class\": \"Elevated compliance with critical gap\"\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Regulatory classification and reference level of Brucella melitensis unresolved due to insufficient information in the case. Critical control failure (AUDIT-F2015-004) impacts risk assessment.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Case ERBB-P10 provided information\"\n  ],\n\n  \"reasoning_summary\": \"The case indicates frequent exposure to Brucella melitensis with a critical failure in hygienic and individual protection measures (AUDIT-F2015-004). Despite overall high compliance, this specific failure elevates the probability of exposure, resulting in a high GRB and Class 3 risk. Regulatory classification and reference level remain unresolved due to lack of supporting information. Professional assessment is required to address the critical control gap and unresolved agent classification.\"\n}\n```"
+      }
+    }
+  ]
+}

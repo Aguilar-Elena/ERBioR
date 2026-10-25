@@ -1,0 +1,29 @@
+{
+  "id": "4f5fdd1297c64905b8b7508f50f9bbf2",
+  "created": 1792950460,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 1433,
+    "total_tokens": 2120,
+    "completion_tokens": 687,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P10\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"audit\",\n\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"case_information\"\n      },\n\n      \"compliance\": {\n        \"percent\": 96.875,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"action\": \"Evaluar y corregir el incumplimiento específico de medidas higiénicas y de protección individual (AUDIT-F2015-004) para garantizar el cumplimiento completo del sistema de gestión del riesgo biológico.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"Tolerable\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    {\n      \"source\": \"ERBioR reference output (version 0.9.0)\",\n      \"basis\": \"case_information_and_ERBioR_deterministic_assessment\"\n    }\n  ],\n\n  \"reasoning_summary\": \"Evaluación basada en el agente biológico Brucella melitensis (BIO-BACT-0028), clasificado en el grupo 3 según Anexo II, con exposición frecuente. El cumplimiento global del sistema de gestión es aceptable (96.875%), pero se identifica un incumplimiento crítico en el control AUDIT-F2015-004. La probabilidad de riesgo se clasifica como baja (valor 1), resultando en un GRB de 3 y una clase de riesgo tolerable. No se requiere valoración profesional adicional según el output ERBioR.\"\n}\n```"
+      }
+    }
+  ]
+}

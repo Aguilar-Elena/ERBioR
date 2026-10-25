@@ -1,0 +1,64 @@
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-Audit",
+      "exposure": {
+        "category": "FREQUENT",
+        "basis": "Provided in case information"
+      },
+      "compliance": {
+        "percent": 99.0,
+        "class": "HIGH",
+        "n_applicable": 1,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 3,
+        "label": "MEDIUM"
+      },
+      "grb": "GRB-3",
+      "risk_class": "CLASS-3",
+      "failed_controls": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Critical hygiene and individual protection measure failure"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Immediate corrective action required for the failed critical control (AUDIT-F2015-004) to restore compliance and reduce exposure risk."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "SINGLE_QUESTIONNAIRE",
+    "agent_aggregation_status": "SINGLE_AGENT",
+    "workplace_global_class": "CLASS-3"
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Regulatory classification and reference level for Brucella melitensis are unresolved. Exposure frequency and compliance are based on provided data, but the critical control failure introduces significant uncertainty in risk estimation."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Case information: ERBB-P10"
+  ],
+  "reasoning_summary": "1. Brucella melitensis identified as the sole biological agent with unresolved regulatory classification. 2. Exposure categorized as FREQUENT based on case data. 3. Compliance calculated as 99% (1 failed control out of 1 applicable). 4. Probability derived as MEDIUM (3) from exposure and compliance. 5. GRB-3 assigned due to unresolved reference level and critical control failure. 6. Risk class determined as CLASS-3. 7. Critical control failure (AUDIT-F2015-004) preserved. 8. Uncertainty flagged due to unresolved classification and preventive significance of failed control. 9. Professional review required."
+}

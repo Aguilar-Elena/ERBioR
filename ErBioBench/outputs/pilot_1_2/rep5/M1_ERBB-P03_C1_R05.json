@@ -1,0 +1,77 @@
+{
+  "case_id": "ERBB-P03",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolvable",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": "Nivel 3",
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio",
+      "exposure": {
+        "category": "frecuente",
+        "basis": "Información proporcionada en el caso"
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": "deficiente",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": 3,
+        "label": "alta"
+      },
+      "grb": 3,
+      "risk_class": "alto",
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Deficiencias preventivas relevantes reportadas en el puesto de trabajo"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas de control de exposición a Brucella melitensis según normativa de bioseguridad nivel 3"
+        },
+        {
+          "item_id": null,
+          "action": "Revisión y mejora de los protocolos de prevención y protección existentes"
+        },
+        {
+          "item_id": null,
+          "action": "Capacitación específica para trabajadores sobre riesgos biológicos y medidas preventivas"
+        },
+        {
+          "item_id": null,
+          "action": "Evaluación profesional detallada para identificar y corregir deficiencias preventivas"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "completo",
+    "agent_aggregation_status": "único agente evaluado",
+    "workplace_global_class": "alto"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Información del caso ERBB-P03",
+    "Clasificación regulatoria estándar de Brucella melitensis (Grupo 3)"
+  ],
+  "reasoning_summary": "Brucella melitensis está clasificada como agente biológico del Grupo 3 según normativas de bioseguridad. La exposición frecuente en un puesto con deficiencias preventivas relevantes, junto con un cumplimiento deficiente (39.58% de respuestas afirmativas en cuestionario), determina una probabilidad alta de exposición. Esto resulta en un GRB 3 y una clase de riesgo alto. Se requieren acciones preventivas urgentes y valoración profesional para mitigar el riesgo."
+}

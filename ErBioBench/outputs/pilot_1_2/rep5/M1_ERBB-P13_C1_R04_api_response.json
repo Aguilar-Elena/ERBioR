@@ -1,0 +1,29 @@
+{
+  "id": "b057d20c846b4011ab7b3a20bdd5e39b",
+  "created": 1792950558,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 811,
+    "total_tokens": 1463,
+    "completion_tokens": 652,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P13\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"SARS-CoV-2\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"SARS-CoV-2\",\n      \"questionnaire_id\": null,\n\n      \"exposure\": {\n        \"category\": \"FREQUENTE\",\n        \"basis\": \"Información proporcionada en el caso\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"MEDIA\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Revisión detallada de los ítems con respuesta 'No' para identificar controles incumplidos y priorizar su implementación.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Evaluación profesional para determinar la clasificación regulatoria del agente y el nivel de referencia aplicable.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Reforzar medidas de protección colectiva e individual según la exposición frecuente al agente.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"COMPLETO\",\n    \"agent_aggregation_status\": \"PARCIAL\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Clasificación regulatoria y nivel de referencia del agente no resueltos. Probabilidad y GRB no determinables con la información disponible.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Información del caso ERBB-P13\"\n  ],\n\n  \"reasoning_summary\": \"El caso proporciona exposición frecuente a SARS-CoV-2 y 48 ítems aplicables con 40 respuestas 'Sí' (83.33% de cumplimiento). La clasificación regulatoria del agente y su nivel de referencia no están especificados, por lo que se marcan como no resueltos. La probabilidad, GRB y clase de riesgo no pueden determinarse sin información adicional. Se requiere valoración profesional para completar la evaluación.\"\n}\n```"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "455a2e6d8973423094c8c78c70a17db9",
+  "created": 1792949725,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 816,
+    "total_tokens": 1412,
+    "completion_tokens": 596,
+    "prompt_tokens_details": {
+      "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P08\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"ErBioBench hypothetical human virus\",\n      \"agent_id\": null,\n      \"classification_status\": \"unclassified\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"ErBioBench hypothetical human virus\",\n      \"questionnaire_id\": null,\n\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"No se aporta información sobre exposición.\"\n      },\n\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": null,\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Aplicar medidas preventivas basadas en el principio de precaución para agentes biológicos no clasificados, siguiendo el mínimo regulatorio establecido para virus humanos.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Realizar una valoración profesional específica para determinar el nivel de referencia final y los controles adecuados.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"unresolved\",\n    \"agent_aggregation_status\": \"unresolved\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"El agente no está clasificado en el registro utilizado, y no se proporciona información suficiente sobre exposición o controles aplicables. Existe incertidumbre regulatoria y técnica.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Regla regulatoria específica para virus humanos no clasificados (según cuestionario).\"\n  ],\n\n  \"reasoning_summary\": \"El agente biológico (virus hipotético no clasificado) carece de clasificación regulatoria o nivel de referencia definido. La evaluación no puede determinar exposición, probabilidad, GRB o clase de riesgo debido a la ausencia de datos. Se aplica el principio de precaución, requiriendo valoración profesional para establecer controles y nivel de referencia final. La incertidumbre es alta por falta de información y marco regulatorio claro.\"\n}\n```"
+      }
+    }
+  ]
+}

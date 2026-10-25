@@ -1,0 +1,82 @@
+```json
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+
+      "exposure": {
+        "category": "Muy frecuente",
+        "basis": "Cuestionario general ERBio (48 ítems)"
+      },
+
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 2,
+        "label": "Media"
+      },
+
+      "grb": 6,
+      "risk_class": "Moderado",
+
+      "failed_controls": [
+        {"item_id": "GENERAL-F2015-041"},
+        {"item_id": "GENERAL-F2015-042"},
+        {"item_id": "GENERAL-F2015-043"},
+        {"item_id": "GENERAL-F2015-044"},
+        {"item_id": "GENERAL-F2015-045"},
+        {"item_id": "GENERAL-F2015-046"},
+        {"item_id": "GENERAL-F2015-047"},
+        {"item_id": "GENERAL-F2015-048"}
+      ],
+
+      "preventive_actions": []
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Moderado"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    {
+      "type": "ERBioR_reference_output",
+      "version": "0.9.0",
+      "benchmark": "ErBioBench-pilot-1.0"
+    }
+  ],
+
+  "reasoning_summary": "Evaluación basada en el output determinista ERBioR v0.9.0 para Brucella melitensis (BIO-BACT-0028) con cuestionario general de 48 ítems. Clasificación reguladora Grupo 3 (Anexo II), nivel de referencia 3. Exposición muy frecuente con cumplimiento aceptable (83.33%). Probabilidad media (2) y GRB 6, resultando en clase de riesgo moderado. Se identificaron 8 controles incumplidos. No requiere valoración profesional adicional según ERBioR."
+}
+```

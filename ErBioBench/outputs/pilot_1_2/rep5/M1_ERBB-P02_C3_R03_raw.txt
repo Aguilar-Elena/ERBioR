@@ -1,0 +1,81 @@
+```json
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+
+      "exposure": {
+        "category": "Muy frecuente",
+        "basis": "Declaración explícita en el caso"
+      },
+
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": 2,
+        "label": "Media"
+      },
+
+      "grb": 6,
+      "risk_class": "Moderado",
+
+      "failed_controls": [
+        {"item_id": "GENERAL-F2015-041"},
+        {"item_id": "GENERAL-F2015-042"},
+        {"item_id": "GENERAL-F2015-043"},
+        {"item_id": "GENERAL-F2015-044"},
+        {"item_id": "GENERAL-F2015-045"},
+        {"item_id": "GENERAL-F2015-046"},
+        {"item_id": "GENERAL-F2015-047"},
+        {"item_id": "GENERAL-F2015-048"}
+      ],
+
+      "preventive_actions": []
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Moderado"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    {
+      "source": "ERBioR reference output v0.9.0",
+      "basis": "matrix_assessment"
+    }
+  ],
+
+  "reasoning_summary": "Evaluación basada exclusivamente en el motor de referencia ERBioR v0.9.0. Agente Brucella melitensis (BIO-BACT-0028) clasificado en Anexo II con nivel de referencia 3. Exposición muy frecuente y cumplimiento aceptable (83.33%). Probabilidad media y GRB=6 conducen a clase de riesgo moderado. Ocho controles incumplidos identificados. No se requiere revisión profesional."
+}
+```

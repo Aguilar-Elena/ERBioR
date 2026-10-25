@@ -1,0 +1,80 @@
+```json
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "provided in case"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "moderate",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "moderate"
+      },
+
+      "grb": null,
+      "risk_class": "undetermined",
+
+      "failed_controls": [
+        "8 questionnaire items with 'No' responses"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Review and address the 8 non-compliant control measures identified in the questionnaire."
+        },
+        {
+          "item_id": null,
+          "action": "Implement corrective actions to achieve full compliance with occupational health and safety controls for SARS-CoV-2 exposure."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Regulatory classification and reference level for SARS-CoV-2 are unresolved in the provided case. GRB and risk class cannot be determined without this information."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Case ERBB-P13 (ErBioBench-pilot-1.0)"
+  ],
+
+  "reasoning_summary": "1. SARS-CoV-2 identified as the sole biological agent with unresolved regulatory classification. 2. Exposure category 'frequent' supported by case. 3. Compliance calculated as 40/48 'Yes' responses (83.33%), classified as 'moderate'. 4. Probability derived as 'moderate' (value 3) from exposure and compliance. 5. GRB and risk class undetermined due to unresolved reference level. 6. 8 failed controls identified from 'No' responses. 7. Professional review required due to unresolved classification and uncertainty."
+}
+```

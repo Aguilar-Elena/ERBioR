@@ -1,0 +1,80 @@
+```json
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": "FREQUENT",
+        "basis": "Provided in case information"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "PARTIAL",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "MEDIUM"
+      },
+
+      "grb": "GRB-3",
+      "risk_class": "CLASS-2",
+
+      "failed_controls": [
+        "8 controls not specified in responses"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Review and implement corrective measures for the 8 failed controls to improve compliance and reduce exposure risk."
+        },
+        {
+          "item_id": null,
+          "action": "Conduct a detailed professional assessment to resolve the unresolved classification of SARS-CoV-2 and refine risk evaluation."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "SINGLE_QUESTIONNAIRE",
+    "agent_aggregation_status": "SINGLE_AGENT",
+    "workplace_global_class": "CLASS-2"
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Regulatory classification and reference level for SARS-CoV-2 are unresolved, requiring professional assessment."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Case information: ERBB-P13"
+  ],
+
+  "reasoning_summary": "1. SARS-CoV-2 identified as the sole biological agent with unresolved regulatory classification. 2. Exposure categorized as FREQUENT based on provided case information. 3. Compliance calculated as 83.33% (40 Sí / 48 applicable items), classified as PARTIAL. 4. Probability derived as MEDIUM (value 4) from exposure and compliance. 5. GRB assigned as GRB-3 due to unresolved reference level and MEDIUM probability. 6. Risk class determined as CLASS-2. 7. Uncertainty noted due to unresolved classification, necessitating professional review."
+}
+```

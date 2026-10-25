@@ -1,0 +1,29 @@
+{
+  "id": "262d054fd6254cb69052a1c6589c2327",
+  "created": 1792949069,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 863,
+    "total_tokens": 1540,
+    "completion_tokens": 677,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P10\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resolvable\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": \"Nivel 3\",\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"AUDIT-F2015-004\",\n\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición declarada en el caso\"\n      },\n\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": \"Incumplimiento crítico\",\n        \"n_applicable\": null,\n        \"n_not_applicable\": 1\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": \"Alta\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"Clase 3\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"description\": \"Control específico de medidas higiénicas y de protección individual no cumplido\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"action\": \"Implementar y verificar el cumplimiento de medidas higiénicas y de protección individual específicas para Brucella melitensis (Nivel 3)\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"Incumplimiento crítico identificado\",\n    \"agent_aggregation_status\": \"Evaluación individual resuelta\",\n    \"workplace_global_class\": \"Incumplimiento crítico en control específico\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Información del caso ERBB-P10\",\n    \"Clasificación regulatoria estándar de Brucella melitensis (Grupo 3)\"\n  ],\n\n  \"reasoning_summary\": \"El agente Brucella melitensis está clasificado como Grupo 3 según normativas estándar de bioseguridad. La exposición es frecuente y existe un incumplimiento crítico en medidas higiénicas y de protección individual (AUDIT-F2015-004), lo que incrementa la probabilidad de riesgo. El GRB se establece en 3 y la clase de riesgo en Clase 3. Se requiere valoración profesional para corregir el incumplimiento y garantizar la seguridad ocupacional.\"\n}\n```"
+      }
+    }
+  ]
+}

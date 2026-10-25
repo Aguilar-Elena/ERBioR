@@ -1,0 +1,29 @@
+{
+  "id": "e1e41441426a4559ac82f7ba7346ec30",
+  "created": 1792950288,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 2055,
+    "total_tokens": 3180,
+    "completion_tokens": 1125,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P05\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Bacillus anthracis\",\n      \"agent_id\": \"BIO-BACT-0010\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    },\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0010\",\n      \"agent_name\": \"Bacillus anthracis\",\n      \"questionnaire_id\": \"general\",\n\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"case_information\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.3333,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n\n      \"failed_controls\": [\n        {\"item_id\": \"GENERAL-F2015-041\"},\n        {\"item_id\": \"GENERAL-F2015-042\"},\n        {\"item_id\": \"GENERAL-F2015-043\"},\n        {\"item_id\": \"GENERAL-F2015-044\"},\n        {\"item_id\": \"GENERAL-F2015-045\"},\n        {\"item_id\": \"GENERAL-F2015-046\"},\n        {\"item_id\": \"GENERAL-F2015-047\"},\n        {\"item_id\": \"GENERAL-F2015-048\"}\n      ],\n\n      \"preventive_actions\": []\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"case_information\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.3333,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n\n      \"failed_controls\": [\n        {\"item_id\": \"GENERAL-F2015-041\"},\n        {\"item_id\": \"GENERAL-F2015-042\"},\n        {\"item_id\": \"GENERAL-F2015-043\"},\n        {\"item_id\": \"GENERAL-F2015-044\"},\n        {\"item_id\": \"GENERAL-F2015-045\"},\n        {\"item_id\": \"GENERAL-F2015-046\"},\n        {\"item_id\": \"GENERAL-F2015-047\"},\n        {\"item_id\": \"GENERAL-F2015-048\"}\n      ],\n\n      \"preventive_actions\": []\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"report_all\",\n    \"agent_aggregation_status\": \"report_all\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    {\n      \"source\": \"ERBioR reference output (version 0.9.0)\",\n      \"basis\": \"case_information\"\n    }\n  ],\n\n  \"reasoning_summary\": \"Evaluación basada en el output determinista ERBioR para dos agentes biológicos (Bacillus anthracis y Brucella melitensis) con exposición frecuente y cuestionario general de 48 ítems. Ambos agentes están clasificados en el grupo 3 (Anexo II) con nivel de referencia 3. La evaluación de riesgo para ambos agentes resulta en clase 'Tolerable' con probabilidad 'Baja' y GRB 3, sin requerir revisión profesional. Se identifican 8 controles incumplidos comunes para ambos agentes.\"\n}\n```"
+      }
+    }
+  ]
+}

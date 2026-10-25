@@ -1,0 +1,133 @@
+```json
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": "RG3",
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposure information provided in the case"
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "Low",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+
+      "probability": {
+        "value": 0.6,
+        "label": "Medium"
+      },
+
+      "grb": 3,
+      "risk_class": "High",
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "description": "Insufficient compliance (39.58%) based on questionnaire responses"
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implement RG3 containment measures and enhance compliance with safety protocols"
+        },
+        {
+          "item_id": null,
+          "action": "Conduct targeted training on Brucella melitensis-specific controls"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposure information provided in the case"
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "Low",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "description": "Regulatory classification unresolved; cannot determine failed controls"
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Resolve regulatory classification of Actinomadura madurae before further assessment"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_applicable",
+    "agent_aggregation_status": "prohibited",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Regulatory classification of Actinomadura madurae unresolved; Brucella melitensis assessment complete but discordant with unresolved agent"
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Case-provided exposure information",
+    "Questionnaire responses (19 Sí, 29 No)",
+    "Regulatory classification for Brucella melitensis (RG3)"
+  ],
+
+  "reasoning_summary": "Brucella melitensis is classified as RG3 with frequent exposure and low compliance (39.58%), resulting in high risk. Actinomadura madurae's regulatory classification is unresolved, preventing risk assessment. Aggregation is prohibited due to discordance and unresolved classification. Professional review required for unresolved agent and overall risk management."
+}
+```

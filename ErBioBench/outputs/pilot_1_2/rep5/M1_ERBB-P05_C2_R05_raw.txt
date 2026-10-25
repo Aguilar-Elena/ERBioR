@@ -1,0 +1,135 @@
+```json
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "ERBio-General",
+
+      "exposure": {
+        "category": "FREQUENT",
+        "basis": "Provided in case information"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "MEDIUM",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 0.6,
+        "label": "MEDIUM"
+      },
+
+      "grb": "UNRESOLVED_REFERENCE_LEVEL",
+      "risk_class": "UNRESOLVED",
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Identify and address the 8 non-compliant controls from the ERBio-General questionnaire"
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Conduct professional assessment to determine regulatory classification and reference level for Bacillus anthracis"
+        },
+        {
+          "item_id": null,
+          "action": "Implement corrective measures for non-compliant controls to improve compliance to HIGH class"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-General",
+
+      "exposure": {
+        "category": "FREQUENT",
+        "basis": "Provided in case information"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "MEDIUM",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 0.6,
+        "label": "MEDIUM"
+      },
+
+      "grb": "UNRESOLVED_REFERENCE_LEVEL",
+      "risk_class": "UNRESOLVED",
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Identify and address the 8 non-compliant controls from the ERBio-General questionnaire"
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Conduct professional assessment to determine regulatory classification and reference level for Brucella melitensis"
+        },
+        {
+          "item_id": null,
+          "action": "Implement corrective measures for non-compliant controls to improve compliance to HIGH class"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "COMPLETE",
+    "agent_aggregation_status": "SEPARATE_ASSESSMENTS_REQUIRED",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Regulatory classification and reference levels for both agents are unresolved. Exposure and compliance data are provided, but GRB and risk class cannot be determined without reference levels."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Case information provided (ERBB-P05)"
+  ],
+
+  "reasoning_summary": "Two biological agents (Bacillus anthracis and Brucella melitensis) were identified with unresolved regulatory classifications. Exposure for both is frequent. Compliance with the ERBio-General questionnaire is 83.33% (40/48), resulting in a MEDIUM compliance class and MEDIUM probability (0.6). GRB and risk class are unresolved due to missing reference levels. Professional assessment is required for classification and risk determination. Preventive actions focus on addressing non-compliant controls and resolving regulatory uncertainties."
+}
+```

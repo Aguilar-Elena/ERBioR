@@ -1,0 +1,79 @@
+```json
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio Audit",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Provided in case information"
+      },
+
+      "compliance": {
+        "percent": 99.0,
+        "class": "High",
+        "n_applicable": 1,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 0.9,
+        "label": "Very High"
+      },
+
+      "grb": "High",
+      "risk_class": "III",
+
+      "failed_controls": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Critical hygiene and personal protection measure not implemented"
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Immediate corrective action required for failed critical control (AUDIT-F2015-004)"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "Single questionnaire evaluated",
+    "agent_aggregation_status": "Single agent evaluated",
+    "workplace_global_class": "III"
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Regulatory classification of Brucella melitensis unresolved; exposure frequency and compliance based on provided case information only"
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Case information: ERBB-P10"
+  ],
+
+  "reasoning_summary": "1. Single biological agent identified: Brucella melitensis (BIO-BACT-0028) with unresolved regulatory classification. 2. Exposure category 'Frequent' supported by case information. 3. Compliance calculated as 99% (1 failed control out of 1 applicable). 4. Probability 'Very High' derived from frequent exposure and high compliance with one critical control failed. 5. GRB 'High' and risk class III assigned due to critical control failure despite high compliance. 6. Uncertainty present due to unresolved classification and need for professional assessment of preventive implications."
+}
+```

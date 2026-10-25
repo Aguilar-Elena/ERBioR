@@ -1,0 +1,64 @@
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "AUDIT-F2015-004",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposure information provided in the case"
+      },
+      "compliance": {
+        "percent": null,
+        "class": "Partial",
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": "High"
+      },
+      "grb": "High",
+      "risk_class": "Class 3",
+      "failed_controls": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Hygienic and individual protection measures"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Immediate implementation of the failed hygienic and individual protection measures to mitigate exposure to Brucella melitensis"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Partial compliance with critical control failure",
+    "agent_aggregation_status": "Single agent evaluated",
+    "workplace_global_class": "Elevated compliance with critical gap"
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Regulatory classification and reference level of Brucella melitensis unresolved due to insufficient information in the case. Critical control failure (AUDIT-F2015-004) impacts risk assessment."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Case ERBB-P10 provided information"
+  ],
+  "reasoning_summary": "The case indicates frequent exposure to Brucella melitensis with a critical failure in hygienic and individual protection measures (AUDIT-F2015-004). Despite overall high compliance, this specific failure elevates the probability of exposure, resulting in a high GRB and Class 3 risk. Regulatory classification and reference level remain unresolved due to lack of supporting information. Professional assessment is required to address the critical control gap and unresolved agent classification."
+}

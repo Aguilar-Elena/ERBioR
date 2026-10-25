@@ -1,0 +1,29 @@
+{
+  "id": "78d5a394352b422a8d97fc34ead3404b",
+  "created": 1792950980,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 840,
+    "total_tokens": 1446,
+    "completion_tokens": 606,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P09\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"UNRESOLVED\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": null,\n\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"La exposición se describe únicamente como 'contacto regular' sin especificar frecuencia, cadencia ni porcentaje de tiempo de exposición.\"\n      },\n\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": null,\n        \"n_applicable\": 40,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Determinar con precisión la frecuencia, duración y condiciones del 'contacto regular' con material potencialmente contaminado para evaluar adecuadamente el nivel de exposición.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar medidas de control generales (ej. EPIs, higiene, formación) hasta que se realice una evaluación profesional detallada.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"PARTIAL\",\n    \"agent_aggregation_status\": \"UNRESOLVED\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Falta información crítica sobre la frecuencia, cadencia y porcentaje de tiempo de exposición al agente biológico, lo que impide determinar el nivel de riesgo y la clasificación reglamentaria.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [],\n\n  \"reasoning_summary\": \"La evaluación no puede completarse debido a la insuficiencia de datos sobre la exposición (frecuencia, duración y condiciones del 'contacto regular'). No se infiere información ausente ni se asignan clasificaciones reglamentarias no respaldadas. Se requiere valoración profesional para determinar el nivel de riesgo y las medidas preventivas específicas.\"\n}\n```"
+      }
+    }
+  ]
+}

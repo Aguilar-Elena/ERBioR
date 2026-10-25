@@ -1,0 +1,29 @@
+{
+  "id": "ed8746e4e89c4128badf0e8b0fc3e233",
+  "created": 1792949157,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 811,
+    "total_tokens": 1496,
+    "completion_tokens": 685,
+    "prompt_tokens_details": {
+      "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P13\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"SARS-CoV-2\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"SARS-CoV-2\",\n      \"questionnaire_id\": null,\n\n      \"exposure\": {\n        \"category\": \"frequent\",\n        \"basis\": \"explicitly stated in case information\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"moderate\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar medidas de control adicionales para reducir la exposición frecuente a SARS-CoV-2, priorizando el uso de EPP, ventilación adecuada y protocolos de higiene.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Realizar una valoración profesional detallada para determinar la clasificación regulatoria del agente y ajustar los controles preventivos según normativas aplicables.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"complete\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"La clasificación regulatoria del agente (SARS-CoV-2) no está especificada en el caso, lo que impide determinar el grupo regulatorio mínimo o nivel de referencia. La probabilidad y clase de riesgo no pueden resolverse sin esta información.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Exposición frecuente a SARS-CoV-2 (información del caso)\",\n    \"40 respuestas Sí y 8 respuestas No en cuestionario de 48 ítems (cumplimiento del 83.33%)\"\n  ],\n\n  \"reasoning_summary\": \"El caso proporciona información suficiente para determinar la exposición (frecuente) y el cumplimiento (83.33%, clase moderada). Sin embargo, la clasificación regulatoria del agente no está especificada, lo que impide asignar un grupo regulatorio, nivel de referencia, probabilidad, GRB o clase de riesgo. Se requiere valoración profesional para resolver estas incertidumbres y ajustar las medidas preventivas.\"\n}\n```"
+      }
+    }
+  ]
+}

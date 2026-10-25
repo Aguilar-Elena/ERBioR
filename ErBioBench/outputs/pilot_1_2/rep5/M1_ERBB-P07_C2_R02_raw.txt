@@ -1,0 +1,76 @@
+```json
+{
+  "case_id": "ERBB-P07",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench fictitious biological agent",
+      "agent_id": null,
+      "classification_status": "UNRESOLVED",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench fictitious biological agent",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": null,
+        "basis": "La información de exposición no permite determinar la categoría sin clasificación reglamentaria."
+      },
+
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Determinar la clasificación reglamentaria del agente antes de proceder con la evaluación de riesgos."
+        },
+        {
+          "item_id": null,
+          "action": "Realizar una valoración profesional para identificar medidas preventivas provisionales hasta resolver la clasificación."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "NOT_APPLICABLE",
+    "agent_aggregation_status": "UNRESOLVED",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Ausencia de clasificación reglamentaria del agente y falta de información para determinar exposición o cumplimiento."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [],
+
+  "reasoning_summary": "El agente 'ErBioBench fictitious biological agent' carece de clasificación reglamentaria en el registro ERBioR, lo que impide determinar su nivel de referencia, categoría de exposición, cumplimiento de controles y, por ende, la probabilidad, GRB y clase de riesgo. La evaluación no puede completarse sin resolver primero la clasificación del agente, requiriendo valoración profesional urgente para establecer medidas preventivas provisionales."
+}
+```

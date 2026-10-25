@@ -1,0 +1,68 @@
+{
+  "case_id": "ERBB-P14",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "frequent",
+        "basis": "provided in case information"
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "moderate",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": "unresolved"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "8 controls failed (based on 8 'No' responses)"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Review and reinforce the 8 failed controls to improve compliance and reduce exposure risk."
+        },
+        {
+          "item_id": null,
+          "action": "Implement additional administrative, engineering, or personal protective measures to mitigate frequent exposure to SARS-CoV-2."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "complete",
+    "agent_aggregation_status": "single-agent",
+    "workplace_global_class": "unresolved"
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Insufficient information to determine regulatory classification, reference level, probability value, GRB, or risk class. Exposure category and compliance metrics are resolvable."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Case information: ERBB-P14"
+  ],
+  "reasoning_summary": "The case provides sufficient information to determine exposure category ('frequent') and compliance metrics (83.33% compliance, 8 failed controls). However, regulatory classification, reference level, probability, GRB, and risk class cannot be resolved due to missing or unspecified data. The presence of uncertainty and the need for professional review are flagged accordingly."
+}

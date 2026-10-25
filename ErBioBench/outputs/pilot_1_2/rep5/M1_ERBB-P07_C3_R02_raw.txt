@@ -1,0 +1,75 @@
+```json
+{
+  "case_id": "ERBB-P07",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench fictitious biological agent",
+      "agent_id": null,
+      "classification_status": "unclassified_not_implicitly_group1",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench fictitious biological agent",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": null,
+        "basis": "La información de exposición no permite sustituir la clasificación reglamentaria del agente."
+      },
+
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "No procede cerrar un cuestionario de riesgo frente a un nivel de referencia inexistente. Se requiere valoración profesional para determinar medidas preventivas."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_applicable",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "El agente no figura en el registro legal consultado. Clasificación y nivel de referencia no resueltos. Exposición no evaluable sin clasificación reglamentaria."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "ERBioR reference output (v0.9.0)",
+    "RD 664/1997 (regulatory basis for classification)"
+  ],
+
+  "reasoning_summary": "Agente no clasificado en el registro legal ERBioR. Según RD 664/1997, no queda implícitamente clasificado en grupo 1. Sin clasificación reglamentaria, no es posible determinar exposición, cumplimiento, probabilidad, GRB o clase de riesgo. Requiere valoración profesional obligatoria. No procede agregar resultados ni cerrar cuestionario."
+}
+```

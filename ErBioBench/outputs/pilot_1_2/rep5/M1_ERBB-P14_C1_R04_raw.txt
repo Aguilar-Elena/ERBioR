@@ -1,0 +1,83 @@
+```json
+{
+  "case_id": "ERBB-P14",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "provided in case"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "moderate",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": null,
+        "label": "unresolved"
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implement enhanced infection control measures, including PPE, ventilation, and worker training."
+        },
+        {
+          "item_id": null,
+          "action": "Conduct regular health monitoring and risk communication for exposed workers."
+        },
+        {
+          "item_id": null,
+          "action": "Review and update occupational health policies to align with current biological risk guidelines."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "complete",
+    "agent_aggregation_status": "single-agent",
+    "workplace_global_class": "unresolved"
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Insufficient information to determine regulatory classification, reference level, probability, GRB, or risk class. Exposure category and compliance metrics are resolvable."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Case-provided exposure information (frequent)",
+    "Case-provided questionnaire responses (40 Yes, 8 No out of 48 items)"
+  ],
+
+  "reasoning_summary": "Exposure category resolved as 'frequent' per case. Compliance calculated as 83.33% (40/48 Yes responses), classified as 'moderate'. Regulatory classification, reference level, probability, GRB, and risk class unresolved due to lack of supporting information. Professional review required for unresolved elements and to validate preventive actions."
+}
+```

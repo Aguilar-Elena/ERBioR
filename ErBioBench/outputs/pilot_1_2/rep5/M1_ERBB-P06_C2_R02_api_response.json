@@ -1,0 +1,29 @@
+{
+  "id": "129a8ccb7fd24218b0b616e711a0a0e1",
+  "created": 1792948960,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 1058,
+    "total_tokens": 1978,
+    "completion_tokens": 920,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P06\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Actinomadura madurae\",\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    },\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"agent_name\": \"Actinomadura madurae\",\n      \"questionnaire_id\": \"ERBio_general\",\n\n      \"exposure\": {\n        \"category\": \"FREQUENT\",\n        \"basis\": \"Provided in case information\"\n      },\n\n      \"compliance\": {\n        \"percent\": 39.58,\n        \"class\": \"LOW\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 0.6,\n        \"label\": \"MEDIUM\"\n      },\n\n      \"grb\": null,\n      \"risk_class\": \"REQUIRES_PROFESSIONAL_ASSESSMENT\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Professional assessment required due to unresolved regulatory classification and risk parameters\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio_general\",\n\n      \"exposure\": {\n        \"category\": \"FREQUENT\",\n        \"basis\": \"Provided in case information\"\n      },\n\n      \"compliance\": {\n        \"percent\": 39.58,\n        \"class\": \"LOW\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 0.6,\n        \"label\": \"MEDIUM\"\n      },\n\n      \"grb\": null,\n      \"risk_class\": \"REQUIRES_PROFESSIONAL_ASSESSMENT\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Professional assessment required due to unresolved regulatory classification and risk parameters\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"DISCORDANT_RESULTS_RETAINED\",\n    \"agent_aggregation_status\": \"MULTI_AGENT_DISCORDANCE_RETAINED\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Regulatory classification and reference levels for both agents are unresolved. Exposure and compliance data are identical but cannot be aggregated due to multi-agent discordance requirement.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Case information provided in ERBB-P06\"\n  ],\n\n  \"reasoning_summary\": \"Two biological agents (Actinomadura madurae and Brucella melitensis) were identified with unresolved regulatory classifications. Exposure for both was categorized as FREQUENT based on case information. Compliance was calculated as 39.58% (19 Yes / 29 No out of 48 applicable items), resulting in LOW compliance. Probability was derived as MEDIUM (0.6) from exposure and compliance. GRB and risk class could not be determined due to unresolved reference levels, requiring professional assessment. Multi-agent discordance was preserved as instructed.\"\n}\n```"
+      }
+    }
+  ]
+}

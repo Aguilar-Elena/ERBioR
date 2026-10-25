@@ -1,0 +1,89 @@
+```json
+{
+  "case_id": "ERBB-P01",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": "RG3",
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "Exposición declarada como frecuente en el escenario ocupacional."
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "moderate",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "moderate"
+      },
+
+      "grb": 3,
+      "risk_class": "high",
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Identificar y corregir los 8 ítems no cumplidos en el cuestionario ERBio-48 para mejorar el nivel de cumplimiento."
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas de contención de nivel RG3, incluyendo equipos de protección individual (EPI) adecuados, formación específica en bioseguridad y protocolos de descontaminación."
+        },
+        {
+          "item_id": null,
+          "action": "Realizar vigilancia médica periódica de los trabajadores expuestos para detección temprana de brucelosis."
+        },
+        {
+          "item_id": null,
+          "action": "Establecer un sistema de registro y notificación de incidentes o exposiciones accidentales."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "complete",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "high"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Escenario ocupacional proporcionado.",
+    "Clasificación reguladora estándar para Brucella melitensis (RG3).",
+    "Datos del cuestionario ERBio-48 (40 Sí / 8 No)."
+  ],
+
+  "reasoning_summary": "Brucella melitensis está clasificada como agente de grupo de riesgo 3 (RG3) según estándares regulatorios. La exposición frecuente, combinada con un cumplimiento moderado (83.33%), resulta en una probabilidad moderada de exposición. El GRB (3) y la exposición frecuente determinan una clase de riesgo alta. Se requieren controles adicionales y valoración profesional para garantizar la seguridad ocupacional."
+}
+```

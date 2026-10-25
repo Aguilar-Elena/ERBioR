@@ -1,0 +1,29 @@
+{
+  "id": "babef88042414e20ac28a470e8a862cd",
+  "created": 1792949541,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 1542,
+    "total_tokens": 2776,
+    "completion_tokens": 1234,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P01\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Declaración explícita en el caso (frecuencia diaria)\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.3333,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n\n      \"failed_controls\": [\n        {\"item_id\": \"GENERAL-F2015-041\"},\n        {\"item_id\": \"GENERAL-F2015-042\"},\n        {\"item_id\": \"GENERAL-F2015-043\"},\n        {\"item_id\": \"GENERAL-F2015-044\"},\n        {\"item_id\": \"GENERAL-F2015-045\"},\n        {\"item_id\": \"GENERAL-F2015-046\"},\n        {\"item_id\": \"GENERAL-F2015-047\"},\n        {\"item_id\": \"GENERAL-F2015-048\"}\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Revisar y reforzar el control asociado al ítem GENERAL-F2015-041\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Revisar y reforzar el control asociado al ítem GENERAL-F2015-042\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Revisar y reforzar el control asociado al ítem GENERAL-F2015-043\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Revisar y reforzar el control asociado al ítem GENERAL-F2015-044\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Revisar y reforzar el control asociado al ítem GENERAL-F2015-045\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Revisar y reforzar el control asociado al ítem GENERAL-F2015-046\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Revisar y reforzar el control asociado al ítem GENERAL-F2015-047\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Revisar y reforzar el control asociado al ítem GENERAL-F2015-048\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"Tolerable\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    {\n      \"type\": \"regulatory\",\n      \"description\": \"Clasificación del agente según Anexo II (ERBioR v0.9.0)\"\n    },\n    {\n      \"type\": \"exposure\",\n      \"description\": \"Frecuencia diaria declarada en el caso\"\n    },\n    {\n      \"type\": \"questionnaire\",\n      \"description\": \"Cuestionario general ERBio (48 ítems, versión final_2015_annex1)\"\n    }\n  ],\n\n  \"reasoning_summary\": \"Evaluación directa basada en la matriz ERBioR v0.9.0 para Brucella melitensis (BIO-BACT-0028), agente clasificado en el grupo 3 según Anexo II. Exposición frecuente con cumplimiento aceptable (83.33%). Probabilidad baja (valor 1) y GRB 3, resultando en riesgo tolerable. Se identificaron 8 controles incumplidos (ítems GENERAL-F2015-041 a GENERAL-F2015-048). No requiere valoración profesional adicional.\"\n}\n```"
+      }
+    }
+  ]
+}

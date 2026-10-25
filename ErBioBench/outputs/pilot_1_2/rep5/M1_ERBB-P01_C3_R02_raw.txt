@@ -1,0 +1,85 @@
+```json
+{
+  "case_id": "ERBB-P01",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Declaración explícita en el caso"
+      },
+
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+
+      "grb": 3,
+      "risk_class": "Tolerable",
+
+      "failed_controls": [
+        {"item_id": "GENERAL-F2015-041"},
+        {"item_id": "GENERAL-F2015-042"},
+        {"item_id": "GENERAL-F2015-043"},
+        {"item_id": "GENERAL-F2015-044"},
+        {"item_id": "GENERAL-F2015-045"},
+        {"item_id": "GENERAL-F2015-046"},
+        {"item_id": "GENERAL-F2015-047"},
+        {"item_id": "GENERAL-F2015-048"}
+      ],
+
+      "preventive_actions": []
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Tolerable"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    {
+      "type": "ERBioR_reference_output",
+      "version": "0.9.0"
+    },
+    {
+      "type": "case_information",
+      "id": "ERBB-P01"
+    }
+  ],
+
+  "reasoning_summary": "Evaluación directa según matriz ERBioR v0.9.0. Agente Brucella melitensis clasificado en Anexo II con nivel de referencia 3 y grupo mínimo reglamentario 3. Exposición frecuente con cumplimiento aceptable (83.33%). Probabilidad baja (valor 1) y GRB 3 determinan clase de riesgo Tolerable. Ocho controles incumplidos identificados. No requiere valoración profesional adicional."
+}
+```

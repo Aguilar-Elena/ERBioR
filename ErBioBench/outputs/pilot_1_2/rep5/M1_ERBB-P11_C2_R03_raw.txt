@@ -1,0 +1,81 @@
+```json
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": "high",
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio_GENERAL",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "provided in case"
+      },
+
+      "compliance": {
+        "percent": 95,
+        "class": "high",
+        "n_applicable": 20,
+        "n_not_applicable": 1
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "moderate"
+      },
+
+      "grb": 3,
+      "risk_class": "medium",
+
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "description": "Limpieza/desinfección periódica de los equipos de trabajo"
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar limpieza/desinfección periódica de los equipos de trabajo"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "medium"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "ERBioR reference version: 0.9.0",
+    "Case-provided exposure frequency",
+    "Case-provided questionnaire responses"
+  ],
+
+  "reasoning_summary": "1. Agente identificado: Brucella melitensis (BIO-BACT-0028) con clasificación regulatoria Grupo 3 (nivel de referencia alto). 2. Exposición frecuente según información proporcionada. 3. Cuestionario ERBio GENERAL con 1 ítem no cumplido (GENERAL-F2015-020) de 21 totales (95% cumplimiento, clase alta). 4. Probabilidad moderada (valor 3) derivada de exposición frecuente y cumplimiento alto. 5. GRB 3 (probabilidad moderada × nivel de referencia alto). 6. Clase de riesgo medio. 7. Control incumplido identificado: limpieza/desinfección periódica de equipos. 8. Acción preventiva vinculada al ítem incumplido."
+}
+```

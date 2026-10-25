@@ -1,0 +1,74 @@
+{
+  "case_id": "ERBB-P03",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio_general",
+      "exposure": {
+        "category": "frequent",
+        "basis": "Explicitly stated in the case as 'Exposición: Frecuente'."
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": "low",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 0.6,
+        "label": "high"
+      },
+      "grb": null,
+      "risk_class": "undetermined",
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Identified preventive deficiencies in the workplace (deficiencias preventivas relevantes). Specific failed controls not listed in the case."
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Immediate review and correction of identified preventive deficiencies to reduce exposure to Brucella melitensis."
+        },
+        {
+          "item_id": null,
+          "action": "Implementation of enhanced biosafety measures, including engineering controls, administrative controls, and personal protective equipment (PPE)."
+        },
+        {
+          "item_id": null,
+          "action": "Conduct a detailed professional risk assessment to determine the regulatory classification and reference level for Brucella melitensis."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "undetermined"
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Regulatory classification and reference level for Brucella melitensis are unresolved. Exposure and compliance data are based on provided responses but lack specific failed control details."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Case information: ERBB-P03",
+    "Exposure category: Frequent (explicitly stated)",
+    "Questionnaire responses: 19 Sí, 29 No (48 ítems total)"
+  ],
+  "reasoning_summary": "1. Brucella melitensis identified as the sole biological agent with unresolved regulatory classification. 2. Exposure categorized as 'frequent' based on explicit case information. 3. Compliance calculated as 39.58% (19/48 Sí responses), classified as 'low'. 4. Probability derived as 'high' due to frequent exposure and low compliance. 5. GRB and risk class undetermined due to unresolved reference level. 6. Professional review required for unresolved classification and preventive deficiencies. 7. Uncertainty present due to lack of regulatory classification and specific failed control details."
+}

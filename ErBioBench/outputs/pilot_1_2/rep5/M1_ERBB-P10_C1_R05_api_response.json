@@ -1,0 +1,29 @@
+{
+  "id": "12a1934abc1b4d2ab20ea894dda2f490",
+  "created": 1792951003,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 863,
+    "total_tokens": 1597,
+    "completion_tokens": 734,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P10\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"AUDIT-F2015-004\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición: Frecuente.\"\n      },\n\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": \"Partial\",\n        \"n_applicable\": null,\n        \"n_not_applicable\": 1\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": \"High\"\n      },\n\n      \"grb\": null,\n      \"risk_class\": \"High\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"action\": \"Medidas higiénicas y de protección individual incumplidas.\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"action\": \"Implementar y verificar el cumplimiento de medidas higiénicas y de protección individual específicas para Brucella melitensis.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"Partial compliance with critical control failure\",\n    \"agent_aggregation_status\": \"Single agent evaluated\",\n    \"workplace_global_class\": \"High risk due to critical control failure\"\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Clasificación regulatoria del agente no resuelta. Exposición frecuente sin detalles cuantitativos. Probabilidad y GRB no calculables numéricamente con la información disponible.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Case ERBB-P10\",\n    \"Auditoría ERBio (AUDIT-F2015-004 = No)\"\n  ],\n\n  \"reasoning_summary\": \"1) Agente identificado: Brucella melitensis (BIO-BACT-0028), clasificación regulatoria no resuelta en el caso. 2) Exposición frecuente sin datos cuantitativos. 3) Cumplimiento parcial con incumplimiento crítico en medidas higiénicas/protección individual (AUDIT-F2015-004). 4) Probabilidad alta por exposición frecuente + control crítico fallido. 5) Riesgo clasificado como alto por incumplimiento crítico y exposición frecuente. 6) Incertidumbre presente por falta de datos regulatorios y cuantitativos. 7) Requiere valoración profesional por riesgo alto y control crítico fallido.\"\n}\n```"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+```json
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-Audit",
+
+      "exposure": {
+        "category": "FREQUENT",
+        "basis": "Provided in case information"
+      },
+
+      "compliance": {
+        "percent": 99.0,
+        "class": "HIGH",
+        "n_applicable": 1,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 0.9,
+        "label": "HIGH"
+      },
+
+      "grb": "GRB-3",
+      "risk_class": "CLASS-3",
+
+      "failed_controls": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Critical hygiene and individual protection measure failed"
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Immediate corrective action required for failed critical control. Separate evaluation of preventive significance mandated."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "SINGLE_QUESTIONNAIRE",
+    "agent_aggregation_status": "SINGLE_AGENT",
+    "workplace_global_class": "CLASS-3"
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Regulatory classification of Brucella melitensis unresolved. GRB and risk class derived from exposure and compliance data only."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Case ERBB-P10 information"
+  ],
+
+  "reasoning_summary": "Single biological agent (Brucella melitensis) identified with unresolved regulatory classification. Exposure category 'FREQUENT' supported by case. Compliance calculated as 99% (1 applicable control failed out of 1). Probability 'HIGH' derived from exposure and compliance. GRB-3 and CLASS-3 assigned based on probability and case-specific critical control failure. Uncertainty noted due to unresolved classification. Professional review required for preventive significance evaluation."
+}
+```

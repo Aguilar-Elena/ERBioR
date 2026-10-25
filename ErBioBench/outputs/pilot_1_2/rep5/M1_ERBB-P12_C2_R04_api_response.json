@@ -1,0 +1,29 @@
+{
+  "id": "e5d8828949484995b81fd0bbd6b205f3",
+  "created": 1792950527,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 1061,
+    "total_tokens": 2168,
+    "completion_tokens": 1107,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P12\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"Auditoría\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición común: Frecuente (provided in case)\"\n      },\n\n      \"compliance\": {\n        \"percent\": 96.88,\n        \"class\": \"High\",\n        \"n_applicable\": 32,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 0.2,\n        \"label\": \"Low\"\n      },\n\n      \"grb\": null,\n      \"risk_class\": \"Requires professional assessment\",\n\n      \"failed_controls\": [\n        \"1 control failed (Auditoría: 1 No)\"\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Review and correct the single non-compliant control identified in the Auditoría questionnaire.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"General\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición común: Frecuente (provided in case)\"\n      },\n\n      \"compliance\": {\n        \"percent\": 39.58,\n        \"class\": \"Very Low\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 0.8,\n        \"label\": \"High\"\n      },\n\n      \"grb\": null,\n      \"risk_class\": \"Requires professional assessment\",\n\n      \"failed_controls\": [\n        \"29 controls failed (General: 29 No)\"\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Conduct a comprehensive review of all 29 non-compliant controls in the General questionnaire and implement corrective measures.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"Trabajadores\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición común: Frecuente (provided in case)\"\n      },\n\n      \"compliance\": {\n        \"percent\": 58.82,\n        \"class\": \"Low\",\n        \"n_applicable\": 34,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 0.6,\n        \"label\": \"Medium\"\n      },\n\n      \"grb\": null,\n      \"risk_class\": \"Requires professional assessment\",\n\n      \"failed_controls\": [\n        \"14 controls failed (Trabajadores: 14 No)\"\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Address the 14 non-compliant controls in the Trabajadores questionnaire and improve compliance.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"Discordant (must not be aggregated)\",\n    \"agent_aggregation_status\": \"Single agent (no aggregation required)\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Regulatory classification of Brucella melitensis is unresolved; questionnaire compliance results are discordant; GRB and risk class cannot be determined without professional assessment.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Case ERBB-P12 (ErBioBench-pilot-1.0)\"\n  ],\n\n  \"reasoning_summary\": \"Brucella melitensis was evaluated using three questionnaires (Auditoría, General, Trabajadores) with discordant compliance results (96.88%, 39.58%, 58.82%). Exposure was consistently 'Frequent'. Probability was derived from exposure and compliance (Low, High, Medium respectively). Regulatory classification is unresolved, preventing GRB calculation. Risk class requires professional assessment due to discordance and unresolved classification. No aggregation was performed as per case instructions.\"\n}\n```"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "1b029a4fc07a455096d138c3bf35c4cf",
+  "created": 1792950748,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 816,
+    "total_tokens": 2022,
+    "completion_tokens": 1206,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P01\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resoluble\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": \"Nivel 3\",\n      \"requires_professional_assessment\": false,\n      \"reasoning_summary\": \"Brucella melitensis está clasificada como agente biológico del grupo 3 según normativas internacionales de seguridad biológica (ej. Directiva UE 2000/54/CE, RD 664/1997 en España), por su capacidad de causar enfermedad grave en humanos y presentar riesgo de propagación, aunque existan medidas profilácticas o terapéuticas.\"\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio-48\",\n\n      \"exposure\": {\n        \"category\": \"frecuente\",\n        \"basis\": \"Exposición declarada como frecuente en el escenario ocupacional, con ocurrencia diaria.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"parcial\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8,\n        \"reasoning_summary\": \"De 48 ítems aplicables en el cuestionario ERBio, 40 respuestas afirmativas (Sí) y 8 negativas (No) indican un cumplimiento parcial (83.33%) de las medidas de control.\"\n      },\n\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"alta\",\n        \"reasoning_summary\": \"La combinación de un agente del grupo 3 (Brucella melitensis) con exposición frecuente (diaria) y cumplimiento parcial de controles (83.33%) determina una probabilidad alta de exposición efectiva.\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"alto\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": null,\n          \"description\": \"8 ítems del cuestionario ERBio-48 con respuesta negativa (No), indicando incumplimiento de controles específicos no detallados en el caso.\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Revisar y reforzar los 8 controles incumplidos identificados en el cuestionario para alcanzar cumplimiento total.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar medidas de contención física (ej. cabinas de seguridad biológica) y equipos de protección individual (EPI) adecuados para agentes del grupo 3.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Establecer protocolos de vigilancia médica específica para trabajadores expuestos, incluyendo serología periódica.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Capacitar al personal en prácticas seguras de manipulación y descontaminación de materiales potencialmente contaminados.\"\n        }\n      ],\n\n      \"reasoning_summary\": \"Riesgo clasificado como alto (GRB 3) por la interacción de un agente biológico del grupo 3 (Brucella melitensis), exposición frecuente (diaria) y cumplimiento parcial de controles (83.33%). La probabilidad de exposición efectiva se evalúa como alta, requiriendo acciones preventivas inmediatas para mitigar el riesgo.\"\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"completo\",\n    \"agent_aggregation_status\": \"único\",\n    \"workplace_global_class\": \"alto\",\n    \"reasoning_summary\": \"Evaluación basada en un único agente (Brucella melitensis) con datos completos del cuestionario ERBio-48. El riesgo global del puesto se clasifica como alto.\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": true,\n  \"reasoning_summary\": \"Aunque la evaluación es resoluble con la información proporcionada, se recomienda revisión profesional para validar los controles incumplidos y priorizar acciones preventivas específicas.\",\n\n  \"sources_or_basis\": [\n    \"Escenario ocupacional descrito en el caso ERBB-P01.\",\n    \"Clasificación de Brucella melitensis como agente del grupo 3 según normativas de referencia.\",\n    \"Datos del cuestionario ERBio-48 (40 Sí / 8 No).\"\n  ],\n\n  \"reasoning_summary\": \"Evaluación de riesgo biológico laboral para Brucella melitensis en un puesto con exposición frecuente. El agente se clasifica en el grupo 3 con nivel de referencia 3. La probabilidad de exposición es alta debido a la frecuencia diaria y cumplimiento parcial de controles (83.33%), resultando en un GRB 3 y clase de riesgo alto. Se identifican 8 controles incumplidos y se proponen acciones preventivas prioritarias. Requiere revisión profesional para implementación efectiva.\"\n}\n```"
+      }
+    }
+  ]
+}

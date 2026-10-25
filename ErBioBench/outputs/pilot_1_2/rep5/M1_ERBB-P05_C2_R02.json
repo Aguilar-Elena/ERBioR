@@ -1,0 +1,114 @@
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "ERBio_general",
+      "exposure": {
+        "category": "FREQUENTE",
+        "basis": "Información proporcionada en el caso"
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "PARCIAL",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 3,
+        "label": "MEDIA"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        {
+          "item_id": null,
+          "description": "8 ítems del cuestionario general ERBio con respuesta 'No'"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar los controles asociados a los 8 ítems incumplidos para reducir la probabilidad de exposición"
+        },
+        {
+          "item_id": null,
+          "action": "Implementar medidas específicas de protección frente a Bacillus anthracis, dada su identidad como agente biológico de alto riesgo potencial"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio_general",
+      "exposure": {
+        "category": "FREQUENTE",
+        "basis": "Información proporcionada en el caso"
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "PARCIAL",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 3,
+        "label": "MEDIA"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        {
+          "item_id": null,
+          "description": "8 ítems del cuestionario general ERBio con respuesta 'No'"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar los controles asociados a los 8 ítems incumplidos para reducir la probabilidad de exposición"
+        },
+        {
+          "item_id": null,
+          "action": "Implementar medidas específicas de protección frente a Brucella melitensis, dada su identidad como agente biológico de alto riesgo potencial"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "SINGLE_QUESTIONNAIRE",
+    "agent_aggregation_status": "MULTI_AGENT_SEPARATE",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación regulatoria no resuelta para ambos agentes. GRB y clase de riesgo no determinables sin nivel de referencia. Exposición frecuente y cumplimiento parcial requieren valoración profesional para confirmar probabilidad y priorización de controles."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Información proporcionada en el caso ERBB-P05"
+  ],
+  "reasoning_summary": "Se identificaron dos agentes biológicos (Bacillus anthracis y Brucella melitensis) sin clasificación regulatoria resuelta. La exposición para ambos es frecuente. El cuestionario general ERBio (48 ítems) arrojó 40 respuestas 'Sí' y 8 'No', resultando en un cumplimiento parcial (83.33%). La probabilidad se clasificó como media (valor 3) por exposición frecuente y cumplimiento parcial. GRB y clase de riesgo no se determinaron por falta de nivel de referencia. Se preservó la identidad de cada agente y se identificaron 8 controles incumplidos. Se requiere valoración profesional para resolver la clasificación regulatoria, confirmar la probabilidad y priorizar acciones preventivas."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "1b1dab1c6a6a43de89a43a1c4af1b281",
+  "created": 1792950762,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 1016,
+    "total_tokens": 1764,
+    "completion_tokens": 748,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P01\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio general\",\n\n      \"exposure\": {\n        \"category\": \"frequent\",\n        \"basis\": \"Explicitly stated in case: 'La exposición ocurre con frecuencia diaria.'\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"moderate\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 0.6,\n        \"label\": \"moderate\"\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [\n        {\n          \"item_id\": null,\n          \"action\": \"8 ítems del cuestionario general ERBio con respuesta 'No' (controles incumplidos).\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Revisar y reforzar los 8 controles incumplidos identificados en el cuestionario general ERBio para reducir la probabilidad de exposición.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar medidas específicas de bioseguridad para Brucella melitensis, priorizando la protección contra exposición frecuente.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Clasificación regulatoria del agente no resuelta. Nivel de referencia (GRB) no determinable sin clasificación del agente. Riesgo no clasificable sin GRB.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Información proporcionada en el caso ERBB-P01.\"\n  ],\n\n  \"reasoning_summary\": \"1. Agente identificado: Brucella melitensis (BIO-BACT-0028) con clasificación regulatoria no resuelta. 2. Exposición frecuente confirmada. 3. Cuestionario general ERBio con 48 ítems aplicables (40 Sí, 8 No), cumplimiento del 83.33% (clase moderada). 4. Probabilidad moderada (0.6) derivada de exposición frecuente y cumplimiento moderado. 5. GRB y clase de riesgo no determinables por falta de clasificación regulatoria del agente. 6. Incertidumbre presente por clasificación no resuelta y necesidad de valoración profesional para determinar GRB y riesgo.\"\n}\n```"
+      }
+    }
+  ]
+}

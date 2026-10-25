@@ -1,0 +1,70 @@
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": "Annex II",
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "audit",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "case_information"
+      },
+      "compliance": {
+        "percent": 96.875,
+        "class": "Aceptable",
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "AUDIT-F2015-004"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Revisar y corregir el incumplimiento específico de medidas higiénicas y de protección individual (AUDIT-F2015-004) para garantizar el cumplimiento completo del sistema de gestión del riesgo biológico."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Tolerable"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    {
+      "source": "ERBioR reference output (version 0.9.0)",
+      "basis": "deterministic_assessment"
+    },
+    {
+      "source": "Case information (ERBB-P10)",
+      "basis": "provided_exposure_and_compliance_data"
+    }
+  ],
+  "reasoning_summary": "Evaluación basada en el agente biológico Brucella melitensis (BIO-BACT-0028), clasificado en el Anexo II con nivel de referencia 3. La exposición frecuente y el cumplimiento global aceptable (96.875%) determinan una probabilidad baja (valor 1) y un GRB de 3, resultando en una clase de riesgo tolerable. Se identifica un control crítico incumplido (AUDIT-F2015-004), cuya corrección es prioritaria para mantener el nivel de riesgo actual. No se requiere valoración profesional adicional según el ERBioR."
+}

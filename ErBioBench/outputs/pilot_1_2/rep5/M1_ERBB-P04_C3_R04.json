@@ -1,0 +1,87 @@
+{
+  "case_id": "ERBB-P04",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": "Annex II",
+      "regulatory_minimum_group": 2,
+      "reference_level": 2,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Declaración explícita en el caso"
+      },
+      "compliance": {
+        "percent": 75,
+        "class": "Mejorable",
+        "n_applicable": 16,
+        "n_not_applicable": 32
+      },
+      "probability": {
+        "value": 2,
+        "label": "Media"
+      },
+      "grb": 4,
+      "risk_class": "Moderado",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-013"
+        },
+        {
+          "item_id": "GENERAL-F2015-014"
+        },
+        {
+          "item_id": "GENERAL-F2015-015"
+        },
+        {
+          "item_id": "GENERAL-F2015-016"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-013",
+          "action": "Revisar y aplicar controles específicos para el ítem GENERAL-F2015-013"
+        },
+        {
+          "item_id": "GENERAL-F2015-014",
+          "action": "Revisar y aplicar controles específicos para el ítem GENERAL-F2015-014"
+        },
+        {
+          "item_id": "GENERAL-F2015-015",
+          "action": "Revisar y aplicar controles específicos para el ítem GENERAL-F2015-015"
+        },
+        {
+          "item_id": "GENERAL-F2015-016",
+          "action": "Revisar y aplicar controles específicos para el ítem GENERAL-F2015-016"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Moderado"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    {
+      "source": "ERBioR reference output v0.9.0",
+      "basis": "Evaluación determinista basada en matriz de riesgo"
+    }
+  ],
+  "reasoning_summary": "Evaluación basada en el agente biológico Actinomadura madurae (BIO-BACT-0001), clasificado en el Anexo II con nivel de referencia 2. La exposición es frecuente. El cuestionario general (48 ítems) tuvo 12 respuestas Sí, 4 No y 32 No procede, excluyendo estos últimos del denominador. Cumplimiento del 75% (clase 'Mejorable'). Probabilidad media (valor 2) y GRB 4, resultando en clase de riesgo 'Moderado'. Se identificaron 4 controles incumplidos. No se requiere valoración profesional adicional."
+}

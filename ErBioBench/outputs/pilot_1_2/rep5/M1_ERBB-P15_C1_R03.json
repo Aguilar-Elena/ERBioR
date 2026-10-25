@@ -1,0 +1,366 @@
+{
+  "case_id": "ERBB-P15",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Ebolavirus",
+      "agent_id": "BIO-VIR-0040",
+      "classification_status": "resolved",
+      "regulatory_group": 4,
+      "regulatory_minimum_group": 4,
+      "reference_level": 4,
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus",
+      "questionnaire_id": "Auditoría",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposure information provided in the case"
+      },
+      "compliance": {
+        "percent": 96.88,
+        "class": "High",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": 0.8,
+        "label": "High"
+      },
+      "grb": 4,
+      "risk_class": "Very High",
+      "failed_controls": [
+        {
+          "item_id": "AUD-01",
+          "action": "Review and address the single non-compliant control identified in the audit questionnaire"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-01",
+          "action": "Implement enhanced biosafety level 4 (BSL-4) controls for Ebolavirus exposure"
+        },
+        {
+          "item_id": "PA-02",
+          "action": "Conduct regular training and drills for workers on Ebolavirus-specific protocols"
+        },
+        {
+          "item_id": "PA-03",
+          "action": "Ensure proper use of personal protective equipment (PPE) and decontamination procedures"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus",
+      "questionnaire_id": "General",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposure information provided in the case"
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": "Low",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": 0.9,
+        "label": "Very High"
+      },
+      "grb": 4,
+      "risk_class": "Very High",
+      "failed_controls": [
+        {
+          "item_id": "GEN-01",
+          "action": "Address the 29 non-compliant controls identified in the general questionnaire"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-04",
+          "action": "Re-evaluate and reinforce general biosafety measures to align with BSL-4 requirements"
+        },
+        {
+          "item_id": "PA-05",
+          "action": "Implement a comprehensive risk management plan for Ebolavirus exposure"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus",
+      "questionnaire_id": "Trabajadores",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposure information provided in the case"
+      },
+      "compliance": {
+        "percent": 58.82,
+        "class": "Medium",
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+      "probability": {
+        "value": 0.85,
+        "label": "High"
+      },
+      "grb": 4,
+      "risk_class": "Very High",
+      "failed_controls": [
+        {
+          "item_id": "TRA-01",
+          "action": "Address the 14 non-compliant controls identified in the workers' questionnaire"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-06",
+          "action": "Enhance worker-specific training and awareness programs for Ebolavirus risks"
+        },
+        {
+          "item_id": "PA-07",
+          "action": "Establish a worker health monitoring system for early detection of exposure symptoms"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Auditoría",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposure information provided in the case"
+      },
+      "compliance": {
+        "percent": 96.88,
+        "class": "High",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": 0.7,
+        "label": "High"
+      },
+      "grb": 3,
+      "risk_class": "High",
+      "failed_controls": [
+        {
+          "item_id": "AUD-01",
+          "action": "Review and address the single non-compliant control identified in the audit questionnaire"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-08",
+          "action": "Implement biosafety level 3 (BSL-3) controls for Brucella melitensis exposure"
+        },
+        {
+          "item_id": "PA-09",
+          "action": "Conduct regular training and drills for workers on Brucella-specific protocols"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "General",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposure information provided in the case"
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": "Low",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": 0.8,
+        "label": "High"
+      },
+      "grb": 3,
+      "risk_class": "High",
+      "failed_controls": [
+        {
+          "item_id": "GEN-01",
+          "action": "Address the 29 non-compliant controls identified in the general questionnaire"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-10",
+          "action": "Re-evaluate and reinforce general biosafety measures to align with BSL-3 requirements"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Trabajadores",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposure information provided in the case"
+      },
+      "compliance": {
+        "percent": 58.82,
+        "class": "Medium",
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+      "probability": {
+        "value": 0.75,
+        "label": "High"
+      },
+      "grb": 3,
+      "risk_class": "High",
+      "failed_controls": [
+        {
+          "item_id": "TRA-01",
+          "action": "Address the 14 non-compliant controls identified in the workers' questionnaire"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-11",
+          "action": "Enhance worker-specific training and awareness programs for Brucella risks"
+        }
+      ]
+    },
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": "Auditoría",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposure information provided in the case"
+      },
+      "compliance": {
+        "percent": 96.88,
+        "class": "High",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        {
+          "item_id": "AUD-01",
+          "action": "Review and address the single non-compliant control identified in the audit questionnaire"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-12",
+          "action": "Conduct a professional assessment to determine the risk level and appropriate controls for the hypothetical virus"
+        }
+      ]
+    },
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": "General",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposure information provided in the case"
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": "Low",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        {
+          "item_id": "GEN-01",
+          "action": "Address the 29 non-compliant controls identified in the general questionnaire"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-13",
+          "action": "Conduct a professional assessment to determine the risk level and appropriate controls for the hypothetical virus"
+        }
+      ]
+    },
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": "Trabajadores",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposure information provided in the case"
+      },
+      "compliance": {
+        "percent": 58.82,
+        "class": "Medium",
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        {
+          "item_id": "TRA-01",
+          "action": "Address the 14 non-compliant controls identified in the workers' questionnaire"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-14",
+          "action": "Conduct a professional assessment to determine the risk level and appropriate controls for the hypothetical virus"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "partial",
+    "agent_aggregation_status": "partial",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "The risk assessment for the ErBioBench hypothetical human virus is unresolved due to insufficient classification information. Exposure frequency is known, but reference level and regulatory group cannot be determined."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Case ERBB-P15 provided information"
+  ],
+  "reasoning_summary": "The risk assessment was conducted per agent and questionnaire as required. Ebolavirus (BIO-VIR-0040) and Brucella melitensis (BIO-BACT-0028) were resolved with reference levels 4 and 3, respectively, based on provided agent IDs. Exposure was classified as frequent for all agents. Compliance percentages were calculated from questionnaire responses. Probability, GRB, and risk class were determined for resolved agents. The hypothetical virus remains unresolved due to lack of classification data, necessitating professional assessment. Preventive actions and failed controls were identified for each evaluation unit."
+}

@@ -1,0 +1,73 @@
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio general",
+      "exposure": {
+        "category": "very_frequent",
+        "basis": "Exposición muy frecuente durante la jornada laboral (información proporcionada en el caso)"
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "moderate",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 0.6,
+        "label": "moderate"
+      },
+      "grb": "undetermined",
+      "risk_class": "undetermined",
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Los 8 ítems con respuesta 'No' representan controles incumplidos (identificación específica no proporcionada en el caso)"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar los 8 controles incumplidos para mejorar el cumplimiento del cuestionario ERBio"
+        },
+        {
+          "item_id": null,
+          "action": "Implementar medidas adicionales de protección colectiva e individual debido a la exposición muy frecuente"
+        },
+        {
+          "item_id": null,
+          "action": "Realizar evaluación profesional para determinar el nivel de referencia regulatorio del agente y ajustar la evaluación de riesgo"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "undetermined"
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación regulatoria del agente no resuelta. Nivel de referencia desconocido. GRB y clase de riesgo no determinables sin información adicional."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Información proporcionada en el caso ERBB-P02",
+    "Respuestas del cuestionario ERBio (40 Sí, 8 No)"
+  ],
+  "reasoning_summary": "1) Agente identificado: Brucella melitensis (BIO-BACT-0028) con clasificación regulatoria no resuelta. 2) Exposición categorizada como muy frecuente según información del caso. 3) Cumplimiento del cuestionario ERBio calculado en 83.33% (40 Sí/48 ítems aplicables), clasificado como moderado. 4) Probabilidad derivada como moderada (0.6) basada en exposición muy frecuente y cumplimiento moderado. 5) GRB y clase de riesgo no determinables por falta de nivel de referencia regulatorio. 6) Se identifican 8 controles incumplidos (ítems con respuesta 'No'). 7) Requiere valoración profesional para resolver la clasificación del agente y completar la evaluación de riesgo."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "f250084a4a344afa8b5637fdf1b693dc",
+  "created": 1792949888,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 781,
+    "total_tokens": 1391,
+    "completion_tokens": 610,
+    "prompt_tokens_details": {
+      "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P14\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"SARS-CoV-2\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"SARS-CoV-2\",\n      \"questionnaire_id\": null,\n\n      \"exposure\": {\n        \"category\": \"frequent\",\n        \"basis\": \"provided in case information\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"moderate\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": \"unresolved\"\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [\n        {\n          \"item_id\": null,\n          \"action\": \"8 controls failed (based on 8 'No' responses)\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Review and reinforce the 8 failed controls to improve compliance and reduce exposure risk.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Implement additional administrative, engineering, or personal protective measures to mitigate frequent exposure to SARS-CoV-2.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"complete\",\n    \"agent_aggregation_status\": \"single-agent\",\n    \"workplace_global_class\": \"unresolved\"\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Insufficient information to determine regulatory classification, reference level, probability value, GRB, or risk class. Exposure category and compliance metrics are resolvable.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Case information: ERBB-P14\"\n  ],\n\n  \"reasoning_summary\": \"The case provides sufficient information to determine exposure category ('frequent') and compliance metrics (83.33% compliance, 8 failed controls). However, regulatory classification, reference level, probability, GRB, and risk class cannot be resolved due to missing or unspecified data. The presence of uncertainty and the need for professional review are flagged accordingly.\"\n}\n```"
+      }
+    }
+  ]
+}

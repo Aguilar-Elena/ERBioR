@@ -1,0 +1,78 @@
+```json
+{
+  "case_id": "ERBB-P08",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "UNRESOLVED",
+      "regulatory_group": null,
+      "regulatory_minimum_group": "REGULATORY_MINIMUM_APPLIED",
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": null,
+        "basis": "No se aporta información sobre exposición."
+      },
+
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Aplicar el mínimo regulatorio para virus humanos no clasificados."
+        },
+        {
+          "item_id": null,
+          "action": "Realizar una valoración profesional para determinar el nivel de referencia final y la exposición."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "NOT_APPLICABLE",
+    "agent_aggregation_status": "SINGLE_AGENT",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación regulatoria no resuelta y ausencia de información sobre exposición. Requiere valoración profesional para determinar el nivel de referencia y la categoría de exposición."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Regla regulatoria específica para virus humanos no clasificados."
+  ],
+
+  "reasoning_summary": "1. Agente identificado: 'ErBioBench hypothetical human virus' sin clasificación regulatoria resuelta. 2. Se aplica el mínimo regulatorio para virus humanos no clasificados. 3. No se proporciona información sobre exposición ni cumplimiento de controles. 4. Incertidumbre presente por falta de datos clave. 5. Requiere valoración profesional para determinar nivel de referencia y exposición. 6. No se calcula probabilidad, GRB ni clase de riesgo por falta de datos."
+}
+```

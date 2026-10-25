@@ -1,0 +1,76 @@
+```json
+{
+  "case_id": "ERBB-P07",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench fictitious biological agent",
+      "agent_id": null,
+      "classification_status": "UNRESOLVED",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench fictitious biological agent",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": null,
+        "basis": "La información de exposición no permite determinar la categoría sin clasificación reglamentaria."
+      },
+
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "No procede evaluar el cumplimiento de controles sin un nivel de referencia establecido."
+        },
+        {
+          "item_id": null,
+          "action": "Se requiere clasificación legal del agente para continuar con la evaluación de riesgo."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "NOT_APPLICABLE",
+    "agent_aggregation_status": "NOT_APPLICABLE",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación del agente no resuelta. No se dispone de nivel de referencia legal ni información suficiente para determinar exposición, probabilidad o riesgo."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [],
+
+  "reasoning_summary": "El agente 'ErBioBench fictitious biological agent' carece de clasificación legal en el registro ERBioR, lo que impide determinar su nivel de referencia. Sin esta información, no es posible evaluar la exposición, el cumplimiento de controles, la probabilidad, el GRB o la clase de riesgo. La evaluación queda suspendida hasta resolver la clasificación del agente, requiriendo valoración profesional."
+}
+```

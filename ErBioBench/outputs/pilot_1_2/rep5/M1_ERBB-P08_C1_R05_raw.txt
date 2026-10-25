@@ -1,0 +1,78 @@
+```json
+{
+  "case_id": "ERBB-P08",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "unclassified",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": null,
+        "basis": "No se aporta información sobre la exposición."
+      },
+
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Aplicar medidas preventivas basadas en el principio de precaución para agentes biológicos no clasificados."
+        },
+        {
+          "item_id": null,
+          "action": "Realizar una valoración profesional específica para determinar el nivel de riesgo y las medidas de control adecuadas."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "unresolved",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "El agente no está clasificado en el registro utilizado, y no se proporciona información suficiente sobre la exposición o medidas de control aplicables."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Regla regulatoria específica para virus humanos no clasificados."
+  ],
+
+  "reasoning_summary": "El agente biológico (ErBioBench hypothetical human virus) no está clasificado en el registro de referencia, lo que impide determinar su grupo regulatorio mínimo o nivel de referencia. La ausencia de información sobre exposición y medidas de control aplicables genera incertidumbre en la evaluación. Se requiere una valoración profesional para establecer el nivel de riesgo y las medidas preventivas adecuadas, aplicando el principio de precaución."
+}
+```

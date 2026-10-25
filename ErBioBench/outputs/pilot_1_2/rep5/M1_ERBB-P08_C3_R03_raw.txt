@@ -1,0 +1,75 @@
+```json
+{
+  "case_id": "ERBB-P08",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "unclassified_human_isolated_virus",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 2,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": null,
+        "basis": "No se aporta información sobre exposición. Clasificación final no resuelta por ERBioR."
+      },
+
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": "HUMAN-VIRUS-MIN-G2",
+          "action": "Aplicar mínimo regulatorio grupo 2 según RD 664/1997 para virus humanos no clasificados. Evaluación profesional obligatoria para determinar clasificación final y medidas preventivas específicas."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_applicable",
+    "agent_aggregation_status": "not_applicable",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación final del agente no resuelta. Exposición no cuantificada. Requiere evaluación profesional para determinar nivel de referencia y medidas preventivas definitivas."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "ERBioR reference output (v0.9.0)",
+    "Regla regulatoria: HUMAN-VIRUS-MIN-G2 (RD 664/1997)"
+  ],
+
+  "reasoning_summary": "El agente es un virus hipotético aislado en humanos sin clasificación en el registro de referencia. ERBioR establece grupo 2 como mínimo regulatorio según RD 664/1997, pero la clasificación final y el nivel de referencia requieren evaluación profesional. No se aporta información sobre exposición, por lo que no se asigna categoría de exposición, probabilidad, GRB ni clase de riesgo. Se preserva el estado de incertidumbre y la obligatoriedad de revisión profesional."
+}
+```

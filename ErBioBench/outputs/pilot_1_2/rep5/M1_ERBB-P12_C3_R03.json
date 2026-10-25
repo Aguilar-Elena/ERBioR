@@ -1,0 +1,251 @@
+{
+  "case_id": "ERBB-P12",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "audit",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "case_information"
+      },
+      "compliance": {
+        "percent": 96.875,
+        "class": "Aceptable",
+        "n_applicable": 32,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "AUDIT-F2015-004"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Revisar y corregir el control incumplido identificado en la auditoría del sistema de gestión del riesgo biológico."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "case_information"
+      },
+      "compliance": {
+        "percent": 39.5833,
+        "class": "Deficiente",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+      "grb": 9,
+      "risk_class": "Importante",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020"
+        },
+        {
+          "item_id": "GENERAL-F2015-021"
+        },
+        {
+          "item_id": "GENERAL-F2015-022"
+        },
+        {
+          "item_id": "GENERAL-F2015-023"
+        },
+        {
+          "item_id": "GENERAL-F2015-024"
+        },
+        {
+          "item_id": "GENERAL-F2015-025"
+        },
+        {
+          "item_id": "GENERAL-F2015-026"
+        },
+        {
+          "item_id": "GENERAL-F2015-027"
+        },
+        {
+          "item_id": "GENERAL-F2015-028"
+        },
+        {
+          "item_id": "GENERAL-F2015-029"
+        },
+        {
+          "item_id": "GENERAL-F2015-030"
+        },
+        {
+          "item_id": "GENERAL-F2015-031"
+        },
+        {
+          "item_id": "GENERAL-F2015-032"
+        },
+        {
+          "item_id": "GENERAL-F2015-033"
+        },
+        {
+          "item_id": "GENERAL-F2015-034"
+        },
+        {
+          "item_id": "GENERAL-F2015-035"
+        },
+        {
+          "item_id": "GENERAL-F2015-036"
+        },
+        {
+          "item_id": "GENERAL-F2015-037"
+        },
+        {
+          "item_id": "GENERAL-F2015-038"
+        },
+        {
+          "item_id": "GENERAL-F2015-039"
+        },
+        {
+          "item_id": "GENERAL-F2015-040"
+        },
+        {
+          "item_id": "GENERAL-F2015-041"
+        },
+        {
+          "item_id": "GENERAL-F2015-042"
+        },
+        {
+          "item_id": "GENERAL-F2015-043"
+        },
+        {
+          "item_id": "GENERAL-F2015-044"
+        },
+        {
+          "item_id": "GENERAL-F2015-045"
+        },
+        {
+          "item_id": "GENERAL-F2015-046"
+        },
+        {
+          "item_id": "GENERAL-F2015-047"
+        },
+        {
+          "item_id": "GENERAL-F2015-048"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar medidas correctivas para los controles incumplidos en la valoración general del riesgo biológico."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "workers",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "case_information"
+      },
+      "compliance": {
+        "percent": 58.8235,
+        "class": "Mejorable",
+        "n_applicable": 34,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 2,
+        "label": "Media"
+      },
+      "grb": 6,
+      "risk_class": "Moderado",
+      "failed_controls": [
+        {
+          "item_id": "WORKERS-F2015-021"
+        },
+        {
+          "item_id": "WORKERS-F2015-022"
+        },
+        {
+          "item_id": "WORKERS-F2015-023"
+        },
+        {
+          "item_id": "WORKERS-F2015-024"
+        },
+        {
+          "item_id": "WORKERS-F2015-025"
+        },
+        {
+          "item_id": "WORKERS-F2015-026"
+        },
+        {
+          "item_id": "WORKERS-F2015-027"
+        },
+        {
+          "item_id": "WORKERS-F2015-028"
+        },
+        {
+          "item_id": "WORKERS-F2015-029"
+        },
+        {
+          "item_id": "WORKERS-F2015-030"
+        },
+        {
+          "item_id": "WORKERS-F2015-031"
+        },
+        {
+          "item_id": "WORKERS-F2015-032"
+        },
+        {
+          "item_id": "WORKERS-F2015-033"
+        },
+        {
+          "item_id": "WORKERS-F2015-034"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "WORKERS-F2015-021",
+          "action": "Revisar y mejorar los controles incumplidos en la valoración del riesgo biológico en trabajadores."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "source_rule_unresolved_for_discordant_questionnaires",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Discordancia en los resultados de cumplimiento entre los cuestionarios, sin regla de agregación definida en la tesis."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "ERBioR reference output version 0.9.0",
+    "Case information ERBB-P12"
+  ],
+  "reasoning_summary": "Evaluación basada exclusivamente en el output ERBioR para Brucella melitensis (BIO-BACT-0028) con exposición frecuente. Se mantienen las unidades de evaluación diferenciadas por cuestionario (Auditoría, General, Trabajadores) según la discordancia reportada. No se infiere una clase global debido a la ausencia de regla de agregación en la tesis. Se preservan los resultados originales de clasificación, cumplimiento, probabilidad, GRB, controles incumplidos y acciones preventivas para cada cuestionario."
+}

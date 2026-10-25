@@ -1,0 +1,135 @@
+```json
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "ERBio-General",
+
+      "exposure": {
+        "category": "FREQUENT",
+        "basis": "Provided in case information"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "MEDIUM",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "MEDIUM"
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "description": "8 ítems con respuesta 'No' (controles incumplidos)"
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar los 8 controles incumplidos identificados en el cuestionario general ERBio."
+        },
+        {
+          "item_id": null,
+          "action": "Implementar medidas específicas para exposición frecuente a Bacillus anthracis, priorizando controles de ingeniería y equipos de protección individual."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-General",
+
+      "exposure": {
+        "category": "FREQUENT",
+        "basis": "Provided in case information"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "MEDIUM",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "MEDIUM"
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "description": "8 ítems con respuesta 'No' (controles incumplidos)"
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar los 8 controles incumplidos identificados en el cuestionario general ERBio."
+        },
+        {
+          "item_id": null,
+          "action": "Implementar medidas específicas para exposición frecuente a Brucella melitensis, priorizando controles de higiene y protección respiratoria."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "COMPLETE",
+    "agent_aggregation_status": "SEPARATE_ASSESSMENTS_REQUIRED",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación regulatoria y nivel de referencia de ambos agentes no resueltos en la información proporcionada. GRB y clase de riesgo no determinables sin referencia regulatoria."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Información proporcionada en el caso ERBB-P05"
+  ],
+
+  "reasoning_summary": "Se identificaron dos agentes biológicos (Bacillus anthracis y Brucella melitensis) con exposición frecuente y cumplimiento medio (83.33%) en el cuestionario ERBio de 48 ítems. La probabilidad se clasificó como MEDIA para ambos agentes. La ausencia de clasificación regulatoria y nivel de referencia impide calcular GRB y clase de riesgo, requiriendo valoración profesional. Se preservaron evaluaciones separadas para cada agente y se identificaron 8 controles incumplidos."
+}
+```

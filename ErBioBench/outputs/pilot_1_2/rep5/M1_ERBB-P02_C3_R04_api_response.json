@@ -1,0 +1,29 @@
+{
+  "id": "59b2f6a0bda648e6a1b00a336ccb1b3e",
+  "created": 1792950203,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 1545,
+    "total_tokens": 2281,
+    "completion_tokens": 736,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P02\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n\n      \"exposure\": {\n        \"category\": \"Muy frecuente\",\n        \"basis\": \"Cuestionario general ERBio (48 ítems)\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.3333,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 2,\n        \"label\": \"Media\"\n      },\n\n      \"grb\": 6,\n      \"risk_class\": \"Moderado\",\n\n      \"failed_controls\": [\n        {\"item_id\": \"GENERAL-F2015-041\"},\n        {\"item_id\": \"GENERAL-F2015-042\"},\n        {\"item_id\": \"GENERAL-F2015-043\"},\n        {\"item_id\": \"GENERAL-F2015-044\"},\n        {\"item_id\": \"GENERAL-F2015-045\"},\n        {\"item_id\": \"GENERAL-F2015-046\"},\n        {\"item_id\": \"GENERAL-F2015-047\"},\n        {\"item_id\": \"GENERAL-F2015-048\"}\n      ],\n\n      \"preventive_actions\": []\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"Moderado\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    {\n      \"type\": \"ERBioR_reference_output\",\n      \"version\": \"0.9.0\",\n      \"benchmark\": \"ErBioBench-pilot-1.0\"\n    }\n  ],\n\n  \"reasoning_summary\": \"Evaluación basada en el output determinista ERBioR v0.9.0 para Brucella melitensis (BIO-BACT-0028) con cuestionario general de 48 ítems. Clasificación reguladora Grupo 3 (Anexo II), nivel de referencia 3. Exposición muy frecuente con cumplimiento aceptable (83.33%). Probabilidad media (2) y GRB 6, resultando en clase de riesgo moderado. Se identificaron 8 controles incumplidos. No requiere valoración profesional adicional según ERBioR.\"\n}\n```"
+      }
+    }
+  ]
+}

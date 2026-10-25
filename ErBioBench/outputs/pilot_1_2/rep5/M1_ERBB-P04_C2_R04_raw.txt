@@ -1,0 +1,87 @@
+```json
+{
+  "case_id": "ERBB-P04",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio_general",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "Explicitly stated in case information"
+      },
+
+      "compliance": {
+        "percent": 75.0,
+        "class": "medium",
+        "n_applicable": 16,
+        "n_not_applicable": 32
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "medium"
+      },
+
+      "grb": null,
+      "risk_class": "undetermined",
+
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "Review and address the 4 'No' responses from the applicable questionnaire items"
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Conduct a detailed professional assessment to resolve the unresolved regulatory classification of Actinomadura madurae"
+        },
+        {
+          "item_id": null,
+          "action": "Implement corrective measures for the identified non-compliant controls"
+        },
+        {
+          "item_id": null,
+          "action": "Re-evaluate exposure controls once regulatory classification is established"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "undetermined"
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Regulatory classification of Actinomadura madurae is unresolved, preventing determination of GRB and risk class"
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Case information: ERBB-P04"
+  ],
+
+  "reasoning_summary": "Actinomadura madurae identified with unresolved regulatory classification. Exposure categorized as frequent. Compliance calculated as 75% (12 Sí, 4 No, 32 No procede excluded). Probability determined as medium. GRB and risk class undetermined due to unresolved classification. Professional assessment required to resolve classification and refine risk evaluation."
+}
+```

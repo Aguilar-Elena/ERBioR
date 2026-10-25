@@ -1,0 +1,117 @@
+```json
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio_general",
+
+      "exposure": {
+        "category": "FREQUENT",
+        "basis": "Provided in case information"
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "LOW",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 0.6,
+        "label": "MEDIUM"
+      },
+
+      "grb": null,
+      "risk_class": "REQUIRES_PROFESSIONAL_ASSESSMENT",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Professional assessment required due to unresolved regulatory classification and risk parameters"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio_general",
+
+      "exposure": {
+        "category": "FREQUENT",
+        "basis": "Provided in case information"
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "LOW",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 0.6,
+        "label": "MEDIUM"
+      },
+
+      "grb": null,
+      "risk_class": "REQUIRES_PROFESSIONAL_ASSESSMENT",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Professional assessment required due to unresolved regulatory classification and risk parameters"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "DISCORDANT_RESULTS_RETAINED",
+    "agent_aggregation_status": "MULTI_AGENT_DISCORDANCE_RETAINED",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Regulatory classification and reference levels for both agents are unresolved. Exposure and compliance data are identical but cannot be aggregated due to multi-agent discordance requirement."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Case information provided in ERBB-P06"
+  ],
+
+  "reasoning_summary": "Two biological agents (Actinomadura madurae and Brucella melitensis) were identified with unresolved regulatory classifications. Exposure for both was categorized as FREQUENT based on case information. Compliance was calculated as 39.58% (19 Yes / 29 No out of 48 applicable items), resulting in LOW compliance. Probability was derived as MEDIUM (0.6) from exposure and compliance. GRB and risk class could not be determined due to unresolved reference levels, requiring professional assessment. Multi-agent discordance was preserved as instructed."
+}
+```

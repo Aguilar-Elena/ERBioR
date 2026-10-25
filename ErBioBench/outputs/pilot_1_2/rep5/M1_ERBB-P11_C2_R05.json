@@ -1,0 +1,64 @@
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "GENERAL-F2015",
+      "exposure": {
+        "category": "FREQUENT",
+        "basis": "Explicitly stated in case information"
+      },
+      "compliance": {
+        "percent": 95,
+        "class": "HIGH",
+        "n_applicable": 20,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": 3,
+        "label": "MEDIUM"
+      },
+      "grb": "UNRESOLVED_REFERENCE_LEVEL",
+      "risk_class": "UNDETERMINED",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "description": "Limpieza/desinfección periódica de los equipos de trabajo"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar limpieza/desinfección periódica de los equipos de trabajo"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "SINGLE_QUESTIONNAIRE",
+    "agent_aggregation_status": "SINGLE_AGENT",
+    "workplace_global_class": "UNDETERMINED"
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Regulatory classification and reference level for Brucella melitensis not provided in case information. GRB and risk class cannot be determined without reference level."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Case information: ERBB-P11"
+  ],
+  "reasoning_summary": "1. Identified single biological agent: Brucella melitensis (BIO-BACT-0028). 2. Regulatory classification unresolved; no reference level provided. 3. Exposure category: Frequent (supported by case). 4. Compliance: 95% (1/21 items failed: GENERAL-F2015-020). 5. Probability: Medium (exposure frequent + high compliance). 6. GRB and risk class undetermined due to unresolved reference level. 7. Failed control identified: GENERAL-F2015-020 (periodic cleaning/disinfection). 8. Professional assessment required due to unresolved classification and reference level."
+}

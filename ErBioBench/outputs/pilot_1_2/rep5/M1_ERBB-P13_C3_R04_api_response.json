@@ -1,0 +1,29 @@
+{
+  "id": "0c84d64d9ec243f4a849d9b5f3c51af0",
+  "created": 1792950573,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 1496,
+    "total_tokens": 2655,
+    "completion_tokens": 1159,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P13\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": \"3\",\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)\",\n      \"questionnaire_id\": \"general\",\n\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Declaración explícita en el caso ocupacional\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.3333,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n\n      \"failed_controls\": [\n        {\"item_id\": \"GENERAL-F2015-041\"},\n        {\"item_id\": \"GENERAL-F2015-042\"},\n        {\"item_id\": \"GENERAL-F2015-043\"},\n        {\"item_id\": \"GENERAL-F2015-044\"},\n        {\"item_id\": \"GENERAL-F2015-045\"},\n        {\"item_id\": \"GENERAL-F2015-046\"},\n        {\"item_id\": \"GENERAL-F2015-047\"},\n        {\"item_id\": \"GENERAL-F2015-048\"}\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Revisar y reforzar el control incumplido identificado por ERBioR\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Revisar y reforzar el control incumplido identificado por ERBioR\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Revisar y reforzar el control incumplido identificado por ERBioR\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Revisar y reforzar el control incumplido identificado por ERBioR\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Revisar y reforzar el control incumplido identificado por ERBioR\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Revisar y reforzar el control incumplido identificado por ERBioR\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Revisar y reforzar el control incumplido identificado por ERBioR\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Revisar y reforzar el control incumplido identificado por ERBioR\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"Tolerable\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    {\n      \"source\": \"ERBioR reference output v0.9.0\",\n      \"basis\": \"Evaluación determinista basada en matriz de riesgo\"\n    }\n  ],\n\n  \"reasoning_summary\": \"Evaluación basada en la matriz de riesgo ERBioR para SARS-CoV-2 (BIO-VIR-0064) con exposición frecuente y cuestionario general de 48 ítems (40 Sí, 8 No). Clasificación reglamentaria grupo 3 (Anexo II), nivel de referencia 3. Cumplimiento 83.33% (Aceptable), probabilidad baja (valor 1), GRB 3, clase de riesgo Tolerable. Controles incumplidos: 8 ítems (GENERAL-F2015-041 a GENERAL-F2015-048). No requiere revisión profesional.\"\n}\n```"
+      }
+    }
+  ]
+}

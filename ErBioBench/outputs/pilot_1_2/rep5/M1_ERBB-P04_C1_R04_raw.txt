@@ -1,0 +1,80 @@
+```json
+{
+  "case_id": "ERBB-P04",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "explicitly stated in case"
+      },
+
+      "compliance": {
+        "percent": 75.0,
+        "class": "moderate",
+        "n_applicable": 16,
+        "n_not_applicable": 32
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y completar los ítems aplicables del cuestionario para una evaluación más precisa del riesgo biológico."
+        },
+        {
+          "item_id": null,
+          "action": "Implementar medidas de control específicas para exposición frecuente a agentes biológicos no clasificados."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "partial",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación regulatoria del agente no resuelta. Número elevado de ítems no aplicables (32/48) limita la precisión de la evaluación de cumplimiento y riesgo."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Exposición frecuente declarada en el caso.",
+    "Respuestas del cuestionario ERBio: 12 Sí, 4 No, 32 No procede.",
+    "Instrucción de excluir ítems No procede del denominador."
+  ],
+
+  "reasoning_summary": "1) Clasificación del agente: No se proporciona información regulatoria para Actinomadura madurae, por lo que su clasificación y nivel de referencia permanecen sin resolver. 2) Exposición: Categorizada como frecuente según el caso. 3) Cumplimiento: 16 ítems aplicables (12 Sí + 4 No), con 75% de cumplimiento (12/16), clasificado como moderado. 4) Probabilidad, GRB y clase de riesgo: No determinables por falta de clasificación del agente y datos insuficientes. 5) Incertidumbre: Alta debido a la falta de clasificación del agente y al elevado número de ítems no aplicables. 6) Requiere valoración profesional para resolver la clasificación del agente y completar la evaluación de riesgo."
+}
+```

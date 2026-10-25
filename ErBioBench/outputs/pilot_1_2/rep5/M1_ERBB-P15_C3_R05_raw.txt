@@ -1,0 +1,321 @@
+```json
+{
+  "case_id": "ERBB-P15",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Ebolavirus (G)",
+      "agent_id": "BIO-VIR-0040",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 4,
+      "regulatory_minimum_group": 4,
+      "reference_level": 4,
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "unclassified_human_isolated_virus",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 2,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus (G)",
+      "questionnaire_id": "audit",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "ERBioR reference output"
+      },
+      "compliance": {
+        "percent": 96.875,
+        "class": "Aceptable",
+        "n_applicable": 32,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 4,
+      "risk_class": "Moderado",
+      "failed_controls": [
+        "AUDIT-F2015-004"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Revisar y corregir el control incumplido identificado en la auditoría del sistema de gestión del riesgo biológico."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus (G)",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "ERBioR reference output"
+      },
+      "compliance": {
+        "percent": 39.5833,
+        "class": "Deficiente",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+      "grb": 12,
+      "risk_class": "Intolerable",
+      "failed_controls": [
+        "GENERAL-F2015-020",
+        "GENERAL-F2015-021",
+        "GENERAL-F2015-022",
+        "GENERAL-F2015-023",
+        "GENERAL-F2015-024",
+        "GENERAL-F2015-025",
+        "GENERAL-F2015-026",
+        "GENERAL-F2015-027",
+        "GENERAL-F2015-028",
+        "GENERAL-F2015-029",
+        "GENERAL-F2015-030",
+        "GENERAL-F2015-031",
+        "GENERAL-F2015-032",
+        "GENERAL-F2015-033",
+        "GENERAL-F2015-034",
+        "GENERAL-F2015-035",
+        "GENERAL-F2015-036",
+        "GENERAL-F2015-037",
+        "GENERAL-F2015-038",
+        "GENERAL-F2015-039",
+        "GENERAL-F2015-040",
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar controles generales incumplidos para reducir la probabilidad de exposición a Ebolavirus."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus (G)",
+      "questionnaire_id": "workers",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "ERBioR reference output"
+      },
+      "compliance": {
+        "percent": 58.8235,
+        "class": "Mejorable",
+        "n_applicable": 34,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 2,
+        "label": "Media"
+      },
+      "grb": 8,
+      "risk_class": "Importante",
+      "failed_controls": [
+        "WORKERS-F2015-021",
+        "WORKERS-F2015-022",
+        "WORKERS-F2015-023",
+        "WORKERS-F2015-024",
+        "WORKERS-F2015-025",
+        "WORKERS-F2015-026",
+        "WORKERS-F2015-027",
+        "WORKERS-F2015-028",
+        "WORKERS-F2015-029",
+        "WORKERS-F2015-030",
+        "WORKERS-F2015-031",
+        "WORKERS-F2015-032",
+        "WORKERS-F2015-033",
+        "WORKERS-F2015-034"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "WORKERS-F2015-021",
+          "action": "Revisar y mejorar los controles específicos para trabajadores expuestos a Ebolavirus."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "audit",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "ERBioR reference output"
+      },
+      "compliance": {
+        "percent": 96.875,
+        "class": "Aceptable",
+        "n_applicable": 32,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        "AUDIT-F2015-004"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Revisar y corregir el control incumplido identificado en la auditoría del sistema de gestión del riesgo biológico."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "ERBioR reference output"
+      },
+      "compliance": {
+        "percent": 39.5833,
+        "class": "Deficiente",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+      "grb": 9,
+      "risk_class": "Importante",
+      "failed_controls": [
+        "GENERAL-F2015-020",
+        "GENERAL-F2015-021",
+        "GENERAL-F2015-022",
+        "GENERAL-F2015-023",
+        "GENERAL-F2015-024",
+        "GENERAL-F2015-025",
+        "GENERAL-F2015-026",
+        "GENERAL-F2015-027",
+        "GENERAL-F2015-028",
+        "GENERAL-F2015-029",
+        "GENERAL-F2015-030",
+        "GENERAL-F2015-031",
+        "GENERAL-F2015-032",
+        "GENERAL-F2015-033",
+        "GENERAL-F2015-034",
+        "GENERAL-F2015-035",
+        "GENERAL-F2015-036",
+        "GENERAL-F2015-037",
+        "GENERAL-F2015-038",
+        "GENERAL-F2015-039",
+        "GENERAL-F2015-040",
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar controles generales incumplidos para reducir la probabilidad de exposición a Brucella melitensis."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "workers",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "ERBioR reference output"
+      },
+      "compliance": {
+        "percent": 58.8235,
+        "class": "Mejorable",
+        "n_applicable": 34,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 2,
+        "label": "Media"
+      },
+      "grb": 6,
+      "risk_class": "Moderado",
+      "failed_controls": [
+        "WORKERS-F2015-021",
+        "WORKERS-F2015-022",
+        "WORKERS-F2015-023",
+        "WORKERS-F2015-024",
+        "WORKERS-F2015-025",
+        "WORKERS-F2015-026",
+        "WORKERS-F2015-027",
+        "WORKERS-F2015-028",
+        "WORKERS-F2015-029",
+        "WORKERS-F2015-030",
+        "WORKERS-F2015-031",
+        "WORKERS-F2015-032",
+        "WORKERS-F2015-033",
+        "WORKERS-F2015-034"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "WORKERS-F2015-021",
+          "action": "Revisar y mejorar los controles específicos para trabajadores expuestos a Brucella melitensis."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "unresolved_by_design",
+    "agent_aggregation_status": "unresolved_by_design",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación no resuelta para el virus humano hipotético no clasificado. Discordancia en cuestionarios para agentes resueltos. No se ha aplicado regla de agregación para clases de riesgo discordantes."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "ERBioR reference output version 0.9.0",
+    "RD 664/1997 (regulatory minimum group assignment for unclassified human virus)"
+  ],
+
+  "reasoning_summary": "Evaluación basada exclusivamente en el output de ERBioR v0.9.0. Se preservan las unidades de evaluación por agente y cuestionario. No se infiere clasificación final para el virus hipotético ni se agrega riesgo discordante. Se mantiene el requisito de revisión profesional para el virus no clasificado y la incertidumbre por discordancia en cuestionarios."
+}
+```

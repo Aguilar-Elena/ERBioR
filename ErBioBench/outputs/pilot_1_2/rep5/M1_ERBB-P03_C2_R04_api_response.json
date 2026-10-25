@@ -1,0 +1,29 @@
+{
+  "id": "b87a47d83de44dfc8fb8c1409401d995",
+  "created": 1792950221,
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 1019,
+    "total_tokens": 1799,
+    "completion_tokens": 780,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P03\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio_general\",\n\n      \"exposure\": {\n        \"category\": \"frequent\",\n        \"basis\": \"Explicitly stated in the case as 'Exposición: Frecuente'.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 39.58,\n        \"class\": \"low\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 0.6,\n        \"label\": \"high\"\n      },\n\n      \"grb\": null,\n      \"risk_class\": \"undetermined\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Identified preventive deficiencies in the workplace (deficiencias preventivas relevantes). Specific failed controls not listed in the case.\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Immediate review and correction of identified preventive deficiencies to reduce exposure to Brucella melitensis.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Implementation of enhanced biosafety measures, including engineering controls, administrative controls, and personal protective equipment (PPE).\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Conduct a detailed professional risk assessment to determine the regulatory classification and reference level for Brucella melitensis.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"undetermined\"\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Regulatory classification and reference level for Brucella melitensis are unresolved. Exposure and compliance data are based on provided responses but lack specific failed control details.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Case information: ERBB-P03\",\n    \"Exposure category: Frequent (explicitly stated)\",\n    \"Questionnaire responses: 19 Sí, 29 No (48 ítems total)\"\n  ],\n\n  \"reasoning_summary\": \"1. Brucella melitensis identified as the sole biological agent with unresolved regulatory classification. 2. Exposure categorized as 'frequent' based on explicit case information. 3. Compliance calculated as 39.58% (19/48 Sí responses), classified as 'low'. 4. Probability derived as 'high' due to frequent exposure and low compliance. 5. GRB and risk class undetermined due to unresolved reference level. 6. Professional review required for unresolved classification and preventive deficiencies. 7. Uncertainty present due to lack of regulatory classification and specific failed control details.\"\n}\n```"
+      }
+    }
+  ]
+}

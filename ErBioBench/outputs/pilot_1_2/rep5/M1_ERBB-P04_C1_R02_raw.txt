@@ -1,0 +1,80 @@
+```json
+{
+  "case_id": "ERBB-P04",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "explicitly stated in case"
+      },
+
+      "compliance": {
+        "percent": 75.0,
+        "class": "moderate",
+        "n_applicable": 16,
+        "n_not_applicable": 32
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar las medidas de control aplicables para reducir la exposición frecuente a Actinomadura madurae, priorizando las respuestas 'No' del cuestionario."
+        },
+        {
+          "item_id": null,
+          "action": "Realizar una valoración profesional detallada para determinar la clasificación regulatoria del agente y los niveles de referencia, dada la insuficiencia de información en el caso."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "partial",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación regulatoria y nivel de referencia del agente no determinables con la información proporcionada. La evaluación de probabilidad y clase de riesgo no es resoluble sin datos adicionales."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Exposición frecuente indicada en el caso",
+    "Respuestas del cuestionario ERBio: 12 Sí, 4 No, 32 No procede (excluidas del denominador)",
+    "Cálculo de cumplimiento basado en 16 ítems aplicables (12 Sí / 16 = 75%)"
+  ],
+
+  "reasoning_summary": "1) La exposición a Actinomadura madurae se clasifica como frecuente según lo indicado. 2) El cumplimiento se calcula en 75% (12 Sí de 16 ítems aplicables), categorizado como moderado. 3) La clasificación regulatoria, nivel de referencia, probabilidad y clase de riesgo no son resolubles por falta de información. 4) Se identifica incertidumbre significativa y necesidad de valoración profesional para completar la evaluación."
+}
+```
