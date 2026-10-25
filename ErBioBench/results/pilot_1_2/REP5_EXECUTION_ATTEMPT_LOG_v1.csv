@@ -1195,3 +1195,5 @@ timestamp_utc,run_id,repetition,model_slot,attempt_no,pre_state,post_state,runne
 2026-10-25T11:42:13.875151+00:00,G2_ERBB-P05_C1_R02,2,G2,1,NEVER_ATTEMPTED,CLOSED_COMPLETED,0,False,ErBioBench/results/pilot_1_2/rep5_recovery_attempts/G2_ERBB-P05_C1_R02/attempt_01
 2026-10-25T11:42:21.974881+00:00,G2_ERBB-P05_C2_R02,2,G2,1,NEVER_ATTEMPTED,CLOSED_COMPLETED,0,False,ErBioBench/results/pilot_1_2/rep5_recovery_attempts/G2_ERBB-P05_C2_R02/attempt_01
 2026-10-25T11:42:22.333852+00:00,G2_ERBB-P05_C3_R02,2,G2,1,NEVER_ATTEMPTED,PROVIDER_QUOTA_EXHAUSTED,0,True,ErBioBench/results/pilot_1_2/rep5_recovery_attempts/G2_ERBB-P05_C3_R02/attempt_01
+2026-10-25T11:58:25.372364+00:00,G1_ERBB-P05_C1_R02,2,G1,3,PROVIDER_API_FAILURE_OTHER,CLOSED_COMPLETED,0,False,ErBioBench/results/pilot_1_2/rep5_recovery_attempts/G1_ERBB-P05_C1_R02/attempt_03
+2026-10-25T12:08:17.051324+00:00,G1_ERBB-P05_C2_R02,2,G1,1,NEVER_ATTEMPTED,PROVIDER_HTTP_503,0,True,ErBioBench/results/pilot_1_2/rep5_recovery_attempts/G1_ERBB-P05_C2_R02/attempt_01
