@@ -1,0 +1,64 @@
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "AUDIT-F2015-004",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición frecuente reportada en el caso."
+      },
+      "compliance": {
+        "percent": 99,
+        "class": "High compliance",
+        "n_applicable": 1,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 3,
+        "label": "Moderate"
+      },
+      "grb": 3,
+      "risk_class": "Moderate",
+      "failed_controls": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Medidas higiénicas y de protección individual"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Implementar y verificar el cumplimiento de medidas higiénicas y de protección individual específicas para Brucella melitensis."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "Moderate"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Información proporcionada en el caso ERBB-P10."
+  ],
+  "reasoning_summary": "El agente Brucella melitensis (BIO-BACT-0028) presenta exposición frecuente y un incumplimiento crítico en medidas higiénicas y de protección individual (AUDIT-F2015-004). La probabilidad de riesgo se evalúa como moderada (GRB 3) debido a la alta exposición y el fallo en un control clave. El cumplimiento global es elevado (99%), pero el incumplimiento específico eleva el riesgo a moderado. No se requieren supuestos adicionales."
+}

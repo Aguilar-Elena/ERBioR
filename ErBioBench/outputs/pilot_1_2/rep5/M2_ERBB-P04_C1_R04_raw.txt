@@ -1,0 +1,75 @@
+```json
+{
+  "case_id": "ERBB-P04",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio-48",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición frecuente declarada en el escenario ocupacional."
+      },
+
+      "compliance": {
+        "percent": 75.0,
+        "class": "C",
+        "n_applicable": 48,
+        "n_not_applicable": 32
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Moderada"
+      },
+
+      "grb": "2",
+      "risk_class": "Medio",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Evaluar la implementación de medidas de control específicas para exposición a Actinomadura madurae, considerando su clasificación como agente biológico de riesgo moderado."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "Medio"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Exposición frecuente declarada en el escenario ocupacional.",
+    "Datos del cuestionario: 12 respuestas Sí, 4 respuestas No y 32 respuestas No procede (excluidas del denominador)."
+  ],
+
+  "reasoning_summary": "Exposición frecuente a Actinomadura madurae con cumplimiento del 75% en el cuestionario aplicable (48 ítems, 32 no procedentes). Probabilidad moderada (3) y GRB 2, resultando en riesgo medio. Se requiere revisión profesional para validar controles y medidas preventivas específicas."
+}
+```

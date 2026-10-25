@@ -1,0 +1,109 @@
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "resolved",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": "Group 2",
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": "3",
+      "regulatory_minimum_group": "3",
+      "reference_level": "Group 3",
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "ERBio-general-48",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición para ambos agentes: Frecuente."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "Low",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 2,
+        "label": "Moderate"
+      },
+      "grb": 2,
+      "risk_class": "Moderate",
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Reforzar medidas de contención biológica específicas para Bacillus anthracis (Grupo 2)."
+        },
+        {
+          "item_id": null,
+          "action": "Capacitación específica en manejo seguro de agentes del Grupo 2."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-general-48",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición para ambos agentes: Frecuente."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "Low",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 3,
+        "label": "High"
+      },
+      "grb": 3,
+      "risk_class": "High",
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas de contención biológica de nivel 3 para Brucella melitensis (Grupo 3)."
+        },
+        {
+          "item_id": null,
+          "action": "Evaluar y reforzar barreras primarias y secundarias en el puesto de trabajo."
+        },
+        {
+          "item_id": null,
+          "action": "Establecer protocolos de vigilancia médica específica para exposición a Brucella."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "discordant",
+    "agent_aggregation_status": "independent",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Exposición para ambos agentes: Frecuente.",
+    "40 respuestas Sí y 8 respuestas No en cuestionario general ERBio de 48 ítems."
+  ],
+  "reasoning_summary": "Dos agentes biológicos evaluados independientemente. Bacillus anthracis (Grupo 2) con probabilidad moderada (GRB=2, riesgo moderado). Brucella melitensis (Grupo 3) con probabilidad alta (GRB=3, riesgo alto). Cumplimiento del 83.33% en cuestionario general. Requiere revisión profesional por discordancia en niveles de riesgo entre agentes y necesidad de priorización de medidas."
+}

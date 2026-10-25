@@ -1,0 +1,29 @@
+{
+  "id": "6c33613adc9f46c9aede2d4e96fb4887",
+  "created": 1792946624,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 854,
+    "total_tokens": 1407,
+    "completion_tokens": 553,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P04\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Actinomadura madurae\",\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"agent_name\": \"Actinomadura madurae\",\n      \"questionnaire_id\": \"ERBio-48\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición: Frecuente\"\n      },\n\n      \"compliance\": {\n        \"percent\": 75.0,\n        \"class\": \"Partial\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 32\n      },\n\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Moderate\"\n      },\n\n      \"grb\": \"Moderate\",\n      \"risk_class\": \"2\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Evaluar la implementación de controles específicos para exposición a Actinomadura madurae en el puesto de trabajo.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"resolved\",\n    \"agent_aggregation_status\": \"resolved\",\n    \"workplace_global_class\": \"2\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    \"Cuestionario general ERBio: 48 ítems\",\n    \"Exposición: Frecuente\",\n    \"Respuestas: 12 Sí, 4 No, 32 No procede\"\n  ],\n\n  \"reasoning_summary\": \"Exposición frecuente a Actinomadura madurae con cumplimiento parcial del cuestionario (75%). Se calcula probabilidad moderada (3) y GRB Moderate, resultando en clase de riesgo 2. No se identifican controles incumplidos específicos en la información proporcionada.\"\n}\n```"
+      }
+    }
+  ]
+}

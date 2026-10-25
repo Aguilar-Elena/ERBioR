@@ -1,0 +1,67 @@
+{
+  "case_id": "ERBB-P14",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": "ERBio general questionnaire",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Occupational scenario description"
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "Non-compliant",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 4,
+        "label": "High"
+      },
+      "grb": "High",
+      "risk_class": "High",
+      "failed_controls": [
+        "General questionnaire compliance (16.67% non-compliance)"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Review and address the 8 'No' responses in the ERBio general questionnaire to improve control measures."
+        },
+        {
+          "item_id": null,
+          "action": "Implement enhanced occupational health and safety measures for frequent exposure to SARS-CoV-2, given the high risk classification."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "High"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Occupational scenario description",
+    "Exposure information",
+    "Response information"
+  ],
+  "reasoning_summary": "SARS-CoV-2 (BIO-VIR-0064) identified with frequent exposure. Regulatory classification unresolved per instructions. Compliance calculated as 83.33% (40/48 applicable items). Probability derived as High (4) due to frequent exposure and non-compliant questionnaire results. GRB and risk class both High. Professional review required due to unresolved classification and high risk."
+}

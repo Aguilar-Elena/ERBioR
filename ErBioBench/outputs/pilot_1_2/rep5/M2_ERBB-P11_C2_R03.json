@@ -1,0 +1,63 @@
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resoluble",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": "No aplicable",
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "GENERAL-F2015-020",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición: Frecuente"
+      },
+      "compliance": {
+        "percent": 95.0,
+        "class": "No cumplimiento total",
+        "n_applicable": 20,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": 3,
+        "label": "Media"
+      },
+      "grb": 3,
+      "risk_class": "3",
+      "failed_controls": [
+        "Limpieza/desinfección periódica de los equipos de trabajo"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar limpieza/desinfección periódica de los equipos de trabajo"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "3"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Cumplimiento general de controles salvo limpieza/desinfección periódica de equipos",
+    "Exposición frecuente a Brucella melitensis",
+    "Respuesta cuestionario: 19/20 ítems Sí, 1/20 No (GENERAL-F2015-020)"
+  ],
+  "reasoning_summary": "Evaluación basada en exposición frecuente a Brucella melitensis (agente grupo 2). Cumplimiento del 95% en cuestionario (1 incumplimiento: limpieza/desinfección equipos). Probabilidad media (3), GRB=3, riesgo clase 3. Acción preventiva prioritaria: implementar limpieza/desinfección periódica de equipos."
+}

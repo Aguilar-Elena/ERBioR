@@ -1,0 +1,29 @@
+{
+  "id": "e173e3a2775240d19a9ab0ceaf6080de",
+  "created": 1792946619,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 2040,
+    "total_tokens": 3155,
+    "completion_tokens": 1115,
+    "prompt_tokens_details": {
+      "cached_tokens": 368
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P03\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición frecuente a Brucella melitensis en puesto con deficiencias preventivas relevantes\"\n      },\n\n      \"compliance\": {\n        \"percent\": 39.5833,\n        \"class\": \"Deficiente\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Alta\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"Importante\",\n\n      \"failed_controls\": [\n        {\"item_id\": \"GENERAL-F2015-020\"},\n        {\"item_id\": \"GENERAL-F2015-021\"},\n        {\"item_id\": \"GENERAL-F2015-022\"},\n        {\"item_id\": \"GENERAL-F2015-023\"},\n        {\"item_id\": \"GENERAL-F2015-024\"},\n        {\"item_id\": \"GENERAL-F2015-025\"},\n        {\"item_id\": \"GENERAL-F2015-026\"},\n        {\"item_id\": \"GENERAL-F2015-027\"},\n        {\"item_id\": \"GENERAL-F2015-028\"},\n        {\"item_id\": \"GENERAL-F2015-029\"},\n        {\"item_id\": \"GENERAL-F2015-030\"},\n        {\"item_id\": \"GENERAL-F2015-031\"},\n        {\"item_id\": \"GENERAL-F2015-032\"},\n        {\"item_id\": \"GENERAL-F2015-033\"},\n        {\"item_id\": \"GENERAL-F2015-034\"},\n        {\"item_id\": \"GENERAL-F2015-035\"},\n        {\"item_id\": \"GENERAL-F2015-036\"},\n        {\"item_id\": \"GENERAL-F2015-037\"},\n        {\"item_id\": \"GENERAL-F2015-038\"},\n        {\"item_id\": \"GENERAL-F2015-039\"},\n        {\"item_id\": \"GENERAL-F2015-040\"},\n        {\"item_id\": \"GENERAL-F2015-041\"},\n        {\"item_id\": \"GENERAL-F2015-042\"},\n        {\"item_id\": \"GENERAL-F2015-043\"},\n        {\"item_id\": \"GENERAL-F2015-044\"},\n        {\"item_id\": \"GENERAL-F2015-045\"},\n        {\"item_id\": \"GENERAL-F2015-046\"},\n        {\"item_id\": \"GENERAL-F2015-047\"},\n        {\"item_id\": \"GENERAL-F2015-048\"}\n      ],\n\n      \"preventive_actions\": []\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"matrix_assessment\",\n    \"agent_aggregation_status\": \"single_agent_assessment\",\n    \"workplace_global_class\": \"Importante\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    \"ERBioR reference output v0.9.0\",\n    \"Case information ERBB-P03\"\n  ],\n\n  \"reasoning_summary\": \"Evaluación basada exclusivamente en el output de referencia ERBioR. Agente clasificado en Anexo II grupo 3 con nivel de referencia 3. Exposición frecuente con cumplimiento deficiente (39.58%). Probabilidad alta (valor 3) que resulta en clase de riesgo Importante. Se identifican 29 controles preventivos incumplidos según cuestionario general ERBio versión final_2015_annex1. No se requieren modificaciones ni agregaciones adicionales al output de referencia.\"\n}\n```"
+      }
+    }
+  ]
+}

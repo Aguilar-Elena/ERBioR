@@ -1,0 +1,60 @@
+{
+  "case_id": "ERBB-P08",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "UNCLASSIFIED",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "No se aporta información de exposición"
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": "PA001",
+          "action": "Realizar evaluación profesional específica para determinar nivel de referencia y clasificación regulatoria del agente."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "NOT_APPLICABLE",
+    "agent_aggregation_status": "NOT_APPLICABLE",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Agente no clasificado en registros regulatorios. No se dispone de información sobre exposición, cuestionarios aplicables ni niveles de referencia."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P08: Agente viral hipotético no evaluado en registros regulatorios.",
+    "Regla regulatoria específica para virus humanos no clasificados aplicable según cuestionario."
+  ],
+  "reasoning_summary": "Agente no clasificado (UNCLASSIFIED) requiere evaluación profesional para determinar nivel de referencia y exposición. No hay datos suficientes para calcular probabilidad, GRB ni clase de riesgo. Se identifican incertidumbres críticas en la clasificación regulatoria y exposición."
+}

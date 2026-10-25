@@ -1,0 +1,100 @@
+```json
+{
+  "case_id": "ERBB-P04",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 2,
+      "regulatory_minimum_group": 2,
+      "reference_level": 2,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "general",
+
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición declarada como frecuente en el escenario ocupacional"
+      },
+
+      "compliance": {
+        "percent": 75,
+        "class": "Mejorable",
+        "n_applicable": 16,
+        "n_not_applicable": 32
+      },
+
+      "probability": {
+        "value": 2,
+        "label": "Media"
+      },
+
+      "grb": 4,
+      "risk_class": "Moderado",
+
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-013"
+        },
+        {
+          "item_id": "GENERAL-F2015-014"
+        },
+        {
+          "item_id": "GENERAL-F2015-015"
+        },
+        {
+          "item_id": "GENERAL-F2015-016"
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-013",
+          "action": "Revisar y reforzar medidas de control específicas para Actinomadura madurae (Grupo 2)"
+        },
+        {
+          "item_id": "GENERAL-F2015-014",
+          "action": "Implementar o mejorar procedimientos de contención y protección"
+        },
+        {
+          "item_id": "GENERAL-F2015-015",
+          "action": "Capacitar al personal sobre riesgos específicos y medidas preventivas"
+        },
+        {
+          "item_id": "GENERAL-F2015-016",
+          "action": "Verificar el cumplimiento de las medidas de protección colectiva e individual"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "single_agent_assessment",
+    "workplace_global_class": "Moderado"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": "No se identifican incertidumbres relevantes en la evaluación proporcionada por ERBioR"
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "ERBioR reference output v0.9.0",
+    "Caso ERBB-P04"
+  ],
+
+  "reasoning_summary": "Evaluación basada exclusivamente en la salida de ERBioR 0.9.0 para Actinomadura madurae (BIO-BACT-0001). Agente clasificado en Anexo II Grupo 2 con nivel de referencia 2. Exposición frecuente con cumplimiento mejorable (75%). Riesgo moderado (GRB=4) con probabilidad media. Se identifican 4 controles incumplidos que requieren acciones preventivas específicas. No se requieren ajustes ni reinterpretaciones sobre los datos proporcionados."
+}
+```

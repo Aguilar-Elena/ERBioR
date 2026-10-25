@@ -1,0 +1,29 @@
+{
+  "id": "d9f9265701e54d6897e8d03817741866",
+  "created": 1792946716,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 875,
+    "total_tokens": 1536,
+    "completion_tokens": 661,
+    "prompt_tokens_details": {
+      "cached_tokens": 112
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P10\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"AUDIT-F2015-004\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición frecuente al agente biológico según la información proporcionada.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 99,\n        \"class\": \"High\",\n        \"n_applicable\": 1,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": \"High\",\n        \"label\": \"Alta probabilidad de exposición debido a incumplimiento en medidas higiénicas y de protección individual.\"\n      },\n\n      \"grb\": \"Alto\",\n      \"risk_class\": \"Alto\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"action\": \"Implementar medidas higiénicas y de protección individual para reducir la exposición al agente Brucella melitensis.\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"action\": \"Revisar y reforzar los protocolos de higiene y protección individual en el manejo de Brucella melitensis.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"resolved\",\n    \"agent_aggregation_status\": \"resolved\",\n    \"workplace_global_class\": \"High\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    \"Información proporcionada en el caso ERBB-P10.\",\n    \"Auditoría ERBio con incumplimiento específico en AUDIT-F2015-004.\"\n  ],\n\n  \"reasoning_summary\": \"La evaluación se basa en la exposición frecuente a Brucella melitensis y el incumplimiento en medidas higiénicas y de protección individual (AUDIT-F2015-004). El riesgo biológico laboral se clasifica como Alto debido a la alta probabilidad de exposición y al incumplimiento crítico en controles preventivos.\"\n}\n```"
+      }
+    }
+  ]
+}

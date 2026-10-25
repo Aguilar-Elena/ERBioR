@@ -1,0 +1,29 @@
+{
+  "id": "8a8af6218ab74e4e8cade3adbc56b411",
+  "created": 1792946299,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1054,
+    "total_tokens": 1697,
+    "completion_tokens": 643,
+    "prompt_tokens_details": {
+      "cached_tokens": 112
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P04\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Actinomadura madurae\",\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"agent_name\": \"Actinomadura madurae\",\n      \"questionnaire_id\": \"ERBio-general-48\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición: Frecuente\"\n      },\n\n      \"compliance\": {\n        \"percent\": 30.0,\n        \"class\": \"Low\",\n        \"n_applicable\": 16,\n        \"n_not_applicable\": 32\n      },\n\n      \"probability\": {\n        \"value\": 0.3,\n        \"label\": \"Low\"\n      },\n\n      \"grb\": \"Low\",\n      \"risk_class\": \"Low\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Revisión profesional de la clasificación regulatoria de Actinomadura madurae y evaluación de controles específicos.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"Low\"\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Clasificación regulatoria no disponible para Actinomadura madurae. Parte significativa del cuestionario no aplicable (excluida del denominador).\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Caso ERBB-P04\",\n    \"Agente identificado: Actinomadura madurae (BIO-BACT-0001)\",\n    \"Exposición: Frecuente\",\n    \"Respuestas cuestionario: 12 Sí, 4 No, 32 No procede (excluidas)\"\n  ],\n\n  \"reasoning_summary\": \"Evaluación basada en exposición frecuente a Actinomadura madurae. Cumplimiento del 30% (16 ítems aplicables de 48 totales, excluyendo 32 'No procede'). Probabilidad baja (0.3) por bajo cumplimiento y exposición frecuente. Clasificación regulatoria no disponible, requiere valoración profesional. Riesgo laboral clasificado como bajo, pero con incertidumbre por falta de marco regulatorio específico.\"\n}\n```"
+      }
+    }
+  ]
+}

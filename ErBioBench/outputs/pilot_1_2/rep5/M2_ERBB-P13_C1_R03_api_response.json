@@ -1,0 +1,29 @@
+{
+  "id": "686204e035e745d687a2734edeea7670",
+  "created": 1792946765,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 823,
+    "total_tokens": 1454,
+    "completion_tokens": 631,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P13\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"SARS-CoV-2\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"resolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"SARS-CoV-2\",\n      \"questionnaire_id\": null,\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición frecuente a SARS-CoV-2 en escenario ocupacional evaluado mediante ERBio.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"C\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": 4,\n        \"label\": \"High\"\n      },\n\n      \"grb\": \"High\",\n      \"risk_class\": \"3\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Revisión y refuerzo de medidas de protección individual y colectiva frente a exposición a SARS-CoV-2.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Capacitación específica en prevención de riesgos biológicos para el personal expuesto.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Evaluación periódica de la efectividad de los controles implementados.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"resolved\",\n    \"agent_aggregation_status\": \"resolved\",\n    \"workplace_global_class\": \"3\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Exposición frecuente a SARS-CoV-2 en escenario ocupacional evaluado mediante ERBio.\",\n    \"Cuestionario general: 48 ítems con 40 respuestas Sí y 8 respuestas No.\"\n  ],\n\n  \"reasoning_summary\": \"La evaluación se basa en exposición frecuente a SARS-CoV-2 (BIO-VIR-0064) con alta probabilidad de riesgo (GRB Alto). La clasificación de riesgo laboral es Clase 3. Se requiere revisión profesional para implementar medidas preventivas específicas y garantizar el cumplimiento normativo.\"\n}\n```"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "case_id": "ERBB-P04",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio-48",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición: Frecuente"
+      },
+      "compliance": {
+        "percent": 75.0,
+        "class": "Partial",
+        "n_applicable": 48,
+        "n_not_applicable": 32
+      },
+      "probability": {
+        "value": 3,
+        "label": "Moderate"
+      },
+      "grb": "Moderate",
+      "risk_class": "2",
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Evaluar la implementación de controles específicos para exposición a Actinomadura madurae en el puesto de trabajo."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "2"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Cuestionario general ERBio: 48 ítems",
+    "Exposición: Frecuente",
+    "Respuestas: 12 Sí, 4 No, 32 No procede"
+  ],
+  "reasoning_summary": "Exposición frecuente a Actinomadura madurae con cumplimiento parcial del cuestionario (75%). Se calcula probabilidad moderada (3) y GRB Moderate, resultando en clase de riesgo 2. No se identifican controles incumplidos específicos en la información proporcionada."
+}

@@ -1,0 +1,80 @@
+```json
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": "high",
+        "basis": "Frecuente"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "C",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": 0.83,
+        "label": "Alta"
+      },
+
+      "grb": "3",
+      "risk_class": "Alto",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Reforzar medidas de protección respiratoria y ventilación en el entorno laboral."
+        },
+        {
+          "item_id": null,
+          "action": "Implementar protocolos de detección temprana y aislamiento en caso de síntomas."
+        },
+        {
+          "item_id": null,
+          "action": "Capacitación continua en bioseguridad y uso adecuado de EPP."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "Alto"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [],
+
+  "reasoning_summary": "Evaluación basada en exposición frecuente a SARS-CoV-2 con 83.33% de respuestas afirmativas en cuestionario de 48 ítems. Riesgo clasificado como Alto (GRB 3) por alta probabilidad de exposición y cumplimiento moderado (83.33%). No se identifican controles incumplidos específicos en la información proporcionada, pero se recomiendan acciones preventivas genéricas para entornos con exposición frecuente a patógenos respiratorios."
+}
+```

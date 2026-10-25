@@ -1,0 +1,29 @@
+{
+  "id": "4dfa04ee6cc64aeb9a5182e83f4be6d2",
+  "created": 1792946781,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 993,
+    "total_tokens": 1619,
+    "completion_tokens": 626,
+    "prompt_tokens_details": {
+      "cached_tokens": 416
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P14\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"SARS-CoV-2\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"SARS-CoV-2\",\n      \"questionnaire_id\": \"ERBio general questionnaire\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Occupational scenario description\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"Partial compliance\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Medium\"\n      },\n\n      \"grb\": \"Not determinable\",\n      \"risk_class\": \"Not determinable\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Review and improve control measures to address the 8 unanswered items in the questionnaire (16.7% non-compliance).\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Conduct professional assessment to determine regulatory classification and reference levels for SARS-CoV-2.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Regulatory classification and reference level for SARS-CoV-2 are not provided in the case. Professional assessment is required to resolve this uncertainty.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Occupational scenario description\",\n    \"Exposure information (Frequent)\",\n    \"Questionnaire information (48 items, 40 Yes, 8 No)\"\n  ],\n\n  \"reasoning_summary\": \"Assessment based on provided data: SARS-CoV-2 identified with unresolved classification. Exposure categorized as 'Frequent' with 83.33% compliance (40/48 applicable items). Probability derived as 'Medium' due to frequent exposure and partial compliance. GRB and risk class cannot be determined without regulatory classification. Professional review required for classification and reference level determination.\"\n}\n```"
+      }
+    }
+  ]
+}

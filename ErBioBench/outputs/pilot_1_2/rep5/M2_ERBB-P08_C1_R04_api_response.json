@@ -1,0 +1,29 @@
+{
+  "id": "5eb1ab524ee34499aada911d46d5003d",
+  "created": 1792947076,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 828,
+    "total_tokens": 1340,
+    "completion_tokens": 512,
+    "prompt_tokens_details": {
+      "cached_tokens": 224
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P08\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"ErBioBench hypothetical human virus\",\n      \"agent_id\": null,\n      \"classification_status\": \"UNCLASSIFIED\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"ErBioBench hypothetical human virus\",\n\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"No se aporta información sobre exposición en el caso.\"\n      },\n\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": null,\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Evaluación profesional obligatoria para determinar clasificación regulatoria, nivel de referencia y medidas de control.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"UNRESOLVED\",\n    \"agent_aggregation_status\": \"UNRESOLVED\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"El virus no está clasificado en registros regulatorios y no se proporciona información sobre exposición, clasificación o controles aplicables. Se requiere evaluación profesional para resolver incertidumbres.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [],\n\n  \"reasoning_summary\": \"El caso ERBB-P08 presenta un virus hipotético no clasificado en registros regulatorios. Dado que no hay datos sobre exposición, clasificación o controles, no es posible determinar niveles de referencia, probabilidad de riesgo, GRB, clase de riesgo ni controles incumplidos. Se requiere evaluación profesional para aplicar reglas regulatorias específicas y establecer medidas preventivas.\"\n}\n```"
+      }
+    }
+  ]
+}

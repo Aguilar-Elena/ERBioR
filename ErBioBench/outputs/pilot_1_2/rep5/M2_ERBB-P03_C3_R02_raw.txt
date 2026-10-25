@@ -1,0 +1,204 @@
+```json
+{
+  "case_id": "ERBB-P03",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición frecuente a Brucella melitensis en un puesto con deficiencias preventivas relevantes."
+      },
+
+      "compliance": {
+        "percent": 39.5833,
+        "class": "Deficiente",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+
+      "grb": 9,
+      "risk_class": "Importante",
+
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-021",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-022",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-023",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-024",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-025",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-026",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-027",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-028",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-029",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-030",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-031",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-032",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-033",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-034",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-035",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-036",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-037",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-038",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-039",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-040",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Revisar y aplicar controles preventivos específicos para Brucella melitensis según normativa."
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas de contención y protección específicas para Brucella melitensis (grupo 3)."
+        },
+        {
+          "item_id": null,
+          "action": "Capacitar al personal sobre riesgos y medidas preventivas para Brucella melitensis."
+        },
+        {
+          "item_id": null,
+          "action": "Revisar y mejorar los protocolos de higiene y descontaminación en el puesto de trabajo."
+        },
+        {
+          "item_id": null,
+          "action": "Establecer vigilancia médica específica para trabajadores expuestos."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_agent_single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Importante"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "ERBioR reference output v0.9.0",
+    "Caso ERBB-P03"
+  ],
+
+  "reasoning_summary": "Evaluación basada en ERBioR v0.9.0 para Brucella melitensis (BIO-BACT-0028). Clasificación en Anexo II grupo 3. Exposición frecuente con cumplimiento deficiente (39.58%). Probabilidad alta (valor 3) y riesgo importante (GRB=9). Se identifican 29 controles preventivos incumplidos en el cuestionario general ERBio. No requiere revisión profesional adicional según ERBioR."
+}
+```

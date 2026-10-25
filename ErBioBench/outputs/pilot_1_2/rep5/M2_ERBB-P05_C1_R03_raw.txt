@@ -1,0 +1,138 @@
+```json
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "resolved",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": "3",
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": "3",
+      "regulatory_minimum_group": "3",
+      "reference_level": "3",
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "ERBio:48",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición potencial frecuente según información proporcionada."
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "C",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Moderada"
+      },
+
+      "grb": 3,
+      "risk_class": "Alto",
+
+      "failed_controls": [
+        "No se especifica cumplimiento normativo detallado en la información proporcionada."
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "PA-001",
+          "action": "Implementar medidas de contención biológica específicas para agentes del grupo 2 (Bacillus anthracis)."
+        },
+        {
+          "item_id": "PA-002",
+          "action": "Capacitación específica en manejo de agentes del grupo 2 para el personal expuesto."
+        },
+        {
+          "item_id": "PA-003",
+          "action": "Evaluación médica ocupacional periódica con enfoque en enfermedades zoonóticas."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio:48",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición potencial frecuente según información proporcionada."
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "C",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Moderada"
+      },
+
+      "grb": 3,
+      "risk_class": "Alto",
+
+      "failed_controls": [
+        "No se especifica cumplimiento normativo detallado en la información proporcionada."
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "PA-004",
+          "action": "Implementar medidas de contención biológica específicas para agentes del grupo 3 (Brucella melitensis)."
+        },
+        {
+          "item_id": "PA-005",
+          "action": "Uso obligatorio de equipos de protección personal (EPP) de nivel 3."
+        },
+        {
+          "item_id": "PA-006",
+          "action": "Protocolos de desinfección específicos para Brucella melitensis."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "Alto"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": "La evaluación se basa exclusivamente en la información proporcionada en el caso. No se identifican incertidumbres significativas en los datos disponibles."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Información del caso ERBB-P05",
+    "ERBioR reference version 0.9.0"
+  ],
+
+  "reasoning_summary": "Se evalúan dos agentes biológicos con exposición frecuente. Bacillus anthracis se clasifica en grupo 2 (riesgo moderado) y Brucella melitensis en grupo 3 (riesgo alto) según ERBioR. Ambos presentan probabilidad de exposición moderada (GRB=3) y riesgo alto. La clasificación regulatoria se determina por la naturaleza de los agentes. Se requiere evaluación profesional debido a la complejidad de los controles necesarios para agentes de alto riesgo biológico."
+}
+```

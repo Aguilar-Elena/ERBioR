@@ -1,0 +1,29 @@
+{
+  "id": "b52a4039f5e444639f144013526a37c6",
+  "created": 1792946600,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1029,
+    "total_tokens": 1792,
+    "completion_tokens": 763,
+    "prompt_tokens_details": {
+      "cached_tokens": 112
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P02\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resoluble\",\n      \"regulatory_group\": \"2\",\n      \"regulatory_minimum_group\": \"2\",\n      \"reference_level\": \"OMS Grupo 3 / Directiva 2000/54/CE Grupo 3\",\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio-48\",\n\n      \"exposure\": {\n        \"category\": \"Muy frecuente\",\n        \"basis\": \"Exposición muy frecuente durante la jornada laboral\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"C\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 0.8,\n        \"label\": \"Alta\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"Alto\",\n\n      \"failed_controls\": [\n        \"Cumplimiento insuficiente (83.33%) de las medidas preventivas según cuestionario ERBio-48\"\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Revisión exhaustiva de las medidas de control implementadas para Brucella melitensis\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Capacitación adicional en bioseguridad para el personal expuesto\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Evaluación de la efectividad de los equipos de protección individual (EPI)\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Implementación de protocolos de descontaminación y manejo de residuos\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"Alto\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Directiva 2000/54/CE sobre protección de los trabajadores contra los riesgos relacionados con la exposición a agentes biológicos durante el trabajo\",\n    \"Clasificación OMS de agentes biológicos\",\n    \"Cuestionario general ERBio (48 ítems)\"\n  ],\n\n  \"reasoning_summary\": \"Evaluación basada en exposición muy frecuente a Brucella melitensis (Grupo 3 según Directiva 2000/54/CE y OMS). Cumplimiento del 83.33% en cuestionario ERBio-48 (40 Sí/8 No). Probabilidad alta (0.8) por exposición frecuente y cumplimiento insuficiente. GRB=3 y clase de riesgo Alto. Se requiere revisión profesional de controles implementados.\"\n}\n```"
+      }
+    }
+  ]
+}

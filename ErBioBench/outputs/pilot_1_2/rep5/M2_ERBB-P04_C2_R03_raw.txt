@@ -1,0 +1,76 @@
+```json
+{
+  "case_id": "ERBB-P04",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio-general-48",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 37.5,
+        "class": "Low",
+        "n_applicable": 20,
+        "n_not_applicable": 32
+      },
+
+      "probability": {
+        "value": 2,
+        "label": "Low"
+      },
+
+      "grb": "Low",
+      "risk_class": "Low",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y ajustar controles existentes para exposición frecuente a Actinomadura madurae, considerando su clasificación regulatoria no resuelta."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Low"
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación regulatoria de Actinomadura madurae no proporcionada en el caso. Se requiere evaluación profesional para determinar grupo regulatorio y nivel de referencia."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Exposición: Frecuente",
+    "Cuestionario general ERBio: 48 ítems",
+    "12 respuestas Sí, 4 respuestas No y 32 respuestas No procede"
+  ],
+
+  "reasoning_summary": "Evaluación basada en exposición frecuente a Actinomadura madurae con 37.5% de cumplimiento (20 ítems aplicables). Probabilidad derivada como 'Low' por baja conformidad. Clasificación regulatoria no resuelta requiere revisión profesional. Riesgo global clasificado como 'Low' con necesidad de evaluación adicional."
+}
+```

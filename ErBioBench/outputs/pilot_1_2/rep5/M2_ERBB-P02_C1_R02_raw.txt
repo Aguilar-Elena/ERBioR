@@ -1,0 +1,83 @@
+```json
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio:48",
+
+      "exposure": {
+        "category": "very_frequent",
+        "basis": "Exposición muy frecuente durante la jornada laboral"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "low_compliance",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": 0.8,
+        "label": "high"
+      },
+
+      "grb": 4,
+      "risk_class": "high",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas de contención primaria y secundaria para Brucella melitensis"
+        },
+        {
+          "item_id": null,
+          "action": "Capacitación específica en riesgos biológicos y uso de equipos de protección individual"
+        },
+        {
+          "item_id": null,
+          "action": "Evaluación periódica de la exposición y revisión de controles implementados"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "high"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Exposición muy frecuente a Brucella melitensis",
+    "40 respuestas Sí y 8 respuestas No en cuestionario ERBio:48"
+  ],
+
+  "reasoning_summary": "Exposición muy frecuente a Brucella melitensis (BIO-BACT-0028) con alta probabilidad de riesgo (GRB=4, clase alta). La baja compliance (83.33%) indica necesidad de mejora en controles. Se requiere valoración profesional para implementar medidas correctivas específicas."
+}
+```

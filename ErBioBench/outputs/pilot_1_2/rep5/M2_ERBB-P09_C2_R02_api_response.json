@@ -1,0 +1,29 @@
+{
+  "id": "fe49e249b683416c91e7759ea9fe305f",
+  "created": 1792946384,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1052,
+    "total_tokens": 1685,
+    "completion_tokens": 633,
+    "prompt_tokens_details": {
+      "cached_tokens": 416
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P09\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n\n      \"questionnaire_id\": \"Cuestionario general\",\n\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"contacto regular con material potencialmente contaminado (sin especificación de frecuencia, cadencia ni porcentaje de tiempo)\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"CUMPLE\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"A01\",\n          \"action\": \"Realizar evaluación específica de exposición para determinar categoría de exposición (frecuencia, cadencia y porcentaje de tiempo).\"\n        },\n        {\n          \"item_id\": \"A02\",\n          \"action\": \"Determinar nivel de referencia regulatorio aplicable a Brucella melitensis según normativa local/nacional.\"\n        },\n        {\n          \"item_id\": \"A03\",\n          \"action\": \"Implementar medidas de control adicionales si se confirma exposición significativa.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Falta de información específica sobre frecuencia, cadencia y porcentaje de tiempo de exposición, así como clasificación regulatoria de referencia para Brucella melitensis.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [],\n\n  \"reasoning_summary\": \"Evaluación basada en información insuficiente: exposición descrita como 'contacto regular' sin detalles cuantitativos. Clasificación regulatoria no proporcionada. Cumplimiento del cuestionario calculado sobre 48 respuestas aplicables (83.33% cumplimiento). Requiere valoración profesional para determinar probabilidad, GRB y clase de riesgo.\"\n}\n```"
+      }
+    }
+  ]
+}

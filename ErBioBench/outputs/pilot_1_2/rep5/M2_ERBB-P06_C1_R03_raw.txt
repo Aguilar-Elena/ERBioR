@@ -1,0 +1,140 @@
+```json
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "resoluble",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": "2",
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resoluble",
+      "regulatory_group": "3",
+      "regulatory_minimum_group": "3",
+      "reference_level": "3",
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio:48",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición frecuente según información proporcionada"
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "No aplicable (evaluación por agente individual)",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Media"
+      },
+
+      "grb": 3,
+      "risk_class": "Moderado",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas de contención biológica nivel 2 para Actinomadura madurae"
+        },
+        {
+          "item_id": null,
+          "action": "Capacitación específica en manejo de agentes grupo 2"
+        },
+        {
+          "item_id": null,
+          "action": "Uso de equipos de protección individual adecuados"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio:48",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición frecuente según información proporcionada"
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "No aplicable (evaluación por agente individual)",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "Alta"
+      },
+
+      "grb": 4,
+      "risk_class": "Alto",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas de contención biológica nivel 3 para Brucella melitensis"
+        },
+        {
+          "item_id": null,
+          "action": "Vacunación del personal expuesto si está disponible y autorizada"
+        },
+        {
+          "item_id": null,
+          "action": "Protocolo de vigilancia médica específica para brucelosis"
+        },
+        {
+          "item_id": null,
+          "action": "Uso de equipos de protección individual de nivel superior"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "unresolved",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Clasificación reglamentaria de Actinomadura madurae como grupo 2 (BIO-BACT-0001)",
+    "Clasificación reglamentaria de Brucella melitensis como grupo 3 (BIO-BACT-0028)",
+    "Exposición frecuente para ambos agentes",
+    "Datos de cuestionario ERBio: 19 respuestas Sí y 29 No"
+  ],
+
+  "reasoning_summary": "Se evalúan ambos agentes por separado debido a su diferente clasificación reglamentaria (grupo 2 y grupo 3). Actinomadura madurae presenta riesgo moderado (GRB 3) con probabilidad media, mientras que Brucella melitensis presenta riesgo alto (GRB 4) con probabilidad alta. No se realiza agregación de resultados por indicación expresa del caso. Se requiere valoración profesional especializada para determinar controles específicos y estrategia de gestión del riesgo en el puesto."
+}
+```

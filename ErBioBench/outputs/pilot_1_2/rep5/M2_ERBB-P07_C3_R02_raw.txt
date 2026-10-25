@@ -1,0 +1,75 @@
+```json
+{
+  "case_id": "ERBB-P07",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench fictitious biological agent",
+      "agent_id": null,
+      "classification_status": "unclassified_not_implicitly_group1",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench fictitious biological agent",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": null,
+        "basis": ""
+      },
+
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Realizar evaluación profesional específica para determinar clasificación y nivel de riesgo del agente no listado."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_applicable",
+    "agent_aggregation_status": "not_applicable",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "El agente no está registrado en el sistema ERBioR ni en el RD 664/1997, lo que impide determinar su clasificación reglamentaria, nivel de referencia, exposición o riesgo asociado."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "ERBioR reference output v0.9.0",
+    "RD 664/1997 sobre protección de los trabajadores contra los riesgos relacionados con la exposición a agentes biológicos durante el trabajo"
+  ],
+
+  "reasoning_summary": "El agente 'ErBioBench fictitious biological agent' no figura en el registro legal consultado (ERBioR/ RD 664/1997). Según la regla UNLISTED-NOT-G1, no puede asignarse clasificación implícita de grupo 1. Se requiere evaluación profesional para determinar su estatus regulatorio y nivel de riesgo, sin poder inferir información ausente."
+}
+```

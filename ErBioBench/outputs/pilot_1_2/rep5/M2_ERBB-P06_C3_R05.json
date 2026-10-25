@@ -1,0 +1,174 @@
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 2,
+      "reference_level": 2,
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición declarada en el escenario ocupacional"
+      },
+      "compliance": {
+        "percent": 39.5833,
+        "class": "Deficiente",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+      "grb": 6,
+      "risk_class": "Moderado",
+      "failed_controls": [
+        "GENERAL-F2015-020",
+        "GENERAL-F2015-021",
+        "GENERAL-F2015-022",
+        "GENERAL-F2015-023",
+        "GENERAL-F2015-024",
+        "GENERAL-F2015-025",
+        "GENERAL-F2015-026",
+        "GENERAL-F2015-027",
+        "GENERAL-F2015-028",
+        "GENERAL-F2015-029",
+        "GENERAL-F2015-030",
+        "GENERAL-F2015-031",
+        "GENERAL-F2015-032",
+        "GENERAL-F2015-033",
+        "GENERAL-F2015-034",
+        "GENERAL-F2015-035",
+        "GENERAL-F2015-036",
+        "GENERAL-F2015-037",
+        "GENERAL-F2015-038",
+        "GENERAL-F2015-039",
+        "GENERAL-F2015-040",
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Revisar y reforzar medidas de contención primaria (ej. ventilación, equipos de protección individual)"
+        },
+        {
+          "item_id": "GENERAL-F2015-021",
+          "action": "Implementar protocolos de higiene y descontaminación específicos"
+        },
+        {
+          "item_id": "GENERAL-F2015-022",
+          "action": "Capacitación específica en manejo de riesgos biológicos para Actinomadura madurae"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición declarada en el escenario ocupacional"
+      },
+      "compliance": {
+        "percent": 39.5833,
+        "class": "Deficiente",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+      "grb": 9,
+      "risk_class": "Importante",
+      "failed_controls": [
+        "GENERAL-F2015-020",
+        "GENERAL-F2015-021",
+        "GENERAL-F2015-022",
+        "GENERAL-F2015-023",
+        "GENERAL-F2015-024",
+        "GENERAL-F2015-025",
+        "GENERAL-F2015-026",
+        "GENERAL-F2015-027",
+        "GENERAL-F2015-028",
+        "GENERAL-F2015-029",
+        "GENERAL-F2015-030",
+        "GENERAL-F2015-031",
+        "GENERAL-F2015-022",
+        "GENERAL-F2015-033",
+        "GENERAL-F2015-034",
+        "GENERAL-F2015-035",
+        "GENERAL-F2015-036",
+        "GENERAL-F2015-037",
+        "GENERAL-F2015-038",
+        "GENERAL-F2015-039",
+        "GENERAL-F2015-040",
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar medidas de contención de nivel 3 (ej. cabinas de seguridad biológica clase II)"
+        },
+        {
+          "item_id": "GENERAL-F2015-021",
+          "action": "Establecer protocolos de vigilancia médica específica para Brucella melitensis"
+        },
+        {
+          "item_id": "GENERAL-F2015-022",
+          "action": "Reforzar controles administrativos y de acceso al área de trabajo"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "source_rule_unresolved_for_discordant_questionnaires",
+    "agent_aggregation_status": "discordant_risk_classes",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": false,
+    "description": "No se aplica. Las evaluaciones individuales están resueltas según el marco regulatorio."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "ERBioR reference version: 0.9.0",
+    "Benchmark: ErBioBench-pilot-1.0",
+    "Cuestionario general ERBio versión final_2015_annex1"
+  ],
+  "reasoning_summary": "Se mantienen evaluaciones separadas para cada agente biológico según lo establecido en el caso ERBB-P06. Ambos agentes presentan exposición frecuente y cumplimiento deficiente (39.58% de respuestas conformes). Actinomadura madurae (grupo 2) tiene riesgo moderado (GRB 6), mientras Brucella melitensis (grupo 3) presenta riesgo importante (GRB 9). No se realiza agregación debido a la discordancia en clases de riesgo y la ausencia de regla de agregación definida en el marco de referencia."
+}

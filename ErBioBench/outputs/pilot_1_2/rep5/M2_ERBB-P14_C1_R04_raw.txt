@@ -1,0 +1,84 @@
+```json
+{
+  "case_id": "ERBB-P14",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": "ERBio general questionnaire",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Occupational exposure"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "High compliance",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "High"
+      },
+
+      "grb": "High",
+      "risk_class": "High",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implement or reinforce respiratory protection measures (e.g., N95/FFP2 masks, ventilation controls)."
+        },
+        {
+          "item_id": null,
+          "action": "Ensure availability and proper use of hand hygiene facilities and disinfectants."
+        },
+        {
+          "item_id": null,
+          "action": "Provide regular training on biological hazards and safe work practices."
+        },
+        {
+          "item_id": null,
+          "action": "Monitor and review exposure controls periodically."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "High"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": ["ERBio general questionnaire", "Exposure information: Frequent", "Response data: 40 Yes, 8 No"],
+
+  "reasoning_summary": "SARS-CoV-2 (BIO-VIR-0064) identified with frequent occupational exposure. Questionnaire responses indicate high compliance (83.33%) with 40 Yes and 8 No answers. Probability of exposure-related harm is classified as High based on frequent exposure and biological risk group (GRB) classification. Risk class determined as High. Preventive actions focus on respiratory protection, hygiene, training, and control monitoring."
+}
+```

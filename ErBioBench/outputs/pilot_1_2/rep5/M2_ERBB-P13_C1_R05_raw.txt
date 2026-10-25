@@ -1,0 +1,87 @@
+```json
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "Exposición frecuente a SARS-CoV-2 en escenario ocupacional"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "C",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": 0.83,
+        "label": "alta"
+      },
+
+      "grb": "2",
+      "risk_class": "moderado",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar o reforzar medidas de protección respiratoria y barreras físicas"
+        },
+        {
+          "item_id": null,
+          "action": "Garantizar ventilación adecuada en áreas de trabajo"
+        },
+        {
+          "item_id": null,
+          "action": "Capacitación continua en bioseguridad y uso de EPP"
+        },
+        {
+          "item_id": null,
+          "action": "Monitoreo periódico de síntomas y protocolos de aislamiento"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "moderado"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "Exposición frecuente a SARS-CoV-2 en escenario ocupacional",
+    "Cuestionario de 48 ítems con 40 respuestas afirmativas (83.33% de cumplimiento)"
+  ],
+
+  "reasoning_summary": "Evaluación basada en exposición frecuente a SARS-CoV-2 con 83.33% de respuestas afirmativas en cuestionario. Probabilidad de exposición clasificada como alta (83%), GRB 2 y riesgo moderado. No se identifican controles incumplidos específicos, pero se recomiendan acciones preventivas genéricas para entornos con exposición a patógenos respiratorios."
+}
+```

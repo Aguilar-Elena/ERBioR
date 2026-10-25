@@ -1,0 +1,76 @@
+```json
+{
+  "case_id": "ERBB-P14",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": "ERBio general questionnaire",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Occupational scenario description"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "Partial",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "High"
+      },
+
+      "grb": "High",
+      "risk_class": "High",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implement enhanced control measures for frequent occupational exposure to SARS-CoV-2"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "High"
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Regulatory classification for SARS-CoV-2 is not provided in the case information"
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Occupational scenario: Workers with frequent occupational exposure to SARS-CoV-2",
+    "Exposure information: Frequent",
+    "Questionnaire information: 48 items with 40 Yes and 8 No responses"
+  ],
+
+  "reasoning_summary": "Assessment based on frequent exposure to SARS-CoV-2 with 83.33% compliance (40/48 applicable responses). Probability classified as High due to frequent exposure and partial compliance. GRB and risk class derived as High. Professional review required due to unresolved regulatory classification for SARS-CoV-2."
+}
+```

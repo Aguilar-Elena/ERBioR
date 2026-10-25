@@ -1,0 +1,125 @@
+```json
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)",
+      "questionnaire_id": "general",
+
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición frecuente a SARS-CoV-2 en escenario ocupacional"
+      },
+
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+
+      "grb": 3,
+      "risk_class": "Tolerable",
+
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-041"
+        },
+        {
+          "item_id": "GENERAL-F2015-042"
+        },
+        {
+          "item_id": "GENERAL-F2015-043"
+        },
+        {
+          "item_id": "GENERAL-F2015-044"
+        },
+        {
+          "item_id": "GENERAL-F2015-045"
+        },
+        {
+          "item_id": "GENERAL-F2015-046"
+        },
+        {
+          "item_id": "GENERAL-F2015-047"
+        },
+        {
+          "item_id": "GENERAL-F2015-048"
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Revisar y reforzar medidas de control relacionadas con el ítem de control fallido."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Revisar y reforzar medidas de control relacionadas con el ítem de control fallido."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Revisar y reforzar medidas de control relacionadas con el ítem de control fallido."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Revisar y reforzar medidas de control relacionadas con el ítem de control fallido."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Revisar y reforzar medidas de control relacionadas con el ítem de control fallido."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Revisar y reforzar medidas de control relacionadas con el ítem de control fallido."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Revisar y reforzar medidas de control relacionadas con el ítem de control fallido."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Revisar y reforzar medidas de control relacionadas con el ítem de control fallido."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Tolerable"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [],
+
+  "reasoning_summary": "Evaluación basada en el output de referencia ERBioR 0.9.0. Agente clasificado en el Anexo II con grupo regulatorio mínimo 3 y nivel de referencia 3. Cumplimiento del 83.33% (clase Aceptable) en cuestionario de 48 ítems. Probabilidad de exposición baja, riesgo clasificado como Tolerable. No requiere revisión profesional adicional según el output de referencia."
+}
+```

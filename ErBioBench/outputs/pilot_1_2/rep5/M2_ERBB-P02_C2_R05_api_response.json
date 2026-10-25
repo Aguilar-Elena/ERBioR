@@ -1,0 +1,29 @@
+{
+  "id": "450449a5486e4e4fa6561e1d0581ec72",
+  "created": 1792947426,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1029,
+    "total_tokens": 1751,
+    "completion_tokens": 722,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P02\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resoluble\",\n      \"regulatory_group\": \"2\",\n      \"regulatory_minimum_group\": \"2\",\n      \"reference_level\": \"No aplica (agente zoonótico con riesgo laboral específico)\",\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n\n      \"questionnaire_id\": \"ERBio-general-48\",\n\n      \"exposure\": {\n        \"category\": \"Muy frecuente\",\n        \"basis\": \"Exposición muy frecuente durante la jornada laboral\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"No conforme\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 4,\n        \"label\": \"Muy probable\"\n      },\n\n      \"grb\": 4,\n      \"risk_class\": \"Muy alto\",\n\n      \"failed_controls\": [\n        \"Cumplimiento general del cuestionario (83.33% de respuestas afirmativas)\"\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"Q48-1\",\n          \"action\": \"Revisión exhaustiva de controles de exposición a Brucella melitensis en el puesto de trabajo\"\n        },\n        {\n          \"item_id\": \"Q48-2\",\n          \"action\": \"Implementación de medidas adicionales de protección específica para agentes zoonóticos\"\n        },\n        {\n          \"item_id\": \"Q48-3\",\n          \"action\": \"Capacitación específica sobre riesgos biológicos y medidas preventivas\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"Muy alto\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"No se identifican incertidumbres relevantes en la información proporcionada\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    \"Exposición muy frecuente a Brucella melitensis\",\n    \"Cumplimiento del cuestionario general ERBio (48 ítems): 40 respuestas Sí (83.33%)\"\n  ],\n\n  \"reasoning_summary\": \"Evaluación basada en exposición muy frecuente a Brucella melitensis (agente grupo 2) con cumplimiento del 83.33% en cuestionario de 48 ítems. Probabilidad de exposición muy probable (4) y GRB de 4, resultando en clase de riesgo muy alto. Se identifican controles incumplidos en el cuestionario que requieren revisión específica para este agente zoonótico.\"\n}\n```"
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "case_id": "ERBB-P12",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Auditoría",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición común: Frecuente"
+      },
+      "compliance": {
+        "percent": 96.77,
+        "class": "High compliance",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": 3,
+        "label": "High"
+      },
+      "grb": "High",
+      "risk_class": "High",
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar discordancia entre cuestionarios y alinear criterios de cumplimiento."
+        },
+        {
+          "item_id": null,
+          "action": "Evaluar controles específicos para Brucella melitensis en exposición frecuente."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "General",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición común: Frecuente"
+      },
+      "compliance": {
+        "percent": 39.62,
+        "class": "Low compliance",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": 3,
+        "label": "High"
+      },
+      "grb": "High",
+      "risk_class": "High",
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar y corregir las causas de bajo cumplimiento en el cuestionario General."
+        },
+        {
+          "item_id": null,
+          "action": "Reforzar medidas preventivas para Brucella melitensis en exposición frecuente."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Trabajadores",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición común: Frecuente"
+      },
+      "compliance": {
+        "percent": 58.82,
+        "class": "Moderate compliance",
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+      "probability": {
+        "value": 3,
+        "label": "High"
+      },
+      "grb": "High",
+      "risk_class": "High",
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Analizar las respuestas discordantes en el cuestionario de Trabajadores y ajustar controles."
+        },
+        {
+          "item_id": null,
+          "action": "Implementar formación específica para trabajadores expuestos a Brucella melitensis."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "discordant",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Discordancia entre los resultados de los tres cuestionarios (Auditoría: 96.77% cumplimiento, General: 39.62%, Trabajadores: 58.82%). No se puede determinar una clase global única sin resolver las discrepancias."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [],
+  "reasoning_summary": "Los tres cuestionarios evaluados muestran resultados de cumplimiento discordantes (alto en Auditoría, bajo en General y moderado en Trabajadores). Dada la exposición frecuente a Brucella melitensis, la probabilidad de riesgo biológico se clasifica como alta en todos los casos. Sin embargo, la falta de alineación entre instrumentos impide una evaluación consolidada. Se requiere revisión profesional para armonizar criterios y determinar controles específicos."
+}

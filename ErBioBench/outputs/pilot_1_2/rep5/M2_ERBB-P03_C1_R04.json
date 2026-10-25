@@ -1,0 +1,71 @@
+{
+  "case_id": "ERBB-P03",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48",
+      "exposure": {
+        "category": "FREQUENTE",
+        "basis": "Información proporcionada en el caso"
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": "BAJO",
+        "n_applicable": 48,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": 3,
+        "label": "ALTA"
+      },
+      "grb": 4,
+      "risk_class": "MEDIO",
+      "failed_controls": [
+        "Deficiencias preventivas relevantes"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas preventivas específicas para Brucella melitensis"
+        },
+        {
+          "item_id": null,
+          "action": "Evaluar y mejorar las condiciones de bioseguridad en el puesto de trabajo"
+        },
+        {
+          "item_id": null,
+          "action": "Capacitar al personal en riesgos biológicos y medidas de protección"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "MEDIO"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Exposición frecuente a Brucella melitensis",
+    "Deficiencias preventivas relevantes",
+    "Cuestionario ERBio con 19 respuestas Sí y 29 No"
+  ],
+  "reasoning_summary": "La exposición frecuente a Brucella melitensis en un puesto con deficiencias preventivas relevantes justifica una probabilidad de exposición ALTA (valor 3). El cumplimiento del 39.58% (clase BAJO) indica un incumplimiento significativo de controles. La combinación de exposición ALTA y controles deficientes resulta en un GRB de 4 y una clase de riesgo MEDIO. Se requiere revisión profesional para implementar medidas correctivas."
+}

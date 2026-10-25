@@ -1,0 +1,60 @@
+{
+  "case_id": "ERBB-P08",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "unclassified_human_isolated_virus",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 2,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "No se aporta información de exposición específica"
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": "PROF_REVIEW_01",
+          "action": "Realizar evaluación profesional para determinar clasificación final y nivel de riesgo según RD 664/1997"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_applicable",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Virus aislado en humanos no evaluado/clasificado: clasificación final requiere evaluación profesional según RD 664/1997"
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "RD 664/1997 sobre protección de los trabajadores contra los riesgos relacionados con la exposición a agentes biológicos durante el trabajo",
+    "Regla regulatoria específica para virus humanos no clasificados (HUMAN-VIRUS-MIN-G2)"
+  ],
+  "reasoning_summary": "El agente evaluado es un virus humano hipotético no clasificado. Según el RD 664/1997, se establece un grupo mínimo 2 salvo demostración de que es improbable que cause enfermedad. La clasificación final requiere evaluación profesional debido a la incertidumbre regulatoria. No se dispone de información suficiente para determinar exposición, cumplimiento, probabilidad o riesgo específico."
+}

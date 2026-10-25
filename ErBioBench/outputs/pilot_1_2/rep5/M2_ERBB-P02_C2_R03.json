@@ -1,0 +1,75 @@
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resoluble",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": "OMS Grupo 3 / Directiva 2000/54/CE Grupo 3",
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48",
+      "exposure": {
+        "category": "Muy frecuente",
+        "basis": "Exposición muy frecuente durante la jornada laboral"
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "C",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 0.8,
+        "label": "Alta"
+      },
+      "grb": 3,
+      "risk_class": "Alto",
+      "failed_controls": [
+        "Cumplimiento insuficiente (83.33%) de las medidas preventivas según cuestionario ERBio-48"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisión exhaustiva de las medidas de control implementadas para Brucella melitensis"
+        },
+        {
+          "item_id": null,
+          "action": "Capacitación adicional en bioseguridad para el personal expuesto"
+        },
+        {
+          "item_id": null,
+          "action": "Evaluación de la efectividad de los equipos de protección individual (EPI)"
+        },
+        {
+          "item_id": null,
+          "action": "Implementación de protocolos de descontaminación y manejo de residuos"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Alto"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Directiva 2000/54/CE sobre protección de los trabajadores contra los riesgos relacionados con la exposición a agentes biológicos durante el trabajo",
+    "Clasificación OMS de agentes biológicos",
+    "Cuestionario general ERBio (48 ítems)"
+  ],
+  "reasoning_summary": "Evaluación basada en exposición muy frecuente a Brucella melitensis (Grupo 3 según Directiva 2000/54/CE y OMS). Cumplimiento del 83.33% en cuestionario ERBio-48 (40 Sí/8 No). Probabilidad alta (0.8) por exposición frecuente y cumplimiento insuficiente. GRB=3 y clase de riesgo Alto. Se requiere revisión profesional de controles implementados."
+}

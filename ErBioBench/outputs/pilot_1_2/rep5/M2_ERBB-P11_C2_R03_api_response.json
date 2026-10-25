@@ -1,0 +1,29 @@
+{
+  "id": "513f97dd4d68489692c8fe78b0599072",
+  "created": 1792946730,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1056,
+    "total_tokens": 1701,
+    "completion_tokens": 645,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P11\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resoluble\",\n      \"regulatory_group\": \"2\",\n      \"regulatory_minimum_group\": \"2\",\n      \"reference_level\": \"No aplicable\",\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"GENERAL-F2015-020\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición: Frecuente\"\n      },\n\n      \"compliance\": {\n        \"percent\": 95.0,\n        \"class\": \"No cumplimiento total\",\n        \"n_applicable\": 20,\n        \"n_not_applicable\": 1\n      },\n\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Media\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"3\",\n\n      \"failed_controls\": [\n        \"Limpieza/desinfección periódica de los equipos de trabajo\"\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\",\n          \"action\": \"Implementar limpieza/desinfección periódica de los equipos de trabajo\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"3\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    \"Cumplimiento general de controles salvo limpieza/desinfección periódica de equipos\",\n    \"Exposición frecuente a Brucella melitensis\",\n    \"Respuesta cuestionario: 19/20 ítems Sí, 1/20 No (GENERAL-F2015-020)\"\n  ],\n\n  \"reasoning_summary\": \"Evaluación basada en exposición frecuente a Brucella melitensis (agente grupo 2). Cumplimiento del 95% en cuestionario (1 incumplimiento: limpieza/desinfección equipos). Probabilidad media (3), GRB=3, riesgo clase 3. Acción preventiva prioritaria: implementar limpieza/desinfección periódica de equipos.\"\n}\n```"
+      }
+    }
+  ]
+}

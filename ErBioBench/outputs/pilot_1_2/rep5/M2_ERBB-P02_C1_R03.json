@@ -1,0 +1,69 @@
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio:48",
+      "exposure": {
+        "category": "very_frequent",
+        "basis": "Exposición muy frecuente durante la jornada laboral"
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "partial_compliance",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+      "probability": {
+        "value": 0.83,
+        "label": "high"
+      },
+      "grb": "high",
+      "risk_class": "III",
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas de contención primaria y secundaria para Brucella melitensis, incluyendo ventilación adecuada, uso de equipos de protección individual (EPI) y protocolos de higiene estrictos."
+        },
+        {
+          "item_id": null,
+          "action": "Capacitación específica en riesgos biológicos para trabajadores expuestos."
+        },
+        {
+          "item_id": null,
+          "action": "Evaluación periódica de la exposición y revisión de controles implementados."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "III"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Cuestionario general ERBio: 48 ítems",
+    "Exposición: Muy frecuente",
+    "Respuestas: 40 Sí y 8 No"
+  ],
+  "reasoning_summary": "La exposición a Brucella melitensis se clasifica como muy frecuente según la información proporcionada. La probabilidad de exposición se calcula en 83.33% (40 respuestas Sí de 48 aplicables), lo que justifica un nivel de riesgo biológico alto (GRB = high) y una clase de riesgo III. No se identifican controles incumplidos específicos, pero se recomiendan acciones preventivas genéricas para agentes biológicos de alto riesgo."
+}

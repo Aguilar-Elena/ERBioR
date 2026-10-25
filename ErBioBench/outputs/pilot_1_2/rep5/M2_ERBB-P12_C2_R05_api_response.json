@@ -1,0 +1,29 @@
+{
+  "id": "c4bed49386f74898add865df86eb5dbc",
+  "created": 1792947568,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1073,
+    "total_tokens": 2252,
+    "completion_tokens": 1179,
+    "prompt_tokens_details": {
+      "cached_tokens": 416
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P12\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resoluble\",\n      \"regulatory_group\": \"2\",\n      \"regulatory_minimum_group\": \"2\",\n      \"reference_level\": \"OEL (TWA 8h) no establecido / No asignado\",\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"Auditoría\",\n\n      \"exposure\": {\n        \"category\": \"FRECUENTE\",\n        \"basis\": \"Exposición común: Frecuente\"\n      },\n\n      \"compliance\": {\n        \"percent\": 96.88,\n        \"class\": \"ALTO\",\n        \"n_applicable\": 32,\n        \"n_not_applicable\": 1\n      },\n\n      \"probability\": {\n        \"value\": 0.75,\n        \"label\": \"MEDIA\"\n      },\n\n      \"grb\": \"MEDIO\",\n      \"risk_class\": \"III\",\n\n      \"failed_controls\": [\"Auditoría: 1 No\"],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"AUD-001\",\n          \"action\": \"Revisar y reforzar los controles identificados como no conformes en la auditoría (1 No).\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"General\",\n\n      \"exposure\": {\n        \"category\": \"FRECUENTE\",\n        \"basis\": \"Exposición común: Frecuente\"\n      },\n\n      \"compliance\": {\n        \"percent\": 39.58,\n        \"class\": \"BAJO\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 0.75,\n        \"label\": \"MEDIA\"\n      },\n\n      \"grb\": \"MEDIO\",\n      \"risk_class\": \"III\",\n\n      \"failed_controls\": [\"General: 29 No\"],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GEN-001\",\n          \"action\": \"Identificar y abordar las 29 no conformidades en el cuestionario general para mejorar el cumplimiento.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"Trabajadores\",\n\n      \"exposure\": {\n        \"category\": \"FRECUENTE\",\n        \"basis\": \"Exposición común: Frecuente\"\n      },\n\n      \"compliance\": {\n        \"percent\": 58.82,\n        \"class\": \"MEDIO\",\n        \"n_applicable\": 34,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 0.75,\n        \"label\": \"MEDIA\"\n      },\n\n      \"grb\": \"MEDIO\",\n      \"risk_class\": \"III\",\n\n      \"failed_controls\": [\"Trabajadores: 14 No\"],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"TRAB-001\",\n          \"action\": \"Analizar las 14 no conformidades en el cuestionario de trabajadores y priorizar acciones correctivas.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"discordant\",\n    \"agent_aggregation_status\": \"discordant\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Discordancia en los resultados de cumplimiento entre los tres cuestionarios nucleares (Auditoría: 96.88% ALTO, General: 39.58% BAJO, Trabajadores: 58.82% MEDIO). No se puede generar una clase global única sin evaluación profesional.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [],\n\n  \"reasoning_summary\": \"Se evalúa Brucella melitensis (BIO-BACT-0028) con clasificación reguladora grupo 2. Tres cuestionarios nucleares muestran discordancia en cumplimiento: Auditoría (96.88% ALTO), General (39.58% BAJO) y Trabajadores (58.82% MEDIO). Exposición frecuente en todos los casos. Probabilidad media (0.75) por exposición frecuente. GRB MEDIO en los tres casos, derivando en clase de riesgo III. Se identifican controles fallidos en cada cuestionario. Requiere revisión profesional por discordancia y para priorizar acciones preventivas.\"\n}\n```"
+      }
+    }
+  ]
+}

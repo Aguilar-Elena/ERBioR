@@ -1,0 +1,126 @@
+```json
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "ERBio: Cuestionario general ERBio: 48 ítems",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición para ambos agentes: Frecuente."
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "Partial",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 0.83,
+        "label": "High"
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Evaluar la clasificación regulatoria específica de Bacillus anthracis para determinar el nivel de referencia y requisitos de control."
+        },
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar las medidas de control existentes para reducir la exposición frecuente a Bacillus anthracis."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio: Cuestionario general ERBio: 48 ítems",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición para ambos agentes: Frecuente."
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "Partial",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 0.83,
+        "label": "High"
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Evaluar la clasificación regulatoria específica de Brucella melitensis para determinar el nivel de referencia y requisitos de control."
+        },
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar las medidas de control existentes para reducir la exposición frecuente a Brucella melitensis."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "discordant_agents",
+    "agent_aggregation_status": "separate_agents",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "No se dispone de clasificación regulatoria ni niveles de referencia para los agentes biológicos identificados. La evaluación de riesgo requiere información adicional sobre los grupos de riesgo y niveles de referencia específicos."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Exposición para ambos agentes: Frecuente.",
+    "40 respuestas Sí y 8 respuestas No en el cuestionario general ERBio de 48 ítems."
+  ],
+
+  "reasoning_summary": "Se identificaron dos agentes biológicos (Bacillus anthracis y Brucella melitensis) con exposición frecuente. No se dispone de clasificación regulatoria ni niveles de referencia para ninguno de los agentes. La cumplimentación del cuestionario general ERBio fue del 83.33% (40 Sí / 48 ítems), lo que indica una probabilidad alta de exposición. Se requiere evaluación profesional para determinar los niveles de referencia y clasificar el riesgo biológico."
+}
+```

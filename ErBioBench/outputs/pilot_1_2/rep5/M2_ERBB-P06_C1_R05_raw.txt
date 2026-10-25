@@ -1,0 +1,154 @@
+```json
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "resolved",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": "Grupo 2 (según clasificación de riesgo biológico laboral)",
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": "3",
+      "regulatory_minimum_group": "3",
+      "reference_level": "Grupo 3 (según clasificación de riesgo biológico laboral)",
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio-48",
+
+      "exposure": {
+        "category": "frecuente",
+        "basis": "Información proporcionada en el caso"
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "no_compliance",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+
+      "grb": 4,
+      "risk_class": "Muy Alto",
+
+      "failed_controls": [
+        "Protección colectiva insuficiente",
+        "Equipos de protección individual inadecuados",
+        "Formación y entrenamiento insuficiente",
+        "Medidas de higiene y descontaminación inadecuadas"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "PA-001",
+          "action": "Implementar medidas de contención específicas para agentes del Grupo 2"
+        },
+        {
+          "item_id": "PA-002",
+          "action": "Proporcionar equipos de protección individual (EPI) adecuados para Grupo 2"
+        },
+        {
+          "item_id": "PA-003",
+          "action": "Capacitar al personal en riesgos específicos de Actinomadura madurae"
+        },
+        {
+          "item_id": "PA-004",
+          "action": "Establecer protocolos de descontaminación y gestión de residuos"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48",
+
+      "exposure": {
+        "category": "frecuente",
+        "basis": "Información proporcionada en el caso"
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "no_compliance",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "Muy Alta"
+      },
+
+      "grb": 6,
+      "risk_class": "Extremo",
+
+      "failed_controls": [
+        "Contención biológica insuficiente para Grupo 3",
+        "Falta de ventilación especializada",
+        "Ausencia de protocolos de vigilancia médica",
+        "Insuficiente protección respiratoria"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "PA-005",
+          "action": "Implementar nivel de contención biológica 3 (NCB-3)"
+        },
+        {
+          "item_id": "PA-006",
+          "action": "Establecer acceso restringido y controlado al área"
+        },
+        {
+          "item_id": "PA-007",
+          "action": "Realizar vigilancia médica específica para brucelosis"
+        },
+        {
+          "item_id": "PA-008",
+          "action": "Proporcionar EPI de categoría III (respiradores con filtro P3)"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_applicable",
+    "agent_aggregation_status": "discordant_agents",
+    "workplace_global_class": "unresolved"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Clasificación de riesgo biológico según ERBioR 0.9.0",
+    "Directiva 2000/54/CE sobre protección de los trabajadores contra los riesgos relacionados con la exposición a agentes biológicos",
+    "Real Decreto 656/2017 sobre almacenamiento de productos químicos",
+    "Guía técnica del INSST para la evaluación y prevención de riesgos biológicos"
+  ],
+
+  "reasoning_summary": "Se identifican dos agentes con clasificaciones reglamentarias discordantes (Grupo 2: Actinomadura madurae; Grupo 3: Brucella melitensis). Ambos presentan exposición frecuente. La evaluación individual revela incumplimientos graves en controles de contención y protección. La discordancia regulatoria impide una valoración global unificada del puesto. Se requiere evaluación profesional especializada para determinar medidas de control integradas que aborden ambos riesgos de forma simultánea."
+}
+```

@@ -1,0 +1,29 @@
+{
+  "id": "678eae569e47491ba2c81f58e7c73b69",
+  "created": 1792946203,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 828,
+    "total_tokens": 1713,
+    "completion_tokens": 885,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P01\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resolved\",\n      \"regulatory_group\": \"2\",\n      \"regulatory_minimum_group\": \"2\",\n      \"reference_level\": \"3\",\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio-48\",\n\n      \"exposure\": {\n        \"category\": \"frequent\",\n        \"basis\": \"Exposición diaria\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"no_compliance\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": 4,\n        \"label\": \"alta\"\n      },\n\n      \"grb\": 4,\n      \"risk_class\": \"alto\",\n\n      \"failed_controls\": [\n        \"protección colectiva insuficiente\",\n        \"equipos de protección individual inadecuados\",\n        \"formación insuficiente en riesgos biológicos\",\n        \"medidas de higiene y descontaminación inadecuadas\"\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"A1\",\n          \"action\": \"Implementar barreras físicas de contención (ej. cabinas de seguridad biológica) para manipulación de muestras o materiales potencialmente contaminados.\"\n        },\n        {\n          \"item_id\": \"A2\",\n          \"action\": \"Proporcionar equipos de protección individual (EPI) adecuados: guantes resistentes a patógenos, mascarillas FFP3, batas desechables y protección ocular.\"\n        },\n        {\n          \"item_id\": \"A3\",\n          \"action\": \"Capacitar al personal en riesgos específicos de Brucella melitensis, vías de transmisión y protocolos de bioseguridad.\"\n        },\n        {\n          \"item_id\": \"A4\",\n          \"action\": \"Establecer protocolos de descontaminación y eliminación segura de residuos biológicos, incluyendo autoclave para materiales contaminados.\"\n        },\n        {\n          \"item_id\": \"A5\",\n          \"action\": \"Realizar evaluaciones médicas periódicas con serología específica para Brucella en trabajadores expuestos.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"resolved\",\n    \"agent_aggregation_status\": \"resolved\",\n    \"workplace_global_class\": \"alto\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Exposición frecuente a Brucella melitensis (BIO-BACT-0028)\",\n    \"Cuestionario ERBio de 48 ítems con 40 respuestas afirmativas (83.33% de cumplimiento)\",\n    \"Clasificación de Brucella melitensis como grupo 2 según ERBioR 0.9.0\"\n  ],\n\n  \"reasoning_summary\": \"Brucella melitensis está clasificada como agente biológico del grupo 2 (ERBioR 0.9.0) con nivel de referencia 3. La exposición diaria frecuente y el bajo cumplimiento del cuestionario (83.33%) indican alta probabilidad de exposición (valor 4). El GRB resultante es 4, correspondiendo a riesgo alto. Se requiere evaluación profesional para implementar controles específicos según normativa de bioseguridad.\"\n}\n```"
+      }
+    }
+  ]
+}

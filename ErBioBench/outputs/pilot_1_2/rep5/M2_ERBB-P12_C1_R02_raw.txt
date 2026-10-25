@@ -1,0 +1,156 @@
+```json
+{
+  "case_id": "ERBB-P12",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Auditoría",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición común: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 96.77,
+        "class": "High compliance",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "High"
+      },
+
+      "grb": 4,
+      "risk_class": "High",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar discordancias entre cuestionarios para alinear criterios de cumplimiento."
+        },
+        {
+          "item_id": null,
+          "action": "Evaluar controles específicos para Brucella melitensis en exposición frecuente."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "General",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición común: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 39.62,
+        "class": "Low compliance",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "High"
+      },
+
+      "grb": 4,
+      "risk_class": "High",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar causas de baja cumplimentación en cuestionario General."
+        },
+        {
+          "item_id": null,
+          "action": "Reforzar formación en riesgos biológicos específicos para Brucella melitensis."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Trabajadores",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición común: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 58.82,
+        "class": "Moderate compliance",
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "High"
+      },
+
+      "grb": 4,
+      "risk_class": "High",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Analizar respuestas discordantes en cuestionario de Trabajadores."
+        },
+        {
+          "item_id": null,
+          "action": "Implementar medidas de comunicación directa con trabajadores sobre riesgos."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "discordant",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Discordancia entre resultados de cumplimiento en los tres cuestionarios nucleares sin base para generar una clase global única."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Exposición común: Frecuente",
+    "Respuesta información: Los cuestionarios deben mantenerse diferenciados",
+    "Información adicional: No existe autorización para generar silenciosamente una clase global única"
+  ],
+
+  "reasoning_summary": "Se evalúa Brucella melitensis (BIO-BACT-0028) con exposición frecuente. Los tres cuestionarios nucleares muestran discordancia en cumplimiento (96.77%, 39.62%, 58.82%). La probabilidad de exposición es alta en todos los casos (GRB=4, riesgo clase Alta). No se puede determinar una clase global única debido a la discordancia y falta de autorización para consolidar resultados. Se requiere revisión profesional para alinear criterios y evaluar controles específicos."
+}
+```

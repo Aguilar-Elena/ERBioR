@@ -1,0 +1,82 @@
+```json
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48",
+
+      "exposure": {
+        "category": "very_frequent",
+        "basis": "Multiple exposures occur throughout the workday."
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "partial_compliance",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "high"
+      },
+
+      "grb": "high",
+      "risk_class": "3",
+
+      "failed_controls": [
+        "Insufficient control measures for very frequent exposure to Brucella melitensis."
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "P1",
+          "action": "Implement enhanced biosafety measures (e.g., PPE, engineering controls) for high-frequency exposure scenarios."
+        },
+        {
+          "item_id": "P2",
+          "action": "Provide targeted training on Brucella melitensis risks and safe handling procedures."
+        },
+        {
+          "item_id": "P3",
+          "action": "Review and strengthen workplace hygiene protocols to minimize exposure."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "3"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [],
+
+  "reasoning_summary": "Brucella melitensis (BIO-BACT-0028) identified with very frequent exposure. Questionnaire compliance at 83.33% (40 Sí/8 No). Probability classified as high (value 4), leading to GRB 'high' and risk class 3. Professional review required due to high-risk classification and partial compliance."
+}
+```

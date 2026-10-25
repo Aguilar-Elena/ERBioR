@@ -1,0 +1,87 @@
+```json
+{
+  "case_id": "ERBB-P03",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resoluble",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": "Moderado",
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+
+      "questionnaire_id": "ERBio-48",
+
+      "exposure": {
+        "category": "Frequente",
+        "basis": "Información de exposición proporcionada en el caso"
+      },
+
+      "compliance": {
+        "percent": 60.42,
+        "class": "No cumple",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+
+      "grb": "Moderado",
+      "risk_class": "3",
+
+      "failed_controls": [
+        "Deficiencias preventivas relevantes"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas preventivas para reducir la exposición a Brucella melitensis"
+        },
+        {
+          "item_id": null,
+          "action": "Evaluar y mejorar los controles existentes en el puesto de trabajo"
+        },
+        {
+          "item_id": null,
+          "action": "Capacitar al personal sobre los riesgos biológicos y las medidas de protección"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "3"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "Exposición frecuente a Brucella melitensis",
+    "Deficiencias preventivas relevantes",
+    "Cuestionario general ERBio de 48 ítems con 19 respuestas Sí y 29 respuestas No"
+  ],
+
+  "reasoning_summary": "Evaluación basada en exposición frecuente a Brucella melitensis (grupo regulatorio 2, nivel de referencia Moderado), con cumplimiento del 60.42% en el cuestionario ERBio-48 (No cumple). Probabilidad alta (3) y riesgo clase 3 derivado. Controles preventivos incumplidos por deficiencias relevantes."
+}
+```

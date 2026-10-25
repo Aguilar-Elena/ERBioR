@@ -1,0 +1,29 @@
+{
+  "id": "b7d58b940849465fa7177c164ea3f23c",
+  "created": 1792946443,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 823,
+    "total_tokens": 1427,
+    "completion_tokens": 604,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P13\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"SARS-CoV-2\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"resolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"SARS-CoV-2\",\n      \"questionnaire_id\": null,\n\n      \"exposure\": {\n        \"category\": \"high\",\n        \"basis\": \"Frecuente\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"C\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": 0.83,\n        \"label\": \"Alta\"\n      },\n\n      \"grb\": \"3\",\n      \"risk_class\": \"Alto\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Reforzar medidas de protección respiratoria y ventilación en el entorno laboral.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar protocolos de detección temprana y aislamiento en caso de síntomas.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Capacitación continua en bioseguridad y uso adecuado de EPP.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"resolved\",\n    \"agent_aggregation_status\": \"resolved\",\n    \"workplace_global_class\": \"Alto\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [],\n\n  \"reasoning_summary\": \"Evaluación basada en exposición frecuente a SARS-CoV-2 con 83.33% de respuestas afirmativas en cuestionario de 48 ítems. Riesgo clasificado como Alto (GRB 3) por alta probabilidad de exposición y cumplimiento moderado (83.33%). No se identifican controles incumplidos específicos en la información proporcionada, pero se recomiendan acciones preventivas genéricas para entornos con exposición frecuente a patógenos respiratorios.\"\n}\n```"
+      }
+    }
+  ]
+}

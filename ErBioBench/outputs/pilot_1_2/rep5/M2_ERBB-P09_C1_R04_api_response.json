@@ -1,0 +1,29 @@
+{
+  "id": "42978a2323a84c16a72161d9f8ec24d5",
+  "created": 1792947088,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 852,
+    "total_tokens": 1391,
+    "completion_tokens": 539,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P09\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": null,\n\n      \"exposure\": {\n        \"category\": \"unresolved\",\n        \"basis\": \"contacto regular sin especificación de frecuencia, cadencia ni porcentaje temporal\"\n      },\n\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": null,\n        \"n_applicable\": 40,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"A01\",\n          \"action\": \"Realizar evaluación específica del puesto para determinar nivel de exposición a Brucella melitensis\"\n        },\n        {\n          \"item_id\": \"A02\",\n          \"action\": \"Implementar medidas de control adicionales si se confirma exposición significativa\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"partial\",\n    \"agent_aggregation_status\": \"unresolved\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Falta información crítica sobre frecuencia, cadencia y porcentaje temporal de exposición al agente biológico\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [],\n\n  \"reasoning_summary\": \"La evaluación no puede resolverse completamente debido a la insuficiencia de información sobre la exposición (solo se menciona 'contacto regular' sin detalles cuantitativos o cualitativos). Se requiere valoración profesional para determinar el nivel de riesgo real y las medidas de control necesarias.\"\n}\n```"
+      }
+    }
+  ]
+}

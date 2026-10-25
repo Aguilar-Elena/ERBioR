@@ -1,0 +1,29 @@
+{
+  "id": "ee47490dc8b74a31851b5b3bd8d4be05",
+  "created": 1792946655,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 870,
+    "total_tokens": 1974,
+    "completion_tokens": 1104,
+    "prompt_tokens_details": {
+      "cached_tokens": 224
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P06\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Actinomadura madurae\",\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"classification_status\": \"resoluble\",\n      \"regulatory_group\": \"2\",\n      \"regulatory_minimum_group\": \"2\",\n      \"reference_level\": \"2\",\n      \"requires_professional_assessment\": false\n    },\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resoluble\",\n      \"regulatory_group\": \"3\",\n      \"regulatory_minimum_group\": \"3\",\n      \"reference_level\": \"3\",\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"agent_name\": \"Actinomadura madurae\",\n      \"questionnaire_id\": \"ERBio:48\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición frecuente según información proporcionada\"\n      },\n\n      \"compliance\": {\n        \"percent\": 39.58,\n        \"class\": \"No aplicable (evaluación por agente individual)\",\n        \"n_applicable\": 19,\n        \"n_not_applicable\": 29\n      },\n\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Media\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"Moderado\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar medidas de contención biológica nivel 2 para Actinomadura madurae\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Capacitación específica en manejo de agentes grupo 2\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Uso de equipos de protección individual adecuados\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio:48\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición frecuente según información proporcionada\"\n      },\n\n      \"compliance\": {\n        \"percent\": 39.58,\n        \"class\": \"No aplicable (evaluación por agente individual)\",\n        \"n_applicable\": 19,\n        \"n_not_applicable\": 29\n      },\n\n      \"probability\": {\n        \"value\": 4,\n        \"label\": \"Alta\"\n      },\n\n      \"grb\": 4,\n      \"risk_class\": \"Alto\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar medidas de contención biológica nivel 3 para Brucella melitensis\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Vacunación del personal expuesto si está disponible y autorizada\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Protocolo de vigilancia médica específica para brucelosis\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Uso de equipos de protección individual de nivel superior\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"unresolved\",\n    \"agent_aggregation_status\": \"unresolved\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Clasificación reglamentaria de Actinomadura madurae como grupo 2 (BIO-BACT-0001)\",\n    \"Clasificación reglamentaria de Brucella melitensis como grupo 3 (BIO-BACT-0028)\",\n    \"Exposición frecuente para ambos agentes\",\n    \"Datos de cuestionario ERBio: 19 respuestas Sí y 29 No\"\n  ],\n\n  \"reasoning_summary\": \"Se evalúan ambos agentes por separado debido a su diferente clasificación reglamentaria (grupo 2 y grupo 3). Actinomadura madurae presenta riesgo moderado (GRB 3) con probabilidad media, mientras que Brucella melitensis presenta riesgo alto (GRB 4) con probabilidad alta. No se realiza agregación de resultados por indicación expresa del caso. Se requiere valoración profesional especializada para determinar controles específicos y estrategia de gestión del riesgo en el puesto.\"\n}\n```"
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+```json
+{
+  "case_id": "ERBB-P01",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+
+      "questionnaire_id": "ERBio-general-48",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición ocurre con frecuencia diaria"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "C",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "High"
+      },
+
+      "grb": "High",
+      "risk_class": "3",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisión profesional de controles existentes para Brucella melitensis"
+        },
+        {
+          "item_id": null,
+          "action": "Evaluación específica de medidas de protección para exposición frecuente a Brucella melitensis"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "3"
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación regulatoria de Brucella melitensis no proporcionada en el caso"
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Exposición frecuente a Brucella melitensis",
+    "Cumplimiento del 83.33% en cuestionario de 48 ítems (40 Sí, 8 No)"
+  ],
+
+  "reasoning_summary": "Evaluación basada en exposición frecuente a Brucella melitensis con cumplimiento del 83.33% en cuestionario general ERBio. Probabilidad alta (3) por exposición frecuente y cumplimiento insuficiente. Clasificación de riesgo 3 por GRB alto. Requiere revisión profesional por falta de clasificación regulatoria específica del agente."
+}
+```

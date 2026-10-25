@@ -1,0 +1,155 @@
+```json
+{
+  "case_id": "ERBB-P12",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Auditoría",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición común: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 96.77,
+        "class": "High compliance",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+
+      "probability": {
+        "value": 0.8,
+        "label": "High"
+      },
+
+      "grb": 4,
+      "risk_class": "High",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar discordancias entre cuestionarios y alinear criterios de cumplimiento."
+        },
+        {
+          "item_id": null,
+          "action": "Evaluar controles específicos para Brucella melitensis en exposición frecuente."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "General",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición común: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "Low compliance",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+
+      "probability": {
+        "value": 0.8,
+        "label": "High"
+      },
+
+      "grb": 4,
+      "risk_class": "High",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Investigar causas de baja conformidad en cuestionario General."
+        },
+        {
+          "item_id": null,
+          "action": "Reforzar medidas preventivas básicas para Brucella melitensis."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Trabajadores",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición común: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 58.82,
+        "class": "Moderate compliance",
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+
+      "probability": {
+        "value": 0.8,
+        "label": "High"
+      },
+
+      "grb": 4,
+      "risk_class": "High",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Analizar discrepancias en percepción de riesgos por parte de los trabajadores."
+        },
+        {
+          "item_id": null,
+          "action": "Capacitar a trabajadores sobre riesgos y medidas de protección específicas."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "discordant",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Discordancia entre resultados de cumplimiento en los tres cuestionarios aplicados al mismo agente."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Exposición común: Frecuente",
+    "Resultados de cuestionarios: Auditoría (31 Sí, 1 No), General (19 Sí, 29 No), Trabajadores (20 Sí, 14 No)"
+  ],
+
+  "reasoning_summary": "Se evalúa Brucella melitensis (BIO-BACT-0028) con exposición frecuente. Los tres cuestionarios muestran discordancia en cumplimiento (96.77%, 39.58%, 58.82%), lo que impide determinar un nivel de riesgo consolidado. Todos los cuestionarios indican probabilidad alta (0.8) y riesgo alto (GRB 4), pero la falta de alineación en cumplimiento requiere revisión profesional para establecer controles consistentes y priorizar acciones preventivas."
+}
+```

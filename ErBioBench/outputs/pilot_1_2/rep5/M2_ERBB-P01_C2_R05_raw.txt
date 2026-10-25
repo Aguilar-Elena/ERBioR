@@ -1,0 +1,76 @@
+```json
+{
+  "case_id": "ERBB-P01",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resoluble",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": "OEL-TWA (8h) no establecido / No aplicable",
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+
+      "questionnaire_id": "ERBio-general-48",
+
+      "exposure": {
+        "category": "FRECUENTE",
+        "basis": "Exposición ocurre con frecuencia diaria"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "BAJO",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 2,
+        "label": "BAJA"
+      },
+
+      "grb": 2,
+      "risk_class": "MODERADO",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Reforzar medidas de protección colectiva e individual frente a exposición a Brucella melitensis (ej. ventilación adecuada, EPIs específicos, formación en riesgos biológicos)."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "MODERADO"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "Exposición frecuente a Brucella melitensis (BIO-BACT-0028)",
+    "Cuestionario general ERBio de 48 ítems con 40 respuestas Sí (83.33% cumplimiento)"
+  ],
+
+  "reasoning_summary": "Evaluación directa: Agente clasificado en grupo 2 (Brucella melitensis). Exposición frecuente diaria. Cumplimiento del 83.33% en cuestionario (40/48). Probabilidad baja (2). GRB=2. Clase de riesgo MODERADO. No se identifican controles incumplidos específicos en los datos proporcionados."
+}
+```

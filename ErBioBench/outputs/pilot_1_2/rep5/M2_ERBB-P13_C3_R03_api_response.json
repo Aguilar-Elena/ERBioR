@@ -1,0 +1,29 @@
+{
+  "id": "a5fdaa73bf89438a8815a00ac6fcf0bf",
+  "created": 1792946771,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1508,
+    "total_tokens": 2698,
+    "completion_tokens": 1190,
+    "prompt_tokens_details": {
+      "cached_tokens": 368
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P13\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)\",\n      \"questionnaire_id\": \"general\",\n\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición frecuente a SARS-CoV-2 en escenario ocupacional\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.3333,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": \"GENERAL-F2015-041\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Revisar y reforzar controles relacionados con medidas de protección individual y colectiva frente a SARS-CoV-2\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Implementar o mejorar protocolos de ventilación y limpieza en áreas de exposición\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Capacitar al personal sobre riesgos y medidas preventivas específicas para SARS-CoV-2\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Revisar y actualizar el plan de prevención y contingencia para exposición a SARS-CoV-2\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Garantizar el suministro y uso correcto de equipos de protección individual (EPIs) adecuados\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Establecer procedimientos de monitoreo y seguimiento de casos sospechosos o confirmados\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Evaluar la eficacia de las medidas implementadas y ajustar según resultados\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Documentar y registrar todas las acciones preventivas y correctivas adoptadas\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"Tolerable\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    \"ERBioR reference output v0.9.0\",\n    \"Cuestionario general: 48 ítems\",\n    \"Exposición: Frecuente\",\n    \"40 respuestas Sí y 8 respuestas No\"\n  ],\n\n  \"reasoning_summary\": \"Evaluación basada exclusivamente en el output de referencia ERBioR v0.9.0. Agente clasificado en Anexo II con grupo regulatorio mínimo 3 y nivel de referencia 3. Cumplimiento del 83.33% (clase Aceptable) en cuestionario de 48 ítems. Probabilidad de exposición baja. Riesgo clasificado como Tolerable con prioridad media. Se identifican 8 controles incumplidos que requieren revisión preventiva. No se requiere valoración profesional adicional según el output de referencia.\"\n}\n```"
+      }
+    }
+  ]
+}

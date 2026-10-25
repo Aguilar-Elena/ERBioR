@@ -1,0 +1,75 @@
+```json
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición frecuente a SARS-CoV-2 en escenario ocupacional."
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "Cumple",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Moderada"
+      },
+
+      "grb": 3,
+      "risk_class": "Riesgo moderado",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Mantener y reforzar las medidas de control existentes para reducir la exposición frecuente a SARS-CoV-2."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Riesgo moderado"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "Exposición frecuente a SARS-CoV-2 en escenario ocupacional evaluado mediante ERBio.",
+    "40 respuestas Sí y 8 respuestas No en cuestionario general de 48 ítems."
+  ],
+
+  "reasoning_summary": "Evaluación basada en exposición frecuente a SARS-CoV-2 (BIO-VIR-0064) con cumplimiento del 83.33% en cuestionario de 48 ítems. Clasificación de riesgo moderado derivada de probabilidad moderada (3) y GRB 3, sin controles incumplidos identificados."
+}
+```

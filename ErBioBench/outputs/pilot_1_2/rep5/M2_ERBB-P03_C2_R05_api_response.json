@@ -1,0 +1,29 @@
+{
+  "id": "1468549606c541f685dd753dec0dff58",
+  "created": 1792947439,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1031,
+    "total_tokens": 1759,
+    "completion_tokens": 728,
+    "prompt_tokens_details": {
+      "cached_tokens": 112
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P03\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resoluble\",\n      \"regulatory_group\": \"2\",\n      \"regulatory_minimum_group\": \"2\",\n      \"reference_level\": \"OEL (TWA 8h) no establecido / Grupo 3 (OMS/IARC)\",\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio-general-48\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición frecuente a Brucella melitensis en puesto con deficiencias preventivas relevantes.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 40.38,\n        \"class\": \"Low\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Moderate\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"Moderate\",\n\n      \"failed_controls\": [\n        \"Deficiencias preventivas relevantes\"\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"P-001\",\n          \"action\": \"Implementar medidas de contención biológica (ej. cabinas de seguridad, EPP adecuado) para reducir exposición a Brucella melitensis.\"\n        },\n        {\n          \"item_id\": \"P-002\",\n          \"action\": \"Capacitar al personal en riesgos biológicos y protocolos de prevención específicos para Brucella melitensis.\"\n        },\n        {\n          \"item_id\": \"P-003\",\n          \"action\": \"Revisar y mejorar el programa de vigilancia de la salud de los trabajadores expuestos.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"Moderate\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Exposición frecuente a Brucella melitensis en puesto con deficiencias preventivas relevantes.\",\n    \"19 respuestas Sí y 29 respuestas No en cuestionario ERBio de 48 ítems.\"\n  ],\n\n  \"reasoning_summary\": \"Evaluación basada en exposición frecuente a Brucella melitensis (agente grupo 2/3) con cumplimiento bajo (40.38%) en cuestionario ERBio. Probabilidad moderada derivada de exposición frecuente y controles insuficientes. Riesgo moderado asignado. Requiere revisión profesional por clasificación regulatoria y deficiencias preventivas.\"\n}\n```"
+      }
+    }
+  ]
+}

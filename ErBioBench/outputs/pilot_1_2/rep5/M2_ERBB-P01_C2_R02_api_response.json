@@ -1,0 +1,29 @@
+{
+  "id": "48cbefe3b20e4712b79bf099856283b7",
+  "created": 1792946256,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1028,
+    "total_tokens": 1663,
+    "completion_tokens": 635,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P01\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resoluble\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n\n      \"questionnaire_id\": \"ERBio-general-48\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición ocurre con frecuencia diaria\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"C\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"High\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"M\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Revisión y refuerzo de medidas de protección específica frente a Brucella melitensis (equipos de protección individual, ventilación, manejo de residuos biológicos, formación específica en bioseguridad).\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"M\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    \"Exposición frecuente diaria a Brucella melitensis\",\n    \"Cumplimiento del 83.33% en cuestionario de 48 ítems (40 Sí, 8 No)\"\n  ],\n\n  \"reasoning_summary\": \"Evaluación directa según información proporcionada: Agente identificado (Brucella melitensis) con exposición frecuente diaria. Cumplimiento del 83.33% en cuestionario general de 48 ítems (40 respuestas afirmativas, 8 negativas). Probabilidad alta (3) por exposición frecuente y cumplimiento insuficiente. GRB=3 y clase de riesgo M (Moderado). No se identifican controles específicos incumplidos en la información proporcionada, pero se recomienda revisión preventiva especializada.\"\n}\n```"
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+```json
+{
+  "case_id": "ERBB-P14",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": "ERBio general questionnaire",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "occupational exposure"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "partial",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": 0.83,
+        "label": "high"
+      },
+
+      "grb": "high",
+      "risk_class": "high",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implement enhanced infection control measures (e.g., PPE, ventilation, hygiene protocols) for workers with frequent occupational exposure to SARS-CoV-2."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "high"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [],
+
+  "reasoning_summary": "Assessment based on ERBio questionnaire responses (40 Yes, 8 No). Frequent occupational exposure to SARS-CoV-2 (BIO-VIR-0064) results in high probability (83.33% compliance) and high risk classification. No regulatory classification inferred due to insufficient information."
+}
+```

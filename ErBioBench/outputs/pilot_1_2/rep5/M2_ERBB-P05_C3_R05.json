@@ -1,0 +1,203 @@
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición para ambos agentes: Frecuente"
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-041"
+        },
+        {
+          "item_id": "GENERAL-F2015-042"
+        },
+        {
+          "item_id": "GENERAL-F2015-043"
+        },
+        {
+          "item_id": "GENERAL-F2015-044"
+        },
+        {
+          "item_id": "GENERAL-F2015-045"
+        },
+        {
+          "item_id": "GENERAL-F2015-046"
+        },
+        {
+          "item_id": "GENERAL-F2015-047"
+        },
+        {
+          "item_id": "GENERAL-F2015-048"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Revisar y reforzar controles asociados a este ítem"
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Revisar y reforzar controles asociados a este ítem"
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Revisar y reforzar controles asociados a este ítem"
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Revisar y reforzar controles asociados a este ítem"
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Revisar y reforzar controles asociados a este ítem"
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Revisar y reforzar controles asociados a este ítem"
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Revisar y reforzar controles asociados a este ítem"
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Revisar y reforzar controles asociados a este ítem"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición para ambos agentes: Frecuente"
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-041"
+        },
+        {
+          "item_id": "GENERAL-F2015-042"
+        },
+        {
+          "item_id": "GENERAL-F2015-043"
+        },
+        {
+          "item_id": "GENERAL-F2015-044"
+        },
+        {
+          "item_id": "GENERAL-F2015-045"
+        },
+        {
+          "item_id": "GENERAL-F2015-046"
+        },
+        {
+          "item_id": "GENERAL-F2015-047"
+        },
+        {
+          "item_id": "GENERAL-F2015-048"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Revisar y reforzar controles asociados a este ítem"
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Revisar y reforzar controles asociados a este ítem"
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Revisar y reforzar controles asociados a este ítem"
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Revisar y reforzar controles asociados a este ítem"
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Revisar y reforzar controles asociados a este ítem"
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Revisar y reforzar controles asociados a este ítem"
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Revisar y reforzar controles asociados a este ítem"
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Revisar y reforzar controles asociados a este ítem"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "report_all",
+    "agent_aggregation_status": "multi_agent_same_group",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "ERBioR reference version: 0.9.0",
+    "Benchmark: ErBioBench-pilot-1.0"
+  ],
+  "reasoning_summary": "Evaluación basada en ERBioR 0.9.0 para dos agentes biológicos clasificados en el Anexo II (Grupo 3). Ambos presentan exposición frecuente, cumplimiento aceptable (83.33%), probabilidad baja, riesgo tolerable (GRB=3) y controles incumplidos en los mismos 8 ítems del cuestionario general. No se requiere evaluación profesional adicional según el output de referencia."
+}

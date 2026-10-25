@@ -1,0 +1,82 @@
+{
+  "case_id": "ERBB-P01",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": "3",
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48",
+      "exposure": {
+        "category": "frequent",
+        "basis": "Exposición diaria"
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "no_compliance",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+      "probability": {
+        "value": 4,
+        "label": "alta"
+      },
+      "grb": 4,
+      "risk_class": "alto",
+      "failed_controls": [
+        "protección colectiva insuficiente",
+        "equipos de protección individual inadecuados",
+        "formación insuficiente en riesgos biológicos",
+        "medidas de higiene y descontaminación inadecuadas"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "A1",
+          "action": "Implementar barreras físicas de contención (ej. cabinas de seguridad biológica) para manipulación de muestras o materiales potencialmente contaminados."
+        },
+        {
+          "item_id": "A2",
+          "action": "Proporcionar equipos de protección individual (EPI) adecuados: guantes resistentes a patógenos, mascarillas FFP3, batas desechables y protección ocular."
+        },
+        {
+          "item_id": "A3",
+          "action": "Capacitar al personal en riesgos específicos de Brucella melitensis, vías de transmisión y protocolos de bioseguridad."
+        },
+        {
+          "item_id": "A4",
+          "action": "Establecer protocolos de descontaminación y eliminación segura de residuos biológicos, incluyendo autoclave para materiales contaminados."
+        },
+        {
+          "item_id": "A5",
+          "action": "Realizar evaluaciones médicas periódicas con serología específica para Brucella en trabajadores expuestos."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "alto"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Exposición frecuente a Brucella melitensis (BIO-BACT-0028)",
+    "Cuestionario ERBio de 48 ítems con 40 respuestas afirmativas (83.33% de cumplimiento)",
+    "Clasificación de Brucella melitensis como grupo 2 según ERBioR 0.9.0"
+  ],
+  "reasoning_summary": "Brucella melitensis está clasificada como agente biológico del grupo 2 (ERBioR 0.9.0) con nivel de referencia 3. La exposición diaria frecuente y el bajo cumplimiento del cuestionario (83.33%) indican alta probabilidad de exposición (valor 4). El GRB resultante es 4, correspondiendo a riesgo alto. Se requiere evaluación profesional para implementar controles específicos según normativa de bioseguridad."
+}

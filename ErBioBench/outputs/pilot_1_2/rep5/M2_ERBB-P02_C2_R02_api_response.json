@@ -1,0 +1,29 @@
+{
+  "id": "68054006327d4cec91e226698d05700e",
+  "created": 1792946268,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1029,
+    "total_tokens": 1666,
+    "completion_tokens": 637,
+    "prompt_tokens_details": {
+      "cached_tokens": 416
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P02\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resoluble\",\n      \"regulatory_group\": \"2\",\n      \"regulatory_minimum_group\": \"2\",\n      \"reference_level\": null,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n\n      \"questionnaire_id\": \"ERBio:48\",\n\n      \"exposure\": {\n        \"category\": \"muy frecuente\",\n        \"basis\": \"Exposición: Muy frecuente.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"ALTO\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 0.8333,\n        \"label\": \"ALTA\"\n      },\n\n      \"grb\": \"ALTO\",\n      \"risk_class\": \"III\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Revisar y reforzar las medidas de control existentes para Brucella melitensis, dado que la exposición es muy frecuente y el cumplimiento del cuestionario es del 83.33%.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"III\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    \"Exposición: Muy frecuente.\",\n    \"40 respuestas Sí y 8 respuestas No en cuestionario ERBio de 48 ítems.\"\n  ],\n\n  \"reasoning_summary\": \"Agente identificado: Brucella melitensis (BIO-BACT-0028) con clasificación regulatoria grupo 2. Exposición categorizada como 'muy frecuente'. Cumplimiento del cuestionario ERBio (48 ítems) del 83.33% (40 Sí, 8 No). Probabilidad derivada: ALTA (0.8333). GRB: ALTO. Clase de riesgo: III. No se identifican controles fallidos específicos en la información proporcionada. Se recomienda revisión profesional para evaluar medidas preventivas adicionales.\"\n}\n```"
+      }
+    }
+  ]
+}

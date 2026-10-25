@@ -1,0 +1,56 @@
+{
+  "case_id": "ERBB-P08",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "UNCLASSIFIED",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "exposure": {
+        "category": null,
+        "basis": "No se aporta información sobre exposición en el caso."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Evaluación profesional obligatoria para determinar clasificación regulatoria, nivel de referencia y medidas de control."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "UNRESOLVED",
+    "agent_aggregation_status": "UNRESOLVED",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El virus no está clasificado en registros regulatorios y no se proporciona información sobre exposición, clasificación o controles aplicables. Se requiere evaluación profesional para resolver incertidumbres."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [],
+  "reasoning_summary": "El caso ERBB-P08 presenta un virus hipotético no clasificado en registros regulatorios. Dado que no hay datos sobre exposición, clasificación o controles, no es posible determinar niveles de referencia, probabilidad de riesgo, GRB, clase de riesgo ni controles incumplidos. Se requiere evaluación profesional para aplicar reglas regulatorias específicas y establecer medidas preventivas."
+}

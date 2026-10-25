@@ -1,0 +1,64 @@
+{
+  "case_id": "ERBB-P08",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "UNCLASSIFIED",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "No se aporta una clasificación final de exposición."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": "PA-001",
+          "action": "Realizar evaluación profesional específica para determinar clasificación regulatoria y nivel de referencia del agente."
+        },
+        {
+          "item_id": "PA-002",
+          "action": "Implementar medidas de contención estándar para virus humanos no clasificados hasta obtener una evaluación definitiva."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "NOT_APPLICABLE",
+    "agent_aggregation_status": "NOT_APPLICABLE",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El agente no está clasificado en el registro utilizado ni se proporciona información sobre exposición o cuestionarios aplicables. Se requiere evaluación profesional para resolver la incertidumbre regulatoria."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P08: Agente no evaluado o clasificado en el registro utilizado.",
+    "Regla regulatoria específica para virus humanos no clasificados aplicable según cuestionario."
+  ],
+  "reasoning_summary": "El agente 'ErBioBench hypothetical human virus' no tiene clasificación regulatoria conocida ni nivel de referencia definido. No se dispone de datos de exposición ni de resultados de cuestionarios. Se requiere evaluación profesional para determinar la clasificación, exposición y riesgo asociado. Las acciones preventivas deben basarse en contención estándar hasta obtener una evaluación definitiva."
+}

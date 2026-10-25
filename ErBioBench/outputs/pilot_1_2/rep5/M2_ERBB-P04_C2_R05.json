@@ -1,0 +1,65 @@
+{
+  "case_id": "ERBB-P04",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio:48",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición: Frecuente"
+      },
+      "compliance": {
+        "percent": 42.86,
+        "class": "Low",
+        "n_applicable": 16,
+        "n_not_applicable": 32
+      },
+      "probability": {
+        "value": 2,
+        "label": "Moderate"
+      },
+      "grb": "Moderate",
+      "risk_class": "3",
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Evaluar la aplicabilidad del cuestionario ERBio al escenario específico y ajustar los criterios de exclusión si es necesario."
+        },
+        {
+          "item_id": null,
+          "action": "Revisar los controles existentes para exposición a Actinomadura madurae y asegurar que sean adecuados para exposición frecuente."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "3"
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se dispone de información sobre la clasificación regulatoria de Actinomadura madurae ni sobre los controles específicos implementados en el puesto de trabajo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Exposición: Frecuente",
+    "Cuestionario general ERBio: 48 ítems",
+    "12 respuestas Sí, 4 respuestas No y 32 respuestas No procede"
+  ],
+  "reasoning_summary": "Evaluación basada en exposición frecuente a Actinomadura madurae con un cuestionario de 48 ítems donde 16 fueron aplicables (42.86% de cumplimiento). La probabilidad se deriva como moderada por la exposición frecuente y bajo cumplimiento. Clasificación de riesgo 3 por GRB moderado. Se requiere revisión profesional por falta de datos regulatorios y controles específicos."
+}

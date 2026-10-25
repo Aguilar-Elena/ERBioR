@@ -1,0 +1,75 @@
+```json
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "resoluble",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición frecuente reportada en el caso"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "Cumplimiento parcial",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+
+      "grb": 3,
+      "risk_class": "Alto",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisión y fortalecimiento de medidas de control para reducir la exposición frecuente a SARS-CoV-2."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Alto"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "Exposición frecuente a SARS-CoV-2 reportada en el caso.",
+    "40 respuestas Sí y 8 respuestas No en cuestionario de 48 ítems."
+  ],
+
+  "reasoning_summary": "Evaluación basada en exposición frecuente a SARS-CoV-2 (BIO-VIR-0064) con cumplimiento del 83.33% en cuestionario de 48 ítems. Probabilidad alta (3) derivada de exposición frecuente y cumplimiento parcial. GRB=3 y clase de riesgo Alto. No se identifican controles fallidos específicos en la información proporcionada."
+}
+```

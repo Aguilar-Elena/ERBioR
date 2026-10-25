@@ -1,0 +1,74 @@
+```json
+{
+  "case_id": "ERBB-P07",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench fictitious biological agent",
+      "agent_id": null,
+      "classification_status": "unclassified_not_implicitly_group1",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench fictitious biological agent",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": null,
+        "basis": ""
+      },
+
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Realizar evaluación profesional específica para determinar la clasificación y nivel de riesgo del agente no listado en el registro legal."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_applicable",
+    "agent_aggregation_status": "not_applicable",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "El agente no está incluido en el registro legal consultado (RD 664/1997), por lo que no puede asignarse una clasificación reglamentaria ni nivel de referencia. Se requiere evaluación profesional para determinar su estatus."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "RD 664/1997 sobre protección de los trabajadores contra los riesgos relacionados con la exposición a agentes biológicos durante el trabajo."
+  ],
+
+  "reasoning_summary": "El agente 'ErBioBench fictitious biological agent' no figura en el registro legal de ERBioR ni en el RD 664/1997, por lo que no puede asignarse una clasificación reglamentaria ni nivel de referencia. La normativa establece que los agentes no incluidos en los grupos 2-4 no se clasifican implícitamente en el grupo 1. Se requiere evaluación profesional para determinar su estatus y riesgos asociados."
+}
+```

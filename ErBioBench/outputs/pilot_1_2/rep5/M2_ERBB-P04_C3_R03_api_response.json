@@ -1,0 +1,29 @@
+{
+  "id": "617722928cce4c17bd7e42897682101f",
+  "created": 1792946632,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1483,
+    "total_tokens": 2326,
+    "completion_tokens": 843,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P04\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Actinomadura madurae\",\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": 2,\n      \"regulatory_minimum_group\": 2,\n      \"reference_level\": 2,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"agent_name\": \"Actinomadura madurae\",\n      \"questionnaire_id\": \"general\",\n\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición declarada como frecuente en el escenario ocupacional\"\n      },\n\n      \"compliance\": {\n        \"percent\": 75,\n        \"class\": \"Mejorable\",\n        \"n_applicable\": 16,\n        \"n_not_applicable\": 32\n      },\n\n      \"probability\": {\n        \"value\": 2,\n        \"label\": \"Media\"\n      },\n\n      \"grb\": 4,\n      \"risk_class\": \"Moderado\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": \"GENERAL-F2015-013\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-014\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-015\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-016\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-013\",\n          \"action\": \"Revisar y reforzar medidas de control específicas para Actinomadura madurae (Grupo 2)\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-014\",\n          \"action\": \"Implementar o mejorar procedimientos de contención y protección\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-015\",\n          \"action\": \"Capacitar al personal sobre riesgos específicos y medidas preventivas\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-016\",\n          \"action\": \"Verificar el cumplimiento de las medidas de protección colectiva e individual\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"resolved\",\n    \"agent_aggregation_status\": \"single_agent_assessment\",\n    \"workplace_global_class\": \"Moderado\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"No se identifican incertidumbres relevantes en la evaluación proporcionada por ERBioR\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    \"ERBioR reference output v0.9.0\",\n    \"Caso ERBB-P04\"\n  ],\n\n  \"reasoning_summary\": \"Evaluación basada exclusivamente en la salida de ERBioR 0.9.0 para Actinomadura madurae (BIO-BACT-0001). Agente clasificado en Anexo II Grupo 2 con nivel de referencia 2. Exposición frecuente con cumplimiento mejorable (75%). Riesgo moderado (GRB=4) con probabilidad media. Se identifican 4 controles incumplidos que requieren acciones preventivas específicas. No se requieren ajustes ni reinterpretaciones sobre los datos proporcionados.\"\n}\n```"
+      }
+    }
+  ]
+}

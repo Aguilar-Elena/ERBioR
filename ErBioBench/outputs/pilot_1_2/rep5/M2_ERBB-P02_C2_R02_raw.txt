@@ -1,0 +1,76 @@
+```json
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resoluble",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+
+      "questionnaire_id": "ERBio:48",
+
+      "exposure": {
+        "category": "muy frecuente",
+        "basis": "Exposición: Muy frecuente."
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "ALTO",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 0.8333,
+        "label": "ALTA"
+      },
+
+      "grb": "ALTO",
+      "risk_class": "III",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar las medidas de control existentes para Brucella melitensis, dado que la exposición es muy frecuente y el cumplimiento del cuestionario es del 83.33%."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "III"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "Exposición: Muy frecuente.",
+    "40 respuestas Sí y 8 respuestas No en cuestionario ERBio de 48 ítems."
+  ],
+
+  "reasoning_summary": "Agente identificado: Brucella melitensis (BIO-BACT-0028) con clasificación regulatoria grupo 2. Exposición categorizada como 'muy frecuente'. Cumplimiento del cuestionario ERBio (48 ítems) del 83.33% (40 Sí, 8 No). Probabilidad derivada: ALTA (0.8333). GRB: ALTO. Clase de riesgo: III. No se identifican controles fallidos específicos en la información proporcionada. Se recomienda revisión profesional para evaluar medidas preventivas adicionales."
+}
+```

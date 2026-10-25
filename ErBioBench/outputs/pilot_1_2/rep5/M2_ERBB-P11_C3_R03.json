@@ -1,0 +1,64 @@
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición declarada en el caso"
+      },
+      "compliance": {
+        "percent": 97.9167,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar limpieza/desinfección periódica de los equipos de trabajo"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Tolerable"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "ERBioR reference output v0.9.0",
+    "Caso ERBB-P11"
+  ],
+  "reasoning_summary": "Evaluación basada en salida ERBioR 0.9.0. Agente clasificado en grupo 3 con nivel de referencia 3. Cumplimiento del 97.92% (1 control incumplido: limpieza/desinfección periódica). Probabilidad baja, riesgo tolerable. No requiere revisión profesional según ERBioR."
+}

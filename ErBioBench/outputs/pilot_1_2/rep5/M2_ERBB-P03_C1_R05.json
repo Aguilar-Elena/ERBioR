@@ -1,0 +1,67 @@
+{
+  "case_id": "ERBB-P03",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": "3",
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48",
+      "exposure": {
+        "category": "frequent",
+        "basis": "Exposición frecuente según información proporcionada."
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": "low_compliance",
+        "n_applicable": 48,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": 4,
+        "label": "High"
+      },
+      "grb": 12,
+      "risk_class": "High",
+      "failed_controls": [
+        "Deficiencias preventivas relevantes en el puesto de trabajo."
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas de control específicas para Brucella melitensis (aislamiento, ventilación, EPP adecuado)."
+        },
+        {
+          "item_id": null,
+          "action": "Revisión y mejora del plan de prevención de riesgos biológicos."
+        },
+        {
+          "item_id": null,
+          "action": "Capacitación específica en riesgos biológicos para el trabajador."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "High"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [],
+  "reasoning_summary": "Exposición frecuente a Brucella melitensis (agente grupo 2, nivel de referencia 3) con alta probabilidad de riesgo (GRB=12, clase de riesgo Alto). Cumplimiento bajo (39.58%) por deficiencias preventivas relevantes. Se requiere evaluación profesional para implementar controles específicos y mejorar el plan de prevención."
+}

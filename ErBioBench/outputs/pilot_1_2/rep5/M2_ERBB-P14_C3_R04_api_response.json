@@ -1,0 +1,29 @@
+{
+  "id": "6b249d08618a47cbbe4a1be579aaaa8f",
+  "created": 1792947175,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1478,
+    "total_tokens": 2425,
+    "completion_tokens": 947,
+    "prompt_tokens_details": {
+      "cached_tokens": 368
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P14\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)\",\n      \"questionnaire_id\": \"general\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Occupational scenario description\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.3333,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Review and implement controls for item GENERAL-F2015-041\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Review and implement controls for item GENERAL-F2015-042\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Review and implement controls for item GENERAL-F2015-043\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Review and implement controls for item GENERAL-F2015-044\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Review and implement controls for item GENERAL-F2015-045\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Review and implement controls for item GENERAL-F2015-046\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Review and implement controls for item GENERAL-F2015-047\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Review and implement controls for item GENERAL-F2015-048\"\n        }\n      ],\n\n      \"preventive_actions\": []\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    \"ERBioR reference output v0.9.0\",\n    \"Case ERBB-P14 occupational scenario\"\n  ],\n\n  \"reasoning_summary\": \"Assessment performed using ERBioR reference output v0.9.0. SARS-CoV-2 classified under Annex II with regulatory minimum group 3 and reference level 3. Exposure categorized as 'Frequent'. Compliance at 83.33% (Aceptable). Probability labeled as 'Baja' with risk class 'Tolerable'. Eight failed controls identified (items GENERAL-F2015-041 to GENERAL-F2015-048). No professional review required as per ERBioR output.\"\n}\n```"
+      }
+    }
+  ]
+}

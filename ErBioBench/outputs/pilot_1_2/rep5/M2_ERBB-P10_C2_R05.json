@@ -1,0 +1,63 @@
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resoluble",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición: Frecuente"
+      },
+      "compliance": {
+        "percent": 99.99,
+        "class": "High",
+        "n_applicable": 1,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 2,
+        "label": "Low"
+      },
+      "grb": 2,
+      "risk_class": "Bajo",
+      "failed_controls": [
+        "AUDIT-F2015-004"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Implementar medidas higiénicas y de protección individual según lo auditado."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Bajo"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Exposición: Frecuente",
+    "Auditoría ERBio: todos los controles Sí excepto AUDIT-F2015-004",
+    "AUDIT-F2015-004 = No",
+    "El riesgo matricial y la significación preventiva del control incumplido deben evaluarse separadamente."
+  ],
+  "reasoning_summary": "Evaluación basada en exposición frecuente a Brucella melitensis con cumplimiento del 99.99% en controles (1/1 aplicable). Probabilidad baja (2) por alto cumplimiento y exposición controlada. GRB=2 y clase de riesgo Bajo. Control fallido identificado: AUDIT-F2015-004 (medidas higiénicas y de protección individual)."
+}

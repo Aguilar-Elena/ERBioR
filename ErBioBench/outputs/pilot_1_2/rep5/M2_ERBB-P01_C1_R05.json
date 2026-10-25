@@ -1,0 +1,83 @@
+{
+  "case_id": "ERBB-P01",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48",
+      "exposure": {
+        "category": "FREQUENT",
+        "basis": "Exposición diaria frecuente"
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "C",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 4,
+        "label": "ALTA"
+      },
+      "grb": 4,
+      "risk_class": "III",
+      "failed_controls": [
+        "Protección respiratoria insuficiente",
+        "Equipo de protección individual (EPI) no adecuado",
+        "Ventilación inadecuada en zona de trabajo",
+        "Falta de formación específica en riesgos biológicos",
+        "Procedimientos de higiene post-exposición no implementados"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-001",
+          "action": "Implementar uso obligatorio de mascarillas FFP3 o equivalente en zona de exposición"
+        },
+        {
+          "item_id": "PA-002",
+          "action": "Proporcionar y verificar uso correcto de guantes, batas y protección ocular"
+        },
+        {
+          "item_id": "PA-003",
+          "action": "Instalar cabinas de seguridad biológica para manipulación de muestras"
+        },
+        {
+          "item_id": "PA-004",
+          "action": "Realizar formación específica en riesgos por Brucella melitensis y medidas preventivas"
+        },
+        {
+          "item_id": "PA-005",
+          "action": "Establecer protocolo de desinfección y gestión de residuos biológicos"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "III"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Exposición frecuente a Brucella melitensis (BIO-BACT-0028)",
+    "Cuestionario ERBio de 48 ítems con 40 respuestas afirmativas (83.33% de cumplimiento)",
+    "Clasificación de riesgo biológico basada en probabilidad de exposición y GRB"
+  ],
+  "reasoning_summary": "Exposición diaria a Brucella melitensis con alta probabilidad de riesgo (GRB=4). Cumplimiento del 83.33% en cuestionario ERBio (40/48). Riesgo clasificado como III según metodología ErBioBench. Se requieren controles adicionales y revisión profesional para validar medidas preventivas específicas."
+}

@@ -1,0 +1,89 @@
+```json
+{
+  "case_id": "ERBB-P01",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": "2",
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "Frecuencia diaria de exposición laboral"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "C",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": 0.8,
+        "label": "Alta"
+      },
+
+      "grb": 4,
+      "risk_class": "Alto",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas de contención biológica específicas para Brucella melitensis (BIO-BACT-0028) en entornos de trabajo con exposición frecuente."
+        },
+        {
+          "item_id": null,
+          "action": "Reforzar la formación en prevención de riesgos biológicos para el personal expuesto."
+        },
+        {
+          "item_id": null,
+          "action": "Evaluar la necesidad de equipos de protección individual (EPI) específicos para este agente."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "Alto"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    {
+      "source": "ERBio Questionnaire (48 items)",
+      "basis": "Respuestas: 40 Sí (83.33%), 8 No (16.67%)"
+    },
+    {
+      "source": "Exposición frecuente",
+      "basis": "Exposición diaria al agente"
+    }
+  ],
+
+  "reasoning_summary": "Brucella melitensis (BIO-BACT-0028) está clasificada en el grupo 2 según su patogenicidad. La exposición frecuente (diaria) y el alto porcentaje de respuestas afirmativas en el cuestionario (83.33%) indican una probabilidad alta de exposición (0.8). Esto genera un GRB de 4 y un nivel de riesgo Alto. No se identifican controles incumplidos específicos en la información proporcionada, pero se recomiendan acciones preventivas adicionales."
+}
+```

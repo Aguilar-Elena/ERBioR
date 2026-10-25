@@ -1,0 +1,29 @@
+{
+  "id": "15df6e433d62451fb1ca9056f5bc6b5f",
+  "created": 1792946596,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 829,
+    "total_tokens": 1505,
+    "completion_tokens": 676,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P02\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio:48\",\n\n      \"exposure\": {\n        \"category\": \"very_frequent\",\n        \"basis\": \"Exposición muy frecuente durante la jornada laboral\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"partial_compliance\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": 0.83,\n        \"label\": \"high\"\n      },\n\n      \"grb\": \"high\",\n      \"risk_class\": \"III\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar medidas de contención primaria y secundaria para Brucella melitensis, incluyendo ventilación adecuada, uso de equipos de protección individual (EPI) y protocolos de higiene estrictos.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Capacitación específica en riesgos biológicos para trabajadores expuestos.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Evaluación periódica de la exposición y revisión de controles implementados.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"resolved\",\n    \"agent_aggregation_status\": \"resolved\",\n    \"workplace_global_class\": \"III\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    \"Cuestionario general ERBio: 48 ítems\",\n    \"Exposición: Muy frecuente\",\n    \"Respuestas: 40 Sí y 8 No\"\n  ],\n\n  \"reasoning_summary\": \"La exposición a Brucella melitensis se clasifica como muy frecuente según la información proporcionada. La probabilidad de exposición se calcula en 83.33% (40 respuestas Sí de 48 aplicables), lo que justifica un nivel de riesgo biológico alto (GRB = high) y una clase de riesgo III. No se identifican controles incumplidos específicos, pero se recomiendan acciones preventivas genéricas para agentes biológicos de alto riesgo.\"\n}\n```"
+      }
+    }
+  ]
+}

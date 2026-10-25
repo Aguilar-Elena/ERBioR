@@ -1,0 +1,85 @@
+```json
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": "Group 2 biological agent (can cause human disease and may be a hazard to workers; unlikely to spread to the community; effective prophylaxis or treatment usually available)",
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio: 48 ítems",
+
+      "exposure": {
+        "category": "Very frequent",
+        "basis": "Exposición: Muy frecuente."
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "Low compliance",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "High"
+      },
+
+      "grb": 3,
+      "risk_class": "High",
+
+      "failed_controls": [
+        "General questionnaire compliance (83.33% positive responses, indicating potential control failures)"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Review and strengthen exposure controls for Brucella melitensis given very frequent exposure and high risk class."
+        },
+        {
+          "item_id": null,
+          "action": "Investigate reasons for low compliance in the general questionnaire (8/48 negative responses)."
+        },
+        {
+          "item_id": null,
+          "action": "Implement enhanced personal protective equipment (PPE) and hygiene measures for workers exposed to Brucella melitensis."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "High"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "Case information provided",
+    "ERBio framework v0.9.0"
+  ],
+
+  "reasoning_summary": "Brucella melitensis classified as Group 2 biological agent. Exposure categorized as 'Very frequent'. Compliance with the 48-item questionnaire is 83.33% (40 Sí, 8 No), indicating low compliance. Probability derived as High (3) from very frequent exposure and low compliance. GRB = 3, leading to High risk class. No uncertainty introduced beyond provided data. Professional review not required as all classifications and assessments are supported by the case."
+}
+```

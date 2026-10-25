@@ -1,0 +1,122 @@
+{
+  "case_id": "ERBB-P01",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición laboral diaria declarada en el escenario ocupacional"
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Revisar y reforzar el control identificado en GENERAL-F2015-041"
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Revisar y reforzar el control identificado en GENERAL-F2015-042"
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Revisar y reforzar el control identificado en GENERAL-F2015-043"
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Revisar y reforzar el control identificado en GENERAL-F2015-044"
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Revisar y reforzar el control identificado en GENERAL-F2015-045"
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Revisar y reforzar el control identificado en GENERAL-F2015-046"
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Revisar y reforzar el control identificado en GENERAL-F2015-047"
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Revisar y reforzar el control identificado en GENERAL-F2015-048"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Implementar medidas adicionales de contención para evitar exposición a aerosoles en actividades con Brucella melitensis"
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Garantizar uso correcto y mantenimiento de equipos de protección individual (EPI) específicos para riesgo biológico"
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Reforzar formación específica en manipulación segura de Brucella melitensis y protocolos de emergencia"
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Establecer procedimientos de descontaminación y gestión de residuos biológicos"
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Implementar vigilancia médica específica para trabajadores expuestos a Brucella melitensis"
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Revisar y actualizar el plan de prevención de riesgos biológicos según normativa aplicable"
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Establecer señalización clara de zonas de riesgo biológico y acceso restringido"
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Documentar y registrar todas las medidas de control implementadas y su eficacia"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Tolerable"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": "No hay incertidumbre identificada en el output de referencia. Todos los parámetros están resueltos según ERBioR 0.9.0"
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "ERBioR reference version 0.9.0",
+    "Cuestionario general ERBio versión final_2015_annex1",
+    "Exposición declarada: Frecuente"
+  ],
+  "reasoning_summary": "Evaluación basada exclusivamente en el output de referencia ERBioR 0.9.0 para Brucella melitensis (BIO-BACT-0028). Clasificación como grupo 3 según anexo II. Riesgo tolerable con probabilidad baja (valor 1) y GRB 3. Cumplimiento aceptable (83.33%) pero con 8 controles incumplidos que requieren revisión específica. No se requiere evaluación profesional adicional según el output de referencia."
+}

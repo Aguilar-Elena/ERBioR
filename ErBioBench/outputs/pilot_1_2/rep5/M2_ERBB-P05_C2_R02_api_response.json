@@ -1,0 +1,29 @@
+{
+  "id": "e406c8c3b1d148ccb99bb754e4a62d40",
+  "created": 1792946312,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1061,
+    "total_tokens": 2090,
+    "completion_tokens": 1029,
+    "prompt_tokens_details": {
+      "cached_tokens": 416
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P05\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Bacillus anthracis\",\n      \"agent_id\": \"BIO-BACT-0010\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    },\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0010\",\n      \"agent_name\": \"Bacillus anthracis\",\n      \"questionnaire_id\": \"ERBio: Cuestionario general ERBio: 48 ítems\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición para ambos agentes: Frecuente.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"Partial\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 0.83,\n        \"label\": \"High\"\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Evaluar la clasificación regulatoria específica de Bacillus anthracis para determinar el nivel de referencia y requisitos de control.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Revisar y reforzar las medidas de control existentes para reducir la exposición frecuente a Bacillus anthracis.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio: Cuestionario general ERBio: 48 ítems\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición para ambos agentes: Frecuente.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"Partial\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 0.83,\n        \"label\": \"High\"\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Evaluar la clasificación regulatoria específica de Brucella melitensis para determinar el nivel de referencia y requisitos de control.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Revisar y reforzar las medidas de control existentes para reducir la exposición frecuente a Brucella melitensis.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"discordant_agents\",\n    \"agent_aggregation_status\": \"separate_agents\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"No se dispone de clasificación regulatoria ni niveles de referencia para los agentes biológicos identificados. La evaluación de riesgo requiere información adicional sobre los grupos de riesgo y niveles de referencia específicos.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Exposición para ambos agentes: Frecuente.\",\n    \"40 respuestas Sí y 8 respuestas No en el cuestionario general ERBio de 48 ítems.\"\n  ],\n\n  \"reasoning_summary\": \"Se identificaron dos agentes biológicos (Bacillus anthracis y Brucella melitensis) con exposición frecuente. No se dispone de clasificación regulatoria ni niveles de referencia para ninguno de los agentes. La cumplimentación del cuestionario general ERBio fue del 83.33% (40 Sí / 48 ítems), lo que indica una probabilidad alta de exposición. Se requiere evaluación profesional para determinar los niveles de referencia y clasificar el riesgo biológico.\"\n}\n```"
+      }
+    }
+  ]
+}

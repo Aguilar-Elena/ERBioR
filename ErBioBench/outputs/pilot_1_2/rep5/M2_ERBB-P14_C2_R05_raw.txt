@@ -1,0 +1,76 @@
+```json
+{
+  "case_id": "ERBB-P14",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": "ERBio general questionnaire",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "Occupational scenario description"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "partial_compliance",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 0.83,
+        "label": "high"
+      },
+
+      "grb": "high",
+      "risk_class": "high",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Review and strengthen existing control measures for SARS-CoV-2 exposure, particularly focusing on the 8 failed questionnaire responses to identify specific gaps in protection."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "high"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "Occupational scenario description",
+    "Exposure information",
+    "Response information"
+  ],
+
+  "reasoning_summary": "Assessment performed using only provided case information. SARS-CoV-2 identified with unresolved classification. Frequent exposure category assigned based on scenario. Compliance calculated from 40/48 Yes responses (83.33% compliance). Probability derived as high from exposure and compliance. GRB and risk class both high. No failed controls explicitly identified in case data."
+}
+```

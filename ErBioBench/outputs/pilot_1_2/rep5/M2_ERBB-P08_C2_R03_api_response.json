@@ -1,0 +1,29 @@
+{
+  "id": "f3ac77171c1f4e69abed996848c258c5",
+  "created": 1792946696,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1028,
+    "total_tokens": 1630,
+    "completion_tokens": 602,
+    "prompt_tokens_details": {
+      "cached_tokens": 416
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P08\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"ErBioBench hypothetical human virus\",\n      \"agent_id\": null,\n      \"classification_status\": \"UNCLASSIFIED\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"ErBioBench hypothetical human virus\",\n      \"questionnaire_id\": null,\n\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"No se aporta una clasificación final de exposición.\"\n      },\n\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": null,\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"PA-001\",\n          \"action\": \"Realizar evaluación profesional específica para determinar clasificación regulatoria y nivel de referencia del agente.\"\n        },\n        {\n          \"item_id\": \"PA-002\",\n          \"action\": \"Implementar medidas de contención estándar para virus humanos no clasificados hasta obtener una evaluación definitiva.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"NOT_APPLICABLE\",\n    \"agent_aggregation_status\": \"NOT_APPLICABLE\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"El agente no está clasificado en el registro utilizado ni se proporciona información sobre exposición o cuestionarios aplicables. Se requiere evaluación profesional para resolver la incertidumbre regulatoria.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Caso ERBB-P08: Agente no evaluado o clasificado en el registro utilizado.\",\n    \"Regla regulatoria específica para virus humanos no clasificados aplicable según cuestionario.\"\n  ],\n\n  \"reasoning_summary\": \"El agente 'ErBioBench hypothetical human virus' no tiene clasificación regulatoria conocida ni nivel de referencia definido. No se dispone de datos de exposición ni de resultados de cuestionarios. Se requiere evaluación profesional para determinar la clasificación, exposición y riesgo asociado. Las acciones preventivas deben basarse en contención estándar hasta obtener una evaluación definitiva.\"\n}\n```"
+      }
+    }
+  ]
+}

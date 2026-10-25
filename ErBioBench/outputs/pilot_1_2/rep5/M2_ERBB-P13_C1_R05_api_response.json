@@ -1,0 +1,29 @@
+{
+  "id": "ecb143730b654b73aa40b1780f74fa71",
+  "created": 1792947590,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 823,
+    "total_tokens": 1487,
+    "completion_tokens": 664,
+    "prompt_tokens_details": {
+      "cached_tokens": 112
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P13\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"SARS-CoV-2\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"resolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"SARS-CoV-2\",\n      \"questionnaire_id\": null,\n\n      \"exposure\": {\n        \"category\": \"frequent\",\n        \"basis\": \"Exposición frecuente a SARS-CoV-2 en escenario ocupacional\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"C\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": 0.83,\n        \"label\": \"alta\"\n      },\n\n      \"grb\": \"2\",\n      \"risk_class\": \"moderado\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar o reforzar medidas de protección respiratoria y barreras físicas\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Garantizar ventilación adecuada en áreas de trabajo\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Capacitación continua en bioseguridad y uso de EPP\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Monitoreo periódico de síntomas y protocolos de aislamiento\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"resolved\",\n    \"agent_aggregation_status\": \"resolved\",\n    \"workplace_global_class\": \"moderado\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    \"Exposición frecuente a SARS-CoV-2 en escenario ocupacional\",\n    \"Cuestionario de 48 ítems con 40 respuestas afirmativas (83.33% de cumplimiento)\"\n  ],\n\n  \"reasoning_summary\": \"Evaluación basada en exposición frecuente a SARS-CoV-2 con 83.33% de respuestas afirmativas en cuestionario. Probabilidad de exposición clasificada como alta (83%), GRB 2 y riesgo moderado. No se identifican controles incumplidos específicos, pero se recomiendan acciones preventivas genéricas para entornos con exposición a patógenos respiratorios.\"\n}\n```"
+      }
+    }
+  ]
+}

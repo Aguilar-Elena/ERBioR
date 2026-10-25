@@ -1,0 +1,83 @@
+```json
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición frecuente a SARS-CoV-2 en escenario ocupacional evaluado mediante ERBio."
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "C",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "High"
+      },
+
+      "grb": "High",
+      "risk_class": "3",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisión y refuerzo de medidas de protección individual y colectiva frente a exposición a SARS-CoV-2."
+        },
+        {
+          "item_id": null,
+          "action": "Capacitación específica en prevención de riesgos biológicos para el personal expuesto."
+        },
+        {
+          "item_id": null,
+          "action": "Evaluación periódica de la efectividad de los controles implementados."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "3"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Exposición frecuente a SARS-CoV-2 en escenario ocupacional evaluado mediante ERBio.",
+    "Cuestionario general: 48 ítems con 40 respuestas Sí y 8 respuestas No."
+  ],
+
+  "reasoning_summary": "La evaluación se basa en exposición frecuente a SARS-CoV-2 (BIO-VIR-0064) con alta probabilidad de riesgo (GRB Alto). La clasificación de riesgo laboral es Clase 3. Se requiere revisión profesional para implementar medidas preventivas específicas y garantizar el cumplimiento normativo."
+}
+```

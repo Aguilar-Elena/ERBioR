@@ -1,0 +1,61 @@
+{
+  "case_id": "ERBB-P09",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "unresolved",
+        "basis": "contacto regular sin especificación de frecuencia, cadencia ni porcentaje temporal"
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": 40,
+        "n_not_applicable": 8
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": "A01",
+          "action": "Realizar evaluación específica del puesto para determinar nivel de exposición a Brucella melitensis"
+        },
+        {
+          "item_id": "A02",
+          "action": "Implementar medidas de control adicionales si se confirma exposición significativa"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "partial",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Falta información crítica sobre frecuencia, cadencia y porcentaje temporal de exposición al agente biológico"
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [],
+  "reasoning_summary": "La evaluación no puede resolverse completamente debido a la insuficiencia de información sobre la exposición (solo se menciona 'contacto regular' sin detalles cuantitativos o cualitativos). Se requiere valoración profesional para determinar el nivel de riesgo real y las medidas de control necesarias."
+}

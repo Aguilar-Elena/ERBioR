@@ -1,0 +1,29 @@
+{
+  "id": "0f3e8406f4b94b538faad489da20efb6",
+  "created": 1792946377,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1127,
+    "total_tokens": 1668,
+    "completion_tokens": 541,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P08\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"ErBioBench hypothetical human virus\",\n      \"agent_id\": null,\n      \"classification_status\": \"unclassified_human_isolated_virus\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 2,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"ErBioBench hypothetical human virus\",\n      \"questionnaire_id\": null,\n\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"\"\n      },\n\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": null,\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Aplicar medidas de contención mínima de grupo 2 según RD 664/1997 hasta evaluación profesional definitiva.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"not_applicable\",\n    \"agent_aggregation_status\": \"not_applicable\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Virus aislado en humanos no evaluado/clasificado: clasificación final requiere evaluación profesional según RD 664/1997.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"RD 664/1997\",\n    \"HUMAN-VIRUS-MIN-G2 rule\"\n  ],\n\n  \"reasoning_summary\": \"El virus hipotético no está clasificado en el registro regulatorio. El RD 664/1997 establece un grupo mínimo 2 para virus humanos no evaluados. La clasificación final requiere evaluación profesional. No se dispone de datos de exposición ni controles específicos, por lo que se aplica el mínimo regulatorio sin asignar valores definitivos de riesgo.\"\n}\n```"
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "GENERAL-F2015",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición frecuente según información proporcionada."
+      },
+      "compliance": {
+        "percent": 90,
+        "class": "Partial",
+        "n_applicable": 1,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": "Medium",
+        "label": "Media"
+      },
+      "grb": "2",
+      "risk_class": "Moderado",
+      "failed_controls": [
+        "Limpieza/desinfección periódica de los equipos de trabajo"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar programa de limpieza y desinfección periódica de equipos de trabajo."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "Moderado"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Información proporcionada en el caso ERBB-P11",
+    "Cuestionario general ERBio"
+  ],
+  "reasoning_summary": "Evaluación basada en exposición frecuente a Brucella melitensis con incumplimiento del control de limpieza/desinfección periódica de equipos. Probabilidad de riesgo clasificada como media (GRB 2) y riesgo moderado. Se identifica como acción preventiva prioritaria la implementación del control incumplido."
+}

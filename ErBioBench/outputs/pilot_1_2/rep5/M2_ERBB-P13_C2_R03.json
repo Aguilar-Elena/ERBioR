@@ -1,0 +1,59 @@
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "resoluble",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-02",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición frecuente a SARS-CoV-2 en escenario ocupacional."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "Partial",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 3,
+        "label": "High"
+      },
+      "grb": "High",
+      "risk_class": "High",
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar medidas de control para reducir la exposición frecuente a SARS-CoV-2."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "High"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Exposición frecuente a SARS-CoV-2 en escenario ocupacional evaluado mediante ERBio."
+  ],
+  "reasoning_summary": "Exposición frecuente a SARS-CoV-2 con 83.33% de cumplimiento en cuestionario de 48 ítems. Probabilidad alta (3) y GRB alto derivan en clase de riesgo alta. No hay controles incumplidos identificados explícitamente, pero se recomienda revisar medidas preventivas."
+}

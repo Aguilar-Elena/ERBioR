@@ -1,0 +1,124 @@
+{
+  "case_id": "ERBB-P12",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Auditoría",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición común: Frecuente."
+      },
+      "compliance": {
+        "percent": 96.88,
+        "class": "High Compliance",
+        "n_applicable": 32,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": 0.0312,
+        "label": "Low"
+      },
+      "grb": "Low",
+      "risk_class": "Low",
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": "QA-001",
+          "action": "Revisar y alinear los resultados discordantes entre cuestionarios para garantizar consistencia en la evaluación."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "General",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición común: Frecuente."
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": "Low Compliance",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 0.6042,
+        "label": "High"
+      },
+      "grb": "High",
+      "risk_class": "High",
+      "failed_controls": [
+        "Control de cumplimiento general insuficiente"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "QG-001",
+          "action": "Implementar medidas correctivas inmediatas para mejorar el cumplimiento en el cuestionario General."
+        },
+        {
+          "item_id": "QG-002",
+          "action": "Investigar las causas de la baja conformidad en el cuestionario General."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Trabajadores",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición común: Frecuente."
+      },
+      "compliance": {
+        "percent": 58.82,
+        "class": "Moderate Compliance",
+        "n_applicable": 34,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 0.4118,
+        "label": "Moderate"
+      },
+      "grb": "Moderate",
+      "risk_class": "Moderate",
+      "failed_controls": [
+        "Control de cumplimiento moderado en trabajadores"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "QT-001",
+          "action": "Reforzar los controles y la formación específica para los trabajadores."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "discordant",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Resultados discordantes entre cuestionarios que impiden una evaluación consolidada del riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Exposición común: Frecuente.",
+    "Resultados de cuestionarios: Auditoría (31 Sí, 1 No), General (19 Sí, 29 No), Trabajadores (20 Sí, 14 No)."
+  ],
+  "reasoning_summary": "Se identificó Brucella melitensis (BIO-BACT-0028) sin clasificación regulatoria resoluble. Los tres cuestionarios nucleares muestran resultados discordantes: Auditoría (96.88% cumplimiento, riesgo bajo), General (39.58% cumplimiento, riesgo alto) y Trabajadores (58.82% cumplimiento, riesgo moderado). La exposición es frecuente en todos los casos. La discordancia impide una clase global única, requiriendo revisión profesional para armonizar criterios y priorizar acciones correctivas."
+}

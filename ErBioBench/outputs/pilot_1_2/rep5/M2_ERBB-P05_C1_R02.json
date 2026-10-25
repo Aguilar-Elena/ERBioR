@@ -1,0 +1,123 @@
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "resolved",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": "2",
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": "3",
+      "regulatory_minimum_group": "3",
+      "reference_level": "3",
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "ERBio-48",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición para ambos agentes: Frecuente."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "C",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+      "grb": "2",
+      "risk_class": "Alto",
+      "failed_controls": [
+        "Protección colectiva insuficiente",
+        "Equipos de protección individual inadecuados",
+        "Formación y concienciación insuficientes"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-001",
+          "action": "Implementar medidas de contención biológica (BSL-3) para Bacillus anthracis."
+        },
+        {
+          "item_id": "PA-002",
+          "action": "Proporcionar equipos de protección individual (EPI) específicos para agentes de grupo 2."
+        },
+        {
+          "item_id": "PA-003",
+          "action": "Capacitar al personal en riesgos biológicos y protocolos de manejo seguro."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición para ambos agentes: Frecuente."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "C",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+      "grb": "3",
+      "risk_class": "Muy Alto",
+      "failed_controls": [
+        "Protección colectiva insuficiente",
+        "Equipos de protección individual inadecuados",
+        "Formación y concienciación insuficientes",
+        "Gestión de residuos biológicos deficiente"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-004",
+          "action": "Implementar medidas de contención biológica (BSL-3) para Brucella melitensis."
+        },
+        {
+          "item_id": "PA-005",
+          "action": "Establecer protocolos de desinfección y esterilización específicos."
+        },
+        {
+          "item_id": "PA-006",
+          "action": "Realizar vigilancia médica específica para exposición a Brucella."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "Muy Alto"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Exposición frecuente a Bacillus anthracis (grupo 2) y Brucella melitensis (grupo 3).",
+    "Cumplimiento del 83.33% en el cuestionario ERBio-48 (40 Sí, 8 No).",
+    "Clasificación regulatoria basada en la Directiva 2000/54/CE y RD 656/2017."
+  ],
+  "reasoning_summary": "Evaluación basada en exposición frecuente a dos agentes biológicos (Bacillus anthracis grupo 2 y Brucella melitensis grupo 3). Cumplimiento del 83.33% en cuestionario ERBio-48. Probabilidad alta para ambos agentes. Riesgo clasificado como Alto (grupo 2) y Muy Alto (grupo 3). Se requieren medidas de contención BSL-3, EPI adecuados y formación específica. Revisión profesional obligatoria por la gravedad de los agentes."
+}

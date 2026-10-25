@@ -1,0 +1,143 @@
+```json
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "resoluble",
+      "regulatory_group": "3",
+      "regulatory_minimum_group": "3",
+      "reference_level": "OMS - Grupo de riesgo 3",
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resoluble",
+      "regulatory_group": "3",
+      "regulatory_minimum_group": "3",
+      "reference_level": "OMS - Grupo de riesgo 3",
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "ERBio:48",
+
+      "exposure": {
+        "category": "FRECUENTE",
+        "basis": "Exposición potencial identificada en el puesto de trabajo"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "CUMPLE_PARCIALMENTE",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Probabilidad moderada"
+      },
+
+      "grb": 6,
+      "risk_class": "MEDIO",
+
+      "failed_controls": [
+        "Ventilación adecuada",
+        "Equipos de protección individual",
+        "Formación específica en riesgos biológicos"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "ACT-001",
+          "action": "Implementar medidas de contención biológica (Nivel 3) para Bacillus anthracis"
+        },
+        {
+          "item_id": "ACT-002",
+          "action": "Proporcionar equipos de protección individual (EPI) específicos para riesgo biológico"
+        },
+        {
+          "item_id": "ACT-003",
+          "action": "Capacitar al personal en manejo seguro de agentes biológicos de Grupo 3"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio:48",
+
+      "exposure": {
+        "category": "FRECUENTE",
+        "basis": "Exposición potencial identificada en el puesto de trabajo"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "CUMPLE_PARCIALMENTE",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Probabilidad moderada"
+      },
+
+      "grb": 6,
+      "risk_class": "MEDIO",
+
+      "failed_controls": [
+        "Ventilación adecuada",
+        "Equipos de protección individual",
+        "Formación específica en riesgos biológicos"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "ACT-004",
+          "action": "Implementar medidas de contención biológica (Nivel 3) para Brucella melitensis"
+        },
+        {
+          "item_id": "ACT-005",
+          "action": "Establecer protocolos de desinfección específicos para Brucella"
+        },
+        {
+          "item_id": "ACT-006",
+          "action": "Realizar vigilancia médica específica para brucelosis"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "resoluble",
+    "agent_aggregation_status": "resoluble",
+    "workplace_global_class": "MEDIO"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": "No hay incertidumbre en la evaluación basada en la información proporcionada"
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "ERBio Questionnaire v0.9.0",
+    "OMS - Clasificación de riesgo biológico",
+    "Directiva 2000/54/CE sobre agentes biológicos"
+  ],
+
+  "reasoning_summary": "Ambos agentes (Bacillus anthracis y Brucella melitensis) pertenecen al Grupo de Riesgo 3 según OMS. La exposición es frecuente (40 Sí/8 No en cuestionario de 48 ítems). La probabilidad de exposición se clasifica como moderada (valor 3). El GRB resultante es 6 (3+3) para ambos agentes, con clase de riesgo MEDIO. Se requiere evaluación profesional adicional para determinar controles específicos necesarios. Ambos agentes comparten el mismo nivel de riesgo y requieren medidas preventivas equivalentes."
+}
+```

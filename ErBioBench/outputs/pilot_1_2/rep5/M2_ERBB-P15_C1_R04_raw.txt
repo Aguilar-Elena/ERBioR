@@ -1,0 +1,161 @@
+```json
+{
+  "case_id": "ERBB-P15",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Ebolavirus",
+      "agent_id": "BIO-VIR-0040",
+      "classification_status": "classified",
+      "regulatory_group": "BIO-VIR-0040",
+      "regulatory_minimum_group": "BIO-VIR-0040",
+      "reference_level": "4",
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified",
+      "regulatory_group": "BIO-BACT-0028",
+      "regulatory_minimum_group": "BIO-BACT-0028",
+      "reference_level": "3",
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "unclassified",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 96.77,
+        "class": "High compliance",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+
+      "probability": {
+        "value": 0.8,
+        "label": "High"
+      },
+
+      "grb": "4",
+      "risk_class": "Very High",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar controles de contención biológica nivel 4 (BSL-4) para Ebolavirus, incluyendo equipos de protección individual avanzados, ventilación controlada y protocolos de descontaminación estrictos."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 61.29,
+        "class": "Moderate compliance",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+
+      "probability": {
+        "value": 0.6,
+        "label": "Moderate"
+      },
+
+      "grb": "3",
+      "risk_class": "High",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Reforzar controles de contención biológica nivel 3 (BSL-3) para Brucella melitensis, incluyendo uso de cabinas de seguridad biológica, equipos de protección respiratoria y protocolos de desinfección específicos."
+        }
+      ]
+    },
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": null,
+
+      "exposure": {
+        "category": null,
+        "basis": "No se aporta información suficiente para determinar nivel de exposición"
+      },
+
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Realizar evaluación profesional específica para determinar nivel de exposición, clasificación regulatoria y controles necesarios."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "discordant",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Información insuficiente para convertir el virus hipotético en un nivel de referencia final y discordancia en cuestionarios nucleares."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Exposición de los agentes resueltos: Frecuente",
+    "Cuestionarios nucleares: Auditoría (31 Sí, 1 No), General (19 Sí, 29 No), Trabajadores (20 Sí, 14 No)"
+  ],
+
+  "reasoning_summary": "Ebolavirus clasificado con nivel de referencia 4 y riesgo muy alto por exposición frecuente y alta probabilidad. Brucella melitensis clasificado con nivel de referencia 3 y riesgo alto por exposición frecuente y probabilidad moderada. Virus hipotético no clasificable por falta de información, requiriendo evaluación profesional específica. Discordancia en cuestionarios nucleares y exposición no determinada para el virus hipotético."
+}
+```

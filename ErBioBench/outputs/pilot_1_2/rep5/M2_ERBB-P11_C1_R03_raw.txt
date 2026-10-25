@@ -1,0 +1,78 @@
+```json
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición: Frecuente."
+      },
+
+      "compliance": {
+        "percent": 93.75,
+        "class": "Partial",
+        "n_applicable": 16,
+        "n_not_applicable": 1
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Medium"
+      },
+
+      "grb": 4,
+      "risk_class": "Medium",
+
+      "failed_controls": [
+        "Limpieza/desinfección periódica de los equipos de trabajo"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar limpieza y desinfección periódica de los equipos de trabajo"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "Medium"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "Cuestionario general ERBio.",
+    "Exposición: Frecuente.",
+    "GENERAL-F2015-020 = No; todos los demás ítems = Sí."
+  ],
+
+  "reasoning_summary": "El agente Brucella melitensis (BIO-BACT-0028) está identificado con exposición frecuente. Solo un control está incumplido (limpieza/desinfección periódica de equipos), lo que representa un 6.25% de incumplimiento sobre 16 controles aplicables. La probabilidad de exposición se clasifica como media (GRB=4), resultando en una clase de riesgo media. Se requiere acción preventiva específica para el control incumplido."
+}
+```

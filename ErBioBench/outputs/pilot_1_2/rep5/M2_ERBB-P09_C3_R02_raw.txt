@@ -1,0 +1,112 @@
+```json
+{
+  "case_id": "ERBB-P09",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+
+      "exposure": {
+        "category": "regular_contact",
+        "basis": "contacto regular con material potencialmente contaminado"
+      },
+
+      "compliance": {
+        "percent": 83.3333,
+        "class": "non_compliant",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Revisar y reforzar medidas de protección individual frente a exposición a Brucella melitensis"
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Implementar protocolos de higiene específicos para manipulación de material potencialmente contaminado"
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Capacitar al trabajador sobre riesgos biológicos asociados a Brucella melitensis"
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Establecer procedimientos de descontaminación y eliminación segura de residuos"
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Verificar el estado de vacunación del trabajador si aplica"
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Implementar barreras físicas o de contención para reducir exposición"
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Establecer vigilancia médica específica para exposición a Brucella melitensis"
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Revisar y actualizar el plan de prevención de riesgos biológicos"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "insufficient_information",
+    "agent_aggregation_status": "insufficient_information",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Exposición no cuantificada: falta frecuencia, cadencia y porcentaje temporal de contacto con material contaminado"
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "ERBioR reference output v0.9.0",
+    "Caso ERBB-P09 - Información ocupacional proporcionada"
+  ],
+
+  "reasoning_summary": "Evaluación basada en datos insuficientes: Brucella melitensis clasificado en grupo 3 con exposición descrita como 'contacto regular' pero sin datos cuantitativos. Cuestionario general muestra 83.33% de cumplimiento (40/48) con 8 controles fallidos. Clasificación final como 'insufficient_information' por falta de datos de exposición detallados. Se requiere revisión profesional para determinar riesgo específico y medidas de control adicionales."
+}
+```

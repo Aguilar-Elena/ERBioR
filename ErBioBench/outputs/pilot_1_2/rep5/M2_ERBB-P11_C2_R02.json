@@ -1,0 +1,63 @@
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resoluble",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "GENERAL-F2015-020",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición: Frecuente."
+      },
+      "compliance": {
+        "percent": 93.75,
+        "class": "Low",
+        "n_applicable": 16,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": 2,
+        "label": "Medium"
+      },
+      "grb": "Medium",
+      "risk_class": "3",
+      "failed_controls": [
+        "Limpieza/desinfección periódica de los equipos de trabajo"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar limpieza/desinfección periódica de los equipos de trabajo."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "3"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Exposición: Frecuente.",
+    "GENERAL-F2015-020 = No; todos los demás ítems = Sí.",
+    "En el puesto se cumplen todos los controles generales salvo la limpieza/desinfección periódica de los equipos de trabajo."
+  ],
+  "reasoning_summary": "Evaluación basada en agente único (Brucella melitensis). Exposición frecuente. Cumplimiento del 93.75% (16/17 aplicables). Fallo en control de limpieza/desinfección. Probabilidad media, GRB medio y clase de riesgo 3. Acción preventiva prioritaria: implementar limpieza/desinfección periódica."
+}

@@ -1,0 +1,65 @@
+{
+  "case_id": "ERBB-P14",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": "ERBio general questionnaire",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Occupational scenario description"
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "Partial compliance",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 3,
+        "label": "Medium"
+      },
+      "grb": "Not determinable",
+      "risk_class": "Not determinable",
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Review and improve control measures to address the 8 unanswered items in the questionnaire (16.7% non-compliance)."
+        },
+        {
+          "item_id": null,
+          "action": "Conduct professional assessment to determine regulatory classification and reference levels for SARS-CoV-2."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Regulatory classification and reference level for SARS-CoV-2 are not provided in the case. Professional assessment is required to resolve this uncertainty."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Occupational scenario description",
+    "Exposure information (Frequent)",
+    "Questionnaire information (48 items, 40 Yes, 8 No)"
+  ],
+  "reasoning_summary": "Assessment based on provided data: SARS-CoV-2 identified with unresolved classification. Exposure categorized as 'Frequent' with 83.33% compliance (40/48 applicable items). Probability derived as 'Medium' due to frequent exposure and partial compliance. GRB and risk class cannot be determined without regulatory classification. Professional review required for classification and reference level determination."
+}

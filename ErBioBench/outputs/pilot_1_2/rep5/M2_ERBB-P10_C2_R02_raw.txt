@@ -1,0 +1,76 @@
+```json
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resoluble",
+      "regulatory_group": "Bacteria (Grupo 3 según clasificación de riesgo biológico de la OMS/UE)",
+      "regulatory_minimum_group": "Grupo 3",
+      "reference_level": "Nivel de contención 3 (NCB-3 según RD 664/1997 y Directiva 2000/54/CE)",
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "AUDIT-F2015",
+
+      "exposure": {
+        "category": "FRECUENTE",
+        "basis": "Exposición declarada como frecuente en la información proporcionada"
+      },
+
+      "compliance": {
+        "percent": 99.99,
+        "class": "ALTO",
+        "n_applicable": 1,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Moderada"
+      },
+
+      "grb": 3,
+      "risk_class": "MEDIO",
+
+      "failed_controls": ["AUDIT-F2015-004"],
+
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Implementar medidas higiénicas y de protección individual específicas para Brucella melitensis según controles incumplidos en auditoría"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "MEDIO"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": "No se identifican incertidumbres relevantes en la información proporcionada"
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Información proporcionada en el caso ERBB-P10",
+    "Clasificación de Brucella melitensis según OMS/UE (Grupo 3)",
+    "Niveles de contención según RD 664/1997 y Directiva 2000/54/CE"
+  ],
+
+  "reasoning_summary": "Evaluación basada en agente único (Brucella melitensis, BIO-BACT-0028) con clasificación reguladora resoluble (Grupo 3, NCB-3). Exposición declarada como frecuente. Cumplimiento del 99.99% (1 control incumplido de 1 aplicable). Probabilidad moderada (3) derivada de exposición frecuente y alto cumplimiento. GRB=3 y clase de riesgo MEDIO. Control crítico incumplido identificado (AUDIT-F2015-004) requiere revisión profesional inmediata."
+}
+```

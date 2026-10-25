@@ -1,0 +1,89 @@
+```json
+{
+  "case_id": "ERBB-P03",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": "2",
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "Exposición frecuente según información proporcionada"
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "deficient",
+        "n_applicable": 48,
+        "n_not_applicable": 29
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "alta"
+      },
+
+      "grb": "3",
+      "risk_class": "III",
+
+      "failed_controls": [
+        "Deficiencias preventivas relevantes en el puesto de trabajo"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Implementar medidas de contención y protección específicas para Brucella melitensis"
+        },
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar el programa de prevención de riesgos biológicos"
+        },
+        {
+          "item_id": null,
+          "action": "Capacitar al personal en manejo seguro de agentes biológicos grupo 2"
+        },
+        {
+          "item_id": null,
+          "action": "Evaluar la necesidad de uso de equipos de protección individual adecuados"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "III"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Información proporcionada en el caso ERBB-P03",
+    "Clasificación de Brucella melitensis como agente del grupo 2 según ERBioR 0.9.0"
+  ],
+
+  "reasoning_summary": "Brucella melitensis está clasificada como agente del grupo 2 (regulatory_group: 2). La exposición frecuente en un puesto con deficiencias preventivas relevantes (39.58% de respuestas no conformes) determina una probabilidad alta (4) y un GRB de 3, resultando en una clase de riesgo III. Se requieren controles adicionales y revisión profesional para implementar medidas correctivas."
+}
+```

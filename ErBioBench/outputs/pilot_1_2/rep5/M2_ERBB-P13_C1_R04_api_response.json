@@ -1,0 +1,29 @@
+{
+  "id": "460814d567b54143acf86e772cdc152a",
+  "created": 1792947155,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 823,
+    "total_tokens": 1566,
+    "completion_tokens": 743,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P13\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"SARS-CoV-2\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"resolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"SARS-CoV-2\",\n      \"questionnaire_id\": null,\n\n      \"exposure\": {\n        \"category\": \"frequent\",\n        \"basis\": \"Exposición frecuente a SARS-CoV-2 en escenario ocupacional evaluado mediante ERBio.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"C\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": 0.8,\n        \"label\": \"Alta\"\n      },\n\n      \"grb\": \"Alto\",\n      \"risk_class\": \"3\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar o reforzar medidas de protección respiratoria (mascarillas FFP2/FFP3) y barreras físicas según protocolo de bioseguridad.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Garantizar ventilación adecuada en áreas de trabajo.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Capacitar al personal en prevención de riesgos biológicos y uso correcto de EPP.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Establecer protocolos de limpieza y desinfección reforzados.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"resolved\",\n    \"agent_aggregation_status\": \"resolved\",\n    \"workplace_global_class\": \"3\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    \"Exposición frecuente a SARS-CoV-2 en escenario ocupacional evaluado mediante ERBio.\",\n    \"40 respuestas Sí y 8 respuestas No en cuestionario de 48 ítems.\"\n  ],\n\n  \"reasoning_summary\": \"El agente SARS-CoV-2 (BIO-VIR-0064) presenta exposición frecuente en el escenario ocupacional. La probabilidad de exposición se clasifica como alta (80%) basada en la frecuencia declarada. La tasa de cumplimiento del 83.33% (40/48) sugiere controles parcialmente implementados. Se asigna un GRB Alto y clase de riesgo 3. No se identifican controles específicos incumplidos en los datos proporcionados, pero se recomiendan acciones preventivas genéricas para SARS-CoV-2 en entornos de riesgo biológico.\"\n}\n```"
+      }
+    }
+  ]
+}

@@ -1,0 +1,439 @@
+```json
+{
+  "case_id": "ERBB-P15",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Ebolavirus",
+      "agent_id": "BIO-VIR-0040",
+      "classification_status": "resolved",
+      "regulatory_group": "4",
+      "regulatory_minimum_group": "4",
+      "reference_level": 4,
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": "3",
+      "regulatory_minimum_group": "3",
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus",
+      "questionnaire_id": "Auditoría",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 96.77,
+        "class": "High",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "Very High"
+      },
+
+      "grb": 4,
+      "risk_class": "Extreme",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": "P1",
+          "action": "Implementar medidas de contención de nivel 4 (BSL-4) para Ebolavirus"
+        },
+        {
+          "item_id": "P2",
+          "action": "Reforzar uso de EPP especializado (trajes de presión positiva, respiradores autónomos)"
+        },
+        {
+          "item_id": "P3",
+          "action": "Capacitación periódica en manejo de patógenos de nivel 4"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus",
+      "questionnaire_id": "General",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "Low",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "Very High"
+      },
+
+      "grb": 4,
+      "risk_class": "Extreme",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": "P1",
+          "action": "Implementar medidas de contención de nivel 4 (BSL-4) para Ebolavirus"
+        },
+        {
+          "item_id": "P2",
+          "action": "Reforzar uso de EPP especializado (trajes de presión positiva, respiradores autónomos)"
+        },
+        {
+          "item_id": "P3",
+          "action": "Capacitación periódica en manejo de patógenos de nivel 4"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus",
+      "questionnaire_id": "Trabajadores",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 58.82,
+        "class": "Medium",
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "Very High"
+      },
+
+      "grb": 4,
+      "risk_class": "Extreme",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": "P1",
+          "action": "Implementar medidas de contención de nivel 4 (BSL-4) para Ebolavirus"
+        },
+        {
+          "item_id": "P2",
+          "action": "Reforzar uso de EPP especializado (trajes de presión positiva, respiradores autónomos)"
+        },
+        {
+          "item_id": "P3",
+          "action": "Capacitación periódica en manejo de patógenos de nivel 4"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Auditoría",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 96.77,
+        "class": "High",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "Very High"
+      },
+
+      "grb": 3,
+      "risk_class": "Very High",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": "P1",
+          "action": "Implementar medidas de contención de nivel 3 (BSL-3) para Brucella melitensis"
+        },
+        {
+          "item_id": "P2",
+          "action": "Reforzar uso de EPP (guantes, mascarillas FFP3, protección ocular)"
+        },
+        {
+          "item_id": "P3",
+          "action": "Vacunación del personal expuesto (si disponible)"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "General",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "Low",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "Very High"
+      },
+
+      "grb": 3,
+      "risk_class": "Very High",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": "P1",
+          "action": "Implementar medidas de contención de nivel 3 (BSL-3) para Brucella melitensis"
+        },
+        {
+          "item_id": "P2",
+          "action": "Reforzar uso de EPP (guantes, mascarillas FFP3, protección ocular)"
+        },
+        {
+          "item_id": "P3",
+          "action": "Vacunación del personal expuesto (si disponible)"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Trabajadores",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 58.82,
+        "class": "Medium",
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "Very High"
+      },
+
+      "grb": 3,
+      "risk_class": "Very High",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": "P1",
+          "action": "Implementar medidas de contención de nivel 3 (BSL-3) para Brucella melitensis"
+        },
+        {
+          "item_id": "P2",
+          "action": "Reforzar uso de EPP (guantes, mascarillas FFP3, protección ocular)"
+        },
+        {
+          "item_id": "P3",
+          "action": "Vacunación del personal expuesto (si disponible)"
+        }
+      ]
+    },
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": "Auditoría",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 96.77,
+        "class": "High",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "Very High"
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": "P1",
+          "action": "Evaluar nivel de contención requerido mediante análisis de riesgo específico"
+        },
+        {
+          "item_id": "P2",
+          "action": "Implementar medidas de contención provisionales de nivel 3 hasta clasificación definitiva"
+        },
+        {
+          "item_id": "P3",
+          "action": "Restringir acceso a áreas de trabajo con el agente"
+        }
+      ]
+    },
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": "General",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "Low",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "Very High"
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": "P1",
+          "action": "Evaluar nivel de contención requerido mediante análisis de riesgo específico"
+        },
+        {
+          "item_id": "P2",
+          "action": "Implementar medidas de contención provisionales de nivel 3 hasta clasificación definitiva"
+        },
+        {
+          "item_id": "P3",
+          "action": "Restringir acceso a áreas de trabajo con el agente"
+        }
+      ]
+    },
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": "Trabajadores",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 58.82,
+        "class": "Medium",
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "Very High"
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": "P1",
+          "action": "Evaluar nivel de contención requerido mediante análisis de riesgo específico"
+        },
+        {
+          "item_id": "P2",
+          "action": "Implementar medidas de contención provisionales de nivel 3 hasta clasificación definitiva"
+        },
+        {
+          "item_id": "P3",
+          "action": "Restringir acceso a áreas de trabajo con el agente"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "discordant_results",
+    "agent_aggregation_status": "multiple_agents_present",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "El virus hipotético no tiene clasificación regulatoria definida. No se puede determinar GRB ni clase de riesgo para este agente sin evaluación profesional adicional."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Exposición frecuente declarada para todos los agentes",
+    "Clasificación regulatoria resuelta para Ebolavirus (grupo 4) y Brucella melitensis (grupo 3)",
+    "Resultados discordantes en cuestionarios nucleares (Auditoría, General, Trabajadores)",
+    "Ausencia de información para clasificar el virus hipotético"
+  ],
+
+  "reasoning_summary": "Se evaluaron tres agentes biológicos con exposición frecuente. Ebolavirus (BIO-VIR-0040) y Brucella melitensis (BIO-BACT-0028) tienen clasificación regulatoria resuelta (grupos 4 y 3 respectivamente), mientras que el virus hipotético no está clasificado. Para los agentes clasificados, la probabilidad de exposición es 'Muy Alta' (valor 4) debido a la exposición frecuente. La GRB se calculó como el valor de referencia del agente (4 para Ebolavirus, 3 para Brucella). Las clases de riesgo resultantes son 'Extrema' para Ebolavirus y 'Muy Alta' para Brucella melitensis. Los resultados de los cuestionarios son discordantes (Alta, Baja y Media cumplimiento), pero se mantienen como evaluaciones separadas sin promediar. El virus hipotético requiere evaluación profesional para determinar su nivel de referencia y riesgo asociado."
+}
+```

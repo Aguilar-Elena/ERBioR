@@ -1,0 +1,397 @@
+```json
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": "Group 2",
+      "regulatory_minimum_group": 2,
+      "reference_level": 2,
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": "Group 3",
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "general",
+
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición declarada como frecuente para el agente"
+      },
+
+      "compliance": {
+        "percent": 39.5833,
+        "class": "Deficiente",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+
+      "grb": 6,
+      "risk_class": "Moderado",
+
+      "failed_controls": [
+        "GENERAL-F2015-020",
+        "GENERAL-F2015-021",
+        "GENERAL-F2015-022",
+        "GENERAL-F2015-023",
+        "GENERAL-F2015-024",
+        "GENERAL-F2015-025",
+        "GENERAL-F2015-026",
+        "GENERAL-F2015-027",
+        "GENERAL-F2015-028",
+        "GENERAL-F2015-029",
+        "GENERAL-F2015-030",
+        "GENERAL-F2015-031",
+        "GENERAL-F2015-032",
+        "GENERAL-F2015-033",
+        "GENERAL-F2015-034",
+        "GENERAL-F2015-035",
+        "GENERAL-F2015-036",
+        "GENERAL-F2015-037",
+        "GENERAL-F2015-038",
+        "GENERAL-F2015-039",
+        "GENERAL-F2015-040",
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Revisar y reforzar medidas de contención primaria"
+        },
+        {
+          "item_id": "GENERAL-F2015-021",
+          "action": "Implementar o mejorar procedimientos de descontaminación"
+        },
+        {
+          "item_id": "GENERAL-F2015-022",
+          "action": "Capacitación específica en manejo de agentes biológicos"
+        },
+        {
+          "item_id": "GENERAL-F2015-023",
+          "action": "Evaluar y actualizar equipos de protección individual"
+        },
+        {
+          "item_id": "GENERAL-F2015-024",
+          "action": "Establecer protocolos de vigilancia médica"
+        },
+        {
+          "item_id": "GENERAL-F2015-025",
+          "action": "Revisar y optimizar ventilación y flujo de aire"
+        },
+        {
+          "item_id": "GENERAL-F2015-026",
+          "action": "Implementar señalización de riesgo biológico"
+        },
+        {
+          "item_id": "GENERAL-F2015-027",
+          "action": "Documentar y revisar periódicamente el plan de prevención"
+        },
+        {
+          "item_id": "GENERAL-F2015-028",
+          "action": "Establecer procedimientos de limpieza y desinfección"
+        },
+        {
+          "item_id": "GENERAL-F2015-029",
+          "action": "Revisar protocolos de manejo de residuos biológicos"
+        },
+        {
+          "item_id": "GENERAL-F2015-030",
+          "action": "Implementar barreras físicas adicionales"
+        },
+        {
+          "item_id": "GENERAL-F2015-031",
+          "action": "Establecer registros de exposición y control"
+        },
+        {
+          "item_id": "GENERAL-F2015-032",
+          "action": "Revisar y actualizar el plan de emergencia"
+        },
+        {
+          "item_id": "GENERAL-F2015-033",
+          "action": "Capacitar en respuesta a incidentes biológicos"
+        },
+        {
+          "item_id": "GENERAL-F2015-034",
+          "action": "Evaluar eficacia de medidas de control existentes"
+        },
+        {
+          "item_id": "GENERAL-F2015-035",
+          "action": "Implementar medidas de segregación de áreas"
+        },
+        {
+          "item_id": "GENERAL-F2015-036",
+          "action": "Establecer protocolos de transporte seguro"
+        },
+        {
+          "item_id": "GENERAL-F2015-037",
+          "action": "Revisar y actualizar fichas de datos de seguridad"
+        },
+        {
+          "item_id": "GENERAL-F2015-038",
+          "action": "Implementar monitoreo ambiental"
+        },
+        {
+          "item_id": "GENERAL-F2015-039",
+          "action": "Establecer procedimientos de notificación de incidentes"
+        },
+        {
+          "item_id": "GENERAL-F2015-040",
+          "action": "Revisar y actualizar políticas de acceso a áreas"
+        },
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Implementar medidas de higiene personal reforzadas"
+        },
+        {
+          "item_id": "GENERAL-F2015-026",
+          "action": "Establecer protocolos de almacenamiento seguro"
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Revisar y actualizar evaluaciones de riesgo específicas"
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Implementar medidas de control de vectores"
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Establecer programas de mantenimiento preventivo"
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Revisar y actualizar protocolos de trabajo"
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Implementar medidas de control de derrames"
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Establecer registros de mantenimiento de equipos"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición declarada como frecuente para el agente"
+      },
+
+      "compliance": {
+        "percent": 39.5833,
+        "class": "Deficiente",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+
+      "grb": 9,
+      "risk_class": "Importante",
+
+      "failed_controls": [
+        "GENERAL-F2015-020",
+        "GENERAL-F2015-021",
+        "GENERAL-F2015-022",
+        "GENERAL-F2015-023",
+        "GENERAL-F2015-024",
+        "GENERAL-F2015-025",
+        "GENERAL-F2015-026",
+        "GENERAL-F2015-027",
+        "GENERAL-F2015-028",
+        "GENERAL-F2015-029",
+        "GENERAL-F2015-030",
+        "GENERAL-F2015-031",
+        "GENERAL-F2015-032",
+        "GENERAL-F2015-033",
+        "GENERAL-F2015-034",
+        "GENERAL-F2015-035",
+        "GENERAL-F2015-036",
+        "GENERAL-F2015-037",
+        "GENERAL-F2015-038",
+        "GENERAL-F2015-039",
+        "GENERAL-F2015-040",
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Revisar y reforzar medidas de contención primaria"
+        },
+        {
+          "item_id": "GENERAL-F2015-021",
+          "action": "Implementar o mejorar procedimientos de descontaminación"
+        },
+        {
+          "item_id": "GENERAL-F2015-022",
+          "action": "Capacitación específica en manejo de agentes biológicos de alto riesgo"
+        },
+        {
+          "item_id": "GENERAL-F2015-023",
+          "action": "Evaluar y actualizar equipos de protección individual de nivel superior"
+        },
+        {
+          "item_id": "GENERAL-F2015-024",
+          "action": "Establecer protocolos de vigilancia médica especializada"
+        },
+        {
+          "item_id": "GENERAL-F2015-025",
+          "action": "Revisar y optimizar ventilación y flujo de aire con filtros HEPA"
+        },
+        {
+          "item_id": "GENERAL-F2015-026",
+          "action": "Implementar señalización de riesgo biológico de nivel 3"
+        },
+        {
+          "item_id": "GENERAL-F2015-027",
+          "action": "Documentar y revisar periódicamente el plan de prevención con enfoque en contención"
+        },
+        {
+          "item_id": "GENERAL-F2015-028",
+          "action": "Establecer procedimientos de limpieza y desinfección de nivel 3"
+        },
+        {
+          "item_id": "GENERAL-F2015-029",
+          "action": "Revisar protocolos de manejo de residuos biológicos de alto riesgo"
+        },
+        {
+          "item_id": "GENERAL-F2015-030",
+          "action": "Implementar barreras físicas de contención de nivel 3"
+        },
+        {
+          "item_id": "GENERAL-F2015-031",
+          "action": "Establecer registros de exposición y control con trazabilidad completa"
+        },
+        {
+          "item_id": "GENERAL-F2015-032",
+          "action": "Revisar y actualizar el plan de emergencia con simulacros específicos"
+        },
+        {
+          "item_id": "GENERAL-F2015-033",
+          "action": "Capacitar en respuesta a incidentes biológicos de alto riesgo"
+        },
+        {
+          "item_id": "GENERAL-F2015-034",
+          "action": "Evaluar eficacia de medidas de control con pruebas específicas"
+        },
+        {
+          "item_id": "GENERA-F2015-035",
+          "action": "Implementar medidas de segregación de áreas con presión negativa"
+        },
+        {
+          "item_id": "GENERAL-F2015-036",
+          "action": "Establecer protocolos de transporte seguro con triple embalaje"
+        },
+        {
+          "item_id": "GENERAL-F2015-037",
+          "action": "Revisar y actualizar fichas de datos de seguridad con información de riesgo 3"
+        },
+        {
+          "item_id": "GENERAL-F2015-038",
+          "action": "Implementar monitoreo ambiental con periodicidad reforzada"
+        },
+        {
+          "item_id": "GENERAL-F2015-039",
+          "action": "Establecer procedimientos de notificación inmediata de incidentes"
+        },
+        {
+          "item_id": "GENERAL-F2015-040",
+          "action": "Revisar y actualizar políticas de acceso a áreas con restricciones adicionales"
+        },
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Implementar medidas de higiene personal con protocolos específicos"
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Establecer protocolos de almacenamiento seguro con acceso restringido"
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Revisar y actualizar evaluaciones de riesgo específicas con enfoque en Brucella"
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Implementar medidas de control de vectores con enfoque en zoonosis"
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Establecer programas de mantenimiento preventivo con enfoque en bioseguridad"
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Revisar y actualizar protocolos de trabajo con enfoque en contención máxima"
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Implementar medidas de control de derrames con kits específicos"
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Establecer registros de mantenimiento de equipos con trazabilidad biológica"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "source_rule_unresolved_for_discordant_questionnaires",
+    "agent_aggregation_status": "unresolved_multi_agent_discordance",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": "No se ha inferido información ausente ni se ha aplicado agregación no definida por la regla de origen. Las evaluaciones se mantienen separadas según lo requerido."
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "ERBioR reference version: 0.9.0",
+    "Benchmark: ErBioBench-pilot

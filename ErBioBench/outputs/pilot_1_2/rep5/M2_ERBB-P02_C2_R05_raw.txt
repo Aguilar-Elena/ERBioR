@@ -1,0 +1,86 @@
+```json
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resoluble",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": "No aplica (agente zoonótico con riesgo laboral específico)",
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+
+      "questionnaire_id": "ERBio-general-48",
+
+      "exposure": {
+        "category": "Muy frecuente",
+        "basis": "Exposición muy frecuente durante la jornada laboral"
+      },
+
+      "compliance": {
+        "percent": 83.33,
+        "class": "No conforme",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "Muy probable"
+      },
+
+      "grb": 4,
+      "risk_class": "Muy alto",
+
+      "failed_controls": [
+        "Cumplimiento general del cuestionario (83.33% de respuestas afirmativas)"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "Q48-1",
+          "action": "Revisión exhaustiva de controles de exposición a Brucella melitensis en el puesto de trabajo"
+        },
+        {
+          "item_id": "Q48-2",
+          "action": "Implementación de medidas adicionales de protección específica para agentes zoonóticos"
+        },
+        {
+          "item_id": "Q48-3",
+          "action": "Capacitación específica sobre riesgos biológicos y medidas preventivas"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Muy alto"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": "No se identifican incertidumbres relevantes en la información proporcionada"
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "Exposición muy frecuente a Brucella melitensis",
+    "Cumplimiento del cuestionario general ERBio (48 ítems): 40 respuestas Sí (83.33%)"
+  ],
+
+  "reasoning_summary": "Evaluación basada en exposición muy frecuente a Brucella melitensis (agente grupo 2) con cumplimiento del 83.33% en cuestionario de 48 ítems. Probabilidad de exposición muy probable (4) y GRB de 4, resultando en clase de riesgo muy alto. Se identifican controles incumplidos en el cuestionario que requieren revisión específica para este agente zoonótico."
+}
+```

@@ -1,0 +1,29 @@
+{
+  "id": "6f78a59225ba4db2a6ad432f82de5c7b",
+  "created": 1792946683,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 840,
+    "total_tokens": 1357,
+    "completion_tokens": 517,
+    "prompt_tokens_details": {
+      "cached_tokens": 112
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P07\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"ErBioBench fictitious biological agent\",\n      \"agent_id\": null,\n      \"classification_status\": \"UNRESOLVED\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"ErBioBench fictitious biological agent\",\n\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"No se aporta información suficiente para determinar la categoría de exposición.\"\n      },\n\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": null,\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Realizar una evaluación profesional específica para determinar la naturaleza, riesgos y controles aplicables al agente 'ErBioBench fictitious biological agent'.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"NOT_APPLICABLE\",\n    \"agent_aggregation_status\": \"UNRESOLVED\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"No existe clasificación reglamentaria ni información suficiente sobre el agente para realizar una evaluación de riesgo biológico laboral.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [],\n\n  \"reasoning_summary\": \"El agente comunicado ('ErBioBench fictitious biological agent') no tiene correspondencia en el registro legal de ERBioR ni clasificación reglamentaria. La información proporcionada es insuficiente para determinar su grupo de riesgo, nivel de referencia, exposición o controles aplicables. Se requiere una valoración profesional especializada para evaluar su peligrosidad y establecer medidas preventivas adecuadas.\"\n}\n```"
+      }
+    }
+  ]
+}

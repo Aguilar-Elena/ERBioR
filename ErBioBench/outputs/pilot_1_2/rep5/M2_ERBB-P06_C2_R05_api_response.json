@@ -1,0 +1,29 @@
+{
+  "id": "ce55d1ffc974478583e8ab55d739fe54",
+  "created": 1792947492,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1070,
+    "total_tokens": 2116,
+    "completion_tokens": 1046,
+    "prompt_tokens_details": {
+      "cached_tokens": 416
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P06\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Actinomadura madurae\",\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    },\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"agent_name\": \"Actinomadura madurae\",\n      \"questionnaire_id\": \"Cuestionario general ERBio: 48 ítems\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición para ambos: Frecuente\"\n      },\n\n      \"compliance\": {\n        \"percent\": 60.42,\n        \"class\": \"Partial\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Moderate\"\n      },\n\n      \"grb\": \"Moderate\",\n      \"risk_class\": \"3\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Evaluar la clasificación reglamentaria específica de Actinomadura madurae para determinar el nivel de referencia aplicable.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar medidas de control adicionales basadas en la evaluación profesional de los riesgos asociados a Actinomadura madurae.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"Cuestionario general ERBio: 48 ítems\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Exposición para ambos: Frecuente\"\n      },\n\n      \"compliance\": {\n        \"percent\": 60.42,\n        \"class\": \"Partial\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Moderate\"\n      },\n\n      \"grb\": \"Moderate\",\n      \"risk_class\": \"3\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Evaluar la clasificación reglamentaria específica de Brucella melitensis para determinar el nivel de referencia aplicable.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Implementar medidas de control adicionales basadas en la evaluación profesional de los riesgos asociados a Brucella melitensis.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"discordant_results_preserved_separately\",\n    \"agent_aggregation_status\": \"agents_preserved_separately\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"No se dispone de clasificación reglamentaria ni niveles de referencia para los agentes identificados. Se requiere evaluación profesional para determinar los riesgos específicos.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Exposición para ambos: Frecuente\",\n    \"19 respuestas Sí y 29 respuestas No en el cuestionario general ERBio de 48 ítems\"\n  ],\n\n  \"reasoning_summary\": \"Se identificaron dos agentes biológicos (Actinomadura madurae y Brucella melitensis) sin clasificación reglamentaria disponible. Ambos presentan exposición frecuente y cumplimiento parcial (60.42%) en el cuestionario de 48 ítems. La probabilidad se clasificó como moderada para ambos, resultando en un GRB moderado y clase de riesgo 3. Se requiere evaluación profesional debido a la falta de información reglamentaria específica y la necesidad de determinar niveles de referencia y controles adecuados.\"\n}\n```"
+      }
+    }
+  ]
+}

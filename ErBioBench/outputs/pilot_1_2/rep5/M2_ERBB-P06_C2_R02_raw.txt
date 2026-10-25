@@ -1,0 +1,127 @@
+```json
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio: Cuestionario general ERBio: 48 ítems",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición para ambos: Frecuente."
+      },
+
+      "compliance": {
+        "percent": 60.42,
+        "class": "C",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 0.6,
+        "label": "Medium"
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Evaluar la clasificación reglamentaria específica de Actinomadura madurae para determinar el nivel de referencia y GRB aplicable."
+        },
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar los controles de exposición existentes para agentes biológicos en el puesto de trabajo."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio: Cuestionario general ERBio: 48 ítems",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición para ambos: Frecuente."
+      },
+
+      "compliance": {
+        "percent": 60.42,
+        "class": "C",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 0.6,
+        "label": "Medium"
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Evaluar la clasificación reglamentaria específica de Brucella melitensis para determinar el nivel de referencia y GRB aplicable."
+        },
+        {
+          "item_id": null,
+          "action": "Implementar medidas de contención específicas para Brucella melitensis, dado su potencial patógeno."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "discordant_agents",
+    "agent_aggregation_status": "no_aggregation",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "No se dispone de clasificación reglamentaria ni niveles de referencia para los agentes identificados. Se requiere evaluación profesional para determinar GRB y clase de riesgo."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Exposición para ambos: Frecuente.",
+    "19 respuestas Sí y 29 respuestas No en cuestionario general ERBio (48 ítems).",
+    "No existe autorización para promediar ni colapsar resultados."
+  ],
+
+  "reasoning_summary": "Dos agentes biológicos con exposición frecuente evaluados mediante cuestionario general ERBio (60.42% de cumplimiento, clase C). Clasificación reglamentaria no disponible para ninguno, requiriendo evaluación profesional para GRB y riesgo. Resultados discordantes por agentes distintos, sin agregación posible. Probabilidad de exposición media para ambos."
+}
+```

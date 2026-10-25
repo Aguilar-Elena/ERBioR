@@ -1,0 +1,76 @@
+```json
+{
+  "case_id": "ERBB-P04",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio-48",
+
+      "exposure": {
+        "category": "frequent",
+        "basis": "Cuestionario general ERBio: 48 ítems. Exposición: Frecuente."
+      },
+
+      "compliance": {
+        "percent": 75.0,
+        "class": "C",
+        "n_applicable": 48,
+        "n_not_applicable": 32
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Moderada"
+      },
+
+      "grb": "2",
+      "risk_class": "Medio",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Evaluar la necesidad de implementar medidas de contención específicas para exposición frecuente a Actinomadura madurae, considerando su clasificación como agente biológico potencialmente patógeno."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "Medio"
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "No se dispone de información sobre la clasificación regulatoria específica de Actinomadura madurae en el contexto del caso proporcionado."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Cuestionario general ERBio: 48 ítems",
+    "Exposición: Frecuente",
+    "Respuestas: 12 Sí, 4 No y 32 No procede"
+  ],
+
+  "reasoning_summary": "Exposición frecuente a Actinomadura madurae con un 75% de cumplimiento en el cuestionario (48 ítems, 32 no aplicables). Probabilidad de riesgo moderada (GRB 2). Clasificación regulatoria no proporcionada en el caso, requiriendo evaluación profesional para determinar grupo de riesgo y controles específicos."
+}
+```

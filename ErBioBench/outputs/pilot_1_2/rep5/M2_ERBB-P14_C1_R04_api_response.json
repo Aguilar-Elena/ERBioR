@@ -1,0 +1,29 @@
+{
+  "id": "15fe0311787c441a88941aad7dbe2a2e",
+  "created": 1792947168,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 793,
+    "total_tokens": 1429,
+    "completion_tokens": 636,
+    "prompt_tokens_details": {
+      "cached_tokens": 224
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P14\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"SARS-CoV-2\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"resolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"SARS-CoV-2\",\n      \"questionnaire_id\": \"ERBio general questionnaire\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Occupational exposure\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"High compliance\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"High\"\n      },\n\n      \"grb\": \"High\",\n      \"risk_class\": \"High\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Implement or reinforce respiratory protection measures (e.g., N95/FFP2 masks, ventilation controls).\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Ensure availability and proper use of hand hygiene facilities and disinfectants.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Provide regular training on biological hazards and safe work practices.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Monitor and review exposure controls periodically.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"resolved\",\n    \"agent_aggregation_status\": \"resolved\",\n    \"workplace_global_class\": \"High\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\"ERBio general questionnaire\", \"Exposure information: Frequent\", \"Response data: 40 Yes, 8 No\"],\n\n  \"reasoning_summary\": \"SARS-CoV-2 (BIO-VIR-0064) identified with frequent occupational exposure. Questionnaire responses indicate high compliance (83.33%) with 40 Yes and 8 No answers. Probability of exposure-related harm is classified as High based on frequent exposure and biological risk group (GRB) classification. Risk class determined as High. Preventive actions focus on respiratory protection, hygiene, training, and control monitoring.\"\n}\n```"
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+```json
+{
+  "case_id": "ERBB-P09",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+
+      "exposure": {
+        "category": "regular_contact",
+        "basis": "contacto regular con material potencialmente contaminado por Brucella melitensis"
+      },
+
+      "compliance": {
+        "percent": 83.3333,
+        "class": "non_compliant",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": null,
+        "label": null
+      },
+
+      "grb": null,
+      "risk_class": null,
+
+      "failed_controls": [
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Revisar y fortalecer medidas de protección colectiva frente a exposición a Brucella melitensis."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Implementar formación específica sobre riesgos biológicos y medidas de prevención para Brucella melitensis."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Establecer protocolos de higiene y descontaminación para materiales potencialmente contaminados."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Revisar y actualizar el plan de prevención de riesgos biológicos según normativa aplicable."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Garantizar el uso adecuado de equipos de protección individual (EPI) específicos para Brucella melitensis."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Implementar medidas de vigilancia de la salud específicas para exposición a Brucella melitensis."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Establecer procedimientos de notificación y registro de incidentes relacionados con exposición biológica."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Revisar la evaluación de riesgos con periodicidad anual o tras cambios en el proceso."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "insufficient_information",
+    "agent_aggregation_status": "insufficient_information",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Falta información específica sobre frecuencia, cadencia y porcentaje de tiempo de exposición al agente biológico Brucella melitensis."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "ERBioR reference version 0.9.0",
+    "Benchmark: ErBioBench-pilot-1.0"
+  ],
+
+  "reasoning_summary": "La evaluación se basa en la información proporcionada y el output de referencia de ERBioR. Se clasifica a Brucella melitensis en el grupo 3 según normativa, con exposición descrita como 'contacto regular' pero sin datos cuantitativos. El cuestionario general muestra un 83.33% de cumplimiento (40 Sí / 8 No), con 8 controles incumplidos. No se puede determinar probabilidad, GRB ni clase de riesgo por insuficiencia de datos. Se requiere revisión profesional para completar la evaluación."
+}
+```

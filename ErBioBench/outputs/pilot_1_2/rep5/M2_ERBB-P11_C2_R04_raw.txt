@@ -1,0 +1,76 @@
+```json
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resoluble",
+      "regulatory_group": "2",
+      "regulatory_minimum_group": "2",
+      "reference_level": "No aplicable (agente con clasificación grupal)",
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "GENERAL-F2015-020",
+
+      "exposure": {
+        "category": "F",
+        "basis": "Exposición: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 93.75,
+        "class": "No cumple",
+        "n_applicable": 16,
+        "n_not_applicable": 1
+      },
+
+      "probability": {
+        "value": 4,
+        "label": "Alta"
+      },
+
+      "grb": 4,
+      "risk_class": "Muy alto",
+
+      "failed_controls": ["Limpieza/desinfección periódica de equipos de trabajo"],
+
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar programa de limpieza y desinfección periódica de equipos de trabajo"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Muy alto"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "Cumplimiento general de controles salvo limpieza/desinfección periódica",
+    "Exposición frecuente a Brucella melitensis",
+    "Respuesta cuestionario: 15/16 ítems cumplidos (93.75% cumplimiento)"
+  ],
+
+  "reasoning_summary": "Evaluación basada en exposición frecuente a Brucella melitensis (grupo 2) con un 93.75% de cumplimiento en controles generales. La probabilidad de exposición es alta (4) debido a la frecuencia y al único control no implementado (limpieza/desinfección). Esto deriva en un GRB de 4 y una clase de riesgo 'Muy alto'. Se identifica un control fallido específico y se requiere acción preventiva concreta."
+}
+```

@@ -1,0 +1,78 @@
+```json
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "GENERAL-F2015",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 90,
+        "class": "A",
+        "n_applicable": 1,
+        "n_not_applicable": 1
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Moderada"
+      },
+
+      "grb": 4,
+      "risk_class": "Alto",
+
+      "failed_controls": [
+        "Limpieza/desinfección periódica de los equipos de trabajo"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar limpieza y desinfección periódica de los equipos de trabajo"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "Alto"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "Cuestionario general ERBio",
+    "Exposición: Frecuente",
+    "GENERAL-F2015-020 = No; todos los demás ítems = Sí"
+  ],
+
+  "reasoning_summary": "El agente Brucella melitensis (BIO-BACT-0028) presenta exposición frecuente. Solo incumple el control de limpieza/desinfección periódica de equipos (ítem GENERAL-F2015-020). La probabilidad de exposición se clasifica como moderada (3), resultando en un GRB de 4 y una clase de riesgo Alto. Se requiere implementar el control fallido para reducir el riesgo."
+}
+```

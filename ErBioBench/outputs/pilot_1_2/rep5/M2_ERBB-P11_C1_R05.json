@@ -1,0 +1,63 @@
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "GENERAL-F2015-000",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición frecuente al agente biológico en el puesto de trabajo."
+      },
+      "compliance": {
+        "percent": 90,
+        "class": "partial",
+        "n_applicable": 1,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": 3,
+        "label": "Moderada"
+      },
+      "grb": 3,
+      "risk_class": "Moderado",
+      "failed_controls": [
+        "Limpieza/desinfección periódica de los equipos de trabajo"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implementar programa de limpieza y desinfección periódica de los equipos de trabajo."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "Moderado"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Cuestionario general ERBio.",
+    "Exposición frecuente al agente biológico Brucella melitensis.",
+    "Cumplimiento parcial de controles generales (90% de los ítems aplicables)."
+  ],
+  "reasoning_summary": "Exposición frecuente a Brucella melitensis en puesto con cumplimiento parcial de controles generales (90%). Solo incumplimiento identificado: falta de limpieza/desinfección periódica de equipos. Probabilidad de riesgo moderada (GRB=3), requiriendo acción preventiva específica (implementación de limpieza/desinfección)."
+}

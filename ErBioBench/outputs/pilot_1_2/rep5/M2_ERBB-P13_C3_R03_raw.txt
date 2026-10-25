@@ -1,0 +1,130 @@
+```json
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)",
+      "questionnaire_id": "general",
+
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición frecuente a SARS-CoV-2 en escenario ocupacional"
+      },
+
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+
+      "grb": 3,
+      "risk_class": "Tolerable",
+
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-041"
+        },
+        {
+          "item_id": "GENERAL-F2015-042"
+        },
+        {
+          "item_id": "GENERAL-F2015-043"
+        },
+        {
+          "item_id": "GENERAL-F2015-044"
+        },
+        {
+          "item_id": "GENERAL-F2015-045"
+        },
+        {
+          "item_id": "GENERAL-F2015-046"
+        },
+        {
+          "item_id": "GENERAL-F2015-047"
+        },
+        {
+          "item_id": "GENERAL-F2015-048"
+        }
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Revisar y reforzar controles relacionados con medidas de protección individual y colectiva frente a SARS-CoV-2"
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Implementar o mejorar protocolos de ventilación y limpieza en áreas de exposición"
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Capacitar al personal sobre riesgos y medidas preventivas específicas para SARS-CoV-2"
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Revisar y actualizar el plan de prevención y contingencia para exposición a SARS-CoV-2"
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Garantizar el suministro y uso correcto de equipos de protección individual (EPIs) adecuados"
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Establecer procedimientos de monitoreo y seguimiento de casos sospechosos o confirmados"
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Evaluar la eficacia de las medidas implementadas y ajustar según resultados"
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Documentar y registrar todas las acciones preventivas y correctivas adoptadas"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Tolerable"
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "ERBioR reference output v0.9.0",
+    "Cuestionario general: 48 ítems",
+    "Exposición: Frecuente",
+    "40 respuestas Sí y 8 respuestas No"
+  ],
+
+  "reasoning_summary": "Evaluación basada exclusivamente en el output de referencia ERBioR v0.9.0. Agente clasificado en Anexo II con grupo regulatorio mínimo 3 y nivel de referencia 3. Cumplimiento del 83.33% (clase Aceptable) en cuestionario de 48 ítems. Probabilidad de exposición baja. Riesgo clasificado como Tolerable con prioridad media. Se identifican 8 controles incumplidos que requieren revisión preventiva. No se requiere valoración profesional adicional según el output de referencia."
+}
+```

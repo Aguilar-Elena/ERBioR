@@ -1,0 +1,29 @@
+{
+  "id": "174c4c8e5a3944448a4638deb0a54b10",
+  "created": 1792946710,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 1503,
+    "total_tokens": 2588,
+    "completion_tokens": 1085,
+    "prompt_tokens_details": {
+      "cached_tokens": 368
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P09\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n\n      \"exposure\": {\n        \"category\": \"regular_contact\",\n        \"basis\": \"contacto regular con material potencialmente contaminado\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.3333,\n        \"class\": \"non_compliant\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n\n      \"grb\": null,\n      \"risk_class\": null,\n\n      \"failed_controls\": [\n        \"GENERAL-F2015-041\",\n        \"GENERAL-F2015-042\",\n        \"GENERAL-F2015-043\",\n        \"GENERAL-F2015-044\",\n        \"GENERAL-F2015-045\",\n        \"GENERAL-F2015-046\",\n        \"GENERAL-F2015-047\",\n        \"GENERAL-F2015-048\"\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Revisar y actualizar medidas de protección individual frente a exposición a Brucella melitensis.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Implementar protocolos de higiene específicos para manipulación de materiales potencialmente contaminados.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Capacitar al trabajador sobre riesgos biológicos asociados a Brucella melitensis y medidas preventivas.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Establecer procedimientos de descontaminación y gestión de residuos contaminados.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Verificar la disponibilidad y uso correcto de equipos de protección individual (EPI) adecuados.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Implementar controles de ingeniería para reducir la exposición (ej. ventilación, barreras físicas).\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Realizar evaluaciones médicas específicas para exposición a Brucella melitensis.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Documentar y revisar periódicamente el plan de prevención de riesgos biológicos.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"insufficient_information\",\n    \"agent_aggregation_status\": \"insufficient_information\",\n    \"workplace_global_class\": null\n  },\n\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"No se especifica frecuencia, cadencia ni porcentaje de tiempo de exposición, lo que impide determinar la probabilidad de exposición y el nivel de riesgo concreto.\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"ERBioR reference output v0.9.0\",\n    \"Caso ERBB-P09\"\n  ],\n\n  \"reasoning_summary\": \"La evaluación se basa en la clasificación de Brucella melitensis como agente del grupo 3 según normativa, pero la falta de datos cuantitativos sobre exposición ('contacto regular' sin detalles) y la ausencia de información en el riesgo_score impiden asignar probabilidad, GRB o clase de riesgo. Se identifican 8 controles incumplidos en el cuestionario general que requieren revisión profesional. La incertidumbre principal radica en la insuficiencia de datos de exposición para una evaluación determinista.\"\n}\n```"
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "resolved",
+      "regulatory_group": "Grupo 3",
+      "regulatory_minimum_group": "Grupo 3",
+      "reference_level": "Nivel de contención 3 (NCB-3)",
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": "Grupo 3",
+      "regulatory_minimum_group": "Grupo 3",
+      "reference_level": "Nivel de contención 3 (NCB-3)",
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "ERBio-48",
+      "exposure": {
+        "category": "FRECUENTE",
+        "basis": "Información proporcionada en el caso"
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "C",
+        "n_applicable": 40,
+        "n_not_applicable": 8
+      },
+      "probability": {
+        "value": 0.83,
+        "label": "ALTA"
+      },
+      "grb": "ALTO",
+      "risk_class": "III",
+      "failed_controls": [
+        "Controles específicos para agentes del Grupo 3 no verificados en el cuestionario"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-001",
+          "action": "Implementar medidas de contención NCB-3 para Bacillus anthracis"
+        },
+        {
+          "item_id": "PA-002",
+          "action": "Capacitación específica en manejo de agentes del Grupo 3"
+        },
+        {
+          "item_id": "PA-003",
+          "action": "Evaluación periódica de la efectividad de los controles implementados"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48",
+      "exposure": {
+        "category": "FRECUENTE",
+        "basis": "Información proporcionada en el caso"
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "C",
+        "n_applicable": 40,
+        "n_not_applicable": 8
+      },
+      "probability": {
+        "value": 0.83,
+        "label": "ALTA"
+      },
+      "grb": "ALTO",
+      "risk_class": "III",
+      "failed_controls": [
+        "Controles específicos para agentes del Grupo 3 no verificados en el cuestionario"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-004",
+          "action": "Implementar medidas de contención NCB-3 para Brucella melitensis"
+        },
+        {
+          "item_id": "PA-005",
+          "action": "Establecer protocolos de vigilancia médica específica para brucelosis"
+        },
+        {
+          "item_id": "PA-006",
+          "action": "Reforzar medidas de higiene personal y descontaminación"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "III"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Información proporcionada en el caso ERBB-P05",
+    "Clasificación reglamentaria de Bacillus anthracis (Grupo 3, NCB-3)",
+    "Clasificación reglamentaria de Brucella melitensis (Grupo 3, NCB-3)"
+  ],
+  "reasoning_summary": "Ambos agentes biológicos (Bacillus anthracis y Brucella melitensis) están clasificados en el Grupo 3 según su potencial zoonótico y riesgo para la salud humana. La exposición frecuente (83.33% de respuestas afirmativas en el cuestionario) y la alta probabilidad de exposición justifican un nivel de riesgo ALTO (GRB) y clase de riesgo III. Se requiere evaluación profesional para implementar controles específicos de contención NCB-3 y medidas preventivas adicionales."
+}

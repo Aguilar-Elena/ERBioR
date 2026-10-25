@@ -1,0 +1,324 @@
+{
+  "case_id": "ERBB-P15",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Ebolavirus",
+      "agent_id": "BIO-VIR-0040",
+      "classification_status": "resolved",
+      "regulatory_group": "4",
+      "regulatory_minimum_group": "4",
+      "reference_level": "3",
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": "3",
+      "regulatory_minimum_group": "3",
+      "reference_level": "2",
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "ErBioBench hypothetical human virus, aislado en humanos y no clasificado",
+      "agent_id": null,
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus",
+      "questionnaire_id": "Auditoría",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+      "compliance": {
+        "percent": 96.77,
+        "class": "High compliance",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": 4,
+        "label": "High"
+      },
+      "grb": 12,
+      "risk_class": "Very High",
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": "PA-001",
+          "action": "Reforzar medidas de contención biológica para agentes grupo 4"
+        },
+        {
+          "item_id": "PA-002",
+          "action": "Capacitación específica en manejo de patógenos de alto riesgo"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus",
+      "questionnaire_id": "General",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": "Low compliance",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": 4,
+        "label": "High"
+      },
+      "grb": 12,
+      "risk_class": "Very High",
+      "failed_controls": [
+        "Control 1: Medidas de protección colectiva insuficientes",
+        "Control 2: Falta de protocolos específicos para agentes grupo 4"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-003",
+          "action": "Implementar barreras primarias y secundarias de contención"
+        },
+        {
+          "item_id": "PA-004",
+          "action": "Desarrollar y difundir protocolos específicos para Ebolavirus"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus",
+      "questionnaire_id": "Trabajadores",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+      "compliance": {
+        "percent": 58.82,
+        "class": "Moderate compliance",
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+      "probability": {
+        "value": 4,
+        "label": "High"
+      },
+      "grb": 12,
+      "risk_class": "Very High",
+      "failed_controls": [
+        "Control 3: Uso inadecuado de equipos de protección individual"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-005",
+          "action": "Supervisión directa del uso correcto de EPI"
+        },
+        {
+          "item_id": "PA-006",
+          "action": "Refuerzo en formación práctica sobre EPI"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Auditoría",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+      "compliance": {
+        "percent": 96.77,
+        "class": "High compliance",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": 3,
+        "label": "Moderate"
+      },
+      "grb": 6,
+      "risk_class": "High",
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": "PA-007",
+          "action": "Mantenimiento de medidas de contención para grupo 3"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "General",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": "Low compliance",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": 3,
+        "label": "Moderate"
+      },
+      "grb": 6,
+      "risk_class": "High",
+      "failed_controls": [
+        "Control 4: Ventilación insuficiente en áreas de trabajo"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-008",
+          "action": "Mejorar sistemas de ventilación y extracción localizada"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Trabajadores",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición de los agentes resueltos: Frecuente"
+      },
+      "compliance": {
+        "percent": 58.82,
+        "class": "Moderate compliance",
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+      "probability": {
+        "value": 3,
+        "label": "Moderate"
+      },
+      "grb": 6,
+      "risk_class": "High",
+      "failed_controls": [
+        "Control 5: Falta de higiene post-exposición"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-009",
+          "action": "Protocolos estrictos de lavado y desinfección"
+        }
+      ]
+    },
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus, aislado en humanos y no clasificado",
+      "questionnaire_id": "Auditoría",
+      "exposure": {
+        "category": "unresolved",
+        "basis": "No se aporta información suficiente para convertir el virus hipotético en un nivel de referencia final"
+      },
+      "compliance": {
+        "percent": 96.77,
+        "class": "High compliance",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": "PA-010",
+          "action": "Evaluación profesional específica para agente no clasificado"
+        }
+      ]
+    },
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus, aislado en humanos y no clasificado",
+      "questionnaire_id": "General",
+      "exposure": {
+        "category": "unresolved",
+        "basis": "No se aporta información suficiente para convertir el virus hipotético en un nivel de referencia final"
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": "Low compliance",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        "Control 6: Falta de información sobre características del agente"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-011",
+          "action": "Investigación y caracterización del agente antes de evaluación de riesgos"
+        }
+      ]
+    },
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus, aislado en humanos y no clasificado",
+      "questionnaire_id": "Trabajadores",
+      "exposure": {
+        "category": "unresolved",
+        "basis": "No se aporta información suficiente para convertir el virus hipotético en un nivel de referencia final"
+      },
+      "compliance": {
+        "percent": 58.82,
+        "class": "Moderate compliance",
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        "Control 7: Medidas preventivas genéricas sin base en características del agente"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "PA-012",
+          "action": "Suspensión de actividades con exposición potencial hasta clasificación del agente"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "discordant",
+    "agent_aggregation_status": "partial",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El virus hipotético no clasificado impide determinar niveles de referencia, probabilidad y riesgo global. Los cuestionarios muestran resultados discordantes que no permiten una evaluación consolidada."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [],
+  "reasoning_summary": "Ebolavirus (grupo 4) y Brucella melitensis (grupo 3) tienen clasificación resuelta. Para Ebolavirus se observa riesgo muy alto (GRB=12) con alta probabilidad de exposición en todos los cuestionarios, especialmente en 'General' con baja conformidad (39.58%) y controles incumplidos. Brucella melitensis presenta riesgo alto (GRB=6) con probabilidad moderada. El virus hipotético no clasificado no puede evaluarse por falta de información, requiriendo evaluación profesional específica. Los cuestionarios muestran discordancia en los resultados de cumplimiento."
+}

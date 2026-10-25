@@ -1,0 +1,151 @@
+```json
+{
+  "case_id": "ERBB-P12",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resoluble",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Auditoría",
+
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición común: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 96.77,
+        "class": "Alto cumplimiento",
+        "n_applicable": 32,
+        "n_not_applicable": 1
+      },
+
+      "probability": {
+        "value": 2,
+        "label": "Media"
+      },
+
+      "grb": 2,
+      "risk_class": "3",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": "QA-001",
+          "action": "Revisar y reforzar los controles específicos para Brucella melitensis, especialmente en exposiciones frecuentes."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "General",
+
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición común: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 39.58,
+        "class": "Bajo cumplimiento",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+
+      "grb": 3,
+      "risk_class": "4",
+
+      "failed_controls": ["Formación insuficiente", "Equipos de protección inadecuados"],
+
+      "preventive_actions": [
+        {
+          "item_id": "QG-001",
+          "action": "Implementar programa de formación obligatoria sobre riesgos biológicos y uso de EPIs."
+        },
+        {
+          "item_id": "QG-002",
+          "action": "Proporcionar equipos de protección individual adecuados y verificar su uso correcto."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Trabajadores",
+
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición común: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 58.82,
+        "class": "Moderado cumplimiento",
+        "n_applicable": 34,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+
+      "grb": 3,
+      "risk_class": "4",
+
+      "failed_controls": ["Conocimiento insuficiente sobre riesgos", "Uso inconsistente de EPIs"],
+
+      "preventive_actions": [
+        {
+          "item_id": "QT-001",
+          "action": "Realizar sesiones informativas específicas sobre Brucella melitensis y sus riesgos."
+        },
+        {
+          "item_id": "QT-002",
+          "action": "Establecer protocolos de uso obligatorio de EPIs y supervisión periódica."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "discordant_results",
+    "agent_aggregation_status": "preserve_separate",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Resultados discordantes entre cuestionarios que requieren evaluación profesional para determinar medidas preventivas globales."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Exposición común: Frecuente",
+    "Resultados cuestionarios: Auditoría (31 Sí, 1 No), General (19 Sí, 29 No), Trabajadores (20 Sí, 14 No)"
+  ],
+
+  "reasoning_summary": "Se identificó Brucella melitensis (BIO-BACT-0028) con exposición frecuente. Los tres cuestionarios presentaron resultados discordantes: Auditoría (96.77% cumplimiento, riesgo clase 3), General (39.58% cumplimiento, riesgo clase 4) y Trabajadores (58.82% cumplimiento, riesgo clase 4). Dada la discordancia, no se genera una clase global única. Se requiere revisión profesional para integrar los resultados y definir acciones preventivas globales."
+}
+```

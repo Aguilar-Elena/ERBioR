@@ -1,0 +1,128 @@
+{
+  "case_id": "ERBB-P12",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Auditoría",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición común: Frecuente"
+      },
+      "compliance": {
+        "percent": 96.8,
+        "class": "High Compliance",
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": 0.8,
+        "label": "High"
+      },
+      "grb": 4,
+      "risk_class": "High",
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": "QA-001",
+          "action": "Revisar y alinear los criterios de cumplimiento entre los diferentes cuestionarios para resolver discordancias."
+        },
+        {
+          "item_id": "QA-002",
+          "action": "Evaluar la coherencia de los resultados obtenidos en los tres instrumentos nucleares y documentar las discrepancias."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "General",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición común: Frecuente"
+      },
+      "compliance": {
+        "percent": 39.6,
+        "class": "Low Compliance",
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": 0.8,
+        "label": "High"
+      },
+      "grb": 4,
+      "risk_class": "High",
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": "QG-001",
+          "action": "Identificar y corregir las causas de la baja conformidad en el cuestionario general."
+        },
+        {
+          "item_id": "QG-002",
+          "action": "Implementar medidas correctivas para alinear los resultados con los estándares de seguridad biológica."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Trabajadores",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición común: Frecuente"
+      },
+      "compliance": {
+        "percent": 58.8,
+        "class": "Moderate Compliance",
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+      "probability": {
+        "value": 0.8,
+        "label": "High"
+      },
+      "grb": 4,
+      "risk_class": "High",
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": "QT-001",
+          "action": "Analizar las respuestas del cuestionario de trabajadores para identificar áreas de mejora en la gestión del riesgo biológico."
+        },
+        {
+          "item_id": "QT-002",
+          "action": "Capacitar a los trabajadores sobre los protocolos de seguridad biológica y verificar su implementación."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "discordant",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Los resultados de cumplimiento son discordantes entre los tres instrumentos nucleares, lo que impide una evaluación consolidada del riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Exposición común: Frecuente",
+    "Resultados de cuestionarios: Auditoría (31 Sí, 1 No), General (19 Sí, 29 No), Trabajadores (20 Sí, 14 No)"
+  ],
+  "reasoning_summary": "Se evalúa Brucella melitensis (BIO-BACT-0028) con exposición frecuente. Los tres cuestionarios nucleares muestran discordancias significativas en el cumplimiento (96.8%, 39.6% y 58.8% respectivamente), lo que genera incertidumbre en la clasificación global del riesgo. La probabilidad de exposición se considera alta (0.8) en todos los casos, resultando en un GRB de 4 y clase de riesgo alta para cada unidad evaluada. Se requiere revisión profesional para alinear los criterios y resolver las discrepancias."
+}

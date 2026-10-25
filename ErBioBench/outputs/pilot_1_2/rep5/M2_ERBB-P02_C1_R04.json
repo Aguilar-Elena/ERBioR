@@ -1,0 +1,70 @@
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio:48",
+      "exposure": {
+        "category": "very_frequent",
+        "basis": "Exposición muy frecuente durante la jornada laboral"
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": "low_compliance",
+        "n_applicable": 48,
+        "n_not_applicable": 8
+      },
+      "probability": {
+        "value": 4,
+        "label": "high"
+      },
+      "grb": "high",
+      "risk_class": "III",
+      "failed_controls": [
+        "Implementación insuficiente de medidas de control para exposición frecuente a Brucella melitensis"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisión y refuerzo de medidas de protección colectiva e individual para reducir la exposición a Brucella melitensis"
+        },
+        {
+          "item_id": null,
+          "action": "Capacitación específica en riesgos biológicos y protocolos de manipulación segura"
+        },
+        {
+          "item_id": null,
+          "action": "Evaluación médica ocupacional con seguimiento serológico periódico"
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "resolved",
+    "workplace_global_class": "III"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Exposición muy frecuente a Brucella melitensis (BIO-BACT-0028)",
+    "Cuestionario ERBio de 48 ítems con 40 respuestas afirmativas (83.33% de cumplimiento)"
+  ],
+  "reasoning_summary": "La exposición muy frecuente a Brucella melitensis en el entorno laboral, junto con un 83.33% de cumplimiento en el cuestionario ERBio (40 respuestas Sí vs 8 No), indica una alta probabilidad de riesgo biológico. Esto justifica una clasificación de riesgo alto (GRB: high) y riesgo de clase III según los criterios de evaluación proporcionados. Se requiere revisión profesional para implementar controles adicionales y medidas preventivas específicas."
+}

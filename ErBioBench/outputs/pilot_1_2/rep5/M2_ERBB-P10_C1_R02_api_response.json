@@ -1,0 +1,29 @@
+{
+  "id": "ed12928f671c45d09e44c4a71faec7be",
+  "created": 1792946393,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 875,
+    "total_tokens": 1522,
+    "completion_tokens": 647,
+    "prompt_tokens_details": {
+      "cached_tokens": 224
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P10\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"AUDIT-F2015-004\",\n\n      \"exposure\": {\n        \"category\": \"frequent\",\n        \"basis\": \"Exposición frecuente según información proporcionada.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 99,\n        \"class\": \"elevado\",\n        \"n_applicable\": 1,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Media\"\n      },\n\n      \"grb\": 3,\n      \"risk_class\": \"Moderado\",\n\n      \"failed_controls\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"action\": \"Medidas higiénicas y de protección individual\"\n        }\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"action\": \"Implementar y verificar el cumplimiento de medidas higiénicas y de protección individual específicas para Brucella melitensis.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"resolved\",\n    \"agent_aggregation_status\": \"resolved\",\n    \"workplace_global_class\": \"elevado\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [\n    \"Auditoría ERBio: todos los controles Sí excepto AUDIT-F2015-004.\",\n    \"Exposición: Frecuente.\",\n    \"AUDIT-F2015-004 = No.\"\n  ],\n\n  \"reasoning_summary\": \"Se evalúa Brucella melitensis con exposición frecuente. Cumplimiento global elevado (99%) pero incumplimiento crítico en medidas higiénicas y de protección individual (AUDIT-F2015-004). Probabilidad media (3), GRB 3 y clase de riesgo moderado. Se identifican controles incumplidos y se recomiendan acciones preventivas específicas.\"\n}\n```"
+      }
+    }
+  ]
+}

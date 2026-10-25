@@ -1,0 +1,29 @@
+{
+  "id": "104760d032f141f29ab9502997b95cac",
+  "created": 1792947601,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 793,
+    "total_tokens": 1353,
+    "completion_tokens": 560,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P14\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"SARS-CoV-2\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"resolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"SARS-CoV-2\",\n      \"questionnaire_id\": \"ERBio general questionnaire\",\n\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"occupational exposure\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"High compliance\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n\n      \"probability\": {\n        \"value\": 0.8333,\n        \"label\": \"High\"\n      },\n\n      \"grb\": \"High\",\n      \"risk_class\": \"High\",\n\n      \"failed_controls\": [],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Maintain and reinforce existing control measures given high exposure and high risk.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Ensure continuous training on biological hazards and safe work practices.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Monitor compliance with PPE and hygiene protocols.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"complete\",\n    \"agent_aggregation_status\": \"single_agent\",\n    \"workplace_global_class\": \"High\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": false,\n\n  \"sources_or_basis\": [],\n\n  \"reasoning_summary\": \"Assessment based on 48-item ERBio questionnaire with 40 Yes and 8 No responses, indicating high compliance (83.33%). Exposure to SARS-CoV-2 is frequent, leading to a high probability (0.8333) and high GRB/risk class. No failed controls reported; preventive actions focus on maintaining and reinforcing existing measures.\"\n}\n```"
+      }
+    }
+  ]
+}

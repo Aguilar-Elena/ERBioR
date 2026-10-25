@@ -1,0 +1,60 @@
+{
+  "case_id": "ERBB-P07",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench fictitious biological agent",
+      "agent_id": null,
+      "classification_status": "unclassified_not_implicitly_group1",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench fictitious biological agent",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "No se aporta información suficiente para determinar la exposición."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "No aplicar controles específicos hasta obtener clasificación reglamentaria del agente."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_applicable",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El agente no está registrado en ERBioR ni en el RD 664/1997, lo que impide asignar grupo regulatorio, nivel de referencia, exposición, cumplimiento, probabilidad, GRB o clase de riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "RD 664/1997 sobre protección de trabajadores contra riesgos relacionados con la exposición a agentes biológicos durante el trabajo.",
+    "ERBioR reference output v0.9.0"
+  ],
+  "reasoning_summary": "El agente 'ErBioBench fictitious biological agent' no figura en el registro legal consultado (ERBioR). Según el RD 664/1997, los agentes no incluidos en grupos 2-4 no se clasifican implícitamente en grupo 1. Se requiere evaluación profesional para determinar su clasificación y riesgos asociados."
+}

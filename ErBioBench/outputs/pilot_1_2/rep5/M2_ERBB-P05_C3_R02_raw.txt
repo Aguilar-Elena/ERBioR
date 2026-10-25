@@ -1,0 +1,194 @@
+```json
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "general",
+
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición potencial en el puesto de trabajo"
+      },
+
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+
+      "grb": 3,
+      "risk_class": "Tolerable",
+
+      "failed_controls": [
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Revisar y reforzar los controles de contención primaria para evitar exposición a Bacillus anthracis"
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Implementar o mejorar los procedimientos de higiene y descontaminación específicos para Bacillus anthracis"
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Capacitar al personal sobre los riesgos específicos de Bacillus anthracis y las medidas preventivas"
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Establecer un sistema de vigilancia médica específica para trabajadores expuestos a Bacillus anthracis"
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Revisar y actualizar el plan de emergencia para posibles exposiciones a Bacillus anthracis"
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Garantizar el uso adecuado de equipos de protección individual (EPI) específicos para Bacillus anthracis"
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Implementar un sistema de registro y notificación de incidentes relacionados con Bacillus anthracis"
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Realizar evaluaciones periódicas del riesgo y auditorías de cumplimiento para Bacillus anthracis"
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición potencial en el puesto de trabajo"
+      },
+
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+
+      "grb": 3,
+      "risk_class": "Tolerable",
+
+      "failed_controls": [
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Revisar y reforzar los controles de contención primaria para evitar exposición a Brucella melitensis"
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Implementar o mejorar los procedimientos de higiene y descontaminación específicos para Brucella melitensis"
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Capacitar al personal sobre los riesgos específicos de Brucella melitensis y las medidas preventivas"
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Establecer un sistema de vigilancia médica específica para trabajadores expuestos a Brucella melitensis"
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Revisar y actualizar el plan de emergencia para posibles exposiciones a Brucella melitensis"
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Garantizar el uso adecuado de equipos de protección individual (EPI) específicos para Brucella melitensis"
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Implementar un sistema de registro y notificación de incidentes relacionados con Brucella melitensis"
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Realizar evaluaciones periódicas del riesgo y auditorías de cumplimiento para Brucella melitensis"
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "report_all",
+    "agent_aggregation_status": "report_all",
+    "workplace_global_class": null
+  },
+
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+
+  "professional_review_required": false,
+
+  "sources_or_basis": [
+    "ERBioR reference version 0.9.0",
+    "Cuestionario general ERBio: 48 ítems",
+    "Exposición para ambos agentes: Frecuente",
+    "40 respuestas Sí y 8 respuestas No"
+  ],
+
+  "reasoning_summary": "Evaluación de riesgo biológico laboral basada en ERBioR 0.9.0 para dos agentes bacterianos (Bacillus anthracis y Brucella melitensis) clasificados en el Anexo II grupo 3. Ambos presentan exposición frecuente, cumplimiento aceptable (83.33%), probabilidad baja, riesgo tolerable (GRB 3) y requieren atención a los 8 controles incumplidos identificados. No se requiere revisión profesional adicional según el output de referencia."
+}
+```

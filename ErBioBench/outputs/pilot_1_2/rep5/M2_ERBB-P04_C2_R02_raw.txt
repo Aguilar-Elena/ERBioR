@@ -1,0 +1,77 @@
+```json
+{
+  "case_id": "ERBB-P04",
+  "response_schema_version": "1.1",
+
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio-general-48",
+
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Exposición: Frecuente"
+      },
+
+      "compliance": {
+        "percent": 30.0,
+        "class": "Low",
+        "n_applicable": 16,
+        "n_not_applicable": 32
+      },
+
+      "probability": {
+        "value": 0.3,
+        "label": "Low"
+      },
+
+      "grb": "Low",
+      "risk_class": "Low",
+
+      "failed_controls": [],
+
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisión profesional de la clasificación regulatoria de Actinomadura madurae y evaluación de controles específicos."
+        }
+      ]
+    }
+  ],
+
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": "Low"
+  },
+
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación regulatoria no disponible para Actinomadura madurae. Parte significativa del cuestionario no aplicable (excluida del denominador)."
+  },
+
+  "professional_review_required": true,
+
+  "sources_or_basis": [
+    "Caso ERBB-P04",
+    "Agente identificado: Actinomadura madurae (BIO-BACT-0001)",
+    "Exposición: Frecuente",
+    "Respuestas cuestionario: 12 Sí, 4 No, 32 No procede (excluidas)"
+  ],
+
+  "reasoning_summary": "Evaluación basada en exposición frecuente a Actinomadura madurae. Cumplimiento del 30% (16 ítems aplicables de 48 totales, excluyendo 32 'No procede'). Probabilidad baja (0.3) por bajo cumplimiento y exposición frecuente. Clasificación regulatoria no disponible, requiere valoración profesional. Riesgo laboral clasificado como bajo, pero con incertidumbre por falta de marco regulatorio específico."
+}
+```

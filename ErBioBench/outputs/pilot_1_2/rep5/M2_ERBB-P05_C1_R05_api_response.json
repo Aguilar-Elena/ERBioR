@@ -1,0 +1,29 @@
+{
+  "id": "325f0763034a452c868328526be7c9fe",
+  "created": 1792947465,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 861,
+    "total_tokens": 2003,
+    "completion_tokens": 1142,
+    "prompt_tokens_details": {
+      "cached_tokens": 112
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P05\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Bacillus anthracis\",\n      \"agent_id\": \"BIO-BACT-0010\",\n      \"classification_status\": \"resolved\",\n      \"regulatory_group\": \"Grupo 3\",\n      \"regulatory_minimum_group\": \"Grupo 3\",\n      \"reference_level\": \"Nivel de contención 3 (NCB-3)\",\n      \"requires_professional_assessment\": true\n    },\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resolved\",\n      \"regulatory_group\": \"Grupo 3\",\n      \"regulatory_minimum_group\": \"Grupo 3\",\n      \"reference_level\": \"Nivel de contención 3 (NCB-3)\",\n      \"requires_professional_assessment\": true\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0010\",\n      \"agent_name\": \"Bacillus anthracis\",\n      \"questionnaire_id\": \"ERBio-48\",\n\n      \"exposure\": {\n        \"category\": \"FRECUENTE\",\n        \"basis\": \"Información proporcionada en el caso\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"C\",\n        \"n_applicable\": 40,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": 0.83,\n        \"label\": \"ALTA\"\n      },\n\n      \"grb\": \"ALTO\",\n      \"risk_class\": \"III\",\n\n      \"failed_controls\": [\n        \"Controles específicos para agentes del Grupo 3 no verificados en el cuestionario\"\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"PA-001\",\n          \"action\": \"Implementar medidas de contención NCB-3 para Bacillus anthracis\"\n        },\n        {\n          \"item_id\": \"PA-002\",\n          \"action\": \"Capacitación específica en manejo de agentes del Grupo 3\"\n        },\n        {\n          \"item_id\": \"PA-003\",\n          \"action\": \"Evaluación periódica de la efectividad de los controles implementados\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio-48\",\n\n      \"exposure\": {\n        \"category\": \"FRECUENTE\",\n        \"basis\": \"Información proporcionada en el caso\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"C\",\n        \"n_applicable\": 40,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": 0.83,\n        \"label\": \"ALTA\"\n      },\n\n      \"grb\": \"ALTO\",\n      \"risk_class\": \"III\",\n\n      \"failed_controls\": [\n        \"Controles específicos para agentes del Grupo 3 no verificados en el cuestionario\"\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"PA-004\",\n          \"action\": \"Implementar medidas de contención NCB-3 para Brucella melitensis\"\n        },\n        {\n          \"item_id\": \"PA-005\",\n          \"action\": \"Establecer protocolos de vigilancia médica específica para brucelosis\"\n        },\n        {\n          \"item_id\": \"PA-006\",\n          \"action\": \"Reforzar medidas de higiene personal y descontaminación\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"resolved\",\n    \"agent_aggregation_status\": \"resolved\",\n    \"workplace_global_class\": \"III\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [\n    \"Información proporcionada en el caso ERBB-P05\",\n    \"Clasificación reglamentaria de Bacillus anthracis (Grupo 3, NCB-3)\",\n    \"Clasificación reglamentaria de Brucella melitensis (Grupo 3, NCB-3)\"\n  ],\n\n  \"reasoning_summary\": \"Ambos agentes biológicos (Bacillus anthracis y Brucella melitensis) están clasificados en el Grupo 3 según su potencial zoonótico y riesgo para la salud humana. La exposición frecuente (83.33% de respuestas afirmativas en el cuestionario) y la alta probabilidad de exposición justifican un nivel de riesgo ALTO (GRB) y clase de riesgo III. Se requiere evaluación profesional para implementar controles específicos de contención NCB-3 y medidas preventivas adicionales.\"\n}\n```"
+      }
+    }
+  ]
+}

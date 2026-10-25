@@ -1,0 +1,29 @@
+{
+  "id": "4e04a0d742ac48d9b0a699708aa4db73",
+  "created": 1792947421,
+  "model": "mistral-small-latest",
+  "usage": {
+    "prompt_tokens": 829,
+    "total_tokens": 1431,
+    "completion_tokens": 602,
+    "prompt_tokens_details": {
+      "cached_tokens": 112
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "service_tier": "standard"
+  },
+  "object": "chat.completion",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "tool_calls": null,
+        "content": "```json\n{\n  \"case_id\": \"ERBB-P02\",\n  \"response_schema_version\": \"1.1\",\n\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"resolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": false\n    }\n  ],\n\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio-48\",\n\n      \"exposure\": {\n        \"category\": \"very_frequent\",\n        \"basis\": \"Multiple exposures occur throughout the workday.\"\n      },\n\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": \"partial_compliance\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 8\n      },\n\n      \"probability\": {\n        \"value\": 4,\n        \"label\": \"high\"\n      },\n\n      \"grb\": \"high\",\n      \"risk_class\": \"3\",\n\n      \"failed_controls\": [\n        \"Insufficient control measures for very frequent exposure to Brucella melitensis.\"\n      ],\n\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"P1\",\n          \"action\": \"Implement enhanced biosafety measures (e.g., PPE, engineering controls) for high-frequency exposure scenarios.\"\n        },\n        {\n          \"item_id\": \"P2\",\n          \"action\": \"Provide targeted training on Brucella melitensis risks and safe handling procedures.\"\n        },\n        {\n          \"item_id\": \"P3\",\n          \"action\": \"Review and strengthen workplace hygiene protocols to minimize exposure.\"\n        }\n      ]\n    }\n  ],\n\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"resolved\",\n    \"agent_aggregation_status\": \"resolved\",\n    \"workplace_global_class\": \"3\"\n  },\n\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n\n  \"professional_review_required\": true,\n\n  \"sources_or_basis\": [],\n\n  \"reasoning_summary\": \"Brucella melitensis (BIO-BACT-0028) identified with very frequent exposure. Questionnaire compliance at 83.33% (40 Sí/8 No). Probability classified as high (value 4), leading to GRB 'high' and risk class 3. Professional review required due to high-risk classification and partial compliance.\"\n}\n```"
+      }
+    }
+  ]
+}
