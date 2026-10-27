@@ -1,0 +1,8 @@
+manifest_file=ErBioBench/protocol/pilot_run_manifest_rep5_v2.csv
+scorer_file=ErBioBench/analysis/score_llm_response_v3.R
+master_rows=2700
+unique_run_ids=2700
+scoring_eligible=2263
+scored_accuracy_rows=2263
+domain_rows=27156
+audit_rows=0
