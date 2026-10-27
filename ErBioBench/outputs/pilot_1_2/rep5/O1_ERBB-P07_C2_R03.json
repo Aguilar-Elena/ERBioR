@@ -1,0 +1,64 @@
+{
+  "case_id": "ERBB-P07",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench fictitious biological agent",
+      "agent_id": null,
+      "classification_status": "No resuelta: el agente no tiene correspondencia en el registro legal de ERBioR y no se aporta clasificación legal.",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench fictitious biological agent",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "La información proporcionada no permite determinar la categoría de exposición ni sustituir la clasificación reglamentaria."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "No cerrar la evaluación ni el cuestionario de riesgo hasta disponer de una clasificación o nivel de referencia válido y de una valoración profesional."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No realizada: no procede cerrar un cuestionario frente a un nivel de referencia inexistente.",
+    "agent_aggregation_status": "No realizada: existe un único agente con clasificación no resuelta.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No existe correspondencia del agente comunicado en el registro legal de ERBioR, no se aporta clasificación legal y no pueden determinarse el nivel de referencia, la exposición, el cumplimiento, la probabilidad, el GRB ni la clase de riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P07.",
+    "Agente comunicado: ErBioBench fictitious biological agent.",
+    "Ausencia de correspondencia en el registro legal de ERBioR.",
+    "Ausencia de clasificación legal aportada.",
+    "Indicación de no cerrar todavía un cuestionario frente a un nivel de referencia inexistente.",
+    "La información de exposición no permite sustituir la clasificación reglamentaria."
+  ],
+  "reasoning_summary": "El único agente identificado carece de clasificación legal y de nivel de referencia resoluble. Por ello no procede cerrar un cuestionario ni calcular exposición, cumplimiento, probabilidad, GRB o clase de riesgo. La evaluación permanece abierta y requiere valoración profesional."
+}

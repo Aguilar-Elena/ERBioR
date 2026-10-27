@@ -1,0 +1,98 @@
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Muy frecuente",
+        "basis": "Exposición indicada en el caso: ocurre varias veces durante la jornada."
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 2,
+        "label": "Media"
+      },
+      "grb": 6,
+      "risk_class": "Moderado",
+      "failed_controls": [
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Revisar y corregir el incumplimiento asociado a este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Revisar y corregir el incumplimiento asociado a este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Revisar y corregir el incumplimiento asociado a este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Revisar y corregir el incumplimiento asociado a este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Revisar y corregir el incumplimiento asociado a este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Revisar y corregir el incumplimiento asociado a este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Revisar y corregir el incumplimiento asociado a este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Revisar y corregir el incumplimiento asociado a este ítem, manteniendo trazabilidad documental."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Unidad única; no se requiere agregación entre cuestionarios.",
+    "agent_aggregation_status": "Agente único; no se requiere agregación entre agentes.",
+    "workplace_global_class": "Moderado"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": "El agente está clasificado en el anexo II y el ERBioR resuelve la evaluación matricial. No se proporcionan descripciones de los ítems incumplidos, por lo que no se atribuyen medidas específicas distintas de su revisión y corrección."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Información del caso ERBB-P02.",
+    "Salida de referencia ERBioR versión 0.9.0.",
+    "Cuestionario general ERBio, versión final_2015_annex1: 40 respuestas Sí y 8 respuestas No."
+  ],
+  "reasoning_summary": "Para Brucella melitensis, clasificada en el anexo II con grupo mínimo y nivel de referencia 3, la exposición muy frecuente y el cumplimiento del 83.3333 % producen probabilidad 2 (Media), GRB 6 y riesgo Moderado. Se registran ocho controles incumplidos, con prioridad preventiva media-alta según ERBioR, sin exigencia de valoración profesional."
+}

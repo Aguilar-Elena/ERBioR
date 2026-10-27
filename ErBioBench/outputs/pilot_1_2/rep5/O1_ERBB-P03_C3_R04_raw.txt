@@ -1,0 +1,203 @@
+{
+  "case_id": "ERBB-P03",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría de exposición indicada en el caso y utilizada por ERBioR."
+      },
+      "compliance": {
+        "percent": 39.5833,
+        "class": "Deficiente",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+      "grb": 9,
+      "risk_class": "Importante",
+      "failed_controls": [
+        "GENERAL-F2015-020",
+        "GENERAL-F2015-021",
+        "GENERAL-F2015-022",
+        "GENERAL-F2015-023",
+        "GENERAL-F2015-024",
+        "GENERAL-F2015-025",
+        "GENERAL-F2015-026",
+        "GENERAL-F2015-027",
+        "GENERAL-F2015-028",
+        "GENERAL-F2015-029",
+        "GENERAL-F2015-030",
+        "GENERAL-F2015-031",
+        "GENERAL-F2015-032",
+        "GENERAL-F2015-033",
+        "GENERAL-F2015-034",
+        "GENERAL-F2015-035",
+        "GENERAL-F2015-036",
+        "GENERAL-F2015-037",
+        "GENERAL-F2015-038",
+        "GENERAL-F2015-039",
+        "GENERAL-F2015-040",
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-021",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-022",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-023",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-024",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-025",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-026",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-027",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-028",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-029",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-030",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-031",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-032",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-033",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-034",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-035",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-036",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-037",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-038",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-039",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-040",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Corregir y documentar el control incumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Corregir y documentar el control incumplido."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No requerida: existe un único cuestionario.",
+    "agent_aggregation_status": "No requerida: existe un único agente.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": false,
+    "description": "La clasificación y la evaluación matricial están resueltas por ERBioR. No se proporcionó el contenido descriptivo de cada control, por lo que las acciones se mantienen vinculadas de forma genérica a sus identificadores."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Información del caso ERBB-P03.",
+    "Salida de referencia determinista ERBioR 0.9.0.",
+    "Cuestionario general ERBio final_2015_annex1: 19 respuestas Sí y 29 respuestas No."
+  ],
+  "reasoning_summary": "Brucella melitensis figura clasificada en el anexo II, con grupo mínimo reglamentario y nivel de referencia 3. Para exposición frecuente y cumplimiento deficiente del 39.5833 %, ERBioR asigna probabilidad alta (3), GRB 9, riesgo importante y prioridad alta. Se registran 29 controles incumplidos; no se requiere valoración profesional según la salida de referencia."
+}

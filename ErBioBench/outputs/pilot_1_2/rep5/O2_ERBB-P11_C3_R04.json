@@ -1,0 +1,64 @@
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición indicada en el caso."
+      },
+      "compliance": {
+        "percent": 97.9167,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implantar y mantener la limpieza/desinfección periódica de los equipos de trabajo, asegurando trazabilidad con el item_id indicado."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_applicable_single_unit",
+    "agent_aggregation_status": "not_applicable_single_agent",
+    "workplace_global_class": 3
+  },
+  "uncertainty": {
+    "present": false,
+    "description": "La clasificación del agente, el nivel de referencia, la probabilidad y la clase de riesgo son resolubles con el output ERBioR suministrado; no se requiere inferencia adicional."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Case information: exposición frecuente y fallo GENERAL-F2015-020.",
+    "ERBioR reference output: classification_status classified_annex_ii, regulatory_minimum_group 3, reference_level 3, probability_value 1, risk_score 3, risk_class Tolerable, professional_review_required false."
+  ],
+  "reasoning_summary": "El único agente evaluado es Brucella melitensis (BIO-BACT-0028). ERBioR la clasifica como annex_ii, con grupo mínimo reglamentario 3 y nivel de referencia 3. Con exposición frecuente y cumplimiento del 97.9167% (47/48), la probabilidad es baja, GRB 3 y clase de riesgo tolerable. El control incumplido es GENERAL-F2015-020, por lo que la acción preventiva se centra en la limpieza/desinfección periódica de los equipos de trabajo, manteniendo trazabilidad con ese item_id."
+}

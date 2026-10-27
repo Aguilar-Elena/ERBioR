@@ -1,0 +1,102 @@
+{
+  "id": "resp_074f26ab6f8f94af006ae0d89f71c887d2bce96299a28c0a03",
+  "object": "response",
+  "created_at": 1793120415,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793120429,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_074f26ab6f8f94af006ae0d8a0270487d2aa9211a24c047eea",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4Nit-cD0YUO1rcel15X6f08xi6nwuSniGyEWB30ivs0ukknvB4Kl_r-fOfNK0ZlsfBdtvHAMvSKrmKNTPONm8eyRBDY9RYvbQXFBy0MwIYJtmHAuBBYhO8wFO4AqEeG0wM5ZQLIAsTvD7NnAO7FBn7rcyJsuSlDkfMDqZ9btLeQdS6fkd_Eyw3m5rP5ZNxWYMrTySjwscmI88xmSnSNXEUZCtS_yyRk4vwX4kp0izKjLrbMKxcVrOYued6inxKgYK5RjX3qTndAve2KwSyjD0thQ4i4sVGz-qbpscn3SHCSEzGq9tJ1xyvjdT6njUeTf9BmaCQ7gbwgbH8HkMbbPDq4Ps_Fvk2kq-AlJM5xSO2lMpbcgauVLvFZzUq9V05fK5E1lSSaJ0oHMNC7jiH0xNLyzmWAIWfHt8pHt7jOBUH4E69-TpDi7VML8rEMPXsqDLDoHIcuA-4IIYBxKtKD1ncBx9F6cHJtWrmp7m_j98BUn6OGKoPOdMD8tsMnVg8MJ7KQuDPmw4Nd-uFQPFxSyD4EYcoAod_mApq0A5C2ZX7WWVhqD0Ozfttkn6mz_nCN-OhDD9pIj4lCvMz9Zp-omyZ4PBNr-sSt2SaTCLDcVWk9zroSZl-wagpZPUJAMo2QNgy8WVnzuG0mhzZw60-Mtc-8RIy_RhlWrPxASQVhLMKWS7V1XMATY19nwh4xlI8f6YIWSWXWDObI0ZhvB13I6_mJrz0F_EQ9edZPjBjO8uhcpPYMsOTLWjO-W5-HZhlOA6IFhmkoCErtDMqqv0IubDgqUeN7ju18kKki2olWcosRAJJsGM70fTEwi2cqVZ7U0EWzeNYhXfBV7Huk8hJbfHk2wZTq9w7aixVB5U8COfWTapbXpYv6qJ9otmdpi-s0GpXFS4hprlyF2zp5MMEvDbO01gzjLycNncHpmpipuI4OP9j9sE8K80pUEF8BHOUFilyniwuRrHwq5v71GIj3-FbT-De6XNFVBT_4lqFs5W-37HvqmNLgupxc7KZKuF1GYIpE_4ABckDd8VjTGazLrfHoAJsGjsd-gqCPV_sMxcX5a7GL6sF4DGoDbnuTbzap72IR6ElzQ-UbWXYolWkpzG_Ww2BQKZJELOjhQvwB-hEkoTxeTaPdx6h0ltUW4teZmMDSw8PqNgQOVVeMv-ZrnkFneA5NrxCGFwtDgG4_h4zvPr1CWpUDfCTjrledrjeNWccXIwdUkreWDBartVESE-mJTV2RUsdg_ILFH26qdYjiaH_z2up7KL-OBTSEGvaQXmK7eCLkc-qljT4WGOpx0-0Us8ekqZe1A_P6J80qsY5kkLuVbc6nTQvAiD2t3ne4OSth92r0qBwD4AWo9RfjDMhn9IOkIDof0jb2AC0ND1IV-evW1SOd3sUkpPIQRG8FlAgFeG9ep_KaXx036TGUFAx7fJQtOfCPEw2FOx9v9BbMGZDEwiQqQzFG7yixw6CHi9NOAk6-QZYxCFZnMVK64HC1fG1-SEpT7LP-V3ndbReGESoolpppGtLHx4SN3hFtF0ksII8dhjLsZ85Fan3bjeE0m_PlKQcKmusu9bFevYQYaCNoPFqZOCEGoVbjwhucPtysWjjcDy5e9tKAoAJmUdR8z-6oZcmVSpJu9Fxdo3omq8-WGk0qSh__dgfO-YysCyQwmKRZ06yBMquxplDjt8GD3p6BEHa_RD7mWvtBZLwbTl7ylSPDqqwn44w58u0gcy5fKNs72jA4WB93sQG8VzWiuKoof49JUvzzjKO0qppGbplDv2589xJ9Y_4kZI_C-XycfZlcVhx1hGHXq-epoFeDnSjOWlPC-HF5niB3b-mcjSmmUZV_Fsst87qXlPJe6g6Fq9nr5K9OerVeZbtyeMHU4B9lrhbptwYdwVO3iJ55L08VLWXObp0tVlYDUUv0xKh60OMZvUZP6A6ev7ozKpeyJ54icH43y00K__Wterg76rhrzyqFBn0364lsyZPAJ5xElPTOd2PlUono6bt0yWTTkaCQ7AkEMAk50P_5IyZtm3MuuJrHW4yFYPEdi4XiJ8KjxnMNvIphcc7U41I7OosYxBkYuf6Ra83SZNBSQF2nIjns0cI27HQdZUVi2el1QDdrEIb5lykrMMGji1YLNa_ArJKD0ywOUZPaHMjZ4LrMyP5DHkZ3I87WFnlVcRXV47xwMqxJ2LN8CfcB3awHf1RGdF_C44jNAhbWd04sxR6137PgnIbnygWR6iJssGAu1Cu6T0rN9xTYtKS7zTOZfo3ipnt3-Hu0tWmZSQ4hVL9AAU0WuQRDI-BV3I7uM1nOo6jEj_7hEjWJ5_F5OcbW9BcqzPAzDwb3MaS9X4iGMbA8Xzyj5e8ANvjO92ppo1yuji5E3kv2ye3tVfARMiukJ8wdBCwGopAkwHkAjIgUmVXHy4pGmt5diMbEkpBDeTBllv1BncKYOLyVjc494xfJGFLzoCgZInk5OmQuJ5QJdQUv8iuQxZVPsRrn8SSgKcnfnfDaQpWLi0q3xE4Bmhg_g2TvY82EOfraBSnlJDGcktwJQcFe1U3j7VlebGlY4I8-gkrginDtbM-bkPSnkH-98sdBo2GGkwljGeMwCouAlYG4_TWGFrQtCwpMcgb78myS6J47yRlPttL0sB7CxPDtZW2jFRdFew4u8uk18bUPflcwpVWEpeyAlcv9y4Cp3xMdqvIIm8WO8Kh718-nd_cvbhWzuQnWamXRp3bbD18dEMIpTzd3vd1vhUiWi2HAfew5mLctMdW3L5SneG-xEsoYPggB9HvUuuovO1JbGJm2Nd6ItyUCmPCyjbRh_vd8deDpMrEsezywrlwR5AUdYEX1ISxDIT2mZkwMOaRm-m_8RbMsY2opLq5vtDhXoLd_EVDYL3A8bV27jvNF45Bc_O98C4in0T7z_Fb1a7Xm7ufuzt_pZ9mm5TsYslqNhAomUqKDkXr0_lDt010DZa_gesrN9c1DKjFf-ytVCpX0JcqlIOOabYcG3_1WJc-V6xUa4NAGOMFG6JhDzYhr9YSH8af_NT5l_hFMtCIh-VinXcIM5_Km4sLX9J5C3RyOr4CaMcU16QzchPCtgeV4ZmPaLB3yIE9HXnKDs8-e4ETXM_W47Oto4zjUmYWGPN3Q8WLBn1Zm1CU6YB4Q4pYMkSajpomnPrewwmhP9uawyscSZpf1N2smszeO7XItGEhgEs7P5QLolubLRYbneCrW619H94nsVZra7LLb-_6lRYY3806ATF6m47qG1RlPoSkLu0w3JJSbr6jICswfYRcEWiflfSlcAzKMBX-KK-j7XPZd6XkFy0wMPtf6eNMf8TDjWa8qnxozlxSVUuvDbK5YM-SLDHvy0qkD4Wn68xW_HdDmRseIsUPMrUcvEIAwach7oA9j-O_WYbWUmHsheUqZO7tSpxvaq2pGJGREfdVn4ha1Mhg1rCAN8D_AFsoX6Ox97X1RusLApcgFSHbSw9lMkf8e9717lVguLejccy3TzOm86b6rL73AQpv8oHrYtfiBRxmjerxdk-shd5jHXI4jAwkQIIqapLFyF8JpdE7Y8d7s4mF97alKcbklL98ZomQx1ret042kuwPPuyZuYZ5RsqKzvdi16JmmTkSdRZggMcJxKMp79XC-7thshdZV46omFh1g2PY4Kf1B_C_udU-uGJ-F49Dv3L6mpx8JNsr0qHYeqYY0kNkDIQYRMTIekE0sanPHWvbL6b8-CCq4S7-2IHOTdRGU4U1V9ObYMfrEmW-nhkHprwzbcaVrCw4EFhe_HVmbjmIjRpmR7iaXkAD2xlGs5klkwzJjCvr3Ou0aEm6IBQzC9gOm-0FY4QJPBYyNqDaDmknnRes41WU1IQHOmqHZ0WCPwcnFbH4ICPQ_UDdLY81QbVmWF6mNUb80CEbtpOyy2htUBOUEvkpfl7GJEAw_OhGBYE2Ju3ViNEtFylPR-6NQRfPjpKqyZV0c021R1BKZaVHZD5441gL6upwhH6gbIZpWJaLG2YSgT3pao4xuAOCw-5FHs8PPHBYkllKQ2IDajaG19vxSBv8htXTwC7BrKpnxFjeDLrYtd1IHmOpqnT-Z03JP4ZZkVG4FtZ7jcKMNc2J6VdCTv9_0Ivk4dHW5JyetHHcHSXLZYUTmdeL0I5aa4IBEoJDbu0L9pTmbd1ERJlGBlZc-0BrJJO3_L17Tg5ka7JtTmtOevkj7Ax8jp7eW1AdaeUntC0gYO-anyfuzSHQrBbrT0Hbg1xR4RJjZIAbqsMT8FbSDqak0PdnF0Q9t1SzQeD7l8Hqdk03gSIp6CEk8fyTK9axGQt9ZCFJNvTBrAHvSJ6IjO10OWDO3qS4xEYrPbJWvuM-ickDe7xKSU_PD_bzee9es94otrfPF4dmkK3qB1063ATiJcJftNVdm_H8MTZDMK145LFLSAL-PsulXwafsBDCMRpR37bGM8-sC02ihDuDKSn9YmR_burQnEjc1GIzxXT2fLlRy_ujkB0DZuMrl8rHACsszNSqY2SGG7Cpx8ro2ftH3Qxm2gu7buM1QvzME=",
+      "summary": []
+    },
+    {
+      "id": "msg_074f26ab6f8f94af006ae0d8a2348487d2b75da99272594cdb",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P03\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición indicada en el caso y confirmada por el output ERBioR.\"\n      },\n      \"compliance\": {\n        \"percent\": 39.5833,\n        \"class\": \"Deficiente\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Alta\"\n      },\n      \"grb\": 9,\n      \"risk_class\": \"Importante\",\n      \"failed_controls\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-021\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-022\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-023\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-024\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-025\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-026\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-027\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-028\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-029\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-030\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-031\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-032\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-033\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-034\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-035\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-036\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-037\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-038\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-039\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-040\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-041\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\"\n        }\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-021\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-022\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-023\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-024\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-025\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-026\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-027\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-028\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-029\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-030\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-031\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-032\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-033\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-034\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-035\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-036\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-037\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-038\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-039\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-040\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Control preventivo no cumplido; requiere revisión y corrección por personal competente.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire_single_agent_no_aggregation_needed\",\n    \"agent_aggregation_status\": \"single_agent_no_aggregation_needed\",\n    \"workplace_global_class\": \"Importante\"\n  },\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"No se identifican ambigüedades adicionales en la clasificación del agente ni en la salida ERBioR. La única unidad evaluada queda completamente determinada por el output de referencia.\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    \"Caso ERBB-P03\",\n    \"Salida de referencia ERBioR 0.9.0 proporcionada\",\n    \"Cuestionario general ERBio (48 ítems)\",\n    \"Identificación del agente: Brucella melitensis (BIO-BACT-0028)\"\n  ],\n  \"reasoning_summary\": \"La referencia ERBioR clasifica Brucella melitensis como agente del Anexo II, con grupo mínimo reglamentario 3 y nivel de referencia 3. Para exposición frecuente y 19 respuestas Sí / 29 No en 48 ítems, la conformidad es 39.5833% (clase Deficiente), la probabilidad es Alta (3) y el GRB es 9, con clase de riesgo Importante. Se mantienen los controles incumplidos indicados por ERBioR y no se añade valoración profesional adicional porque el output de referencia la marca como no requerida.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1776,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2450,
+    "output_tokens_details": {
+      "reasoning_tokens": 233
+    },
+    "total_tokens": 4226
+  },
+  "user": null,
+  "metadata": {}
+}

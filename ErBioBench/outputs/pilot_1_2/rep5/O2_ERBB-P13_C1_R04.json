@@ -1,0 +1,62 @@
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "identified_from_case",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "frecuente",
+        "basis": "La información del caso indica exposición frecuente en el escenario ocupacional."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Se requiere valoración profesional para determinar la probabilidad, el GRB, la clase de riesgo y los controles incumplidos; con los datos aportados no es posible concretarlos."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "unresolved",
+    "agent_aggregation_status": "resolved_for_identification_only",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El caso permite identificar el agente y la exposición frecuente, pero no aporta reglas de cálculo ni criterios para resolver probabilidad, GRB, clase de riesgo, grupo/regulación ni controles incumplidos específicos."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Agente: SARS-CoV-2 (BIO-VIR-0064)",
+    "Exposición: frecuente",
+    "Cuestionario general: 48 ítems",
+    "Respuestas: 40 Sí y 8 No"
+  ],
+  "reasoning_summary": "El agente está identificado en el caso como SARS-CoV-2 y la exposición es frecuente. Con 40 respuestas Sí de 48, el porcentaje de conformidad se registra como 83.33% si se interpreta como Sí/total; sin embargo, el caso no proporciona criterios para traducir ese dato a probabilidad, GRB, clase de riesgo ni clasificación/regulación del agente. Por ello, esos campos se mantienen no resolubles y se requiere valoración profesional."
+}

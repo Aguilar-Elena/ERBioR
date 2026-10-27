@@ -1,0 +1,95 @@
+{
+  "id": "resp_0e7c2a83fdb82050006ae0dc1a7d5887d28c9969260b07944c",
+  "object": "response",
+  "created_at": 1793121306,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793121314,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-nano-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_0e7c2a83fdb82050006ae0dc1aec9c87d28d8a1cb5d3a7ac49",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P01\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Caso: exposición laboral frecuente diaria al agente Brucella melitensis.\"\n      },\n      \"compliance\": {\n        \"percent\": 83.3333,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n      \"grb\": null,\n      \"risk_class\": \"Tolerable\",\n      \"failed_controls\": [\n        {\n          \"item_id\": \"GENERAL-F2015-041\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\"\n        }\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Revisar y subsanar el/los controles generales asociados al ítem GENERAL-F2015-041.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Revisar y subsanar el/los controles generales asociados al ítem GENERAL-F2015-042.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Revisar y subsanar el/los controles generales asociados al ítem GENERAL-F2015-043.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Revisar y subsanar el/los controles generales asociados al ítem GENERAL-F2015-044.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Revisar y subsanar el/los controles generales asociados al ítem GENERAL-F2015-045.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Revisar y subsanar el/los controles generales asociados al ítem GENERAL-F2015-046.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Revisar y subsanar el/los controles generales asociados al ítem GENERAL-F2015-047.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Revisar y subsanar el/los controles generales asociados al ítem GENERAL-F2015-048.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"matrix_assessment\",\n    \"agent_aggregation_status\": \"single_agent_unit\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    {\n      \"source_id\": \"ERBIOR_REFERENCE_OUTPUT\",\n      \"source_version\": \"0.9.0\",\n      \"basis_items\": [\n        \"classification_status=classified_annex_ii\",\n        \"regulatory_minimum_group=3\",\n        \"reference_level=3\",\n        \"questionnaire_id=general\",\n        \"exposure=Frecuente\",\n        \"compliance_percent=83.3333\",\n        \"probability_value=1 (Baja)\",\n        \"risk_score=3\",\n        \"risk_class=Tolerable\",\n        \"failed_controls=[GENERAL-F2015-041..GENERAL-F2015-048]\",\n        \"requires_professional_assessment=false\"\n      ]\n    }\n  ],\n  \"reasoning_summary\": \"Se aplica la salida determinista de ERBioR para Brucella melitensis (BIO-BACT-0028), con exposición Frecuente y cumplimiento 83.3333 (clase Aceptable). La probabilidad indicada es Baja (valor 1) y el riesgo resultante es de clase Tolerable (risk_score=3), registrándose como controles incumplidos los ítems GENERAL-F2015-041 a GENERAL-F2015-048. ERBioR no requiere valoración profesional adicional.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1417,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1126,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2543
+  },
+  "user": null,
+  "metadata": {}
+}

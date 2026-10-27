@@ -1,0 +1,63 @@
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "no_resoluble_con_la_informacion_proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Cuestionario general ERBio (48 ítems)",
+      "exposure": {
+        "category": "Muy frecuente",
+        "basis": "La exposición se reporta como 'Muy frecuente' en el caso."
+      },
+      "compliance": {
+        "percent": 83.3333333333,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Verificar y reforzar medidas de control para reducir la exposición repetida (p. ej., limitar liberación y asegurar protección efectiva) dado que la exposición se describe como 'Muy frecuente'."
+        },
+        {
+          "item_id": null,
+          "action": "Revisar los ítems respondidos con 'No' (8/48) para identificar qué controles concretos no se cumplen y priorizar su corrección."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "no_puede_determinarse_con_la_clasificacion_requerida",
+    "agent_aggregation_status": "no_puede_determinarse_con_la_clasificacion_requerida",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Faltan en el caso la clasificación/nivel de referencia reglamentario (o su mapeo ERBio) y las reglas de conversión necesarias para asignar clase de cumplimiento, probabilidad, GRB y clase de riesgo a partir de 'Muy frecuente' y del porcentaje de cumplimiento."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P02: Agente BIO-BACT-0028 (Brucella melitensis); Exposición 'Muy frecuente'; Cuestionario general ERBio con 48 ítems; 40 'Sí' y 8 'No'."
+  ],
+  "reasoning_summary": "Se evalúa Brucella melitensis (BIO-BACT-0028) con exposición 'Muy frecuente' y cumplimiento de 83.33% (40/48). Sin nivel de referencia/clasificación del agente ni reglas de mapeo proporcionadas en el caso, no es posible derivar de forma auditable la probabilidad, el GRB ni la clase de riesgo."
+}

@@ -1,0 +1,133 @@
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Muy frecuente",
+        "basis": "Exposición reportada: 'Muy frecuente' (ocurre varias veces durante la jornada)."
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": 2,
+        "label": "Media"
+      },
+      "grb": 6,
+      "risk_class": "Moderado",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-041"
+        },
+        {
+          "item_id": "GENERAL-F2015-042"
+        },
+        {
+          "item_id": "GENERAL-F2015-043"
+        },
+        {
+          "item_id": "GENERAL-F2015-044"
+        },
+        {
+          "item_id": "GENERAL-F2015-045"
+        },
+        {
+          "item_id": "GENERAL-F2015-046"
+        },
+        {
+          "item_id": "GENERAL-F2015-047"
+        },
+        {
+          "item_id": "GENERAL-F2015-048"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Aplicar/ajustar el control asociado a GENERAL-F2015-041 para cerrar el incumplimiento identificado por el cuestionario."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Aplicar/ajustar el control asociado a GENERAL-F2015-042 para cerrar el incumplimiento identificado por el cuestionario."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Aplicar/ajustar el control asociado a GENERAL-F2015-043 para cerrar el incumplimiento identificado por el cuestionario."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Aplicar/ajustar el control asociado a GENERAL-F2015-044 para cerrar el incumplimiento identificado por el cuestionario."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Aplicar/ajustar el control asociado a GENERAL-F2015-045 para cerrar el incumplimiento identificado por el cuestionario."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Aplicar/ajustar el control asociado a GENERAL-F2015-046 para cerrar el incumplimiento identificado por el cuestionario."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Aplicar/ajustar el control asociado a GENERAL-F2015-047 para cerrar el incumplimiento identificado por el cuestionario."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Aplicar/ajustar el control asociado a GENERAL-F2015-048 para cerrar el incumplimiento identificado por el cuestionario."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "matrix_assessment",
+    "agent_aggregation_status": "single_agent_unit_reported",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    {
+      "source": "ERBioR reference output v0.9.0 (ErBioBench-pilot-1.0) - matrix_assessment",
+      "details": {
+        "agent_id": "BIO-BACT-0028",
+        "questionnaire_id": "general",
+        "exposure": "Muy frecuente",
+        "compliance_percent": 83.3333,
+        "probability_value": 2,
+        "risk_score": 6,
+        "risk_class": "Moderado",
+        "failed_control_ids": [
+          "GENERAL-F2015-041",
+          "GENERAL-F2015-042",
+          "GENERAL-F2015-043",
+          "GENERAL-F2015-044",
+          "GENERAL-F2015-045",
+          "GENERAL-F2015-046",
+          "GENERAL-F2015-047",
+          "GENERAL-F2015-048"
+        ]
+      }
+    }
+  ],
+  "reasoning_summary": "Según la salida de referencia ERBioR (v0.9.0), Brucella melitensis (BIO-BACT-0028) está clasificada (Anexo II) con nivel de referencia 3 y grupo mínimo regulatorio 3. Con exposición 'Muy frecuente', la probabilidad es 2 (Media) y el riesgo (GRB/risk_score) es 6, con clase de riesgo 'Moderado'. El cumplimiento del cuestionario es 83.3333 (Aceptable) pero hay incumplimientos en los controles GENERAL-F2015-041 a GENERAL-F2015-048. No se requiere valoración profesional."
+}

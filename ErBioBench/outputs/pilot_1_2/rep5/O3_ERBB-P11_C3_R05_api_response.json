@@ -1,0 +1,95 @@
+{
+  "id": "resp_03681c1f69f0186c006ae0df13d9b487d2af84c4a82c397b26",
+  "object": "response",
+  "created_at": 1793122067,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793122072,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-nano-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_03681c1f69f0186c006ae0df143e0087d2b95268e501e1f817",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P11\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición: Frecuente (según información del caso).\"\n      },\n      \"compliance\": {\n        \"percent\": 97.9167,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n      \"grb\": null,\n      \"risk_class\": \"Tolerable\",\n      \"failed_controls\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\",\n          \"detail\": \"GENERAL-F2015-020 = No; todos los demás ítems = Sí (incumplido según referencia ERBioR).\"\n        }\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\",\n          \"action\": \"Asegurar la limpieza/desinfección periódica de los equipos de trabajo, manteniendo la trazabilidad conforme al item_id real GENERAL-F2015-020 (control incumplido según ERBioR).\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire_no_additional_agents\",\n    \"agent_aggregation_status\": \"single_agent_no_aggregation_discrepancy\",\n    \"workplace_global_class\": \"Tolerable\"\n  },\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    {\n      \"source\": \"ERBIOR REFERENCE OUTPUT\",\n      \"reference_version\": \"0.9.0\",\n      \"mapping\": {\n        \"agent_id\": \"BIO-BACT-0028\",\n        \"questionnaire_id\": \"general\",\n        \"failed_control_ids\": [\n          \"GENERAL-F2015-020\"\n        ],\n        \"exposure\": \"Frecuente\",\n        \"reference_level\": 3,\n        \"regulatory_minimum_group\": 3,\n        \"probability_value\": 1,\n        \"risk_class\": \"Tolerable\",\n        \"compliance_percent\": 97.9167\n      }\n    }\n  ],\n  \"reasoning_summary\": \"Se evalúa Brucella melitensis (BIO-BACT-0028) con clasificación/GRUPO mínimo y nivel de referencia 3 (según ERBioR). Para el cuestionario general, la exposición es 'Frecuente' y la probabilidad resulta 'Baja' (valor 1), con riesgo clase 'Tolerable'. El único control incumplido es GENERAL-F2015-020 (situación de limpieza/desinfección periódica de equipos), por lo que la acción preventiva se vincula explícitamente a ese item_id. No se requiere revisión profesional según el ERBioR provisto.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1428,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 782,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2210
+  },
+  "user": null,
+  "metadata": {}
+}

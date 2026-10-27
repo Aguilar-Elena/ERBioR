@@ -1,0 +1,262 @@
+{
+  "case_id": "ERBB-P03",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición indicada en el caso y confirmada por el output ERBioR."
+      },
+      "compliance": {
+        "percent": 39.5833,
+        "class": "Deficiente",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+      "grb": 9,
+      "risk_class": "Importante",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020"
+        },
+        {
+          "item_id": "GENERAL-F2015-021"
+        },
+        {
+          "item_id": "GENERAL-F2015-022"
+        },
+        {
+          "item_id": "GENERAL-F2015-023"
+        },
+        {
+          "item_id": "GENERAL-F2015-024"
+        },
+        {
+          "item_id": "GENERAL-F2015-025"
+        },
+        {
+          "item_id": "GENERAL-F2015-026"
+        },
+        {
+          "item_id": "GENERAL-F2015-027"
+        },
+        {
+          "item_id": "GENERAL-F2015-028"
+        },
+        {
+          "item_id": "GENERAL-F2015-029"
+        },
+        {
+          "item_id": "GENERAL-F2015-030"
+        },
+        {
+          "item_id": "GENERAL-F2015-031"
+        },
+        {
+          "item_id": "GENERAL-F2015-032"
+        },
+        {
+          "item_id": "GENERAL-F2015-033"
+        },
+        {
+          "item_id": "GENERAL-F2015-034"
+        },
+        {
+          "item_id": "GENERAL-F2015-035"
+        },
+        {
+          "item_id": "GENERAL-F2015-036"
+        },
+        {
+          "item_id": "GENERAL-F2015-037"
+        },
+        {
+          "item_id": "GENERAL-F2015-038"
+        },
+        {
+          "item_id": "GENERAL-F2015-039"
+        },
+        {
+          "item_id": "GENERAL-F2015-040"
+        },
+        {
+          "item_id": "GENERAL-F2015-041"
+        },
+        {
+          "item_id": "GENERAL-F2015-042"
+        },
+        {
+          "item_id": "GENERAL-F2015-043"
+        },
+        {
+          "item_id": "GENERAL-F2015-044"
+        },
+        {
+          "item_id": "GENERAL-F2015-045"
+        },
+        {
+          "item_id": "GENERAL-F2015-046"
+        },
+        {
+          "item_id": "GENERAL-F2015-047"
+        },
+        {
+          "item_id": "GENERAL-F2015-048"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-021",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-022",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-023",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-024",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-025",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-026",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-027",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-028",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-029",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-030",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-031",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-032",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-033",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-034",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-035",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-036",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-037",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-038",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-039",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-040",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Control preventivo no cumplido; requiere revisión y corrección por personal competente."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire_single_agent_no_aggregation_needed",
+    "agent_aggregation_status": "single_agent_no_aggregation_needed",
+    "workplace_global_class": "Importante"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": "No se identifican ambigüedades adicionales en la clasificación del agente ni en la salida ERBioR. La única unidad evaluada queda completamente determinada por el output de referencia."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Caso ERBB-P03",
+    "Salida de referencia ERBioR 0.9.0 proporcionada",
+    "Cuestionario general ERBio (48 ítems)",
+    "Identificación del agente: Brucella melitensis (BIO-BACT-0028)"
+  ],
+  "reasoning_summary": "La referencia ERBioR clasifica Brucella melitensis como agente del Anexo II, con grupo mínimo reglamentario 3 y nivel de referencia 3. Para exposición frecuente y 19 respuestas Sí / 29 No en 48 ítems, la conformidad es 39.5833% (clase Deficiente), la probabilidad es Alta (3) y el GRB es 9, con clase de riesgo Importante. Se mantienen los controles incumplidos indicados por ERBioR y no se añade valoración profesional adicional porque el output de referencia la marca como no requerida."
+}

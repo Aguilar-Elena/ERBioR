@@ -1,0 +1,55 @@
+{
+  "case_id": "ERBB-P01",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved_not_provided",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio_general_questionnaire_48_items",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "El caso indica que la exposición ocurre con frecuencia diaria (categoría proporcionada: 'Frecuente')."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_determined_due_to_missing_framework_mappings",
+    "agent_aggregation_status": "not_determined_due_to_missing_reference_level",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporcionan en el caso el nivel de referencia/regulación del agente (Brucella melitensis) ni la codificación/mapeo interno requerido para convertir (a) el % de cumplimiento y (b) la categoría de exposición en probabilidad, GRB y clase de riesgo. Tampoco se indican los ítems específicos del cuestionario que fueron 'No', por lo que no se pueden listar controles incumplidos ni acciones preventivas basadas en ítems."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Caso: exposición laboral 'Frecuente' a Brucella melitensis (BIO-BACT-0028).",
+    "Caso: cuestionario ERBio de 48 ítems con 40 'Sí' y 8 'No'."
+  ],
+  "reasoning_summary": "Se identificó un agente (Brucella melitensis, BIO-BACT-0028). La exposición se clasifica como 'Frecuente' (frecuencia diaria indicada). El cumplimiento global es 83.33% (40/48) asumiendo que todos los 48 ítems aplican (no se informan 'No procede'). Sin nivel de referencia/regulación del agente y sin mapeos de ERBio para transformar cumplimiento/exposición en probabilidad/GRB/clase de riesgo, esos campos quedan indeterminados; además no hay detalle de qué ítems fallaron, por lo que no se listan controles incumplidos."
+}

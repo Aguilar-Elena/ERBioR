@@ -1,0 +1,97 @@
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2) (1)",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2) (1)",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición indicada explícitamente en el caso y confirmada por el resultado ERBioR."
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Revisar y corregir el control preventivo asociado al ítem no cumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Revisar y corregir el control preventivo asociado al ítem no cumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Revisar y corregir el control preventivo asociado al ítem no cumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Revisar y corregir el control preventivo asociado al ítem no cumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Revisar y corregir el control preventivo asociado al ítem no cumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Revisar y corregir el control preventivo asociado al ítem no cumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Revisar y corregir el control preventivo asociado al ítem no cumplido."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Revisar y corregir el control preventivo asociado al ítem no cumplido."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire_only",
+    "agent_aggregation_status": "single_agent_only",
+    "workplace_global_class": "Tolerable"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": "La clasificación del agente, el nivel de referencia, la exposición, la probabilidad y la clase de riesgo están resueltos por el output ERBioR suministrado; no hay clasificaciones discordantes ni información faltante relevante para esta única unidad de evaluación."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Caso ocupacional proporcionado",
+    "Salida determinista ERBioR 0.9.0 suministrada"
+  ],
+  "reasoning_summary": "Se conservó una única unidad de evaluación para SARS-CoV-2 con cuestionario general. El output ERBioR indica agente clasificado en Annex II, grupo mínimo reglamentario 3, nivel de referencia 3, exposición frecuente, cumplimiento 83.3333% (Aceptable), probabilidad baja, GRB 3 y clase de riesgo Tolerable. Los 8 controles incumplidos se registran individualmente sin inferir su contenido. No se requiere valoración profesional adicional."
+}

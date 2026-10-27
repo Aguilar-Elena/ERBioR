@@ -1,0 +1,108 @@
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "Cuestionario general ERBio",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente para ambos agentes."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar y corregir los 8 controles con respuesta No; sus identificadores no fueron proporcionados."
+        },
+        {
+          "item_id": null,
+          "action": "Obtener la clasificación reglamentaria o el nivel de referencia aplicable y completar la valoración profesional ERBio."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Cuestionario general ERBio",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente para ambos agentes."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar y corregir los 8 controles con respuesta No; sus identificadores no fueron proporcionados."
+        },
+        {
+          "item_id": null,
+          "action": "Obtener la clasificación reglamentaria o el nivel de referencia aplicable y completar la valoración profesional ERBio."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Un único cuestionario general, aplicado separadamente a cada agente; no se realiza agregación adicional.",
+    "agent_aggregation_status": "Los dos agentes se mantienen como evaluaciones independientes y no se promedian ni se colapsan.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporcionan la clasificación reglamentaria, el nivel de referencia, los umbrales para asignar la clase de cumplimiento ni los identificadores de las 8 respuestas No. Por ello no pueden determinarse la probabilidad ERBio, el GRB, la clase de riesgo ni una clase global del puesto."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P05",
+    "Dos agentes identificados expresamente con sus respectivos identificadores",
+    "Exposición frecuente indicada para ambos agentes",
+    "Cuestionario general ERBio de 48 ítems",
+    "40 respuestas Sí y 8 respuestas No, sin respuestas No procede comunicadas"
+  ],
+  "reasoning_summary": "Se generaron dos evaluaciones independientes. En cada una, 40 de 48 ítems aplicables dan un cumplimiento del 83.33% y la exposición es frecuente. La ausencia de clasificación o nivel de referencia y de reglas de conversión impide calcular clase de cumplimiento, probabilidad, GRB y clase de riesgo. Los 8 controles fallidos carecen de identificadores, por lo que requieren identificación y revisión profesional."
+}

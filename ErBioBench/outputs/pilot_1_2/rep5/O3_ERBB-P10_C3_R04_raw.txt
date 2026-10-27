@@ -1,0 +1,78 @@
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "audit",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición indicada en el caso: Frecuente."
+      },
+      "compliance": {
+        "percent": 96.875,
+        "class": "Aceptable",
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": null,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "AUDIT-F2015-004"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Revisar y corregir el incumplimiento del control identificado como fallido (AUDIT-F2015-004) sin alterar el resto de conclusiones de la matriz."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "matrix_assessment",
+    "agent_aggregation_status": "single_agent_unit",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    {
+      "source": "ERBIOR reference output",
+      "reference_version": "0.9.0",
+      "basis_items": [
+        "assessment_status=matrix_assessment",
+        "classification_status=classified_annex_ii",
+        "regulatory_minimum_group=3",
+        "reference_level=3",
+        "exposure=Frecuente",
+        "compliance_percent=96.875; compliance_class=Aceptable",
+        "probability_value=1; probability_label=Baja",
+        "risk_score=3; risk_class=Tolerable; priority=Media",
+        "failed_control_ids includes AUDIT-F2015-004",
+        "requires_professional_assessment=false"
+      ]
+    }
+  ],
+  "reasoning_summary": "Para el agente Brucella melitensis (BIO-BACT-0028), clasificado en anexo II con nivel de referencia 3 y grupo mínimo regulatorio 3, con exposición Frecuente y cumplimiento 96.875% (clase Aceptable) excepto el control fallido AUDIT-F2015-004, el ERBioR asigna probabilidad Baja (valor 1) y clase de riesgo Tolerable (riesgo_score=3). No se requiere valoración profesional según el resultado de referencia."
+}

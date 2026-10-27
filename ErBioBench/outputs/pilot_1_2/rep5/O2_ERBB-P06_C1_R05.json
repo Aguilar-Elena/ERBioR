@@ -1,0 +1,107 @@
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "Identificado; la clasificación reglamentaria/nivel de referencia no está proporcionada en el caso y no puede resolverse sin información externa.",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "Identificado; la clasificación reglamentaria/nivel de referencia no está proporcionada en el caso y no puede resolverse sin información externa.",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": 48,
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La exposición indicada en el caso para este agente es frecuente."
+      },
+      "compliance": {
+        "percent": 60.4166666667,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Mantener valoración profesional específica para este agente por no estar disponible su clasificación reglamentaria en el caso."
+        },
+        {
+          "item_id": null,
+          "action": "Reforzar las medidas preventivas y de vigilancia acorde con una exposición frecuente."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": 48,
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La exposición indicada en el caso para este agente es frecuente."
+      },
+      "compliance": {
+        "percent": 60.4166666667,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Mantener valoración profesional específica para este agente por no estar disponible su clasificación reglamentaria en el caso."
+        },
+        {
+          "item_id": null,
+          "action": "Reforzar las medidas preventivas y de vigilancia acorde con una exposición frecuente."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No agregable de forma silenciosa; el caso indica dos agentes con clasificación reglamentaria diferente y no autoriza promediar resultados.",
+    "agent_aggregation_status": "No agregada; se mantienen evaluaciones separadas por agente.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Falta la clasificación reglamentaria/nivel de referencia de ambos agentes en el caso. Tampoco se proporciona una regla explícita para convertir las 19 respuestas Sí y 29 respuestas No en probabilidad, GRB o clase de riesgo. Por ello esos campos permanecen sin resolver."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Información del caso ERBB-P06",
+    "Exposición frecuente para ambos agentes",
+    "48 ítems del cuestionario; 19 respuestas Sí y 29 respuestas No",
+    "No existe autorización para promediar ni colapsar silenciosamente ambos resultados"
+  ],
+  "reasoning_summary": "Se identifican dos agentes distintos con exposición frecuente. El caso no aporta su clasificación reglamentaria ni una regla de conversión para probabilidad/GRB/clase, por lo que esos campos quedan sin resolver. Dado el discordancia entre agentes y la instrucción explícita de no agregarlos silenciosamente, la evaluación se mantiene separada y requiere valoración profesional."
+}

@@ -1,0 +1,67 @@
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "audit",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición declarada en el caso."
+      },
+      "compliance": {
+        "percent": 96.875,
+        "class": "Aceptable",
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "AUDIT-F2015-004"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Control higiénico y de protección individual incumplido; requiere corrección y seguimiento preventivo específico."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved_single_unit",
+    "agent_aggregation_status": "resolved_single_agent",
+    "workplace_global_class": "Tolerable"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": "La clasificación del agente, el nivel de referencia, la exposición, la probabilidad, el GRB y la clase de riesgo están resueltos por el output ERBioR. No se infiere información adicional."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "ERBioR reference output v0.9.0",
+    "Case ERBB-P10",
+    "Agente: Brucella melitensis (BIO-BACT-0028)",
+    "Exposición: Frecuente",
+    "AUDIT-F2015-004 = No"
+  ],
+  "reasoning_summary": "El agente Brucella melitensis está clasificado en el Anexo II, con grupo mínimo reglamentario 3 y nivel de referencia 3. La exposición es frecuente. El output ERBioR fija cumplimiento 96.875% (clase Aceptable), probabilidad Baja, GRB 3 y clase de riesgo Tolerable. Se identifica un control incumplido específico: AUDIT-F2015-004."
+}

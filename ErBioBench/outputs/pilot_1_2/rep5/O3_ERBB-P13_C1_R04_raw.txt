@@ -1,0 +1,64 @@
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": "48-ítems (cuestionario general)",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición indicada como 'Frecuente' en la información del caso."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": "Alta/No cuantificable: la frecuencia de exposición es 'Frecuente', pero no se aportan datos operativos ni del entorno para cuantificar probabilidad."
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Mantener y revisar controles existentes para exposición frecuente a SARS-CoV-2 (p. ej., medidas administrativas, organización del trabajo y EPI), dado que el cumplimiento global es alto pero no completo."
+        },
+        {
+          "item_id": null,
+          "action": "Verificar que los 8 ítems con respuesta 'No' correspondan a controles críticos (p. ej., ventilación/medidas de barrera, procedimientos, formación, y disponibilidad/uso de EPI) y corregirlos."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporciona la información necesaria para determinar clasificación/regulación y nivel de referencia del agente, ni el mapeo de GRB/clase de riesgo a partir de los resultados del cuestionario (faltan datos de controles específicos y sus correspondencias)."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Caso: exposición ocupacional 'Frecuente' a SARS-CoV-2",
+    "Cuestionario: 48 ítems con 40 'Sí' y 8 'No' (para cálculo de porcentaje de cumplimiento global)"
+  ],
+  "reasoning_summary": "Con los datos aportados solo puede resolverse el cumplimiento global del cuestionario (40/48=83.33%) y reconocer la exposición frecuente. La clasificación regulatoria/nivel de referencia del agente y la GRB/clase de riesgo no pueden determinarse porque el caso no incluye la información necesaria para establecerlas (p. ej., clasificación reglamentaria/mapeo GRB y controles concretos incumplidos)."
+}

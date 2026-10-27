@@ -1,0 +1,59 @@
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio:48 items",
+      "exposure": {
+        "category": "Muy frecuente",
+        "basis": "El caso indica que la exposición ocurre varias veces durante la jornada (Muy frecuente)."
+      },
+      "compliance": {
+        "percent": 83.3333333333,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": "Alta (cualitativa por exposición muy frecuente)"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y cerrar las 8 no conformidades detectadas en el cuestionario ERBio (sin especificarse cuáles en el caso), priorizando controles que reduzcan la exposición durante la jornada."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "partially_resolved",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El caso no proporciona la clasificación/regulación del agente ni identifica qué controles concretos incumplen (solo el recuento Sí/No). Por ello no es posible determinar GRB, clase de riesgo ni el nivel de referencia con la información disponible."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Información del caso: agente identificado Brucella melitensis (BIO-BACT-0028); exposición Muy frecuente; 40 Sí y 8 No en 48 ítems del cuestionario ERBio."
+  ],
+  "reasoning_summary": "Se determina exposición 'Muy frecuente' (varias veces por jornada) y se calcula cumplimiento global del 83.3% (40/48). No se puede resolver la clasificación/regulación del agente ni los controles incumplidos específicos, por lo que GRB/clase de riesgo y nivel de referencia quedan no resueltos."
+}

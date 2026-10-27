@@ -1,0 +1,102 @@
+{
+  "id": "resp_00467e957c0cf3dc006ae0de715e5087d28c39e9a9fe15fe2f",
+  "object": "response",
+  "created_at": 1793121905,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793121910,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-nano-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_00467e957c0cf3dc006ae0de71c33087d2893be0751a41ba84",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4N53MINHmN58wRuV6fJfWhCQaAZ3HT9Jrs5XYcIsYKccJhQkJghTvbFzwaIFngrT23nOSwU1kpBM9tjzxiz9jwungDP6n-EJgsfXPn8wIbOIWTrbCLUDZfxDBjK6zpgY9XJquEwCCDP5KJ-BKjvTHQA19rdZeZV36I1XfYOand6rqInIiebBKYJa7uXtICpxEz4nq78pQBWWZohp6tCB_DNgcjSX_751HLBvtvOjonS6fdcYTfYgvwB1nNuq9WhBeBDRm8OxQGcQQI7s1xaMoQBNATIUtR4S2--stqu1e1WLZZGcSklwKiVRO0BZBvsoCS3Fv_qzo0WCk2FQe_akDx2x5sQLvYfDNPdNJcDLVhf738vypjaN1XJDXf7tJ2NPHQ2do1_g1j0cggNpGorxGur5kCWluomuyhoWyoPLnDzj_zdqhjXlIjToOZ7soflKbT77bgzidVPIDjNWl6_-E2homZA3w0nrpyYCfzbsTMJg4RdMbEsIpWVGDjyk8hl0H5tr54TgQauCUcYTbxIBEVdfFY_g0gT7a0GKqCgxXdAg5UQFqDOJDGswwKY7n5QRW_T1Eljou7oKYL0dRZvMZLyb_TRVgX-gK0swfQWgeXW7B48Rb7UB9lRbhzt1Y70zKxzUCpdbpzzmdcgeiYBGua6pcsZZjA0KHAIvsz_DLucosyp2f3aW5-lmP24fQ85TalzPYKjHVYuxr3mLj94WBIiMdOhrdc_MAd55KPxnCytILYBhLy_qHGqa05rlyzOPWYWSWdNnwAIdpIRGMltazHFZNUoVPY0sqpvpyzN8nH2h7bQOtzH5Tcjutt8JsGOXXngV281boXi-lg0GKNlh5YgQJBtXvSAETH-zed1pwSEiVdPFfRYpJEXqm031RZ-KyafGGE0JVzuI63xvMCm-KSY3zbVDgbgOWjalzL9tWc28XDEVeguo6SV9dszkQrS7qiwSS3fkcfv12MfnUE-JrLhUpKp0OMeVkUx1pdF9I9IiLcroJonQ1Uk3g8rtnHeSEGz5-uHUFfSwT_LXxvhAKvZ9BxpffYb2Ik2tYO-3V9YGnMjz9cTrnCtA-GafL2wS7DoMGL2xLfgia6v1pvFQiEqLfOI01TLMeaE45hb_bnTxPX1l9W9riwj0ZEYoQqW-70v81m0Hb0d4ZF74y1bQcnuvvAtXH1MgjSWE0xRVZmH1ZFz-x8wXZqhOpKtFeBOvXvRYu28i8cXT8AsDs20CRHFxpHAc5zW_VsxF0SSE87euxt-d1By8xMawIi81Vh-CIKC329G6SlkiYAJNGVEtNHQCb2_49UPXfanjfuGDa97vD8NNjlPrUaVeohILaYjaRRcPZbRIZ2KLrLAk2eaPHGY_kQ5kpx01TUzOoQFXWuDuBpq0JKRHZ9W1beOHLKoxEe_eAXstluiuL3E24AXbrLDXc5ElkYllhYiU60Rz-N5FsJqLbSwElTlHdEG7n8310cErmzd3Xu_FvdBYeFUrTypyrNtVGT1JWS1dtlEcGDmthoaRy9VTA3hoFCkIuOtQbdMBDkV76UEe2f3heRjduj59XdCZWZuBRXWtBuG4nqPmdiRNinh3mIlbDxkiaFhV5fCbPJRF3HQPNTK1MzdcnEMFaHtddUNZYZkCi_fUP6hKLDCFIX7hjfT2r1a2KRY_IKVQx-ckaaqoR1HyD8ChrgW_vfndwVRcunleaJNH3EukK1d39nr7g4m-Kb5rTuPrn1EP11Vhl8Qu3GIoZUHI8WeNPhojlFpPvej_9aAV92LlUPixOeClGKDzlZVbZbfqDT63iyTmfi4Q6tVt64ZxUHIzMSHM1SrWPt31Br5sNn8c8GdvcIAFbBP9UtgCVvTEYtcFiYdRRnthIk0kbBskZ2IbVuXl_rvARsch0zozrFgQ_gL9vpwrQ8PIUo6jcpXRUMVauudT71Rou236isJqcSmX_OHm1a43LDBG6HFG4-j3Fa79fWwdq-lw4b_Ql8KK-lHR8iTbEqCVlF1sot6IstAr-hpqq5v8mjjyy6qB4I859JhW-mohoXws0Ul3QvtFR0ZacTK0VMok7on9ZGkGAY_mcsDSVXvo4-gbWS8PGs0B7MT-_LzJDJ1TlBDYaaWR0AKk3wE3ZD2SLkUFO5BhpwZjp9Bf_Bv6mqXTMYs1yefAqAdGDVRbYmr7ozzulumEfB1DA0s2IFvysbElkLp2neI8Hs_gEJ6RflW2ZyXrXD7asqOPhg6UPXxRNoQhLiYEpVnA2ZPtpSY1fKD3kq9_NJYzhERHw6WUKuHpcZfN5BBDPQhRF2xLaMRGdkfEO60QCwTPzIfmWXqNwwdGz7UXFw_Yx4KHrkoio_jrnvpFalJ1kdnhQM5b_nSy8t3d7hgKJ-85586qwosgGfB66T2L7QHxspMsTZyRuz4U_5lasSIuE_ymiPA71mFX3sphv6QoeMvsh7yv1ooRsrgdthIt2aMpgZd59ZbXHoERWrFAPSY3F0dhPQH_h4-yKiTtDif7xOYCNL6Y4NeSn36MD8U4iMRP4Mgkbn5Rw3uXuli_ncu8BdUz8geSSJ2Zh2z-fGep8ner5khhcmHDXg7Zrea_-xb0tJZQru3cplp-tuiBAaXoxUxmGWkb_XBQhbW0affroOnc1tVIRLbCQECrliPH2S1d5BsaOQnDqmaWi2OXk1orc-ZypVUc_0g42pIkgNbt7p6NTfXAzxlCYgdsVC-sqRrDmjjs2x8ET4AG04-1BumbfVcnOG96AxABcjx6T7FtidRFL1hao86sXHHutZET52PnwS4MKm7ezh1jAFwT2a347HHHPiFfelY7WHsxxjBcG371gjvMBGslOfPEPF9u-yRpqQwOigPVHmXr-76RfNYlqgtXxj03w_zJhHYMhCtetngZ2m8wAekSO9oR4xbhmjmxHJNRuxx5-TAN_WW_QvoOm82HSAZCLthGd3kHRweCzefVB26xTPskuMoVr862zDsytljhjVGShEV0J8GxshxYrTyc7rPcrEUabxjWoUYm1PPyECxmduPP6DyTOaN0U5W6_KCDwbFsgU-nVApc51tdhiTxpsgCuz3WVShGAOnfhOB27TcZFIEm2SBMNDxT3yFWjJrxPJd-fti8ty-fmLQqRtBul_BLk90Acb9z9BIipbx06nI3UIzLkVnpMkpEOqtjseRxqW6LpgUKNp2mSIZAMASwb4AxnxFM8zQ5bloxPVXs_cptV4jfBR02fdI5octXZQ==",
+      "summary": []
+    },
+    {
+      "id": "msg_00467e957c0cf3dc006ae0de72b24887d2a1adad7e8e61f908",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P04\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Actinomadura madurae\",\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 2,\n      \"reference_level\": 2,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"agent_name\": \"Actinomadura madurae\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición declarada en el caso: Frecuente\"\n      },\n      \"compliance\": {\n        \"percent\": 75,\n        \"class\": \"Mejorable\",\n        \"n_applicable\": 16,\n        \"n_not_applicable\": 32\n      },\n      \"probability\": {\n        \"value\": 2,\n        \"label\": \"Media\"\n      },\n      \"grb\": null,\n      \"risk_class\": \"Moderado\",\n      \"failed_controls\": [\n        {\n          \"item_id\": \"GENERAL-F2015-013\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-014\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-015\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-016\"\n        }\n      ],\n      \"preventive_actions\": []\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"matrix_assessment\",\n    \"agent_aggregation_status\": \"matrix_assessment\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    {\n      \"source\": \"ERBioR reference output\",\n      \"version\": \"0.9.0\",\n      \"benchmark\": \"ErBioBench-pilot-1.0\"\n    }\n  ],\n  \"reasoning_summary\": \"Se utiliza la salida ERBioR para Actinomadura madurae (BIO-BACT-0001) con exposición ‘Frecuente’. Los ítems ‘No procede’ (32) se excluyen del denominador (quedan 16 aplicables), con cumplimiento 75% (clase ‘Mejorable’) y probabilidad 2 (‘Media’). El riesgo resultante es ‘Moderado’ (risk_score=4) y se reportan controles incumplidos GENERAL-F2015-013 a -016. La evaluación no requiere revisión profesional según ERBioR.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 742,
+    "output_tokens_details": {
+      "reasoning_tokens": 135
+    },
+    "total_tokens": 2112
+  },
+  "user": null,
+  "metadata": {}
+}

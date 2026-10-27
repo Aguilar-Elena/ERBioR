@@ -1,0 +1,70 @@
+{
+  "case_id": "ERBB-P09",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "No resoluble con la información aportada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "contacto regular",
+        "basis": "El caso solo indica 'contacto regular' con material potencialmente contaminado; no se especifica frecuencia, cadencia ni porcentaje de tiempo de exposición."
+      },
+      "compliance": {
+        "percent": 83.33333333333334,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": "No determinable con certeza por información insuficiente"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Se requiere valoración profesional adicional para cuantificar la exposición y traducirla a una categoría ERBio."
+        },
+        {
+          "item_id": null,
+          "action": "Revisar las 8 respuestas negativas del cuestionario general para identificar controles preventivos incumplidos; el caso no especifica cuáles son."
+        },
+        {
+          "item_id": null,
+          "action": "Mantener la clasificación del agente como no resoluble con los datos disponibles hasta disponer de referencia regulatoria aplicable o valoración experta."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No procede agregación entre cuestionarios; solo se aporta un cuestionario general y un único resultado.",
+    "agent_aggregation_status": "No procede agregación entre agentes; solo se identifica un agente biológico.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "La exposición está descrita solo como 'contacto regular' sin frecuencia, cadencia ni porcentaje temporal. No se aporta clasificación/regla de referencia del agente ni se identifican los controles incumplidos de las respuestas negativas."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Agente identificado: Brucella melitensis (BIO-BACT-0028).",
+    "Exposición descrita únicamente como 'contacto regular'.",
+    "No se especifica frecuencia diaria/semanal/mensual ni porcentaje temporal.",
+    "Cuestionario general: 40 Sí y 8 No."
+  ],
+  "reasoning_summary": "Se identifica un único agente biológico, pero no se aporta una clasificación/regulación de referencia resoluble. El cuestionario general tiene 48 respuestas aplicables (40 Sí, 8 No), lo que da un cumplimiento del 83.33%, sin respuestas N/A. La exposición no puede traducirse con seguridad a una categoría ERBio cuantificada por falta de frecuencia y tiempo de exposición, por lo que la probabilidad, el GRB y la clase de riesgo quedan no determinables con la información disponible. Se preserva la incertidumbre y se requiere valoración profesional."
+}

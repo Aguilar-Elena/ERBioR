@@ -1,0 +1,102 @@
+{
+  "id": "resp_041575e726e95445006ae0e3609bb087d297e0d962e06abb5e",
+  "object": "response",
+  "created_at": 1793123168,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793123197,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_041575e726e95445006ae0e36182ec87d28f76ffb50f0e1394",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4ON9HfCwWh0ItDUzSrugsVeb4DP9GpfoeFLvlmfb1fmW9Ih0zRXCzoJe9CkXY2e26EID2qfxEWZ9rvMorkSFPHiRMVMYaQENmevwFLx7WGvf0EGKXy7b5RESyhmMWoDhmchFK1MmtAZWLfO_xLdfRbUlwm5y5za3KYy-u-rBH1i0sIqjLyKS1gpo4Jx2iN0SaUgy21gnfUDNTybE_d1WAjJsUmO8fkljeh_u9ZSx0vc3VokDLNhgQGXD18tJoxFoxA3AVsqLnLLnfHCNbmQ-ZrO-gTZV2tMOn4k0Ez6L3FoAguONOORBvIRWLoqCtgnUr1TdQDVN9CuyvNzIRurCxIu25c0lCk_q-CAPoOQ960YFhBMLwB7wY9lA9G8_bRrEGBcLEQyJFyh0jbfU044MeUNfUmRFsrDPx38M5CBT-vf_vi91lCorb_NHajywtdbhY_Qm6S38mL_djbCY8rYntajonJgBPOTl3uL0eAUzDgeAJPi9clAt2DxkOta_rGrTCR2klW6J9HNck1j5mJnR6hiR96rpDkT11S5t1yW9HvOx60_jrkpGlTb2AqZLKRIIGqlIuSjwxzhDXN2mKRwbZnftjz9nFmTfEmEhtjRMSAKBkgHlWr0hXq2CrZN9JK6Db9KbMccXqXoztD2kUVvmaB5_ta8ic6bXexBaWsRVlAvd3Ue21iJXA4nm2j98iORZu0EzEtnyZYF-R5EONaNXkEWwTc15VVn-rUSt9EkFWbHLCQK8Rn2W81PeAd8JDhYVhzGnQtLO7lr5dS_rAQAXVkPKP6jSipnXWQn0I2MBDWNg8sCD0qCSKHUfzPq5cI-qWO6BUYMJbvwOiPurL-gN2M56Z5n6PO6-7EzEZX5gpJjBcwxySPbxAIMNK18WGv35VpGD7BQv1VkL2zqWlZjOLM5rFjNeGm4COWMic-6e9BGwVAY1VAa5HR8RyVdIIMDh77LMCvd7EcDrPYmeHBvDCSzTweRvxl2_rlR5tdj7zic1EalCskdFm2o545Qfr1WpKKwda7qDo80U8MZOf67PY3RVa93CYVlNbcOWSYqLLSPQfaTDaM1PU6emhD6Vtn7jOKsMb5zzFJlk5ayiXR0YkTKEohRFE6VqDH8_wPV4k8-TcKeGzJQRznZPoIe3Zof87SYIdGAu4J0fpL2t9S17MRxQsOodszxoaxoiiQCfn3LAQqIuIckf-Qk_GgGRAE_R43FZ1blr7ZSz1j0wb5eD7l1uZnDFQtdOV5nZcN24Vnt8JjozRxvgpDuQHj-6U2fyCCGmafM1VQGLCxTYs2bYqeR1ihmseOqX0vm2xWaVn1s9tsEPT8VuexjDm7BAbeJ-aDie-tTfbftEtyzBE0NcjkYPtkae9ZMwHx5sb4SSqzPfjcAZYxBfo-U2a2ZZYq-uHFkh-X-JakUwzfRB8We5j-l2pZQR6B-tgX7cmaVdxX_wX8B8ho1m7PtOv8jXNxARxwMgEwhZcQE-YhmyjwSHvI6Gc7r-y6N2vUXShEsChUjeZ5n-fr5pTK69hBJspKRgKJjJ-7IhAvBgVr8aLOrqt2AejhSRRIFsXuP2LEbTx6U3gGxrVBhHG4gyDN55vEr7h1BrmR7jI7ArXCpP4o2AB2KliL_fsIAu5KxjL_v5P3TZgLAqZe3r5sqedQFZoZdk3r73AM3JOF_uEKi17fLx-Gh7niZJrNplRXFpDReEfYN9yK6be-I7nLkla3zqXR-obMY5mDqsxxRTzH-YPmxFcVfiuVbdKHXdxAV2xZbZfcceKUPy3l4sh-6cMuX1eaiOhqa5Xnzwk8csC-NDwlJaKmhlGxm-hn-1DbYe6OS72wWsltRxq-a2ahF6m-ndRgxvvnKMVuXtTDpUlTuF_gVpaPlcjTVG96UoD09uLzMmDMwk20lgIOJe9M3DzkDyWFGP2wwTyx-0nnO1ImmLZfw-QvAf_2XDqsEswAz5swHGufGtN9zX6K1b3KvKRmiVXQXObV1TjoKpxSaNvd7gmlEqKB1JR05jcDFlGpKmamJcCAtNszjq_CUH2hxiAF4Mcxf-ZhAeDV6W5Y3E4lF8ISH-HNoUU72_BRzC1Ti8GzRunSmu2Ri_ZGdgTtjEsWjJS-2IntFuFkt8ldpc5yCNTbaxS6YqDseLMJpQqo22B3KGhX6mzESCy20Xipq74BZgqIYpe9cQ6q26Wksin1WaGDYZ3hXd56U8lCoeMvRYunvwVua7bnGOgjVtiGTdWSDHw99BWsvOYhS0tDHme-6JquFhfQ13JVrPgDryn8oP1VdANWZa_h_3GIUeaYHN9PH-0WD01kIyi1bLUPK5YM6D_NXNcSViXTtw6FF_zu-21s62lo9v1JjSNQhPBUu0maW-v74YsAonv71Cagz-Igr6m656IawR9mQ6naU5Wp1oMJZTDKi51RvlCa6TG7XG8SmTd-2fQpV00t_k5FBbOoXFdKZzImZ-GhvBqiS8eOor5I9P-_5MuIZcIfoIzMfSV7IFod2nGG7F6NKxTsyD8wUJZpie_-q68W4fS-PeS9WZ3YHF8yYT_uiXT60Z_b8nrQGWsrW7bbWzuYLjTVcIq_pcByVy4OsAE4JWf9JG0eIDWN1ibIf3PU5WElryWks2xVStgvd2lcKNUAn0A27xcnFQcT5wp6tqan3o4QrWIHI31pKAMFEV1nkwC9ojQEe3joSTpOHf15Z4zcGm42ZsStNkKx-B5yV2gK9-XxNpZ7NzsdDJAxENqaPKcUhTjIGN2uC03Lt6wcL-kICXK6daQs7qxwpfI302iB0orpbjdjJCV4-mUS5bTkoS4wUQDnHOrCHt4uRPp4LWJu0P2JedthDpm1v08sfmT0T8Z09h1YGNKQMRczRpkTVkqRtzuBURCNgt6Q4YU1Uqvf_uPRyULNH-Sbtl1p5ROnWl6keQ4hG1b8uy3q61Y0wSZ53YMZSk7bzPk424hSR8ZRUreRIsAp1EacfOQ8QpWIqA72_MGgsLHAXckuZqZCb2ZGhG971bDkhR9-Yhw-Rg4vhdgfN3bj-No00nceu949y35ELYap9aSp9sWVQ8YY-0chuR9BfPs42eZ8oyV_7IuC-ZCI4kkpdqRZFROLoObqJek280jrAwaZGt8m2hmJX1pa8RNiR_niGgLjpUP38fgxC_RLjvDSJb1Bm-REXJU7SSM4Lu9newanAmYYJc-Y86LoGvBWJBTKn1SSsrqSZWWeA7FtDjL32fc47MltpKutXhhKD-siApW1xaAA4ukPq6HcTI_iUeHHejw1fAOIs0r6iW1U69bWTtUhajB266II1Ezal7zDx9MVaQtqq10nco5h3aPkNZsf8PZw1814rf4EeXX7FBsum0GZJjcvobN6DlqaBEqgo5iMSPEaQXeEHijVXG_Qj-4dWrFEGDRTt-jZjl5UguiKBBI_zaW3v9sgjNRReriaa4b96AEhT29gTrMCPM8VTVT8u8spr2NfDwYzbdQwkRcc4plaGL2meHHyHl8VSpR120miDAZzkuPyYgkNBbie0G2DnLXEWOfRPQXJ29zwumRODieX3zc1KNsgkTDYFgpAC6MAea2HgdvnXChPCSZ2QoN46c8BUpxZ1_0xhZIhKyj4tfiFfIqo2VAdhug4i1T2GAJa7F53gQOrl8fn-kUcM9X4rSwfmRuNdY_lr5jtENu2btPpFrM1e2WA==",
+      "summary": []
+    },
+    {
+      "id": "msg_041575e726e95445006ae0e364090c87d2af36b17a58f15c5c",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P12\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"audit\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición común indicada en el caso.\"\n      },\n      \"compliance\": {\n        \"percent\": 96.875,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 32,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n      \"failed_controls\": [\n        \"AUDIT-F2015-004\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado, manteniendo la trazabilidad de su implantación y verificación.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición común indicada en el caso.\"\n      },\n      \"compliance\": {\n        \"percent\": 39.5833,\n        \"class\": \"Deficiente\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Alta\"\n      },\n      \"grb\": 9,\n      \"risk_class\": \"Importante\",\n      \"failed_controls\": [\n        \"GENERAL-F2015-020\",\n        \"GENERAL-F2015-021\",\n        \"GENERAL-F2015-022\",\n        \"GENERAL-F2015-023\",\n        \"GENERAL-F2015-024\",\n        \"GENERAL-F2015-025\",\n        \"GENERAL-F2015-026\",\n        \"GENERAL-F2015-027\",\n        \"GENERAL-F2015-028\",\n        \"GENERAL-F2015-029\",\n        \"GENERAL-F2015-030\",\n        \"GENERAL-F2015-031\",\n        \"GENERAL-F2015-032\",\n        \"GENERAL-F2015-033\",\n        \"GENERAL-F2015-034\",\n        \"GENERAL-F2015-035\",\n        \"GENERAL-F2015-036\",\n        \"GENERAL-F2015-037\",\n        \"GENERAL-F2015-038\",\n        \"GENERAL-F2015-039\",\n        \"GENERAL-F2015-040\",\n        \"GENERAL-F2015-041\",\n        \"GENERAL-F2015-042\",\n        \"GENERAL-F2015-043\",\n        \"GENERAL-F2015-044\",\n        \"GENERAL-F2015-045\",\n        \"GENERAL-F2015-046\",\n        \"GENERAL-F2015-047\",\n        \"GENERAL-F2015-048\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-021\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-022\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-023\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-024\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-025\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-026\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-027\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-028\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-029\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-030\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-031\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-032\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-033\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-034\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-035\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-036\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-037\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-038\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-039\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-040\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"workers\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición común indicada en el caso.\"\n      },\n      \"compliance\": {\n        \"percent\": 58.8235,\n        \"class\": \"Mejorable\",\n        \"n_applicable\": 34,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 2,\n        \"label\": \"Media\"\n      },\n      \"grb\": 6,\n      \"risk_class\": \"Moderado\",\n      \"failed_controls\": [\n        \"WORKERS-F2015-021\",\n        \"WORKERS-F2015-022\",\n        \"WORKERS-F2015-023\",\n        \"WORKERS-F2015-024\",\n        \"WORKERS-F2015-025\",\n        \"WORKERS-F2015-026\",\n        \"WORKERS-F2015-027\",\n        \"WORKERS-F2015-028\",\n        \"WORKERS-F2015-029\",\n        \"WORKERS-F2015-030\",\n        \"WORKERS-F2015-031\",\n        \"WORKERS-F2015-032\",\n        \"WORKERS-F2015-033\",\n        \"WORKERS-F2015-034\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"WORKERS-F2015-021\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-022\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-023\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-024\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-025\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-026\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-027\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-028\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-029\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-030\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-031\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-032\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-033\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-034\",\n          \"action\": \"Corregir y documentar el incumplimiento identificado.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"source_rule_unresolved_for_discordant_questionnaires\",\n    \"agent_aggregation_status\": \"not_applicable_single_agent\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Los tres cuestionarios producen clases discordantes y la fuente no define una regla general para agregarlas. No se establece una clase global. El campo regulatory_group permanece sin determinar porque la salida solo especifica un grupo reglamentario mínimo de 3.\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    \"Información del caso ERBB-P12.\",\n    \"Salida de referencia determinista ERBioR versión 0.9.0.\"\n  ],\n  \"reasoning_summary\": \"Se mantuvieron tres unidades separadas para el mismo agente. Con exposición frecuente y nivel de referencia 3, la auditoría resulta GRB 3/Tolerable, la valoración general GRB 9/Importante y la de trabajadores GRB 6/Moderado. La discordancia impide asignar una clase global sin inventar una regla de agregación.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2690,
+    "input_tokens_details": {
+      "cache_write_tokens": 2687,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2989,
+    "output_tokens_details": {
+      "reasoning_tokens": 166
+    },
+    "total_tokens": 5679
+  },
+  "user": null,
+  "metadata": {}
+}

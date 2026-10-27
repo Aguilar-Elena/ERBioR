@@ -1,0 +1,113 @@
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "No resoluble con la información proporcionada; el caso indica que existe una clasificación reglamentaria diferente, pero no aporta el grupo/nivel exacto.",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "No resoluble con la información proporcionada; el caso indica que existe una clasificación reglamentaria diferente, pero no aporta el grupo/nivel exacto.",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "El caso indica explícitamente: \"Exposición para ambos: Frecuente\"."
+      },
+      "compliance": {
+        "percent": 39.583333333333336,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": "Alta"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        "29 respuestas No"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisión profesional de la clasificación reglamentaria y del nivel de referencia del agente antes de cerrar la valoración."
+        },
+        {
+          "item_id": null,
+          "action": "Revisar los 29 ítems con respuesta No para identificar controles preventivos no conformes."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "El caso indica explícitamente: \"Exposición para ambos: Frecuente\"."
+      },
+      "compliance": {
+        "percent": 39.583333333333336,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": "Alta"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        "29 respuestas No"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisión profesional de la clasificación reglamentaria y del nivel de referencia del agente antes de cerrar la valoración."
+        },
+        {
+          "item_id": null,
+          "action": "Revisar los 29 ítems con respuesta No para identificar controles preventivos no conformes."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No aplicable como agregación global única; se preservan dos evaluaciones separadas por agente.",
+    "agent_aggregation_status": "No permitido promediar ni colapsar silenciosamente ambos agentes; se mantienen evaluaciones independientes.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "La información disponible no permite resolver el grupo/regulatory level ni el nivel de referencia de ninguno de los dos agentes. Tampoco se dispone de una regla explícita de conversión del porcentaje de cumplimiento a clase de cumplimiento, ni de una matriz numérica ERBio para calcular GRB y clase de riesgo sin el nivel de referencia."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P06",
+    "Dos agentes biológicos simultáneos con distinta clasificación reglamentaria, sin detalle numérico aportado",
+    "Exposición para ambos: Frecuente",
+    "Cuestionario general ERBio: 48 ítems",
+    "19 respuestas Sí y 29 respuestas No",
+    "Instrucción explícita de no promediar ni colapsar ambos resultados"
+  ],
+  "reasoning_summary": "Se identifican dos agentes y se mantienen por separado. La exposición es frecuente para ambos y el cumplimiento observable es 19/48 (39,6%), con 29 controles no conformes. Sin embargo, el caso no aporta el grupo reglamentario ni el nivel de referencia de ninguno de los agentes, por lo que no es posible calcular de forma sustentada el GRB ni la clase de riesgo final. Se preserva incertidumbre y se marca revisión profesional obligatoria."
+}

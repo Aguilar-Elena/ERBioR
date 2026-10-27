@@ -1,0 +1,102 @@
+{
+  "id": "resp_05b0db9195456303006ae0de6ae1e887d2a4b9136587ab82ac",
+  "object": "response",
+  "created_at": 1793121898,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793121904,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-nano-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_05b0db9195456303006ae0de6b35ac87d2a5e082543e5ba89e",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4N5xT2r_eosYFrX-d-3Kolq0BwJkLQ0AD8IHnHBGk7r_7JwEDIS-VjbyOI9fGCbULlZYEOXYBsa0WDjk8aWl92fNcazvuodhIIDfdH0XJmJ0ApCp1rRPysiUi7TaOwmBU4y-diBrLc8-wnKwyj5xI1HDUKNJ3tG1jq2BbgBSPte7sa3DNTVc5g--rOMEGXuCzNnsL77wdrSsElQrr7ItyPF-egMiLKzLmW7xo2yWmtKWnodKA6jIXiKsX9IZ1qcOmn-NVgEuWIbc8UJLt64FSHFSLo2dVI1Ud90JTgU8Tbl1AR_6YMCFHDLSwl51TBFo5l6AGgS8LOlx3cpa6NWJJkdn6dyr06RBNq-U7ScdqkZ1SVJHKxEr8H1gmOwP3BmE2kTzzLhP880LgfQfYKb5vinRQG4pFLQCwUh4GYpuOrhpSiFoLWIw4t2AjIpRTnQo3qZ4YjIoqWMSJ23VoXnUYCGMknVdIrFG6UBHE3jHnN5-Xyh4xzL4HAnXKEXVE8Ge_3W7ZrtKX9AfVa1IolTwgR5mMytV2_zim26yXaathzVeeqIcDzQg4aDf5kSMRe9tRUpj5ih937O8LfrmTT297CTaSQYupic1tqjJdUbT5Tm6AF1rO7Yvv8lGE5SUWoVpPa9NtYf0IJ_CC8PDkjn8KlJ7epQm9W4ZAw1bgALz-jSjJTBPQE1VU_S3ko5FN77OfH_uflFjE51AO6y-tPByrfDBJOgXkk1jKkO_4SdJmIlG4Awpk4lSJfPPJfGDwZ5pWHWcAUd72555wiztN7sNZ6J0u1qhUDsDJ6VhUOfQux-bE9Qemyh4De9xipPTjWkSbjYxc7atIE7lGrm8K3-9uMFpgxKt_guLuSUZER7LsDElBI-UhA3obYtVrpmRPZkHXbx5FQ7thf7nCeRgp5MPr3-sFQ9p7HoYYOUG3wjXKHzDFYgLnOvvuDWmWmjgQJ1u84VhdmckH5sgtl8Kn4wZ0DzXm4J0USFCNYSmBID1ln1DVGxkYqNNugNzBAeIl-fnWhP5RmDDQzbluE7-Pr1W3Rck1jzoXRS5hWPx5-ndKvxwmazWQqTh5cR013XWOW3Ros4LylzDP_sV5KVZC3lRoohW6F8aY2scGtvLNzFx9nh3_YKwdmvtVTXNHZjQ2iZKHDBPCuxXCGIVNVxYjWPy_UK2HZdPPH0jgQYxpEcWWq5Ofqh8vdx31EaxRFV6X5zmdweyoutxftkIFeWGfAZBiUgg1ZqwA-cfjW9B5QNGkf8ScgOXkCO3ewq5l2o5NcnrTA5kUbcEMR8tKE0LgUpGv79CZhf1bTXiwUFq9QcwPZPw1p-Aiv-sBhDvOCt1QHb4qJmkuM_91qDRtkLMWuzNpzsTqlb1AdGK3anwHehTdXx3H2keRyfjXr4k3MT71ke1SGqzTV5QhrXN2G42h6gYtaMZdfXAdSmQs7xzAShzAdEoYen2_JiS5YzPz-4exLeMchX786AWxOpDK-Sel1a69gVur9NvJoPEo_xfDr1MAw5ZpA20s3eHLF2P5qe-_uSjdu_oT_nKgbhUuMkNtvzw16CDzCU0zi0mvaRoflaqa3Z1_hvqXK7dd8dKed6fTVxY5DMfZcJQYrdBhzD0YKbvFiK0VRTGhBXmSQKyqv_3ftIrP9HlKdKEycXh2nkI0Ufq4eaD24eYxbOYB894jwKTHV9sEsctL95rz6u_q7H1oIHu6merOvE4ROfUGt2NEfS2WWP4MkwMw0xaTDpi2p7ECn46dY17gG9ssV-4hH3syfhAHhplLz-k2VhcAvstmwCOyDT-5DNTLtlRdLUIbFzyWoGL6I81kg1qv42R-FohrNp7uDb-8o3z7bjH-8pi7QPaUIsj17-tiVoM0QanN84XgAi8Z5sYd5Hwv9PhlHsmPsjIx0LkVG37LCaLrjZ-0R1W74Zc8m_8gkpcluW7g7ocvoVcA_2sKBZr1dchxbwc6-2qfVaIrhscLYpYs7OJuY6w08v9l_WF5zn0XJY5o0czgdZ88v-PW7qMMAgBuFK69APG_b7DFTcBj-xb1z4MT727X4SQ5IB7HP_NNW3l4Hcf8H-hDnuS4wlI0vA806OtG2-AB1p-CR9pOc8OaeHN9tHfB27SHnyWnuTToucnrSDUIUajSI699hFR7ZLf0Cl8HPNiSg5roe_-pTz1RMUtw_Q9I1FldvhyAxNVNvFT8-ODm9GZIFk_PlPA71q_10tpFjKg8dSbYlqvoS46QWQ-Nr5btn9m-xSh7PwV5gZiTzjxSsoeafF9h_FI07QcXqCRhJ2Ix3lhMvmQF-YXRM1d9OzehGHL4LLc9B5rTQK3P_Ve6NmjBzFVaoasruzaRy4sDYVnw9mnDHOt_fXj9xmvD02Afg9DpFTTM7eqzVDK04vAL5udxtAhr-xNpVsKSCt2pOMRgVoE7e9RTpxiZ0QL21YN5X00TGanVVA1SL8Sfew6rRbeVbH8hKqOLiPCsbPX5p30vfPB9O8wusjRSy1UGyImST3ySSi8-tTBEyEvhd8Z9GAihS65y9NrfaaLFaHWQpcoNkV86P7Lbz_Iz8JDB58Dgre_sPtB1cr-8sQiigxGLa-Xq_2-F66JkkTXYb4CzVG2YI1TjYa08UKmbR17osKZ-kzmkDJevjL2N2jopFOeo7FezufDDNML8t5_jxd5NVSs5LOtUUDhN3eBGEXb8HqtxzHX-GROAlua5n9v2d_Jf818b83U1wpn5xBPf7KlKeAwwqJzVfDsY1GG2KLzr2iyZxo4Jer9E3IZCBtkYKQzW549-d2_yf6GbMn47zhEWr52rUt_FKZWfLHq0Y7R2ciTE8vZaoHv-tk71-SM3Wfr5Qi4I1OIESpbBmfKYHVsdf4V0t_sliQ_ovujNjbiORZ-Km1DVAdVR154k_3ULq7rIMv_ApISYNM5RjvzqqL3QYQETS23sApjDkDPaoFm4B5bbnaBCoKNrtXZiyWTIj8lOzs6H2IxpmFrqFkxwPISavWzgk0VIuLmuyM0XATdGaZ1bBIgxTRcgmdgunpW7rEXqiNt7VI3Sy0b4yvDxg2JQ8X0eV44lVFB9RHkwONZNURKqZvpp9Jdl0OQnBzGlBdM1AqEEfLEQ67ItYj1_FndMSktYwzCsw8o8tKApkbqg9bJYzeNyKVuo8uK3wPYpXc3hoRDQpZuGHo5UfPFYH559oUFn7yRQ170UBAPcmVCKfJW9if1bkZ6--sC7c6RUbty2FCoBYlpiCpKwef1-CHyoAj7kBwwZ1w5Fw9BTuf3iR-eEoM14gi_lnV7fUu4F0WTh3PiwytcMxCgI6pnyOWlZ6Q3L4dcHmXiidO1MIPShi4rsvJSUO2nTXdv6WSi-zXysgSqJe6f-hj7smzLZtJFnub655e8rfgDS3PgJbTIYcRMRQSMFsUjsCfUX5tto2VzXTTJiAw-LzPSCY4eqyG7v2-JxmMliZPSXJZsiy4TRRjIgh5NkUU8KIFbMYbDT-Zigq7IrWQb8wRvcsgYuyKA1V8FmBQPsQRF79c5239HSlExvIEO4CoUVJvR-tK2gf4sxZkFRHuMwe7t7B8cUwO0gbxlxwHdKU21t0AVu60h8N3u-0prpHr7Jg4-Uwu66NAFsraid8zAecqk2IB4G4A5E-mYoWC_UCAEF5LALBC1L2aU6WygNX-OMzacK_W1Nj9k1od2mKDpHoElSGxIdnn86-ggb5xnp4KsXYqoGYLMaNGprUjS_cqcTqlFvcZJiMMxNWj37d2xWXPNTj0fseLCT9jGZ6NGegVlj3jbKPiF8R1Y7OYRWYSF_VvTO6vH5WebY5SbEyQft3T7WtFrMPhGt3Bo6hjIUh8W2nHE37GQL-3-UgfLkPtir1VCuSyJt3eLtzejjovpXTxG_OXp0bkbBuzjeR_h3BiJ8CcUwt-MFEDqDHRNFRfHzmmkU7ibh3C9wPnqBeq75qzesgAbRxOX_ljl-m2kMoJNXwpAOCRXmOzN6lqSIIIYN5V9r7LWG8QBYziXkDzmqr8uqwrKTdgXvDc8pz1DM7gMQW_rU3QfVQ4FxBqVrpK11aItrwm6sC6M07sy6chz_4tQTfTuPBNS0ZYrrem-Z3VLX_gzLMCnAUk4uQdK7J_IOvXDdRvbcbJeJusE2CEuoz5aYY7-qFswXichBNESkT5d1mhGfh2eJZFK5zhIBIfyP4wLtjjkPEho6ZI5Kv6zSO44U3jKCS0BIFt-s9KP4FCOXwiu5yUAcvDa-zK2BnBRw0IzOfHncfstbb4MdhkwSy_rI3zafiKtnuexPATlfhuFj2oAppZR85G_5PNZFJKYAg8O5JVwL3nE3abiApFlNYkD65KdKtMBMQd09Xa1HCQtiqDZbyPt5czwr5Am5wnVRlwhivk8NBtuSRWsKuYZlGOz93ujaErz8A4jqz2zrpQkKnCqJ2quEXp9mSAkvDS2kQtpYk0MUWM08Y6qiqOG52K7l8RhmNPrYbOSwvw-7dm1CU7flUpjLYOOyzGztakcc7DDAU_fLU0rxn4SK-DDBPzsINL4HxglwswwSgHm9Z19o8pPjayp7uGAQ7yWnWSitkRSCg1Nmb0Hs_ulRX_486kGw0TeRms2kHj-pMKZi6EsBMNgGZbM8LkVU_dbifz7wB8bY1e0jr797AM2fj1-u-jl4UrmmAcWQ16I_kGdx-s9cIce6VRSLsyYV9HQph4k9GFDI_jIHXy6B0dFdZABm0ShsYH1vGtVeD3aQaZv9ZwW5feP24UjFmMC3yt3Mj4mqgFRdntpGy0Yn_t6PHyhQ9noqD-9PQR3n1OGelbrdZ_2XbFIkehTSm9FqYHSCq11Ps5yOVPJkRdd8IRTMwQQBcrEKlf9pgPd2uR4LaFzpaFz8LN0vY-F-ZlR4L08GjlUA3-5XLkk3xZQjsgasmqRvqMg7i78BYy3t9shJEXVY_c4PNTWKdAjyVO7tejg6Iys4H_mydwSSnsMNLr4THNM0TF-X2jjI4RZyNhPbLCbofLnqVFwwCftpwXI0ZRrNU-jE8pckB5gNNWGV8yhUqST_eC1eb-Uhmo_eRqWqtF1EoRjH5ZSEjLTWEQQb_O0MLRqT9OSRh0uTHualr2aYDqxcPj5cElnLMaM-hEPAc7SWAeTJBVFVaP5beKMeUEOR_EnCzwWyi81uVd1fTUDxVite-a7G0jcs-BPWrqpAtHfjMDpwd15FzsqOUbh7pA-QSQgD5hQJ6XnZJuhZ8oBUHnOWKEXN3Ko1USdce5IlkbZiPNfHhZO_bSZ3h0zv1y4FoilOs56Jyt86QcBoSVcehN3BW2DJ-Hyj_dskst5aAIhENW7OuD536pYO674W7lQZFJ8oxx8g3VsI7RRj9A1EGthpEb2Ks-G196nPscyYax3djwdCwSVDwN98GRFGhOkSXE110ea8yj-ag_gbXHdFr7rfV0yjewJk_7KAViAr1Q=",
+      "summary": []
+    },
+    {
+      "id": "msg_05b0db9195456303006ae0de6ce21c87d29182f324000cc8b4",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P04\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Actinomadura madurae\",\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"classification_status\": \"unresolved_not_provided_in_case\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"agent_name\": \"Actinomadura madurae\",\n      \"questionnaire_id\": \"ERBio_Cuestionario_General_48_items\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"El caso indica explícitamente exposición: Frecuente.\"\n      },\n      \"compliance\": {\n        \"percent\": 75,\n        \"class\": null,\n        \"n_applicable\": 16,\n        \"n_not_applicable\": 32\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"La evaluación de riesgo biológico completa (GRB y clase de riesgo) no puede finalizarse con la información del caso porque no se aporta el nivel de referencia/clasificación reglamentaria del agente en el marco ERBio.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"not_computable_due_to_missing_grb_reference_level\",\n    \"agent_aggregation_status\": \"not_computable_due_to_missing_grb_reference_level\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"No se proporciona en el caso la clasificación/nivel de referencia reglamentario del agente Actinomadura madurae en el marco ERBio; por ello no se pueden derivar GRB, clase de riesgo ni la agregación global. La clase de cumplimiento tampoco puede mapearse a una etiqueta ERBio sin la tabla de mapeo del marco.\"\n  },\n  \"professional_review_required\": true,\n  \"sources_or_basis\": [\n    \"Caso: Actinomadura madurae (BIO-BACT-0001).\",\n    \"Caso: Exposición = Frecuente.\",\n    \"Caso: Respuestas Sí=12, No=4, No procede=32; los ítems No procede se excluyen del denominador.\"\n  ],\n  \"reasoning_summary\": \"Se calcula cumplimiento sobre ítems aplicables: 12 Sí / (12 Sí + 4 No) = 75%, excluyendo 32 No procede del denominador. La clasificación/nivel de referencia del agente no está aportada en el caso, por lo que no es posible derivar GRB, clase de riesgo ni una clase global del lugar.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 984,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 952,
+    "output_tokens_details": {
+      "reasoning_tokens": 291
+    },
+    "total_tokens": 1936
+  },
+  "user": null,
+  "metadata": {}
+}

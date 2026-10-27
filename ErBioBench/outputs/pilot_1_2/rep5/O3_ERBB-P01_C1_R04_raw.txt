@@ -1,0 +1,54 @@
+{
+  "case_id": "ERBB-P01",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48-items",
+      "exposure": {
+        "category": "frecuente",
+        "basis": "La exposición ocurre con frecuencia diaria según el caso."
+      },
+      "compliance": {
+        "percent": 83.3333333333,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": "unresolved"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "unresolved",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El caso aporta solo frecuencia de exposición y el recuento general de respuestas (40 Sí / 8 No), pero no incluye el desglose por ítems, los criterios de mapeo a probabilidad/GRB/clase, ni la clasificación/regulación del agente. Por ello no es posible resolver la probabilidad, GRB y clase de riesgo, ni identificar controles incumplidos específicos con sus IDs."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso: exposición laboral diaria y frecuencia 'Frecuente'; agente identificado Brucella melitensis (BIO-BACT-0028); cuestionario 48 ítems con 40 Sí y 8 No."
+  ],
+  "reasoning_summary": "Se calcula el cumplimiento global (83.33% Sí sobre 48 ítems) y se categoriza la exposición como 'frecuente' por frecuencia diaria. Sin la información de criterios y el desglose por ítems/IDs, no se puede resolver la clasificación/nivel de referencia del agente ni determinar probabilidad, GRB o clase de riesgo; por ello se mantiene 'unresolved' y se requiere revisión profesional."
+}

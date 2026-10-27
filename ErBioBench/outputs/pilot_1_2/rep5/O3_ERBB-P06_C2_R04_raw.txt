@@ -1,0 +1,115 @@
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "unresolved_not_provided",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved_not_provided",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "Exposición para ambos: Frecuente (categoría ERBio no determinable con la información provista)."
+      },
+      "compliance": {
+        "percent": 39.5833333333,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y actualizar la evaluación de riesgo biológico específica del agente, incluyendo la verificación del nivel de referencia reglamentario aplicable."
+        },
+        {
+          "item_id": null,
+          "action": "Reforzar la aplicación y evidencia de medidas de control (p. ej., formación, procedimientos de trabajo seguros, higiene y EPI adecuados) acordes al riesgo estimado y a los requisitos que resulten tras confirmar la clasificación."
+        },
+        {
+          "item_id": null,
+          "action": "Implementar seguimiento/validación interna de la eficacia de controles, dado que el cumplimiento global obtenido es inferior al 50% y no se aportan ítems específicos fallidos."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "Exposición para ambos: Frecuente (categoría ERBio no determinable con la información provista)."
+      },
+      "compliance": {
+        "percent": 39.5833333333,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y actualizar la evaluación de riesgo biológico específica del agente, incluyendo la verificación del nivel de referencia reglamentario aplicable."
+        },
+        {
+          "item_id": null,
+          "action": "Reforzar la aplicación y evidencia de medidas de control (p. ej., formación, procedimientos de trabajo seguros, higiene y EPI adecuados) acordes al riesgo estimado y a los requisitos que resulten tras confirmar la clasificación."
+        },
+        {
+          "item_id": null,
+          "action": "Implementar seguimiento/validación interna de la eficacia de controles, dado que el cumplimiento global obtenido es inferior al 50% y no se aportan ítems específicos fallidos."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "incomplete_due_to_missing_item_mapping",
+    "agent_aggregation_status": "not_performed_due_to_unresolved_reference_levels_and_multi_agent_discordance",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "La clasificación/reglamentación (nivel de referencia) de ambos agentes no se proporciona en el caso, por lo que no puede derivarse GRB ni clase de riesgo con el marco ERBio. Además, solo se aportan recuentos Sí/No agregados (19/29), sin identificar ítems fallidos, lo que impide listar controles incumplidos concretos ni asignar clases de cumplimiento y derivaciones dependientes de umbrales internos del marco."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P06: agentes Actinomadura madurae (BIO-BACT-0001) y Brucella melitensis (BIO-BACT-0028).",
+    "Caso ERBB-P06: exposición 'Frecuente' para ambos agentes.",
+    "Caso ERBB-P06: cuestionario general ERBio (48 ítems) con 19 Sí y 29 No (para el cálculo de cumplimiento agregado).",
+    "Caso ERBB-P06: no existe autorización para promediar o colapsar silenciosamente ambos resultados."
+  ],
+  "reasoning_summary": "Se evalúan por separado los 2 agentes con exposición Frecuente y cumplimiento agregado 39.58% (19/48). No se aportan niveles de referencia/clasificación reglamentaria para Actinomadura madurae ni Brucella melitensis, ni el mapeo ítem-a-clase del cuestionario, por lo que GRB y clase de riesgo no pueden derivarse; se requiere valoración profesional para completar la evaluación conforme a ERBio."
+}

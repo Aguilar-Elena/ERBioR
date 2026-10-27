@@ -1,0 +1,63 @@
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente en el caso."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar los 8 ítems con respuesta No, evaluar su relevancia y corregir los controles incumplidos; no pueden especificarse acciones por ítem porque no se proporcionó su contenido."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Cumplimiento cuantificable, pero clase de cumplimiento no resoluble sin los criterios ERBio de conversión.",
+    "agent_aggregation_status": "No resoluble: faltan la clasificación o nivel de referencia del agente y las reglas necesarias para determinar probabilidad, GRB y clase de riesgo.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se aportan la clasificación reglamentaria o nivel de referencia del agente, el contenido e identificación de los 8 ítems respondidos No, ni las reglas ERBio para convertir exposición y cumplimiento en probabilidad, GRB y clase de riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P13",
+    "Agente declarado: SARS-CoV-2 (BIO-VIR-0064)",
+    "Exposición declarada: Frecuente",
+    "Cuestionario general de 48 ítems: 40 respuestas Sí y 8 respuestas No",
+    "Cumplimiento calculado: 40/48 × 100 = 83.33%"
+  ],
+  "reasoning_summary": "La exposición frecuente está indicada directamente y el cumplimiento es 83.33%. La clasificación del agente, la probabilidad, el GRB y la clase de riesgo permanecen sin resolver porque el caso no aporta las clasificaciones ni las reglas de cálculo necesarias. Los 8 controles incumplidos no pueden individualizarse, por lo que se requiere valoración profesional."
+}

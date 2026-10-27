@@ -1,0 +1,66 @@
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición indicada expresamente en el caso."
+      },
+      "compliance": {
+        "percent": 97.9167,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "description": "No se realiza la limpieza/desinfección periódica de los equipos de trabajo."
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implantar y mantener la limpieza y desinfección periódica de los equipos de trabajo, conservando trazabilidad de su cumplimiento."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No procede: existe un único cuestionario para la unidad de evaluación.",
+    "agent_aggregation_status": "No procede: existe un único agente.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": false,
+    "description": "El resultado ERBioR es una evaluación matricial resuelta. No se asigna un grupo reglamentario distinto del mínimo regulatorio informado."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Información del caso ERBB-P11.",
+    "Salida de referencia ERBioR 0.9.0.",
+    "Cuestionario general ERBio, versión final_2015_annex1."
+  ],
+  "reasoning_summary": "Para Brucella melitensis, ERBioR establece clasificación en anexo II, grupo mínimo regulatorio 3 y nivel de referencia 3. Con exposición frecuente y cumplimiento del 97.9167 %, la probabilidad es baja (1), el GRB es 3 y el riesgo es tolerable. El único control incumplido es GENERAL-F2015-020, por lo que la acción preventiva se dirige a la limpieza y desinfección periódica de los equipos."
+}

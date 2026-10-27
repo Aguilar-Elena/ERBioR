@@ -1,0 +1,67 @@
+{
+  "case_id": "ERBB-P04",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "Cuestionario general ERBio",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente en el caso"
+      },
+      "compliance": {
+        "percent": 75,
+        "class": null,
+        "n_applicable": 16,
+        "n_not_applicable": 32
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        "Existen 4 respuestas No, pero no se identifican los ítems ni los controles concretos incumplidos"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar y revisar profesionalmente los 4 ítems respondidos No para determinar las medidas correctoras específicas."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Evaluación parcial: cumplimiento calculable, pero clase de cumplimiento, probabilidad, GRB y clase de riesgo no resolubles",
+    "agent_aggregation_status": "No resoluble por ausencia de clasificación o nivel de referencia del agente y de reglas de conversión aplicables",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporciona la clasificación reglamentaria o nivel de referencia de Actinomadura madurae, la identidad de los 4 ítems incumplidos ni las reglas para convertir exposición y cumplimiento en probabilidad, GRB y clase de riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P04",
+    "Agente identificado: Actinomadura madurae (BIO-BACT-0001)",
+    "Exposición indicada: Frecuente",
+    "Cuestionario general ERBio de 48 ítems",
+    "12 respuestas Sí, 4 respuestas No y 32 respuestas No procede",
+    "Los ítems No procede se excluyen del denominador",
+    "Cumplimiento calculado: 12 / (12 + 4) × 100 = 75 %"
+  ],
+  "reasoning_summary": "Al excluir las 32 respuestas No procede, quedan 16 ítems aplicables; 12 respuestas Sí determinan un cumplimiento del 75 %. La exposición es Frecuente. No pueden determinarse la clasificación del agente, la clase de cumplimiento, la probabilidad, el GRB ni la clase de riesgo porque faltan las clasificaciones y reglas de conversión necesarias. Los 4 controles incumplidos requieren identificación y valoración profesional."
+}

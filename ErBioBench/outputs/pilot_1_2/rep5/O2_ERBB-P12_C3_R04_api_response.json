@@ -1,0 +1,102 @@
+{
+  "id": "resp_01a3280ff2e2a663006ae0d9dd317487d2bb479434515108f1",
+  "object": "response",
+  "created_at": 1793120733,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793120748,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_01a3280ff2e2a663006ae0d9dda30087d2995b01b840b15677",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4NnskbEsxAINnkJovkOLjj9B8hecLIFGCTM1u0_1d-97Vln86WiQ0yiwdNizLEpzWiKp2zYPO3OemSQVwttYHnFoZCmiqk7IPn9Ei3DuRqUUXVb7MrZWEXIvqLJESJRNbvOySR_DJ1wBLqSa6_G81anUM4VmwvtUAj7-lysZ08e59A364reCsp_YVeBp7Eky8acQlOv9_-G4-aNNH-XD-5Fg-HVXNCcd4ZxLB3vK3h2F4KD8CtpuTLGosuasjW2RF1Fw_Svg22fYG6k5iFdm_YTsA_g85aVucjZLSNku_G-6ZJpOjb_VcLs2Gzo-HxfThwksFCNsc7lozroOPIc3rtf7VRrVSJnXu8vgkp-m2U_aB0gqyrgOyG8dwy_PJqvy6yX2MsP30pnU-sXf8_tQWYpItPMETU35-2G46Hp9YPJVYG7zHlH4Pc48PzNr9y8QA8IsRuSK0fc_twGVPcBU9pKsO4fNr51OdnJm7F1M-kWIcKz-_FAb7Qt82t6kIUg83C6eu1k3eDIyqcQcnjUz52QyqASOFumzqhMWO_ScSWgz087QHzt9l2f4CgzsG8EgDyvFJTwM3zU7toX9g13rS5jBBOG7WpwhBjI1sd4332BdTqCZNZJQ3PmuKzZkjHBulbQxnYqKWY5rm_3hMXnGhXOdKStmKN7z-FwlnwfX7N21H56QLfOAk3wuOL3s0MDwyipE2ilSjeN7xqSHw95e8Xu2IyWMZJ1pcdHkDdV3Dd7aZ4aBQ_T7066YmHlmPGgmF83PzJ4Z_6yfq2wHv5qlS7S5MCWtQ-xzTPZu_r4ygozMV_pb00nnyUdJnAK1jpN8EgXv8OBSseTqCqXc_ERjIHIC2-BwoxA2Ztpr1KuJ9olS4mxOZ3OaKWnmNiN_g1blXLXgaSv7MVhz4vuGUGiU_Aa97UpZMcSn8oYufa5o9v9Q7u5Flp7ZGHM-DAGiWbXuM9_02hCndgkWh6RTov9GVvv53G29v_OgWgJn-C2TwYrtMvTlRqQr7xYEIRR0GDwAOjRij6Y12lMXpHn1ArS_3K5LD5q8rYZPFgh6FWobF-USKgWdnzlXQ2eVVTeMwlh70KcOUQzJOGEumOiJTRah_z69HYj2WFA_KkkbPVrgz5Vo04WF3Cw7Q4HLQZit04rh9INHrMVr52ZZotXp-P8gLaM1jXrF2WJ3enH2h8VcTt4OsaOjRIPrYlmI5hfly3cFDMV2bSWQYDINWVWMB7CF9vWOyQ0QLOqe2fWIMBTRGPu9Kcu964LdEeglNprUkLR78r16KdcvvY6oYpNV7oc05_rBpRKbyMdDM4St7bFqEn0QuVTn6U8uc_PI-s0Gy0xfusAQQCqId2Yke2tpsX-8Ag35DU6MLHUxf18oN9wCguhvcQkPQ_XH9D3aLlSp3R-obS2i1dhcENn8WwR0tjvgQeCdicM-AUn5_619-NCMI3Sr6nYrefalsn8_QapYv84nJ2lQTyDyZ-hno-I7XDxI-hhLCa7Qvnz2TZ65XZcnrB1_I-6JTph0THbQsaeeP_yJPY3oJv8GpOXRzyPipKy5ma0S_9h_pOJs0H11Vw1mtMyXZEC7z_4L9LUuWEpQ56d8xbPJIln8iAJz7LBqnGv57BS0E7qh1nQJLSHgd4vQ1QI0u5BmvNbOxeryOF8Ow4DN8spZ_23hauIJ5EmLxJ_QLmxV9iYyQgkQQatyegkJtw86N6cyqK_a3bdSxNT7-fcZPis12j6SfmJXuiEM00g7xikHJgRMia3Aqn-_lG97FA7bD7rN1LvrqClJ3woWfL9jMdRvqrOIn2md5iNMKfY1ynQmM7EKjm7uwTak1wx0yOajuVbxtcMmPGhiAkkkheSSCoVU_6YKZnKyFd6tkWGDGSnRImi5dgiJG70Qk5sH66se-TDvwTFTowp-Qh7uf9V-hX6zeKUpFrGZDPiHfI3FbwS8_o7Ugr5ZulUB4_kBPU1dh9meMgiqCUf3Fhn5WtMaWze0y-tZ-glXvD-9JnEs9LV6bJCQlko_RawB2KMjBR5jI4bH4NhOjB9vyxqQEJtgSg_4edDzby7RSKej5w3FgNawG4Dl7Y85xjee5c3T5HmxRbYFJULWZkUiSuSQGPnXGfMhOWAN30lo4RawPttjsIKR5Izr1LuGL01zzZTK1S-7L4_gMe1a99L3stukJHzEZTtDToDLZx6f16NPiFetCZ1wjm4WHP613h-7ssGdbfvPI6HiImXc2qw8iOjgFc7uv4JOYpaETphzO2cd_wLyovXZxoAwD9hPBUQsU7FiE5Bh7a9_tNy-HXwUOOBa5ojBRgeh",
+      "summary": []
+    },
+    {
+      "id": "msg_01a3280ff2e2a663006ae0d9de18f087d29f58ba91a537aeba",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P12\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"audit\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición común indicada en el caso y reproducida por el ERBioR.\"\n      },\n      \"compliance\": {\n        \"percent\": 96.875,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 32,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n      \"failed_controls\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\"\n        }\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"action\": \"Corregir el control incumplido asociado a la auditoría del sistema de gestión del riesgo biológico.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición común indicada en el caso y reproducida por el ERBioR.\"\n      },\n      \"compliance\": {\n        \"percent\": 39.5833,\n        \"class\": \"Deficiente\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Alta\"\n      },\n      \"grb\": 9,\n      \"risk_class\": \"Importante\",\n      \"failed_controls\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-021\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-022\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-023\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-024\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-025\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-026\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-027\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-028\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-029\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-030\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-031\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-032\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-033\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-034\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-035\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-036\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-037\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-038\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-039\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-040\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-041\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\"\n        }\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-021\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-022\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-023\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-024\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-025\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-026\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-027\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-028\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-029\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-030\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-031\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-032\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-033\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-034\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-035\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-036\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-037\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-038\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-039\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-040\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Implantar o corregir el control preventivo asociado.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"workers\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición común indicada en el caso y reproducida por el ERBioR.\"\n      },\n      \"compliance\": {\n        \"percent\": 58.8235,\n        \"class\": \"Mejorable\",\n        \"n_applicable\": 34,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 2,\n        \"label\": \"Media\"\n      },\n      \"grb\": 6,\n      \"risk_class\": \"Moderado\",\n      \"failed_controls\": [\n        {\n          \"item_id\": \"WORKERS-F2015-021\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-022\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-023\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-024\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-025\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-026\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-027\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-028\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-029\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-030\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-031\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-032\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-033\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-034\"\n        }\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"WORKERS-F2015-021\",\n          \"action\": \"Mejorar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-022\",\n          \"action\": \"Mejorar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-023\",\n          \"action\": \"Mejorar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-024\",\n          \"action\": \"Mejorar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-025\",\n          \"action\": \"Mejorar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-026\",\n          \"action\": \"Mejorar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-027\",\n          \"action\": \"Mejorar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-028\",\n          \"action\": \"Mejorar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-029\",\n          \"action\": \"Mejorar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-030\",\n          \"action\": \"Mejorar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-031\",\n          \"action\": \"Mejorar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-032\",\n          \"action\": \"Mejorar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-033\",\n          \"action\": \"Mejorar o corregir el control preventivo asociado.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-034\",\n          \"action\": \"Mejorar o corregir el control preventivo asociado.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"discordant\",\n    \"agent_aggregation_status\": \"source_rule_unresolved_for_discordant_questionnaires\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Los cuestionarios producen clases de riesgo distintas para el mismo agente y la referencia indica que no existe una regla general definida para agregarlas; por ello no se infiere una clase global única.\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    \"ERBioR reference output v0.9.0\",\n    \"Case ERBB-P12\",\n    \"Brucella melitensis (BIO-BACT-0028) clasificación annexe II y nivel de referencia 3\",\n    \"Cuestionarios diferenciados: auditoría, general y trabajadores\"\n  ],\n  \"reasoning_summary\": \"Se mantiene la evaluación separada por cuestionario. El agente está clasificado en el anexo II con grupo mínimo reglamentario 3 y nivel de referencia 3. La exposición es frecuente en los tres instrumentos. Los resultados son discordantes: auditoría (cumplimiento aceptable, probabilidad baja, GRB 3, riesgo tolerable), general (cumplimiento deficiente, probabilidad alta, GRB 9, riesgo importante) y trabajadores (cumplimiento mejorable, probabilidad media, GRB 6, riesgo moderado). La agregación global queda no resuelta según la referencia, sin inferir una clase única.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2690,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3308,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 5998
+  },
+  "user": null,
+  "metadata": {}
+}

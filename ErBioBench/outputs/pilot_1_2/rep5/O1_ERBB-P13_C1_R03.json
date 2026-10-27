@@ -1,0 +1,62 @@
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría de exposición indicada expresamente en el caso."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar y revisar los 8 ítems con respuesta No para determinar los controles incumplidos y las medidas correctoras correspondientes."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No resoluble: no se proporcionan reglas para convertir el 83.33% de cumplimiento en una clase.",
+    "agent_aggregation_status": "No resoluble: faltan la clasificación o nivel de referencia del agente y las reglas de cálculo de probabilidad y GRB.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se aporta clasificación reglamentaria o nivel de referencia del agente, umbrales de cumplimiento, matriz de probabilidad, fórmula de GRB ni identificación de los 8 ítems respondidos No. Por ello no pueden determinarse la clase de cumplimiento, la probabilidad, el GRB, la clase de riesgo ni los controles concretos incumplidos."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Agente indicado: SARS-CoV-2 (BIO-VIR-0064).",
+    "Exposición indicada: Frecuente.",
+    "Cuestionario general de 48 ítems: 40 respuestas Sí y 8 respuestas No.",
+    "Cumplimiento calculado: 40/48 × 100 = 83.33%."
+  ],
+  "reasoning_summary": "La exposición es frecuente y el cumplimiento cuantitativo es 83.33%. La información suministrada no permite asignar clasificación reglamentaria, clase de cumplimiento, probabilidad, GRB o clase de riesgo, ni identificar los controles fallidos; se requiere valoración profesional."
+}

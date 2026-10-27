@@ -1,0 +1,97 @@
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición indicada en el caso y confirmada por el output ERBioR."
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Control preventivo no cumplido según el cuestionario general; requiere corrección en el ámbito del ítem correspondiente."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Control preventivo no cumplido según el cuestionario general; requiere corrección en el ámbito del ítem correspondiente."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Control preventivo no cumplido según el cuestionario general; requiere corrección en el ámbito del ítem correspondiente."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Control preventivo no cumplido según el cuestionario general; requiere corrección en el ámbito del ítem correspondiente."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Control preventivo no cumplido según el cuestionario general; requiere corrección en el ámbito del ítem correspondiente."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Control preventivo no cumplido según el cuestionario general; requiere corrección en el ámbito del ítem correspondiente."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Control preventivo no cumplido según el cuestionario general; requiere corrección en el ámbito del ítem correspondiente."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Control preventivo no cumplido según el cuestionario general; requiere corrección en el ámbito del ítem correspondiente."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_aggregated",
+    "agent_aggregation_status": "not_aggregated",
+    "workplace_global_class": 3
+  },
+  "uncertainty": {
+    "present": false,
+    "description": "No hay incertidumbre residual en la clasificación del agente, nivel de referencia, exposición, cumplimiento, probabilidad y clase de riesgo porque el output ERBioR suministra todos los valores necesarios."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Caso ERBB-P13",
+    "ERBioR reference output v0.9.0"
+  ],
+  "reasoning_summary": "Se mantiene una unidad de evaluación única para SARS-CoV-2 con cuestionario general. El agente está clasificado en el anexo II, con grupo mínimo reglamentario 3 y nivel de referencia 3. La exposición es frecuente. El cuestionario muestra 40 respuestas sí de 48 aplicables, con cumplimiento 83.3333% (clase Aceptable). ERBioR asigna probabilidad Baja (1), GRB 3 y clase de riesgo Tolerable. No se requiere valoración profesional adicional."
+}

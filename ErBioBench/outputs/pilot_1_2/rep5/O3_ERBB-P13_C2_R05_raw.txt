@@ -1,0 +1,69 @@
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": "Cuestionario general (48 ítems)",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición indicada como 'Frecuente' en el caso."
+      },
+      "compliance": {
+        "percent": 83.33333333333334,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        "Controles incumplidos: 8 respuestas 'No' (ítems no especificados en el caso)."
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar los controles preventivos correspondientes a los ítems con respuesta 'No' (sin detalle de ítems disponibles en el caso)."
+        },
+        {
+          "item_id": null,
+          "action": "Asegurar la verificación/seguimiento de la implementación de controles para reducir el riesgo asociado a la exposición frecuente."
+        },
+        {
+          "item_id": null,
+          "action": "Planificar una revisión profesional del sistema de control dado el incumplimiento parcial reportado (40 Sí / 8 No) y la ausencia de información detallada de los ítems."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No agregable conforme a métricas ERBio sin mapeos/clasificaciones no provistos en el caso",
+    "agent_aggregation_status": "No aplicable (1 agente)",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El caso no proporciona: (i) clasificación/regla de referencia regulatoria del agente (reference level), (ii) mapeo de respuestas del cuestionario a clases de cumplimiento ERBio ni a identificadores de controles, (iii) información de ítems 'No' (qué controles específicos fallaron). Por ello no es posible derivar de forma verificable la probabilidad numérica/etiqueta, el GRB ni la clase de riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Datos del caso: Agente SARS-CoV-2 (BIO-VIR-0064), exposición 'Frecuente', cuestionario general 48 ítems con 40 Sí y 8 No."
+  ],
+  "reasoning_summary": "Con la información provista solo puede calcularse el cumplimiento global (40/48 = 83.33%) y registrar que existen 8 controles incumplidos no especificados. El caso no aporta el nivel de referencia/regulación del agente ni la correspondencia ERBio necesaria para convertir exposición y cumplimiento en probabilidad, GRB y clase de riesgo; por ello dichos campos quedan sin determinar y se recomienda revisión profesional."
+}

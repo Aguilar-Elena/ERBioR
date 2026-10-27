@@ -1,0 +1,63 @@
+{
+  "case_id": "ERBB-P08",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "No clasificado / sin clasificación final disponible",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "El caso indica que no se aporta una clasificación final y no proporciona información suficiente sobre exposición (p. ej., vía, intensidad, frecuencia o prácticas)."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Aplicar la regla regulatoria específica indicada para virus humanos no clasificados y requerir valoración profesional para establecer el nivel de referencia mínimo y la clasificación regulatoria correspondiente."
+        },
+        {
+          "item_id": null,
+          "action": "No cerrar la estimación de riesgo hasta disponer de información de exposición ocupacional (p. ej., actividades, vías potenciales, medidas existentes) y del nivel de referencia resultante."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No determinable con la información disponible (faltan resultados de cuestionario)",
+    "agent_aggregation_status": "No determinable (nivel de referencia no resuelto)",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Incertidumbre regulatoria explícita: el virus hipotético aislado en humanos todavía no figura evaluado o clasificado en el registro utilizado, y el caso no proporciona el nivel de referencia final ni información de exposición para derivar probabilidad, GRB y clase de riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P08: indica virus humano hipotético no clasificado en el registro utilizado y requiere distinguir el mínimo regulatorio y el nivel de referencia final; no aporta clasificación final ni información de exposición."
+  ],
+  "reasoning_summary": "La clasificación/regulación del agente no está resuelta (virus humano no clasificado) y el caso no aporta información de exposición ni resultados del cuestionario, por lo que no es posible derivar nivel de referencia, probabilidad, GRB ni clase de riesgo; se requiere valoración profesional conforme a la regla indicada."
+}

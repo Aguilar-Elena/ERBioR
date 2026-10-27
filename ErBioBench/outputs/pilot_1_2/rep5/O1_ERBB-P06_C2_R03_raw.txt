@@ -1,0 +1,102 @@
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "No resuelta: el caso indica que existe clasificación reglamentaria, pero no proporciona el grupo ni el nivel de referencia.",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "No resuelta: el caso indica que existe clasificación reglamentaria, pero no proporciona el grupo ni el nivel de referencia.",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "Cuestionario general ERBio",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente para ambos agentes."
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar y revisar individualmente los 29 controles respondidos como No; el caso no proporciona sus identificadores."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Cuestionario general ERBio",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente para ambos agentes."
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar y revisar individualmente los 29 controles respondidos como No; el caso no proporciona sus identificadores."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Un único cuestionario general con 48 respuestas aplicables; no se realiza agregación entre cuestionarios.",
+    "agent_aggregation_status": "No agregada: los dos agentes se mantienen como evaluaciones separadas y no se promedian ni colapsan.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporcionan los grupos reglamentarios o niveles de referencia de los agentes, los umbrales para asignar la clase de cumplimiento ni los identificadores de los 29 controles incumplidos. Por ello no pueden determinarse de forma sustentada la probabilidad, el GRB, la clase de riesgo ni una clase global del puesto."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P06.",
+    "Dos agentes identificados por nombre e ID.",
+    "Exposición Frecuente indicada para ambos agentes.",
+    "Cuestionario general ERBio de 48 ítems.",
+    "19 respuestas Sí y 29 respuestas No; cumplimiento calculado como 19/48 = 39.58%.",
+    "Ausencia de respuestas No procede: las 48 respuestas comunicadas cubren los 48 ítems.",
+    "Prohibición expresa de promediar o colapsar silenciosamente los resultados."
+  ],
+  "reasoning_summary": "Se evaluaron por separado los dos agentes. Para cada uno, la exposición es Frecuente y el cumplimiento cuantitativo es 39.58% sobre 48 ítems aplicables. La clasificación reglamentaria concreta y los umbrales ERBio necesarios no figuran en el caso, por lo que la clase de cumplimiento, la probabilidad, el GRB y la clase de riesgo permanecen sin resolver y requieren valoración profesional."
+}

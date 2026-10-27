@@ -1,0 +1,70 @@
+{
+  "case_id": "ERBB-P09",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Cuestionario general",
+      "exposure": {
+        "category": null,
+        "basis": "Solo se describe como 'contacto regular'; no se proporciona frecuencia, cadencia ni porcentaje de tiempo que permita asignar una categoría."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Cuantificar la exposición mediante frecuencia diaria, semanal o mensual, cadencia y porcentaje de tiempo expuesto."
+        },
+        {
+          "item_id": null,
+          "action": "Identificar los ocho controles con respuesta negativa y someterlos a revisión profesional para definir las medidas correctoras correspondientes."
+        },
+        {
+          "item_id": null,
+          "action": "Completar la clasificación o nivel de referencia del agente utilizando una fuente reglamentaria aplicable antes de determinar la probabilidad, el GRB y la clase de riesgo."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Cumplimiento numérico calculable, pero clase de cumplimiento e identificación de controles incumplidos no resolubles",
+    "agent_aggregation_status": "No resoluble por falta de clasificación del agente y cuantificación de la exposición",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Faltan la clasificación reglamentaria o nivel de referencia del agente, la frecuencia y duración de la exposición, los umbrales para clasificar el cumplimiento y la identidad de los ocho controles con respuesta negativa. Por ello no pueden determinarse la categoría de exposición, la probabilidad, el GRB ni la clase de riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P09",
+    "Agente declarado: Brucella melitensis (BIO-BACT-0028)",
+    "Exposición declarada: 'contacto regular'",
+    "Cuestionario general: 40 respuestas Sí y 8 respuestas No"
+  ],
+  "reasoning_summary": "El cumplimiento aritmético es 40 de 48 respuestas, equivalente al 83.33 %, pero no puede asignarse una clase ni identificarse qué controles fallaron. La expresión 'contacto regular' no permite categorizar la exposición. Al no aportarse una clasificación reglamentaria del agente ni datos temporales de exposición, la probabilidad, el GRB y la clase de riesgo permanecen sin resolver y requieren valoración profesional."
+}

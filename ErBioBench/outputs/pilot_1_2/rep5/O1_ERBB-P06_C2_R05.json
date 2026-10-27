@@ -1,0 +1,106 @@
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "Cuestionario general ERBio",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente para ambos agentes."
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y corregir las 29 respuestas negativas; no se proporcionaron identificadores de los controles incumplidos."
+        },
+        {
+          "item_id": null,
+          "action": "Obtener la clasificación reglamentaria o nivel de referencia aplicable y completar la valoración ERBio mediante revisión profesional."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Cuestionario general ERBio",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente para ambos agentes."
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y corregir las 29 respuestas negativas; no se proporcionaron identificadores de los controles incumplidos."
+        },
+        {
+          "item_id": null,
+          "action": "Obtener la clasificación reglamentaria o nivel de referencia aplicable y completar la valoración ERBio mediante revisión profesional."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Un único cuestionario general con 48 respuestas aplicables se mantiene asociado por separado a cada agente.",
+    "agent_aggregation_status": "No agregados ni promediados; los dos agentes se conservan como unidades de evaluación independientes.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El caso no aporta los grupos reglamentarios, niveles de referencia ni las tablas de conversión ERBio necesarias para asignar clase de cumplimiento, probabilidad, GRB y clase de riesgo. Tampoco identifica cuáles son los 29 controles incumplidos. Por ello, esos resultados no pueden determinarse sin introducir información externa."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Información de agentes, exposición y cuestionario contenida en el caso ERBB-P06.",
+    "Cumplimiento calculado como 19 respuestas Sí de 48 respuestas aplicables: 39.58%.",
+    "Las 19 respuestas Sí y 29 respuestas No suman los 48 ítems; no se informaron respuestas No procede."
+  ],
+  "reasoning_summary": "Se evaluaron separadamente los dos agentes. Para cada uno, la exposición es Frecuente y el cumplimiento cuantitativo es 19/48 (39.58%), con 29 respuestas negativas. Al no proporcionarse clasificaciones reglamentarias, niveles de referencia, umbrales ERBio ni identificadores de ítems, no pueden asignarse de forma sustentada la clase de cumplimiento, probabilidad, GRB, clase de riesgo o controles concretos. No se realizó agregación global."
+}

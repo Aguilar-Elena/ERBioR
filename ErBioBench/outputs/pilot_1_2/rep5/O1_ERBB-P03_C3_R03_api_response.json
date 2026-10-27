@@ -1,0 +1,102 @@
+{
+  "id": "resp_07eab43a931ce781006adcd4e8b44c87d2858868ef3784ae97",
+  "object": "response",
+  "created_at": 1792857320,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1792857342,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_07eab43a931ce781006adcd4e97ba487d281f5120c27879d6e",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq3NT-gZpp841tT-7IXZGjwm0SjY0jiqyFI6KfByaz-2969n_SmoPkUy-tu8B1YTf2ijsJCGwZTXmMOaVCixUqNWZS-o4VpDxJCA7frIDpHOyNj5tRDfYfavZFspOM_vnAq_b-yKXxWIe1zQhSzGDXJcA2qjIxwB3KAy9S9HN973FDPQK82_Mq3fpgHi-Q2ZhoGaYLMnXM7wjAH5wuTIDYRK_5L-szkNcjYAg69sXZ9Oi2Xgo9CrZiw6urJKRuLxQz4qX7TIiFn1O3uqRqucVVAWobTtOzSWxLazSpH3-z0JRXIC58z6KtN0UqWNQdM2tdDgIp7cHIMWCuTJPMGMUUCXHD5c8lSGor45X29g6yYkmDzrD-pDN_W2oFIdG9S6jJxqvSJBcKYLPrx_dyXkv8KeW5s19HZ33vZTsts_7JhZ4vCYFJojykg0B1m6-hH6gwDVXS2zmd1yqoPanTBJxJl5mXJs_Y8zRVVJxRjqZJ1RGWi3aN0X_YqCRHpoTCR9ve0hCU1C6N_klqo1sY_pzJfe03Ag9dv1eZ_Wjf2DnoLnl-lpcbgoiqSmHKo-IipM3t5oB6CUp7k8N0bg4phWC_uir0mbg4hDXpkgblKDOSkfSyi8uNT8mprHRzqX0kRCxjUqzbH3Rk7qOuhyBy-vOy8EgmlE0g0gPtRhVr8NHZUi6BQEB_0HxmKUX5ZAz0TqUkP3WikFC8M_ywOJLL31bf0zKl9V2gM-pO4RX6Ez-iATYnWLLAnmxVRCNA0EftPAb1_dlwTeE_Pz4wgW78vhBzDDroGu181vRqB2I0Wumz9T17lhvU-nuBSTwC_IoMvSPK9GWddURYPRtwnFkidH73IXHCvy-kn708YrA4EN24LqFtAcqpu8juFn-tIwk9cHtiBiz6vOQAMRhVzqmM1tChedpKpyW1sRVAarJjxW1BFISSpmtVmD3MX0swH2e-Lqcf2bZeN_fABD6c1ge6blZFHUjkeWAukDTPFj4NsOQf1ILOK-zLH5BRJ91rDbXKswhKZ6xa1taapXZKGZcHeMCOjr7xOiJrFYHlG7O_yaGWHcATgjLiLRrjrR4vMza504t5T2iQVwvJd9Bqzf41zMAFMBAWwm4jcszwybWPL7khECgbNyNd29AwlNyAR2eXzNFpMFoaP7c62YeSCtPuOX_MVQ5WLjlj5WrNMZCaJ3oEsJStbaBojuNBeKHEfDGB1TP_kpqK5Uh92wN3veCqdEXp98qjqacmMHa9Af2As4Jq_HKywHsr4YgyIp7zYKhXIDGDbiY-4mEhssNaYrHHuBcqdR736ukR0D9BDKA0Dj76in2xqLbkQuCOztDDtAvZzXHTm1-MGYiosOBUNJtJEpej2nd4MNEYOeXKDnAmpwqrViMFvdiaxcCXietICE14Amf9IbwhcSRSyY1EFwzu6c87QJnC47rrqWurwpozvMA9Tda06UTFqcMVUXlsRp8cmp7j79aY1l_F85JgFrA2vhayV5QG_PHyacMjsBXfO93Ihz4YnruT1KguDZYNnI7shKIuHxQQFpx1fgKUAKjIY7iODYVDqUVL-UGWsJAlTnVQg-UTwwAOmBtCY5X_OKU9kNK-_ApTE46cpwytj5MyjCw0aBiziNU9-u0-wtv-AVl00T-_WVScs3ERhuHDuzL-be2g5gdL2IDjuypwPvrxOMhKGdzdQPuT065QXbpOhodTW06m6VKunnZKj_IcB9QJivwL6zNhwjsX9O2y_iAB07CmC0Q8T-vzCRywI-Kihfio7lGIOVUblGYuKPz1HCkCPVdPm8pQkotP8B5sm_I-bLf9VDFKW76XDO_4j1xjo8e8ULioo61wmGraqDuv8HenHgvKxb0fNhnBSsRELSk_uQn6IcRQPxMSgOIBGcLBifAYMdwfJSOxGvMk2QVxTQ_AaD1olJPQqu5PMsJmaeDtKsH63qS1M23SxuVs56P337yVDau-pJR_HACeuVGwQEjxmlWJtv3Y_kI2RmQMsRZYlCNE_6VM213lUvfDRSEPqUpat4OGJykj2LSKWtcQ1xxmbuj-y4_WffkXceMq_NEjW_C4OkHfFW8enxaL3puRqbcGH18TMpkMZzTV3-_2NOgck0PBiceunaxL5iwCXj4VqnCT5oDeWGiTAJajveFbVEIr_kJ3-UMiB73ft091xf4gogN3fZ5hmNfUmmVCUm1ujRSjaTekGNh7YkzAsdMihrYOIwvOO-sScJ1AVKRWxIVNTVvnDU97EJtmPpqW9CRMJBnsH_hCiZ2FsntlNvmVpZVCRqTxrAlqFbL-3la4V_oKMxEAP5BU_YGt8rL2nJl7Cn4itC9Ssw0I3rIuOo18FR--OtSGbr0boI1hcjAG4T53McW_K9syQpOIiEc3gPjJPMKjkVM1LXFFC5Srh-TkaTgHGsedmcR-ayYRqOZ9yNUXfLCPiOVC0yXpMRXPoF5WtWBa91F7IxnWD4BMgGQVvU3Nso6JAJGNwPtJGJnb0ut68P2pqNThBwzIrTCYNSPehtTfyefVdGbL_csCzzQgtAC6fOdv34gRG_0ninT43jW8ITVqpoWqSXiaDM0-s7hkCpGghIaeL9PKjFJXb1GkrKxohQW_tQeCL3JiO4ePJ4WAgo4O6DqNcqNNnw5_hGqOW3RvX0plTLFs5EcfMcXO4BJPrjj3_8GP0PewPa5AiHjt1ZlqXYw66OKHeLDQkliJ7YsZSGbCmobV1KZ04ZuwFCqxgVgQiElJMBrE53YNm2rARyQ8Df9hNXxDaWn_jHMf2v2I4ZV9KTInOHvLiDu2VhWYZ8tf-6vOtuEgNK70zPw7FQTDPBXWWfI-sys_AkbfyIZzFQBucZlhqOCRVfI0-w47VKH2Z4Na2mGXPgeMa8CCgJ_KruWKL4Hp4R1mqw9boBSCO3zLP6NKNs2NzNrTXSqw5XB8bukR8VlDaweFOpFbXvn4iJ1GOjGe9_JV--6N3TuWIyT-oSEenjQo8HLehARHENWSYhvpX5p7OJ-EoJUtvFo9zjcMZuZc_jviygvsLXhAf7ZWzwXJ-4xs86vTJLTyHbKu6939ruBYvrg8WU_SMI-3IpMNqTGXerZL9QmL9fWFa3KimjgbZr0CIuYWNDLklJbG-hgpvTlqPRaDhdweu6f0FeRdZOndo24M6jnSMlpgOc5qRzrY5x5XcZtq16AV6dOIpBVaLIzk8tmtMtFfRPb_k2nU8aCtyIo8MWWSIHSM0QDr5bCnP-qiyLzVHcgdZqfhS83U2CxJR5zaKQzu83W762inQYv6InOfLoI48lHj5Cbe4R8CQjgn2yyT5suHZXZ93wmUQ3rwR2zYk6sNDpo8xWmhclvOKTOK4fmQuRp1ZW88Ot7AJ_ORluDjr09FLl_kZwICYOGolaMIxwFS5dJlK5baSHcP7YLzI3NxG7P-D-hXGRnJtmUauFcVqfjW-A_3g1tDEHUWHOr8PanJ5H-ElfBB6qgvF0FehcwSzleblzVaxffMIY_v8-6qi9RSKqK-QMn455Lw63IYslDLQ96u7EMpPwfiJQ9OppVmiYbT1CACDXCz1McmZm2H9_kWnpBlkZS7ElP-Jz6rDq-s_kUJqdQzuRxaiarWi9_q8AbCvfdN9TNmswcJC1Gkws58Q22IQB9WsZCWsAqgy_rUSrTqFXbWe66fRUe-MCleAu05i2R3IQTQKLkeUhT-zfrkEqG2it8=",
+      "summary": []
+    },
+    {
+      "id": "msg_07eab43a931ce781006adcd4ec2fe487d2bfdb91cadf0afb38",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P03\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Categoría de exposición proporcionada en el caso y aplicada por ERBioR.\"\n      },\n      \"compliance\": {\n        \"percent\": 39.5833,\n        \"class\": \"Deficiente\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Alta\"\n      },\n      \"grb\": 9,\n      \"risk_class\": \"Importante\",\n      \"failed_controls\": [\n        \"GENERAL-F2015-020\",\n        \"GENERAL-F2015-021\",\n        \"GENERAL-F2015-022\",\n        \"GENERAL-F2015-023\",\n        \"GENERAL-F2015-024\",\n        \"GENERAL-F2015-025\",\n        \"GENERAL-F2015-026\",\n        \"GENERAL-F2015-027\",\n        \"GENERAL-F2015-028\",\n        \"GENERAL-F2015-029\",\n        \"GENERAL-F2015-030\",\n        \"GENERAL-F2015-031\",\n        \"GENERAL-F2015-032\",\n        \"GENERAL-F2015-033\",\n        \"GENERAL-F2015-034\",\n        \"GENERAL-F2015-035\",\n        \"GENERAL-F2015-036\",\n        \"GENERAL-F2015-037\",\n        \"GENERAL-F2015-038\",\n        \"GENERAL-F2015-039\",\n        \"GENERAL-F2015-040\",\n        \"GENERAL-F2015-041\",\n        \"GENERAL-F2015-042\",\n        \"GENERAL-F2015-043\",\n        \"GENERAL-F2015-044\",\n        \"GENERAL-F2015-045\",\n        \"GENERAL-F2015-046\",\n        \"GENERAL-F2015-047\",\n        \"GENERAL-F2015-048\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-021\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-022\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-023\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-024\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-025\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-026\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-027\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-028\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-029\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-030\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-031\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-032\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-033\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-034\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-035\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-036\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-037\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-038\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-039\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-040\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Revisar y corregir el incumplimiento documentado en este ítem.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire_no_aggregation_required\",\n    \"agent_aggregation_status\": \"single_agent_no_aggregation_required\",\n    \"workplace_global_class\": \"Importante\"\n  },\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"La clasificación del agente y el resultado matricial están resueltos por ERBioR. No se proporcionan los textos de los ítems incumplidos, por lo que no se especifican medidas técnicas concretas más allá de su revisión y corrección trazable.\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    \"Caso ERBB-P03.\",\n    \"ERBioR reference output versión 0.9.0.\",\n    \"Regla de clasificación CLASSIFIED-ANNEX-II.\",\n    \"Cuestionario general ERBio, versión final_2015_annex1: 19 respuestas Sí y 29 respuestas No.\"\n  ],\n  \"reasoning_summary\": \"Brucella melitensis está clasificada en el anexo II con grupo reglamentario mínimo y nivel de referencia 3. Con exposición frecuente y cumplimiento del 39.5833% calificado como deficiente, ERBioR asigna probabilidad alta (3), GRB 9 y riesgo importante, con prioridad preventiva alta y 29 controles incumplidos. No se requiere valoración profesional según la salida de referencia.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1776,
+    "input_tokens_details": {
+      "cache_write_tokens": 1773,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2173,
+    "output_tokens_details": {
+      "reasoning_tokens": 176
+    },
+    "total_tokens": 3949
+  },
+  "user": null,
+  "metadata": {}
+}

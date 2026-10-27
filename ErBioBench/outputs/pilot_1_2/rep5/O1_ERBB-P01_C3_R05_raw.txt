@@ -1,0 +1,114 @@
+{
+  "case_id": "ERBB-P01",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición laboral indicada como frecuente, con frecuencia diaria."
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-041"
+        },
+        {
+          "item_id": "GENERAL-F2015-042"
+        },
+        {
+          "item_id": "GENERAL-F2015-043"
+        },
+        {
+          "item_id": "GENERAL-F2015-044"
+        },
+        {
+          "item_id": "GENERAL-F2015-045"
+        },
+        {
+          "item_id": "GENERAL-F2015-046"
+        },
+        {
+          "item_id": "GENERAL-F2015-047"
+        },
+        {
+          "item_id": "GENERAL-F2015-048"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Revisar y corregir el incumplimiento correspondiente a este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Revisar y corregir el incumplimiento correspondiente a este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Revisar y corregir el incumplimiento correspondiente a este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Revisar y corregir el incumplimiento correspondiente a este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Revisar y corregir el incumplimiento correspondiente a este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Revisar y corregir el incumplimiento correspondiente a este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Revisar y corregir el incumplimiento correspondiente a este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Revisar y corregir el incumplimiento correspondiente a este ítem, manteniendo trazabilidad documental."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_required_single_questionnaire",
+    "agent_aggregation_status": "not_required_single_agent",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": false,
+    "description": "La clasificación del agente y los parámetros de la matriz están resueltos por ERBioR. No se infiere el contenido específico de los ocho controles incumplidos."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Información del caso ERBB-P01.",
+    "Salida de referencia ERBioR versión 0.9.0.",
+    "Cuestionario general ERBio final_2015_annex1: 40 respuestas Sí y 8 respuestas No."
+  ],
+  "reasoning_summary": "Unidad única agente-cuestionario. Brucella melitensis está clasificada en el anexo II con grupo mínimo y nivel de referencia 3. Para exposición frecuente y cumplimiento del 83.3333 % aceptable, ERBioR asigna probabilidad 1 (Baja), GRB 3 y riesgo Tolerable, con ocho controles incumplidos y sin revisión profesional obligatoria."
+}

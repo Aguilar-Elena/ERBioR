@@ -1,0 +1,102 @@
+{
+  "id": "resp_0f84910e04f6f2f3006ae0e2188e7087d292fcecf48ed3cdd0",
+  "object": "response",
+  "created_at": 1793122840,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793122857,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0f84910e04f6f2f3006ae0e219563887d29eee92467f276079",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4OIpUPW-W3dTZIqrHBh0jUl_heiJIgqm_ALCxDnhIvb8DqSiuHS3Iy7rt847sSqh328_ggjx8dDkKBGyGm4kxPxh_1PikXXSqhrn30YACFdHVJQHbNK3f52D3-tn6_zfi0erZFP-jN1XMbahdI3urHXwKqnfIy_EiZRoZOheAxyVtZ7LePesl8ZblaAUHPnHsq7Zeutad4sh46fqH4j0BrDGGF1xusoH_g-c-SV5CVKY5GvyJRX603KbaC2T337Mm4_dW1TrINCI51f2bNspnhfVaraGV_jG38GhLROLdR0Qj5dHRXJ3ZEbs6_Ll8fchxR8vZ8ejTiNpMbQOmpZ3xXfg-ZE8o--PoxEnZ7QScYYuXNKoE-WbJ2AEHpCNGvkElF9Q8wGIchtp6wy7lNcVixD1RBnsay4Tn977wMf6w-qcsyOxmHiXI_GWbOwDqgVwiwv-VjrbORSMP7oe5NkHhFHJVjWeLeKmX45eX-Q6QUsqQUht9igudlYehes9VZ3A1RoJ3j3mxNY0TXvaDko8G5gvNqLI58-7QZub1o2f1lysEwYy3XECqmL2RYr3TeMqUknSGWlFnjTyFbdjJWK9ikUJrxqbcjjTlBagjjbM7bcOLAJZUqrNVSCI0bMOoXdORD5u-Rha17ucv-cTJ8NtajlR1ZPZq0LORBWuxUNLPUOITHjayVJzpuJ0CVOsgP6KhUbmxyCzeomf4UxUduMpXV-z1-J9dyBS5OENWQJJci8nHTC2YE4Q18FxB2jGc7XUrpNdnw3SsHns1A6Jp-Rz1DOLyh57sXxWseN52Y49fG1_HUrMA0o3Wh5wsqfgMEDCfnHVOxPJ8iob-CTL_KO-55BHpDMpQVFwGKeVzquD-JVJEEQactIMlnBHnJ5g7RtNYfEwqdjuC_M35ApOtsMrgQtaBm-E-HKWwMPA6Ouzx70ob9ttGEgqj48q9X6AFDb30uFW8UzHOREnEMO0g36DUTUN2RkcWGe_rEd5ZbYNcFyVhlLshBJwPZyRtZOf8sQ8fpvdEb5Y2QRk0ToI7IVHWqoZtdQDMhFJOMy7DkiVErXWTg1MBrUv_R3sPyH7OnJXmKO2nAabm725VZZE9tVTGHB4VDvzNQl0tnqYgqrw_bS2N1HqpUsW4ZLZykKR9qT_cF0P7sAh5XWdLI34iP26P7CoLRyaAxt7Epuqyr0CNVtCXp6U5ROQ4kjyqNwEUzc1iJJ6hlXKulL7-WP0B2TGEn7nBBqiVXGQvabOvFFMN0D7RqsU55qSciY7Gf2CAgUEpHTWsrfeimdpP-06uhx563mJue5yeRy_bQM-nhEU3t_fraVmq2d0ycqGnm0SuKnrAAsz2k0VhXGvujkMwMWXAo5d39HwKvxEFU--biqNUSm7bu0IoapWbKelYsFQYSchLJR3QfpqAE-TutwEArq8bST58Fvd7HlgWXlLW59x5DZ8txkA_iG-HdUziOerZSdxTte825BZBBmfAfowNcGDT10t7MrVMs5zMOd--_SXGYHjT7jQ4U9Q1WKQ1H3UccZKeaguyQ4UscYdWLUkITUtfLtmpxuPy8QRuOO0E19tX2PdGGqdAh5S1QDzpvzI95MHxzTul68rl3I5x1KAiPOpDI_cEyeVMWE-fcanOiIrUCulqVXMlgFnTkvlgmCsg0fVPftAn6See9eVCl-QgmgLzcfywubTIsSPnqeMy8C8uE-DSegUThQoR-GkJXG_TPNFY6jLlhZOntCID3H-X673LuRlGj4Ic_XaNzbdVY5AcEIC6hXSt1H3vcK9B-L9FI0oKwMsQW1xghb22ZfpHSsKjeu7FJpOwvD5XUmh3s7kcAxijbVDO-vrNyDiU3WDTCqNxypLH6vZNOgVsSuwjcIXNQorTId10M6vxdI6jQhWn2qVtj_oI4FbVWELgiofgan0-QjWbp_zRgPWJPq7oDd1jhVm6QjzgCdLAn8-jCdad8Fd9JP-JXDAsFg2b8Bj3I1lxSBp3q5198qy_t55cx9soPY6zdjJcy7yDwAmdXX1LVaxf4dsuOuuoLug9gSlo3b4Ys8SIC6hjg6tD0PuP4KzPoTvCppgogAwew5WS2dxRiDyCm70oN83zqWfwrnMXH2dxTx41RlRy2Ih9z_RcGqUpSfZKeLYo5JALS2DJ0tKaiITFiDHSh6oG0wI2pdBZ0CnGwfkhrwD5m2ZfUzC8Td_em0Cd7viUMtdfzghgDv71TZDCA_tVq7fbcTtzd6N--SSQ_nA1_E3XYZFplnARJC8wN6K37CDte4VPkOEQW7qugz6xYxOqg4wV4InCTcvEc0t_11wjiaXRYNBmtSr65-asrNAq-WXotChujOlOhUcc4tOV2rkDxEcLdjxIBsD1EHTx5SbHcettkkI6Fyg6GWXeBku4IAFwkbPELOP22q9itZ7tnhtuPnhhsYIIfQRVSXAmPzPSb4WNYRlRTIWHcdcaxhEdhYf6jBMLYVUX5L4k3e-YXg=",
+      "summary": []
+    },
+    {
+      "id": "msg_0f84910e04f6f2f3006ae0e21ab86c87d2a395aaaecd2ef051",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P05\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Bacillus anthracis\",\n      \"agent_id\": \"BIO-BACT-0010\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    },\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0010\",\n      \"agent_name\": \"Bacillus anthracis\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Categoría de exposición proporcionada en el caso.\"\n      },\n      \"compliance\": {\n        \"percent\": 83.3333,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n      \"failed_controls\": [\n        \"GENERAL-F2015-041\",\n        \"GENERAL-F2015-042\",\n        \"GENERAL-F2015-043\",\n        \"GENERAL-F2015-044\",\n        \"GENERAL-F2015-045\",\n        \"GENERAL-F2015-046\",\n        \"GENERAL-F2015-047\",\n        \"GENERAL-F2015-048\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad documental.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad documental.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad documental.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad documental.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad documental.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad documental.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad documental.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad documental.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Categoría de exposición proporcionada en el caso.\"\n      },\n      \"compliance\": {\n        \"percent\": 83.3333,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n      \"failed_controls\": [\n        \"GENERAL-F2015-041\",\n        \"GENERAL-F2015-042\",\n        \"GENERAL-F2015-043\",\n        \"GENERAL-F2015-044\",\n        \"GENERAL-F2015-045\",\n        \"GENERAL-F2015-046\",\n        \"GENERAL-F2015-047\",\n        \"GENERAL-F2015-048\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad documental.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad documental.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad documental.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad documental.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad documental.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad documental.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad documental.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad documental.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"Una unidad independiente por agente y cuestionario; no se agregaron resultados.\",\n    \"agent_aggregation_status\": \"report_all\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"El resultado de referencia es resoluble para ambos agentes. No se infiere un grupo reglamentario exacto distinto del grupo mínimo 3.\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    \"Información del caso ERBB-P05.\",\n    \"Salida de referencia ERBioR versión 0.9.0.\",\n    \"Cuestionario general: Valoración general del riesgo biológico, versión final_2015_annex1.\",\n    \"40 respuestas conformes y 8 no conformes sobre 48 ítems aplicables.\"\n  ],\n  \"reasoning_summary\": \"Se conservaron dos unidades independientes, una por agente con el cuestionario general. Para cada una, ERBioR establece nivel de referencia 3, exposición frecuente, cumplimiento aceptable del 83.3333 %, probabilidad baja (1), GRB 3 y riesgo tolerable. Se informan por separado los ocho controles incumplidos y no se calcula una clase global del puesto.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1851,
+    "input_tokens_details": {
+      "cache_write_tokens": 1848,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1691,
+    "output_tokens_details": {
+      "reasoning_tokens": 78
+    },
+    "total_tokens": 3542
+  },
+  "user": null,
+  "metadata": {}
+}

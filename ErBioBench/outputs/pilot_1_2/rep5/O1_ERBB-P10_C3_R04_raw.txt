@@ -1,0 +1,64 @@
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "audit",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición indicada en el caso y confirmada por la salida ERBioR."
+      },
+      "compliance": {
+        "percent": 96.875,
+        "class": "Aceptable",
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        "AUDIT-F2015-004"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Corregir y verificar documentalmente el incumplimiento específico relacionado con medidas higiénicas y de protección individual, sin modificar la clase matricial de riesgo calculada."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No se requiere agregación: existe una única unidad agente-cuestionario.",
+    "agent_aggregation_status": "No se requiere agregación: existe un único agente evaluado.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "La salida ERBioR identifica AUDIT-F2015-004 como control incumplido en failed_control_ids, mientras que questionnaire_score.failed_control_ids aparece vacío. Se conserva el incumplimiento explícito confirmado por el caso y por el campo principal; no se dispone del texto detallado del control ni de los recuentos de ítems aplicables o no aplicables."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Información del caso ERBB-P10.",
+    "Salida determinista ERBioR versión 0.9.0.",
+    "Regla de clasificación ERBioR: CLASSIFIED-ANNEX-II.",
+    "Cuestionario audit, versión final_2015_annex1."
+  ],
+  "reasoning_summary": "Brucella melitensis está clasificada en el anexo II con grupo reglamentario mínimo y nivel de referencia 3. Para exposición frecuente y cumplimiento del 96.875 % aceptable, ERBioR asigna probabilidad 1 (Baja), GRB 3 y riesgo Tolerable, con prioridad Media. El control AUDIT-F2015-004 permanece incumplido y requiere corrección preventiva específica, aunque no altera por sí mismo el resultado matricial. ERBioR no exige valoración profesional."
+}

@@ -1,0 +1,61 @@
+{
+  "case_id": "ERBB-P07",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench fictitious biological agent",
+      "agent_id": null,
+      "classification_status": "UNRESOLVED",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench fictitious biological agent",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "El caso solo comunica la posible presencia de un agente denominado 'ErBioBench fictitious biological agent' y no aporta información de exposición suficiente para estimar categoría o sustituir la clasificación reglamentaria."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "No se puede completar la evaluación sin una clasificación/regla de referencia del agente y sin datos de exposición. Requerir una valoración profesional para determinar clasificación reglamentaria aplicable (si existiera) y caracterizar la exposición."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "UNRESOLVED",
+    "agent_aggregation_status": "UNRESOLVED",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Clasificación legal y nivel de referencia no proporcionados; el caso indica que el agente no tiene correspondencia en el registro legal de ERBioR y que la información de exposición no permite sustituir la clasificación reglamentaria. Por ello no es resoluble la probabilidad, GRB ni clase de riesgo con la información disponible."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "El agente comunicado no tiene correspondencia en el registro legal de ERBioR (según benchmark metadata).",
+    "No se aporta clasificación legal del agente.",
+    "La información de exposición no permite sustituir la clasificación reglamentaria."
+  ],
+  "reasoning_summary": "No es posible asignar clasificación reglamentaria/nivel de referencia ni calcular probabilidad, GRB o clase de riesgo porque el agente comunicado no tiene correspondencia en el registro legal de ERBioR y no se aporta clasificación ni datos de exposición suficientes; el resultado queda UNRESOLVED."
+}

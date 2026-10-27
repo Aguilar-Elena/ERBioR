@@ -1,0 +1,102 @@
+{
+  "id": "resp_0d7ce1916f3474fc006ae0dcd9d14c87d2aea0104c598d254c",
+  "object": "response",
+  "created_at": 1793121497,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793121502,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-nano-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0d7ce1916f3474fc006ae0dcda197487d282092dccb667b11b",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4NzeijxnCyj6pltEfUV5D9v-9hHgciG_oueS_qHDUFt_qWd1pSiz26waYfw9oN1AQCsNZpX2E96n7miRC5W6S4rvHUbLinyVAlCGw4YpmQZxLR3Nrlfdk6qDCmby14pBu36NytS4zYUSI-dIJw5OqRfTH0UwL3tfZO6dU4M8iHUEYEOrG4A5tasG84bs1sUHKJMMeZUXr3cG3GwJ1nAIe8XHpIzSj9NOX1Xgqkg1gWvS9Pnx85RX3opmpHwcQ6sYWH0pwqQOGqSyJM6l40C0IOFyLuo7xRiGjQ9uGjboFiD_Jp1QLz7tROTpSoA7xxHqUuwXXa3a_2wu8H6R0pswQYmtomdfQw0qVf1KVaK8wNkKWPREm2iAYhLb0ynijfS-RMw5LNF_kk2Uojq_XZ_-Rcb4_XCVGKflRSli6JgJV9zp5-I_rCE9hXBz7vC5QhDx_8uhAXLooX4w-INeVlE2npFS4teR00TO0mUIz9lSre2rOidCfMTsM4U5DNVtHmH_fDg9zNcwS3jbFNvMzTb2Cchbe0q-vOLZRBLJ5-EtIBcprnK8RzrGF5u3a-NZpcoZ2ZkVWEi27S3JdcGwTjCCjRrhWoMUEMlQb1kv9Yjomt6oHqocSzAWkx_J0KIFIof61DZT_frxAkVFFiz9BOA-JifZp0mWGSwR2NuEwjczyRPzbdGpzwSkOUcFFk8S27OvNARh5Bdo_5b35j9xQer0jedcwITm5xGV_iqoD0vVHjoqD1GWKQbYpwIeFousAn4o0rOGxNm0fo88-O89aJbs8_-WvtiAInO82hyOqnjayojv4hDeGs3y7T2y2mypEg_LtGUfJyjAPJVRe-XHsdwpAWeA2iWES4ZQNcRY9HKaEHXRQ2O-7kweJuZVbcqgWj9NWTzG3jQTRB-sjgQK0nIzWefyjhorXwKcmD-_7C_DfvCkOow9V2qb-b13gtNTh7LaSR1nkK4EmUvqEzbVKDXyHj0L8mAWG6L1TAf43LjGZmQPxKJvzYqMmkGl1uV-BDXSij7eluz5hi2iu4wRQkQlOwm4CSlIAHLkdQnq6Z6ZFyuuPG_nW81-oz-tV7VmtLvbt1KFpoHvgxXUK6vY6vl35P7iI8Wpsq4DpQqSiU2c95p9GsGMWdfDy0JspMQGcjkmVu6HVeEwPrpAaEKt4-wT4i5D4Wwj7Kr-Kdy0McBQXvCZ-rLjbFwcpjMBl5-9UqkjevjTiHt0kmggKu-N9Kaik68azGvjEyZqzMxylpfLu_CInMm3yv9igvacOX8YDogByKnE1Fq4c92ttO10QC4edjZ6RlrQ5nnuznU55v_Ny6v2FkI4TZE05sB7X8BnoZICwhVGha7MWsHSqJgvYb0j90Riq7kyV1QtLQPtQRqKMpA-ognyvkD6EyEVjHjJS0xond8NWdCG--Bb8uaHwBjaoh6V2sxq7ev93hrB0ffNX1CvA8tctarQFHL7piNUnYyN8mU0kg0gCaF9-isHyKv4PwEZV5KQQqHDVg6OuzSbLRuklXT-3Z7-9W9fRFnYN-auh3S_gaBz4xQ27pT3DUylPKROzfdZA_A9zVAxChznBWTYyeYDYW7cj8K7hzm4A38avdN-3lhaSfzIcoH5wTwe93L5FKR9fTJWswS1N6tWCVgLmxy0tSgP7Z2KweKluVdxCQ3S72zHGsHsYAro8grDAhUEftrZfbIC0Y0r6d4UlqQcUwtq1eln4FPqWDwh4nW1Zv1aYf_HJJuPF1e-ZV-MnPrWzcnvrEDntLQ7MRgE6unD8kLT89aoDBGoZ0Wr07qHzRVQzr3BRFDHMlMh3fQymAVFKIw-Ih6jcsQPvnDkYj5xBTLeNTne58LC8x_Hu_WKxGe5VGf1JjXVS8mf4rwhn3g_nSfB3VH0FYWnLgHhm02KM9vvEtNdmPv8h9GuO8mnNdn2mFVNmo-02YOX0awtgBNxTrMbRetgxF0e81Z-PkjgLd7CLW7uA2abXnrkEd0uaKGEHAQwBYES0gZcD9x2__JoNO_2EYUO4JvDAad5YQsDKayKjSozTWDT7wWjpf_NFymx1LRpjd7s8D0fkwrJpUqm_BbINxHlvXlqkfCEaP3PiISZFbw7VUpeXfgJC5gBvXF4aQhfQjaP98nE1Q7ylV8m-RsH01zzFFwSEEfZPb6XlkGu8YMK3m8U7HtOR5FIWfCjafkcxkFcaeJ15ahSFCS_MIt3Ao2naGpMAq3fAyC_6EceLYSIPaAnAJDOy6gYjbPB5cFrp2W6Ps1yqoxPIoTt56lqF9-abu3yPQFJ9C_eS6ViLtIOE8ZMio4vJTI6KvV5rRRCJzb-L_1lBRlG-h0se9iJDZDuLaktR4BsOZ1oYK3CMc8nJUPEl4Z9UoQ3cAIL8oZ6lZGCJgHoaWmmFCqUsc1ys-ljAN6h3o3ptJUojcUE1oKg82F6Eati6YImg2uoklmyE7VZIP8RXrOVVZ_og4_CXvxXjO_XnfYIs-PbM-d_1ZD34evsLWZ2ESO_PFW_gY_KmddxJNghY0lr4bWPj_SlskAxMCSHURle1jsUIx-wuyB61oUNjwnJHwjvbqvZ2gtdb9fHno61cspSMd9wwMxlgh9OSRjG_HQuM-duozT2omacBg6FWuo-eJJyfDWVMuDqtSkWuQXUw52Yy3Cnh46rLAHdl_vak6mLAC7seC7v61mv_iHZexMurV9pLN2K0yfe5jwcSx5qwwhe_wSqsh2S2kFjq1Peyv_AlLW5BMLYFXlXw0mn_IdGDFjtgkFqTas_eAucv245_4UVmVisMeCUaRPLn9P2ijm_fxDu-MrDRL2rEa8FoVeSkdUBqsjCIJttHMYUH9_-2z_CB2LK93mmc0W_A353A6DFcR3fqbIDk0Y3ckwvr9Y0WImKSjrMkb1y_YOSTCBr1cShwi5ObQ1EwRIjpgoDexQpLJNlpxdpTh6-4oPIlI9ACWe-HylexcgI18sxgsNsDAbzxyvXrw==",
+      "summary": []
+    },
+    {
+      "id": "msg_0d7ce1916f3474fc006ae0dcdabc2c87d2858a8cdec3af22d2",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P10\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio-P10\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"El caso indica Exposición: Frecuente.\"\n      },\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": null,\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": \"unresolved\"\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"control_outcome\": \"No\",\n          \"basis\": \"Auditoría ERBio: todos los controles Sí excepto AUDIT-F2015-004.\"\n        }\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"action\": \"Implementar/corregir el incumplimiento identificado en las medidas higiénicas y/o de protección individual correspondientes al control AUDIT-F2015-004, y verificar su eficacia.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"unresolved\",\n    \"agent_aggregation_status\": \"unresolved\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"El caso no aporta datos necesarios para determinar la clasificación/nivel de referencia del agente, el porcentaje de cumplimiento (por conteo de controles), la probabilidad cuantificada, ni la GRB/clase de riesgo resultante; solo se indica exposición frecuente y el fallo puntual de un control (AUDIT-F2015-004).\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    \"Exposición: Frecuente.\",\n    \"Auditoría ERBio: todos los controles Sí excepto AUDIT-F2015-004 (AUDIT-F2015-004 = No).\",\n    \"Contexto: existe un incumplimiento específico relativo a medidas higiénicas y de protección individual.\"\n  ],\n  \"reasoning_summary\": \"Se evalúa el agente Brucella melitensis (BIO-BACT-0028) con exposición frecuente y un control incumplido (AUDIT-F2015-004 = No) relacionado con medidas higiénicas/EPI; al no existir en el caso la clasificación reglamentaria, valores de probabilidad y parámetros para calcular GRB/clase de riesgo, estos resultados se mantienen como no resolubles.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 808,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 809,
+    "output_tokens_details": {
+      "reasoning_tokens": 113
+    },
+    "total_tokens": 1617
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,91 @@
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "identified",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "identified",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "ERBio-48",
+      "exposure": {
+        "category": "frecuente",
+        "basis": "La información del caso indica exposición frecuente para este agente."
+      },
+      "compliance": {
+        "percent": 83.3333333333,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": "unresolved"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48",
+      "exposure": {
+        "category": "frecuente",
+        "basis": "La información del caso indica exposición frecuente para este agente."
+      },
+      "compliance": {
+        "percent": 83.3333333333,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": "unresolved"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved_for_both_agents_with_same_questionnaire_results",
+    "agent_aggregation_status": "not_aggregated; each agent retained separate identity and evaluation",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporcionó una regla de conversión para derivar probabilidad, GRB, clase de riesgo, controles incumplidos ni nivel de referencia. Tampoco se aportó una clasificación reglamentaria verificable de los agentes."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Agente 1: Bacillus anthracis (BIO-BACT-0010)",
+    "Agente 2: Brucella melitensis (BIO-BACT-0028)",
+    "Exposición para ambos agentes: Frecuente",
+    "Cuestionario general ERBio: 48 ítems",
+    "40 respuestas Sí y 8 respuestas No",
+    "Cada agente debe conservar su identidad y evaluación"
+  ],
+  "reasoning_summary": "Se identificaron dos agentes biológicos distintos y se mantuvo su evaluación separada. Con 40 respuestas afirmativas de 48 ítems, la conformidad del cuestionario es 83,33% para ambos agentes. La información aportada no permite derivar de forma válida la probabilidad, GRB, clase de riesgo, controles incumplidos ni clasificación/regulación de referencia, por lo que esos campos se dejan sin resolver. La exposición se consigna como frecuente para ambos y se requiere valoración profesional."
+}

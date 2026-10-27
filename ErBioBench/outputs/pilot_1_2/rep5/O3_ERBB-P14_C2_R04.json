@@ -1,0 +1,56 @@
+{
+  "case_id": "ERBB-P14",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": "ERBio_general_questionnaire_48_items",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "Case provides exposure category: Frequent."
+      },
+      "compliance": {
+        "percent": 83.33333333333334,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_computable_with_given_inputs",
+    "agent_aggregation_status": "not_computable_with_given_inputs",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "The case does not provide a supported regulatory classification/reference level for SARS-CoV-2 within the ERBio framework, and does not provide per-item control identifiers for the 8 No responses; therefore probability/GRB/risk-class and failed-control mapping cannot be computed from the provided information alone."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Case: ERBB-P14; exposure category = Frequent.",
+    "Case: 48-item ERBio general questionnaire; response counts = 40 Yes and 8 No.",
+    "Case: biological agent listed as SARS-CoV-2 (BIO-VIR-0064)."
+  ],
+  "reasoning_summary": "SARS-CoV-2 (BIO-VIR-0064) is the only biological agent. Exposure is Frequent. Questionnaire compliance is 83.33% (40/48 Yes; 8/48 No). However, the case does not supply a resolvable ERBio regulatory reference level or per-control identifiers for the failed items, so probability, GRB, risk class, and failed-control details cannot be determined without additional framework mapping inputs."
+}

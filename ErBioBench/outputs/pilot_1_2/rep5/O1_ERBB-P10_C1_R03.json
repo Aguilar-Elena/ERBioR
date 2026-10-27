@@ -1,0 +1,65 @@
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente en el caso."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        "AUDIT-F2015-004"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Corregir y verificar el incumplimiento relativo a medidas higiénicas y de protección individual. Su significación preventiva debe valorarse separadamente del resultado matricial."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Cumplimiento global descrito como elevado, con un control incumplido; no es posible calcular el porcentaje ni la clase sin el número total de controles aplicables y las reglas de puntuación.",
+    "agent_aggregation_status": "No resoluble: falta la clasificación o nivel de referencia del agente y el método de cálculo aplicable.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporcionan la clasificación reglamentaria o nivel de referencia del agente, el número total de controles, las reglas de cumplimiento, la matriz de probabilidad ni el método de cálculo del GRB y de la clase de riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Agente declarado: Brucella melitensis (BIO-BACT-0028).",
+    "Exposición declarada: Frecuente.",
+    "Auditoría ERBio: todos los controles marcados Sí excepto AUDIT-F2015-004.",
+    "AUDIT-F2015-004 está marcado No y se relaciona con medidas higiénicas y de protección individual.",
+    "El caso exige evaluar separadamente el riesgo matricial y la significación preventiva del control incumplido."
+  ],
+  "reasoning_summary": "La exposición es frecuente y existe un incumplimiento específico de relevancia preventiva pese al cumplimiento global elevado. Sin la clasificación del agente, las reglas de puntuación, el denominador del cuestionario y la matriz de riesgo, no pueden determinarse la probabilidad, el GRB ni la clase de riesgo. Se requiere valoración profesional del control incumplido y de los resultados no resueltos."
+}

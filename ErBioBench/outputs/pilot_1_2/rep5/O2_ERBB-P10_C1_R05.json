@@ -1,0 +1,65 @@
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "identified",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "AUDIT-ERBio",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición indicada explícitamente como frecuente."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": "unresolved"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        "AUDIT-F2015-004"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Corregir el incumplimiento relativo a medidas higiénicas y de protección individual."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "unresolved",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "La información permite identificar el agente, la exposición frecuente y el control incumplido, pero no aporta el número total de controles aplicables ni la matriz/criterio para convertir el incumplimiento en cumplimiento porcentual, probabilidad, GRB o clase de riesgo. La clasificación/regulación del agente no se asume por ausencia de soporte explícito en el caso."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Agente: Brucella melitensis (BIO-BACT-0028)",
+    "Exposición: Frecuente",
+    "Auditoría ERBio: todos los controles Sí excepto AUDIT-F2015-004",
+    "Respuesta: AUDIT-F2015-004 = No",
+    "Nota del caso: el riesgo matricial y la significación preventiva del control incumplido deben evaluarse separadamente"
+  ],
+  "reasoning_summary": "Se identifica el agente y la exposición frecuente, pero no hay datos suficientes para calcular cumplimiento, probabilidad, GRB o clase de riesgo sin la matriz de evaluación ni el total de controles aplicables. El único control incumplido es AUDIT-F2015-004, relacionado con higiene y protección individual, por lo que se registra como incumplimiento preventivo relevante y se recomienda valoración profesional."
+}

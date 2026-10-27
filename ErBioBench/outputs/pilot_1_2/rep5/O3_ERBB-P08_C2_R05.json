@@ -1,0 +1,59 @@
+{
+  "case_id": "ERBB-P08",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": 1,
+      "classification_status": "No clasificado/registro sin clasificación final (según el caso)",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": 1,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "El caso no aporta información de exposición (p. ej., frecuencia, vía, cantidad o tareas); únicamente indica incertidumbre regulatoria."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Mantener la evaluación y la planificación de control supeditadas a la obtención/confirmación de la clasificación regulatoria y/o nivel de referencia aplicable al virus humano no clasificado, dado que el caso no proporciona dichos datos."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No evaluable con los datos del caso (exposición y cumplimiento no especificados).",
+    "agent_aggregation_status": "No evaluable con los datos del caso (nivel de referencia no resoluble con la información proporcionada).",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Incertidumbre regulatoria explícita: el caso indica que el virus no figura evaluado o clasificado en el registro utilizado y que se requiere distinguir el mínimo regulatorio y el nivel de referencia final, pero no proporciona una clasificación final ni el nivel de referencia."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Texto del caso: virus hipotético aislado en humanos sin clasificación final en el registro utilizado."
+  ],
+  "reasoning_summary": "El caso no proporciona un mínimo regulatorio/nivel de referencia ni información de exposición o cumplimiento; por tanto, no es posible derivar probabilidad, GRB ni clase de riesgo. Se marca necesidad de valoración profesional y se limita la acción preventiva a condicionar la gestión del riesgo a la determinación del nivel de referencia aplicable al virus humano no clasificado."
+}

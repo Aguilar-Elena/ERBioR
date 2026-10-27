@@ -1,0 +1,113 @@
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Muy frecuente",
+        "basis": "Exposición informada como muy frecuente; el escenario indica que ocurre varias veces durante la jornada."
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 2,
+        "label": "Media"
+      },
+      "grb": 6,
+      "risk_class": "Moderado",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-041"
+        },
+        {
+          "item_id": "GENERAL-F2015-042"
+        },
+        {
+          "item_id": "GENERAL-F2015-043"
+        },
+        {
+          "item_id": "GENERAL-F2015-044"
+        },
+        {
+          "item_id": "GENERAL-F2015-045"
+        },
+        {
+          "item_id": "GENERAL-F2015-046"
+        },
+        {
+          "item_id": "GENERAL-F2015-047"
+        },
+        {
+          "item_id": "GENERAL-F2015-048"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Control no cumplido; revisar e implantar la medida preventiva asociada a este ítem."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Control no cumplido; revisar e implantar la medida preventiva asociada a este ítem."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Control no cumplido; revisar e implantar la medida preventiva asociada a este ítem."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Control no cumplido; revisar e implantar la medida preventiva asociada a este ítem."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Control no cumplido; revisar e implantar la medida preventiva asociada a este ítem."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Control no cumplido; revisar e implantar la medida preventiva asociada a este ítem."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Control no cumplido; revisar e implantar la medida preventiva asociada a este ítem."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Control no cumplido; revisar e implantar la medida preventiva asociada a este ítem."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire_single_agent",
+    "agent_aggregation_status": "single_agent_no_aggregation_required",
+    "workplace_global_class": "Moderado"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Caso ERBB-P02: agente identificado Brucella melitensis, exposición muy frecuente, 40 respuestas Sí y 8 No.",
+    "ERBioR reference output v0.9.0: classified_annex_ii, regulatory_minimum_group 3, reference_level 3, compliance 83.3333, probability 2 (Media), risk_score 6 (Moderado), failed_control_ids GENERAL-F2015-041 a GENERAL-F2015-048."
+  ],
+  "reasoning_summary": "Se mantiene la clasificación de referencia para Brucella melitensis como agente clasificado en el Anexo II con grupo mínimo reglamentario 3 y nivel de referencia 3. Con exposición muy frecuente y 40/48 respuestas afirmativas, la salida de ERBioR determina cumplimiento aceptable (83,3333%), probabilidad media, GRB 6 y clase de riesgo moderada. No se requiere valoración profesional adicional según la referencia."
+}

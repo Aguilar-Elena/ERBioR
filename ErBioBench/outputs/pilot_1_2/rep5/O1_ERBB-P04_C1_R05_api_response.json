@@ -1,0 +1,102 @@
+{
+  "id": "resp_003326f9c41c293b006ae0e1d6548c87d294f3336897f1267d",
+  "object": "response",
+  "created_at": 1793122774,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793122784,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_003326f9c41c293b006ae0e1d6f6d487d280001bbedc66b40d",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4OHglby_i7mGBz-EQH2zA6yeUCLOktvoe3KukoFKMoqufXjjDdQIB5DIE4toKomDPmFdvcc3GrHIUVEodFuy_dZH6f2nZOjI-wxwJLiNjIh0Ap--Le3pb83gH71_gSU0CaGsO0b7ESKWJcEdLClmxiNW9QKE2QuC5aHR243JpQkKdy8BlbFaugyTwJ5izuwwg3y3gBpLCHMQ06vBSv-0Jf7PRzknHqPgm5RBA5ybID92HpHicb9PFFgeIwKDArhXb0yM3K_JmpJ93VxJbNGVOOqMdDWIO0wVzbouRDcvx28bmMRsMs5JH1UeZJTplqcQ8UUpJV49YITLTVDwLR1TSKQVvycMm_wX-c29muKQbzW_kRsUnYQxKaoMyMxUqryQo8IwmdH3gjqDdkm1XxNHKWJae_5X6Kk-Bv9FaX5twB4H_5NC_5nqA_VRW2ZSiFUSEt6xOzVRIHc2l3FktplfO9EGbC9uh9XLiFALOw-OJzc-0fPqugHvAu1iEbDkPPrs_MhQolLKYgHBUhEHICjOqC_oFn_4nsuPP5JXUIEzrmzBG8E5RyT1-pXfYflzq928TX0K2SPLn5BJWLEyXpBCTk5u88xRdF6WNOfkfOjNPa15Jqo38a9jeJnZNbQMOAFYIR0EEqk3QqMIEQ0lrPnzE5s1lnkPTObMwn8mDbhtCiE8QW8CBvr7geplEi4oZkLyGScLQpwwG-PcmFDwn9hIm5EFJcG07ZImNmsi7GoIMen9Z47Wu5SXeEjrffVYGKPCPZXoGpdHEb-fxNS_rpMborFTN21EVUv6I23GOYRCSmj_F-Z2rJPOk3pSEQYk0SDT8kXmbyne3VNZ_3zgCaC1_ara8mOTJl5deINk54nqVCVVv-KQMy_EFEFivGPp4MuyC5aV32dD9bpjcwdZhklxfx9Eb4SE4DF1ZaqnSgTXMkt39Yloaqr861TWJI1FgPezJQa-ru0YXtEM9TOcyxdDIOj_YPGHMD2bvjBurujRxwZ2ujZUDOYDGOk2E8g8Sl8qHbP7_ctK5ExWV3uaEyRS0IvPBCCWRjWEf4ChaOjT5HILen8Nr22V9o2KSUS4-upiyI_wFtvvgfOCoCzvb7F47vJvhHjF9reU1enBVEQETzitaqKuzWjqXGeS9O7KDSrrAy3k_-TaQRpU2dJm8CqKTl1kfcP2BTJEvmSSQ8tkrokO_VXL1SCLwCXkFL95aUR-1vTtzzFl42JHpH3O58338ha4XhE09XFyf_iNDqMK2BpbayWYcHa7xDRSxTVMUejZT_tHReWF2hHEUkImBar0P0G6ZQqlbeFcnDzNbb3N_3dOoPYk8NBQtFfB8ajadrydR7KMR-SaONiH2-TIX66EM_VBoLuqQv9HAP2HTcLx77AuD1OiuL2IO1BPoVwxhhGgXuuw8iDAJpyJkp_F6rezU82NUK4s700J2vUdewDcQFl7SYJLcyJsnqMCV3YsAVmGOJ9QpN09_1RN6sl8rzjOSUtxdgtNqqsaLP1_mRQScHhbYw3O2sd_boEFlU8VaCxFA8kao_YKUDAqujOor_6uuF3hg0XtgBx7PNxwjg2aqPgqdxL5j_AKAyBP45Jn4meBdXDhUWTLrNorNgjmtMER3Z8dV2kNYX38YxeQ_yw8UZhuFHouOi_hqRFCvPnwPoqjEyzRwm_-QPzZ5Lkl6QgGl8c2c1i2OF0liXCqLwb5Yv5wsIu-ugrGZqMrX5PpBCNaGVp-TRrOS-RilaaLFfsVwTx72EV5xOvDVrGmnmPet5hF_r8xyn8Ulqpt8PFJzfsSWQvqFArSriP-_iZbmPDnq_M-T79xXuUG2-5880w2I-O7nbvBSW5vTmkIi-7HdDPxKSvR9QIU7Sh28urMamcglVJsmEpVCH78gx1JCXwrtfxF8EMBXkPcK1em8SiIz_9_Y5UtRa9PVYaD_eSCIsHGakLj5bDh_YXt9cB6GgLki55LzATCzeEe6s4BYpdxP7b4wYU8Fjr-RxeYNm6AOzYyNZAfKHOhOsmIbmsXpn6W77hgatIi4KlwstIL5iSGTHIJsD5IJEtZTWp2jBrppFNX4dhxkGEGt3286vZ6jn9bslFdyQTJrn8o662LXIB_bsKMN0VdB7sNT10OOX7CmZERhqWIM0jV70LBjD7CQpnIhUUSvCjjtUMbawhahuIY8ovKaeoLIV7hISsoIF-FINoBO1g_QLkk7zn_Jgct_4iZzD_gsZodzPXFqTaDhiUYkztofd6t7B3rPy1zPXVLYE_SPzUReLR2ZTtby_RX6XPpEXSyQb8YviMRLKxXoZA8U38o6U_jwINSAZWklo15YGmvHzOF-OpeueIRPFe9OGJYlHYVmMk22qyCuY9vJ_eaqDotwWAV9k4icWqWL4r3aBfZmJpDJrqVnrF8lHG4MFltlZhdy46xWSG1ZfqzyBUtRJWnJsq4ePxn7nDq3rdPnyVpdFgcma70MPw7xWK1gUJKMD3yxEfHPk6BYIArIAuvTCjPsJblakYv3iHWSDbapRMN6nuJFKxhf-tW98PqbTv0JwpNyiI1tpQnINXFxj97qRqLBxf-vHMo20yN8KMRYkvnRLVLyHaT_MpG1NesF7n3Uv_kEVdLrPzh7PDQqe1K7R_b6K4m8LqGHdx-gaiNjtbG2GMq48xSe32-QFV4-2X5kFDA9QJDRov21Zdt1hhruvKCZ_4TY-aooKwRDsCcTfq9592EdCmRFfXEAvHtrw8V_HnXn-PysntMiMuqoGyv1_1ixsT6TInCTxBikBcjNeLANxFzlYrOdsJ3_4ldQtL6TjOKrVdk7m1rYUcawY9Sh_5eooQqTbmiOxdWW4hH2BJKOM1DLWVgAcPAhvXH2t2XPdnTCUaeLfKaiPx2k4f6cdf8CYmt6VbG0uBJ4OcjsxTui-d-PqmomgypEwdjyXuPO0ekGz7flndLj3jxrJ_jwq5aAnbprOJvRxJrC2AleB5HyBN5OErVGOBiTZvj-6D0IUu7OqXN6pZivoObYDlYOvwPF9_W8_NLtEnuI2oryQq7inICTqYdSfgBQzbINfaAHgAQSutCNpEekJc1y5ld8Yqmn8YeW7vioVB_6vdeyKuagwVbu-X49b9yojF9MUnd-NxtJ6av1jrZby6fa1UVJ6R2vh43XKx4qX7zefSKFk0XrpLdcjUVq9Gs9gXV5Y8yt84AUDag_3Xy_0BCX9yna03vG9CB",
+      "summary": []
+    },
+    {
+      "id": "msg_003326f9c41c293b006ae0e1d93ecc87d298ce4c7767488fbf",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P04\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Actinomadura madurae\",\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"classification_status\": \"No resoluble con la información proporcionada\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"agent_name\": \"Actinomadura madurae\",\n      \"questionnaire_id\": \"Cuestionario general ERBio\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Categoría indicada expresamente en el caso\"\n      },\n      \"compliance\": {\n        \"percent\": 75,\n        \"class\": null,\n        \"n_applicable\": 16,\n        \"n_not_applicable\": 32\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [\n        \"Existen 4 respuestas No, pero no se identifican los ítems ni los controles concretos incumplidos\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Identificar y revisar profesionalmente los 4 ítems respondidos No para determinar las medidas correctoras específicas.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"Evaluación parcial: cumplimiento calculable, pero clase de cumplimiento, probabilidad, GRB y clase de riesgo no resolubles\",\n    \"agent_aggregation_status\": \"No resoluble por ausencia de clasificación o nivel de referencia del agente y de reglas de conversión aplicables\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"No se proporciona la clasificación reglamentaria o nivel de referencia de Actinomadura madurae, la identidad de los 4 ítems incumplidos ni las reglas para convertir exposición y cumplimiento en probabilidad, GRB y clase de riesgo.\"\n  },\n  \"professional_review_required\": true,\n  \"sources_or_basis\": [\n    \"Caso ERBB-P04\",\n    \"Agente identificado: Actinomadura madurae (BIO-BACT-0001)\",\n    \"Exposición indicada: Frecuente\",\n    \"Cuestionario general ERBio de 48 ítems\",\n    \"12 respuestas Sí, 4 respuestas No y 32 respuestas No procede\",\n    \"Los ítems No procede se excluyen del denominador\",\n    \"Cumplimiento calculado: 12 / (12 + 4) × 100 = 75 %\"\n  ],\n  \"reasoning_summary\": \"Al excluir las 32 respuestas No procede, quedan 16 ítems aplicables; 12 respuestas Sí determinan un cumplimiento del 75 %. La exposición es Frecuente. No pueden determinarse la clasificación del agente, la clase de cumplimiento, la probabilidad, el GRB ni la clase de riesgo porque faltan las clasificaciones y reglas de conversión necesarias. Los 4 controles incumplidos requieren identificación y valoración profesional.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 796,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 858,
+    "output_tokens_details": {
+      "reasoning_tokens": 132
+    },
+    "total_tokens": 1654
+  },
+  "user": null,
+  "metadata": {}
+}

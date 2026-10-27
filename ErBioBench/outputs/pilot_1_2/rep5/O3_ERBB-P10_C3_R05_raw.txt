@@ -1,0 +1,63 @@
+{
+  "case_id": "ERBB-P10",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "audit",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición indicada en el caso: Frecuente."
+      },
+      "compliance": {
+        "percent": 96.875,
+        "class": "Aceptable",
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": null,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "AUDIT-F2015-004"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "AUDIT-F2015-004",
+          "action": "Corregir el incumplimiento identificado en AUDIT-F2015-004 para restablecer las medidas higiénicas y/o de protección individual correspondientes al control fallido (evaluación preventiva del impacto del incumplimiento según la matriz)."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "matrix_assessment",
+    "agent_aggregation_status": "single_agent_unit",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "ERBioR reference output v0.9.0 (matrix_assessment)"
+  ],
+  "reasoning_summary": "Para Brucella melitensis (BIO-BACT-0028), clasificada en anexo II con nivel de referencia 3 y grupo mínimo regulatorio 3, la exposición es 'Frecuente'. La auditoría muestra cumplimiento 96.875% (Aceptable) con un único control incumplido: AUDIT-F2015-004. Con probabilidad 1 (Baja), el riesgo matricial resultante es 3 con clase de riesgo 'Tolerable' y sin requerimiento de valoración profesional según el ERBioR. El incumplimiento específico permanece identificado como fallo de control sin alterar los resultados de clasificación y nivel de referencia del agente."
+}

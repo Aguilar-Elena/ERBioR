@@ -1,0 +1,128 @@
+{
+  "case_id": "ERBB-P12",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Auditoría",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición común indicada en el caso"
+      },
+      "compliance": {
+        "percent": 96.88,
+        "class": null,
+        "n_applicable": 32,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        "1 control incumplido; el caso no identifica el control concreto"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar y corregir mediante revisión profesional el control incumplido en el cuestionario de Auditoría."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "General",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición común indicada en el caso"
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        "29 controles incumplidos; el caso no identifica los controles concretos"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar, priorizar y corregir mediante revisión profesional los 29 controles incumplidos en el cuestionario General."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Trabajadores",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición común indicada en el caso"
+      },
+      "compliance": {
+        "percent": 58.82,
+        "class": null,
+        "n_applicable": 34,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        "14 controles incumplidos; el caso no identifica los controles concretos"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar, priorizar y corregir mediante revisión profesional los 14 controles incumplidos en el cuestionario de Trabajadores."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No agregada: los tres cuestionarios presentan resultados discordantes y deben mantenerse diferenciados",
+    "agent_aggregation_status": "No resoluble sin una regla autorizada de agregación",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporciona clasificación reglamentaria o nivel de referencia del agente, umbrales para clases de cumplimiento, reglas para derivar probabilidad, GRB o clase de riesgo, identificación de los controles incumplidos ni autorización para obtener una clase global única."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P12",
+    "Agente indicado: Brucella melitensis (BIO-BACT-0028)",
+    "Auditoría: 31 Sí y 1 No",
+    "General: 19 Sí y 29 No",
+    "Trabajadores: 20 Sí y 14 No",
+    "Exposición común: Frecuente",
+    "Instrucción de mantener diferenciados los cuestionarios",
+    "Ausencia de autorización para generar una clase global única"
+  ],
+  "reasoning_summary": "El cumplimiento calculado es 96.88% para Auditoría, 39.58% para General y 58.82% para Trabajadores. Debido a la discordancia y a la prohibición de agregación silenciosa, se conservan tres unidades separadas. La exposición es frecuente, pero la clasificación del agente, la probabilidad, el GRB y las clases de riesgo quedan sin resolver por falta de reglas y datos suficientes; se requiere valoración profesional."
+}

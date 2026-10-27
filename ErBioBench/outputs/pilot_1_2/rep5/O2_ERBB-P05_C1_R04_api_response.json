@@ -1,0 +1,102 @@
+{
+  "id": "resp_0c5f0241c69eea72006ae0d8c476f087d296a375ee8e4ed655",
+  "object": "response",
+  "created_at": 1793120452,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793120473,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0c5f0241c69eea72006ae0d8d0b7e487d29eb96f1722f36b70",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4NjZ6WXcD30MhSKoLLXX-XBc0hJy250I41ujUPGu9NAXpNKtorDzlih5ywGHvnMvyb5utaCz_RXeeKkIK852dHZ390iMWUeG7SKXWqye0PjqTnJj12rB_7l5J_BRilQVlucaOMxg2kSWbze76XJUCJybKVkShzMpXdtK7z_uGaG1XDLSe7H0_FqZmlnjhlz1CGsytyGhwGKWUZHILx4HLsqbVZdDtkvDIKTel3cGD-f4ujPxqeUWbB7W8ITATjIPfIyE8-JE5YdP5YRR7iQo7iH8qhhtCKxdMs6clUE4HeAGBaeHfmMpM4gaOQcJWKxzGSX1HDS0h8L0lkNJ6TGo8PsBL4M5Ddj-6g2mOXwL51nWd92e0W5fPU-SuRSPYqsnXUHs4gqjR1u_SeiTox67SYD6u3pRnIZ1Lk7i9i0-NPub9-5_uEaVKJmx5L8_dJCzWsdEBKiy1qS6L70XNYgr1Q5SESRsTwIBTfzFtJKCijSer-vouLjL2JyXIdQ1xuTZ3k_Rp4RgFXLgzJoshq5BQqJ4FTG0--10HYHuk3zGGeStVC_3h9_RGPslg1_Gx8LFmXfn4YRmxtZO6Y_F8lsVhOUuRikcTGkJvaVCv53giWPaWi8ZHRS31_9lLxObhJEdjDaUs_0kATcXhsoqaL5Zi121im30y2yaMwMqIO6OmlodlM639Ol3QIG2B0SyzM7sU9qL-p2upALWSPi0vkhzbdO-kWKix1pQ4T4q6TMGa89YdkTeo30CXosf-jievxrRMQnaTWQ9kaFQshgD8p7BSrMRSdIZWtZXXUjlLpKe50Uc_fwSfil_MDDPUdMTL2wrNT3JasXRpKlvSh1UHwFzo0OllycznzrYq-xiMPv9fx710VZ3lB2a7RhSVBJ8kHkfiogaRqPmI445hkSd85qLelTefqBnlMX49jhwjmPL_2vLvSt1zbN5v8-de3q1-W3eBeH6F3JkGQ43SGbSBIX-vwcB7Qi8Iq9aQQ6Z-MmMZg2qSz3tTqgm7OnQNet9WQJR0ZA2r0aVTb-caIpm4CiyiogzJCzj7XT5tenSgwr_jUjGYECYwWVdiw7YZI30syQR9Zo30okt6T-dswcsJm1WpmEL0GM0qbGxMqEjTYhpAueOjSrMLfSmTS0MxsPFluiTzhxqIgoI7rh29QE_x4ExJpLL10LVnj8ruwHAw5-I4-yH0kwwsiahYXZwGKcge6PScoBg2fiS99X-s7ozlDVFisP_vUxBaOyH0jxWopDyQ0gmkuDM4QdwxdFctTsX8o4rgU13Hs1fBfucX3jqrum7cYBdboSi-KlqVB_ot_guV_x1s7BqFGUd523KBStnwh2KBQfKPM-TYnB215IAxHLhHYMBvyHedPeJB-kI4wlMXGJCeZJJCmziLmaFQwYMMDdL6F0PHnHpInhGKdT8Xt9TlumBkOX-OlCTCp3E_BQbG67tzAt88B0os9z_dPV_7cYDyuX67XUhxpjc5FLUt_7pzoS3PBIKcNqczrrAATNMcBkeFC5WwYLW5W3xBYRRbUqBSX5E3Zng_UsM3uFxDDN7QrOpPo-LvBn_vLyqypP645U9fi1tUH2UIcR8lL6Hh7wIYn5mYB5YrLhJHrCfU2K383V59r3xC_gY4HZtnr9uiTPigSJVzVASA2zy7aECfFE_dp0diLH1U46lal-qy9hVZvwgQ4C7gJKECDXOBMKMg78IQATQpCttmY_Fm5jCYjtMO9GRGsPKu_8p_YkNmvMg3uaPSRykXzyJfpGZdJsZAz8YU7owGRJl_qPOw26TPkoPhlvdj0kRyM_ZPRG7kKtSyjm-HWXcKuYBqX9Rrzc3bAiFfgXy5b-wnsnr-7vRBu-P4ZQACp9dueW0hV9OLVqijHjX3JzaaJBgR_PoW_JA-C4B5602jypy1ftImBYIr8wwXRmQkn1eCHn80_cc1n0_oLeDuNIUneRRWA1t0euwMK88eprNcBU1-l-3poa-8LypGmcCm37477UGfMb-K1qN6_1UehbHb-KLp7iC6lQ7v3Gs1tKaNYuSr7R9X_ahzNqKcWaYgwKNWFsSlwBlwm8oJikxDSbw3pTC8dgfz3sGiH102-rkGsKfrYMwFs66XMGHmkFoS8FjArh5tOkHCSmZFxfJA5EMSJlpg0yI-uMTvhseleeL2j-LybXVeF0P8rKs9kJmt95HKdpPLzvKd8TZRWhC-28dLeNK4-B2zTuc5NUJYcQFkzGVeVQNy_okLlBo1EGuPEzmFapUzFwuZCUvvCGNNkun_OSWNhsv1fAGoi1P6s30EjRg4xTZlqh9Sj4VOwBEkLLE4ao2StdFEJ2bpoK39dNpq1fyA10e72n_67PoOiKiOhiNK45yRhC76VSmCnxC7E2pSiPrsjA8E1MPvrmJmPoFdhxy942VsNzTWOvcdZKF4rxiFLGtY-q2lwwdZUz2UfXPV0dX6MfXj-RjQeh4Nn8U4fdbSAXy26PPmkjXdfuA8-kupxcdEfHzE9WofC7UEtzy00RHxXeu8VnFQdKyJuvCI1NT64DBQ65CSdQekrL0HyO3wZjd3Q9SZGGEGmyi6kY8ClpnV6Sj1m99iZEDg_LUcTiefyZcBy_YVwkWA-WfANx6Y1t90bWxN30Y-mV3WsWImGGdFkNFpsJhVkLdtn9Gkl4WiE1YVR5bbsX2UAX7RLrteDMeVbblmDSzIcEC1X6PUFb4iM8hPe8Nns2uy3wBqVLUmtxrrLzQnjNRkNaSuLxjvKxdvjcpeIE88C8lnmVr_3whX6uukj_YftvAFoFyzcVs51dRN0sy8PJCydiv3QP4VHPB6LRSRG3PzR5dw472yLxcaK5klltIFKx8xhGxnWY4iE1nGAq7hdSlD0S8dpq8z5HBmCwcV9F-vdA0WQQCUpicwlbae7yx7um1mmJwbOZSp0uvcJcOFSOdFaV2X16WCZyP3snmjMZr-LVq4sKmAAWcLr1rnvsdE2jxviDOustug2d4emCZw7ZI7BVd0fEqKQKd0zjx0jVCWiGnG4ydiJFAo-UVsVtGG4HCpdza932IrhKlYJ0Tdi16qF5wFj5IlEknh8K1nk_ddL3mMWdOsxK3CBRBs7v8uiTPPwyd0hnKPgc-EfRTB3LyN3QUT0QEtHrUG5YE_TGc9F47_WJAh3JBsEGbwtxfQLDfawg4Ensl6vF44Jh1sFkfktYkrGp9-FC_yWCjRR25KCigzOGb7wd1xbWK1Gvu7WI8IPyD2LjXJTxd7pkZuqhGe1yRMfEnHXe1ypFKovBIKNRIAfPoWp39gAdGXDyDDq2M84Uzjdg3fzH9upva74_-bRtRKKXM8iINBO5EcJK7tOpQw1BK8ET3_ZOi90VXHCemIlBV9-d2A6HDRajw8csqIHKKb8JkxhBKqyNsu2c9yYNrvriSCzAJtYOYJ1HqEebTjV78Fi4pKfzBVVbGRhSnZ5E3l6wMJMhwSQzaH6Gp8gLpVdnpjF-W3YMNryJzMtt2yEncEv6PisrH_9PnQuOBOMpDbC3OEUs6eqV2YQtHXIhIFDct5r7wj_GsCTGXZPOSX_yGW2qn6f_ILcW0qB15DV8wzDT__I9SENjpJIXE1ijGNbQ-uT5UjEIk8kurr_3ZfRwDqzs9nRV-WXN7xw6aw8kbRwh8trG5vtwi9O_-ifUswiKWDnlxXENdrN2Vn4l4GnHYwh6gRvbN4i3-8hjNU5NX-H2s6qc96AonRp6N8lyGSfg6O12WRueRyX0RFB56_AtR3BaWDfWc0YcsxPZJLI-LPRUUySzAyF4FrvJFgsPpkrsw0l0rlE1Z92pqhSypV9Gr_0qBgzJm_v-fvc2AeGKcdME6e8gsNx9XQ6oPKou2x4k8Eojb7l-B64lDMMjCfDEec22Atq3igT_1af7L6QH6sxGjT4Aa7KHWxX-Po_8f0lopbH4Us2v3k-vXFOvwg_T2ux22ZsxeWyzEAH0LaSw0E8qvhqDb-TL8TwzQYLov9JgFp-OGUNT673qSRvgUp7H-8WsA98e0sQet6_ezScHWp7tgFR2HPVOc5g7ZNYVBRqbwYSkB7OC7C-8sMmolGwCAdwt27yahWagKXB74pYh4XBcHzQZRGIxathPaY_nT1iSUv-I2E3r7Z0er8kkGiNWXecnbO9HfXz-7tNoyeKkro2PK5-nTN8vFt1mGquj4FG0kTGO9McMQ9X75OrkGVAK7fqCON6P-_4dJIFcJqgmqarH1TTaDPiZDfRBDczLwtZmKsf9gCENBXTm7qQn8Tzm-2AtF7B_hnjOt-rdPaZYACekVBQHmgcyG47q9fKNGq3BIqIYT2yk2Dlcum6E6x8jhCRqXmkGbVrYdW7dPboQ8BgPB3dvbGKUvi2kRLfa2RGPMIERZr-8Kg7RlxBaF852FjaFzJmo6xsnylsQ3nJvwIoTgnLXitRBbZWWwqigjeaphq_a4-FjhmXMnFaGkbwzqQm1fBlZ9rO-Z90Cehica5y2vFrAIbniV2TlpZTHEiBj8tWstQieBbslbX8Qo-DQGuLy9QLhOxg79ZIPxoZeqICJmZe1LwNxzQYQFFDJpLHN_jlzdgO5d_r7mDkZecrL7ilbWY8qeJi-Or4tRKX0=",
+      "summary": []
+    },
+    {
+      "id": "msg_0c5f0241c69eea72006ae0d8d332a887d2b0356d19cba2ca0a",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P05\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Bacillus anthracis\",\n      \"agent_id\": \"BIO-BACT-0010\",\n      \"classification_status\": \"identified\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    },\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"identified\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0010\",\n      \"agent_name\": \"Bacillus anthracis\",\n      \"questionnaire_id\": \"ERBio-48\",\n      \"exposure\": {\n        \"category\": \"frecuente\",\n        \"basis\": \"La información del caso indica exposición frecuente para este agente.\"\n      },\n      \"compliance\": {\n        \"percent\": 83.3333333333,\n        \"class\": null,\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": \"unresolved\"\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": []\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"ERBio-48\",\n      \"exposure\": {\n        \"category\": \"frecuente\",\n        \"basis\": \"La información del caso indica exposición frecuente para este agente.\"\n      },\n      \"compliance\": {\n        \"percent\": 83.3333333333,\n        \"class\": null,\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": \"unresolved\"\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": []\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"resolved_for_both_agents_with_same_questionnaire_results\",\n    \"agent_aggregation_status\": \"not_aggregated; each agent retained separate identity and evaluation\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"No se proporcionó una regla de conversión para derivar probabilidad, GRB, clase de riesgo, controles incumplidos ni nivel de referencia. Tampoco se aportó una clasificación reglamentaria verificable de los agentes.\"\n  },\n  \"professional_review_required\": true,\n  \"sources_or_basis\": [\n    \"Agente 1: Bacillus anthracis (BIO-BACT-0010)\",\n    \"Agente 2: Brucella melitensis (BIO-BACT-0028)\",\n    \"Exposición para ambos agentes: Frecuente\",\n    \"Cuestionario general ERBio: 48 ítems\",\n    \"40 respuestas Sí y 8 respuestas No\",\n    \"Cada agente debe conservar su identidad y evaluación\"\n  ],\n  \"reasoning_summary\": \"Se identificaron dos agentes biológicos distintos y se mantuvo su evaluación separada. Con 40 respuestas afirmativas de 48 ítems, la conformidad del cuestionario es 83,33% para ambos agentes. La información aportada no permite derivar de forma válida la probabilidad, GRB, clase de riesgo, controles incumplidos ni clasificación/regulación de referencia, por lo que esos campos se dejan sin resolver. La exposición se consigna como frecuente para ambos y se requiere valoración profesional.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 802,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1106,
+    "output_tokens_details": {
+      "reasoning_tokens": 230
+    },
+    "total_tokens": 1908
+  },
+  "user": null,
+  "metadata": {}
+}

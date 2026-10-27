@@ -1,0 +1,71 @@
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48-items (Cuestionario general ERBio)",
+      "exposure": {
+        "category": "Muy frecuente",
+        "basis": "Exposición: Muy frecuente (caso ERBB-P02)."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": "Alta (basada en exposición Muy frecuente; cumplimiento mayoritario con 40/48 'Sí')."
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        {
+          "item_id": null,
+          "reason": "8 respuestas 'No' (controles incumplidos no especificados por ID de ítem en el caso).",
+          "count": 8
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar los controles que han resultado incumplidos (las 8 respuestas 'No'), identificando el/los ítem(s) concretos asociados para su corrección."
+        },
+        {
+          "item_id": null,
+          "action": "Mantener/incrementar medidas de contención y control conforme a la evaluación profesional del lugar, dado que la exposición es 'Muy frecuente'."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire_no_crosswalk_available",
+    "agent_aggregation_status": "single_agent",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporciona en el caso la clasificación/nivel de referencia del agente (para calcular GRB) ni los IDs de los 8 ítems con respuesta 'No'. Por ello GRB y clase de riesgo permanecen indeterminados."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P02: Agente BIO-BACT-0028 (Brucella melitensis).",
+    "Caso ERBB-P02: Exposición 'Muy frecuente'.",
+    "Caso ERBB-P02: 40 'Sí' y 8 'No' en el cuestionario general ERBio de 48 ítems."
+  ],
+  "reasoning_summary": "Se identifica 1 agente (Brucella melitensis, BIO-BACT-0028) y se usa la exposición 'Muy frecuente'. El cumplimiento del cuestionario es 40/48 = 83.33% (8 ítems 'No' sin IDs). La probabilidad se estima como alta por la frecuencia de exposición, pero no puede calcularse GRB ni clase de riesgo porque el caso no aporta el nivel de referencia/regulación del agente."
+}

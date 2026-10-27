@@ -1,0 +1,71 @@
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "identified",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-general-48",
+      "exposure": {
+        "category": "Muy frecuente",
+        "basis": "La exposición se describe explícitamente como muy frecuente y ocurre varias veces durante la jornada."
+      },
+      "compliance": {
+        "percent": 83.33333333333334,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "No se especifican los 8 ítems respondidos como No; por tanto, no es posible identificar los controles concretos incumplidos con la información disponible."
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Requiere valoración profesional específica del puesto y de las tareas, dado que la exposición es muy frecuente y existen 8 controles no cumplidos."
+        },
+        {
+          "item_id": null,
+          "action": "Revisar y reforzar las medidas preventivas aplicables al puesto según la evaluación profesional."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolvable_only_partially",
+    "agent_aggregation_status": "single_agent_only",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporciona la clasificación/regulación del agente ni el mapeo explícito para convertir la exposición y el cumplimiento en probabilidad, GRB o clase de riesgo. Tampoco se detallan los ítems respondidos como No."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Agente identificado: Brucella melitensis (BIO-BACT-0028)",
+    "Exposición: Muy frecuente",
+    "Cuestionario general ERBio: 48 ítems",
+    "40 respuestas Sí y 8 respuestas No"
+  ],
+  "reasoning_summary": "Se identifica el agente y se calcula el cumplimiento del cuestionario (40/48 = 83,33%). La exposición está explícitamente descrita como muy frecuente. No obstante, la clasificación/regulación del agente, la probabilidad, el GRB y la clase de riesgo no pueden determinarse con certeza solo con los datos proporcionados, y los 8 controles incumplidos no están especificados. Por ello, se marca necesidad de valoración profesional."
+}

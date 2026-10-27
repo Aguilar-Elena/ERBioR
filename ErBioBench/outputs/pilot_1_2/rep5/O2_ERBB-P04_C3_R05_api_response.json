@@ -1,0 +1,102 @@
+{
+  "id": "resp_0d2617b8e69d0375006ae0dacfb7c487d2b5fa1fc67fac98cf",
+  "object": "response",
+  "created_at": 1793120975,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793120981,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0d2617b8e69d0375006ae0dad031e487d29e56e6bb677992cd",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4NrVD4S4ZGsbjawCKhWp-RBwHY2xWqDXvzk8FIZIyHuCcoqGlFPt_k330pEHv6MM958Uie9EjL9x8U4A1rDH1MgbBdNfCHclqJUlEa1C4LjByt-P_hZRnXSMnhRyG1TlXqJG3xbSFnFUHCJg18IN429iS2Vq8_zUVLr_7yzZYlRrDrQUXqKhh4YmIXfZsmOqPcQHKy6XUcCw8sD0nZdDPdjL2wny6qK1wHrz5YrDt7gcB8hm-KwpLsroUCiN20HY4P8oUzSxAv3N8VCseDjD9Ek_dKzTnLkWihMaNLwKVwZoqN_7_ByyOyMF_HJvu0mpR0StuSqFZCRR12DczDZkLKuX8FdqleRyuQV-tOQC52Ppn-5mBkVSUEQ1rTFkFLQNAFGTFAZGcIsWioK8Y5s3L1jmxI1PpEhHb4GEDaOi5t3mhFNAe0obkdC5AEtI1KqHqTwTC_IbUjuqSKbvtAUu95fSdzg_6XM3qzon3na20JWZrGzWJ_IR_seUzBSg-yoj_DZ6-D84074eO4ZRVfZdHEjH8otomFoxo5ZPZveLQnbAi234a57eGLzXaaoUh6cQsuAgrhGOCzCSYnm9BbI4a4DDwAaVMlkyFf_90In2e-fuamK5vlm1i7qv-KjUtc3pmIpid0g7ZESiSWW-9a08vVz_wLW7XSCoAVdX99V2wmA3klHMm_oq2WV1nHkW4t5DGFweFRM4cPd55acxBQQK_hr9mUzLYngCDLdTZrG1MfvTgu4QSDYdA6FZJnrwok98_8s-tlcQ2t8cHvvjFpb84jUD3J01b_T24PqcZU_KTkyPICCNqzObxp_7nP4mS8JLK1Nh5mf-GcEIkWRdYbm6oJExX7UcesAK4yRCcgobA6u-tC0pTMrnSHxlTQINcelvezgDDNO2AcBM3JWmIX5a6kIguY0vyCAIvgU-dz6BPG01N_bw_SNiQ0RkwBDF_sd1vgEua8tRJMGr3UcbsscCzp0HMjylxIzE31K7xm4Ad9bbNKMU5kpUwyo83LBnFBt7NkfPIIV6DVi5NfreHoAi_ssXdasF9aN05FRUpMbcCWYuCYdBJ9cZYgJt81c98CDfk-mCwM2AQw_b6k1cVhIL82V7RRUVzo4jshDJB_mIDAvM3jNNaohgDzXCf_tYj-Ge-wrdf-RvhaWGQ8-2DaDqDLiafgTPFHqcG8PyBBygRpbpPc1KksPTyIDYFS2_MnTjEbhTKeboFqLrs9ZGBn3Rm7zhg1ko2-lWAqfQSyqyqxX_jFP5KnvaUMw4p7YopPcdXbzWzJUmxg1fD-xPTBjH5rNQ2ry67b_bLAObBWkT3FkUsDpmr_7pKKFn3otE1B5J5FX3MM3n9JjTfvpXCfS4RXUGEPAJ0_a47vankiq8Ovcw3gyqhbQdjJyoQFXQX-cIx41FKh_cx4N3OQgvXie46Kx9s4k6MJFdTazSeJ8EtYnSTgNXyggIREjm8WKRwMZZsy8tbzIptJOHApCbnAVlsT2QO21YjaTiY14ysY540B7PlTpzskYLhZDwnqPX5EigccMXfUwklfbxaWs9DNX1g38qhkumXTpTHsKyVPgB8odGsApgK0bUERsK1Ne3F4WgfZpuf0wUu1hEUKYhFLD-16DM38WOXJOBgMPez2ayb-4v-qBLiRjVFUJR9qrnBYU6LJY88EMWjZqSUJ1O5fhRlKPjXjmEg6lBLwEqeDCdUl5fu6jxfd9J_NyGjuFhc2d5leEELtdiVDFl3Z9h0VH7dAHW6fbq6jKJeHO6ANgPm5S63DtLI5sUj9C90Hk6m9oL62L6lBHULvUhh1dV2XtadyWydYTaNvceDGGATwiMZdnCJOzoB5tuoZ21n17tDlBiejqRDFKIkskXeNloc-7pS0P9_21f9gg3eTb3Kmd0_g03xb3VzjNE5K-ajJH749U6iBt4vy_kDqtB4YKdyeXyhVojogJvOEG2M-7-2dvRBX1VsA-u3P8f0tuDB-hSsRhAdNrf_GE3wThUfFrzKQctPvA1kb-S4cRiwfTiCkOH4Qb4uUiL_dG1b88clRtos4BY50M_IiKhjdHxHme1jRAScRmWpOX1vXGcYK7vVrryDI15KQRNpXVRESCj6LIUiBQVq0mzBzNd09-ZsAQuEpKoDFk3VaAp8s55wyHjz5mkDkUl3U_Vk0lAjL8MDQ86SAEZzAduPO97QACx5M2KUvdWM_ZeDIiye1nd1fr6CrQsGMmqJmoHPH_w0539on6HZa3OrQZABBNsS0c82GMw3QHm7cqAPvg8WSCiMEtvAL14s1G-kqMa0952LioCaIMfos4PWGFoC0dPccz7gAwowZ_SpahMrzFNjme6pDaKx6Tm3L4qYgDxWlm4iZWuIAsdp2xNEZMDdULeMEsE4I4PXEbUBgKidh48yvqIcYYLayHdCPFdqtcahDWYBfef-qY-g74yEWNPNkmgeICSJttzYSckpimiJ5AauJDuy-de-0eONSde9JmruMCN-Gz9TSu2p1arS_z_BPbfJQIz9DZF5jfquouGQuyk8Dw-sc9u1J1Xh6kNPWDV_PJjhbfxfVUiqKccfLSSel1EJTfixUMKX83VBreTPKcDDCXqRcVJSOOsmIfZVXFYUOgypArnsJuMUR33tds0xZ2kMv6CJ9xUMEMFNi1Z7M9lT1yzanHcG6NeB-MzAzp7Z8eEYfspjuGOEQchZj5je4nqlHBIUUygb6u0VXgVGJFhKKUjdwZd3PSnLCKKwPjXDO-rxwZ-Hk28rQ2uRxjDu8NN7oYQ_LKWvnAAehkLpJ_JGYUJ7Q72LqPGmq71L4yQGh7wQq1CqF4H-j4L7NTdhzZ3kKOtbnuSyZOlEsJv0ENt6kyDdNyS4sLjUnyMthjk75fNoCvYsF-qfQ5XOf_XpT5szdv22ExQ9MTmKuGOkBU5p4dMM6x0YIGFjRsZ7MXjXxOl4Hi6r30cEXA8XgT4fUg9yNjMBCGKEPGxa9g6qeoRbEiv4E8GPXS17n3U2kKTKqjLeAOW2QQ7cvJFNxVENBss9055PXI9bwy4Xx-_Ky3Do2bhL4k3Az9e4JszrmigWiowPuFAa99F9HByndj4alPSuS0_LuIxnvWlnq4huvSgl_7EFTu4l4gsvFZOZ6H5U_fNot6Ay7uuqS7-o7UkDi2vQVh7pefj5tShBB7ptd3093zbir-krQKP7o0IyMfYoeq23DDMzMajTL9iVVKRVlY5RxFD6MFvnrdNF92-aqz82Ayrj4NwbKFvmGlpLUMRht2PFW3Bbxh9DwDH5gkTqvYk273mpIH_ewa6GGikrazqoXFhszB6lovA6yUYBMMHyg1HCUFRDnNpm5wYkOpK4QujdOwyBG4wc0n0KtWCg2acfCg3q4y7UF0LEvENlXtb5Wlqlqdx_ZBcYzEx8_SzFhM-0IjtZIKP4z7HCefqWgxdb1MQGD20fScPsRsUrGNkXJVLGAUp8O2eFhuzhS9JFsRM6f2YYKARjnGAJg4J1zZjgyp_oZgDMLnDXTfkosQa5sDwpBW9Ex6Ii2Vf8YbBYan_SzaAQr230rbAD5u38OZsaafoeCxjfyF_JBfcp9dYyc-C4nVbfVKZKEG3MsFcxz2GX07zS3A9u6clYY2IoZ2EbbOliOFuL23atn0k8SijaJ5whQVA2BRQy9ap82RKWRSfoD-BeTVzJPtZr36VUhM5o-kXTWW4SIMaYXweI3BZz3m7_B_75REuWDktJGSAY3EthwpVcbZwTsfiXQx-gcqq68mfC7NUY1e-z1orbcy4PJSNcGVdjPZm66bPbK7TK5QHMqOTDcem7h-xlPQcUeV-eZFZTWMczHQQVphfnf2GqqYmDzLzcsDuDJggwkw8h7e76XhjeQU-Q2m-hxBgk_ZxCUPICyrrjfXBibZ1za2VMX7UpFDAUZ1VzdbXh5HgOzni4vmQlYGcgJ-tR0xXkfTuttJlRf3x5StslJYY9U5d6n_2anyiKhxbNfkm5tCLB158q-4w6Xp9D5UytIogHhTlwe-sz18zzWXPT7DfCf6lljAPkl8P1Nxm7pnREXbR37jVxpY9c3ZpLTi4crrUl5vCrCCOoI450-9fe-OEA3Cpsc5ZInTzUUxT-r8HjHMJLjIl6p5C348JpovwfNch9nXuIrUccyQQhuWtllrB9Oqef9GPxnT5-W13s98Z5p-ezICPtU-V1tbsJKTAW3Fp8oAVYlw14YP1jE4HmPVJgeMhTEPgdYL1swAVZPOMG9pnnheq2-vwe7326qCnH0QJaA==",
+      "summary": []
+    },
+    {
+      "id": "msg_0d2617b8e69d0375006ae0dad1d18487d2a39920536a20f552",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P04\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Actinomadura madurae\",\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 2,\n      \"reference_level\": 2,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"agent_name\": \"Actinomadura madurae\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición declarada en el caso.\"\n      },\n      \"compliance\": {\n        \"percent\": 75,\n        \"class\": \"Mejorable\",\n        \"n_applicable\": 16,\n        \"n_not_applicable\": 32\n      },\n      \"probability\": {\n        \"value\": 2,\n        \"label\": \"Media\"\n      },\n      \"grb\": 4,\n      \"risk_class\": \"Moderado\",\n      \"failed_controls\": [\n        \"GENERAL-F2015-013\",\n        \"GENERAL-F2015-014\",\n        \"GENERAL-F2015-015\",\n        \"GENERAL-F2015-016\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-013\",\n          \"action\": \"Revisar y reforzar el control preventivo asociado a este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-014\",\n          \"action\": \"Revisar y reforzar el control preventivo asociado a este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-015\",\n          \"action\": \"Revisar y reforzar el control preventivo asociado a este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-016\",\n          \"action\": \"Revisar y reforzar el control preventivo asociado a este ítem.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_unit_no_aggregation_required\",\n    \"agent_aggregation_status\": \"single_agent_single_questionnaire\",\n    \"workplace_global_class\": \"Moderado\"\n  },\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"No hay incertidumbre relevante en la clasificación porque el agente está clasificado en el Anexo II y el ERBioR aporta directamente exposición, cumplimiento, probabilidad y clase de riesgo.\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    \"Caso: exposición frecuente, 12 respuestas Sí, 4 No, 32 No procede; los ítems No procede se excluyen del denominador.\",\n    \"ERBioR referencia 0.9.0: Actinomadura madurae (BIO-BACT-0001), clasificación_anexo_II, nivel de referencia 2, probabilidad 2, GRB 4, riesgo moderado, cumplimiento 75%.\"\n  ],\n  \"reasoning_summary\": \"Se trata de un único agente y un único cuestionario. Se excluyeron los 32 ítems No procede del denominador, quedando 16 aplicables; 12 Sí y 4 No producen un cumplimiento del 75% (Mejorable). El ERBioR asigna exposición frecuente, probabilidad media, GRB 4 y clase de riesgo moderado. No se requiere valoración profesional adicional.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1008,
+    "output_tokens_details": {
+      "reasoning_tokens": 223
+    },
+    "total_tokens": 2378
+  },
+  "user": null,
+  "metadata": {}
+}

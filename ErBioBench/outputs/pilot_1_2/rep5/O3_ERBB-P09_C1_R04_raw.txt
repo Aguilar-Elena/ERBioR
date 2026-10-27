@@ -1,0 +1,63 @@
+{
+  "case_id": "ERBB-P09",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": null,
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "contacto regular",
+        "basis": "La única información de exposición proporcionada es que el trabajador mantiene 'contacto regular' con material potencialmente contaminado; no se especifica frecuencia, cadencia ni porcentaje de tiempo."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Completar la evaluación recogiendo frecuencia/duración de la exposición (p. ej., por día/semana) y describiendo el tipo y condiciones del 'contacto regular' para estimar la probabilidad de infección."
+        },
+        {
+          "item_id": null,
+          "action": "Hasta disponer de la información faltante, realizar una revisión profesional in situ y aplicar medidas de control coherentes con bioseguridad ocupacional (p. ej., procedimientos de trabajo seguros, higiene y uso de EPP definidos por la evaluación), ajustándolas a los resultados."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "unresolved",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "La información es insuficiente para cuantificar exposición (no hay frecuencia/cadencia/porcentaje temporal) ni para valorar el cumplimiento de controles (solo se aportan conteos agregados de 'Sí/No' sin correspondencia a controles específicos), por lo que no puede determinarse probabilidad, GRB ni clase de riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P09: exposición descrita como 'contacto regular' con material potencialmente contaminado por Brucella melitensis; sin datos de frecuencia/duración; agente identificado como Brucella melitensis."
+  ],
+  "reasoning_summary": "Con la información disponible solo se clasifica la exposición como 'contacto regular', pero faltan datos esenciales (frecuencia, duración y porcentaje temporal) y no se pueden evaluar controles o probabilidad. La clasificación/regulación del agente y el nivel de referencia tampoco se proporcionan, por lo que GRB y clase de riesgo quedan sin resolver y se requiere valoración profesional."
+}

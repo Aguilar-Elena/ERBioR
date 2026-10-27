@@ -1,0 +1,102 @@
+{
+  "id": "resp_03f738c84743deef006ae0db2203b087d286d3f84a05eb7bb0",
+  "object": "response",
+  "created_at": 1793121058,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793121062,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_03f738c84743deef006ae0db22696487d2b77bf8b47796fbcf",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4Nsmv3Sa9VmNSiJC2QYf-S8m7oHc4UdMKq8rNy2Cy6sPHoZZJYwdYhFRwTTNDSssgf4GP_33krldtqySSUTuZOCCq_rHDF-yEwWAYEm4LoOjOGcqW3rxyiQY3ex7nk_iMC-Pwki4EjXdYBH2iz2Iy4ZQCvS2PPGv4gZcq5u2_6krrUmgu4Wy2n5ibTF7dVMXeujgarKFjJjK_MbQ9ac_ibI6SpxBONGDANfyPUN9niZQfnOGxhUNUXS31EGRh3fJAjVw5Fq9RqKLRMvz6-s24UsOmkyitPW_5wGSyLmGwQ90Eh-HDWv36H6dGMN02f_PiOThk3vOHrCioYmS-7072WSyc7gB4IAR_h2YAygz_7_zKIT4kycTLI1UsndXeF4EU_5F6C6ehg-sWl1UYIoJW2w645UfVLoFA-tuMZjIyTTFRPzijUdBvVwHzp4npFbqEFkclu9wtrvbxPDXnqgC8Gfm4n4PbmGzz5Fgi6ERJNEZCm5ne05HVTr19KOrCQfpocxHCo30O2LUP6g0Fsm4eDRBK3EChdlyIr9G7p45s2JW_upO6FBMsPpcKLwPj_1J8hiH-XZ7iQTL7yZVEtYizh2kaUe41o1kJDi60K8bj8o1ic3PrHissofc8W3PjIyzRgLAsvJ_EyRNWmKUQ8LCvPInDhm3MUhneHW9bkdTUI6U8SJ3Rshm4IY3WSd4rptJq9A0aEOi0DC11P1NLU22GncwJ4wyuJuj3NpNXll44Gpc3c4GkNo4Sfb3LALnJky6F8HsP-vfw_ognPJA1cWlVGvpHd-QawPmoIFPP3gQUlae5ZHgsB67ODsKWuu5bquDY97sGSezjit0HNvUkuWY_EUxhl9Nn_CH7AtpH-gveB7YVQKMYEnqqBkuHvPWTaEZIDmHuz_x3XjM0fyeeM1bt8L30JTkiTZfF1ALVFUGyLbzjLHDHqBmf5gJ5G6JUYxAC56s9XCjk92ckNOi_KqzZQLvL7f3gB_5FwOV03JYWN29pYmIEaAkw6i1_7h39P7UDnkwARWoDkrJQeeUP84px-V75VxrXxtHeh1SWYzI8dT_JimkcFWzNN05KYqfM58Ne9313hVD-ljTmfCQLQfQEhZOpi0EP2tXrIxwWNIG_EVizk-o6y2pzoxD2MD76MW8OSyG_Vtx2HGy5d2WcqhDMoSACRxjjYaOpGkie5kuEhbgEzMWFmeLMAjOuQfCo9Thh9tfyPuVj3ltBg523c3628AUmgM6Vy3GrA5RQOZobrefYMwSIEjd3G2iXitw6LihbSzd3Lsn4b5mm2B32p0AsjKi-MkbK0PMx6zqmic8hx1xxSsZvPecYoa_gttOOhsXKrF9LqkRU8JDcwC6eDxIQ15YYpxa8LlfOobKvfPNTeJZKPqaHLdbP1w_Mm4RNJJtOW7I6KwDkoteeXitcdSeyc7C_WJEYXKPNnCpwiK_QgQU-VnaJ9Qk-dFe4ierKHJctkA5RQoajr0rnLLul1yUqHNzwrZx-oX14SA_qdG2BZluSZq2IPhx2a4DJDhfRFVcmXb6Y0aKcanpyRE_YF_7QmQ-f3MWFYVqgaLT-bg_sn9uPYXyMa_cwbS5Wurc8cLvqbMSOA5ui0EZA04Cg28tNx1OvWYj_n4e6SHUg4Ya1D926GQ9UezhOmQ4vk-7R5jHw0z8L0Pw3F1ApnYXDEGkMM8me630k48ZTB1sAk1OBWV_iUvDJ6rYKVRgwhG4yZOlexIgL-dPYBWZh7eKZhQ1E9ruZxxcPtXsR169CFt75bCv97EsNFt-UPqVf85kHWTkOmMe7fCZ5PJUS7ZGcKvgA9KeQRkLkAU6ph034m30ilCETfo9NcVReAsG011zWFq0nRzlFoQW4pnnUoGSSsKWaR60P0odeF1EQKu1GpFf9Ob4M7Amaq3JhUsHuuWFZyxqyiG_5KsbjCvNiHkGIrQjrJZ-Tu0Wq_sBFHjySNpJCpBntktkGbcSZJ5d_XrwnKhzEVCx1J9MI5Y-gxRb9MFXTcyAnnV1tJ0c6uEThe0jAbdZYFdpH5urPPB7uUEB3AopsNv-Jm7yiELOmdML6lKkF8WOuISv97nda6Ir9AaQPUwhmni1BLSSxzgAwqQWsq3ryxru4zHnA6gCfSsP2zACklzcO3vIFRKU0PAoz81gOJSxlY2bYT4CYLdCJ4ZZg0kbo7qaqp3R-yeSoJ-NgjNhav26ZL0CPb7JQrKWxhHKLYgyFLjyEHKV-ipa3YzuTJzv2VdRB9iul1_TEo_WK2IhLgorUG3er878BVk78WOWN1fFaPfA6HXTi2ap6JIFcSjbxzRi2yKbAYChmlmn5vMEOqM4nvk-IL7w71lTVGSd2Lqm9fRBFMwGdmgvqj_38xuLJug0pAOigl5LjkwB8X9MmIhO-IYZmYJsuiT1ZoWlu5yOChoC-htoRyesYz96zR2d3yiIaCVza2tEi7muPTqP53dma6oxGeUoBXxgKuweW3BmQ6CxnjCZbLVJQcWkRjvXB0J8iPXorEnMnVaLp1nJOgsBts5Ql4qA5SWsVUHAtXWGIjSvCFRHBrmjdZzmysHOnWshNzMiuN8WJXBytBzgyXRBcc_qSuUvNaN_3BglB5Mh5mPjNEWj-XXtMnMtOoWzFHVaks-TmpYaeLb6dCobaAoGUNhXH9ABTS79osdXHHbA5b_On10dvS77LvMTwNEl9sC-wekZvE5VJRwjAPfAz78UIaw8F38AFvRC8NqwDYUMOBnIxGnNohl7EdxS2Dt8IQ7N8Tw5jO-mFEtTkZK_xDSAKYuZ_bvv43K5swc0QxYypW0T7VgPSGr86liAirpSar3mJBw0bYU1f-0numwYfSTCJENwJfhhjINIbyJjqHT1dUal2MtJjknm82dgjiYxZoxlewAG8p_dHjl6jLvKDa2CMv84AEptXSglusVzLlvHRN53jMuMLHOae7ocbtJ0H0aJu3QbQVthgLUyz0AgWmxfy_FuQp8RaGX2-jd_JnVvjYXqyQachbftZAjd6ebGIsrBtN_zMuILG5TtllVw9NfIhF5MV8HWAJZzbvi-CXf4mffmyj0iFtfs2mNcecbs714qOlRmTQ_EZOOUujofcUFrMXxBPrjZ6Rit-CZLszzcenVfWrtCPy5WwL7M9qOlA1romlGGyqsp_Ng_zQ9M9uNVY_0vaSFiDAXt5ElynYtFpVd28UPnaMpDPX9P1pxpTUNjgrC9NNNsBZzB-GssQUgKN8SbeX5zsURWFozeM-tVIdPrg4LIKqvD4tvURPeZDeTnHIS6rT6Sj7eYJRpBofQLy2Z7J5RGGuEB3h6d28NtekY=",
+      "summary": []
+    },
+    {
+      "id": "msg_03f738c84743deef006ae0db234a0087d2aedcf093ef2344c4",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P07\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"ErBioBench fictitious biological agent\",\n      \"agent_id\": null,\n      \"classification_status\": \"unclassified_not_implicitly_group1\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"ErBioBench fictitious biological agent\",\n      \"questionnaire_id\": null,\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"La información de exposición disponible no permite sustituir la clasificación reglamentaria.\"\n      },\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": null,\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Requiere valoración profesional específica antes de cerrar el cuestionario o asignar nivel de referencia.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"not_applicable_unresolved_agent\",\n    \"agent_aggregation_status\": \"unresolved\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"El agente comunicado no figura en el registro legal consultado; no puede asignarse grupo reglamentario ni cerrarse el cuestionario con la información disponible.\"\n  },\n  \"professional_review_required\": true,\n  \"sources_or_basis\": [\n    \"ERBioR reference output: unclassified_not_implicitly_group1\",\n    \"ERBioR source rule: UNLISTED-NOT-G1\",\n    \"Caso: no se aporta clasificación legal del agente y no procede cerrar el cuestionario frente a un nivel de referencia inexistente\"\n  ],\n  \"reasoning_summary\": \"El agente comunicado no está registrado en ERBioR y, conforme a la regla UNLISTED-NOT-G1, no se clasifica implícitamente en grupo 1. No se dispone de base reglamentaria para fijar grupo, nivel de referencia, exposición cuantificada, cumplimiento, probabilidad, GRB ni clase de riesgo. Se mantiene la situación como no resuelta y con revisión profesional obligatoria.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1052,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 702,
+    "output_tokens_details": {
+      "reasoning_tokens": 133
+    },
+    "total_tokens": 1754
+  },
+  "user": null,
+  "metadata": {}
+}

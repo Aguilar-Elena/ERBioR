@@ -1,0 +1,102 @@
+{
+  "id": "resp_0d5f880e420d22d3006ae0d8bd25d087d2997bc8872001cd7b",
+  "object": "response",
+  "created_at": 1793120445,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793120452,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0d5f880e420d22d3006ae0d8bdfa1087d283eb9b2c4af48769",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4NjEj7d-LOwHvfxryMbyQk1jnwnrj5vnjEyMwqPBucWSOdDMwp0NP7pmvzzsbAEo31in7-8HLm3mPK5kP4K-Xljz1CuwQipjSoDvSQc-a2JPYW3R8fVdnWk0rxUUOm_IiB-KucBFP09Eb6pdQr_LquL60zzRHJfJHJq_HLz7KRn76BDMHvYm66g32sp_fiMRrAKoHilwf27OQubKK9lLct20BnHxI4xz1GkbTU0TgitJBDvcYYEGMfxwmw4mctobIx4yJ3Oph9TDqP8RLmKdXFQwccF2lZwOzP448w2_G1HgyNct34HIElJmKm5thZKDqY1WVhJ8KHDUzpa-iYxe89ddV6N-za3aKDJYFJN9-cbGk82ZCgmdZWI6ua30ffOvAXb2h3MQ9mIOUrbs_ClCtONO5pGSfoIOwbmB73Mj-TS-hrhaMamSGuUbFfAMZXmfhwb5Pwg0tdqkb6sJN1_h2NkPTLI1jVr6VXwZ3bwxj9pn_jvaNIgrDD_htzm1ovRoW_KAsF-bnM87IZwYcA5d2lXWscrzikX0EMX1H-darYOKe0OVDnRNi_bBpjCeDhLErLCiJzUQngkCnPZkq-MOeBJLfGyO9Z8dak8X9bm-71r2j8Q0hyaZkYe_llzNMpSGTBiu8PNTgk3sUZmhorqCMnW04uZwzm_PIeO0IZw39q5vT6gW8HU-YKvWXikwvUFOO3EKPhxMCgiuNGLjC7L8dTROOQEYeDhe74-bxRVxZz6sD0dUPgxpuctfdU8ALoNpQsEsPfrnHcGAv_fi5U9qXiBsCaBD3-AWMgTcE0YKibAhqtF1tSgFTJVJw7mydwbCGn_QFkS0Qv3pb5eW5pKDEIv_WCsxxb30wGHKRLeCHMK6gZwjNpUlI0pGBFZc1PdGc_4XhbLqSl8qqG-9JBNkB4LrOFh8IXftW3y3KHvzd_gCPy6TDV-hX6jRyWMp1pP-OOsTJQvs9iYdraDEDXT0I9TRtTphGbJAYP50XrjzJ7kSNerc6JTQ5SZd4TQsZN06fcVXnLlhQf49noWvmkxic-ZwZesDh_IUB8FhaGAm1rK2G8IQfMnEdhKO8kKWvZNL5Po-q2gvxmog2i0qfFX5pnSp1d9-wNoxoEhqMNktdbAU38PTgUdjrBPzOtLscP2iC3Jshb92LEBR5F-h96ASH_EwL4T9PW033ebCVwjvHBFKPbEVeFNsTNMIYBRt5ZD14spJBqMgJV7OU_fTEhUI6J1nR_fmdQhusOnQmqxGmsCjr0ca3-dJtOxvQYiul4HXu6y6pcvQS9ZoKX_2t3rIHUkhsHxu5ODCIpv_y7qY_tSgoaUaSgkd3smMJ_rd4-OkT6bG5zLVf5c2tSjEEQ7MYuMcBelYzxstfKguYbxNr4wfFpz76O0ErjuRjmb5q-cHpb6EiMCKXoW0_AoOqUlFpHuyqsAtnYa0tuDf87NMD-dwafKKeBQlB8IXk4Uz9TLYHE7dm6lmiZzLq2O8AXAK75SeG8NrB813vZJ89rHJkxYPJyODvc39y4bIzuyeAzfExAgunrX1-3iSWO_0-ewQDanRDgvEeaTKO9sawNMPTQAzOtfnIxU_Zr1XWXhOMd2b0W8F766wkauX80uVnWOz39uZGdTKti7VMPrddAFCZdfJrDuMsKU6vHypX-mJHdfB_cBPB_c84MYZlX58mcnIOo07asrwvWGQxmZypjD5DNYbQLb6YHj45Enk0sveNBxs9cVUdIpAArsWEcluZ0IL-yP5SCx-w3cFZznSzG-O_eAYyabu8Yf4J_TL4jGlEq9cHmFdpu5HDSGfPAt3-NL7NYyObWMmd_aNege7R168BuzdU294c4EBi02W_13nZW0bhikMN5hANmHvEI-YgejhMLcBHLWemvCAVbMQ_d3UOnw-psXRq6eIo4wZYlk9ITRq5BG_rjthMBy2OcxWtpOaOGlgjRDhxjZEf_D2uvIm19m3ou-M-bhY0Lx4yEOyNlqbic2z9iMiPZB5QwJAzxNGhqBk7MyUttq9heNUKjn-gPVpgS0AKD8ejB4MrnBYR0rm8ZkQcLpWVrbCPcIIu319W1EYEOjwUfHwClMBEpqYNWoXJ9-qAf417JbDe-cI3oiosaGp8HFd90yZAa60JcedKc5PDTCmJr0JH7L-CI41cHvKn6XEWUorfp0Lmy0CaeaJTpotB4xI-nOzRJW_zKDEY8oR9Z08fhU6N8IZdRVBT7BsuyY9qNG-cCE7zlBIXf7EZzPc2vsdfjpAQdHN6J3bX3wwNBFKUqxmR5nTSCYGfIHLYVOQFy_X7mGIM6AqQxN_OauTBwRww8PuKXXyWoA_DS4-QQo4z1dUOKBZ-Rb1zFcflF-5Noe_AAqMywg1-DX_gppt9BIdaR3Xl8LBcPOXsbK7GJKXRfLfMzlNoG6IFPZeC2BKhds_KRuC9B9XBZ46K0kEf9ti5gYB89uJgqY5bIPohLonBOxj_f8acQLVDCj0C3tKK8JdE9FA1Ffr4gKmYbyEyLXFgZizkiJmqqhC5vXZQswbzLhMB7_vGOTTsN4DRyIH7sLnG2DnxB0z2qwEni4bGI50KLqgJj6QbZo2LSgYVSg1j49qhUy5aJSOO2LQ_Y6Vfz0zK0gh8GqLh8_a_0I0_SOg5aBPBYx0SvQzKjU9bDBlpIHyxZmf0XCZNcct5h5DZ79KCD299FB_VNk8_fZ3ZzX28UHWDdoLp4AXWcVLUEVErh2bMDl3GXiMkMGabSCRIdnUyWCmUdH3RGkgtwCElSqSqp5SeGe9btvroZsTOZu90d_Dzh5UVxOQBM-Jr-reSn2tBwp9taqjxoSAp20B",
+      "summary": []
+    },
+    {
+      "id": "msg_0d5f880e420d22d3006ae0d8bef2b887d2854550a999f6079b",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P04\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Actinomadura madurae\",\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": 2,\n      \"regulatory_minimum_group\": 2,\n      \"reference_level\": 2,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"agent_name\": \"Actinomadura madurae\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición declarada en el caso; el cuestionario general ERBio aplica con exclusión de los ítems 'No procede' del denominador.\"\n      },\n      \"compliance\": {\n        \"percent\": 75,\n        \"class\": \"Mejorable\",\n        \"n_applicable\": 16,\n        \"n_not_applicable\": 32\n      },\n      \"probability\": {\n        \"value\": 2,\n        \"label\": \"Media\"\n      },\n      \"grb\": 4,\n      \"risk_class\": \"Moderado\",\n      \"failed_controls\": [\n        \"GENERAL-F2015-013\",\n        \"GENERAL-F2015-014\",\n        \"GENERAL-F2015-015\",\n        \"GENERAL-F2015-016\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-013\",\n          \"action\": \"Revisar y reforzar el control preventivo asociado a este ítem, ya que figura como no cumplido.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-014\",\n          \"action\": \"Revisar y reforzar el control preventivo asociado a este ítem, ya que figura como no cumplido.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-015\",\n          \"action\": \"Revisar y reforzar el control preventivo asociado a este ítem, ya que figura como no cumplido.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-016\",\n          \"action\": \"Revisar y reforzar el control preventivo asociado a este ítem, ya que figura como no cumplido.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire_assessed\",\n    \"agent_aggregation_status\": \"single_agent_assessed\",\n    \"workplace_global_class\": \"Moderado\"\n  },\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"La clasificación del agente y la matriz de riesgo son resolubles con el output ERBioR proporcionado. Los ítems 'No procede' se excluyen del denominador según el caso, resultando 16 ítems aplicables.\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    \"Caso ERBB-P04\",\n    \"ERBioR reference output v0.9.0\",\n    \"Regla del caso: los ítems 'No procede' deben excluirse del denominador\"\n  ],\n  \"reasoning_summary\": \"Actinomadura madurae está clasificada en el anexo II con grupo reglamentario mínimo 2 y nivel de referencia 2. Con 48 ítems totales y 32 'No procede', el denominador aplicable es 16; 12 respuestas Sí y 4 No producen un 75% de cumplimiento. El output ERBioR fija probabilidad Media, GRB 4 y clase de riesgo Moderado, con 4 controles incumplidos identificados. No se requiere valoración profesional adicional.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 929,
+    "output_tokens_details": {
+      "reasoning_tokens": 108
+    },
+    "total_tokens": 2299
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,69 @@
+{
+  "case_id": "ERBB-P03",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "no_resolvable_with_provided_information",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-Cuestionario-general-48-ítems",
+      "exposure": {
+        "category": "frecuente",
+        "basis": "La información del caso indica exposición frecuente en un puesto con deficiencias preventivas relevantes."
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Dado que no se proporcionan los ítems específicos del cuestionario que resultaron en “No”, se requiere una revisión profesional itemizada para identificar y corregir las deficiencias preventivas que sustentan el 29/48 “No”."
+        },
+        {
+          "item_id": null,
+          "action": "Priorizar medidas para reducir la exposición frecuente (p. ej., controles de ingeniería/organizativos y verificación de su eficacia), ya que el caso describe “deficiencias preventivas relevantes”."
+        },
+        {
+          "item_id": null,
+          "action": "Completar/confirmar la clasificación reglamentaria o el nivel de referencia aplicable a Brucella melitensis antes de cerrar la GRB y la clase de riesgo."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "limited_due_to_missing_item_level_mapping",
+    "agent_aggregation_status": "limited_due_to_missing_reference_level_and_unmapped_compliance_class",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El caso aporta frecuencia de exposición (frecuente) y conteos globales de respuestas (19 Sí / 29 No), pero no incluye el mapeo ítem→control ni los detalles necesarios para determinar la clase de cumplimiento, la probabilidad conforme a la escala ERBio, ni el nivel de referencia/clasificación reglamentaria. Por ello, GRB y clase de riesgo no pueden cerrarse con la información disponible y se requiere valoración profesional."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P03: Exposición frecuente a Brucella melitensis en un puesto con deficiencias preventivas relevantes.",
+    "Caso ERBB-P03: Agente identificado Brucella melitensis (BIO-BACT-0028).",
+    "Caso ERBB-P03: Cuestionario general ERBio (48 ítems) con 19 respuestas Sí y 29 respuestas No."
+  ],
+  "reasoning_summary": "Se identifica Brucella melitensis (BIO-BACT-0028) y se usa la frecuencia indicada como categoría de exposición. Se calcula el % de cumplimiento global como 19/48 = 39,58% asumiendo que todos los 48 ítems aplican (no se reportan N/A). Sin embargo, el caso no aporta la clasificación/regulatory reference level ni el mapeo de ítems a clases de cumplimiento/probabilidad, por lo que no es posible determinar GRB ni clase de riesgo; se requiere revisión profesional para identificar controles incumplidos a nivel ítem y completar el nivel de referencia."
+}

@@ -1,0 +1,67 @@
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "No resoluble con la información aportada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": "Cuestionario general (48 ítems)",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La exposición está explícitamente indicada como frecuente en el caso."
+      },
+      "compliance": {
+        "percent": 83.33333333333334,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        {
+          "item_id": null,
+          "issue": "8 respuestas No en el cuestionario general; no se aportan identificadores de ítem."
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Requiere revisión profesional para interpretar la clasificación del agente, la correspondencia entre cumplimiento y probabilidad, y la traducción a GRB/clase de riesgo."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No procede agregación entre cuestionarios; solo se aporta un cuestionario general.",
+    "agent_aggregation_status": "No procede agregación entre agentes; solo se identifica un agente.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se aporta clasificación/regulación del agente ni reglas de mapeo ERBio para transformar cumplimiento y exposición en probabilidad, GRB y clase de riesgo. Tampoco se identifican los ítems específicos asociados a las 8 respuestas No."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Agente: SARS-CoV-2 (BIO-VIR-0064)",
+    "Exposición: Frecuente",
+    "Cuestionario general: 48 ítems",
+    "Respuestas: 40 Sí y 8 No"
+  ],
+  "reasoning_summary": "Se identifica un único agente (SARS-CoV-2) con clasificación no resoluble con los datos aportados. La exposición es frecuente y el cumplimiento del cuestionario es 40/48 = 83,33%. No obstante, el caso no proporciona la regla ERBio para convertir estos datos en probabilidad, GRB o clase de riesgo, ni los ítems concretos incumplidos; por ello esos campos se dejan sin resolver y se marca revisión profesional."
+}

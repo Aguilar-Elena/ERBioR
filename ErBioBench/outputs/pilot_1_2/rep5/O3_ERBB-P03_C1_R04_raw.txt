@@ -1,0 +1,70 @@
+{
+  "case_id": "ERBB-P03",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio: 48 ítems",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La exposición indicada en el caso es 'Frecuente'."
+      },
+      "compliance": {
+        "percent": 39.58333333333333,
+        "class": "unresolved",
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": "Alta (cualitativa, por exposición frecuente según el caso)"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Reforzar medidas preventivas en el puesto dado que se reportan 'deficiencias preventivas relevantes' junto con exposición frecuente."
+        },
+        {
+          "item_id": null,
+          "action": "Realizar/actualizar una revisión del sistema de control (procedimientos de trabajo, barreras de contención, higiene y formación) para reducir la exposición en tareas del puesto con mayor frecuencia."
+        },
+        {
+          "item_id": null,
+          "action": "Establecer seguimiento y verificación de la eficacia de las medidas implantadas (inspecciones/controles) dada la baja proporción de respuestas afirmativas (19 Sí de 48)."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "unresolved",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Con la información disponible solo se dispone de conteos globales de respuestas (19 Sí, 29 No) y la frecuencia de exposición. No se proporcionan los ítems concretos incumplidos ni los datos necesarios para calcular GRB/clase de riesgo ni para asignar una clasificación/regulación de referencia del agente."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P03: agente identificado Brucella melitensis (BIO-BACT-0028).",
+    "Exposición: Frecuente.",
+    "Deficiencias preventivas relevantes (descripción del escenario).",
+    "Cuestionario ERBio: 48 ítems con 19 respuestas Sí y 29 respuestas No."
+  ],
+  "reasoning_summary": "Se asigna exposición 'Frecuente' y se estima una probabilidad cualitativa alta por frecuencia, pero no es posible determinar GRB, clase de riesgo ni clasificación/regulación de referencia porque el caso no aporta la identificación de controles incumplidos por ítem ni datos suficientes para aplicar la clasificación/regla correspondiente."
+}

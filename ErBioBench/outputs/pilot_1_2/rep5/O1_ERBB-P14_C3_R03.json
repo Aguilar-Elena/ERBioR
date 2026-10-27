@@ -1,0 +1,98 @@
+{
+  "case_id": "ERBB-P14",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2) (1)",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2) (1)",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Frequent exposure stated in the case and confirmed by the ERBioR reference output."
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Review and correct the noncompliance associated with this questionnaire control."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Review and correct the noncompliance associated with this questionnaire control."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Review and correct the noncompliance associated with this questionnaire control."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Review and correct the noncompliance associated with this questionnaire control."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Review and correct the noncompliance associated with this questionnaire control."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Review and correct the noncompliance associated with this questionnaire control."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Review and correct the noncompliance associated with this questionnaire control."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Review and correct the noncompliance associated with this questionnaire control."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire_no_aggregation",
+    "agent_aggregation_status": "single_agent_no_aggregation",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": false,
+    "description": "The ERBioR classification and matrix assessment are resolved. The supplied information identifies failed controls by item ID but does not provide their control text."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Case ERBB-P14",
+    "ERBioR reference output version 0.9.0",
+    "ERBio general questionnaire final_2015_annex1: 40 compliant and 8 noncompliant responses out of 48 applicable items"
+  ],
+  "reasoning_summary": "For the single SARS-CoV-2 × general-questionnaire unit, ERBioR assigns Annex II classification with regulatory minimum group 3 and reference level 3. Frequent exposure and 83.3333% acceptable compliance produce probability 1 (Baja), GRB 3, and risk class Tolerable. Eight controls failed and require corrective follow-up; ERBioR does not require professional assessment."
+}

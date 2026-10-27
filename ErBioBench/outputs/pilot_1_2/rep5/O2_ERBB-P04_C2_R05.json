@@ -1,0 +1,73 @@
+{
+  "case_id": "ERBB-P04",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La casuística indica explícitamente exposición frecuente."
+      },
+      "compliance": {
+        "percent": 75,
+        "class": "75% de cumplimiento sobre ítems aplicables",
+        "n_applicable": 16,
+        "n_not_applicable": 32
+      },
+      "probability": {
+        "value": null,
+        "label": "No determinable con la información proporcionada"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        "No identificable: el caso no aporta correspondencia entre las 4 respuestas No y los ítems del cuestionario."
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisión profesional del caso para vincular las respuestas No con los controles o ítems concretos del cuestionario."
+        },
+        {
+          "item_id": null,
+          "action": "Mantener la exclusión de los 32 ítems No procede del denominador, conforme a la instrucción del caso."
+        },
+        {
+          "item_id": null,
+          "action": "Completar la valoración del nivel de referencia/regulación del agente si existe documentación aplicable fuera de este caso."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Un solo cuestionario evaluado; no hay discordancia entre cuestionarios.",
+    "agent_aggregation_status": "Un solo agente biológico evaluado; no procede agregación entre agentes.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "La clasificación/regulación del agente no se proporciona y no debe inferirse. La probabilidad, el GRB y la clase de riesgo no son resolubles con certeza sin la regla de mapeo del marco ERBio ni una referencia de nivel del agente."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Agente identificado: Actinomadura madurae (BIO-BACT-0001).",
+    "Exposición: Frecuente.",
+    "Cuestionario general ERBio: 48 ítems.",
+    "Respuestas: 12 Sí, 4 No, 32 No procede.",
+    "Instrucción explícita: los ítems No procede deben excluirse del denominador."
+  ],
+  "reasoning_summary": "Se identificó un único agente. La compliance se calculó excluyendo los 32 No procede: 12 Sí / 16 aplicables = 75%. La clasificación/regulación del agente no está aportada, por lo que el nivel de referencia, la probabilidad, el GRB y la clase de riesgo permanecen sin resolver. Se preserva la necesidad de revisión profesional y la incertidumbre asociada a la ausencia de correspondencia de los ítems No con controles concretos."
+}

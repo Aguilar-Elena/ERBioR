@@ -1,0 +1,61 @@
+{
+  "case_id": "ERBB-P09",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "identified",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "La exposición solo se describe como 'contacto regular' con material potencialmente contaminado, sin frecuencia diaria/semanal/mensual ni porcentaje temporal; no es posible asignar una categoría de exposición más precisa."
+      },
+      "compliance": {
+        "percent": 83.33333333333334,
+        "class": null,
+        "n_applicable": 40,
+        "n_not_applicable": 8
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Se requiere valoración profesional específica para determinar el nivel de exposición, la probabilidad y la clase de riesgo con datos cuantitativos de frecuencia/duración."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolvable_partial",
+    "agent_aggregation_status": "single_agent_resolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Falta información cuantitativa sobre la exposición (frecuencia, cadencia o porcentaje de tiempo), por lo que no pueden resolverse la categoría de exposición, la probabilidad, el GRB ni la clase de riesgo. No se infiere ninguna clasificación reglamentaria no aportada en el caso."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Descripción del escenario ocupacional: 'contacto regular' sin cuantificación.",
+    "Cuestionario general: 40 Sí y 8 No.",
+    "Información del agente proporcionada en el caso: Brucella melitensis (BIO-BACT-0028)."
+  ],
+  "reasoning_summary": "Se identifica el agente Brucella melitensis, pero la información de exposición es insuficiente para determinar categoría de exposición, probabilidad, GRB o clase de riesgo. Solo es resolvible el recuento del cuestionario (40 Sí, 8 No; 83,33%), sin que ello permita por sí solo una clasificación final. Se requiere valoración profesional."
+}

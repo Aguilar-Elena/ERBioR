@@ -1,0 +1,102 @@
+{
+  "id": "resp_0df55a43f6f292eb006ae0decfa0e887d28339678fc2fb4a10",
+  "object": "response",
+  "created_at": 1793121999,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793122003,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-nano-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0df55a43f6f292eb006ae0decfeff887d2aba9117c81a35960",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4N7UNrRAW7gHyo8CWgWnNWD9vCd9l9WHGlI4CiUYVmqEuGxhZrfXKyFx0cTozp0aQdutuDGehhmDVHbCvJZgoy8G-oCdgnlGGW2U21jVUOiKcNh4elnGXKmNRNohyo5UxdCWPAKWZDrHYQ6fbbatki7nbO5Mbbum9-KGDkre7fa18RYAGYaDhLkHEg4yc56mL4snN18pphL3UXybghcHl8SbP46hg2IwYUWBQ2pvGrlLqyPMR2BW6oVDekvKhwMlXYJAsxS-Lb8-9SAzK-m6oPY1jn-EZ-_eCaJmfLzt3qaLq169xpGoF8mRSGW-f2oRn2I4i2It88R_JFhSmIF7FbIXIcSnjW4Z_zgtGv-KPUyi7m8PrKGa379iLok2teEjMdTU_qoWue7Rgo8oGLEeNSv5iN0WBhhR-SMvFscJOROcnE_liYWdfUq6yaSxZxk4c2Lavk14t7W8VX_TS884L1uGxCZ_HvRCBe3I2RJ-30FVZVdP6HSTaxSr2lqJVJPa3xZ6r1PLnlUQMUm6l5gS6w_uEujSBcOemyRTiv15izmidMo5J5PdG-cEYfAOflBVyhjfDtqrzHpNaRE_OWEoHoVyygJvJ1oGBRGKgUQ0NISB_L3YTIjqnsdTekRDtZf41y54t8kKp5iobpj5_wDlL1sIkMVS8GNqir104SqLOiVx5A2gSzU2vbzG7TeyaxI-21hL6nK3kc1oDLISUfSGErIPS9BnWtwt8JRXgel0tVFMbT87Bi-rR6tZD5bSONxdN2I4wI_qMMpWZj8s7tJMBpLE5JEpdjPCT49N0QCjsKQzypaLoeQ5cWD40JnFzSLW8VqJGQ7TZYBm-aWbJkmjMFp08Zf8L5iDUFFXDRgmnDdnRAy9Iqd2jZ2oYITNWyI0ALG6P9UERHnmDdo9hbMgUox24GQZBM7ijac_E5iKySF_UpooXRT9xTUTG5RovqzPNkifwzy3BnmW_RfAX7ME-xumSzajvvaMod6ejYel3U8UJz31q00r99ProW0sTvx1nuKH6gIpJa5ULiJ2_MlsrCCWKTRw5kNNuG9gFCgvxLXYTeTasm2G6RwE26Gt4E09DG9HJy4FOrpJoIMkaMrArBvbU53S2uIpnNXSK--MxmppR8Yo5bj2W9X0RB0HTyVxTjRkJ5Ia5-70TpuvGlFn_FMHhWzQTxO2rbaEmHLORPQ78qTV9rA2iL-BLGJX5rFqNia_M69z1PEIMBbjww7xFbMEUXax7zg3UUtAqMQs1VFknYp_WHSM-Mhc59-O8WzGDVlujTGo1gVzI-dRbk_fHb704COxBVE0PVF3qzvv1MtUEyjjrrnZkYp1WDnjl8U3tpigvq964rWvvgn68O83CDKcNx3zglKYs98NH4qY49akIXA9bZMFvD_C9GPrxXG-xLo6ngY-OlkTrtljiZGepBiAmvQjoyfPsR2FNBWBhvGpsEdgv9voRNptNYWPJ81q9K_1THFyDSl8m1Bh__w4ZTsgMBcTsFWXPv6Ddewl4ny2vPqzKhWxGEgkOQHG0jUp0Z_zZnnZLG8uUBgop3tMTMjKAW3M07dWdwoqrrLiaJJrSPIWcaVKJwGLClE1xjPwc6bVSI_lnJ7qYLRkHg3p_nB0rwOSCxY_kaodrsIg12Nbm1rIcRvF8r0QeGvqT-vVSR-1HgpB81_ETBVZzXDlSPPNhbwtAkVKTXqLAf9YyO9E8rZoxCmk5CqVtunJ6qtxNJnEkhj_80ImPOQvUAv6wYzOev0043wbHe04gNa09InubYCkBvkfMK3M8oYegXkpdI6g-NUiau0Xy9NbiEFWobmg-R4DQiR27LKWKZ6Lb43X6RzOUfB_yOOVGJ69U5Y6dzkYpL4_ssUKmGChs0tvuSKKecvPKEjMXcnU1c8ntLBOjITbbaX_oi85HDoTpjTBFm-DuNUrUNqPuh-ehTzt3lolCV87taT_nUJPO8VuVqTdQ9rVr2DNNMMUM_5FhZvlNxM5OWsrf6Qi-p8i1o65qxDXX-fpBqjKIeCd73hYt2MPjsO8gtsZ8sLE-SP1xmy1M7gpoXpZHPGhTOApFuWLRRekM9WHZHzNizH48FrqTVNqIH7F_sTudGQyzKs4jFq1n_ZN0FmjnNMXQYEKxI7NkHPrzHsp4s83hAaf2btjQQGlvSX7k9FeLal5QpXU6C3_CMkMCbbg8eNRMcxQlRJTXvCGz9rO1Khz3n7N18ZDJw8o63jxzRPez6vn5IuROEWG-Vb7vMloivrudzPIP6rwy82AWg==",
+      "summary": []
+    },
+    {
+      "id": "msg_0df55a43f6f292eb006ae0ded03f7087d2b03551865efa71d9",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P08\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"ErBioBench hypothetical human virus\",\n      \"agent_id\": null,\n      \"classification_status\": \"no_clasificado_en_el_registro_utilizado\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"ErBioBench hypothetical human virus\",\n      \"questionnaire_id\": null,\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"El caso indica que no se aporta una clasificación final y no proporciona información de exposición (p. ej., tipo de actividad, vías, dosis, frecuencia, duración o controles existentes).\"\n      },\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": null,\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"No es posible establecer cumplimiento, probabilidad, GRB o clase de riesgo con la información disponible. Se requiere evaluación profesional con datos adicionales: tareas, actividades, naturaleza del material/fluido, probables vías de exposición, frecuencia/duración, resultados de monitoreo y controles implementados.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"unresolved_due_to_missing_exposure_and_classification_data\",\n    \"agent_aggregation_status\": \"unresolved_due_to_missing_agent_reference_level\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"La información del caso no incluye (i) clasificación/regla regulatoria resoluble para el virus humano no clasificado dentro del registro utilizado ni (ii) datos de exposición laboral. Por tanto, no se puede determinar el nivel de referencia ni cuantificar probabilidad, GRB ni clase de riesgo.\"\n  },\n  \"professional_review_required\": true,\n  \"sources_or_basis\": [\n    \"Caso ERBB-P08: virus hipotético aislado en humanos no evaluado/clasificado; se indica que debe aplicarse la regla regulatoria específica para virus humanos no clasificados; no se aporta clasificación final; no se aporta información de exposición.\"\n  ],\n  \"reasoning_summary\": \"No se puede resolver la clasificación/nivel de referencia del agente ni la evaluación de riesgo laboral porque el caso no proporciona una clasificación final ni datos suficientes de exposición (categoría y base). Se mantiene el resultado como no resuelto y se requiere valoración profesional para aplicar la regla regulatoria y completar la caracterización de exposición.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 777,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 696,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 1473
+  },
+  "user": null,
+  "metadata": {}
+}

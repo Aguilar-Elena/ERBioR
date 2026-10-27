@@ -1,0 +1,101 @@
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente para ambos agentes."
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y corregir los 29 controles respondidos negativamente; sus identificadores no fueron proporcionados."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente para ambos agentes."
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y corregir los 29 controles respondidos negativamente; sus identificadores no fueron proporcionados."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Un único cuestionario general con resultados comunes, conservado en evaluaciones separadas por agente.",
+    "agent_aggregation_status": "No agregados ni promediados; los dos agentes permanecen como unidades independientes.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporcionan los grupos reglamentarios ni los niveles de referencia de los agentes, los umbrales ERBio para asignar la clase de cumplimiento, ni los identificadores de los 29 controles incumplidos. Por ello no pueden determinarse la probabilidad, el GRB o la clase de riesgo sin información adicional y valoración profesional."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P06.",
+    "Dos agentes identificados: Actinomadura madurae (BIO-BACT-0001) y Brucella melitensis (BIO-BACT-0028).",
+    "Exposición indicada: Frecuente para ambos agentes.",
+    "Cuestionario general ERBio de 48 ítems: 19 respuestas Sí y 29 respuestas No.",
+    "Cumplimiento calculado: 19/48 × 100 = 39.58 %.",
+    "No se autoriza promediar ni colapsar los resultados de ambos agentes."
+  ],
+  "reasoning_summary": "Se realizaron dos evaluaciones separadas. Las 48 respuestas son aplicables y producen un cumplimiento del 39.58 %, con 29 controles negativos no identificables individualmente. La exposición es Frecuente. Al no aportarse clasificación reglamentaria, nivel de referencia ni reglas de conversión ERBio, quedan sin resolver la clase de cumplimiento, la probabilidad, el GRB y la clase de riesgo; se requiere revisión profesional."
+}

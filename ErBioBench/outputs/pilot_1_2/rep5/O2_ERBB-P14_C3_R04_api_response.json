@@ -1,0 +1,102 @@
+{
+  "id": "resp_0bfbdbd5d4302086006ae0da1851f887d2afe50c084ee273a9",
+  "object": "response",
+  "created_at": 1793120792,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793120797,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0bfbdbd5d4302086006ae0da18b73c87d2b766f97b7a6fa3a7",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4NodmWm8g4c0y0Goy6aqXHPOqaeWPvv-f9NGl6onCaVvR9oNbiwz_rcGSkKymuAsh2nqNSxdcex7nUt8cYraqtKVSiHpCHUQwuIYkph5KMQIGYBJppejGZIk0Vi11p02_M7Wq45fC_kmjOtq8fs_H3PtPOEiMRmaJiAVrOEueLTWhMMTatBaAMcgOPC2CBB45nb2z8oMW_hwTs64iTGkGQcM4D6ByMQXvVWEuEweyL2pu4hWhy9nRfuIIHjy4JQAfKtcmOcPZLAo8rp7UOa0Zbauslr6yNGPLb3-a1pycTIXwWzLJ1PDsujmxR6wPtJ9IQ93tR3F8NqNS2uka5AmYX1A_iroNiclWH65eKB9HlYpyut9hMuteV48h6gKFnjS1g4u3_-lAAF4uLHVxArbN91D3clgk8mrdnHFjUcE-BSFftpectsQyqPU6vvf7eFPTdkuwfnI1GrgE4x7g0D6CJr_fC6O9ex2HNJ64uKty9Yi4gJssjwnKDstiiOPHIe3Yu_TWG9LGQVAxtS4GRxdsHN31qa53Gv-mB0hxsajsW4WH7Jv3z-Sr7f0g4HbfP9OaiChutcAxMM3n2TOqYctOKa6f0E4FM92tqD0ddk8MmEIAtrK5ahMA7B3I0A90DbYiopTtd5JOk61lgod13IgJ3FzngDR2WZjU4LvjuUW3rz27NwF7A2sL6kY351lIMpPaSiY4v9IigJNIY6MZzVxd_y2ofCf6dsGcE-UIRExj1wqXJ2EIevMR-yt3hOTD8w_3emGWRPbckVpO7T22mZ7_z5xrpo8E4K6U9xfFKDysd55OAT1de5qxGoA8KkRPqzIpIFd1UPhCwv9wT5kXzxqoHZxYqUMZkGMU3NBC-6jsbXHvz75k0eVacDgm-bVo6AFfANtLYI_Nzs1DVw0elhVsX_cCBIuqyzxD5kyrcIV4E6xOXvumIR8b78DWScopQTGPBOb1mNslhxm15Q0hIhkwAQ6asZgxD6cm3LfIQT1cW64UI6IhSJakGP3wFLxvVeqgQVVHYzDdAy4Rmh6P0TxcoHz1UTU0g1CC2l_vB1JqT_YwUhODT8taDXVSEMn2dFpgyC3Sg6wVxC1mlpzN7kDXXFrKy3IHk199Vkpw9c65At0tyUsBLh46q27YmZy7n9FiXXEdP1d8baiQXZDQZV2ccYGWy38V6gNIIT4wAD_FcpHI_agzLNoz5RxZnCcp4Aa9vx8kKpgkt4aLa2W-nqoSGtCXjCtpkRdmVHuV5y009bZS8OFna8cIW_RpEkmXfPPrNb9R4Nvh4Ex--KUqJMkO5Wn0YckLRcCDsDI5bbVvUFgCey8AQknxiAI3T8YHbFDz6W7xgFctJps1oCal3UoL--8m0InppvWdrBAC4BC1o0Z62nSSUO9f70n75LTX_-k9zvcQc6A05sX9hL_pfsbV0uwWORu-zXDWBOPqPH_lXylEHvBJKHkUUXr7T4mc5nPUhWEUCwAEg9WvMs_w2OBv6q8doiA-t-vBA8zAI8ZMxH9O_Zl9xgm7__MsmpyD-PFrHGep_mZodJOj-OHtttAOnDBlEsZRLH0NWVw_QQKeJZKmHySXaOz-T2yjnaXMlw6fJgH36U3T0VtKgrJPnbuVrk8ytD7pQdocui9crwyQpGZcRw=",
+      "summary": []
+    },
+    {
+      "id": "msg_0bfbdbd5d4302086006ae0da18dbc887d2b579af754681357c",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P14\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2) (1)\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2) (1)\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposure stated in the case and matched by the ERBioR reference output.\"\n      },\n      \"compliance\": {\n        \"percent\": 83.3333,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n      \"failed_controls\": [\n        \"GENERAL-F2015-041\",\n        \"GENERAL-F2015-042\",\n        \"GENERAL-F2015-043\",\n        \"GENERAL-F2015-044\",\n        \"GENERAL-F2015-045\",\n        \"GENERAL-F2015-046\",\n        \"GENERAL-F2015-047\",\n        \"GENERAL-F2015-048\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Address the unmet control represented by this questionnaire item.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Address the unmet control represented by this questionnaire item.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Address the unmet control represented by this questionnaire item.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Address the unmet control represented by this questionnaire item.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Address the unmet control represented by this questionnaire item.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Address the unmet control represented by this questionnaire item.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Address the unmet control represented by this questionnaire item.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Address the unmet control represented by this questionnaire item.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"not_aggregated_single_questionnaire\",\n    \"agent_aggregation_status\": \"not_aggregated_single_agent\",\n    \"workplace_global_class\": 3\n  },\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    \"Case information: frequent exposure; 40 Yes and 8 No responses in the 48-item general questionnaire.\",\n    \"ERBioR reference output: classified_annex_ii, regulatory_minimum_group 3, reference_level 3, compliance 83.3333%, probability Baja, risk class Tolerable, GRB 3, professional review not required.\"\n  ],\n  \"reasoning_summary\": \"Single assessment unit was used for SARS-CoV-2 with the general questionnaire. The ERBioR reference output provides the resolved classification (Annex II, minimum group 3), exposure category (Frecuente), compliance (83.3333%, Aceptable), probability (1/Baja), GRB 3, and risk class Tolerable. Eight control items failed and are listed individually. No professional review is required per the reference output.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1348,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 936,
+    "output_tokens_details": {
+      "reasoning_tokens": 15
+    },
+    "total_tokens": 2284
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,102 @@
+{
+  "id": "resp_002d577e9ee607df006ae0e3b3493087d29232e4940b1f21b0",
+  "object": "response",
+  "created_at": 1793123251,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793123266,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_002d577e9ee607df006ae0e3b4059087d29fc161c54b1aa614",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4OPDKg1hPeOcGuw_QDQs05enn034-zQyLfVq6Rbjcz7jO315Q9vnzh8CbIL0ZrGDafvoA4OgppS3gxM6HuKajB_xuZvzVh8QVi0sTc7-0ASyJpP8IO5Aj9WsxHFTc1XxwdEimoCvFfecqA71kqUHIJgp45b2XIgZ6nrChDzgDwJpfix6fAUXEQgJjzNc5Ck-ltA9-HIFWEj4K2SPDCiEdFKouzMK1Qg5XDBMVETHy3KtY3kxwKEb_mtFAoZUUSFB2FBMxedqIpQ3ANZ-yu_-Vbljou5oSEm0kw33F92JYOI3e8WiPTB83EPEIEOMz6Osws4UNDA81Vz_AQjCEKthMz-Y9awP49HQhmo3gOlLovgFRirFtN1SUyVYwKogSWaNxLF--_rbOGu_tlRnPtojND-qyYWcsyfibxbkzFY94DNA9JWcGuJ5RIKLCRBQFZpTCvUwBC2xVCe1VsfSIa9q2cc2HFggrfsPCenR4RKOWkXwZG_jZKe-0xxgFcVlV4MJRerwGOP1rcWJeO-TxnN-O7O4ir5PnEfr-31CzCrKI6AK-GWP2yB8sE2m0wNpa8xrilckrVpMcEs6JZOarKBBX7Q6iF5zlGgGBkdwW3jCqDD5c-NkpNqSsAFgJEKjidxLCXGRvHcCXsc1t8aTD-kiBbswzq_JDS62fuqT_LgYWiLC2fq7lMwhHMMAbd1bf7x-2gzfUKCcGJWq5IdpTLCn2D50wi8DJIzgvYffvftWQ-cZJX4YcUjrmfe8UUJzPFGdynkadzSXf5adiZ8aYsHl53fy2TJMi4SUPe_X7sH_SnvJb2aNAzz-1Bfqj3ZbIFDyrGn-SAJGjnDHZ_olUEmQUN_atw_7ev7yXl-lzlFZKQUryYTDNvl0du6ybzIBa-8aP7cTnfm-q875mOHBBrzMf421urX9O_Wpmm6FObgfYlpLmkuGbSgZXWTONnWhQFT1c_37mglvtuEcRC-3Ydt1-0hV8mikxuj75NvwEaAU73eTPiRGbT3msOUPFXB4ntpu6HGSPXN74_K-vzVgKOPjGjDkFDCNdPpu9GZxgsAZcbYE45OpcWLx9KAOfOT49DdGWpAL818QWr0lB289op5mv1Fl_IfYGpvOHrvLG4YAPflOnYoRWQCdAckb53qpCbe25RvDrCIa5sxSBzLhqAQM0YHe7CxDZ9NDXfv6qEdjdAakFng2ujQvs9-iLn3_bxCns4GUxdgIWE_UappOCVxT_-K7_LlCETuBN1h5g0kB6xNM22CfjWxyPN5jU4vVRUaUDKzGMeaqWAOyLML-5FLY9xhwVFzNwe-nC_ROQYt2UNm8pjCZk_h_oRX04telZiLk9a1ofDr-6s3YmFrjuc8MvkbhmdFZgynxrtpPr6a2XgtCtYEQMnafvxZtc2656CeIXBpYez6WsHaYWh0e0s_o13OKSpOCheD7vc0cH4sv323CK3b1l1Ksg8cqpB5v8Jn1PskLqzOyHloMGpQKZd73uzZrZyh9R10Ra_Ova8iSXpuKCbnM7AbIUASmijckP99o2u_OdBATNikKBAlur6rPd1WuW0_fyipvIvvGF-M-yAAhM7tybYfmR2A5HDvEMgegHYXaWw2O3LzjBo_l3c8qPOs2x_YiZFCdehmAHVbE0cOlgIcC8uXV4wGObIR492LdwJjL5VlyCVDoW7PRN-fSX-A4rKuX34EP-BshD9GvS1yu1QyTUjREn7sU-1qElshe-ecZC3ulrUW2oskAoSFM5w1TTL9Tud6Xg-m2mY8VxdlmqyPn5HGipofhNEtZfdnjfAfdY2WBgv7EHtlEV0B9BRKX_RbZWpoKJ9URdZEhphl9HIkBhJhZL0if_igw4qEFzOjoJ5LNug-XD1R7ctH37Ca-S0EllA21bD74BrxV4OU57xCT6lgoex1CR3Bi1t7hJpQzroX0pJXWwejG9TOC-bCeiUPlquHOQ_TCIkgbR5Ifml9UdnmMB66IcoA0ZmY_-oY0V2ctZEcOQ0yJL7hni7RvTk3uq-OzEQYViOrQccL-6OOh96P2vQJi99yjhIVgz6wgaodH5y5h4saAgjEevUAgEI1_jDuegUi35Ka_1jzG-44Jq-n7TTuc7D6RKmuMYPpmPHmcFfCjkY-rgXhlxqkX4ctCBxU28AFrJyiPi6Z7FkNWbtjA6mlkndAUHc21Fyut8RsVu_nanY95tvDm63yLwyln0pUS70OUayEI8doGDukJuJDAwqdpvjucTw26tkJUHWzyGyjpuimuACYUkHAx-m3H1Q25fYN5rbl29af3nRA2X9LP7WLa8g-pNK-2z4CxCSXzKSRa1HWr0ykPUf0SUN9Rr0NCEQ3lvcXqZPQgYRgJwq03O_tmTCgZScnvi7WlG34TnOaqmmsB9MYHdMqV71BppF0l7oTiigeoMhbBImHqrxiinE0Ch9yrjc2I_Md3jadUBIn-70kRVUUZoARcKsiPGybHu7OlUPIzahO_JjdyoslUW8iGZwQWVBXIFwI2OQAJN3opCVQJsb-kWJdQ4zv0IJd4PsYIcgqb-Q9FROs8my7MnsOa4tQoF5gwDF19GdU-sihKHIHIeJBl6-8X0Od9IEIsx1o2bhYA6VWOttQHE9iVgWFbTF7ti7s4T-nhO4IhiwFblmsBA0yWZ80qeBdODch_ckXrL8SoUH4FzF2R_djc5rdmXJpCvDgv47IOR6O95RCO-zIO5M4klpIs6bcyUio3AMLoPof0OI7hN6rm7kGa6aXULEzl8Nb5s8dzOE0q3qxcw8mdFC8sTQtvJ2ha28xiYRJplCgd4LYn4AElnUVPVYEoyX-zhUiZva1lfv8yqUcSgRTeNua0vzQIs97ArVyB-00yIEcdJIJhKnbew2zvkx_k2W-OZPPxFmQQ7d0379XvWoJwZBaqbxjMNcg95r2VzFSeW68TCp2hxi901X-pzO7HXOR1U70bpaQslahcTMEFiGUymmjpNlcBXaZG5n0atewYNBKp3BOqOKO933S7W0MKv34dwBZ2MoC-jYRVjyw4xzOl0NRIGkFrP9-HczgB4jHKag5LHGU2KfffGcArTmZ3GaKHQO6LUFbIUliuH4VRzE5lseeHWLVFIPAycrJV4HqteNJijL2UvSpSBseFRdxMX8QbGLY5sHhek6J0t38xjzPLJCLym4ARdRWJkdm4Z4RuvWdyDWMjNIDq-PbduQBLVEKPiOHKAaMhu_RvaQpNy9yNCvE8anxKqpcuL-2-g-yLfROR4oIQYlICjJBF_Fwj2zftmS8eM-SfIF5Py4K7P3Gs8gVwHz5lOxcgv7R0U56Tn_8gcVJAK5J50MxKowp2m5mYyso8529cJHNYpbM_zyFxSUkHCi597kF1zkwR336dBYM3OQJtAXOWdVrtX1cD201LQS-ilqWuPfS4w8OV2x65ko2_0-bDsJwJKu1Ktl0P7ss6SsffKEAHeA5qkzAIxbvPKV2VukgvfUBIzLXoQ7XjM101-hob1sVo1tn0F5LY0q2BsXkfU3lSpD8yMC9mL2aX9Af-SdW-aKUXFGS5560wa5B0rxw8XQAr-UsxbpZ6KTEulvfkI_GMPiZ9qyjWjntOIlZ2IQj8iQ3H1vpwFz1eE3gPA1TR9VsXCwE4EYzuz-qZTSrOHu2gONHnRqn8kVURgvmlb_Ak1JPFcFxybs3IcH2IcuV7n5mTFt_iI6KKLg1v5qRurqhL0LvnHC3bz0YJ9k7G3l9dPSMX-JWrmBuBrf5tJ3izX9sx1Qp67ztPjn5NTUvSAJnxG_a_-Xxw2aSzN2Cu8H-6Vz0XFI5TcCIWahycE7DahRE-F1PhAHC6c_J5A8gWe9Y8--NRgKoXNrvkRML9-tR1wXXWt1s5qWzrd_77WyIhfBrVOdBq76s9gpBn-AWmAFBOcZ8aICgh0gbBeiR_VWjv1c9rfSkLK8e0YV0-hyrMX5uOanSu2cQlXD31PDeSLn0tNVlVu-Dc4RBqQyhtBqC1Dd2mLwzVhx0EBChZ8jW3IBjNbdryvYj0KTeJK7PFwUkZZEAHV14_JhP1sUfDpC-30ZzjTu5mMbDrpcewvNlgOEzw3uuaz8zsHf38zmottzo58zwG4HzfYcsd__rfOV0RSuHQkYQADLE0E7-vOLCo0xRWCMWPOh7dIQ7Cxjo0nKW7p0TA2EJaA2Q_npGzK_L3ikP_7ZWwN-flXzD8utlMyCJQ7chtDFUqwCw_XcB4EWzHmsrdPeVkQd9KrthWuIhIHDvwq56XOuvChLU56WTalQjoq7-8FV5K6NA_qd_QQDn9UaME0qpNzx5s5mVLuCI8kMEI4tdqObSVOnrw9NbM7nqCcZSxokDt4kdAHo0onm2syi8XmayTxQtFStdZiqO3s0G1RS5z3c6Oeior5PmVAnIyTXxl8TG4n0QFlgsNxNYh7dRzTdRvsQPSr0-6v16VuEJP8cMGuOv0DTTiG7ft7kpTzVRpriFn17x4qIkcppVjMWyGhbja7JCly-WZ6sM2cUJ19upsZlG7hu0ETtU2vsbFAgIQjaH_oRVavxlhNuF1aBnagFpPbXzifNNNarEP93SE2Rs-q5sSl5IANW9IzRBkvYcTdY6NPsjiLW9IJK0KP_KiHEBZFikMOFiZ0uMBEnsfOdMPKIZtVcSNgnqAR2fbE63Bi_ZwvU2hsbo-p2mmG5kKxGjLgU3I5PznTTpXyScCA_b4gKMWjf_Yl0w7Y7dInUp7NdM3BHA8G3Nb1Q9eS2mt7q5pK9s1gOybh5v7Kfo4M5kFvopzdQAEnTLeDGbiT5O2PBJa5OfwNgaCcMisKVgTkJhRTTWKa54HZtt0ylNshWDHn80e64qIpPB2Mt48Lu2FooWN3f6anWP9tkcNm4uwriGDXnSWrqv-jI0UU6WaBO8DS5qGGPzzCut5dIa1pXrtUdq6K4rzKulLXNqyEBPHxMMV4rtmmbepJdKVSZgydvmJfPZjAxAak0deAHDCR4WXLRxxoH7-8q1NIgDHsa28oWbdIwYp2uXm5O1wmWn1qOyIM0k7p7Kw2knlxWS2kJEwj2f2kYZQy2FRqwrYcLzuqrVf4z6H0aebCXh1II6PvlcF0nuPkEh0KhSIhxpBLu3U3hzxxya6BZu4uZr74VbBPmGPJ4Mpi31-F_40IZNssTPy8qhHuYzoJ_wjqXBIfZMHLkJ7asfcymragllHsi7dcQZs-Dl_Y8NH36onLWh3qSLLaArq323Ul9AWQnNu-ErtAzLnrswLVepSGvuAPpQ415h9Z6ixTRxMYoXgp3SGKN321H-f50akPzrJg8gTUpwMDJy8MNJvgk5jiUOS43HLMUroBNQIfmNbyiof_oPxgCavgnzOW_dLhfsRCA==",
+      "summary": []
+    },
+    {
+      "id": "msg_002d577e9ee607df006ae0e3b8bf1087d289ecbc7bef659f15",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P14\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"SARS-CoV-2\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"Unresolved: no regulatory classification or reference level is provided in the case.\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"SARS-CoV-2\",\n      \"questionnaire_id\": \"ERBio general questionnaire\",\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"The case explicitly states that occupational exposure is frequent.\"\n      },\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": null,\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Review and correct the eight questionnaire controls answered No. Their item identifiers and specific corrective measures are not provided.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"One questionnaire was assessed; no cross-questionnaire aggregation was required.\",\n    \"agent_aggregation_status\": \"One biological agent was identified; no cross-agent aggregation was required.\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"The regulatory classification/reference level, ERBio compliance-class thresholds, and identifiers of the eight failed controls are not supplied. Consequently, probability, GRB, risk class, and workplace global class cannot be resolved without unsupported inference.\"\n  },\n  \"professional_review_required\": true,\n  \"sources_or_basis\": [\n    \"Case ERBB-P14\",\n    \"Agent identified as SARS-CoV-2 (BIO-VIR-0064)\",\n    \"Exposure explicitly reported as Frequent\",\n    \"ERBio general questionnaire with 48 items\",\n    \"40 Yes and 8 No responses; no Not applicable responses reported\",\n    \"Compliance calculated as 40/48 × 100 = 83.33%\"\n  ],\n  \"reasoning_summary\": \"One agent and one questionnaire were identified. All 48 items are applicable based on the supplied response totals, giving 83.33% compliance. Exposure is Frequent. Because no supported regulatory reference level or ERBio threshold tables are provided, compliance class, probability, GRB, and risk class remain unresolved. The eight failed controls cannot be individually identified.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 934,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 907,
+    "output_tokens_details": {
+      "reasoning_tokens": 278
+    },
+    "total_tokens": 1841
+  },
+  "user": null,
+  "metadata": {}
+}

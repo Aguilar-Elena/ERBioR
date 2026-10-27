@@ -1,0 +1,64 @@
+```json
+{
+  "case_id": "ERBB-P03",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "no_resolvable_from_case",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "El caso indica exposición frecuente en un puesto con deficiencias preventivas relevantes."
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "El caso indica deficiencias preventivas relevantes, pero no proporciona qué ítems/controles del cuestionario fallaron ni el detalle para listar acciones correctoras específicas."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "insufficient_information_for_classification",
+    "agent_aggregation_status": "insufficient_information_for_classification",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se aporta clasificación/nivel de referencia reglamentario del agente en el caso, ni el mapeo ERBio para convertir la combinación (exposición frecuente + cumplimiento 19/48) en probabilidad/GRB/clase. Tampoco se identifican ítems de cuestionario concretos aplicables/no aplicables ni cuáles controles específicos fueron incumplidos."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso: ERBB-P03",
+    "Agente: Brucella melitensis (BIO-BACT-0028)",
+    "Exposición: Frecuente",
+    "Respuestas cuestionario ERBio general (48 ítems): 19 Sí, 29 No"
+  ],
+  "reasoning_summary": "Se calcula el cumplimiento global como 19/48 = 39.58% asumiendo que los 48 ítems son aplicables (no se informan No aplicable). No es posible derivar con la información dada la clase de cumplimiento, la probabilidad, GRB ni la clase de riesgo porque falta el nivel de referencia/regulación del agente y el detalle de controles incumplidos/ítems del cuestionario."
+}
+```

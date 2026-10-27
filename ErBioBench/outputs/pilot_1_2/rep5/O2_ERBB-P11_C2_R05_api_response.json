@@ -1,0 +1,102 @@
+{
+  "id": "resp_0698cf7ac8c1cb87006ae0db5fa65087d2a7cf5a51b9829101",
+  "object": "response",
+  "created_at": 1793121119,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793121123,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0698cf7ac8c1cb87006ae0db5feed887d2a5ce9a2e14b63d56",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4Ntkl54itZc5OgnIoBRSmmDdb9yVLPdJy48O7-XXLY7SudGr1Bwd_nTKBJJUKrMK5fq2vVpHSBjAj5WKWyUHmTW-5f6IJMMSJt0tVmBdgNODNGfHv8GlKnmCb-PDN5Zf_TndM-mLqEKKSAkr6RC-EGZGc7hWVECUab4XqeGCWsQNfhZepl_mbX3-x5VFzduM4uLgaeX8gdx3gFLEujypa-ZHBQ9TR_T2NCXidW83ewjiGg-tS1_szvB7bFayiWbroX-Xw7NxIyS17MR8bS0x2VZVpedIXMB1jq5QTXP8JDTKHiFqYOCpSgx8xUujSAAHkk5Fd7FMhmNdKirYyPPmGwxWMeOjyj9kSkWwGW8NTjxs45fwGwP_pC85GBkhcL6pTQKHGaWlJG7Ulk1yxFbmE4PzXzIUA67VfZDy709i-fAaGicMBje02xn6aX68GoR7mBR7_zxPB96Erakdh6FMSSCLS7Q7iPf-IG0LP7s-iaRfMDIcdmbRp3fqHcCQuCp-99t8Vxo4b4IaM681tc_zaBKjOWV0t98f2WrZwTm8m_VhnO0PWBHj755Vx3QePSpB0lZpGYDAhcHsCVNxZVfFd6lJHpsmoc3Iesuv5__6-sqM_86FvbSFT16RJQ5au7Pyo-Hx0ekcYqWmVcu8VrGqnSFPpmO2lKP2N0tQrVDnRQ5McNgU21Omojcb5RAdZ8ncdPPcUrUp20pNHsYr4X9ow3L_vY3zQaNnm6idfCSWVra4m_pCYE59bdyJByTCPCE04ePHSu5ajzl8NN6KPT9BIYKsYUWBR2DSWCnvFzn8bQKNsFLdFBBFP4ScU__yCpCS7gHv8Xqn2T6iEEZy6dBPIlrFtjG1oBY6hmFpihGhsHoQ8mB9wel5y5IcqYFpd5qSBDIkZQP4Yk-OpioJkZX6zaKB52Un6RpyCByyKP-PlLCVr9wAykj9_ZqK1oh2ICgDI4bHlXxzDimnw4KvYZrjDuSymgja06opj8JVK1r-5ClBJWJqAUbRiLABObycspDb2-C8d8KF_5OsifMoprrfiOLrYhQJqGV21VMyrbAPr8fUG6JB2F6KGQCiLwJqOJ8ANeRLUQRZtSSUybGgRSQBtdLa4TfDNxMNmjebn7ogGVl82PbdU9OpzCKgXluythyGVx1hIGmCnFcYYkQTEUYobTUIJaEABBwmPYE5XpWLYbFZ107CNJaMedhkLheIyNP_QgZtj3CryI_udHXJK4n44ZEWBbM1BQgi5ROrgObj12TMH5hbKOWwszqYBTCoHReL-8LpTqPv8qgerCIjFjCMmnMV_7WEMrJaeOqfBvokYEY6uXhA9BgpEpPADOPDGhN3DO1Ypz9MKvz9kjyAenthRYn2yvSu9VL8pIe5yR8ew0aI_e_E6Z4fImMPXp2qmt5WJT_SVnmpYDzY5WjEqDW08gdc_z3Zy4pUynbsrtKpVOIz4BDvOi2I-WSvDGc4pU3a_k7BtkRUuaHl9fw0KYKR7Da5_dES8lsovZl8t4bmTekb9_BmErkT5TKa1pOek5pbrD1H-QjBphhqQJE8ASLo6iJU7z4AHROKJVgvOUPrgL26wBUsqnOvMdPS1LjkdvySMLuLwcaXIaLXtRNfh4Yceq8idLFJ-pgpN8P5hdh6R5asAhFXsnDXUI99S5NlHLQV-NvGNdf0vlSFXJ0f2WLove1ksbUHugtcPL3ip2heqntFOM79YCD8WqQ8kTWRHV3exuxeC-GAwpAP8EjDc1l7XZS4WWtzsQoAf_rBfad8Snv83Gl8b6oQvUcbebw1EV7ClPFwV5XyA6BcpQy5-JW4HijGnevrFUVk3jW90FsvPYoeOQ0VD6HSSkBMJBlor4C-f6YrkvlCCt8RkcG0mr_aMp8sYHPKRH2w21iw03i6CIrxhp5Jcwwu02ObstCjJ0nIpzGwosbdBKRtDWdXphrpGBgzW9vhc63N3274cpmyIXLKyM592bxVPGG6TBH2SMUjauBte6PNlOdySVMHEfqNWthJQnSecQqIzknvYRDr8JD-f6PVzmpOo3SrPF3FSfh-ndoXMjb55bM6NJCm1DhgjqWkgmffaRziBLemYCs6WqK6GRW7HnHoJIVcpJNiSU9QmU2F0VjPOa-dtbCbJBbDdlQc2mFVZL8bJgTbTPjx02X7K1RmCrowGa7eKo8pSEGpKrBgn9KtOp9tKR1Ib-IHGTNhFgSPn2R1GEly_-3hOJRYPQyrv1fpVDuFlTHEMKT0aoulK6fJHhACKwOs49WwS2IxMQ6B0uhWkElKWQLBQJ3pHZ5Xqwvh1jsoCWDSEmep2Jo5deqftchGecg_ARrK5wPTaNRm2zt2EuHY2yMitugtLHelgu3ndAXHENbVJzrd-Nrp5jLublUSyOGupxqzYOY4k0zDDqmhJXaWaB9c8Z2vFsdqzB_2IoOLd36ZcVvqYuNRTbU1arT4l5dvWiRtQrMPasKe6nscd_t4Otz_OTROvmuBwVimeUiemTtUkTkAVbC3LeT_PDnmmXzfaLoMehAbhXg137U7bZmMCDjccYaMvSpAQ6u1GcqI0s5a_pbxh7Hvw2DKcFFlrch_lBU8nZsEzgnUdC65_-5vchxKJJVY76Me1bg2CRMYw_WWpmV-Jzf8Aoi47j_50MurwtnjOfwVxYo5ezMtIsBtfzpSt07yUFyTpXFW3IsbGpPLMhB2SEnXqjhJtARh-hRLb6kV2hM_kP6-8QPhEhSsNzO4_tesPkoenVjv9NoNEJvKvm8CHohOBx5-thFDtbGiWIgUZtgrL7e-Ji7PldtuHwP7s-bLu5tsXrFQ7p7JyeX1UBpci9KHYVPCeQb6fo6W5rYVf2_vYtxBuntm07V5D--dAk1pkIuKCVj3fxKJ2il9DbJhEEbAhXPzogkYcVIRGgtODVati_8NQaC7jGOa8NloT32z9Yf7qFMVekisCmel6UaiS_gh2BvG8c9V8aVCnE6UqmiDjEtOzfLhDmQWISIEWS08JgWlkRSUaB28B6wl2rtA8xmQqktKS6fycOF1IzQPaZmXGo52-pDgiKIGguiFmXBt1ZoeN9XbIzCom4LU8PUI9QblIy8yM6jsujcbRgsFytACAyI8GlZnEffmCO93P6D7RMEkcM6AIreTkkd8xPOUfAhqscy367XVOmuEGRurL68uFt5zjknPqINXfBkCp5APuia-EtMUdGb_6W8ZLOLlI6ueFvScmw_ak4pvlW9qnyfODhQqDXqhWRuSVUG3sZZcmOxfyu7ZRvnELLP4kygK53tcUFYnfoveS5eecSuuXCHlYMXP_5k83WP4nw3A6fIFRo_aBGMPsidoq42xX4ZB6HVNNEvJ_zfHva3MWCfFnvjYS9suxKyGNOOPOW78JzMuwu9ip7ondUwdKqul96RTvnTiiyQkFOxt2aGp1zyaRm9qkG9Z44zp_zWUvY2_JmhDXwb0vvLqsYgCGceF5EbPD44vFYyHvW2SWaiRV-bMHuw3o8li_XMxEkb115nUR1l9MpbsdCFTsVQbVPQrnyyQE-tq03bL-jMGWCofFvwd-ZgeZzDgkvFks_BJGM6OIrKAw1fk6vpuOQxD5UbPLbpHEHCvj2Q_WvibICHGY9NGGgSntMFJp7xIiazD8TUrcUHLtvtlzqk34iAydq02cf28A-7JQv4_pqczRt7P5LEcAPPkrTqFsLFAq39BQfvPi0ii-Wkk15qD-mqBKYTr5nmI3wIzHLOFJtFoZ0pQ8ZTZJrdwqXfU7A4NfMzyUrdFxxu6vs-7wRxuitmUrds1j5xivKysc11W21LuFoskDqu7Pu5dJ0Y1sa63F2vshWM8edm1Meqe0rIR3T9eYeQf5QppEtdM6Out8RezJwgzE2ZefSxeskEcaVlQZzHYLyYlE2ZaLrij3WxaawLFEfluVzVHXVpAkkKyOmX6wZUHUtcLs5_0VAWGFWGezoPfZ4k4cnbV6PF_tg5n3NYlrHHWzuQD3XOz4tXKEz7OblSloJXerAcDVimwy8g_xRpNUurlr-A-vlyEsuTP_L24hBMThNKB8BUuwXy0w2u1SEZAQVCjfutHaMID79kmkckOSiFo2JmHgsbB2cOT46W33nmKyMKK4MINLk8aGmA5c6579Jje3fg7OyeT5njQL7mzZflKR78nSnHldbTPCk0NbXBykNkyYsVkbdcuNhlyKSTm7yY4zT_-CL-QW_MaGmXLfaksx9uvB4P2DUlAf1Cgu8tN-2su3pVfviA0UfUaxvxnQ9UD9j8O05OYAIRdp0ONuF8cSzjB_kaoLA6VxD-2SAriqTItbfHiNEEY0haG7Dc63G0vEevo2QfSaJRHkn_nV9YOuwfHlVd1GKt32WXXsHgDxPRF5gEGCQV1HwI7hX393R73zPg9T8k_cuNUO2eSW2evG5P2zX5ovrWVwsYDWFUR6VypjLMAYe_xWAyrf-pnRp4lNxtVwn9BPRD_wliaV3Z3o7MTGymxvBY9RQ9wv-OiFHKaB7hwdiWQpz7uMyQNd7ZqOoAu3Qp7-aFpH3KJBi9_Pp4d9AH_I4ctI9WiiN_WrmVdQLBRA50VMKO0Q2Wi7qhdKthh1mx6Zkcb4h2AyI1hdEIwViq_KpdSxaPujKW-NNGYsYhQmtLhzxbzYWHhp3hXMQ8sIqGypFuj1g-ovxmj2b09_k6Bu6qu1GazkyI-guNn1SzjZmDqGZFfrPa-n6ICacWE0iG47VFnUQRhhwOKTfkZBsVaBJkZ7diIboxP_SFFHs2YOXp124tgqIgvvEYRIk7FHGu37Xl1pFMglTX5FuPXGkeBsk2vun-xS-9iRfcHjw9W4rkV7pgFff36y4pGgih9DCveDoyOLVF0v0irkSEkK4AmfXUOH__o2KhSJcVpAOmzCqrT_SaGeZzpLTzPPRTsrH-lVm8JnLSsiDaQU2OmdHbfa2qsWFOBvhewopbauD-Htw0ceS5ZyxD-NAgvodd7FYkv3dUEhiWdQzuQA4ubJ2DLB39pi4d4_Wr2YMhWbNYnTYjz70BGItEgiuwtgdjZ1KdNeAhT6T5CqkTyg5fq8QAOpeBuUIX15kBn1yB_OW3KoL_0BFD_MR-ukEVVNPtYwF2HGAHawJwq7RP2TczE-YOSkCos2Slg047mB62X23d7b5pG8zmYuifZs-bXDCt6pWbWLbTdrCh_vv3ucAhsAtjWVnL4M-Kb6JUGKfE1YnuNymqgg1LsFrEidpbFRbQvhqiBEGQMJkoovBONOh29ZJwofSeZHB-PhCQClnOnhn5DBiKo8QMrW5pRm3VD9TES2hHvSjj70Btu1F5ToTZEYnlSI8yw6kuI8FxR7w2-cf8G62AZl2ycJx1DZhbF1wageP1FyE-JfxtopksYBWvWBCRfOCX1qcrXeL8c0_lKvTiPXvQCqjT6Xx7bDVsgEXUti8Ecpksp-jJJbpzw-SGghlFWliLUH9yuG7JBePnnq7oR7t1V5BnOP6xm8kAKGjMGNWS23FN_2mxN4Fhpz0GfW2o6ZIepjyq9YKbPHH-vvfEWctXEWq1aKeRHQdYno37EC8oNmwcGplzu7ZJtj3On6mJ1R5go3iOjX1ZpeHc-9_qTEDBE-xIlYIaAbSc0R74FKvXhRd7mx0U1EdTGgV3nyTDXrzNMhU1QZdQaBLOKB8tnYkSgyPmN5SVslSjv201U4cmgBDnE0c8bCSkeiSF4y2Xx-8zDNlAz_5Q_hkWVaPdYWD_eSrgsspdwArrxmbxIaDSNOKBY1KMQexPtDgIBMAjdrQRmTGGI_X04S9irygeWACV32ERcor-efeDbSNouCzMaRuZGGguK0iA7PwH6hrYoyPiCtO0f7FfhCwmQ0gON4sddRqcuisU2FC8XpwWPidvaE7c4aRFCXL8oT889KPWTQeGsXZn4X3fu_G2Zzbdf4azkKkE-CR0WA2Pug_F9VoZTdcKe9yu2-_Bh7RGukaxP0sLwcHJ7ThtdE-GJa6um-V50yjWxJ69cR2gGz4e8JrHkmhM1qA1CkjYsBAEeHY2YwUYvwd5uQpvzXJ0a42UfDmZl_A0TerHjI2ynNc5jTK7u_WigpLFVC2n_o9nGMXFcL3ZP6ph1QbmWYFB-6HBp06udkcoaFkfAJcEZU2ey3lj0ogO5qrvAvMcs-Q-mthbv8xs3mk-u9LKoNRUabVIeLQio46P6LpTvUgHghDXlmNaZhLEYR6kCDSaoLNfntNo=",
+      "summary": []
+    },
+    {
+      "id": "msg_0698cf7ac8c1cb87006ae0db617e4487d2bf58c9718216e5b4",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P11\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"No resoluble con la información proporcionada; requiere verificación profesional y/o documental externa.\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"GENERAL\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición indicada explícitamente en el caso: \\\"Exposición: Frecuente\\\".\"\n      },\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": null,\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [\n        \"GENERAL-F2015-020\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\",\n          \"action\": \"Implantar o asegurar la limpieza/desinfección periódica de los equipos de trabajo, manteniendo trazabilidad del ítem incumplido.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"No agregable de forma válida con la información aportada; falta el denominador/composición completa del cuestionario para calcular cumplimiento.\",\n    \"agent_aggregation_status\": \"Un único agente identificado; no procede agregación entre agentes.\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"No es posible resolver con certeza la clasificación/nivel de referencia del agente, el porcentaje de cumplimiento, la probabilidad, el GRB ni la clase de riesgo porque la información suministrada no incluye la referencia normativa aplicable ni el total de ítems aplicables del cuestionario. Se conserva el incumplimiento explícito del ítem GENERAL-F2015-020.\"\n  },\n  \"professional_review_required\": true,\n  \"sources_or_basis\": [\n    \"Agente indicado explícitamente en el caso: Brucella melitensis (BIO-BACT-0028).\",\n    \"Exposición indicada explícitamente en el caso: Frecuente.\",\n    \"Incumplimiento indicado explícitamente en el caso: GENERAL-F2015-020 = No.\",\n    \"Resto de ítems indicados como Sí.\"\n  ],\n  \"reasoning_summary\": \"Se identificó un único agente biológico y una única unidad de evaluación. La exposición es \\\"Frecuente\\\" según el caso. No se puede calcular cumplimiento ni derivar probabilidad/GRB/clase de riesgo porque no se aporta el total de ítems aplicables ni una clasificación/referencia normativa resoluble del agente. Se preserva el control incumplido GENERAL-F2015-020 y la necesidad de valoración profesional.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 983,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1071,
+    "output_tokens_details": {
+      "reasoning_tokens": 354
+    },
+    "total_tokens": 2054
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,64 @@
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Cuestionario general ERBio",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente en el caso"
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        "GENERAL-F2015-020"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implantar y mantener la limpieza y desinfección periódica de los equipos de trabajo."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No resoluble: no se proporciona el número total de ítems ni la regla de cálculo del cumplimiento",
+    "agent_aggregation_status": "No resoluble: faltan la clasificación o nivel de referencia del agente y las reglas de cálculo aplicables",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se aportan la clasificación reglamentaria o nivel de referencia del agente, el número total de ítems aplicables ni las reglas para calcular cumplimiento, probabilidad, GRB y clase de riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P11",
+    "Agente declarado: Brucella melitensis (BIO-BACT-0028)",
+    "Exposición declarada: Frecuente",
+    "Respuesta GENERAL-F2015-020 = No; todos los demás ítems = Sí"
+  ],
+  "reasoning_summary": "Se identifica una exposición frecuente y un único control incumplido, GENERAL-F2015-020, relativo a la limpieza y desinfección periódica de equipos. La acción preventiva conserva la trazabilidad con ese item_id. La clasificación del agente, el porcentaje y clase de cumplimiento, la probabilidad, el GRB y la clase de riesgo quedan sin resolver por falta de datos y reglas de cálculo, por lo que se requiere valoración profesional."
+}

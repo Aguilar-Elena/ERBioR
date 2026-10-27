@@ -1,0 +1,102 @@
+{
+  "id": "resp_0fcdc84d9899d9d9006ae0dd40207c87d28996c4ce71fe6036",
+  "object": "response",
+  "created_at": 1793121600,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793121606,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-nano-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0fcdc84d9899d9d9006ae0dd4084c887d2a6a72d4ff12df882",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4N1GUXGDC5uccnwIypHyfTLRqdOjZ7tvdDbJy4opWkXriQexPWqG1u5Y27cVW5yzK6uCvj-XLZrtgWR8uOkTHV9oddGQHAv_yUFKYgptDmdkFqwS5xuFOtlajvYFAUCczARadx91P5GJrxyo6bDYyrqMyXzvmjthM8hnlk00keq4vBr5a16w9rI6QXID2oyxbwATJZRh16eRfevq5zRDKYRL_WXRhRyJs1YhIzqqqoq19BBE9pDWLKbagSQO3T-jikVQrty-xFNCkuF0aaGDzl_zAeesTga8yA49F6CLpZBgtYiAE-7P2vcoMe7R961jyjIYRKOzCzO_1OdKCJ7KrQkudq9KluBVi_JP1GNkepYcvqqaMN52tcfPdGEUYSTbpYiPxG42xmRrEik9UQ4eMowBRH8rBIZ5CFxjO7xXAhbdoC0hSRLxyusOdt9l0OOksoX0TiB-6kifDHStKtuz5L6s3bCuXFFfbNQNeOW5KfoeLlBM7Xeutki4jKhiBvsMGrvZA-NfGQZDs4f1QUE4ICLz0s4vvngGQIj38L9nfpP9iHn-1SBGl8qiOFXuVwphnKLH9kH4R7PQ6jBrEtaIc53bHel8Pve_s63A_mf2IfMQn90wJuunAES379cUmD9V56lQUFQlUb8odETjiPbyTDiVSVkMbcJEMQfI7wROPS6IZNBPl9EfzzgS6wfPta4466K2dShz23ZmOkXwMelhKSHVTDtwLdLAMRR_JrSmOvaCGWp8DS3B1WK-LU1EmgK29eRv_RtzWkjlPXn3-m352ksJ036Jd4SfSqx5xU034sxjwn7yK2i7BgpNN2X9x0wpR-KhxQRmp5wQDIG_BtE5W3EryCMAcbRcvoy96XN23Y1_E-bNW4ZPoFRfpS39WCwBjgu7KXaisrcqYkEUUd7KMRMDFmFxgbMoSBBhJztz1N1GxN23CiqMv3OiPOV8Ki5FgTmyRnn18D9_LbGmOa2577J1-njUf9BRXoGmuBRmhrpwQCaAxTvrpUdkjsjrbzCL3guIuMqr50jt4gIpj9fEU7wgEFdUfym2_teKQ-2st1Kp56H6BVY2p-ZJmh85UC1DeHywnlL_k4qXFYIcS1g2lgMBn0wwvug7JkGuWVxhV6isXWZDT6zJHeYVoR2sfDysGr7K1fExm55ahqTSRVLGS9gOB2n4xRe-YcD5O24Fb3lUT6wETzG4JFvJR3Fdt41ZThMv_6ugIIiW4AUKGEb_FnOQLM3D0Qv2WKLWb_RvlPpf4GG4tG9PZT96r47BPR04tEGu7tYrQ0Q3MQK-8xqC4AO079MCTVqDJJYXJ653v88rElQOZ-6TcvAh5g0OJOtXLdj9bL-qASr-ZcFbRQdbqulnRpH45mzpz9zTgttDw17OSpQr16TOuBTPVB6i1Ojgjm0a3madD4OxN3rwTwgtmNKZKVp5UB72r95_1qzFPUa4bhdn-l5lkUrO4c_clUSFWdgZ7erAAr-xvlevDyq2ilCB3blf8k3gv_-e0tARC2TY_jDZhTeP0YSCbCECLPqwc6I2Es4TlCzCVsg7EpXzaXy12oLrEboA95E6uHkaePUF2JWJ1lX2nMZMgtBPwDWoDTX07beU4RPmLlvbh3w1f3oX7ncWiW0_Ac6MbyIXZd6hW6j_LV0GjE_Thw8hS0DbrM2x-Ncr1zHGutC1XWpOXjcZAPdB2evvLJ4sMSEa3QL-tnezISmYnLRVkYfpi2j_gZxJ3w6eriunr2PhvZX5WsbTZpuzYnF-P8SsgTzcxUUpsXAOXfO8lgCDn0O0DYGF0VaN6dD-DqGt7ddTTnREl6Vj4ZviD62kqsF8lvFCNT7PvW1Nkg9V-MPND-NaaOT1k8NTUQQ_oXQCwA4bgQq3K33BuCBmKBPq621QNwHYCZATuGBJGaqpH1QwbxceS1oZAjke-3qHD2RFpNkmWUGKh-7mrv1m9mvfGeR5mkMWwgx672p6gEt9jdCeqEsFkRQcqC5Cw-wojzbKUbymrhktD24aeIUfRSrYnsVr5pSun6Fmj4ZXQEVQ_r6YweB9_fyshYFB-8TLSiRQPXnzZfdkE8ek06JlW3ZLyNPgTJczjVvQIEHU9y1N9G2rkECNX6orBFAHMss-BMWRhuj1tnVxKgRIeG0hyG0MZQpEw5Z7jf92Imng77o63iVitjev9KAJ9TGqa51e4CgvNrW9XC7bGy00ibMnAoddPDzn6dm69TmXLu2luli1QT5LIuaF2qEFdHNMLtw8kvf2fKQRl2JAi_y1KnJ3MI0PXc13sjFfgf_mkuUCmLqj06VNojv64CdR_u9J6CE5iNrDCoH_9NejTG8RxzivmFyGeWsOjz8U4l3JE_sS0gkGIyG4blLO2GMLMTvR5QtIyTZz-qhefzmbIMPhnfbZuAKRqI-TQ0FAsijTzFA7M9_o-2aRu0sDtw_wonlWPpdT7K5cgoJKstIiy28elI5Z1FkiYbpYFSwdPQ44HTJ5wEOG3QN07stYpHo_A4RQEbzY4sI3J_4oOdc1W2EzeFEMG5q_YoMhsNa6Nf9In5kGatMUQAu0fDrvROhL-AFwLhrpmMy-_7wxeeX3IAV-aUdMzkKFLkEYyrNUHwFiT4UFkRuTTvYQelV6-8TC2w6U1JWILQJqnICyq6CHTBMemQaE_iJQrI5A8bLXB7cG1TqWufG-CoPm8SDYkjRxp5NLJ5XuM_qR4qQLUArVmu3ZLwBXYGeCtcgNwiaKMOuIWCejuHqD_CysP-OB5iZeUg3b-RA3mBWRs5SA508oRTM3lPdRsrPuEhwFEZj5QW1XsgiE63hMD0n1z-fYZl4nK-szRHoM1joRWOdFnUck0mbBwdB39uoQAJtSl5bsFEEg-nQp8YxtYcUlWKKLsUOQyni-HAJ9WWoF574MH2LgjP5IC6aZzWhEoXZIvfV5rbgSQvPk0vBtoPXHJtaR_zxWhtwhNbaxK1OnMpmCKLJLMt3fjDtFTlS5XjVb4CXTsgG4kQee5tcDYTuhJxglLPTtIlVpNaNpzSpmCHj_cSVvd19ztxHAOrjO95ozP6-dKWnyO7Jd-c7xV94VsY90VxgFWNkCpQIpfw-EW4RNvi7n3mt1n3eT0t1XL5ha6onV_VBXmqz1gbIMUBPBRPRzmI5vxD9FIGwRpbwJSME16Fz_fG3W0831LhD5rYZIIaHthzb5Oqx--81dOpFOgRxXxoG4phFpAgN2Rs6hGbrMX58gUvYMWUKOj6acE_mPiw4i03v_7xWdsTLKSAtkIfRvrQA-CSc8bT8qwgQNtq30dl1GRkfvOaUO_tU4x-lhOxF-mohJuoVfYtpz9gxeSeKVfzccOgTbpRABQt6Pj3SLLm3xUq5-BuyyNqRzAstOJYsHiz-1wetzzCa2wDqKS9H22XEAQ6hG0eqoMTd--6cXU9C88mKujOIQ-5yX1XrR1YFbrKurKwzuGMEPQdo1gtnrAszib7VNoYPnHIDzqquV7SbQB3ouLQ==",
+      "summary": []
+    },
+    {
+      "id": "msg_0fcdc84d9899d9d9006ae0dd41e3b087d2aabcf13f9407477e",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P14\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"SARS-CoV-2\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"SARS-CoV-2\",\n      \"questionnaire_id\": \"ERBio general questionnaire (48 items)\",\n      \"exposure\": {\n        \"category\": \"Frequent\",\n        \"basis\": \"Case reports exposure frequency as Frequent.\"\n      },\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": null,\n        \"n_applicable\": 48,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": []\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"insufficient_information_for_risk_synthesis\",\n    \"agent_aggregation_status\": \"unresolved\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"The case provides exposure frequency and counts of Yes/No responses, but does not provide the underlying ERBio control/requirement results, mappings to probability/GRB/risk class, or any agent classification/regulatory reference level basis. Therefore risk class, GRB, and reference-level classification cannot be resolved from the supplied information.\"\n  },\n  \"professional_review_required\": true,\n  \"sources_or_basis\": [\n    \"Agent: SARS-CoV-2 (BIO-VIR-0064) from provided case\",\n    \"Exposure: Frequent from provided case\",\n    \"Questionnaire responses: 40 Yes, 8 No (48 items) from provided case\"\n  ],\n  \"reasoning_summary\": \"Only exposure frequency (Frequent) and overall Yes/No totals (83.33% compliance) are provided; the case lacks the information needed to assign an ERBio reference level/classification, probability, GRB, risk class, and identify specific failed controls or preventive actions. As a result, agent classification and risk metrics are left unresolved and professional review is required.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 746,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 708,
+    "output_tokens_details": {
+      "reasoning_tokens": 147
+    },
+    "total_tokens": 1454
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,61 @@
+{
+  "case_id": "ERBB-P08",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "unclassified_human_isolated_virus",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 2,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "No se aporta información de exposición suficiente para asignar una categoría."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Realizar una valoración profesional para determinar la clasificación final y completar la evaluación del riesgo. Mientras no exista dicha clasificación, conservar como referencia el mínimo regulatorio de grupo 2 aplicable a virus aislados en humanos no evaluados o clasificados, salvo demostración de que es improbable que causen enfermedad."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "no_calculable",
+    "agent_aggregation_status": "single_unresolved_agent",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El virus aislado en humanos no está evaluado ni clasificado. El grupo 2 es únicamente el mínimo regulatorio; no constituye una clasificación final ni permite establecer el nivel de referencia, la exposición, el cumplimiento, la probabilidad, el GRB o la clase de riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "ERBioR 0.9.0",
+    "Regla HUMAN-VIRUS-MIN-G2",
+    "Información suministrada en el caso ERBB-P08"
+  ],
+  "reasoning_summary": "ERBioR identifica un virus humano aislado no clasificado y fija el grupo 2 como mínimo regulatorio, con clasificación final pendiente de valoración profesional. Al faltar datos de exposición y cuestionario, no pueden calcularse cumplimiento, probabilidad, GRB ni clase de riesgo; tampoco se registran controles incumplidos."
+}

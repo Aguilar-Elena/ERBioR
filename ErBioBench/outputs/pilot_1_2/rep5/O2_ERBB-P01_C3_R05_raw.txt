@@ -1,0 +1,80 @@
+{
+  "case_id": "ERBB-P01",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Caso ocupacional con exposición diaria/frecuente declarada."
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-041"
+        },
+        {
+          "item_id": "GENERAL-F2015-042"
+        },
+        {
+          "item_id": "GENERAL-F2015-043"
+        },
+        {
+          "item_id": "GENERAL-F2015-044"
+        },
+        {
+          "item_id": "GENERAL-F2015-045"
+        },
+        {
+          "item_id": "GENERAL-F2015-046"
+        },
+        {
+          "item_id": "GENERAL-F2015-047"
+        },
+        {
+          "item_id": "GENERAL-F2015-048"
+        }
+      ],
+      "preventive_actions": []
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire_no_aggregation_required",
+    "agent_aggregation_status": "single_agent_no_aggregation_required",
+    "workplace_global_class": 3
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Case information: exposure frecuente; 40 respuestas Sí y 8 respuestas No; 48 ítems del cuestionario general.",
+    "ERBioR reference output v0.9.0: Brucella melitensis, classified_annex_ii, regulatory_minimum_group 3, reference_level 3, compliance 83.3333, probability 1 (Baja), risk_score 3, risk_class Tolerable."
+  ],
+  "reasoning_summary": "Se mantuvo la evaluación unitária del agente Brucella melitensis con el cuestionario general. La conformidad se tomó del cálculo ERBioR (40/48 = 83.3333%), con exposición frecuente, probabilidad baja, GRB 3 y clase de riesgo tolerable. No se requirió valoración profesional adicional ni agregación por existir un único agente y un único cuestionario."
+}

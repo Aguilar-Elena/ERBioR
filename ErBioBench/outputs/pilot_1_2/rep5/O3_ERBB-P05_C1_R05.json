@@ -1,0 +1,99 @@
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "En el caso se indica: 'Exposición para ambos agentes: Frecuente'."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Mantener y revisar medidas de control y procedimientos internos de prevención para Bacillus anthracis en función de la evaluación profesional y del cuestionario completo."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "En el caso se indica: 'Exposición para ambos agentes: Frecuente'."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Mantener y revisar medidas de control y procedimientos internos de prevención para Brucella melitensis en función de la evaluación profesional y del cuestionario completo."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "unresolved",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El caso aporta exposición 'Frecuente' para ambos agentes y totales de respuestas (40 Sí/8 No) del cuestionario general, pero no especifica el mapeo de controles fallidos por agente ni permite derivar una probabilidad, GRB o clase de riesgo, ni una clasificación/regulación de referencia del agente con la información suministrada."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Caso ERBB-P05: 'Agente 1: Bacillus anthracis (BIO-BACT-0010)'",
+    "Caso ERBB-P05: 'Agente 2: Brucella melitensis (BIO-BACT-0028)'",
+    "Caso ERBB-P05: 'Exposición para ambos agentes: Frecuente.'",
+    "Caso ERBB-P05: '40 respuestas Sí y 8 respuestas No.'"
+  ],
+  "reasoning_summary": "Se asigna exposición Frecuente a ambos agentes según el caso. No se puede resolver clasificación/regulación de referencia, probabilidad, GRB ni clase de riesgo porque el caso no proporciona información suficiente (p. ej., resultados por ítem/control ni criterios de clasificación). La conformidad (controles) queda no determinable con el detalle disponible."
+}

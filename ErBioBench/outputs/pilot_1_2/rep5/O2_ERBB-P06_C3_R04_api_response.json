@@ -1,0 +1,102 @@
+{
+  "id": "resp_020e023f0605affb006ae0d902665487d2a829aae7e059e9c6",
+  "object": "response",
+  "created_at": 1793120514,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793120533,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_020e023f0605affb006ae0d9030a2c87d2858de1091355ba56",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4NkVsN5dMCcyd2RRvKc-1JoJ075g56Q1GMqv7lvnJPMYqtTdjp2sFPoo8N_gypl8EgEOwkn_58UFLG1b1elFLzdRmVCd-QztnX1ayKM4VJPvSsEXddW4yF66vb6qrlocE0xcH8uP84mq6DtxIZ6znnlgUQb43IMrhMtC1cvJnS9BhA3hM-OxGX2s7KCr1LzN9uM5Czo8M4uzVnlWB8sqdsyeU6qwbRSWK9ZPJ8xFfk7XuW9MXe_3ZRL5rsWF6e8j9aBtPIEQrH1hlOveFYn-E-CKds5QNenJGTxBzSHXRIzVBQlGF22wjf3x_DLkH4J2rWSpTaj2-syzHUd3zzxzBNmYxHPv9KUXOJCq58FOQkGR14ega5MK7jQIrNrUtA6aSjfXZnu9QKdXdNW_1b7L8A5LoMnVq6n6uSIw7DhbHzILc7ke6-lSYpXLUH_XqYnLZ7GsSangYhUo0ff2uQn1Yv5my1IKcgOqZmFvY20Yabm0v1Jhd6_v5UAclIkBdJJ6rMgcJHzMn5NTckJobeRY8uVSDwvzwdnHy01sHdufMKZL7ShbDKv7mfbkIqFTVwDNGxih0G_RMI_XhZH73a9xBM5bj3PRLXgrDF0wZinGFWRcudVRJiGA_EiW5ZwBE14OrX94eXOMlaNpAJxqC1wZy4ndpHtRdn9Vt-0eVivnCWhl6WGsgwz_D3Gsnukuca5AU39UNrmyNw_QBaoM-r9riftFSoOzIKIDDSYmuZLkfcejfWzX99XZ2k0f6r-xHIerTTgMw_UCtXTUbHxQbOgwU2Vt8cFAyuEhLVZjuwEOBeBwjVSx5FNv4DYteyhHKg_2qlSnT3_vOz14qPDadLtPW7Kj2vpO4_0gsO-QthRTIt8tRqx6tgb78qV8fzcrHRK45O1Af5mCsMwqA5AWgyCPkMYCHgOtf01ZhdxmnekuKIhCihJhcNaiggBM1vewBfoF_pUCHyqVylgoFTx-kpyphAhdpjON8VKyeGpVx0rqhzfPJTCt69oJBitGAnpUtCex06vAznVm4SlniR3P-jIZafHW1rYdifKEggC5P-_PsXcRJ7L1wbnJQAkIsWUKmhmcqYTgxfn44XQo-RuljZ7A4UrjSFcV-HNRMPWEM0XfIOrk4uHs75T2Tuz_rMS2Lh7MVemvuVnFi8RQtRZjZeZVZ4NNxfuUehvyc8DbqRyZ6Noo2jrOFBlrNh0gETCDeoXKbZMxgonZ8O4vtsnSJUxljFUP-mUEPzSNyrOniP2kMCQha2TQ6t6uPwlUVNSDhi6EeqQaGfIn5Cuiry_7zH66XGVkX5ABSoUoTAOaNvi_Taog3-oBPkM73447rknUzBf0GaXOdsO9s1wFP43Amfj18yg5quNMcx0YeqrhZjdALP8l_NY8q3z0u588erCDe-EWRI9nlE2HVxrRODvyzNz2CkLFrpOpHTV27602Vm0DbZMbtzVKQRoEl3WIBNyr3XfI_rZ1DP5bEKqcEt7GPect89mkNXvZ-RtgsbZr3A157R2UI4REebmnHO4NzQODCnq4f7iXikuKA2_qCtJpFCB3FljGCN_6exO7QFbwxnva6RH8NGPe5_3j-3Ywnh0WK37ljEEO6x7fAREfaG67bs6KhqelcVQtwh9k6IPYSn6WbyJk3Jdwl0Igi3_r_LaJfIvUSdZrdTDe4np20J4rc9y_i10XjkULaGQS21x58FaQtcSCqsqINIO08IeyBLUVAMv2Qjhd7ZtLEdnsYzozOYcKAIirl70ZU0XuLgWSnCSY7CKKlMoPU4nHlJxktlS225Do3KAFVkTcIc_IACwEeaO_uNaIbDPSbdIK169qA_VIKsg8CGPzXHmpnm7P_U7L1Psrf0se502_Zi6avlrl5QtVNKmNYhdOKR8jN3b7awkD79fYvolu79GFs_JDLZo0O2n6l_mEcIlkGuelKnCAaYifBni18htzc03fs-kgnU-9dV3Ah97ExUrCzl7N2KkEvW6MCm2wIxUR3heBElofxmO-IQA43hGZl2NASE_8YZ-fRu-IML13GrvqI0ZGF981MQ_RMFHPOxF4UXSVvZ1qf9S9EpEYp60ma-Sg_sGTfouSaBV_45s=",
+      "summary": []
+    },
+    {
+      "id": "msg_020e023f0605affb006ae0d903726487d2a60bec1eef560c0c",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P06\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Actinomadura madurae\",\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 2,\n      \"reference_level\": 2,\n      \"requires_professional_assessment\": false\n    },\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"agent_name\": \"Actinomadura madurae\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Información del caso y salida ERBioR: exposición frecuente para este agente.\"\n      },\n      \"compliance\": {\n        \"percent\": 39.5833,\n        \"class\": \"Deficiente\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Alta\"\n      },\n      \"grb\": 6,\n      \"risk_class\": \"Moderado\",\n      \"failed_controls\": [\n        \"GENERAL-F2015-020\",\n        \"GENERAL-F2015-021\",\n        \"GENERAL-F2015-022\",\n        \"GENERAL-F2015-023\",\n        \"GENERAL-F2015-024\",\n        \"GENERAL-F2015-025\",\n        \"GENERAL-F2015-026\",\n        \"GENERAL-F2015-027\",\n        \"GENERAL-F2015-028\",\n        \"GENERAL-F2015-029\",\n        \"GENERAL-F2015-030\",\n        \"GENERAL-F2015-031\",\n        \"GENERAL-F2015-032\",\n        \"GENERAL-F2015-033\",\n        \"GENERAL-F2015-034\",\n        \"GENERAL-F2015-035\",\n        \"GENERAL-F2015-036\",\n        \"GENERAL-F2015-037\",\n        \"GENERAL-F2015-038\",\n        \"GENERAL-F2015-039\",\n        \"GENERAL-F2015-040\",\n        \"GENERAL-F2015-041\",\n        \"GENERAL-F2015-042\",\n        \"GENERAL-F2015-043\",\n        \"GENERAL-F2015-044\",\n        \"GENERAL-F2015-045\",\n        \"GENERAL-F2015-046\",\n        \"GENERAL-F2015-047\",\n        \"GENERAL-F2015-048\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-021\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-022\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-023\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-024\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-025\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-026\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-027\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-028\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-029\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-030\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-031\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-032\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-033\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-034\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-035\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-036\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-037\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-038\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-039\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-040\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Información del caso y salida ERBioR: exposición frecuente para este agente.\"\n      },\n      \"compliance\": {\n        \"percent\": 39.5833,\n        \"class\": \"Deficiente\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Alta\"\n      },\n      \"grb\": 9,\n      \"risk_class\": \"Importante\",\n      \"failed_controls\": [\n        \"GENERAL-F2015-020\",\n        \"GENERAL-F2015-021\",\n        \"GENERAL-F2015-022\",\n        \"GENERAL-F2015-023\",\n        \"GENERAL-F2015-024\",\n        \"GENERAL-F2015-025\",\n        \"GENERAL-F2015-026\",\n        \"GENERAL-F2015-027\",\n        \"GENERAL-F2015-028\",\n        \"GENERAL-F2015-029\",\n        \"GENERAL-F2015-030\",\n        \"GENERAL-F2015-031\",\n        \"GENERAL-F2015-032\",\n        \"GENERAL-F2015-033\",\n        \"GENERAL-F2015-034\",\n        \"GENERAL-F2015-035\",\n        \"GENERAL-F2015-036\",\n        \"GENERAL-F2015-037\",\n        \"GENERAL-F2015-038\",\n        \"GENERAL-F2015-039\",\n        \"GENERAL-F2015-040\",\n        \"GENERAL-F2015-041\",\n        \"GENERAL-F2015-042\",\n        \"GENERAL-F2015-043\",\n        \"GENERAL-F2015-044\",\n        \"GENERAL-F2015-045\",\n        \"GENERAL-F2015-046\",\n        \"GENERAL-F2015-047\",\n        \"GENERAL-F2015-048\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-021\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-022\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-023\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-024\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-025\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-026\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-027\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-028\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-029\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-030\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-031\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-032\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-033\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-034\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-035\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-036\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-037\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-038\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-039\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-040\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Control no cumplido según cuestionario general; requiere corrección preventiva.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"unresolved_by_reference_rule\",\n    \"agent_aggregation_status\": \"not_aggregated_due_to_discordant_agent_results\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Existe discordancia entre los resultados por agente: Actinomadura madurae da clase Moderado y Brucella melitensis da clase Importante. La referencia no define una regla de agregación global para colapsar resultados discordantes, por lo que no se infiere una clase global.\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    \"Caso ERBB-P06\",\n    \"Salida determinista ERBioR 0.9.0 proporcionada\",\n    \"Clasificación reglamentaria y nivel de referencia indicados en la salida ERBioR\",\n    \"Resultados del cuestionario general ERBio (48 ítems; 19 sí, 29 no; 39.5833% cumplimiento)\"\n  ],\n  \"reasoning_summary\": \"Se mantuvieron evaluaciones separadas por agente. Ambos agentes están clasificados en Anexo II con grupo mínimo 2 y 3, respectivamente. La exposición es frecuente y el cumplimiento es deficiente (39.5833%), con probabilidad alta en ambos casos. Los resultados de riesgo son Moderado para Actinomadura madurae e Importante para Brucella melitensis. No se calculó una clase global porque la referencia indica regla de agregación no resuelta para resultados discordantes.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2610,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3546,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 6156
+  },
+  "user": null,
+  "metadata": {}
+}

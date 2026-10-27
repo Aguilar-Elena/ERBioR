@@ -1,0 +1,57 @@
+{
+  "case_id": "ERBB-P07",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench fictitious biological agent",
+      "agent_id": null,
+      "classification_status": "unclassified_not_implicitly_group1",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench fictitious biological agent",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "La información de exposición no permite sustituir la clasificación reglamentaria; no se aporta una exposición categorizable."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_closed_no_reference_level",
+    "agent_aggregation_status": "unresolved_agent_unlisted",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El agente comunicado no figura en el registro legal consultado; no se aporta clasificación legal ni nivel de referencia resoluble. La información de exposición no permite definir probabilidad/riesgo bajo un marco reglamentario."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    {
+      "source": "ERBIOR reference output 0.9.0",
+      "basis": "UNLISTED-NOT-G1; agente no incluido en el registro legal consultado; no queda implícitamente clasificado en grupo 1 según RD 664/1997."
+    }
+  ],
+  "reasoning_summary": "El ERBioR clasifica el agente como no resuelto/no implícitamente grupo 1 por estar no listado en el registro legal; no se dispone de clasificación legal ni nivel de referencia, y la información de exposición no permite completar probabilidad o clase de riesgo. Se requiere valoración profesional y no se cierra el cuestionario."
+}

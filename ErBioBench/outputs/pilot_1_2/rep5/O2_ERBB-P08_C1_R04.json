@@ -1,0 +1,62 @@
+{
+  "case_id": "ERBB-P08",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "No clasificado en el registro utilizado; clasificación reglamentaria final no aportada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "Se indica aislamiento en humanos, pero no se aporta una clasificación final ni datos suficientes para asignar una categoría de exposición."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Realizar valoración profesional específica y aplicar la regla regulatoria correspondiente para virus humanos no clasificados."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "unresolved",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "La información disponible es insuficiente para determinar la clasificación/regulatory group, el nivel de referencia final, la exposición y los indicadores de cumplimiento o probabilidad."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P08",
+    "Afirmación del caso: agente viral humano hipotético no evaluado o clasificado en el registro utilizado",
+    "Afirmación del caso: no se aporta una clasificación final",
+    "Afirmación del caso: debe aplicarse la regla regulatoria específica para virus humanos no clasificados"
+  ],
+  "reasoning_summary": "El agente figura como virus humano no clasificado en el registro utilizado y no se proporciona la clasificación final. Por ello, el grupo regulatorio, el nivel de referencia, la exposición, el cumplimiento, la probabilidad, el GRB y la clase de riesgo quedan sin resolver. Se requiere valoración profesional específica."
+}

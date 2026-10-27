@@ -1,0 +1,75 @@
+{
+  "case_id": "ERBB-P01",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "no_resuelta_en_el_caso",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "El caso indica exposición laboral frecuente y frecuencia diaria."
+      },
+      "compliance": {
+        "percent": 83.33333333333334,
+        "class": "cumplimiento_parcial",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": "no_determinable_con_la_informacion_aportada"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        {
+          "item_id": null,
+          "action": "8 ítems del cuestionario general fueron respondidos 'No'; no se aportan identificadores de ítem."
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar los 8 controles no cumplidos y priorizar su corrección."
+        },
+        {
+          "item_id": null,
+          "action": "Mantener/verificar las medidas preventivas acordes con exposición frecuente a Brucella melitensis."
+        },
+        {
+          "item_id": null,
+          "action": "Requiere valoración profesional específica para completar clasificación/nivel de referencia, probabilidad, GRB y clase de riesgo."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "no_aplicable; un unico cuestionario aportado",
+    "agent_aggregation_status": "no_aplicable; un unico agente aportado",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se aporta clasificación/nivel de referencia regulatorio del agente ni la regla explícita del framework para convertir exposición y cumplimiento en probabilidad/GRB/clase de riesgo. Los identificadores de los 8 ítems no cumplidos tampoco se proporcionan."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso: agente identificado Brucella melitensis (BIO-BACT-0028).",
+    "Caso: exposición laboral frecuente con frecuencia diaria.",
+    "Caso: cuestionario general ERBio de 48 ítems.",
+    "Caso: 40 respuestas Sí y 8 respuestas No."
+  ],
+  "reasoning_summary": "Se identificó un único agente, Brucella melitensis. La exposición está soportada como frecuente y el cumplimiento se calculó directamente: 40/48 = 83.33%. No se aportó una clasificación/nivel de referencia regulatorio del agente ni una regla explícita del framework para derivar probabilidad, GRB y clase de riesgo, por lo que esos campos se preservan como no determinables y se marca revisión profesional requerida. Se registran 8 controles no cumplidos sin identificadores individuales disponibles."
+}

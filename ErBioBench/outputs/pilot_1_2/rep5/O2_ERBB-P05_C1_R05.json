@@ -1,0 +1,100 @@
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "identified",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "identified",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "ERBio general 48 ítems",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La información del caso indica exposición frecuente para este agente."
+      },
+      "compliance": {
+        "percent": 83.33333333333334,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Se requiere valoración profesional específica para definir el nivel de riesgo y los controles incumplidos."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio general 48 ítems",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La información del caso indica exposición frecuente para este agente."
+      },
+      "compliance": {
+        "percent": 83.33333333333334,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Se requiere valoración profesional específica para definir el nivel de riesgo y los controles incumplidos."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolvable_partial",
+    "agent_aggregation_status": "separate_assessment_required",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El caso aporta exposición frecuente y el recuento de respuestas (40 Sí, 8 No), pero no incluye la regla de conversión a probabilidad, GRB, clase de riesgo ni la clasificación/regulación de referencia de los agentes. Por ello esos campos quedan sin resolver."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Agente 1 identificado como Bacillus anthracis (BIO-BACT-0010).",
+    "Agente 2 identificado como Brucella melitensis (BIO-BACT-0028).",
+    "Exposición para ambos agentes: Frecuente.",
+    "Cuestionario general ERBio: 48 ítems.",
+    "Resultados del cuestionario: 40 respuestas Sí y 8 respuestas No."
+  ],
+  "reasoning_summary": "Se identifican dos agentes distintos y se evalúan por separado. La única información cuantitativa disponible es 40/48 respuestas afirmativas (83,33%) y exposición frecuente para ambos. No se proporciona una tabla o regla válida para derivar probabilidad, GRB, clase de riesgo, controles incumplidos ni grupo/regulación de referencia; por tanto, esos campos quedan en null y se marca necesidad de revisión profesional."
+}

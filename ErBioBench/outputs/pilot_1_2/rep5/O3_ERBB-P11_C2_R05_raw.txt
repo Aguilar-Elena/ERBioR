@@ -1,0 +1,68 @@
+```json
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "no resoluble con la información del caso (nivel de referencia/clasificación no proporcionado)",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Cuestionario general ERBio",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "El caso indica explícitamente exposición: 'Frecuente'."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "result": "No"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Mantener/implementar la medida correctiva asociada al item_id real GENERAL-F2015-020, considerando que el caso indica incumplimiento en limpieza/desinfección periódica de los equipos de trabajo."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "no determinable con la información suministrada (faltan denominadores/totales de ítems aplicables)",
+    "agent_aggregation_status": "no determinable (un único agente, pero sin nivel de referencia ni cuantificación de probabilidad)",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporciona el nivel de referencia/clasificación del agente ni el número total de ítems aplicables del cuestionario; por tanto no puede calcularse el porcentaje de cumplimiento, ni probabilidad, ni GRB/clase de riesgo de forma trazable con el marco ERBio."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso: exposición indicada como 'Frecuente'.",
+    "Caso: incumplimiento del ítem GENERAL-F2015-020 = 'No' y el resto de ítems = 'Sí' (sin detalle del número total de ítems aplicables).",
+    "Caso: en el puesto se cumplen todos los controles generales salvo la limpieza/desinfección periódica de los equipos de trabajo."
+  ],
+  "reasoning_summary": "Se evalúa Brucella melitensis (BIO-BACT-0028). El caso solo permite identificar exposición 'Frecuente' y un control incumplido (GENERAL-F2015-020 = No). No se aporta el nivel de referencia del agente ni el total de ítems aplicables del cuestionario, por lo que no es posible calcular cumplimiento%, probabilidad, GRB ni clase de riesgo con trazabilidad; se requiere revisión profesional."
+}
+```

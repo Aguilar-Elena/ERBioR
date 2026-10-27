@@ -1,0 +1,108 @@
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "No resuelta: el caso no proporciona su clasificación reglamentaria.",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "No resuelta: el caso no proporciona su clasificación reglamentaria.",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente para ambos agentes."
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar individualmente y corregir los 29 controles con respuesta No; el caso no aporta sus identificadores ni contenidos."
+        },
+        {
+          "item_id": null,
+          "action": "Completar la clasificación reglamentaria del agente y aplicar el método profesional correspondiente para determinar probabilidad, GRB y clase de riesgo."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente para ambos agentes."
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar individualmente y corregir los 29 controles con respuesta No; el caso no aporta sus identificadores ni contenidos."
+        },
+        {
+          "item_id": null,
+          "action": "Completar la clasificación reglamentaria del agente y aplicar el método profesional correspondiente para determinar probabilidad, GRB y clase de riesgo."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Las 19 respuestas Sí y 29 respuestas No permiten calcular un cumplimiento común del 39.58 %, pero no asignar los fallos a ítems concretos.",
+    "agent_aggregation_status": "No agregada: deben mantenerse evaluaciones separadas y el caso prohíbe promediar o colapsar silenciosamente los resultados de ambos agentes.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporcionan las clasificaciones reglamentarias de los agentes, los umbrales de clase de cumplimiento, la regla de conversión de exposición y cumplimiento a probabilidad, el método de cálculo del GRB, los límites de clase de riesgo ni la identidad de los 29 controles incumplidos."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P06.",
+    "Cuestionario general ERBio de 48 ítems.",
+    "19 respuestas Sí y 29 respuestas No.",
+    "Exposición Frecuente para ambos agentes.",
+    "Prohibición expresa de promediar o colapsar silenciosamente los resultados."
+  ],
+  "reasoning_summary": "Se evaluaron ambos agentes por separado. El cumplimiento calculable es 19/48 = 39.58 % y la exposición declarada es Frecuente. La clasificación reglamentaria, la clase de cumplimiento, la probabilidad, el GRB y la clase de riesgo quedan sin resolver porque el caso no aporta los datos o reglas necesarios. Se requiere valoración profesional."
+}

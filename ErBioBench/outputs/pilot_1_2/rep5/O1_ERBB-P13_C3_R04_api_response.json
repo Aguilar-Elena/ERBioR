@@ -1,0 +1,102 @@
+{
+  "id": "resp_0525852bf35ec812006ae0d78d643887d2b68a73f1582f2b66",
+  "object": "response",
+  "created_at": 1793120141,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793120152,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0525852bf35ec812006ae0d78de55487d28548dfcbf9e34c58",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4NeYYqxxqMa4k0445aPjG4_cxHFfRFBuiV2w5qFnHYY5h7ed-AR50It3kDD4t-hIlz6X6Ww2hJVinLHUK40iYHBp3LNTc_oIrhsruKyQTvuWaR63ZGeZa7VXIF9ke7xCs36CPE5sZtXqqbwyodmRaXiVQcefpozyxo3mCKkPBkNQJVvGkaFM-3903lmFUiPOfuXZH9Pya6poA3mhEIu4o9QDpojztljyO3_h9N2R6CoxBgvakhWHZ5IcMeSKbkiorlYGQfqdcLX3yHRaqfVXQVQex3kb-7PUodcigF32IGPBeQTynP_JrZtm2VqP8ID5ejB1iXEUIza-C9V-3FJo7F_IE8Nlev3Zv4yxLHzYhlZWBxBKgH__7z75kc9a2IHtArsNhK-iPEn_ckJmoeC8Ip9cc3tsOwi6Azc_ob7ALaDgq6XRY2_0lTouYKh7pOiP92apIj_iSBx0lLgP897O0KFPtnDoBJtOWlv-pZUqOpYBET2MmhhkCdwLx27gPWo7u5bxIMIUAT3UpmlVopDzqBnqWDysIeV2FZp3QaySp71YblSx6SP4mzFH9YEmv5EQxYLu1hMjFsRtzZoHDZ3AvJcHMWpRypvxD5qestFagV17qu4l6Wjpx6lNVGB-7k8Vcql81zbWAgmypavacAfqZIhOgPhDbZyOAq73HcXRTIUE7zrcW73dh0_muzJ6HxhW-UmWiwSzaogshzWOdmX6NNS8juxrhRay_Xs7GdTMRI9fSOU0yMlFuBpzAAoBj7f36d2mGXW_tDDugev5b7gQyRsGB34FHdAV5RtXB9ZcV_7e6sFY7CrTiA4UTtHhfRYEWvRgjrPUgNmvVwB24cZYg9J0SQp_OR84LJwN1ozpj8qesxeT1IHRNki7Rt3psDddAUF5T8w4yqSr6XVcFFrD1CaJOkD-bsLZ7MkJJcmgCZ-UQw3XzFRd5E-oY4HxyrALLRNBglk8lv5pUncKXbuvZXBymX67kAgMwVTYFgl52LMvGcqqD2k560GAkODuVcmrHIYv9use9BKa5jXMuqcOL-jQTDkkFIZKLzSMqIt_05q4CfUKo8yr1NRTI2xqsya5fcHPJ9Mc7Ss05Xo4X94ZfuWgAVwgtm8Xymm-h-MrfpPB35mbVeYw5t-Wnmr1MTclpidG38bBrDBx78AbBLjaCsYMAiyxOzOJ8GtgVo-4XwkKD9dhaN6pk_bUumskudlIC4hh_HxdhsQzOKt9fAAXZOZs6zjPiDKgsFqofFAHQ6sdxIc1RgZkeoHuH6PZbOX4H-_eP8a0yPTk9w8RkeNoF-kg2yKpNtSq70wQDX4_HLLVFT_RZgQHd2dnkSl2O2vngS5IGlj2SrpCT4rkf0uFrRwixOpXIM1RYQqQZNAXbYFouZIGscuNb7xLcVMKXhOsDkRoCgtJR2i1t7fhdCv0Ws8lznuRnn-v_TzrrqYHFfsBLfSJw54JU0HSXyOzQloiP0ArsACYV7ZwOdSfclFHKLrPFFEcPT11LBnrj9_ijw-9sjfRo1Z88iy8bvyIZ6thBHrrX6-oT8YFMOsFqPhkQr9uZewZQAmZN_8aJRndTipZAKjy-4trdNhYAzHgt_N5crHLwbHp2nMTEvR5q81wBmxvzsfRLCsNBEhZWnqmUTDEdWF2_mm9kjVR2nqqzFHAmkAHMp6J0Jr4MCCyScvMNDh3JUCeXHWtFefww65OR2ghbKQT1fO9y7sTvnsQTN4xDW2gGlb5hNkS7rZ5O7VYp4ws8ySLopglcEjmjPtGbsTrBgxjNhXOlW8xgGBtHDJxyVk1Hkp5OOFkH7YfKBF4NTifPKWYNPNcjRZg0kLNB12k9-SdOT5ipxsQHofof6eU4Qok5Z8t5Z6hAFYknYaLyfWZYEdOyKh0wAYmHTP0N4R3H8mBJKW-LJV80bLI9kl3ANb_AZsjOyr_hj3oQPj0q-20lFhHIdJZgIRSZuILIs2AbXd9geZMaIAokQ-aZAIjsN445CtfShJGLCRCLOyCXKO7KHrPBaQPHGGZ_gr6SmZcF7T-jvqwIHq1tO9KNvu461U9lHdKAdkELjHYvqx3UTrBiYPTWojKVzBX2IpJgjh-3CTagnbnMpy376RWRORL9grD9AO5pf2rgQlTcTx7blFuT8biZdc0_bHh2pMzkqOTgybtpVT8IzL_9DHKQj6pk3BABe4ZziHdSgRWRqiTtkSGY69E3j7aEvJamBlSYCIt9HNHAxcddyGnpEgm8Szzp0F0pS8KnK9vgLiTJYlFijEAcJ5vTKWyMlkErmroZ2ON8Y9VIKAVFy7z1xFX7dILbcqmZ8kKf7UzQgUsgYa3prRV-hpHetADpUpWNFrIcgiOQXkDXU42cI4A4k9VUPRSs8z1qEv6oD8LbBLnpOTVPnNlMDxJf_7UQP4suFdt7ON1qZnKQdnuyWDc0pc54B4REL2ZswKlZZO1QtzbL-ro7uygz5SvSqboa1MO7ZEc9hjQtnyfZ6V91FVmtieyBllU0ASVd7nS7VDTeni9xU-1KwfsgBDCXMI__94RqevzBPEpTJtq4KcPfQjS8AUCy1QbCgEowrIP_F-0M0wOsMGLj7d-MBeD33GqlfRYQvAkMoqmlbvnPhdwbADohRmWfi2XdKk-qh_j0XTUyzQZ0_EDmRDQ9zWYye2JBnjw_7zVRI1Re53AhUfEGJ327V6kDyv8nJpITyPpSvecmL3qWS0HFU6DeqEVj2hfdkJ7q10BfqFGadSuQa197NBSaqLTGE71fKjHz8NjodZfQt8eQJX-JrdHG7y8DME9dFCMnz9HkXmqgR_2Lfpp_wTlmUpwSqzIHh0u_JtE7GjPx9obeuZyyD7jHbuNJoJ2_xjpkHHtG9fJ75SJ-5ITqnOLUDkQmKcncargwHpwgCyIaH1Jjxrm33q-JSP5aDJZVBPcN04wrodeCKR8s3rScLa-3zn_77rEkfvpkhg9t2tEJLLpHK80oocakKnlnwhYa2duEEUU2yoxD2kQ_5yDvasxqHjX6Oom6wKZtGN6S_zqcSZzcLW-t8YigQ==",
+      "summary": []
+    },
+    {
+      "id": "msg_0525852bf35ec812006ae0d78f219887d2bc337a2eb44ddb0f",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P13\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2) (1)\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2) (1)\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Categoría de exposición indicada en el caso y utilizada por ERBioR.\"\n      },\n      \"compliance\": {\n        \"percent\": 83.3333,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n      \"failed_controls\": [\n        \"GENERAL-F2015-041\",\n        \"GENERAL-F2015-042\",\n        \"GENERAL-F2015-043\",\n        \"GENERAL-F2015-044\",\n        \"GENERAL-F2015-045\",\n        \"GENERAL-F2015-046\",\n        \"GENERAL-F2015-047\",\n        \"GENERAL-F2015-048\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad de la medida adoptada.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad de la medida adoptada.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad de la medida adoptada.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad de la medida adoptada.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad de la medida adoptada.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad de la medida adoptada.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad de la medida adoptada.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad de la medida adoptada.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"No aplicable: existe un único cuestionario evaluado.\",\n    \"agent_aggregation_status\": \"No aplicable: existe un único agente evaluado.\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"La clasificación y la evaluación matricial están resueltas por la salida de referencia ERBioR. No se atribuye contenido específico a los controles incumplidos porque solo se proporcionaron sus identificadores.\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    \"Información del caso ERBB-P13.\",\n    \"Salida de referencia ERBioR versión 0.9.0.\",\n    \"Cuestionario general final_2015_annex1: 48 ítems, 40 conformes y 8 no conformes.\"\n  ],\n  \"reasoning_summary\": \"ERBioR clasifica al SARS-CoV-2 en el anexo II con grupo reglamentario mínimo 3 y nivel de referencia 3. Para exposición frecuente y cumplimiento del 83.3333 %, la probabilidad es baja (1), el GRB es 3 y la clase de riesgo es tolerable, con prioridad media. Se registran ocho controles incumplidos y no se requiere valoración profesional.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 1367
+    },
+    "output_tokens": 1158,
+    "output_tokens_details": {
+      "reasoning_tokens": 120
+    },
+    "total_tokens": 2528
+  },
+  "user": null,
+  "metadata": {}
+}

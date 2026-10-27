@@ -1,0 +1,102 @@
+{
+  "id": "resp_0db121254553fa51006ae0d939a79c87d281ce74b9011844aa",
+  "object": "response",
+  "created_at": 1793120569,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793120573,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0db121254553fa51006ae0d93a422487d29071c0daefa6d970",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4Nk-5sRzG-RnBz6pKDPQ_GwUnusH5DYJLQcDp52Hkrqc0tEQgBh5WRo2MLuhA2HN4P_V6sFBwTI5KFsmhwH6gfqrv-OGvl59VyfK_Vs5ZuyhPkl7YXazEF1QVNF-n0fFravDlD87-tNTa5iLfdOxzCWl4ZeppiYQjznO0N3XRPiCkb-6sVf2jevDw3UN7_TooUyWsOchwE-VfkoUmJfU4TlBgHjib0XgNkn9bufE2FN9zgwMqCn8RzvmI_gZzC4oG0_9pdvk_bQ1pwPnmsU08jiaTPfHJuoraIcqhRW38dZ1KW2R6LMwxp2bqkCQft3Kpa31sHN-AMENMLEJK3ssG1xzXYolVLln0s28r7LtgmWiulICTn5KHIynIg_LOTI4cJN9mj8ETL_h-ITTKCOB_TbeccdVSGC39l_YfFKsPP-QbtX8NHTWGQyEtsIazl3Vhx7R_bvDBzqSzXkBPhG0eSyb9VeyBJNJ8gQTXNefKy94JTJ0nffnTzIjgSo1y3wlMcv8gYoToYs-3bIWAXU1kdQ7vweQOnZILLXCsCGiOAc7xy6j-iKVUhMeKwhUAmWLvH-IYBgOZ7QGXe2wmsVbcFDW08rMQEs5DMX5clQPz6UU8tmgBJ1nVVOFl-lt7BJPuDtUfZvhZ4eEdk5TUirGfrN7Tu-H_C28jLHWu070USBmVyxMWZa4qRdFwwq1GNhIUwoUi9aM9TySks_CxwiBLN5ohDOQminJ0mCqoMIG5t8gWb0h5pITMh25GKqboCzC_DnYsvnBRf6-PihpEdpDyzJxrPkei5NBT6ACCtWcKoKKznI5EqjtDxntSI1edxPQ_DHg8fquY_CN7PZnzXrWNH-ozJDGGgQg23BFIvtEgDBUFCaK0wH3tLuwObrosS-fzfl51NiiyAczw_LCZlZEMJKkkp3o6jJvhB9xSU3oQll-L-0V2WWTjew1uoaXBZ_U8xs1Nu8cjLUiSS-kc5x6dCLpc6SLETunOxAR9rXrVutPdNfc2_muRF76Q3kSr9uIgXaUhOpXqbE31XaX0NtL14zmTVgJ3V4v9tGlT8SpsQuNl6Dn2AjgkGTc_HAkTkKgr75ESMoU4jfWsU7UawOtoc-Ia6uT4AivkeSaVXBYrKV0V5L_VB4-X7qAC_g1nBquule0k2g7VM7SUm5FlOw5AeB2aoU0XoYIDOoai_OFT_wfrfdN198_Fjj11kwzU3B4X_JwrU1MORBEerKL2em0iFBV55P7XPnXqCdWG2jnluZl-eXZ8u3Nz_xPxL3Cx33-0rqFOmIAKg4up3VWoyT9jP_uc260DQmPIVcCnaZUW58HoBeuwV-KeCTxrGHJzQl6yZruRzB6Uri83EXWpg2B-P3XPj3YjkTVchOtdoqQ_2WD5vcnJ97eRxSK4wOrUeoO1QRvlXzEfHhv9JQgnfriUHq2PhrwlhHBeNP2iLcUusM601eN-Hvwe_nz1TPA8l6gZl1JFMuu1vrnRuDTYL5EeDrF2pCvvGobUhNFdDSx4gnAAXgxhdD-vuaCP_F4R6Bt8wpEdel7r0mD_kb8JtXIjYOfEV7EUmJXkkGtHpYLwp5kY22b5HC_KIdvJSgHW6kh_GWiYWRE2Vh1GJtpS2NDpLXtu20CtzR9luBv8BYZu38tMKDkOmn-xm-4R1EQ0rbup94DTGm2qKyQbUbofozPg8fgSY6alr_Gr7b1bwD4xhu83SokVI9trDjbwDbpZadg0A6A68sfLyR_5R0i3YvuLs40N27sVSDYUT0mFItANXKGsYoWdDKPHiXDqW-7RN64X-pKg5jYIH1yP4Qw58uGApTHZgc3Hx-n12CXGla5uxIwaU1hIZ4qC_Wpe-7yDVi3AEPmlKmmSTUwyHzX-C3tPeAPSj1EKkz4YhTL5u4j3VyFeuZuJRKD4APBPMZ5U5RSBBZSux2fLPaJ-rpXX6p2IRqWCy4S14C8JjROtC73Q_SLueRr0Jzq5hlA01W9agxCxG3nZSpDi2vnZ2O_RUx4e9LP6h6TAP9ExJV9zyxYHN_HH8I0DoeYd9q0lTy7amVPMrJFVMCq3iS7PXT44Zyp8CktqWr_J9dY0gIPJbTJyWFWyDp39-GaMLRdCF-_GSUwGKO9V8cdHGmyyK-O6OjlVdNpM9uvNXQssx6quhBtsVzDXp9zVSZ8DqaLGjgA013TE2cwbCkDkPFon-zBUyUn42Hz8DpdwrnIK7iIJtuBQkwLb_VDNT5ltsz2tZp3fJyGZV-RZDvYojgPjmaoyph-EdSgppwqADiBzg4lWEdi68brEGhOB9w3Fl99YaWsya7-FaCO-WmgGZDKKP8RA-s0eDvemkgTtiP7HYZRA88pWcwL-a8L0N9NTtKYrAO1WUq1aZ2o",
+      "summary": []
+    },
+    {
+      "id": "msg_0db121254553fa51006ae0d93ad5e887d2b06094db90881b9e",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P07\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"ErBioBench fictitious biological agent\",\n      \"agent_id\": null,\n      \"classification_status\": \"unclassified_not_implicitly_group1\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"ErBioBench fictitious biological agent\",\n      \"questionnaire_id\": null,\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"La información de exposición aportada no permite sustituir ni resolver la clasificación reglamentaria.\"\n      },\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": null,\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": []\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"not_resolved_no_reference_level\",\n    \"agent_aggregation_status\": \"not_resolved_unlisted_agent\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"El agente no figura en el registro legal consultado y no queda implícitamente clasificado en grupo 1. No procede cerrar un cuestionario de riesgo frente a un nivel de referencia inexistente.\"\n  },\n  \"professional_review_required\": true,\n  \"sources_or_basis\": [\n    \"ERBioR reference output: classification_status=unclassified_not_implicitly_group1\",\n    \"ERBioR reference output: source_rule=UNLISTED-NOT-G1\",\n    \"ERBioR reference output: professional_review_required=true\",\n    \"Caso: no se aporta clasificación legal del agente\",\n    \"Caso: la información de exposición no permite sustituir la clasificación reglamentaria\",\n    \"Caso: no procede cerrar todavía un cuestionario de riesgo frente a un nivel de referencia inexistente\"\n  ],\n  \"reasoning_summary\": \"El agente comunicado no aparece en el registro legal de ERBioR y, conforme a la regla UNLISTED-NOT-G1, no puede asumirse como grupo 1. No existe nivel de referencia resoluble ni base suficiente para estimar exposición, cumplimiento, probabilidad, GRB o clase de riesgo. Se requiere valoración profesional.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1052,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 642,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 1694
+  },
+  "user": null,
+  "metadata": {}
+}

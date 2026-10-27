@@ -1,0 +1,109 @@
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "ERBio general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La exposición indicada en el caso es 'Frecuente' para ambos agentes."
+      },
+      "compliance": {
+        "percent": 39.58333333333333,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": "No determinable con certeza sin la regla de conversión ERBio para probabilidad"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Requiere valoración profesional específica para traducir el cumplimiento al nivel de probabilidad y riesgo ERBio."
+        },
+        {
+          "item_id": null,
+          "action": "No es posible identificar controles incumplidos concretos porque el caso no desglosa los 29 ítems negativos."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La exposición indicada en el caso es 'Frecuente' para ambos agentes."
+      },
+      "compliance": {
+        "percent": 39.58333333333333,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": "No determinable con certeza sin la regla de conversión ERBio para probabilidad"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Requiere valoración profesional específica para traducir el cumplimiento al nivel de probabilidad y riesgo ERBio."
+        },
+        {
+          "item_id": null,
+          "action": "No es posible identificar controles incumplidos concretos porque el caso no desglosa los 29 ítems negativos."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No procede agregación silenciosa; el cuestionario único se aplica a dos agentes con evaluación separada.",
+    "agent_aggregation_status": "No agregable: los dos agentes deben mantenerse como evaluaciones separadas por indicación expresa del caso.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "La clasificación reglamentaria y el nivel de referencia de ambos agentes no están resueltos con la información proporcionada. El caso no aporta la tabla/regla ERBio para convertir cumplimiento en probabilidad, GRB y clase de riesgo. Tampoco desglosa los ítems no cumplidos, por lo que no pueden identificarse controles específicos incumplidos."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Agente 1: Actinomadura madurae (BIO-BACT-0001)",
+    "Agente 2: Brucella melitensis (BIO-BACT-0028)",
+    "Exposición para ambos: Frecuente",
+    "Cuestionario general ERBio: 48 ítems",
+    "19 respuestas Sí y 29 respuestas No",
+    "No existe autorización para promediar ni colapsar silenciosamente ambos resultados"
+  ],
+  "reasoning_summary": "Se identificaron dos agentes y se conservaron como evaluaciones separadas. La exposición es Frecuente para ambos. El cumplimiento se calculó solo con los datos dados: 19/48 = 39,58% (sin ítems N/A). No se pudo resolver la clasificación reglamentaria, el nivel de referencia, la probabilidad, el GRB ni la clase de riesgo porque el caso no aporta esos parámetros ni la tabla de conversión ERBio correspondiente. No se listan controles incumplidos específicos porque el caso no desglosa las respuestas negativas por ítem."
+}

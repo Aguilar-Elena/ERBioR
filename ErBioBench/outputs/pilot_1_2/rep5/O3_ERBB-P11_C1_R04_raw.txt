@@ -1,0 +1,67 @@
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio (Cuestionario general ERBio)",
+      "exposure": {
+        "category": "frecuente",
+        "basis": "El caso indica exposición: Frecuente."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "control_status": "No"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Asegurar la limpieza/desinfección periódica de los equipos de trabajo conforme al plan preventivo, manteniendo la trazabilidad del cumplimiento del control."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "unresolved",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El caso no proporciona la clasificación/regulación del agente (grupo, nivel de referencia) ni datos cuantitativos para estimar probabilidad/GRB/clase de riesgo, por lo que esos resultados quedan no resolubles con la información disponible."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P11: Agente Brucella melitensis (BIO-BACT-0028).",
+    "Exposición: Frecuente.",
+    "Cumplimiento: GENERAL-F2015-020 = No; el resto de ítems = Sí.",
+    "Contexto: se cumplen todos los controles generales salvo la limpieza/desinfección periódica de los equipos de trabajo."
+  ],
+  "reasoning_summary": "Se identifica Brucella melitensis (BIO-BACT-0028) y se asigna exposición frecuente. El único control incumplido indicado es GENERAL-F2015-020 (relacionado con la limpieza/desinfección periódica), por lo que se proponen acciones preventivas para cumplir dicho control. La clasificación/regulación del agente y la cuantificación necesaria para GRB, clase de riesgo y probabilidad no están disponibles en el caso, por lo que esos campos se mantienen como no resolubles."
+}

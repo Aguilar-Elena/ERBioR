@@ -1,0 +1,102 @@
+{
+  "id": "resp_0ef11e9d0136a3d5006ae0d37d7c3487d2a68022f7da9e54ec",
+  "object": "response",
+  "created_at": 1793119101,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793119129,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0ef11e9d0136a3d5006ae0d37e31a887d2a78dcc3fee8aac3b",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4NOZRIWd6fIs7XyYAApdkkEzcL3jIRbJrssMV0Y4DGvod533GDC3ffekGv2lj16w9tu-Whcm-EZ_b72ceTvcQl_Ogs8ypqGgTjksEgtIUhlVEiRl84fQvr0A2AKH7KzuJ9cia6fnA6JIJoaRLmKhkV37yvYGIiCPknfFQe9hYb333nRUi2Sr0ULIqZGwI4tICJSqT0EoTR3FIvc4CjrMjOt9LubsxmO_NkoLzWMsy9DkKtjtn8CuKK1efuyTx275GsWxSpsVhuDfVuzC2rllutpUVHvwWb9OxnNUn1QkZ7YVjzx-DH0WadRlZ4gcCRHDmOdsQ2aPPt4Qs7HegJp0hD9ZsnWBpWIf1HhgzsTFQ9e2Dj5bei6BOJOFh4rIhzIb4fmwZpzBrTaJbs5_0ycYTdP39OVy04iSU6Iyuv39kHHGWXrxslMZn6eDoeo7NzeIw3RJILB5kfDnrK5t-dgOrWAbtfU8kVxKkInAa4QzN3hehag3SpfcJ4fUrlpuHGYzXdxI_ChoN2MGpr2Uv2dI0CBmqPnIcwEZakjPyf886eBcavXVHm70eUJEdRb2AWF58sC8NboZR5AoACiXnzGJwqqKwMqnDETJ6nyKkB8_oyG0lZ2hbduOyZVgUUU6wo0LXZd7SMz6IY2SuvlOJZfigOIhAvxzswxgiWspMBLcyEa6EoDfk5IO8awObFGubviaNJNFF7QOMM1BFm_mZ5FXMMrKBwO9UQTvPx6kD-snZ_CubduTyQ43ySQfqZdDb0UYwVAKFk3w6i32TZNJDXr8qPUUtc852GXmjy9IzaEmHchU9NX-PyVY-EXxhl5ppyw9JoZmk9C0FchSm9LlvznGyedok3olwrUuxgenlIXobI0LX1klyPSOUARsPRJsI4kon310wHdX-cPTqckIwyqjDM8qUFt1NY_8vCQvGVHOMH5t9dgKUNe7vfj0aNIDO4awdWW2_IWryNRdKnqkgGVf15yjUJ4zAaS-spTJ9bq0Ek1i_ntieslAn5aoo1FtmUAccHk3UpmHqXMItn3PD1RqqEX9nW74OfoSX4gdFvhPDT1Yw-NjMUZ7MZF7riJiYqzLFSCo2ruBuZiKYGJjn6eyWSFjwI2EWkmzOKwhOjF1RoUF38WHXSAbGqjYMrQER3edTaY6zJhTmW2TzjGkNE90LZvDWfmBpbXc7SxdP5HAqSuCFzhJ6ftYCEVr3A5gr6ZCvDO_ck4WileS1ANGFmiPesTGdh3DiMw4_9YqG-DFwf4zQIWR7yzQsBxYmwGEVeh5xrZQcDiZ6ZKd5NDQTGq2nlrGfha71m7cEI2I8trjtEQFVTQtFXaxX0ibtxDfwpw67U4hPgsD_dmdkI_rnWrvKOoP2LxZ2BYkPHhrpcBNMz1kummC-jiUjGZVRwY8Qn6j6tvCnviaU8XCEPJKLONJJSARkqRLf_d5Z7cQgL4ogJCC0yrGGOLq2eS1WRkaOGP5MF23ET6Wb2l5CQcxSP7g2r_3tFjxKlixZEz5kc7l3x0KNpxbtaaem19IGq2WvaJeJwcW1hzZ7k94zg_M2JGUsPYSDBG8QDTEYeUjTL0KPEqgyt6fVccOtXh3b4auoEWu9HnS0pYt3ejdJadvo0NXqm03jtTqBCSDojBHozyjt3X3SUPEkcyENN1Wtiu8oRUs2h_5hNsSe-qWZPwgbB2PxCmqq4pquq9XwzXqpcI4UPLhS9iXNQBYNoCWUnKYmU2_--HgvsJ5ZT6AqHOk5U5IFSIfRJRvwXxPjuOyOO4DzX9SF3z4EeMISB1keDGxIN_iZgz7mmzcWifS7PxVaZC9OmYk5i6kc_rib7_pUtcUqLL9XAW3xPjmMxTpqm8VgQAI3X5nIX0PSJD0cThidx7_D5x9WYvcV9TX8Pd2urlEJmk8xETqfpncpOG1HGeS0eSIhaAYfPTmdH0F-bC68lVTlhyNZnw2HvvOfcMq9uL2DYF2r9WYAV5sxIaXt6eX8QPtWesia1nVl7pBenqUHiEDEtGO01yaLh--qaneJXjpSSCIYETe69ZzWUUh07Mv4QTQvXVUKVnHCb6jhyVWLqkFcZSABZEOZqge8mjZy9z48NyddqUxVVXvMa1UvYfnUOuGxmZMl3wL9GfeUueIlKWpy01p8eQ_ii7ns1fEnBAfUnGKv0nCP0OPyeuEZTT0MRIhQbXO0xhib7wPI239OJnrfd-M3-XcFoJaetJTddBMsBiKN3KMpowy76PpE9XerqCkEOGF_3qsTx9pLsMUnQZUUyadftee3aRbXBoPvOJ3Nenyy4nAjVD6JL1ZAYuqbRF7p8MxTEER7YAQ3hQMOWyuSSBaD1HWyI3qHPfD40oE47_-COip8Bn8Hdz1ic41QqlhbSDj0UU1hQHV1XdNvnYTT9guJNzGZN8rJcXU75RCcHUDh9HXEF6SzkV7h0NyGBrTTm7bgKTeSVZEf_Sm_U361qjlnntoP3vgen0wK_fdojVcTZpIdCBfSKQ4Fu1XWInP_m8PRtytvs3He3n4WqL6uhL7NwIlxhvvvQJbF6YPsDRKoxo_p9upYWZMV3IlI7yuc4tpwt1ZXMstHuaRBHZSzwec1iCb-8sW9iNHFlawDyW3_0NJ-fzhilqs0XEnIoyZ6mh3ZBMs2oIEqYRRRS3_i-vfFabkJ8ukASAl_RQlcqzFDLo-xZWJgo6xX6RoortKEtGYBui4LhrOYPZiexBqBydVSQgfnGRx96zvSpDiiuFXm1DSS23zYlJKAQw3xXDAaJn2ZpuR18UBRSW74T7bvv_CxAUGvEuX_HIWt_pk0TYXtKkfreVXqRv4IsPx6XdSDp6BxIRCKmEHDcAXAZ7AhW8I27xUeBbRuDwy3gpuGbOsTJd4Kyy-eqcwODT2ZzfdNMKWatPs3fi-fgG9IWibZGuhAFtlAqQO2DZf7IpBKtwy9AqQ6AqQVAAruTImvVWRRZcK7XS6NGywHMTrf8OCBUVgVslIz4oeo5juVB3BMJEch4othBJK1awRyvupteIS0vDwNtkqJiPh_yukTGfiMnmunZrPhtjKYefvwvmlCqW7L5T0dVarWnLUv1TJtrcNSofkwJV6iWG3MY9wXfo7txgW-AoBzbySor2oHqIWIKOt6Gt7iCuH3fXoCClVFs48LOeo",
+      "summary": []
+    },
+    {
+      "id": "msg_0ef11e9d0136a3d5006ae0d380b25087d2af3f3726a5de943b",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P12\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"audit\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición común indicada en el caso.\"\n      },\n      \"compliance\": {\n        \"percent\": 96.875,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 32,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n      \"failed_controls\": [\n        \"AUDIT-F2015-004\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición común indicada en el caso.\"\n      },\n      \"compliance\": {\n        \"percent\": 39.5833,\n        \"class\": \"Deficiente\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Alta\"\n      },\n      \"grb\": 9,\n      \"risk_class\": \"Importante\",\n      \"failed_controls\": [\n        \"GENERAL-F2015-020\",\n        \"GENERAL-F2015-021\",\n        \"GENERAL-F2015-022\",\n        \"GENERAL-F2015-023\",\n        \"GENERAL-F2015-024\",\n        \"GENERAL-F2015-025\",\n        \"GENERAL-F2015-026\",\n        \"GENERAL-F2015-027\",\n        \"GENERAL-F2015-028\",\n        \"GENERAL-F2015-029\",\n        \"GENERAL-F2015-030\",\n        \"GENERAL-F2015-031\",\n        \"GENERAL-F2015-032\",\n        \"GENERAL-F2015-033\",\n        \"GENERAL-F2015-034\",\n        \"GENERAL-F2015-035\",\n        \"GENERAL-F2015-036\",\n        \"GENERAL-F2015-037\",\n        \"GENERAL-F2015-038\",\n        \"GENERAL-F2015-039\",\n        \"GENERAL-F2015-040\",\n        \"GENERAL-F2015-041\",\n        \"GENERAL-F2015-042\",\n        \"GENERAL-F2015-043\",\n        \"GENERAL-F2015-044\",\n        \"GENERAL-F2015-045\",\n        \"GENERAL-F2015-046\",\n        \"GENERAL-F2015-047\",\n        \"GENERAL-F2015-048\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-021\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-022\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-023\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-024\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-025\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-026\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-027\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-028\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-029\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-030\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-031\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-032\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-033\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-034\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-035\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-036\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-037\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-038\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-039\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-040\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"workers\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición común indicada en el caso.\"\n      },\n      \"compliance\": {\n        \"percent\": 58.8235,\n        \"class\": \"Mejorable\",\n        \"n_applicable\": 34,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 2,\n        \"label\": \"Media\"\n      },\n      \"grb\": 6,\n      \"risk_class\": \"Moderado\",\n      \"failed_controls\": [\n        \"WORKERS-F2015-021\",\n        \"WORKERS-F2015-022\",\n        \"WORKERS-F2015-023\",\n        \"WORKERS-F2015-024\",\n        \"WORKERS-F2015-025\",\n        \"WORKERS-F2015-026\",\n        \"WORKERS-F2015-027\",\n        \"WORKERS-F2015-028\",\n        \"WORKERS-F2015-029\",\n        \"WORKERS-F2015-030\",\n        \"WORKERS-F2015-031\",\n        \"WORKERS-F2015-032\",\n        \"WORKERS-F2015-033\",\n        \"WORKERS-F2015-034\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"WORKERS-F2015-021\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-022\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-023\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-024\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-025\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-026\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-027\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-028\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-029\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-030\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-031\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-032\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-033\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-034\",\n          \"action\": \"Corregir y verificar el control incumplido identificado por este ítem.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"source_rule_unresolved_for_discordant_questionnaires\",\n    \"agent_aggregation_status\": \"single_agent_no_agent_aggregation_required\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Los tres cuestionarios producen clases discordantes y la fuente no define una regla general para agregarlas; no se establece una clase global.\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    \"Información del caso ERBB-P12.\",\n    \"Salida de referencia ERBioR versión 0.9.0.\",\n    \"Cuestionarios final_2015_annex1: audit, general y workers.\"\n  ],\n  \"reasoning_summary\": \"Se conservaron tres unidades agente-cuestionario independientes. Con nivel de referencia 3 y exposición frecuente, ERBioR obtiene GRB 3/Tolerable en auditoría, GRB 9/Importante en general y GRB 6/Moderado en trabajadores. La discordancia impide asignar una clase global sin una regla de agregación definida.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2690,
+    "input_tokens_details": {
+      "cache_write_tokens": 2687,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3105,
+    "output_tokens_details": {
+      "reasoning_tokens": 124
+    },
+    "total_tokens": 5795
+  },
+  "user": null,
+  "metadata": {}
+}

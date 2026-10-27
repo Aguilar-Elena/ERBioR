@@ -1,0 +1,61 @@
+{
+  "case_id": "ERBB-P07",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench fictitious biological agent",
+      "agent_id": null,
+      "classification_status": "unclassified_not_implicitly_group1",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench fictitious biological agent",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "La información de exposición disponible no permite sustituir la clasificación reglamentaria."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Requiere valoración profesional específica antes de cerrar el cuestionario o asignar nivel de referencia."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_applicable_unresolved_agent",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El agente comunicado no figura en el registro legal consultado; no puede asignarse grupo reglamentario ni cerrarse el cuestionario con la información disponible."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "ERBioR reference output: unclassified_not_implicitly_group1",
+    "ERBioR source rule: UNLISTED-NOT-G1",
+    "Caso: no se aporta clasificación legal del agente y no procede cerrar el cuestionario frente a un nivel de referencia inexistente"
+  ],
+  "reasoning_summary": "El agente comunicado no está registrado en ERBioR y, conforme a la regla UNLISTED-NOT-G1, no se clasifica implícitamente en grupo 1. No se dispone de base reglamentaria para fijar grupo, nivel de referencia, exposición cuantificada, cumplimiento, probabilidad, GRB ni clase de riesgo. Se mantiene la situación como no resuelta y con revisión profesional obligatoria."
+}

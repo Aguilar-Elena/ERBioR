@@ -1,0 +1,114 @@
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2) (1)",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2) (1)",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición reportada como 'Frecuente' en el caso."
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": null,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-041"
+        },
+        {
+          "item_id": "GENERAL-F2015-042"
+        },
+        {
+          "item_id": "GENERAL-F2015-043"
+        },
+        {
+          "item_id": "GENERAL-F2015-044"
+        },
+        {
+          "item_id": "GENERAL-F2015-045"
+        },
+        {
+          "item_id": "GENERAL-F2015-046"
+        },
+        {
+          "item_id": "GENERAL-F2015-047"
+        },
+        {
+          "item_id": "GENERAL-F2015-048"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Priorizar la corrección del ítem 041 por incumplimiento identificado en la valoración."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Priorizar la corrección del ítem 042 por incumplimiento identificado en la valoración."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Priorizar la corrección del ítem 043 por incumplimiento identificado en la valoración."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Priorizar la corrección del ítem 044 por incumplimiento identificado en la valoración."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Priorizar la corrección del ítem 045 por incumplimiento identificado en la valoración."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Priorizar la corrección del ítem 046 por incumplimiento identificado en la valoración."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Priorizar la corrección del ítem 047 por incumplimiento identificado en la valoración."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Priorizar la corrección del ítem 048 por incumplimiento identificado en la valoración."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "matrix_assessment",
+    "agent_aggregation_status": "matrix_assessment",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    {
+      "basis": "ERBIOR reference output (version 0.9.0) para ERBB-P13, agente BIO-VIR-0064, cuestionario general."
+    }
+  ],
+  "reasoning_summary": "Según la salida de referencia ERBioR 0.9.0 para BIO-VIR-0064 con exposición 'Frecuente' y cuestionario general (83.3333% de cumplimiento; probabilidad 'Baja'), el riesgo resultante es clase 'Tolerable' con nivel de referencia regulatorio 3 (mínimo 3). Se reportan incumplimientos en los ítems GENERAL-F2015-041 a GENERAL-F2015-048 y no se requiere valoración profesional adicional."
+}

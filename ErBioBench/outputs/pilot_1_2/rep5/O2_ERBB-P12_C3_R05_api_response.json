@@ -1,0 +1,102 @@
+{
+  "id": "resp_01a00d9dd395223a006ae0db7b28e487d2b718a55690cd9dd9",
+  "object": "response",
+  "created_at": 1793121147,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793121162,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_01a00d9dd395223a006ae0db7bba7887d287e2543d2519b0ef",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4NuKE2JJW_K_SHnIbw8cT5VFee7JMPS1GhgucssfqwtF0OTOr5BmgYiDpcW-Pv0IDJ4uUS-YXgLuR8gwvAM2fLuemJ2m5AV72_nBmIRyZStbTI6gLwisoTP2V7j0Iu6P0djEpjmVhwji2XBa1NM-Z3H4kVIQU9LGsoen7oOabz58p-kEVanSlMtxDbvRdOrC1_0esofL60fPIh-MKBUHuq2NMmeO905EYbMcjxEq0JRIhE01Hs3QwTjgr-_-441PuFW5pAgjkC3ehSCB3k2iTNtcgO7voSL58UbkqzRNKaQJIOM9uyeNt_CRWnkcrsL1PwVmYJCtlbf_4WppFfuiD9ayATMhGM_hZngPwvV4Vp3DLee5kzBU4_LU0R6DQ9icgNcF9ILJLe2xUPcOCatKi__zbz-WJV4KIoYrpXPpiYGXZCkEDArfhdpP1ym4nlaXgklEhYcZ4aAbpWCrx7NP6mXkrI-61fJ-QflzAn61uFGYyS0rN_9u1Y6kvFzeba6Uh_-xotXRU2uDKL8j4XAjfP_YS0ixmGtSFZDAfFA13sFeBqJMk5tuyyKDI2tDCEcuPASjPhjGoUck9nen3DFHJ_LvHlAWMC7VJs1drwzi3qaQUQxFoYKVoLD3tUXzprKdCcfANkltZTrZaR5eWGZOXa8ltuHbqWsDUmzlk1z8b4bUeoauQXZF9qJW0Z2zoXpFUmTaifI75BHQrHuD5n1HFFL6eYc2gh3SJgtQEVyAqAa35w32aKr6bk_JUg_ey4bReiq-_ZtZEm1bTtqIbRc-RpU03QHhJFwpMg_6Z4qpzZ-IidRyipR0DdIJ74ta7gJpj0u_EtpwrmCEbfL97HdydA2RSjjLsIymj2Jud7Wzx2ARUbvfBUqW3el9j415KgOH1-sIGxb4azf8-anPpxz53laa8SKj0dgmrcAEICSNLAqCG-afjkhAhbIKWQW3ASx_9HfYMomzWAQdSFU4m_5EhMO33rN9s4jkB1GxiPOYcxcJr9y93z2irj9vdD5Mf9lqxOr_mRX_zJWbWqUnQg4yyvsPcXAaT_XYNyPZGR01g_tKYtq0butD0OEt8CI0Wl3f3UA0b8V9alk46xme8-Gl-3gkKaSWuSzv-Sga8tZDKGquEC1PKB1giAhxRsH4HXb-lcUYs9u7LaIFzdrLcgb5XMxCxNf4RhqtfEFfQKQVXOsZ28NiZ3BhvkaE5c_jQAOE62YTp3oC2MZg6F02uU0eC-6TZi85B_vAnW71EakqY7vkMW6HzuoeYx3A18-yUPCYNsQs1ZqA15SOI9Nfn8BTv9uaJtIfpZ9g25ysVf75TUkRo2oMvMU0Xzvr7We0PlrZmq8qBZvDLQcGjGf7l2LlcajjDQuqOqou4EGwwFC0hgZ45VnFhvyhTpSUCPvxBL_46N7Rhy0JhD5bCWHmnM9KKIwzZ8m3IYDhdDbU_OCqI-zpmLL_YsZ_v6reg0WrVhjsAfPftlNGvjFVzqjbHfAfT0Iq0wy2zuENVFHrlpqbuv2HRG4Qpne4_NgF3lKseqk2eYcg9g0KQPV1ElhUc0d-FMmW_B8O9G5k8oJWKvItyaccpD6JmXpy07BMd-XAh4d3HEsDPXC-dUL7CzKarjUbx56RVEpzl2e11AzJ-t2mrQD1uxHL1MEnp1v9oEwWpt294oPnj5nWeD36wo00DLCkz56ReGuiXg6Mvw_7veGvpIrxYdmohlUUNOpoMJ07qN-rX4X2ZnRAadUyiuS-A9HhLDh8HACA8BFsDSGElehX21nJRH_yewfLLG77VCMxD2M1kXomOFMm-DXiHabUKpH5--7izn6txp7URQ4a-lySlpDZ-xWdiP4euN0CWv6t6p8RyjRNEET4cWLJWFnq2lvmGTvCnkB6CNbkPU8_MmTyXB79E_z0txFI0WJFQxWhad4oBUCOAuR5sAEjqsFHPmtskR4hUPu7hsIvKYrcM9u_lQegvWPXTpb0yJ3CG6-qgfU4FV_KvOi5DouAucacFWlbwk4rm-sH-kdwqzulyXb8SaHUz-qAUZQxDxogngT5mK5ou_X0zgvn1Qoc7_mMqckNRfvYDtPY9neqjwOV8XF5vBwdDi7A8pkNgXNtYFTe2dCgymfEUIB-G3VLVZVhlOd5kbJKbavmd2zVHEXIfYsYpmWBo3SIix9rzkxy_lKkiCl7cXulqSElfyusryG8HoCc3vXxxh-fAo0qt1OLmyeMmN-yYt_HrLlaQolQCnAXAHHt1Kq5iPs8sYdDJuK-8lSpZg6W_ey40mWHfDR8-Ratkv65LHgQFpSj_Be-cNMpaK_eupCr1TBmfj6buSZIbW9qQVpXUvCzz2taZFsJhLDqff-lr4yu5UY5lzfNGNCwcbPlyMVPPDnRCa6bCN-yktmvG8a_Efy4Vopok6uPQM2YGi1fGxELiyNUZCPfYQI9a1h7OxrI-8CS5U-U7mfJ-xYq-PG4Ql8pPXP_Fp_uBeaGzmXk3Fk=",
+      "summary": []
+    },
+    {
+      "id": "msg_01a00d9dd395223a006ae0db7c458887d2a3340339197299ca",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P12\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": 3,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"audit\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición común indicada en el caso y conservada por el motor de referencia para el cuestionario de auditoría.\"\n      },\n      \"compliance\": {\n        \"percent\": 96.875,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 32,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n      \"failed_controls\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\"\n        }\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"AUDIT-F2015-004\",\n          \"action\": \"Corregir el control no conforme identificado en la auditoría y verificar su cierre mediante seguimiento documental.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición común indicada en el caso y conservada por el motor de referencia para la valoración general.\"\n      },\n      \"compliance\": {\n        \"percent\": 39.5833,\n        \"class\": \"Deficiente\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 3,\n        \"label\": \"Alta\"\n      },\n      \"grb\": 9,\n      \"risk_class\": \"Importante\",\n      \"failed_controls\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-021\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-022\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-023\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-024\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-025\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-026\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-027\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-028\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-029\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-030\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-031\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-032\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-033\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-034\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-035\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-036\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-037\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-038\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-039\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-040\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-041\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\"\n        }\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-020\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-021\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-022\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-023\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-024\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-025\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-026\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-027\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-028\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-029\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-030\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-031\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-032\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-033\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-034\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-035\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-036\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-037\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-038\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-039\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-040\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Implantar la medida preventiva correspondiente al control no cumplido y verificar su aplicación.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": \"BIO-BACT-0028\",\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"workers\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición común indicada en el caso y conservada por el motor de referencia para la valoración en trabajadores.\"\n      },\n      \"compliance\": {\n        \"percent\": 58.8235,\n        \"class\": \"Mejorable\",\n        \"n_applicable\": 34,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 2,\n        \"label\": \"Media\"\n      },\n      \"grb\": 6,\n      \"risk_class\": \"Moderado\",\n      \"failed_controls\": [\n        {\n          \"item_id\": \"WORKERS-F2015-021\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-022\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-023\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-024\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-025\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-026\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-027\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-028\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-029\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-030\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-031\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-032\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-033\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-034\"\n        }\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"WORKERS-F2015-021\",\n          \"action\": \"Corregir el control no cumplido y reforzar su verificación operativa.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-022\",\n          \"action\": \"Corregir el control no cumplido y reforzar su verificación operativa.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-023\",\n          \"action\": \"Corregir el control no cumplido y reforzar su verificación operativa.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-024\",\n          \"action\": \"Corregir el control no cumplido y reforzar su verificación operativa.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-025\",\n          \"action\": \"Corregir el control no cumplido y reforzar su verificación operativa.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-026\",\n          \"action\": \"Corregir el control no cumplido y reforzar su verificación operativa.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-027\",\n          \"action\": \"Corregir el control no cumplido y reforzar su verificación operativa.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-028\",\n          \"action\": \"Corregir el control no cumplido y reforzar su verificación operativa.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-029\",\n          \"action\": \"Corregir el control no cumplido y reforzar su verificación operativa.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-030\",\n          \"action\": \"Corregir el control no cumplido y reforzar su verificación operativa.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-031\",\n          \"action\": \"Corregir el control no cumplido y reforzar su verificación operativa.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-032\",\n          \"action\": \"Corregir el control no cumplido y reforzar su verificación operativa.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-033\",\n          \"action\": \"Corregir el control no cumplido y reforzar su verificación operativa.\"\n        },\n        {\n          \"item_id\": \"WORKERS-F2015-034\",\n          \"action\": \"Corregir el control no cumplido y reforzar su verificación operativa.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"discordant\",\n    \"agent_aggregation_status\": \"source_rule_unresolved_for_discordant_questionnaires\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Los tres instrumentos se mantienen diferenciados y producen clases de riesgo discordantes; no existe regla de agregación global autorizada ni inferida.\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    \"ERBioR reference output v0.9.0\",\n    \"Caso ERBB-P12\",\n    \"Mantenimiento diferenciado de auditoría, valoración general y valoración en trabajadores\"\n  ],\n  \"reasoning_summary\": \"Brucella melitensis está clasificada con grupo mínimo regulatorio 3 y nivel de referencia 3. Se conservaron tres unidades de evaluación separadas por cuestionario. La auditoría da cumplimiento aceptable, probabilidad baja y riesgo tolerable; la valoración general da cumplimiento deficiente, probabilidad alta y riesgo importante; la valoración en trabajadores da cumplimiento mejorable, probabilidad media y riesgo moderado. La agregación global permanece no resuelta por discordancia entre cuestionarios, sin inferir una clase única.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2690,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 2560
+    },
+    "output_tokens": 3487,
+    "output_tokens_details": {
+      "reasoning_tokens": 73
+    },
+    "total_tokens": 6177
+  },
+  "user": null,
+  "metadata": {}
+}

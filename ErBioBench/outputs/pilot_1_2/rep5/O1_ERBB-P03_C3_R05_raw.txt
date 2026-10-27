@@ -1,0 +1,261 @@
+{
+  "case_id": "ERBB-P03",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 3,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría de exposición indicada en el caso y conservada por la salida ERBioR."
+      },
+      "compliance": {
+        "percent": 39.5833,
+        "class": "Deficiente",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 3,
+        "label": "Alta"
+      },
+      "grb": 9,
+      "risk_class": "Importante",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020"
+        },
+        {
+          "item_id": "GENERAL-F2015-021"
+        },
+        {
+          "item_id": "GENERAL-F2015-022"
+        },
+        {
+          "item_id": "GENERAL-F2015-023"
+        },
+        {
+          "item_id": "GENERAL-F2015-024"
+        },
+        {
+          "item_id": "GENERAL-F2015-025"
+        },
+        {
+          "item_id": "GENERAL-F2015-026"
+        },
+        {
+          "item_id": "GENERAL-F2015-027"
+        },
+        {
+          "item_id": "GENERAL-F2015-028"
+        },
+        {
+          "item_id": "GENERAL-F2015-029"
+        },
+        {
+          "item_id": "GENERAL-F2015-030"
+        },
+        {
+          "item_id": "GENERAL-F2015-031"
+        },
+        {
+          "item_id": "GENERAL-F2015-032"
+        },
+        {
+          "item_id": "GENERAL-F2015-033"
+        },
+        {
+          "item_id": "GENERAL-F2015-034"
+        },
+        {
+          "item_id": "GENERAL-F2015-035"
+        },
+        {
+          "item_id": "GENERAL-F2015-036"
+        },
+        {
+          "item_id": "GENERAL-F2015-037"
+        },
+        {
+          "item_id": "GENERAL-F2015-038"
+        },
+        {
+          "item_id": "GENERAL-F2015-039"
+        },
+        {
+          "item_id": "GENERAL-F2015-040"
+        },
+        {
+          "item_id": "GENERAL-F2015-041"
+        },
+        {
+          "item_id": "GENERAL-F2015-042"
+        },
+        {
+          "item_id": "GENERAL-F2015-043"
+        },
+        {
+          "item_id": "GENERAL-F2015-044"
+        },
+        {
+          "item_id": "GENERAL-F2015-045"
+        },
+        {
+          "item_id": "GENERAL-F2015-046"
+        },
+        {
+          "item_id": "GENERAL-F2015-047"
+        },
+        {
+          "item_id": "GENERAL-F2015-048"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-021",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-022",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-023",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-024",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-025",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-026",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-027",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-028",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-029",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-030",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-031",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-032",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-033",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-034",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-035",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-036",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-037",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-038",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-039",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-040",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Revisar y corregir el incumplimiento identificado, documentando su implantación y verificación."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No procede: existe un único cuestionario y una única unidad de evaluación.",
+    "agent_aggregation_status": "No procede: existe un único agente.",
+    "workplace_global_class": "Importante"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": "La clasificación del agente y el resultado matricial están resueltos por ERBioR. No se proporcionan los textos de los ítems incumplidos, por lo que las acciones se mantienen genéricas y trazadas por identificador."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Información del caso ERBB-P03.",
+    "Salida de referencia ERBioR versión 0.9.0.",
+    "Cuestionario general ERBio final_2015_annex1: 19 respuestas Sí y 29 respuestas No."
+  ],
+  "reasoning_summary": "Brucella melitensis está clasificada en el anexo II con grupo mínimo y nivel de referencia 3. Para exposición frecuente y cumplimiento deficiente del 39.5833 %, ERBioR asigna probabilidad alta (3), GRB 9 y riesgo importante, con prioridad alta y 29 controles incumplidos. ERBioR no exige valoración profesional adicional."
+}

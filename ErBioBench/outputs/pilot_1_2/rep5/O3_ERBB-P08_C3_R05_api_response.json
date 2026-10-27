@@ -1,0 +1,102 @@
+{
+  "id": "resp_00cff8a08a231d75006ae0ded9ebd087d2b55748154e2acc22",
+  "object": "response",
+  "created_at": 1793122009,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793122014,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-nano-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_00cff8a08a231d75006ae0deda628087d2967b7b434694b820",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4N7eQfXc62LEVJFUjx2ZlW7ZiKQJUw-I6oXgByc8BvnV-8jwQie0yk4rm5EGDdX64WgBqk_cTS0DEo7sMWq2hWnhq6RIWsUNW--w3ue1vmZQnoy6tK8F7O3SAR2LV95FGA9NtHRM0vZaEN-mCugEPDj50AOUdNJBFlLja0YRBeQotvuDz7jz4ddBaCcppJ2T_CdpX1sfFilqmcsApxLCDBagpOhQr06RtK7NtH85h9UgA4DYv3Hqus0HpKNQI7ktbbD8V5Wn52ImLudZeGT5AQZtyBOdwnvEZPBXt8zZSeVKJXPAvams5KvG9XK3zZ38RTIE3bkkyAIouKxm-O29EXNq06BPki-ZQBDOChByD1f1qUIzdL7EKh83beeSSYLea657-N5PJAu_qBbepD4HeqlmZ5jVGOlLagypBZbPl3hg55E8TwRPRn7XTYj_5W4vrH1pt8RvifHId63Fj1Ms4sW_laVeFe0z1qNkQaKlKQv6HTDVFWdpW9qZHaYdsga9j069H_dkZWUSCIsxQiIcD1fVkkG3tHXWlirpdS8IRn-i_w7QlYydWJEEG6xIgEvzG_UuCGrPh7vsyjbeEhzWp8YaPvHdynB7WmfvoBy43B1hf3rbO0gzfEKW_EshAsAknllsrPGSeDjKvRNkn6pvi0URhKy0imL7_tmlfCuzcT33T03qVyN4FgUAiOb69IfpRKl_Z4r0dcO9xj-QnG_dU-RPcNtapyux1tP2ozzMfUTisAapwDFl2FZk3PE2Nmzq9UdMrlKb9dQGaAIh2W30V3fXM0eEejTco87R6CVncEvK87QFF2_FTS0farzisjCPUo-IT3rn4m_oSCdOWzNSHRBAqkJV_i9PAvjHBzT2Z19cHUos-FF99lUHfjW3G15OH5h0aEG09e5fUOfp9_M-NfGPgiUolw8RUtP_GDHH6H1MUBu2Z_zHeANS0IH5T_qyhhm88QSrjEK1hIvxBYWpC8hGan4cgW0u1cSZDH4fvHpadwipAattKX-crzkXsGznv4cR4A81mjYchPZxxHc9stO5PXzWM8BWJgocix3qn5C-r9sX_d83B6BKfzEH8031eK_nOXFbpDkZIA65HrrRnuZSkuhUaomcZAveu_SVXRwDQBFnh68EOcULrqW2zRngGDh3DOhFHmC0IIHSHKf35W0Zu5O-d3uVl8lg8y5rPe7_d3nW2U7PUrBzZYBP2foexVv05RcnPQzpwR6RJfl7bowM__wOQqX77lXnj1_9AkCYLKol1sGqDdfNm2kP21IrWjwkA5dr9Xqh1OmM3MgB6pOZu8vU00NKFGGXX-_AuTqlpCVnQadeb_q3EBw4PQuiu5D_b71gTjpXkaVRlakhz33YDPcm0AwWFR_CqXEqyBnAWMURhKWZ3LR2kLWFXh_G50UsY331CwfICBKbw6ahzDY4jS0lKT6D8dqvo4Q_9_KP6dJqPHgnsZOZUcCrP0dg4pv_agWciiLnyEZClHTkVGIt-0crGBFSy8yLG1DXBqqviEY0EzBuaQ7gN4911mIVERRfsu51SZXpTDbsWd_ackTZUKCmge--bFCE9ynYcUqKgtV13KdqbJHf6Ozs8jFRIvVx0AYu1whQbPiPMzKykprRqHzPmV59pizWPC_jVBm-wggfvWssyvO9pMzI2FuXDUK5N6MXcI7PalPy2Lf8B3HgJa-89rAJ4qURDCqNxqqU-_9oveq6Fdqnz4GV1MFngbO9FxDGAVH4ubaVn59HXG2OHSun1uIfcB55KtuH5W4W3QoxECo_M5ax3nhy-n5ab6KxtcQi9VPF0MS6BN8VQvQB57LpUBxDIobuW8UwiWyOh_4y0il8cdxzX9RV5OPWU_JZapS8mceOAg3ZgUoxUeO_lFDk0W9qpCG7l6OdLrGCwSVU4GmSDru9PA9TUH1xAhjRRYDwl6l50kdISFJ7_IjWGglJR3EU57EugYACG0SpN_DC2UzaT9DausnvbuW4MqLD2rCjpVamy40exCgkMpC28bm_C5gFF6kHm76rAVLQHmPt0d0eokQcrW3i6LrIKz82tNdCCMACd09k6mcJh68qZ7ElrJo2--zj7D9orA5PtibQWzgT5KD5D7IJVBat49pXz8Bm6Kll4Tz5WgKF2d594urTRBouuK02vQ3cGS9SiR1b8JY7mMlFCBCAbfTmeiqsV-fhkpu2RB6loFouHMLReBUmM1PbdOCYaJaqdxv7lXzYLJxvUBgqodu5FweFUEmB9t8GGQaO58vh1wsVhNn16iBfBn_sPl7GG80FXJ5hX-U4N-PTNZACirAflirMi8YNXYn73aA2Iby5lj4t0TmD7jaJ5EMbgrLOKsRYN-RH6MaYY5kdtvj-seWUO5KDnH_kqp1bBws6fgKrgrNygRoQVxHbjZ5Y4CykNQI9F_gBDyQA3Wu-4-gKbM8-2cFa1Gl1INqYvtR8WS6DAcKBuqDSj5oMBcl5xF9EuUpHZLxZTXkm71Il4TuH9yrW_y1n6mFBI7nZwPCLb4s0XA9eMVsDU-JeWlx2fpqT9_-HOxqcIS1-MKp_cXUJjsNUKYK5CE4U0hV0Iodv6GHXdCLGncctWQQwmOoH0RDiOmatLSOHtU0zCKXpSeRbWlMZ_9U7gMk2P-dn3RMMNhb53sApBM9d7Cl4POxXfRGui8EL3xNQHThtZkFv7QzVaU5tiWG4eN9nOAioO9_rT0mKW0MCaFfoEA==",
+      "summary": []
+    },
+    {
+      "id": "msg_00cff8a08a231d75006ae0dedaf75087d2aa8cdf21dc26b61f",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "```json\n{\n  \"case_id\": \"ERBB-P08\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"ErBioBench hypothetical human virus\",\n      \"agent_id\": null,\n      \"classification_status\": \"unclassified_human_isolated_virus\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 2,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"ErBioBench hypothetical human virus\",\n      \"questionnaire_id\": null,\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"El caso no aporta información de exposición ni una clasificación final; únicamente se indica que el virus aislado en humanos no está evaluado/clasificado.\"\n      },\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": null,\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Aplicar el mínimo regulatorio del grupo 2 y completar la evaluación profesional para establecer la clasificación/nivel de referencia final y el alcance de controles.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"unresolved\",\n    \"agent_aggregation_status\": \"unresolved\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Clasificación final/nivel de referencia no resoluble con la información del caso; el ERBioR indica incertidumbre regulatoria y requiere valoración profesional.\"\n  },\n  \"professional_review_required\": true,\n  \"sources_or_basis\": [\n    \"ERBioR reference output v0.9.0: rule source_rule=HUMAN-VIRUS-MIN-G2; mínimo regulatorio grupo 2 para virus humanos no clasificados; clasificación final requiere evaluación profesional.\"\n  ],\n  \"reasoning_summary\": \"El virus está aislado en humanos y no figura evaluado/clasificado; según la referencia ERBioR, se asigna como mínimo regulatorio el grupo 2 (HUMAN-VIRUS-MIN-G2) y la clasificación final (reference level) no puede resolverse sin valoración profesional. No se proporcionan datos de exposición, probabilidad, GRB ni controles incumplidos.\"\n}\n```"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1060,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 670,
+    "output_tokens_details": {
+      "reasoning_tokens": 90
+    },
+    "total_tokens": 1730
+  },
+  "user": null,
+  "metadata": {}
+}

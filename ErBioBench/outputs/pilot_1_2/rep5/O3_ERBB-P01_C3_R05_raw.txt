@@ -1,0 +1,119 @@
+{
+  "case_id": "ERBB-P01",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición laboral diaria; caso indica 'Frecuente'."
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": {
+        "risk_score": 3
+      },
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-041"
+        },
+        {
+          "item_id": "GENERAL-F2015-042"
+        },
+        {
+          "item_id": "GENERAL-F2015-043"
+        },
+        {
+          "item_id": "GENERAL-F2015-044"
+        },
+        {
+          "item_id": "GENERAL-F2015-045"
+        },
+        {
+          "item_id": "GENERAL-F2015-046"
+        },
+        {
+          "item_id": "GENERAL-F2015-047"
+        },
+        {
+          "item_id": "GENERAL-F2015-048"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Corregir el incumplimiento del control identificado en el ítem GENERAL-F2015-041 según el cuestionario ERBioR."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Corregir el incumplimiento del control identificado en el ítem GENERAL-F2015-042 según el cuestionario ERBioR."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Corregir el incumplimiento del control identificado en el ítem GENERAL-F2015-043 según el cuestionario ERBioR."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Corregir el incumplimiento del control identificado en el ítem GENERAL-F2015-044 según el cuestionario ERBioR."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Corregir el incumplimiento del control identificado en el ítem GENERAL-F2015-045 según el cuestionario ERBioR."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Corregir el incumplimiento del control identificado en el ítem GENERAL-F2015-046 según el cuestionario ERBioR."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Corregir el incumplimiento del control identificado en el ítem GENERAL-F2015-047 según el cuestionario ERBioR."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Corregir el incumplimiento del control identificado en el ítem GENERAL-F2015-048 según el cuestionario ERBioR."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "matrix_assessment",
+    "agent_aggregation_status": "single_agent_unit",
+    "workplace_global_class": "Tolerable"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    {
+      "basis": "ERBioR reference output",
+      "version": "0.9.0",
+      "benchmark": "ErBioBench-pilot-1.0",
+      "case_id": "ERBB-P01"
+    }
+  ],
+  "reasoning_summary": "Para Brucella melitensis (BIO-BACT-0028) la salida ERBioR clasifica el agente como 'classified_annex_ii' con mínimo regulatorio y nivel de referencia 3. Con exposición 'Frecuente', el cuestionario general arroja cumplimiento 83.3333 ('Aceptable'), probabilidad 1 (Baja) y riesgo score 3 con clase de riesgo 'Tolerable'. Se reportan controles incumplidos en los ítems GENERAL-F2015-041 a GENERAL-F2015-048. ERBioR indica 'professional_review_required': false."
+}

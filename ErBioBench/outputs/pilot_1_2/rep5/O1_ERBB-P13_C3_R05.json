@@ -1,0 +1,97 @@
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2) (1)",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2) (1)",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría de exposición proporcionada en el caso y utilizada por ERBioR."
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad preventiva."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad preventiva."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad preventiva."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad preventiva."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad preventiva."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad preventiva."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad preventiva."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Revisar y corregir el incumplimiento identificado, manteniendo trazabilidad preventiva."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No requerida: existe una única unidad agente-cuestionario.",
+    "agent_aggregation_status": "No requerida: existe un único agente evaluado.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": false,
+    "description": "El resultado ERBioR es una evaluación matricial resuelta. No se asigna un grupo reglamentario definitivo distinto del nivel mínimo regulatorio indicado."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Información del caso ERBB-P13.",
+    "Salida de referencia determinista ERBioR versión 0.9.0."
+  ],
+  "reasoning_summary": "Para SARS-CoV-2 y el cuestionario general, ERBioR registra clasificación en el anexo II, grupo mínimo y nivel de referencia 3. Con exposición frecuente y 40 respuestas conformes de 48, el cumplimiento es 83.3333% (Aceptable), la probabilidad es 1 (Baja), el GRB es 3 y la clase de riesgo es Tolerable. Se conservan por separado los ocho controles incumplidos y no se requiere valoración profesional."
+}

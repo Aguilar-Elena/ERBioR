@@ -1,0 +1,62 @@
+{
+  "case_id": "ERBB-P08",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "unclassified / not listed in the referenced registry",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "El caso indica aislamiento en humanos, pero no aporta una clasificación final ni detalles suficientes para asignar una categoría de exposición con certeza."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Aplicar la regla regulatoria específica para virus humanos no clasificados y realizar valoración profesional antes de fijar nivel de referencia, grupo regulatorio o clase de riesgo."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "unresolved",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Existe incertidumbre regulatoria porque el virus humano hipotético no figura evaluado o clasificado en el registro utilizado y el caso no proporciona una clasificación final ni información suficiente para derivar exposición, cumplimiento, probabilidad, GRB o clase de riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Se ha aislado en humanos un virus hipotético que todavía no figura evaluado o clasificado en el registro utilizado.",
+    "Debe aplicarse la regla regulatoria específica para virus humanos no clasificados.",
+    "No se aporta una clasificación final.",
+    "El caso requiere distinguir mínimo regulatorio de nivel de referencia final."
+  ],
+  "reasoning_summary": "El agente está descrito como un virus humano hipotético no evaluado ni clasificado en el registro indicado. Dado que no se aporta una clasificación final ni datos suficientes para inferir grupo regulatorio, nivel de referencia, exposición o cumplimiento, el resultado se mantiene sin resolver y requiere valoración profesional."
+}

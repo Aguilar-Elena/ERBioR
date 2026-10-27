@@ -1,0 +1,104 @@
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "Unresolved - no nivel de referencia/regla regulatoria proporcionada en el caso",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "Unresolved - no nivel de referencia/regla regulatoria proporcionada en el caso",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "ERBio-Cuestionario-General-48-items",
+      "exposure": {
+        "category": null,
+        "basis": "Exposición para ambos agentes: Frecuente (categoría ERBio no especificada en el caso; solo se indica frecuencia)."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y corregir los 8 ítems con respuesta 'No' del cuestionario general, sin inferir criterios adicionales no indicados en el caso."
+        },
+        {
+          "item_id": null,
+          "action": "Verificar la adecuación de controles para una exposición 'Frecuente' mediante revisión técnica en sitio (sin aportar procedimientos), y documentar la evidencia."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-Cuestionario-General-48-items",
+      "exposure": {
+        "category": null,
+        "basis": "Exposición para ambos agentes: Frecuente (categoría ERBio no especificada en el caso; solo se indica frecuencia)."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y corregir los 8 ítems con respuesta 'No' del cuestionario general, sin inferir criterios adicionales no indicados en el caso."
+        },
+        {
+          "item_id": null,
+          "action": "Verificar la adecuación de controles para una exposición 'Frecuente' mediante revisión técnica en sitio (sin aportar procedimientos), y documentar la evidencia."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No determinable con la información provista (solo hay totales globales Sí/No y no se especifican desglose por agente/ítem).",
+    "agent_aggregation_status": "No determinable (no hay niveles de referencia/resolución regulatoria para calcular GRB y clase de riesgo).",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "La clasificación/nivel de referencia reglamentario para ambos agentes no está proporcionado en el caso, por lo que no puede calcularse el GRB ni la clase de riesgo. Además, los 40 Sí y 8 No parecen corresponder a un total global del cuestionario y no se especifica el desglose por agente ni los IDs de los controles incumplidos."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P05: agentes identificados (BIO-BACT-0010 y BIO-BACT-0028), exposición 'Frecuente' para ambos, y resultados del cuestionario general (40 Sí, 8 No; 48 ítems)."
+  ],
+  "reasoning_summary": "Se evaluó cada agente por separado con la información disponible: exposición 'Frecuente' y cumplimiento global 83.33% (40/48). Al no contar el caso con niveles de referencia/regla regulatoria para Bacillus anthracis y Brucella melitensis, no es posible derivar GRB ni clase de riesgo. Los 8 'No' existen pero no se proveen IDs, por lo que no se listan controles incumplidos específicos; se recomiendan acciones de corrección y verificación en sitio, y se requiere revisión profesional."
+}

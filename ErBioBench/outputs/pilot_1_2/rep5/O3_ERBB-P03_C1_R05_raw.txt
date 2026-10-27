@@ -1,0 +1,62 @@
+{
+  "case_id": "ERBB-P03",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-48",
+      "exposure": {
+        "category": "frecuente",
+        "basis": "El caso indica exposición frecuente."
+      },
+      "compliance": {
+        "percent": 39.5833333333,
+        "class": "insufficient_info",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y corregir de forma prioritaria las deficiencias preventivas relevantes indicadas en el caso; el detalle de controles incumplidos no está disponible en la información proporcionada."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "unresolved",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Faltan datos necesarios para determinar clasificación/regla de referencia del agente, convertir la exposición y el nivel de cumplimiento en una probabilidad/GRB/clase de riesgo (no se aportan etiquetas de la escala ni el desglose de controles por ítem)."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Agente identificado: Brucella melitensis (BIO-BACT-0028).",
+    "Exposición: Frecuente.",
+    "Resultados de cuestionario: 19 Sí y 29 No (48 ítems).",
+    "Contexto: puesto con deficiencias preventivas relevantes."
+  ],
+  "reasoning_summary": "Con la información disponible solo puede cuantificarse el cumplimiento global (19/48 Sí) y establecer la categoría de exposición (frecuente); no se proporcionan clasificaciones/reglas de referencia ni el detalle de controles incumplidos por ítem, por lo que la GRB/clase de riesgo y la probabilidad permanecen no resolubles y se requiere revisión profesional."
+}

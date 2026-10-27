@@ -1,0 +1,66 @@
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición declarada en el caso; se usa sin inferir información adicional."
+      },
+      "compliance": {
+        "percent": 97.9167,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Restablecer la limpieza/desinfección periódica de los equipos de trabajo y mantener la trazabilidad preventiva asociada a este ítem."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire_only",
+    "agent_aggregation_status": "single_agent_only",
+    "workplace_global_class": 3
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Caso ERBB-P11",
+    "ERBioR reference output v0.9.0",
+    "Failed control: GENERAL-F2015-020",
+    "Assessment: Brucella melitensis (BIO-BACT-0028), classified_annex_ii, regulatory_minimum_group 3, reference_level 3, exposure Frecuente, compliance 97.9167, probability Baja, GRB 3, risk_class Tolerable"
+  ],
+  "reasoning_summary": "Se mantiene la evaluación del motor ERBioR sin reinterpretarla: un único agente, un único cuestionario, exposición frecuente, un incumplimiento específico (GENERAL-F2015-020), cumplimiento 97.9167%, probabilidad baja, GRB 3 y clase de riesgo tolerable. La actuación preventiva se limita al ítem incumplido con trazabilidad explícita."
+}

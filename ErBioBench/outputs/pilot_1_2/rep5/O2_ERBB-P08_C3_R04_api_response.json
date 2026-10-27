@@ -1,0 +1,102 @@
+{
+  "id": "resp_0b0bf2207ed1cca5006ae0d94fe21487d2b888a2b6574c35c3",
+  "object": "response",
+  "created_at": 1793120591,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793120597,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0b0bf2207ed1cca5006ae0d9509cf887d297eff2f6a269503d",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4NlVpYjqDfJTIqCj1E5uF88i0zhzKNf5KhE_WQk3YPtmR94rGlEs_re663dxchERP0QN2KL-ljT_CG6awwGdpIyQErET4qirPdSJe4sl2jT5709kaUR4rvRaEMLwofeGXGZLcQyjY-2npXpUTzxitku5NSYDDGf1quyD2G1dTbqQ8_jBs2xoWgr_iatogQrYvD08vnNDYOxvLbGoB7anDVvVmp3360QGiUeu5RqEpPGRTvXmHXD8jL6ySKImetVZPJQpfZJfaJ5VpNS7N4dk8uvITaCumxq6xwhydNtfbjVvssoYME0XQ0p71MFYAntekfdBzCYBnLaB_4sxEmWc9BzP9WpbQvg-ZTiyeb3nMBYkJ6GyzDDHDH3gjY13_IhXfsWCzE1egEaXNFlumPNWPysaVx1I1nCbDw-DG2XpE773a_6oUN-RjCA3u9p_xiymKLz3YNLeIYqZ-mopU_Z7BVeR3-7Dq0k_xRqM_j088zO3AwCjrG3wdGDhemQRIrNCe6tNmg6Zdwf9T4dvylW4ThZshA7kF6pqadxiWA65SI4S11DhzUSvMbI6GwNCZA1wfpODE37mN5R0a2L6GvP8hkvyYKLPE8DfWB0SzmIk_9xRTyMUZ-1kX50PK3wjXRINh3y1Ogkos2ucLtfIBK5yZeTdQUzoWvRf3GWmAJt1Me_FBJT_cEHlQw-7dPmLP5O7djcrCzFrXhiv8BpqGR0v5kzbQZvwdeNX-2OnZfNwAwLwR1Ax-JTJdcIvhQB0HH214eVBHgF5Iq4uZJn6nAVXosnXWMGc9tpGP-JWjd8TY82xrEG93TqiABbEPM84nDDID26z_CDr1lKsHQNXe9qZDK3Urjq4Z4a9ViJnoaga2c2H_N2wMHJpdE-9sRY31Bcf6MoQdjJm4SzIEmm5HVWLSMvNqc70OFR4JUP0DCTdxf7RIT62ECjolzuzhBxSdfRKp58cLYbjQtgq72CXxOndMo5zUCm3nOzKhcH92Ju1dGeLcV5yK_rt9DGkEFKkh7l7CQBegfu3WsR6zP6ojc-603n7qyaHllHiOyBQ5rVDw9K6UiZU2ph2PuREQlmeZnfNAlJn3ONLZz0ItBQDKRi5obMGIFZT6GCP7v1GoNLyVMTss8pn0cMqaiOZ268EUb9wqFH_QGEJyjP877FUFOmnaZ2iukbwjeglsjkLl-Y-xwi6p4xEHDrPfSGdMDlstN6bgxsm7v2Fe4KmIIsrKBCxnq9XkB-dmYkeQ_PAa5ZcnL9uoECJh2cnOHXrD1WlTkf64qFK7WFiiYfZk8upSLGCQ7oJ_ZnzXoAVQjV4jm5zHXUWS6Emaf23Sje89eCZ88Xi-JOq4ZWnyxaKefvwKngQH_yGYmjtbStabkic0WSqd2nQE82SFD6CdvjxRVPXTeiVly2Z5y8t4aui_NVlcMvBtlOpClPLKGp90SQNIWRLOapdVpByHmOpN3X9b_XsDnSW9ugkFI8fNr8yq9Uh5g7-5Fg6WejC6v4Lf-817fbTyGw9G3lfq9Rt0KVSpAPZEgXPUldPwQKZth3YRiAfMiphbxN1I9QY-YmE3f22SLanepe7XdQL6KQ_S8lJxQnlza66N-66Hl0OMK6wZyzr_2t7i_T2lYKj2CX89Ywh_P2fYlRVYn8GKIxVGQkM-ZZij79EksUf7nyyCHKyW_m278Q2Eefw9FV6ehes0SX1PZ-Uos6EjuuQsYZrb_XF39ZbcwF4Pt_GgOa60Iwr6jDNs4pCYKeiOVgPw8vlGN9W2ACy2jGVYZJn6iGP3vx5E3pHi-zEcxlN4zX03qA01MYSIoAdLG3yvu0v4fOX4hGNcSHaH7ZCOEEMWD4h02t9vUmLI0ZYUt10cwZC8SGWTcKZp7_bgJvlgYu5fpP6dPtwXnlkeLQU_6XGHu5lrrvGsQ1ME1hJuCOeNuwncfwAhjkYUFlr7RVeKo5qJXopW6yb6Z5dA5WEeqM-89GScS1cm7WXauFWwoNncp5CiMwN4LRNbQbQZc2CdvhTCsYryj8kHlkxqO1pMQI9d9vqmCwtJcdrqWkmyv-2uE8nY2hPQ65VD7H-iPiW9DX7-6bmq8WfkE2ivD6R9cCc8rIWW7v7PRSCUrN-D-8Ybp2FmHbzHvUJy-5eIDRIXTEFctqz9oW0eBGTbmfZebd9x4wc5Qdmsuxq7V2pCC3RpCE99KGwv2SBIyHaoIvpbZgxokj4PEwcEKK22QAHKXd2ufC5zHNqICGp0ZpIGhpW-Gn7zUEpJKL2gmTq1qDbznjHpMUG8CMEwtcAz7CofMg5oIssBSDQjraUgA8u73orq9D9POBS0ClAQ8PYPVyCwVVOK7qixeIWa_Zw_i3Mj2cla7V7h_JKpS9mP50XYAkAM52e0_cE4DyBG9dbpviSgsEo4Z7sEWG4_SBbiE4g_rz6YFrKyIBBBg0u0TR1nM5TGwW7kk2BddhJ6X2EeOvBmfTiLd_KdPr95ESJPh0G3LRbhCXQEUuvi24qppgDo---Y9tfLEHw1JOTSIqlLmYZUSOLxsYCP2AvWd73MVQ8aSbdV9_K9ik2T1PVMDqDLEmsU0y3Yh7I8ADFq3CeKwku4miOWW5gLHt71DqAdgCRJIdQNHkN1_OXHXb8_dCtryNmu6PbsqTbcAIUjW7WOseh6MBvv4-FSfdC9sKHeCTIjqs17guc2e7Gm0qqp2Xn5uv976VP8WfRqGes3YjQYKhGe03I7e17rNfkMmTG_iN0IkFhN9cyT56d6FlucKErQOm92oBZ4ax8llcFJp3PQuP6x5NlT0kAybRXpFSEq9r53T-CMMmxQ0i9UAIr7PbW4nxybbju2pYTrHdE0n6lAf_W6Ss-UzfbKg6bGoLWiJm_wSWh6mL6DkVnpG9n87j5I_bYg1NcjkkdPDyUdUIkhsW_XNJKlmgvXKvsulFKgikpNU3DnwbfzYwqYUXpG9vPIabMJ7_jNPwP3gMaUZ5u8ZzaVnXgk2RcSp74BGm7xmhRfGpE4vPP4z6kmP-EhB57mR88qCzG8f9nNG9IBkVZb_PStdI5CJawRXjeryAbMwoJDVbexjUzXiCiPm43O_amcTZSmjrCddlEm2J6J6Q-YbsNu7vNsem9koK54zqQPXT0jYlXCXiCt0Wwbto5gMDfKF4bIJpI7GavzJcvjVJsLo2BhKc84flCWJxuGeQ8ZsHjnd67X8l6fkuhDYPKjm5NmdpLjfEzL32Q6K5voHApuS_sR4URxpMep-CBI0FJeChskyecuxTP8wQXZspeEOhZ4943Dr4Uz_GpW-34GOLGPm6aC3ZJUHd4F8bzOY25QKzxl2pIX7zj4bB0eCAwQW20tVI0th1Lh2guGvHU2tWYs4dW-QbpJeiLdgGkOG4NiAvEXP7qyO2O5VPeAFUDoeW-1KPBTw-qrWkslFsMD4KudiWWAe9or_71_PnOMCeH0t_Y1ObwvOyQP3n9f7CcjolEHOLCq1qVtzk-YkxPtYTxR1Mxs9ogDDOilpJWHvwQQ0ne0whXgjTFsZonNzcfcpahXPLHn3-Ft4_ddZvr_yAwG0nmLjYIVoDUh1hIDTaYYGqCKW4fsMfH4lK81nuM_WQ2NVphKlAy9vDx6zSaiGJsW_BjG470ZAhBNu0yBXtv48a0ivAMnIxlgoEkWgHfUmmxNRTUSDaBYNLNiGQIlW9kQupeggt1EnTG5cfl8d-pzUIc3pI9PcyqzBcnK9Y9nx_KneAcecv6vheEoggbLGEMxr5ypQ==",
+      "summary": []
+    },
+    {
+      "id": "msg_0b0bf2207ed1cca5006ae0d951d64c87d29624656207eff80f",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P08\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"ErBioBench hypothetical human virus\",\n      \"agent_id\": null,\n      \"classification_status\": \"unclassified_human_isolated_virus\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 2,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"ErBioBench hypothetical human virus\",\n      \"questionnaire_id\": null,\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"No se aporta una clasificación final de exposición; solo consta que el agente está aislado en humanos y no figura evaluado o clasificado en el registro utilizado.\"\n      },\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": null,\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Aplicar la valoración profesional específica requerida por la regla regulatoria para virus humanos no clasificados.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Tomar como mínimo regulatorio el grupo 2 mientras no se demuestre que es improbable que cause enfermedad.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"not_resolved\",\n    \"agent_aggregation_status\": \"not_resolved\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Existe incertidumbre regulatoria porque el virus humano está no clasificado en el registro utilizado y la clasificación final requiere evaluación profesional; solo puede establecerse el mínimo regulatorio de grupo 2.\"\n  },\n  \"professional_review_required\": true,\n  \"sources_or_basis\": [\n    \"ERBioR reference output v0.9.0\",\n    \"Source rule: HUMAN-VIRUS-MIN-G2\",\n    \"Warning: virus aislado en humanos no evaluado/clasificado; grupo 2 como mínimo salvo demostración de improbabilidad de causar enfermedad\"\n  ],\n  \"reasoning_summary\": \"El agente consta como virus humano aislado no clasificado. La referencia regulatoria fija un mínimo de grupo 2, pero no una clasificación final. No se aportan datos de exposición ni de controles incumplidos, por lo que no es posible calcular cumplimiento, probabilidad, GRB ni clase de riesgo. Se requiere valoración profesional.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1060,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 774,
+    "output_tokens_details": {
+      "reasoning_tokens": 160
+    },
+    "total_tokens": 1834
+  },
+  "user": null,
+  "metadata": {}
+}

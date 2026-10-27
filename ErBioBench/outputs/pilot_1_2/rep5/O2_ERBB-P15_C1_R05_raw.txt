@@ -1,0 +1,259 @@
+{
+  "case_id": "ERBB-P15",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Ebolavirus",
+      "agent_id": "BIO-VIR-0040",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "resolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "ErBioBench hypothetical human virus, aislado en humanos y no clasificado",
+      "agent_id": null,
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus",
+      "questionnaire_id": "Auditoría",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La exposición reportada para los agentes resueltos es frecuente."
+      },
+      "compliance": {
+        "percent": 96.875,
+        "class": null,
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    },
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus",
+      "questionnaire_id": "General",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La exposición reportada para los agentes resueltos es frecuente."
+      },
+      "compliance": {
+        "percent": 39.58333333333333,
+        "class": null,
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    },
+    {
+      "agent_id": "BIO-VIR-0040",
+      "agent_name": "Ebolavirus",
+      "questionnaire_id": "Trabajadores",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La exposición reportada para los agentes resueltos es frecuente."
+      },
+      "compliance": {
+        "percent": 58.82352941176471,
+        "class": null,
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Auditoría",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La exposición reportada para los agentes resueltos es frecuente."
+      },
+      "compliance": {
+        "percent": 96.875,
+        "class": null,
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "General",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La exposición reportada para los agentes resueltos es frecuente."
+      },
+      "compliance": {
+        "percent": 39.58333333333333,
+        "class": null,
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Trabajadores",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La exposición reportada para los agentes resueltos es frecuente."
+      },
+      "compliance": {
+        "percent": 58.82352941176471,
+        "class": null,
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    },
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus, aislado en humanos y no clasificado",
+      "questionnaire_id": "Auditoría",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La exposición reportada para los agentes resueltos es frecuente; no existe información suficiente para convertir el virus hipotético en un nivel de referencia final."
+      },
+      "compliance": {
+        "percent": 96.875,
+        "class": null,
+        "n_applicable": 31,
+        "n_not_applicable": 1
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    },
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus, aislado en humanos y no clasificado",
+      "questionnaire_id": "General",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La exposición reportada para los agentes resueltos es frecuente; no existe información suficiente para convertir el virus hipotético en un nivel de referencia final."
+      },
+      "compliance": {
+        "percent": 39.58333333333333,
+        "class": null,
+        "n_applicable": 19,
+        "n_not_applicable": 29
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    },
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus, aislado en humanos y no clasificado",
+      "questionnaire_id": "Trabajadores",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La exposición reportada para los agentes resueltos es frecuente; no existe información suficiente para convertir el virus hipotético en un nivel de referencia final."
+      },
+      "compliance": {
+        "percent": 58.82352941176471,
+        "class": null,
+        "n_applicable": 20,
+        "n_not_applicable": 14
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "discordant",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Los cuestionarios muestran resultados discordantes (31/1, 19/29, 20/14). La exposición está indicada como frecuente para los agentes resueltos, pero no se aporta información suficiente para asignar un nivel de referencia final al virus hipotético ni para derivar una clase global ERBio o una probabilidad/GRB únicos."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Agentes indicados en el caso: Ebolavirus, Brucella melitensis y un virus humano hipotético no clasificado.",
+    "Exposición indicada: frecuente para los agentes resueltos.",
+    "Resultados de cuestionarios: Auditoría 31 Sí / 1 No; General 19 Sí / 29 No; Trabajadores 20 Sí / 14 No.",
+    "Restricción explícita: no inventar clasificación final del virus ni transformar el máximo observado en una clase global ERBio."
+  ],
+  "reasoning_summary": "Se conservaron los resultados por agente y cuestionario. La exposición reportada es frecuente para los agentes resueltos, pero los cuestionarios son discordantes y no existe información suficiente para asignar un nivel de referencia, GRB, probabilidad o clase global única. El virus hipotético queda sin resolución."
+}

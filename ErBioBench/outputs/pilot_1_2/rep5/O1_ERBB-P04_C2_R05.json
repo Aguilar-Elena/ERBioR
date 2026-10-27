@@ -1,0 +1,64 @@
+{
+  "case_id": "ERBB-P04",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "Cuestionario general ERBio",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente en el caso."
+      },
+      "compliance": {
+        "percent": 75,
+        "class": null,
+        "n_applicable": 16,
+        "n_not_applicable": 32
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Revisar y corregir los cuatro controles con respuesta «No»; sus identificadores no fueron proporcionados."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Un único cuestionario evaluado; no se requiere agregación entre cuestionarios.",
+    "agent_aggregation_status": "Un único agente evaluado; no se requiere agregación entre agentes.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporciona la clasificación reglamentaria o nivel de referencia del agente, ni las tablas ERBio necesarias para asignar la clase de cumplimiento, derivar la probabilidad, calcular el GRB y establecer la clase de riesgo. Tampoco se identifican los cuatro ítems incumplidos."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Agente indicado en el caso: Actinomadura madurae (BIO-BACT-0001).",
+    "Exposición indicada en el caso: Frecuente.",
+    "Cuestionario general ERBio de 48 ítems.",
+    "Respuestas: 12 Sí, 4 No y 32 No procede.",
+    "Los 32 ítems No procede se excluyeron del denominador: 16 ítems aplicables.",
+    "Cumplimiento calculado: 12/16 = 75 %."
+  ],
+  "reasoning_summary": "Se evaluó separadamente el único agente y el único cuestionario. Tras excluir 32 respuestas «No procede», el cumplimiento es del 75 % sobre 16 ítems aplicables. La exposición es Frecuente. Al no constar el nivel de referencia ni las reglas de correspondencia ERBio, no pueden determinarse de forma sustentada la clase de cumplimiento, la probabilidad, el GRB ni la clase de riesgo; se requiere valoración profesional."
+}

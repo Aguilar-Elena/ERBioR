@@ -1,0 +1,102 @@
+{
+  "id": "resp_0af6a88f4b68caac006ae0dd692a7887d2a740d01e63554461",
+  "object": "response",
+  "created_at": 1793121641,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793121658,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-nano-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0af6a88f4b68caac006ae0dd698d4c87d283766c04174c7e7e",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4N163QBmJTX1F5zr9EMv2RnrZ90C3YQRLUqHu0GFg4WFiJcE_qSSRw0aSwZ7CzGqT0Sltf8B1QNsNddz_NDc4GdxjqOczKpBHUBdsG6u5XnDatB7sMusVkE-7ethyekX-e4wpeVxEnvD9Q8by0VtzOvEtdLk3hiZafURCqh_yjjCpZAI8YLmpCulCvxJYjEuaNPjl3JqInjacD9i9j1PjpnP0K_ISerslQsPOjRM3Xnlx4oIAb7JutLLUVs-F256fG94YJLYEHjlTFf7R-GzcTrnzlSmmJbAQOkhF30pXS5VkugtAgPsElXjs0agzPeUJO1oLLiL-3D1D-RExBIkG5wU7LzViIUA7al0PvWPU7La3d1WTQHFyEIFe0X6EyO-NC6w2odjrQi7G-N2fObWwLWJ1A4qY8F6pNud9A8zCsVTtxBF5dXnRpLvl08R3UQrWLV_a_HVZ-Y4mqudFSJBU-SR0CXGnxsnPuwezsN6mNaDwyXglnkC6zyeatohwKZWRzZHm0em_giQJr2uVH6tg1eRNAAo3RSJ58QEO03nCsIVBsV2cQHqqx6H8D1BPXrqe88p5n8uFCktOHuJhOoatM_3nwBBtem6UVs0yF4djOIJbgj5h9lTcy1XO_DotCF3INWc9jlga_vjiJcTLoFSTUnFr9q27iCj3S0nDAXzMCUpVFVRdTJCyV68pYFPXC31p6RgnPQCOCSJSTJ8oo5WLajfuIrCMqxRLWrTgV4eMr77wXYw1cRAzs0pfWds58IarJ_X8kGRjHXkF5vl7Ocis-LagkHsfvYQWgbvYjhE1gh9763uCwpLAUz03sxXMSIlnVLSR6F7DdTZIWJq3hqPBg3whc5eYWeu3FbChB2epZ6lMIjoMkFKiURlq7B0YB_z7d-T_-yvPGaQLea1EfPyoJ2VR0HjKZYF-_O2E9QEiuEtUsH-n4p-Ah6clQOcQuF-IumX_uCk-NNp9bArfHiucyXyqjjGiQP8OKkowuS0aXWYOpR-FftEQNL5lse3UT-QrdEONtb0aKqZPen4zLSlH-zkJhi8ETEJXBZSHeBOh1mz6wSkvsVkrRe1lAFG1r-jCGYL58sGQWHyVm0QDvKZqNlGVrWXM4dFKGkSWdVxsze9_b1Q7WnaRCrhYTGlX9K_xsVTClDw7p8w1JhAv0aoQjkcoA3o_ZOPQ3Hy0DsiG15VvsA1PaoOrGg6gjSpEh_zpv2MZZhsYy2JvaDP2cjc_rvRCkEt8Yq8xmrbY3vzparD_emrQadM4ksZhBapg-eZtVOasFLiZnLOh9C04Rik7ljxz7ZYgBvGB4PJH4c1PUKq9VibhHh49ITgQF6s5uOphjqEThv0BiOTqCeXB8_uFJwk6l2HspIAdwAcjbfdAyZARPaz8hSgCYKZoxI3iNLQULqTTNSHzEZOtQMhytblUL0lntKlujF6qcw2bM9zGJwrNQKo8I-R7UKMjPiuLb7bC1iycjN7OIyy3gaxHJUeTQBfLUqJ7W52FYjz1Kct_W4W4hNQILz5w8eGZ6RD4_y_MyQpyVRZRMGhPYd6oIiUxmKvHTonGvoxCmTpFTpb-kdmhiNUGvQM0rd0yOwhO1_3YVEoarW16xUV_6NtQiKCGjRj4ZTmwc6SkDH_b85KRfbwrNkP2y3qScFRisulEptsOXvRgGbNMXEDZKCg-jcPdwHnp6psWqFpBqjaKIfmVy0_SF42DKVQQtzkBoO48u5bMQ_2TovIvVJfpKJi8qqwila37JDLu6loR02JFAFvxxu6QBfbd2DZQUa-rK1x_iDX7p1jbyOiLZjYSFBBkVrorNnHhSBu70wETiEyyytZnBTLAOOxrZYpKTO9I_fvImQkRyGh4e7IMWuREziXGifGOlMB1g31giXePmAvRb7GyyWkDCGcNUWBj3xrSUt-XfQRyssZVqZXA514spBV06eJPF8qlQxufOl4ryOgGkuovrr6cfOwMlnwdCgEgmq8ramnuvgnSAAlmv_aAgqAY7uVNX5EtB9-PfKGpYFu_OzmYE1QQxq6YQAzZfGqyiVhdOOU5NSM4AmPykAKoysxx8jDI_ZD8zGCEXOUhnzwa-oJ1FRbg2np4Yi2xD5zhgGuRNvdf-sBp5jd34rFG32u1mjbSVEKjiPkvqSfkh_TaWy4GZ-Dftd1uAS7SKAfHQgbmFFOA83gPEyxNm9ERBQnxTbHJjXCSmVk9ADHC-8vCunaox1XrbHRzik7B7rLkWs-6EPnmn3yxmYJrICbr3S5kph7YB0dIGFw68eKz-PFUjwIPxNM3r8UKHJ5XGIfJ6M4bbbbKsCGgKC270-8WiqxDls2Hix8wMXernlir-TIb7LGIqh2FZbm6xppXQwIx6tMGcPBAu-dgvoD0Fk8daxTA2qbjzjbOhc5Q7WYWMqIVpwQWkT7EctylvHEPOuaj2D7XOUxcpxW05NnPCQocw72h2krWI_cQqG5VZ0fsYdsMb65RTKJYHtdGn6e4ZSpUy6kNjtbzAw7OclhdRqjVDiTDzfouOvhwUdLtCi0vvXmMyh-wf09eQjmW5oSzpnyJyz4EI0O7HiUwDCBVwXw4iXOYBGRgbI6ZOHEtSaV6P0s4qiR8HkhGkyEjaVz6Qf8lV7TQrgugWr1lNBs_unTXgtblXcqi5KvDbx7_cqp1eQlAj41Horj1Xpt4XIEWPNg2OQrgNKgf0VqPKv_I68TWYtgC3yubn9qaQ2qypmVP0ZodlP61yqLTfmCwwh46qMTMn13aouN1gOtlgMZlgPRZjw0Z1XPXNBlujzBDWBCKckAYi-4K-9LlCj7hZMX4t_KRCJfDZDfKJJ0nI3A5kl_sdK92SH_OwAdjXdH61N06k4PWaWOJeKmFvwKlDzhqAJez9txrpzVtKUir6b1f7lnYuk1xHkhUpeIRofH9_MymwyifQyfb80w3GOwAUEnnvbasOzMQ_zfT2iuJMeQdvixpSvm8KQ9u23MGBTZktWvDGhjPqZzAoCaAULvjNs8i6TrRtDCiA9e9fjSCiAOyua0k1eblaeFLs2xosYjC8e7wFuGE7pT0IZu60vb7EdrrzhLSiFUwA9FkvvWEJ9Dfb7PCelr7PQXb94F087DIZZBhlo3jmGH5R2WR-OkwnYt8HIfxy-TdtQg7VPUmoHSnTf_wRORB18-pGlR5rMw7rg6lqIJYXae9eCA8n6I3HLK2B8vjkbmOL42hA8pLsUF5Zc4zlxqBtD-v1DJe2ZCERywbMQD5rDzuX8yJwbxEY5FomvZJKkYyzp_RbVCZaFsSbX2wH4DBmAqn_hxxR0SbmGk16UIG59Kji7Us5Wzdkij-QAKSFqY6OE0vjKCRa-QvK_2CnnpgCfLoJXWpev8OVhLDZGTsFa0AKUcP0edHq3PT6X-N32ngGMKrBOs5GdwA6W9qMh-7eY90evchbK_Bnv9sJwwZUv9H3Lv4f7KlHTvXlnFqoxvmDWH3eMUR6YTKAhmQnIxDiQr4BCofF-oS0mw_GUotZSGir7zWSujAy45yWZRO3VaQqQ6AsJPxcJfpCVWf_SU5hIgzthUctejOT2Zj56nTGEDFkr_g0Ps2wDTtNz-Ri0k9J16gz0gcfFw2rAs3txs0tsdcNHalyK6QVUPvXzerIRCE6JvIcX2eZMN4VZW4AE-WxZ8cQJYBae8rlPcimRo5yszNbohgubgn3M0UPX8nXutIjAgJpDZf7-fs18LJkUUZn-VVg3R4YQ6IM4K0vs2Hr5JppObDnE5ReIUWTIJJobogGrMxEDemzIGwY4GUKScoShgkzCRAj7PHWa3WCrNMje-MWV2se-eM77ZfHDM1btkfge5JAT1u2_watrPHl99RrzOfTeYjxt5-wn4PysaYu_5TEz8O1sa_nlzm4qcluo9z64lQerh4pEjiZtSXlfLDs-6rRq9-rQ7UNRRms1Ksgx49cSrpUF9DeZooKBu8rdJJ_F4xJEYHnNNerDDyGeTL9aHQ055IzgI0O543iwcqlbt6OcNg7gXv9jRS0f-8-8Qt6P-NCWviXtzxF5Wtf-KshkUFs69nWSHlOlpM6OaTaJGjOqMbOq3IMusb4L2LhmdQt5-TA9oQcrbwOUpDBCZTwFewwXvKaARu5gBz9A-Z6Lc7OQ3XSiIC4B5ehlVYRPL_okBydhoKnYWYTNefFQX3BJS3O10pETdqj9xPdK09qPidWttiOowXxn1WZJCN_wwJFNQqIUfsKC7ogLtF7sM0hMG9uoUgnxlalpbafMNPNBjt8BGPvGYq7UzT8VXCJ4_IRuMOF4dqp1KKDelaxhB9WBjkAn9sNCW_FEjs7VcRdPc_W961GrFyGEQvyXjFM-D7XaypKGU235U4tSBJilRlDILNmSkipj04tUeCZZMLHBgNkPEjYKmbr3maPc_b9PIBOZpzhX5wKJ0dvbZUcKqQg5X0HwsFy9K5sxyfST2_vJtqkbT183_XBisyOqLqEtzSoyAtsiUoPU3o-aPN6Q12XNuEy9jz30xLB8TbYKfvEGqQtZOho-pqrXKw0hsrIl1usB5IzTTJVD9UV7SiY_5Yr-QlliaZFm8n7w9gLnyE4hM-PueGcPDn6lUgdTnayZ6188EyiHU8hJG-17RrZ8bH9-vFjqUm2M2Dab8BejrnpIwXa_ikiDA3N67I9n0rAWjkhWPWhnmFeG3hM1qv8j_ss4BWYRuAh-jXgFheNHaivUyyhygO9m1owxU3JybA1Q1cYmfusvxjGygQZIG4SBuCOZu8aiZhZK_52VqfrNkBUwKBS1Co6pqH7vVinaw1QlEqtTuM2V5UviBQYKFVHn8Kiv4pwX1pKmhKVhHFs4k7xxOhOnYxkwk1Ikmi1jUwqJCUj_rq9aDpBSJnu7ruXLk0-UKgmXw5khXG1-72NdvK3IFD0DCnpwdLXDGM_UXM8wib_wbW15UwTh_dHynF2j5tRwbrR6oTRTqL8lvtq7Oe0bX0YR_YRtARPI28R3gKL9sKk4IKcqKVZqFdpjcADrB9j0MrWgEhhi0cBjJHWUdgA8NLO9txaOXSzdKn0evMItrkzw0MBuA4jgReGxx0gT2TkWincjGmrghWH-ThJlnje77x2Hd4iMkCcU1cCG2FE031h-Q6HOYXmmyc9LBePeI1dSlJDlte2CwstidyFyu7TF8ZLeQ0r4i293wFytyDn2KwWgQcVhdGxjNrZOWjLLqYDYi3igZ-ftpjwwW9VDQP1kaknVYDAN8CnNlcOwR9yaAw8vxzGg6rQ9RU6NLo1mJFoGKtsxe2TegpZvy96ldTwqH2AX8r9MBdQjl2IB8SP7m59Yngbcayt4yitqYo4AcWnGZiTeVrD1ipeeGfqo9ZBEIJ6cqX1q9Ab92IT3Y3g4pboijj077xxyIneym9OSHGA3Cj7rx1mB6wvWVXjOzs-nGI-9GTOvfe9ewR71zt0exxvdvmYVVjADTuERhd2C--fUVbL-c1eQmmYvSmBE5lnm31RIitfHbGwy6KZLs1ySlVChRvzDNJPpjDRQgPmr9WfwfGKbjT4SsVfRUULXLzRwBCvu9U-5Y49BUjWaJvcFJI9ysEB5huG1EDb-HvMmN2XU50Dei8aLq1nKVNBR0LwxHNQSrV5pJrWIuwyGY40JHCv8cXBZOqB3zhSpJtjRaVFtmCwV7HQ5eQToN3WitqDzBCQ0arUmTsqzTQx4OlrTWjtBliFFkX6oQ64_LHcjPZ_0lav8JpZ-eyCsI7eaQii3CzGGQjz9kBAMU3aGzbvPo4voZrMl-FR51n3Jrn7Fd8udLHyxaKsrQ_1SC5UXUlOJdGbbBBBgWbAKAQSwOw3ZOvZu6cRaz7Gn_Nnhsz6kzxIP-s0yx-nCigbWyp356wkhhD6UaVBvn3XLP06MibUborTR7bhrzig0-xEpOkwlGv5o1QeP-rYZv6_wBVP7YAD1e7XwWwLA7harcaTNyg5ymW8ac_syFpvowltcxA8F4w1abqavt-AmNwR8nFO-jLk4S2TsXjQZdCslJyjt_nB0uhsM2oiSET1GvkoLuBAxhVnmvHcZ3LGegmkTSYzQ6dWO6MdpuZsRGH5wpJIM15VO2OWnjVjVQCpFLEEQVXCPj3-9r1Eblk6j1TLVDxeFJJn8ZVTH0yj3kDaLmnfhP9ubdhkETC8tFPvQpoEGET71WR1tEi005ilx6EeKq76IdHxoAYhNX9AdyPG9WSfaaWU96YGWLvP0OowiBx7P2qitYrT52NsNrNhw3Vmduqfp1n0EpLl-aR2l_jWJmQ51yQLClmVn0PC3a5eDOq2vRLSxOPXBuX07zLEWtgPZtV9yk-gRJOdjhRRR1r9ujAx8FKFWVCuOmeXk7pj1LFPZkRS225IN0TxKPvEKrcgJa2H312ejbLVhi-RuqyMu_pnyq6_hMGXOScZnCwVYEHHJKA7n-8-M6QJNNW2ldi9stVVNOKTSt-fRWrg==",
+      "summary": []
+    },
+    {
+      "id": "msg_0af6a88f4b68caac006ae0dd6bb72087d2b081e3305b3964c3",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "```json\n{\n  \"case_id\": \"ERBB-P15\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Ebolavirus\",\n      \"agent_id\": null,\n      \"classification_status\": \"resolvable\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    },\n    {\n      \"agent_name\": \"Brucella melitensis\",\n      \"agent_id\": null,\n      \"classification_status\": \"resolvable\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    },\n    {\n      \"agent_name\": \"ErBioBench hypothetical human virus (isolated in humans, not classified)\",\n      \"agent_id\": null,\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"Ebolavirus\",\n      \"questionnaire_id\": \"Auditoría\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición de los agentes resueltos: Frecuente.\"\n      },\n      \"compliance\": {\n        \"percent\": 96.875,\n        \"class\": null,\n        \"n_applicable\": 32,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Mantener e incrementar la verificación del desempeño del control debido a que solo se dispone del resultado agregado (Sí/No) sin identificar controles específicos incumplidos.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"Ebolavirus\",\n      \"questionnaire_id\": \"General\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición de los agentes resueltos: Frecuente.\"\n      },\n      \"compliance\": {\n        \"percent\": 39.5833333333,\n        \"class\": null,\n        \"n_applicable\": 48,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Priorizar la mejora del sistema general (procedimientos, formación, supervisión o condiciones operativas) dado el bajo cumplimiento agregado en el cuestionario General.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"Ebolavirus\",\n      \"questionnaire_id\": \"Trabajadores\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición de los agentes resueltos: Frecuente.\"\n      },\n      \"compliance\": {\n        \"percent\": 58.8235294118,\n        \"class\": null,\n        \"n_applicable\": 34,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Reforzar prácticas y formación operativa a partir del cumplimiento intermedio reportado por los trabajadores.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"Auditoría\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición de los agentes resueltos: Frecuente.\"\n      },\n      \"compliance\": {\n        \"percent\": 96.875,\n        \"class\": null,\n        \"n_applicable\": 32,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Mantener el desempeño verificado y completar la identificación de controles incumplidos, ya que el caso no aporta el detalle de cuáles ítems fueron 'No'.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"General\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición de los agentes resueltos: Frecuente.\"\n      },\n      \"compliance\": {\n        \"percent\": 39.5833333333,\n        \"class\": null,\n        \"n_applicable\": 48,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Implantar mejoras prioritarias en los aspectos del sistema general con bajo cumplimiento (según el cuestionario General).\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"Brucella melitensis\",\n      \"questionnaire_id\": \"Trabajadores\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición de los agentes resueltos: Frecuente.\"\n      },\n      \"compliance\": {\n        \"percent\": 58.8235294118,\n        \"class\": null,\n        \"n_applicable\": 34,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Actualizar la capacitación y el aseguramiento de prácticas por parte de trabajadores para elevar el cumplimiento.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"ErBioBench hypothetical human virus (isolated in humans, not classified)\",\n      \"questionnaire_id\": \"Auditoría\",\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"No se aporta información suficiente para convertir el virus hipotético en un nivel de referencia final.\"\n      },\n      \"compliance\": {\n        \"percent\": 96.875,\n        \"class\": null,\n        \"n_applicable\": 32,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Requerir valoración profesional para establecer la clasificación/nivel de referencia antes de derivar probabilidad/GRB/clase de riesgo; mientras tanto, aplicar precauciones reforzadas coherentes con la incertidumbre.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"ErBioBench hypothetical human virus (isolated in humans, not classified)\",\n      \"questionnaire_id\": \"General\",\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"No se aporta información suficiente para convertir el virus hipotético en un nivel de referencia final.\"\n      },\n      \"compliance\": {\n        \"percent\": 39.5833333333,\n        \"class\": null,\n        \"n_applicable\": 48,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Revisar el sistema general considerando el bajo cumplimiento agregado y la falta de nivel de referencia del agente; coordinar con evaluación profesional.\"\n        }\n      ]\n    },\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"ErBioBench hypothetical human virus (isolated in humans, not classified)\",\n      \"questionnaire_id\": \"Trabajadores\",\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"No se aporta información suficiente para convertir el virus hipotético en un nivel de referencia final.\"\n      },\n      \"compliance\": {\n        \"percent\": 58.8235294118,\n        \"class\": null,\n        \"n_applicable\": 34,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Reforzar medidas preventivas y formación mientras se completa la clasificación; la derivación cuantitativa de GRB/clase de riesgo queda condicionada.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"no_agregado\",\n    \"agent_aggregation_status\": \"no_agregado\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"No se proporciona la clasificación/regulatory reference level para Ebolavirus, Brucella melitensis ni para el virus humano hipotético; el caso también indica explícitamente que no se debe inventar la clasificación final del virus hipotético. Por ello, no pueden derivarse de forma trazable GRB ni clase de riesgo. Además, solo se aportan conteos Sí/No agregados sin identificar controles específicos incumplidos.\"\n  },\n  \"professional_review_required\": true,\n  \"sources_or_basis\": [\n    \"Caso ERBB-P15 (metadatos y requisitos de conservación por agente y cuestionario; no promediar ni transformar máximo en clase global).\",\n    \"Datos de cuestionarios: Auditoría (31 Sí, 1 No), General (19 Sí, 29 No), Trabajadores (20 Sí, 14 No).\",\n    \"Datos de exposición: 'Exposición de los agentes resueltos: Frecuente' y falta de información suficiente para el virus hipotético.\"\n  ],\n  \"reasoning_summary\": \"Se crean unidades de evaluación separadas por agente (Ebolavirus, Brucella melitensis, virus hipotético) y por cuestionario (Auditoría/General/Trabajadores), conservando discordancias. Se asigna exposición 'Frecuente' solo a los agentes resueltos. El cumplimiento se calcula con los conteos Sí/No agregados. Sin clasificación/regulatory reference levels trazables en el caso (y con el virus hipotético explícitamente no clasificado), no es posible derivar GRB ni clase de riesgo de forma no inventada; se marca revisión profesional requerida y se evita cualquier agregación global.\"\n}\n```"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1096,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2910,
+    "output_tokens_details": {
+      "reasoning_tokens": 375
+    },
+    "total_tokens": 4006
+  },
+  "user": null,
+  "metadata": {}
+}

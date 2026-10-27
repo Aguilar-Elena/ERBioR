@@ -1,0 +1,68 @@
+{
+  "case_id": "ERBB-P03",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Cuestionario general ERBio",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "La categoría de exposición se indica expresamente en el caso."
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar y corregir los 29 controles contestados negativamente; el caso no proporciona sus identificadores ni su contenido."
+        },
+        {
+          "item_id": null,
+          "action": "Someter la evaluación a revisión profesional para resolver la clasificación del agente y completar la probabilidad, el GRB y la clase de riesgo."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Un único cuestionario evaluado; no procede agregación entre cuestionarios.",
+    "agent_aggregation_status": "Un único agente evaluado; no procede agregación entre agentes.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El caso no aporta la clasificación reglamentaria o nivel de referencia del agente, los umbrales ERBio para asignar la clase de cumplimiento, ni los identificadores de los 29 controles incumplidos. Por ello no pueden determinarse de forma sustentada la probabilidad, el GRB ni la clase de riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P03",
+    "Agente declarado: Brucella melitensis (BIO-BACT-0028)",
+    "Exposición declarada: Frecuente",
+    "Cuestionario general ERBio de 48 ítems",
+    "19 respuestas Sí y 29 respuestas No",
+    "Cumplimiento calculado: 19/48 × 100 = 39.58%"
+  ],
+  "reasoning_summary": "Se evaluó por separado el único agente y el único cuestionario. Las 48 respuestas son aplicables y el cumplimiento es 39.58%. La exposición frecuente está expresamente indicada. Al no suministrarse una clasificación o nivel de referencia verificable ni las reglas de conversión necesarias, se conservan como no resueltos la clase de cumplimiento, la probabilidad, el GRB y la clase de riesgo. Los 29 controles negativos se reconocen, pero no pueden identificarse individualmente."
+}

@@ -1,0 +1,62 @@
+{
+  "case_id": "ERBB-P07",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench fictitious biological agent",
+      "agent_id": null,
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench fictitious biological agent",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "La información de exposición aportada no permite determinar una categoría ni sustituir la clasificación reglamentaria."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Requiere valoración profesional específica antes de cerrar la evaluación; no es posible establecer nivel de referencia, clasificación legal, ni cumplimiento con la información disponible."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "unresolved",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se aporta clasificación legal del agente ni un nivel de referencia existente; la información de exposición no permite determinar la evaluación reglamentaria."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Agente comunicado sin correspondencia en el registro legal de ERBioR.",
+    "No se aporta clasificación legal del agente.",
+    "La información de exposición no permite sustituir la clasificación reglamentaria.",
+    "No procede cerrar un cuestionario de riesgo frente a un nivel de referencia inexistente."
+  ],
+  "reasoning_summary": "El agente comunicado no tiene correspondencia legal aportada y no existe una clasificación/regulación resoluble con los datos del caso. La exposición y el cumplimiento no pueden determinarse, por lo que la evaluación queda en estado no resuelto y requiere valoración profesional."
+}

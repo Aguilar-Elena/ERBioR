@@ -1,0 +1,66 @@
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría de exposición indicada en el caso y reproducida por ERBioR."
+      },
+      "compliance": {
+        "percent": 97.9167,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "description": "No se realiza la limpieza/desinfección periódica de los equipos de trabajo."
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Implantar y mantener la limpieza/desinfección periódica de los equipos de trabajo, conservando trazabilidad de la medida con el item_id indicado. Prioridad preventiva: Media."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No requerida: existe un único cuestionario para la unidad evaluada.",
+    "agent_aggregation_status": "No requerida: existe un único agente.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": false,
+    "description": "El agente y la evaluación matricial están resueltos por la salida de referencia ERBioR; no se infiere información adicional."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Información del caso ERBB-P11.",
+    "Salida determinista ERBioR, versión de referencia 0.9.0.",
+    "Cuestionario general ERBio, versión final_2015_annex1."
+  ],
+  "reasoning_summary": "ERBioR clasifica al agente en el anexo II con grupo reglamentario mínimo 3 y nivel de referencia 3. Para exposición frecuente y cumplimiento del 97.9167 %, la probabilidad es baja (1), el GRB es 3 y el riesgo es tolerable. El único incumplimiento es GENERAL-F2015-020, por lo que la actuación preventiva debe corregir la falta de limpieza/desinfección periódica de los equipos con trazabilidad al item_id."
+}

@@ -1,0 +1,64 @@
+{
+  "case_id": "ERBB-P07",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench fictitious biological agent",
+      "agent_id": null,
+      "classification_status": "unclassified_not_implicitly_group1",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench fictitious biological agent",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "La información de exposición no permite sustituir la clasificación reglamentaria."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "No es posible asignar clasificación/nivel de referencia ni estimar probabilidad/GRB/clase de riesgo con la información disponible; se requiere valoración profesional antes de cerrar el análisis preventivo."
+        },
+        {
+          "item_id": null,
+          "action": "Verificar la identificación del agente y su clasificación reglamentaria aplicable; el agente no figura en el registro legal consultado."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "UNPROCESSED_UNRESOLVED_REFERENCE_LEVEL",
+    "agent_aggregation_status": "UNRESOLVED_AGENT_UNLISTED",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Agente no incluido en el registro legal consultado; ausencia de clasificación legal y de información de exposición suficiente para completar el cálculo de probabilidad/GRB/clase de riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "ERBIOR reference: source_rule=UNLISTED-NOT-G1",
+    "ERBIOR reference warning: El agente no figura en el registro legal consultado; RD 664/1997: los agentes no incluidos en grupos 2-4 no quedan implícitamente clasificados en grupo 1."
+  ],
+  "reasoning_summary": "El agente comunicado no figura en el registro legal (ERBIOR: UNLISTED-NOT-G1), por lo que queda 'unclassified_not_implicitly_group1'. La exposición no permite sustituir la clasificación reglamentaria, y el cuestionario no puede cerrarse frente a un nivel de referencia inexistente; se requiere valoración profesional y no se determinan GRB ni clase de riesgo con los datos proporcionados."
+}

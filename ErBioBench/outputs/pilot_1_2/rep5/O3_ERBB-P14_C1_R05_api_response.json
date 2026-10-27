@@ -1,0 +1,102 @@
+{
+  "id": "resp_062913beeaaefc24006ae0df500c6c87d2966a76666781db1e",
+  "object": "response",
+  "created_at": 1793122128,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793122133,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-nano-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_062913beeaaefc24006ae0df50651c87d2a876105db49add76",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4N9Vjvmjb2jc9wN76bVJDODEi9UXUnO4-7N4bOvtHigXfoQKIKYpsRaF3h-IErhfKG8kTAFSihsgyjFtSNugf39uRsrz1pOvZsm6qBSme_6AtFt6OZXAITaMDjkKMllIzto1aot8_ZeAEyTc_qG_aT5svKgayTSKuOusAFzg35m5rILcaypgKinn5UaL6Huhnuq5mQfZ4OFhNVc73ST-k9CxhMoEHuEDtBAryIRl7o17oq-KztWy9kw_PYXHCF4F7MtmSRCoo3KI7ILvK1JEKvfNFdmA5RK8Y5uUPfd_UZbUEtbhGsDSWWzGmwdg-AJeHFFXEkO7hlRMlNsOXGIMv8BcW5qe9FdrT1bIZDZAhZVcllkNXCVt35UeXIVCj2Oe1APOs5-U17OyMqcaaxLBQ1qvU5yEnJsiOEfV0VXukdv5WdQ6-5GpqdnUF7J_BBDQNeMMAWUwTDlIsrvp8Hs1b4ssQcJX_tcjzk1-YBWinEVghyaV9ee4rs6IeSqD-cJ6ti8NQ6RyYsBd-W_E-poI8EiSsVxFQJ8qtp0Wuvlny7JEDLB3zU4tzO42EMSWvyk_6-uR8tUj7UHAtm5hhCFLxh4DuU7_89k8OeKllnb5MQE6X_rCWZ59h0vaImsYpF15IA97uaxxoCUJVTULjrk-y7UyfLhHQyY6MHu_OSGqiwizExY4UTr7qtPaP_tbGU2GNnVQD0PlFh2GOoGG8ANdr9TY-mk6g_cSWdvlCp83HwQH9pdNKkkhuXs7RsejIoYWtB9k4V5s7Cgf9JTdeWmjLRoXtltJyQVaoNk1aL674FzH_4hwqFMomveXussBMvnpD_trqxwIzw5W9KUQDqEub7mK8flJsizKhSEQn0xVUQrbWpigvcNdTvgiPouBcNJjXzQgzBuefOZZFWZONFdpREh9lhNv9QSRhsKBb6j6iabkCnYq7gMxqTslGMHDxKMsynJixq5vgkdBKqGgWJrc2BwwOZ5gENDOn8pMKzqJley2QVVDtY-bG5fLO3xpoIrOYH3d4eHYvJWWlWEERr1LkoPktTyZVXUehKLic1yN-9567ts9Z7jecPblBnDjWCaYHt32-3AZdj_-Btr8xQeg7Cur__sqEJMnFicY0irx6KqR7jgso7XGhDkGOYH8Izuq5988lb-meulkijeWQvxf6fJJpybIXvr5_HaTPsNyLkpZylSutZ70tv8Trf2oGoVKk99rhjqzWWxZ6l_orvR2yM7_gq_1uQEoTaxtnHx1FCXghrRT4pyQTKk3ko8ANaOmVWkhUB7gHX0l8b2Zt4ioXswBH4IVEA4QR_XYEg8fq636CroLBGgMKcpHjMNqC04o0lEF6idr7eq1jgn0WZCbqYuVqeBPkGKR8jWeCSfyo8q9m1Gc7vDzZZdhnv5E4qmcNeCULxbm040qZsNexNADy143dgr2eJAcx-o4B37A6pMpys2HAEr8CSjHW9YD03c383ZbtWLtNO2iwICtvZt7vkxYJE7KhIhdUaYa3VBWOaxFWIB_AmO48U2v46nKltguzyUb04pLGEXEC8QXevAZpcKEfsGFZIH-i_0E8Tax0v5zWTVHGmhEP45Pv1UNKeJ8Yq2MkhbOOdO6Yj1vTlY8Pu2_81_bGp334RNLrxGSYyfgh5Yx-sTRDfomV_CJ9pjKAP8X0dU7E_T1Edw5gduAevRee3VsqiF0ji5_jZmMK4IvBHMzNrUu6S41Pk6duslnYWiMZzXXVnnBWjWju_ben5rsv7K3moCuzWmB6p6HZnuRfkZAuYT6nKs7BYaVwcavlPK3FlSv2QUsfYFHOKgS1rrIoG4IQJqSbWqTksZaVK08MOS2Fs0jS9vQaoX0j2cmDsaPy_qb91b9sqC9mBTqARby9fMCP8mJK-3IvFI9yxnakB4JRRx5l1jxYwHVdoZ5mei1krGbgcvN_LdZcSddMMBpTpko9WQ6j-bHXSUacNMsTPzdb-MOCHsXWKendj4SCtahQAwyNY0NgSyepxWAfPTZeiBi0NYPyfujUQ2WUDMGh3KfoNq6dWiW7FnpMeopgKsmPbccm_S8JjGgy6Ua3XedpaM8KfeJVjC-eFBuDUdixj3kdJkE5CaXwBv2_uX0reEQ5Kosq8mAG99ApHc4HbQLGckMNkM3Al3nCpx6Ite7_7B8QFH2xU8yKvw_LbLbQDvkJK2pbRDjYilVFupLUbxiCuFKx8FB6JOVDREXu8dFbPaaOeG4TOF3eFF3FxsTHMk3LYWG7Fv-Nd347-2l_nzqEpyFLNk7uWZQN548GcFf2kHdG750E0XFIz3_L-rdR9liVAoYt7WUPH8Zk8HBBcZPHeFCmf3RuX4wrDUBynAeqSPdNgpN42ncEaRYLW-QyUHbFB7YuDLYMDObL463I3Yo1YsKgmI7bxiK-tVACY7QaxB5YMmD7oPdU1-SFdvbGcHcNqqJcRAme04YX4HqtscY0Z-RYe07byrVZm9wsCdANeqG8_VFcPWfXRc1ZLB2FH8W_Y2HB6OkMsh8gjlYbaP273bGBeOHT0xfpCvlK5z4kuH5YEqucdkNzpbZaKAg6NY_G7pnMGKmNobvZ6mVyWp4lKEXQNIUlufoWmoMUOxtYRipNRqQnPsbXez8Z7mKLPCmCf_zDwwTr7Owkt60bL0iljO2z_ihhwZxpqUGGz2txreES1DGmdO6u-elElcXokg4cyf15kGrf61MbMtu7ckQUKygVW018gN1hE6DGSuAQqfvxEwVOU59_K4lx_Tna4g0mSyggSPElhxngEMjtI4_vm_rTMcbxitjmSAhmzQlUPiizV1a78y_cfICndCumoNzUwhO58Y6DZ-Sr-TjkyUj-FcFp-NkZKPiVAzFCy6PjYOICTXi3AA616NGMcvfI6p-IH-as0Ge0NhOlvXXHsbobQ63IZtFBpm8C5Ro5OuUjzFHstpH_AyTxFjitt2U_i10ufkpkImChZuGfn8PiXzJkCxrdkZX0W4zYYvJtSosfU37xstsiBcFHEQgJNnDKWAIM_aQ0CoXd5uRLoT4UnaNAYoq2yJNHxE40pMkznkG-rCVXUIf82tP6gTr6Sr9Vyd7gNmUXPkmoM3WR7NfJHlDHoWWojmr3LtDQ2xnS_NOqKKuJRhiCmP0-AhThB6wNjBupjiA1jxhwh-44kWrO2IEupA_SAUizpsvtZkyIZNKpB1u15uxWsCg72rOZ7m79LmINXok1gs_vg5ewTge5lOuVSTXaNrsrZeX1PZHYzddU_ACBi6FAC5vpLe10ZCn1faYkeX57XMpxsmzpfYI3XDumY51LeOUUFVCqO4nwzmn_-PKx1H518sMv-inJmjFUr3HS1Z5I90cSudr28U4z5XMGoLAIe9Wz7lZsg1OuyuaqTB4LLOMXHgy4AO5JaliURA1S9Sf-mFDQ7S0qSUkbK6ssUTYvry8dwWwnsF5ykIzlI8=",
+      "summary": []
+    },
+    {
+      "id": "msg_062913beeaaefc24006ae0df51313887d2a8e16793aab86214",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P14\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"SARS-CoV-2\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"unresolved\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"SARS-CoV-2\",\n      \"questionnaire_id\": \"ERBio general questionnaire (48 items)\",\n      \"exposure\": {\n        \"category\": \"frequent\",\n        \"basis\": \"Exposure information provided: Frequent.\"\n      },\n      \"compliance\": {\n        \"percent\": 83.33,\n        \"class\": null,\n        \"n_applicable\": 48,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"Apply and verify engineering and administrative controls appropriate for frequent exposure to respiratory biological hazards (e.g., manage exposure time, improve room ventilation, and implement robust work practices).\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Ensure suitable respiratory protection and other PPE are available and used correctly during tasks with frequent exposure.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Provide training and clear procedures for safe work practices, symptom reporting, and incident/near-miss reporting.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Implement ongoing monitoring of effectiveness of controls (e.g., audit PPE use, review exposure circumstances, and update risk assessment when conditions change).\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"incomplete\",\n    \"agent_aggregation_status\": \"incomplete\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"The case provides only agent name/ID and exposure frequency plus counts of Yes/No responses; it does not provide the specific control items behind the 8 'No' responses, nor the ERBio mapping needed to assign probability, GRB, reference level, regulatory group/minimum group, or risk class. Therefore these outcomes remain unresolved.\"\n  },\n  \"professional_review_required\": true,\n  \"sources_or_basis\": [\n    \"Case-provided agent: SARS-CoV-2 (BIO-VIR-0064).\",\n    \"Case-provided exposure: Frequent.\",\n    \"Case-provided questionnaire responses: 40 Yes and 8 No out of 48 items.\"\n  ],\n  \"reasoning_summary\": \"Frequent exposure to SARS-CoV-2 is indicated, and overall questionnaire compliance is 83.33% (40/48). However, the case lacks the ERBio control-item details corresponding to the 8 'No' responses and lacks sufficient information to determine a resolvable reference level/classification, probability value mapping, GRB, or risk class; those fields are therefore left unresolved with professional assessment required.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 746,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 878,
+    "output_tokens_details": {
+      "reasoning_tokens": 145
+    },
+    "total_tokens": 1624
+  },
+  "user": null,
+  "metadata": {}
+}

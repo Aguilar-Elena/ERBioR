@@ -1,0 +1,97 @@
+{
+  "case_id": "ERBB-P14",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2) (1)",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2) (1)",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Frequent exposure was specified in the case and confirmed by the ERBioR reference output."
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Review and correct the documented noncompliance; retain preventive-action traceability."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Review and correct the documented noncompliance; retain preventive-action traceability."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Review and correct the documented noncompliance; retain preventive-action traceability."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Review and correct the documented noncompliance; retain preventive-action traceability."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Review and correct the documented noncompliance; retain preventive-action traceability."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Review and correct the documented noncompliance; retain preventive-action traceability."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Review and correct the documented noncompliance; retain preventive-action traceability."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Review and correct the documented noncompliance; retain preventive-action traceability."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_required_single_questionnaire",
+    "agent_aggregation_status": "not_required_single_agent",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "The failed-control item texts were not supplied, so control-specific corrective measures cannot be stated without inference. The ERBioR classification and matrix result are resolved."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Case ERBB-P14",
+    "ERBioR reference output version 0.9.0"
+  ],
+  "reasoning_summary": "For the single SARS-CoV-2 and general-questionnaire unit, 40 of 48 applicable responses were compliant (83.3333%, Aceptable). With frequent exposure and reference level 3, ERBioR assigned probability 1 (Baja), GRB 3, and Tolerable risk. Eight failed controls require traceable correction; professional review is not required by ERBioR."
+}

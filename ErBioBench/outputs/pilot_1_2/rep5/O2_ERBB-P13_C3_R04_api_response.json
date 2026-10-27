@@ -1,0 +1,102 @@
+{
+  "id": "resp_08a0b93b61c3af16006ae0da0491d487d2ac414912f2067d92",
+  "object": "response",
+  "created_at": 1793120772,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793120779,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_08a0b93b61c3af16006ae0da068e3087d2b22f968eb5999ff6",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4NoLjGPe9OOtjaSufbQqQc9A6zVEdavgGcZB_NBh9q8K6-p_2lRQO5z367OLSPmavJONCdzIGNUKiSM8wEcVOCS1BlqaG7yw9s6m6kQMcwR-ul3h3fBaWrTnuko1oypmvHn2aE_P92PAgKZQlGJvpyoulQKf-Xs-6DUwqZzGDxpkE4kx7gbCaCVreZF4zZgRPqSLTrpugl00I2e9k5yAsF0fSdMTx-HJv2gICgZVuWJhhZGxlDPvflu5mN_3StBfAbGo-DQxLsq-eXihlh5pBR4yZp4UGnuV0BCAUL0XNupL8FvDFWokNOsNpvWm5NUdWfrzQ2A-VeKOvjo2KIuvUyqTHN_SI0vCT4GFvd2qGM5hheYFU6Teb4O4UxQyNepG-ke_Jdhbl4Kn_jFGTABZpiVEQKRjtkwBYyStE826HbKtSBivzxu_GKGZsVxEGvlx-qJSvQNn70No4gR4s6_AVzNBRQ9rAuDTyYo2jNV5RmciEMkHNK7QG4yuZ0dGFzWwid-zZIUykjk4U4PbYdLkuaN4wtQl5qgf_C5VwoGzY5tgbpBfjuieiIUOLDmeosikB79FwsP0f6Y7XT7HhsqJO-YhPZFxsbWGfF2FLpP3RJ2bL8d5LSPRmvUfpAPAvKiu0obCcoLZXFhm1EctqRJzOtGYpZnTyltyZVOlwTAt97KwVsorS9ezVxUgNz6Mqz4C_dkorOSRLz2bGjGKPHvFXTVtxxNEJIeXAxSJxJacA8HLCdkVE6Lk5MLGLOXQcNLJg0geXdCYp6RaylahL4_UDtQpgFmP9wRtbDuQr5_-rGNr9JvXujq7GNarDmEQNEn4HmlLASFrnHTHh-52RTcrSRFzyK8Xi1dOPduOrcZGfjc6JvKajmxLBmfGdCaTOsLDwdU6vf-3zDBODW_zdT5yvgxATqFzMGeweBn35bKyMYEK8ej67UWoOuBlpI1EGNhx4UGtWF_BOwfqSzzOQWlGN7c-CEjzTJnvJCO3qwLm_1OA3mSpj4Wa-c9lTqIWR8Yfv045TVSe-IfGbwZT90kHhczIFLU5VHeX8lydWPMu08rnidaoWC9z23zHgBEumwH2UEzsneHi0rE8RwkZQ2K-Dqy0KKgyz_zlXUkXd7keb18prYEc7tNjMC6qVMMclet9LHeQs9koDgh9vQ642kt49_GLpWnThpmS9l3ZzHY3QSPHYbkIHjaEiSZQ-bjVABubGzSVfOoots7vqIra-ugKOg6sV5TMBE0v5seNR7ITZpWMWtEyyHAb-eMGmtutj8EiCXCKeXh0gswHz-_1KB4rtumCD4YaBj7sbedXeNwo5AhFHeboMaJQG0Oxi3aWM0tb17YZ4NMQFgvHI4or1sRnLcjqffowIC6n6_TrC1DuxpR7-ijzdTEhHYTNUdm2vlLIahxUp_yoVYHBWxlinjE5FCOXWqa3eEJ4EBhRJkMj9mJkFPnMo8uIgStf92wz5KN71EooxAAi3Zt7uRrjJNLuCYIKV3JjvLfrcD8VvyYxGF_J3XSClP78ZoiQP_DLUNkgM485YINhvpaMDxnCOpnx3Af__qVDjHPIbKXOWBfU3mUy0U-dkW5DbvpzK5Y4y9uCZnCsRujuYPWOiUCcfQd_PBgJ0w==",
+      "summary": []
+    },
+    {
+      "id": "msg_08a0b93b61c3af16006ae0da06a47887d29f9199776c30be96",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P13\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"Coronavirus del síndrome respiratorio agudo grave 2 (SARS-CoV-2)\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición indicada en el caso y confirmada por el output ERBioR.\"\n      },\n      \"compliance\": {\n        \"percent\": 83.3333,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n      \"failed_controls\": [\n        \"GENERAL-F2015-041\",\n        \"GENERAL-F2015-042\",\n        \"GENERAL-F2015-043\",\n        \"GENERAL-F2015-044\",\n        \"GENERAL-F2015-045\",\n        \"GENERAL-F2015-046\",\n        \"GENERAL-F2015-047\",\n        \"GENERAL-F2015-048\"\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Control preventivo no cumplido según el cuestionario general; requiere corrección en el ámbito del ítem correspondiente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Control preventivo no cumplido según el cuestionario general; requiere corrección en el ámbito del ítem correspondiente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Control preventivo no cumplido según el cuestionario general; requiere corrección en el ámbito del ítem correspondiente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Control preventivo no cumplido según el cuestionario general; requiere corrección en el ámbito del ítem correspondiente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Control preventivo no cumplido según el cuestionario general; requiere corrección en el ámbito del ítem correspondiente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Control preventivo no cumplido según el cuestionario general; requiere corrección en el ámbito del ítem correspondiente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Control preventivo no cumplido según el cuestionario general; requiere corrección en el ámbito del ítem correspondiente.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Control preventivo no cumplido según el cuestionario general; requiere corrección en el ámbito del ítem correspondiente.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"not_aggregated\",\n    \"agent_aggregation_status\": \"not_aggregated\",\n    \"workplace_global_class\": 3\n  },\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"No hay incertidumbre residual en la clasificación del agente, nivel de referencia, exposición, cumplimiento, probabilidad y clase de riesgo porque el output ERBioR suministra todos los valores necesarios.\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    \"Caso ERBB-P13\",\n    \"ERBioR reference output v0.9.0\"\n  ],\n  \"reasoning_summary\": \"Se mantiene una unidad de evaluación única para SARS-CoV-2 con cuestionario general. El agente está clasificado en el anexo II, con grupo mínimo reglamentario 3 y nivel de referencia 3. La exposición es frecuente. El cuestionario muestra 40 respuestas sí de 48 aplicables, con cumplimiento 83.3333% (clase Aceptable). ERBioR asigna probabilidad Baja (1), GRB 3 y clase de riesgo Tolerable. No se requiere valoración profesional adicional.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1030,
+    "output_tokens_details": {
+      "reasoning_tokens": 15
+    },
+    "total_tokens": 2400
+  },
+  "user": null,
+  "metadata": {}
+}

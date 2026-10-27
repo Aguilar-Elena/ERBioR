@@ -1,0 +1,101 @@
+{
+  "case_id": "ERBB-P05",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Bacillus anthracis",
+      "agent_id": "BIO-BACT-0010",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0010",
+      "agent_name": "Bacillus anthracis",
+      "questionnaire_id": "ERBio-general-48",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente para ambos agentes."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar los 8 ítems con respuesta No y establecer medidas correctoras específicas para cada incumplimiento."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-general-48",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente para ambos agentes."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar los 8 ítems con respuesta No y establecer medidas correctoras específicas para cada incumplimiento."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Resultados generales disponibles: 40 Sí y 8 No de 48 ítems; no se proporcionan los ítems concretos ni una distribución diferenciada por agente.",
+    "agent_aggregation_status": "No agregados: cada agente conserva su identidad y su unidad de evaluación.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se aportan clasificación reglamentaria o nivel de referencia, reglas para convertir exposición y cumplimiento en probabilidad, GRB o clase de riesgo, ni la identidad de los 8 controles incumplidos. Tampoco se especifica si las respuestas generales pueden atribuirse por separado a cada agente."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P05",
+    "Dos agentes identificados: Bacillus anthracis (BIO-BACT-0010) y Brucella melitensis (BIO-BACT-0028)",
+    "Exposición indicada: Frecuente para ambos agentes",
+    "Cuestionario general ERBio de 48 ítems",
+    "40 respuestas Sí y 8 respuestas No",
+    "Cumplimiento calculado: 40/48 = 83.33%"
+  ],
+  "reasoning_summary": "Se evaluaron por separado los dos agentes. La exposición frecuente y el cumplimiento de 83.33% son resolubles. La clasificación del agente, la clase de cumplimiento, la probabilidad, el GRB y la clase de riesgo quedan sin resolver porque no se proporcionan clasificaciones ni reglas de cálculo. Los 8 incumplimientos existen, pero sus ítems no están identificados, por lo que se requiere valoración profesional."
+}

@@ -1,0 +1,113 @@
+{
+  "case_id": "ERBB-P14",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Provided case exposure category; ERBioR assessment uses frequent occupational exposure."
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-041"
+        },
+        {
+          "item_id": "GENERAL-F2015-042"
+        },
+        {
+          "item_id": "GENERAL-F2015-043"
+        },
+        {
+          "item_id": "GENERAL-F2015-044"
+        },
+        {
+          "item_id": "GENERAL-F2015-045"
+        },
+        {
+          "item_id": "GENERAL-F2015-046"
+        },
+        {
+          "item_id": "GENERAL-F2015-047"
+        },
+        {
+          "item_id": "GENERAL-F2015-048"
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Control not met; maintain or strengthen the corresponding preventive measure."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Control not met; maintain or strengthen the corresponding preventive measure."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Control not met; maintain or strengthen the corresponding preventive measure."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Control not met; maintain or strengthen the corresponding preventive measure."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Control not met; maintain or strengthen the corresponding preventive measure."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Control not met; maintain or strengthen the corresponding preventive measure."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Control not met; maintain or strengthen the corresponding preventive measure."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Control not met; maintain or strengthen the corresponding preventive measure."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire_resolved",
+    "agent_aggregation_status": "single_agent_resolved",
+    "workplace_global_class": 3
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Case information: frequent exposure; 40 Yes / 8 No responses on the general questionnaire.",
+    "ERBioR reference output: classified_annex_ii, regulatory_minimum_group 3, reference_level 3, compliance 83.3333%, probability baja, risk class tolerable."
+  ],
+  "reasoning_summary": "The supplied ERBioR reference output resolves a single assessment unit for SARS-CoV-2 under the general questionnaire. It indicates Annex II classification, regulatory minimum group 3, reference level 3, frequent exposure, 83.3333% compliance (40/48), low probability, GRB 3, and tolerable risk. No professional review is required."
+}

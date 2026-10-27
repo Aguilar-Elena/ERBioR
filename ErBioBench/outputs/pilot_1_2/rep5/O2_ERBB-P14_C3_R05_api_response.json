@@ -1,0 +1,102 @@
+{
+  "id": "resp_036484ec00e843e5006ae0dba6e9e487d28da3cec31575ae14",
+  "object": "response",
+  "created_at": 1793121190,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793121195,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_036484ec00e843e5006ae0dba754c887d29b6cdfdba037a167",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4NurT1rjDmOc1Zl0zydK8-nvajnlx2rrAuNA4vXoSWI46VRmeqz_OJlzG151mzw4fx6eStgYvh7t8WH_RqiNmB6r4V_-LZZGXc6e_ih749MacwMUs2I8xwm7AsDqxsGBxnpZOJRXCU8XmRj0CstX7Uorbzr4OeS11GdytjBuAwlyaHj8WI0mKzxoSuoTYXhEBMfii0uf7IA27ejiSyDHaeASum6Bk6BITdSwJoaQuGrhPLwnQd14MOxbbCehfHgcR_WqBLeKwj8_y2s8yObZQhUn2fb1P2oLscObNnLLheKcAu6lP6Qo_6zgEsqxOIPxKkCuLwyUAYaWecDCV5H7UZ7AHswr70xH0ixY6ezZEXd6hHR_3aqBty3xJXfi_TXuv5d-qi0KMlIHZPxRfNUgbsgzCFW2TqauzwpSfe8yrSiI6kabhH6CdJDibAiWbGIXxRC1jA2-ZXbqzc7E0iAGZKYNEeK56pWHfer4dF8H1ufu4ZeXB5i11bxnEvnLC9PLqDplR34dRM8sRi2PrZ4_5jixeiDVsuAn6i4N2iVcjwKk_3TFs80Gt5ecYU_oS_1qCAKpjk8tvdvM0uzKvRfMRozy3KMNxFE9BZo44jFP2PyK5LxQT355BtAF10qrh4y4sHLZ52leEGpW302dhiN299UKIycBj4rSF0s7HulL59s2rQD8Bsd0HK5w4dSNxVpCv7AXa59e3rzhZsJmVavR3kjeb_ZDWz7FGzdle5mYH7kJTqr0ltF9-16JebhhhLTTDOCx7oxFPGdxijRx0hDAg4S_DsuUm8F5etfTI-OXxcFWfBIhxkZnaqSkimfDdzAhpf-DOTS-LXk1kCko8YIw_vtkSXRBRRB7mT8_Y126FWE-CyvgPBlaPbnT0v3nz-KuYOOgXm9cV95wWGzR03PucoQ5pUVNDvl358QOaS1EWGFCAVtVysoFb-H9yh-2jfLPtwLJlb4T-WHvs-CKymH6RNmHKR6g6odSylxyWgp0Qh8Ms-UqLaOdl-CZK2LQSsIFYXyCvsHgCQ41O0Q4VbozWdt4StrZ2DWwY-IjLqPInCbcjF-iG1gJUXb3lenU4UHSGctAA5qBQ3OZvuOKPMsaMSRPDu_cKVimVXf6PkPT5kGncNuZl4juvhCi_oUpSETmbUl6bkHe3aTq-atXkarroQadoSEBCzzuyF78zX9prBdQ3GFbLV_CKTH0TVzRV5Lv-zJVAnvZ2BG_IcUKfvhdh7c2niagDnnpS_ytIs7b9NBojr7CPCnyxhDqIBAUHHby-ijNbTBpWARBfIzZ0LL8VtDwkEzAKj4tV2TrFTiq5teomKJJR2LBf4x-H35SqAqezyRW4DZVoN6MfyGwZReGSlGIDKRWj-mrzRrJyE8oU0_TZgJtzCPR3R914F1zLpjAqzpzN4-EF2REsOrX0r--RxzHLtjKMUokhPzmIISPbSNTPvJurZ2i69UJZKnD9s6InA74YMon3461DSVg-e5lmaKzpWjKasHchSKH6lQJGYDvdjeMrUSq8s_DF-e4yls4V7GjREme1sOMDuale6o4vdUsGtRaUNEi7mDTOEMeLk21Qbo0UbktVJKIO7sIBv50rjaHrExoHfjN8dhu40IKCL-2RTPEd40aTVpMJfEQsPkTt_dr7xNf12DzYUzY6a3xuoACNpruVyOGDEr2aLejvLIXK0VFXnJOHlsGq7DhE2w1I7vRpt67qXBhXkxxQDaOVFtxASQr-DSVrM0P-9rlnpBxYfKustQST2RvJ2QNoRkk3XIje4akbiFjAT_WmL62VvDKkBJqrB8dxg7qhvoAZ-9axMYafDATKzj3N3rxZXC5aISf-1VLVQEoWhMVLaWvg8PILUzsuDB_LeOjfTCVCfjGQhK_YPvCMt6liAyXquAosxxY9EW2PUJ6hQFlRKuaXZn2",
+      "summary": []
+    },
+    {
+      "id": "msg_036484ec00e843e5006ae0dba7995087d29e3b6c12267d9c97",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P14\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"SARS-CoV-2\",\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 3,\n      \"reference_level\": 3,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-VIR-0064\",\n      \"agent_name\": \"SARS-CoV-2\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Provided case exposure category; ERBioR assessment uses frequent occupational exposure.\"\n      },\n      \"compliance\": {\n        \"percent\": 83.3333,\n        \"class\": \"Aceptable\",\n        \"n_applicable\": 48,\n        \"n_not_applicable\": 0\n      },\n      \"probability\": {\n        \"value\": 1,\n        \"label\": \"Baja\"\n      },\n      \"grb\": 3,\n      \"risk_class\": \"Tolerable\",\n      \"failed_controls\": [\n        {\n          \"item_id\": \"GENERAL-F2015-041\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\"\n        }\n      ],\n      \"preventive_actions\": [\n        {\n          \"item_id\": \"GENERAL-F2015-041\",\n          \"action\": \"Control not met; maintain or strengthen the corresponding preventive measure.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-042\",\n          \"action\": \"Control not met; maintain or strengthen the corresponding preventive measure.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-043\",\n          \"action\": \"Control not met; maintain or strengthen the corresponding preventive measure.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-044\",\n          \"action\": \"Control not met; maintain or strengthen the corresponding preventive measure.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-045\",\n          \"action\": \"Control not met; maintain or strengthen the corresponding preventive measure.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-046\",\n          \"action\": \"Control not met; maintain or strengthen the corresponding preventive measure.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-047\",\n          \"action\": \"Control not met; maintain or strengthen the corresponding preventive measure.\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-048\",\n          \"action\": \"Control not met; maintain or strengthen the corresponding preventive measure.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"single_questionnaire_resolved\",\n    \"agent_aggregation_status\": \"single_agent_resolved\",\n    \"workplace_global_class\": 3\n  },\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    \"Case information: frequent exposure; 40 Yes / 8 No responses on the general questionnaire.\",\n    \"ERBioR reference output: classified_annex_ii, regulatory_minimum_group 3, reference_level 3, compliance 83.3333%, probability baja, risk class tolerable.\"\n  ],\n  \"reasoning_summary\": \"The supplied ERBioR reference output resolves a single assessment unit for SARS-CoV-2 under the general questionnaire. It indicates Annex II classification, regulatory minimum group 3, reference level 3, frequent exposure, 83.3333% compliance (40/48), low probability, GRB 3, and tolerable risk. No professional review is required.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1348,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 971,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 2319
+  },
+  "user": null,
+  "metadata": {}
+}

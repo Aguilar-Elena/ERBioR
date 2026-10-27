@@ -1,0 +1,65 @@
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "identificado en el caso; clasificación regulatoria no resoluble con la जानकारी proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "frecuente",
+        "basis": "La exposición se describe explícitamente como frecuente en el escenario ocupacional."
+      },
+      "compliance": {
+        "percent": 83.33333333333334,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": "no resoluble con la información disponible"
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        "8 respuestas No en el cuestionario general"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Requiere valoración profesional específica para traducir los hallazgos del cuestionario a probabilidad, GRB, clase de riesgo y medidas preventivas concretas."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "no resoluble",
+    "agent_aggregation_status": "resuelto parcialmente (agente identificado); clasificación regulatoria no resoluble",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporcionan reglas de conversión para derivar probabilidad, GRB o clase de riesgo a partir de las 40 respuestas Sí y 8 No, ni una clasificación regulatoria explícita del agente."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P13",
+    "Agente: SARS-CoV-2 (BIO-VIR-0064)",
+    "Exposición: frecuente",
+    "Cuestionario general: 48 ítems",
+    "Resultados: 40 respuestas Sí y 8 respuestas No"
+  ],
+  "reasoning_summary": "Se identifica el agente y se registra la exposición frecuente. La compliance se calcula directamente como 40/48 = 83,33%. No es posible determinar sin reglas adicionales la probabilidad, GRB, clase de riesgo ni la clasificación/regulatory group del agente, por lo que esos campos se dejan sin resolver y se marca necesidad de valoración profesional."
+}

@@ -1,0 +1,95 @@
+{
+  "id": "resp_0d0d67baaed1097a006ae0dcadeb5487d2998d98a07d611832",
+  "object": "response",
+  "created_at": 1793121453,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793121457,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-nano-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "msg_0d0d67baaed1097a006ae0dcae61f887d2a1a5bc14549063de",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"case_id\": \"ERBB-P07\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"ErBioBench fictitious biological agent\",\n      \"agent_id\": null,\n      \"classification_status\": \"unclassified_not_implicitly_group1\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": null,\n      \"reference_level\": null,\n      \"requires_professional_assessment\": true\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": null,\n      \"agent_name\": \"ErBioBench fictitious biological agent\",\n      \"questionnaire_id\": null,\n      \"exposure\": {\n        \"category\": null,\n        \"basis\": \"La información de exposición no permite sustituir la clasificación reglamentaria.\"\n      },\n      \"compliance\": {\n        \"percent\": null,\n        \"class\": null,\n        \"n_applicable\": null,\n        \"n_not_applicable\": null\n      },\n      \"probability\": {\n        \"value\": null,\n        \"label\": null\n      },\n      \"grb\": null,\n      \"risk_class\": null,\n      \"failed_controls\": [],\n      \"preventive_actions\": [\n        {\n          \"item_id\": null,\n          \"action\": \"No es posible asignar clasificación/nivel de referencia ni estimar probabilidad/GRB/clase de riesgo con la información disponible; se requiere valoración profesional antes de cerrar el análisis preventivo.\"\n        },\n        {\n          \"item_id\": null,\n          \"action\": \"Verificar la identificación del agente y su clasificación reglamentaria aplicable; el agente no figura en el registro legal consultado.\"\n        }\n      ]\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"UNPROCESSED_UNRESOLVED_REFERENCE_LEVEL\",\n    \"agent_aggregation_status\": \"UNRESOLVED_AGENT_UNLISTED\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": true,\n    \"description\": \"Agente no incluido en el registro legal consultado; ausencia de clasificación legal y de información de exposición suficiente para completar el cálculo de probabilidad/GRB/clase de riesgo.\"\n  },\n  \"professional_review_required\": true,\n  \"sources_or_basis\": [\n    \"ERBIOR reference: source_rule=UNLISTED-NOT-G1\",\n    \"ERBIOR reference warning: El agente no figura en el registro legal consultado; RD 664/1997: los agentes no incluidos en grupos 2-4 no quedan implícitamente clasificados en grupo 1.\"\n  ],\n  \"reasoning_summary\": \"El agente comunicado no figura en el registro legal (ERBIOR: UNLISTED-NOT-G1), por lo que queda 'unclassified_not_implicitly_group1'. La exposición no permite sustituir la clasificación reglamentaria, y el cuestionario no puede cerrarse frente a un nivel de referencia inexistente; se requiere valoración profesional y no se determinan GRB ni clase de riesgo con los datos proporcionados.\"\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1052,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 651,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1703
+  },
+  "user": null,
+  "metadata": {}
+}

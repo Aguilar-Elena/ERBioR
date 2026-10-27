@@ -1,0 +1,63 @@
+{
+  "case_id": "ERBB-P14",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "Unresolved: no regulatory classification or reference level was provided.",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": "ERBio general questionnaire",
+      "exposure": {
+        "category": "Frequent",
+        "basis": "The case explicitly states frequent occupational exposure."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Review and correct the eight controls answered No. Their identifiers and specific contents were not provided."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "One questionnaire was assessed; no questionnaire aggregation was required.",
+    "agent_aggregation_status": "One biological agent was identified; no agent aggregation was required.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "The regulatory classification/reference level and the identities of the eight failed controls were not supplied. The case also does not provide the ERBio compliance-class and probability mapping needed to derive probability. Consequently, GRB and risk class cannot be determined."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Case ERBB-P14",
+    "Agent stated as SARS-CoV-2 (BIO-VIR-0064)",
+    "Exposure stated as Frequent",
+    "ERBio general questionnaire: 48 items",
+    "Responses: 40 Yes and 8 No"
+  ],
+  "reasoning_summary": "Compliance is 40 of 48 applicable items, or 83.33%, with eight unidentified failed controls. Exposure is explicitly Frequent. Because no regulatory reference level or required ERBio mapping information is provided, probability, GRB, and risk class remain unresolved and require professional review."
+}

@@ -1,0 +1,79 @@
+{
+  "case_id": "ERBB-P04",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": 2,
+      "regulatory_minimum_group": 2,
+      "reference_level": 2,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría de exposición proporcionada en el caso y utilizada por ERBioR."
+      },
+      "compliance": {
+        "percent": 75,
+        "class": "Mejorable",
+        "n_applicable": 16,
+        "n_not_applicable": 32
+      },
+      "probability": {
+        "value": 2,
+        "label": "Media"
+      },
+      "grb": 4,
+      "risk_class": "Moderado",
+      "failed_controls": [
+        "GENERAL-F2015-013",
+        "GENERAL-F2015-014",
+        "GENERAL-F2015-015",
+        "GENERAL-F2015-016"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-013",
+          "action": "Revisar y corregir el control incumplido identificado por este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-014",
+          "action": "Revisar y corregir el control incumplido identificado por este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-015",
+          "action": "Revisar y corregir el control incumplido identificado por este ítem, manteniendo trazabilidad documental."
+        },
+        {
+          "item_id": "GENERAL-F2015-016",
+          "action": "Revisar y corregir el control incumplido identificado por este ítem, manteniendo trazabilidad documental."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "No requerida: existe una única unidad agente-cuestionario.",
+    "agent_aggregation_status": "No requerida: se ha evaluado un único agente.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": false,
+    "description": "La clasificación y los resultados de la matriz están resueltos por ERBioR. No se infiere el contenido específico de los controles incumplidos."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Información del caso ERBB-P04.",
+    "Salida de referencia ERBioR versión 0.9.0.",
+    "Cuestionario general ERBio final_2015_annex1.",
+    "Los 32 ítems No procede se excluyen del denominador: 16 ítems aplicables, con 12 respuestas Sí y 4 No."
+  ],
+  "reasoning_summary": "Actinomadura madurae está clasificada en el anexo II con grupo mínimo y nivel de referencia 2. Excluidos los 32 ítems no aplicables, el cumplimiento es 12/16 = 75 %, clase Mejorable. Con exposición Frecuente, ERBioR asigna probabilidad 2 (Media), GRB 4 y riesgo Moderado. Se conservan los cuatro controles fallidos indicados por la salida de referencia y no se requiere valoración profesional."
+}

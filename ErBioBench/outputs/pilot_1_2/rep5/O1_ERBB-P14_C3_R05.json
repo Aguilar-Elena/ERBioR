@@ -1,0 +1,98 @@
+{
+  "case_id": "ERBB-P14",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Frequent exposure specified in the case and confirmed by the ERBioR reference output."
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": 3,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Review and correct the noncompliance represented by this questionnaire item; the item text was not supplied, so no more specific action can be stated."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Review and correct the noncompliance represented by this questionnaire item; the item text was not supplied, so no more specific action can be stated."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Review and correct the noncompliance represented by this questionnaire item; the item text was not supplied, so no more specific action can be stated."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Review and correct the noncompliance represented by this questionnaire item; the item text was not supplied, so no more specific action can be stated."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Review and correct the noncompliance represented by this questionnaire item; the item text was not supplied, so no more specific action can be stated."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Review and correct the noncompliance represented by this questionnaire item; the item text was not supplied, so no more specific action can be stated."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Review and correct the noncompliance represented by this questionnaire item; the item text was not supplied, so no more specific action can be stated."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Review and correct the noncompliance represented by this questionnaire item; the item text was not supplied, so no more specific action can be stated."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "not_applicable_single_questionnaire",
+    "agent_aggregation_status": "not_applicable_single_agent",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "The classification and matrix result are resolved by ERBioR. However, the wording of the eight failed questionnaire items was not provided, preventing item-specific preventive measures beyond review and correction of each identified noncompliance."
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    "Case ERBB-P14",
+    "ERBioR reference output version 0.9.0",
+    "General questionnaire final_2015_annex1: 40 compliant and 8 noncompliant responses out of 48 applicable items"
+  ],
+  "reasoning_summary": "For the single SARS-CoV-2 and general-questionnaire unit, ERBioR applies Annex II classification with regulatory minimum group 3 and reference level 3. Frequent exposure and 83.3333% acceptable compliance yield probability 1 (Baja), GRB 3, and Tolerable risk. Eight failed controls require corrective follow-up; professional assessment is not required by the reference output."
+}

@@ -1,0 +1,58 @@
+{
+  "case_id": "ERBB-P13",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría de exposición indicada expresamente en el caso."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Cumplimiento cuantitativo calculable; clase y controles concretos no resolubles",
+    "agent_aggregation_status": "No resoluble por falta de clasificación de referencia y reglas de cálculo ERBio",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El cumplimiento es 40/48 (83.33 %) y existen 8 respuestas negativas, pero no se identifican los ítems incumplidos. Tampoco se proporcionan la clasificación reglamentaria o nivel de referencia del agente ni las reglas ERBio para convertir exposición y cumplimiento en probabilidad, GRB y clase de riesgo."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P13",
+    "Agente declarado: SARS-CoV-2 (BIO-VIR-0064)",
+    "Exposición declarada: Frecuente",
+    "Cuestionario general de 48 ítems: 40 respuestas Sí y 8 respuestas No",
+    "Cumplimiento calculado: 40 dividido entre 48, equivalente a 83.33 %"
+  ],
+  "reasoning_summary": "La exposición frecuente y el cumplimiento del 83.33 % son determinables directamente. Los 8 controles fallidos no pueden identificarse por ítem. Sin clasificación del agente ni reglas de conversión ERBio, la probabilidad, el GRB, la clase de riesgo y la clase global permanecen sin resolver y requieren valoración profesional."
+}

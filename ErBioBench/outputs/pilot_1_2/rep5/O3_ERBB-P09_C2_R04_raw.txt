@@ -1,0 +1,70 @@
+{
+  "case_id": "ERBB-P09",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "La exposición se describe únicamente como 'contacto regular' con material potencialmente contaminado. No se aporta frecuencia, cadencia, duración (porcentaje de tiempo) ni otras variables cuantitativas."
+      },
+      "compliance": {
+        "percent": 83.33333333333334,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      ,
+        "compliance_basis": "Cuestionario general reporta 40 Sí y 8 No; no se indican ítems 'No aplica', por lo que se considera el total 48 como aplicable."
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Completar la caracterización de la exposición (frecuencia, duración por turno y actividades que implican contacto) para permitir una clasificación ERBio de probabilidad y riesgo."
+        },
+        {
+          "item_id": null,
+          "action": "Verificar y documentar las medidas de control existentes específicamente para agentes tipo Brucella (p. ej., prácticas de trabajo, EPI, higiene y control de salpicaduras/aerosoles cuando aplique) y revisar si las 8 respuestas 'No' corresponden a controles críticos."
+        },
+        {
+          "item_id": null,
+          "action": "Asegurar vigilancia/gestión ocupacional acorde a las conclusiones del análisis (p. ej., formación, procedimientos y medidas de respuesta ante incidentes), una vez definido el nivel de riesgo con información suficiente."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "cannot_determine",
+    "agent_aggregation_status": "cannot_determine",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Alta incertidumbre por insuficiencia de información: no se dispone de datos cuantitativos de exposición (frecuencia, duración/porcentaje de tiempo) ni de clasificación/regulación con nivel de referencia resoluble para Brucella melitensis dentro del caso proporcionado. Por ello no es posible derivar de forma trazable probabilidad, GRB ni clase de riesgo ERBio."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P09: Exposición descrita como 'contacto regular' con material potencialmente contaminado por Brucella melitensis (BIO-BACT-0028).",
+    "Cuestionario general: 40 Sí y 8 No (sin información sobre 'No aplica')."
+  ],
+  "reasoning_summary": "Se identifica un único agente (Brucella melitensis, BIO-BACT-0028). Con el cuestionario general se calcula cumplimiento del 83.33% (40/48) pero el caso no aporta la clasificación/nivel de referencia reglamentario resoluble ni datos cuantitativos para categorizar exposición/probabilidad; por tanto, GRB y clase de riesgo ERBio no pueden derivarse con trazabilidad. Se requiere valoración profesional y ampliación de la información."
+}

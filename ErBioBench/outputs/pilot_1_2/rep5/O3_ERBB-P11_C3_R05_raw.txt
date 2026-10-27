@@ -1,0 +1,80 @@
+{
+  "case_id": "ERBB-P11",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Exposición: Frecuente (según información del caso)."
+      },
+      "compliance": {
+        "percent": 97.9167,
+        "class": "Aceptable",
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": 1,
+        "label": "Baja"
+      },
+      "grb": null,
+      "risk_class": "Tolerable",
+      "failed_controls": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "detail": "GENERAL-F2015-020 = No; todos los demás ítems = Sí (incumplido según referencia ERBioR)."
+        }
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-020",
+          "action": "Asegurar la limpieza/desinfección periódica de los equipos de trabajo, manteniendo la trazabilidad conforme al item_id real GENERAL-F2015-020 (control incumplido según ERBioR)."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire_no_additional_agents",
+    "agent_aggregation_status": "single_agent_no_aggregation_discrepancy",
+    "workplace_global_class": "Tolerable"
+  },
+  "uncertainty": {
+    "present": false,
+    "description": ""
+  },
+  "professional_review_required": false,
+  "sources_or_basis": [
+    {
+      "source": "ERBIOR REFERENCE OUTPUT",
+      "reference_version": "0.9.0",
+      "mapping": {
+        "agent_id": "BIO-BACT-0028",
+        "questionnaire_id": "general",
+        "failed_control_ids": [
+          "GENERAL-F2015-020"
+        ],
+        "exposure": "Frecuente",
+        "reference_level": 3,
+        "regulatory_minimum_group": 3,
+        "probability_value": 1,
+        "risk_class": "Tolerable",
+        "compliance_percent": 97.9167
+      }
+    }
+  ],
+  "reasoning_summary": "Se evalúa Brucella melitensis (BIO-BACT-0028) con clasificación/GRUPO mínimo y nivel de referencia 3 (según ERBioR). Para el cuestionario general, la exposición es 'Frecuente' y la probabilidad resulta 'Baja' (valor 1), con riesgo clase 'Tolerable'. El único control incumplido es GENERAL-F2015-020 (situación de limpieza/desinfección periódica de equipos), por lo que la acción preventiva se vincula explícitamente a ese item_id. No se requiere revisión profesional según el ERBioR provisto."
+}

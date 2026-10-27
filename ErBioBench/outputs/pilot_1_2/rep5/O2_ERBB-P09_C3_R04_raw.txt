@@ -1,0 +1,99 @@
+{
+  "case_id": "ERBB-P09",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "classified_annex_ii",
+      "regulatory_group": null,
+      "regulatory_minimum_group": 3,
+      "reference_level": 3,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "general",
+      "exposure": {
+        "category": null,
+        "basis": "Exposición descrita solo como 'contacto regular'; no se especifica frecuencia, cadencia ni porcentaje temporal, por lo que no es posible clasificar la exposición de forma determinista."
+      },
+      "compliance": {
+        "percent": 83.3333,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [
+        "GENERAL-F2015-041",
+        "GENERAL-F2015-042",
+        "GENERAL-F2015-043",
+        "GENERAL-F2015-044",
+        "GENERAL-F2015-045",
+        "GENERAL-F2015-046",
+        "GENERAL-F2015-047",
+        "GENERAL-F2015-048"
+      ],
+      "preventive_actions": [
+        {
+          "item_id": "GENERAL-F2015-041",
+          "action": "Control no cumplido en el cuestionario general; requiere revisión preventiva profesional."
+        },
+        {
+          "item_id": "GENERAL-F2015-042",
+          "action": "Control no cumplido en el cuestionario general; requiere revisión preventiva profesional."
+        },
+        {
+          "item_id": "GENERAL-F2015-043",
+          "action": "Control no cumplido en el cuestionario general; requiere revisión preventiva profesional."
+        },
+        {
+          "item_id": "GENERAL-F2015-044",
+          "action": "Control no cumplido en el cuestionario general; requiere revisión preventiva profesional."
+        },
+        {
+          "item_id": "GENERAL-F2015-045",
+          "action": "Control no cumplido en el cuestionario general; requiere revisión preventiva profesional."
+        },
+        {
+          "item_id": "GENERAL-F2015-046",
+          "action": "Control no cumplido en el cuestionario general; requiere revisión preventiva profesional."
+        },
+        {
+          "item_id": "GENERAL-F2015-047",
+          "action": "Control no cumplido en el cuestionario general; requiere revisión preventiva profesional."
+        },
+        {
+          "item_id": "GENERAL-F2015-048",
+          "action": "Control no cumplido en el cuestionario general; requiere revisión preventiva profesional."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "single_questionnaire_only",
+    "agent_aggregation_status": "single_agent_only",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "La referencia ERBioR clasifica el agente como ANNEX II con nivel de referencia 3 y marca la evaluación como insufficient_information. No se dispone de frecuencia ni de porcentaje de exposición, por lo que no es posible determinar probabilidad, GRB ni clase de riesgo de forma válida."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "ERBioR reference output v0.9.0",
+    "Case description: 'contacto regular' sin frecuencia/cadencia/porcentaje temporal",
+    "Questionnaire general: 40 Sí y 8 No",
+    "Brucella melitensis (BIO-BACT-0028) classified_annex_ii; regulatory_minimum_group 3; reference_level 3"
+  ],
+  "reasoning_summary": "El agente Brucella melitensis está clasificado como ANNEX II con grupo mínimo reglamentario 3 y nivel de referencia 3. El cuestionario general muestra 83.3333% de cumplimiento (40/48) y 8 controles incumplidos. Sin embargo, la exposición solo se describe como 'contacto regular' sin datos cuantitativos, por lo que la ERBioR concluye insufficient_information y no permite determinar probabilidad, GRB ni clase de riesgo. Se requiere revisión profesional."
+}

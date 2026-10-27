@@ -1,0 +1,73 @@
+{
+  "case_id": "ERBB-P01",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved_not_provided",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": false
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "ERBio-General-48-items",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "El caso indica exposición laboral con frecuencia diaria (frecuente)."
+      },
+      "compliance": {
+        "percent": 83.3333333333,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Aplicar medidas de control para reducir la exposición biológica en el trabajo con agentes tipo Brucella (p. ej., controles de ingeniería cuando proceda y prácticas de trabajo seguras)."
+        },
+        {
+          "item_id": null,
+          "action": "Asegurar el uso de protección individual adecuada y su entrenamiento/ajuste conforme a evaluación interna del puesto."
+        },
+        {
+          "item_id": null,
+          "action": "Reforzar procedimientos de higiene ocupacional y gestión de residuos/limpieza para minimizar la transmisión por aerosoles/contaminación de superficies, según el contexto del puesto."
+        },
+        {
+          "item_id": null,
+          "action": "Establecer vigilancia y respuesta ante incidentes (p. ej., plan ante derrames/exposiciones, reporte inmediato y revisión de controles)."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "partial_due_to_missing_ERBio_mappings_and_reference_level",
+    "agent_aggregation_status": "partial_due_to_missing_reference_level",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se aporta en el caso el nivel de referencia/clasificación regulatoria (ni mapeos internos ERBio para convertir compliance y exposición a probabilidad/GRB/riesgo). Por ello se reportan los valores derivados solo donde es posible (p. ej., % de cumplimiento) y se dejan nulos los campos que dependen de información o tablas no incluidas."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso: Puesto con exposición laboral a Brucella melitensis con frecuencia diaria (frecuente).",
+    "Caso: Agente identificado Brucella melitensis (BIO-BACT-0028).",
+    "Caso: Cuestionario general ERBio con 48 ítems; 40 respuestas Sí y 8 respuestas No."
+  ],
+  "reasoning_summary": "Se identificó un único agente (Brucella melitensis, BIO-BACT-0028) y se calculó el cumplimiento como 40/48 = 83.33% (n_applicable=48, n_not_applicable=0) con exposición 'Frecuente'. Los campos ERBio que requieren el nivel de referencia/clasificación y las correspondencias de mapeo (probabilidad, GRB y clase de riesgo) no pueden resolverse con la información suministrada, por lo que quedan como nulos y se marca revisión profesional."
+}

@@ -1,0 +1,102 @@
+{
+  "id": "resp_0855fe4e37ca8614006ae0dc5e8f3887d2ae05f528dd47019f",
+  "object": "response",
+  "created_at": 1793121374,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1793121380,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 4000,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-nano-2026-03-17",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0855fe4e37ca8614006ae0dc5ef94087d2993f78d8e4a6968f",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq4NxkGNnr4avQ6308bHSs3QZuIEi48jwvvtOeSyPsRBOclGN9dxopN6C5nj0oMEWrBrY9iOufDw6vp9j-8ZUhYhyv1N-wawew9yzDsgz1FzfmvQWCTLWBeGRM_xRVdQdWez0VkX5JA3Gkyxzi5ikp0YW4wLG8DJ01_xaIGS-0xyayQ7XfIYxdw4AdX5neow8O1m2sTW2NKVGXWIjyWkrRt0ILidBGsP9pEyjwJNItI1xgVHg638ROl_Sl6xsl-i1aAIKDkU2W2WgEHRr698yeMu4aD1uY28vL3FYf2L1psYG3gOM6xVvGKH4T5sVb6tlu6GBADdjXBKBNm9qPHPNob24YJ_xXzjyPEMbsmpD2FzBnVp_wa-rpiH-X35EGLHGql3C2ThFNEd7Tc5opbvWwHHmOj0ybbCXTRcJlKcYJttcTfaAeVcIlv1UiYkVSDWEqTE0zWWFTfgDMX4ev96NbMMG6HN7y8fsoJVrVjDUrbTR7YxhTgiAwwyxi_9RETvq3greQuQdC_gwOMwxwWGUClJ9koZqRTLqjMuFpLbbxzed-THLGlrsDX_RwB5_OHUe9R5lvUqGoIJK0y72rWc7vjnCXN7wPlCp41kx7Sd08vJlMo6r1nxZ80lYMm-Bsgs4hb7QA7mbOnd_y0lCXZpdelBD2guxDnand56z9rJ2D41X8W2YBpGYyPTxuU78RqOA4Kihd0lRjUJBgMxR_h8QM6lXgKvfV8hJaqB6OjPE35LC3B4apc_CevS_AYuR4pTTy6iuM_V5UGt5OtDwczgchpxM4DkQeJdR0xgLrITrw0HX3cb3uv49BxgGrpV_fTIGaV8VilKOdsbBmKeHf-idkgss-b6o43YNxccgwhn7qFa9_fn-BV0houfHyHzTbOkkS7WqtsbAUxX27jQXiEgeKflaGHIOIV3Ei_nqkA0QCwZ9dgHyH1PGZYFe4F1QgyY65XCQ8dMAqL3H2vYby-mfxSmd5nBFbcVr5FRjTfsfxYd3cMneUNSNqM7iErk6f8yrhjqEheh5vOyMpXr1gBzxJL2mbDY-767vNNtkNwe0zbBSxrFZpo9JCpg_cq9oKKpSK5P8VEBzOefWW0d4uWXJ029Cv2BgBQQaU_V_GKHsYtztvTzukQZ2BrNVsFxlRtqtJVMdtXeqxjEIjlnMn1D60K8jRCq_SudOsGAddYzSJola-ACsZVGldtbgf4YXfQYOtaPD1BQO2PsPa9hKkwrQuKPZJJakTaw8dgWCmFJVM6uBYDANJzG6Pb9emQN0Jqtz90FDnccyPhEocockMwOKpIHQLx5eeCTtGfi8sJUlGH4-KpMaO1m2HaoApFRmlcIHNtw0O2Nnx-t9orrWiWCgg9sXBSIbkSRcy9GNTpuwm9uimEIrUKI-Cd7oEKrA2qMF4L5kpVFluQROqJ1a5t_r6xD3yEwwJXkt9930JY0UfCPcbHVOAQNFx1JoOH091xIdpFpZ-8Sm8SKdmA5AlDxKRfUfmMoSRAIMm5aM90yJVpy3JdT8qk-kHRDZp3wY-iniSztFlS7G4WvbfPEC9EkFynWue4NvbFogsdOE35VicsB6t94NfT4OiCGGWIzOMchu4GCf9uw6YJl2vgzsV_7RMrkTTcrTldSqpVqYxBDEAzjNQ2JmDcJ75VI92Zs7VW7_6lPweg2SDQ9Rk184YAKhKHgAOOeDwUBDBGy7dDSLuPixjhuvNr2mJ9JLSi86cwg4ZJZR9eA1Up0u0_7vQphaFx4Lykwy5tTc11zTmmO3GNKbLvEMzdl2EhCQv_6nJuhYxMeZr7EkJE7H70IfKiYAzAlRQqR4lFnGDBwkIByT_aHDEKfwg0CHgNMPKxWccrqA5wGQneCPTjiuuYZSCnMJjLSuEMLXRNdX_G-tmMpUCCD4toNFuS6XjcjKhIIv4zx2WBjOa_zo6tlzh6OEkbgOM4IanwtUIuAxSFWSQfVBaGo59A_WImCu7IxGM9znrjZPjPXatgZesZl-OA5K3zFhNsy4CEKf5jq870Av7ygQf2q-zrXE43ki8vuHHD1-3m1Ztjj2UZl-5XiSgvppa-FQbEiZqqgvqGzJMiAjzoRf5RKwIeVUY-DVMcMtixCDfWJLlG1SUM63NaBb36Kkyx4-Nf08Ip--bO6G2-mIns7dPnG_HApy30O676NEbuclsdV8Uaw6Bn8OR1Dmio10ieIrdsI1xFzHFxyM2N0CEdGAP4y1LJzNOwnVWYIilDTtYyl7PVxcgbu37eB2wn8MA8kimmvKYHXIsrA5JBjqkYfgjJsyfgXish73dkakgGQFKmxh6_tYZQSAK86V_QGDWrtlkPq--c941rmDKsfhPV8PA7gM7Le7uMoO7XKUV2VAr1ePp1JDPgVLGIAPePyrVqoWrnUaha_4N5FKVQK97LlSuy8cF9GILEG1xgTUFJzpKoHZlcaQKBEqjUTcm5PhVpSVXsw2_b1ciKXvPmk4SaXf7Hse0tG219z7OL4zOMQAfsgTxu6GT18oFFKzP5uWwIHD8WY_TSL1xTgUYL_-J-GSIF-imoKoU8CUx89Kavz6TeXs6vYkS2_JcrFcBjyionv8aeriBAbtt9hc5Zp1RpGBuLekGlUoLnD4XXyOZXEEH0PLjGEH2QmBU2nrZDXBMD7uQWj6KrS-cDB3rTjiz_jBn0iQkEv63PQgGJEzr5cBc5NzHDM73rJwrY58LbXg5hZ8qzJhITj6PPSo0w1UtRudF6Adk3IRBC_zomR3nBOXbrArdP4A214NVLLvFHBiDv0l5iSfo8A==",
+      "summary": []
+    },
+    {
+      "id": "msg_0855fe4e37ca8614006ae0dc5fa08887d2bdca5228ef5e8745",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "```json\n{\n  \"case_id\": \"ERBB-P04\",\n  \"response_schema_version\": \"1.1\",\n  \"identified_agents\": [\n    {\n      \"agent_name\": \"Actinomadura madurae\",\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"classification_status\": \"classified_annex_ii\",\n      \"regulatory_group\": null,\n      \"regulatory_minimum_group\": 2,\n      \"reference_level\": 2,\n      \"requires_professional_assessment\": false\n    }\n  ],\n  \"evaluation_units\": [\n    {\n      \"agent_id\": \"BIO-BACT-0001\",\n      \"agent_name\": \"Actinomadura madurae\",\n      \"questionnaire_id\": \"general\",\n      \"exposure\": {\n        \"category\": \"Frecuente\",\n        \"basis\": \"Exposición reportada como 'Frecuente' en el caso.\"\n      },\n      \"compliance\": {\n        \"percent\": 75,\n        \"class\": \"Mejorable\",\n        \"n_applicable\": 16,\n        \"n_not_applicable\": 32\n      },\n      \"probability\": {\n        \"value\": 2,\n        \"label\": \"Media\"\n      },\n      \"grb\": null,\n      \"risk_class\": \"Moderado\",\n      \"failed_controls\": [\n        {\n          \"item_id\": \"GENERAL-F2015-013\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-014\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-015\"\n        },\n        {\n          \"item_id\": \"GENERAL-F2015-016\"\n        }\n      ],\n      \"preventive_actions\": []\n    }\n  ],\n  \"aggregation\": {\n    \"questionnaire_aggregation_status\": \"matrix_assessment\",\n    \"agent_aggregation_status\": \"matrix_assessment\",\n    \"workplace_global_class\": null\n  },\n  \"uncertainty\": {\n    \"present\": false,\n    \"description\": \"\"\n  },\n  \"professional_review_required\": false,\n  \"sources_or_basis\": [\n    {\n      \"source\": \"ERBioR reference output\",\n      \"reference_version\": \"0.9.0\",\n      \"used_fields\": [\n        \"assessment_status\",\n        \"agent_id\",\n        \"agent_name\",\n        \"agent_type\",\n        \"classification_status\",\n        \"regulatory_minimum_group\",\n        \"reference_level\",\n        \"questionnaire_id\",\n        \"questionnaire_name\",\n        \"questionnaire_version\",\n        \"exposure\",\n        \"compliance_percent\",\n        \"compliance_class\",\n        \"probability_value\",\n        \"probability_label\",\n        \"risk_score\",\n        \"risk_class\",\n        \"priority\",\n        \"failed_control_ids\",\n        \"requires_professional_assessment\",\n        \"professional_review_required\"\n      ]\n    }\n  ],\n  \"reasoning_summary\": \"Se evaluó el agente BIO-BACT-0001 (Actinomadura madurae) con cuestionario general, excluyendo los ítems 'No procede' del denominador (32/48), manteniendo la clasificación del ERBioR como 'classified_annex_ii' con grupo mínimo regulatorio 2 y nivel de referencia 2; con exposición 'Frecuente', cumplimiento 75% (Mejorable), probabilidad 2 (Media), clase de riesgo 'Moderado' y controles incumplidos GENERAL-F2015-013 a 016 según el output de referencia.\"\n}\n```"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 831,
+    "output_tokens_details": {
+      "reasoning_tokens": 103
+    },
+    "total_tokens": 2201
+  },
+  "user": null,
+  "metadata": {}
+}

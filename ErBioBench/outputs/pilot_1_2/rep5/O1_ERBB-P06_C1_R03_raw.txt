@@ -1,0 +1,108 @@
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": "BIO-BACT-0001",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "No resoluble con la información proporcionada",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0001",
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": "Cuestionario general ERBio",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente para ambos agentes."
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar y revisar individualmente las 29 respuestas negativas y establecer las medidas correctoras correspondientes; los ítems concretos no fueron proporcionados."
+        },
+        {
+          "item_id": null,
+          "action": "Obtener la clasificación reglamentaria o nivel de referencia aplicable y realizar la valoración profesional específica del agente."
+        }
+      ]
+    },
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": "Cuestionario general ERBio",
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "Categoría indicada expresamente para ambos agentes."
+      },
+      "compliance": {
+        "percent": 39.58,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": 0
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Identificar y revisar individualmente las 29 respuestas negativas y establecer las medidas correctoras correspondientes; los ítems concretos no fueron proporcionados."
+        },
+        {
+          "item_id": null,
+          "action": "Obtener la clasificación reglamentaria o nivel de referencia aplicable y realizar la valoración profesional específica del agente."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Los resultados comunes del cuestionario se consignan por separado para cada agente; no se identifican los ítems negativos.",
+    "agent_aggregation_status": "No agregados: no existe autorización para promediar ni colapsar los resultados de ambos agentes.",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporcionan las clasificaciones reglamentarias, las reglas para convertir exposición y cumplimiento en probabilidad, GRB o clase de riesgo, ni la identidad de los 29 controles incumplidos. La clase de cumplimiento tampoco puede determinarse sin sus umbrales."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Información del caso ERBB-P06.",
+    "Exposición declarada: Frecuente para ambos agentes.",
+    "Cuestionario general ERBio: 48 ítems, con 19 respuestas Sí y 29 respuestas No.",
+    "Cumplimiento calculado: 19/48 × 100 = 39.58%.",
+    "Prohibición expresa de promediar o colapsar silenciosamente los resultados de ambos agentes."
+  ],
+  "reasoning_summary": "Se mantienen dos unidades de evaluación independientes. La exposición frecuente y el cumplimiento de 39.58% son resolubles, pero las clasificaciones reglamentarias, la clase de cumplimiento, la probabilidad, el GRB y la clase de riesgo permanecen sin resolver por falta de datos y reglas de cálculo. Se requiere valoración profesional."
+}

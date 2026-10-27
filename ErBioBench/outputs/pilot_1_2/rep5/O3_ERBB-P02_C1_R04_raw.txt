@@ -1,0 +1,55 @@
+{
+  "case_id": "ERBB-P02",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": "BIO-BACT-0028",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-BACT-0028",
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "Muy frecuente (varias veces durante la jornada)",
+        "basis": "El caso indica exposición 'Muy frecuente' y que ocurre varias veces durante la jornada."
+      },
+      "compliance": {
+        "percent": 83.3333333333,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": "Probabilidad aumentada por exposición muy frecuente",
+        "basis": "Exposición descrita como muy frecuente y repetida durante la jornada; sin información adicional sobre controles/condiciones específicas para cuantificar."
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": []
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "resolved_from_counts",
+    "agent_aggregation_status": "unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "No se proporciona información para resolver la clasificación/regulatory reference level del agente ni para identificar qué controles concretos incumplen (solo conteo global Sí/No). Por ello no puede determinarse GRB ni clase de riesgo de forma trazable."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Caso ERBB-P02: agente BIO-BACT-0028 (Brucella melitensis); exposición 'Muy frecuente' con ocurrencia varias veces durante la jornada; 48 ítems con 40 Sí y 8 No."
+  ],
+  "reasoning_summary": "Se identifica Brucella melitensis (BIO-BACT-0028). La exposición se clasifica como 'Muy frecuente' (repetida varias veces por jornada), lo que eleva la probabilidad cualitativa. Con 40/48 respuestas 'Sí' se estima cumplimiento ~83.3%, pero sin el detalle de qué ítems/controles fallan no se listan incumplimientos. La clasificación reglamentaria/referencia del agente y, por tanto, GRB/clase de riesgo no pueden resolverse con la información suministrada."
+}

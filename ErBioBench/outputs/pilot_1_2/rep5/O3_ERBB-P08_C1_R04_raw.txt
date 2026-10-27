@@ -1,0 +1,64 @@
+{
+  "case_id": "ERBB-P08",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "ErBioBench hypothetical human virus",
+      "agent_id": null,
+      "classification_status": "no final classification provided (hypothetical human virus not listed in the registry used)",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "ErBioBench hypothetical human virus",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": null,
+        "basis": "The case provides no exposure details beyond stating that a hypothetical unclassified human virus was isolated in humans and that the specific regulatory rule for unclassified human viruses should be applied. No workplace route, activity, specimen type, concentration, or contact frequency is provided."
+      },
+      "compliance": {
+        "percent": null,
+        "class": null,
+        "n_applicable": null,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Obtain/confirm the agent’s minimum regulatory classification using the specific regulatory rule for human viruses not present in the registry used; do not assign a final reference level from this case alone."
+        },
+        {
+          "item_id": null,
+          "action": "Perform a site-specific occupational exposure assessment (task, specimen handling, routes of exposure, likelihood of aerosolization, frequency and duration of contact) before assigning probability, GRB, or risk class."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "unresolved_due_to_missing_data",
+    "agent_aggregation_status": "unresolved_due_to_missing_data",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "Insufficient information to determine regulatory minimum group/reference level, exposure category, likelihood/probability, compliance metrics, GRB, and risk class. The case explicitly notes no final classification is provided and that regulatory minimum vs reference level must be distinguished, which cannot be completed with the provided data."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Case statement: hypothetical human virus not evaluated/classified in the registry used",
+    "Case statement: no final classification provided; must distinguish minimum regulatory level vs final reference level"
+  ],
+  "reasoning_summary": "No final regulatory classification, exposure details, or control/compliance information are provided. Therefore the regulatory minimum group/reference level, exposure category, probability, GRB, risk class, and compliance cannot be resolved and require professional assessment based on the applicable regulatory rule and a site-specific exposure evaluation."
+}

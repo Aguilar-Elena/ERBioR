@@ -1,0 +1,73 @@
+{
+  "case_id": "ERBB-P14",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "SARS-CoV-2",
+      "agent_id": "BIO-VIR-0064",
+      "classification_status": "unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": "BIO-VIR-0064",
+      "agent_name": "SARS-CoV-2",
+      "questionnaire_id": "ERBio general questionnaire (48 items)",
+      "exposure": {
+        "category": "frequent",
+        "basis": "Exposure information provided: Frequent."
+      },
+      "compliance": {
+        "percent": 83.33,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Apply and verify engineering and administrative controls appropriate for frequent exposure to respiratory biological hazards (e.g., manage exposure time, improve room ventilation, and implement robust work practices)."
+        },
+        {
+          "item_id": null,
+          "action": "Ensure suitable respiratory protection and other PPE are available and used correctly during tasks with frequent exposure."
+        },
+        {
+          "item_id": null,
+          "action": "Provide training and clear procedures for safe work practices, symptom reporting, and incident/near-miss reporting."
+        },
+        {
+          "item_id": null,
+          "action": "Implement ongoing monitoring of effectiveness of controls (e.g., audit PPE use, review exposure circumstances, and update risk assessment when conditions change)."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "incomplete",
+    "agent_aggregation_status": "incomplete",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "The case provides only agent name/ID and exposure frequency plus counts of Yes/No responses; it does not provide the specific control items behind the 8 'No' responses, nor the ERBio mapping needed to assign probability, GRB, reference level, regulatory group/minimum group, or risk class. Therefore these outcomes remain unresolved."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Case-provided agent: SARS-CoV-2 (BIO-VIR-0064).",
+    "Case-provided exposure: Frequent.",
+    "Case-provided questionnaire responses: 40 Yes and 8 No out of 48 items."
+  ],
+  "reasoning_summary": "Frequent exposure to SARS-CoV-2 is indicated, and overall questionnaire compliance is 83.33% (40/48). However, the case lacks the ERBio control-item details corresponding to the 8 'No' responses and lacks sufficient information to determine a resolvable reference level/classification, probability value mapping, GRB, or risk class; those fields are therefore left unresolved with professional assessment required."
+}

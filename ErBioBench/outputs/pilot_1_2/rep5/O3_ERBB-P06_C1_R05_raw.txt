@@ -1,0 +1,96 @@
+{
+  "case_id": "ERBB-P06",
+  "response_schema_version": "1.1",
+  "identified_agents": [
+    {
+      "agent_name": "Actinomadura madurae",
+      "agent_id": null,
+      "classification_status": "Unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    },
+    {
+      "agent_name": "Brucella melitensis",
+      "agent_id": null,
+      "classification_status": "Unresolved",
+      "regulatory_group": null,
+      "regulatory_minimum_group": null,
+      "reference_level": null,
+      "requires_professional_assessment": true
+    }
+  ],
+  "evaluation_units": [
+    {
+      "agent_id": null,
+      "agent_name": "Actinomadura madurae",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "El caso indica exposición para ambos agentes: Frecuente."
+      },
+      "compliance": {
+        "percent": 39.58333333333333,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Completar la evaluación profesional de la clasificación reglamentaria y la adecuación de controles, ya que el caso no proporciona el mapeo de los ítems del cuestionario a controles concretos ni la traducción a GRB/clase de riesgo."
+        }
+      ]
+    },
+    {
+      "agent_id": null,
+      "agent_name": "Brucella melitensis",
+      "questionnaire_id": null,
+      "exposure": {
+        "category": "Frecuente",
+        "basis": "El caso indica exposición para ambos agentes: Frecuente."
+      },
+      "compliance": {
+        "percent": 39.58333333333333,
+        "class": null,
+        "n_applicable": 48,
+        "n_not_applicable": null
+      },
+      "probability": {
+        "value": null,
+        "label": null
+      },
+      "grb": null,
+      "risk_class": null,
+      "failed_controls": [],
+      "preventive_actions": [
+        {
+          "item_id": null,
+          "action": "Completar la evaluación profesional de la clasificación reglamentaria y la adecuación de controles, ya que el caso no proporciona el mapeo de los ítems del cuestionario a controles concretos ni la traducción a GRB/clase de riesgo."
+        }
+      ]
+    }
+  ],
+  "aggregation": {
+    "questionnaire_aggregation_status": "Unresolved",
+    "agent_aggregation_status": "No aggregation/No averaging allowed; unresolved",
+    "workplace_global_class": null
+  },
+  "uncertainty": {
+    "present": true,
+    "description": "El caso aporta número de respuestas (19 Sí / 29 No) y una categoría de exposición (Frecuente) pero no incluye: (i) la clasificación reglamentaria (grupo de riesgo/clase) de Actinomadura madurae ni de Brucella melitensis, (ii) el criterio/mapeo para convertir el porcentaje de cumplimiento a clase de probabilidad/GRB, y (iii) la lista de controles concretos fallidos por ítem. Además, se indica que no debe promediarse/colapsarse silenciosamente entre agentes con distinta clasificación."
+  },
+  "professional_review_required": true,
+  "sources_or_basis": [
+    "Datos del caso: agentes (Actinomadura madurae, Brucella melitensis), exposición (Frecuente), cuestionario ERBio-48 (19 Sí, 29 No) y restricción de no promediar/colapsar."
+  ],
+  "reasoning_summary": "Se puede calcular el porcentaje de respuestas afirmativas del cuestionario (19/48=39.58%) y se registra la exposición como 'Frecuente', pero no es posible determinar referencia reglamentaria, probabilidad, GRB y clase de riesgo porque el caso no aporta clasificaciones reglamentarias ni el mapeo de resultados del cuestionario a GRB/clase ni identifica controles específicos incumplidos. Por la discordancia entre agentes y la regla de no promediarlos, la agregación global queda no resuelta."
+}
