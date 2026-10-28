@@ -1,0 +1,4 @@
+Nominal runs: 2700
+Primary scientific population: 2263
+Complete paired blocks: 675
+Full model singular: FALSE
